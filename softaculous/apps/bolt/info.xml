@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Bolt
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Bolt
+	</ratings>
+	<space>
+		36166505
+	</space>
+	<support>
+		http://bolt.cm/
+	</support>
+	<version>
+		2.2.20
+	</version>
+	<mod>45</mod>
+	<release_date>19-04-2016</release_date>
+	<admin>bolt/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="PDO" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Bolt</font> is a tool for Content Management, which strives to be as simple and straightforward as possible.
+		<br /><br />
+		It is quick to set up, easy to configure, uses elegant templates, and above all: It's a joy to use. Bolt is created using modern open source libraries, and is best suited to build sites in HTML5 with modern markup. 
+		<br /><br />
+		From a technical perspective: Bolt is written in PHP, and uses either SQLite, MySQL or PostgreSQL as a database. It's built upon the Silex framework together with a number of Symfony components and other libraries.
+		<br /><br />
+		Bolt is released under the open source <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT-license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+		<li>Easy to set up and configure</li>
+		<li>Easy to manage and maintain</li>
+		<li>Flexible and versatile.</li>
+		</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

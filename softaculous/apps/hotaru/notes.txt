@@ -1,0 +1,1 @@
+1. forum username and password -> not required as it is optional

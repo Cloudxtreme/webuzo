@@ -1,0 +1,23 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="Password1!">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<cron>
+		<min>{rand(0,14)},{rand(15,29)},{rand(30,44)},{rand(45,59)}</min>
+		<hour>*</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>[[php_path]] [[softpath]]/pimcore/cli/maintenance.php</command>
+	</cron>
+</softinstall>

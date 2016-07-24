@@ -1,0 +1,107 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Stratosphere
+	</ratings>
+	<space>
+		66226535
+	</space>
+	<support>
+		http://stratosphere.eu/
+	</support>
+	<version>
+		 0.5.2
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N.A.</release_date>
+	
+	<requires>java</requires>
+	
+	<path name="base">/usr/local/apps/stratosphere</path>
+	<path name="bin">/usr/local/apps/stratosphere/bin/start-local.sh</path>	
+	
+	<extract file="stratosphere-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/stratosphere</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Stratosphere Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/stratosphere</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/stratosphere/bin/start-local.sh</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Stratosphere</font> is the next generation Big Data Analytics Platform. It features powerful programming abstractions in Java and Scala, a high-performance runtime, and automatic program optimization.
+		<br /><br />
+		Stratosphere has native support for iterations, incremental iterations, and programs consisting of large DAGs of operations.
+<br /><br />
+		Stratosphere is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License, Version 2.0</a>
+		</english-overview>
+		<english-features>			
+			<h2>More Operators</h2>
+			<p>
+			Stratosphere extends the well-known MapReduce model with new operators. These operators represent many common data analysis tasks more naturally and efficiently. All operators will start working in memory and gracefully go out of core under memory pressure.
+			</p>
+			<h2>Advanced Data Flow Graphs</h2>
+			<p>
+			Stratosphere allows to model analysis programs as advanced data flow graphs. For many applications, this is a more natural fit than the constrained MapReduce interface (strictly Map followed by Reduce). Furthermore, data pipelining and in-memory data transfers increase performance by drastically reducing disk and network I/O.
+			</p>
+			<h2>Powerful Programming Interfaces</h2>
+			<p>
+			You can write data analysis programs for Stratosphere in Java or Scala. Both APIs provide a powerful yet easy-to-use abstraction to compose data analysis programs by applying customizable transformations such as map, filter, reduce, and join on data sets. Stratosphere's high-level APIs hide the complexities of parallel programming and efficient data processing from the user. Behind the scenes, the Stratosphere optimizer compiles such programs into efficient, parallel data flows which are executed on a cluster or a local machine. 
+			</p>
+			<h2>Support for Iterative Algorithms</h2>
+			<p>
+			Data Mining, Machine Learning and Graph processing algorithms often require to loop over the working data multiple times. Stratosphere supports iterative algorithms in its core. (The runtime allows for very fast iteration times and the optimizer deals with caching loop-invariant data.) The advanced incremental iterations support algorithms that focus on the "hot part" of the evolving solution and may converge even faster. 
+			</p>
+			<h2>High-Performance Execution Runtime</h2>
+			<p>
+			Stratosphere features its own high-performance, massively-parallel execution runtime which has been built from ground up leveraging processing techniques of parallel database systems. The engine supports low-latency processing concepts such as pipelined execution, in-memory processing, and push-based data shipping as well as sort- and hash-based processing algorithms which go gracefully out-of-core if main memory is not sufficient.  
+			</p>
+			<h2>Built-In Optimizer</h2>
+			<p>
+			Stratosphere comes with an optimizer that is independent of the actual programming interface. It chooses a fitting execution strategy depending on the inputs and operations. For example the "Join" operator will choose between partitioning and broadcasting the data, as well as between running a sort-merge-join or a hybrid hash join algorithm. 
+			</p>			
+			<h2>System Stack</h2>
+			<p>
+			Stratosphere seamlessly integrates into existing Hadoop setups and runs side-by-side with Hadoop's TaskTrackers and DataNodes. Stratosphere can read data from Hadoop sources, but comes with its own efficient runtime. Similar to Hadoop, Stratosphere scales by adding more machines to the cluster.
+Stratosphere runs also on Hadoop 2.2 (YARN), so you do not need to change your infrastructure.
+The Local execution mode allows to debug and analyze your application right from your favorite IDE, without having Stratosphere installed.
+			</p>
+			<h2>Open Source Community and Support</h2>
+			<p>
+			Stratosphere is an active, community driven open-source project. It is licensed under the Apache License.
+Our friendly community is always open to new users and developers. Join us and shape the future of Big Data. 
+			</p>
+		</english-features>
+	</languages>
+</soft>

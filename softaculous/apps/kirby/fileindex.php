@@ -1,0 +1,10 @@
+.htaccess
+assets
+content
+index.php
+kirby
+license.md
+panel
+readme.md
+site
+thumbs

@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Simple_PHP_Poll
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Simple_PHP_Poll
+	</ratings>
+	<space>
+		63066
+	</space>
+	<support>
+		http://www.phppoll.org/
+	</support>
+	<version>
+		v2
+	</version>
+	<mod>5</mod>
+	<mod_files>2</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Simple PHP Poll</font> will be as its title suggests: simple. With simplicity in mind, we try to add as many features as possible to our system while still making it extremely simple to use and update, let alone modify. It is the only free poll system to use an installer and simple admin panel, and the only to be free of any watermarks
+		<br /><br />
+		Simple PHP Poll is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+	<li>An advanced, feature-customizable administration panel.</li>
+	<li>An HTML 4.01 &amp; XHTML 1.0 Strict Compliant code</li>
+
+	<li>Small filesizes and blazingly fast server-friendly network speeds.</li>
+	<li>All 100% cross-browser compatibility with JavaScript extras.</li>
+	<li>And tons, TONS more...</li>
+	</ul>Simple PHP Poll is aimed for many features along with simplicity at fast speeds. 
+	We make sure our software is cross-compatible with most PHP platforms and web browsers.
+		</english-features>
+	</languages>
+</soft>

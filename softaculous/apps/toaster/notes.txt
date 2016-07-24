@@ -1,0 +1,7 @@
+1. Make sure that you do not use [[site_name]] since it is already in use by the script. Instead of that [[sn]] is used to restrict special characters and spaces for Site name during installation.
+
+2. Export the sql file through the below mentioned command on webuzo during manual installation:
+
+ mysqldump --routines -u root -pmysql toaster230 > toaster.sql
+ 
+ 

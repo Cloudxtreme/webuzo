@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ClientExec
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/ClientExec
+	</ratings>
+	<space>
+		46178235
+	</space>
+	<support>
+		https://www.clientexec.com/
+	</support>
+	<version>
+		5.4.3
+	</version>
+	<mod>16</mod>
+	<mod_files>1</mod_files>
+	<release_date>16-05-2016</release_date>
+	<admin>index.php?fuse=home&amp;view=login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="ionCube Loader" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ClientExec</font> offers online help desk software intended to enhance the ability of small and mid-sized hosting businesses to manage help and support issues. Because the online help desk software can be accessed from any web browser, managers and staff can increase the flexibility and effectiveness with which they address client support issues.
+		<br /><br />
+		ClientExec's software includes an easy-to-use interface that enhances communication between clients and staff. E-mail messages sent through the online help desk software are automatically routed and tracked, so you don't have to spend time chasing after lost messages. Support tickets can be quickly sorted, filtered, and assigned to individual team members, ensuring that the tickets are addressed in the most efficient possible manner.
+		</english-overview>		
+		<english-features>
+<h4><font size="2" color="#1370A8"><b>Complete Help Desk</b></font></h4>
+<font>Have your staff manage support tickets painlessly and quickly. Prevent emails and support issues from getting lost. ClientExec's email management system helps you route, track and deliver messages.</font><br />
+<h4><font size="2" color="#1370A8"><b>Administration</b></font></h4>
+<font>ClientExec frees you to grow your business, by providing an easy way to setup your offerings and automate the daily tasks associated with administering your company.</font><br />
+<h4><font size="2" color="#1370A8"><b>Billing Module</b></font></h4>
+<font>Whether you're invoicing for your work, or creating a recurring fee, ClientExec tracks all the related information. The invoice manager allows merging of billable items, accepts major credit cards, archives invoices, and even tracks credits.</font><br />
+<h4><font size="2" color="#1370A8"><b>Insightful Reports</b></font></h4>
+<font>Over 10 open sourced reports instantly give you a complete picture of your business. With just a few clicks of the mouse, everything is at your fingertips - revenue reports, support reviews, and more.</font><br />
+<h4><font size="2" color="#1370A8"><b>Intuitive Interface</b></font></h4>
+<font>ClientExec provides a separate interface for both your customers and staff members. The intuitive and user friendly client interface allows your customers to receive either support or quickly perform various billing and profile functions.</font><br />
+		</english-features>
+	</languages>
+</soft>

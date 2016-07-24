@@ -1,0 +1,172 @@
+4.0.0 (2016-05-27)
+--
+
+Improvements:
+
+* Core: Twig is now used everywhere
+* Core: Backend is now using bootstrap
+* Core: new backend device
+* ...
+
+Bugfixes:
+
+* Blog: Fixed saving Blog articles as draft.
+* Core: Fix incorrect path for theme OpenGraphImage.
+* Core: Fixed when deploying, that /src/Frontend/Cache/Navigation/editor_link_list_x.js is now created if not exists.
+* Faq: fixes faq-category sequence reordering not being saved.
+* Pages: removed single quotes converter in CacheBuilder. This fixes page titles with single quotes.
+* Pages: Fixes "Notice: Undefined index: parent_id" when viewing a page revision where the page is located in the root of the pages tree.
+* Pages: Fixes "Error: Call to a member function addMetaData() on null" when viewing an existing revision page.
+* Core: BackendDataGridFunctions::showImage updated with url, with and height.
+
+3.9.6 (2015-12-22)
+--
+Improvements:
+
+* Core: Adds a function to get checkbox enum values easier.
+* Core: uze mod gzip on json files.
+* Settings: add start of body scripts.
+* Profiles: add missing labels.
+* Locale: speed up index and analyse actions.
+* Core: use PSR-6 compatible caching (with an external package: scrapbook).
+* Core: use Flysystem as the cache backend.
+* Core: replace jquery ui with typeahead & bloodhound.
+* Console: make the symfony container available.
+* Core: update Spoon Library.
+* Analytics: improve coupling your analytics account.
+* Core: make the url of the last breadcrumb item available.
+* Installer: only load installer when Fork is not installed (and in test environment).
+* Location: use https for Google maps by default.
+* Locale: create a Symfony command to install locale.
+* Locale: allow us to install locale for a module.
+* Core: add the language to the canonical url.
+* Core: upgrade symfony to version 2.8.
+* Core: bump the minimum php version to 5.5 and allow php 7 too.
+* Ajax: add testcases for invalid ajax requests.
+
+Bugfixes:
+
+* Pages: Don't get hidden pages with getUrlForBlock.
+* Pages: Fix 500 error when accessing hidden pages.
+* Console: use constants correctly.
+* MailMotor: avoid catching redirect exceptions.
+* Pages: fix array to string conversion.
+* Profiles: fix the import action.
+* Core: don't allow access to the .git folder.
+* Ajax: fix exceptions that should be handled.
+* Core: fix case mismatch in DataGrid classes.
+* FormBuilder: fix default value containing a space.
+
+3.9.5 (2015-08-31)
+--
+Improvements:
+
+* Extensions: fixed UX-error where "add-theme button" was not aligned on the right side.
+* Travis: run on new container based infrastructure
+
+Bugfixes:
+
+* Frontend: no more duplicate JS-files.
+* Analytics: Don't load dashboard widgets when not configured yet.
+* Core: Fix return types for addImage methods in forms.
+* Core: remove safe_mode directive.
+* Pages: only escape single quotes in the cache files
+* Core: check authentication before showing user links
+
+3.9.3 (2015-06-10)
+--
+Improvements:
+
+* Improve the inheritance of code and avoid duplicate code.
+
+Bugfixes:
+
+* Analytics: Auth config content saved in databse, because capistrano deployments didn't work with BACKEND_CACHE_PATH.
+* Api: increasing security when user is GOD.
+* Core: fix generating meta url with special characters.
+
+3.9.1 (2015-03-xx)
+--
+Improvements:
+
+* Core: Replace SPOON_DEBUG with $container->getParameter('kernel.debug')
+* Formbuilder: Add placeholders to textbox and textarea elements
+* Mailmotor: add missing "SubscribedOn" label
+
+Bugfixes:
+
+* Core: Fix undefined variable $message
+* Core: Fix the mailer transport to get instantiated correctly
+* Installer: Fix checked paths in first step
+
+3.9 (2015-03-xx)
+--
+Improvements:
+
+* Settings: test email connection with SwiftMailer.
+* Formbuilder: added the possibility to add date & time fields.
+* Settings: test email connection with SwiftMailer
+* Core: refactor out SELF constant
+* Core: removed the Facebook-class-dependency
+* Core: added an option to truncate a string without breaking words
+* Blog: add functional tests for the frontend.
+* Faq: add functional tests for the frontend.
+* Search: add functional tests for the frontend.
+* Authentication: add functional tests for the backend.
+* API: add functional tests.
+* Core: add unit tests for some template modifiers
+* Core: build Fork using continious integration with Travis CI.
+* Core: upgrade jQuery to version 1.11.3
+* Locale: load all cache from json
+* FormBuilder: reply to email can now only be put on an email field
+* Tags: improve the alt text for the "remove tag" button by including the tag name
+* Core: redirect using an exception instead of an exit statement
+* Core: update the included Facebook SDK to v4
+* Core: refactor out BACKEND_MODULE_PATH constant
+* Core: use the swiftmailerbundle instead of our custom implementation
+
+Bugfixes:
+
+* Core: fix not correctly thrown exception
+* Formbuilder: quotes and special chars are now allowed in values for radiobuttons.
+* Core: the hash is now included when it is used in a form, so on submit it
+    should automagically go to the form.
+* Core: make sure mails with encryption can be send trough SMTP
+* Core: add a .htaccess in the app dir to block all access
+* Locale: fix updating locale trough ajax when no application is set
+* Core: make sure bugemails work again
+
+3.8.7 (2015-02-13)
+--
+Improvements:
+
+* Mailer: use SwiftMailer to send messages (see <UPGRADE_3.9.md>)
+* FormBuilder: jump to location of form after submission.
+* Core: Update CKFinder to version 2.4
+
+BugFixes:
+
+* Locale: Avoid "Using $this when not in object context" when using php 5.3.
+
+3.8.6 (2015-02-03)
+--
+Bugfixes:
+
+* Users: Fixed error in backend user edit, when updating your own account.
+* Core: Fix some wrong template names
+* Dashboard: Fix casing issue in alter sequence
+* Pages: Redirects are now available in the pages cache file
+* Translations: Fix an SQL Injection vulnerability
+
+
+3.8.5 (2015-01-14)
+--
+Improvements:
+
+* Core: use Symfony Intl component instead of Spoon to fetch countries.
+* Core: implement Google's sitelinks searchbox
+
+Bugfixes:
+
+* Core: Make sure logs aren't publically accessible
+* Core: Make sure PHP 5.5+'s opcode cache is now cleared after updating code

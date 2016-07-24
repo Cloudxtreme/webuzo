@@ -1,0 +1,1 @@
+1)Download package named 'GRAV CORE+ADMIN PLUGIN' from http://getgrav.org/downloads as it has the admin panel (core package only has homepage)

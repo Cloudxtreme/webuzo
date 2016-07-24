@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/MyWebSQL
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/MyWebSQL
+	</ratings>
+	<space>
+		4172092 
+	</space>
+	<support>
+		http://mywebsql.net/
+	</support>
+	<version>
+		3.6
+	</version>
+	<mod>13</mod>
+	<mod_files>1</mod_files>
+	<release_date>24-10-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="extension" value="bcmath" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MyWebSQL</font> is the ultimate desktop replacement for managing your MySQL databases over the web. 
+		<br /><br />
+		With interface that works just like your favourite desktop applications, you don't need to keep switching over webpages to get simple things done.  
+		<br /><br />
+		Just login to your database and manage your database as if your are working on your desktop! 
+		<br /><br />
+		MyWebSQL is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Application and right click menus</li>
+<li>Multiple syntax highlighted sql editors</li>
+<li>Quick Inplace multi-record editing</li>
+<li>Zero configuration installation</li>
+<li>Multiple server login supported</li>
+<li>Excellent support for major browsers</li>
+<li>WYSIWYG Table creator/editor</li>
+<li>Batch Import/Export modules</li>
+<li>UI Themes supported</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,107 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/ObjectDB
+	</ratings>
+	<space>
+		7145910
+	</space>
+	<support>
+		http://www.objectdb.com/
+	</support>
+	<version>
+		2.6.3-03
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>20-07-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/objectdb</path>
+	<path name="bin">/usr/local/apps/objectdb/bin/server.sh</path>	
+	
+	<extract file="objectdb-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/objectdb</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">ObjectDB Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/objectdb</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/objectdb/bin/server.sh</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#223388">ObjectDB</font> is a powerful object oriented database management system (ODBMS). It is compact, reliable, easy to use and extremely fast. ObjectDB provides all the standard database management services (storage and retrieval, transactions, lock management, query processing, etc.) but in a way that makes development easier and applications faster.  
+<br /><br />
+		ObjectDB is distributed under the <a href="http://www.objectdb.com/object/db/database/purchase" target="_blank">OEM License </a>
+		</english-overview>
+		<english-features>
+			<ul>
+			  <li>
+				100% pure Java Object Oriented Database Management System (ODBMS).
+			  </li>
+			  <li>
+				No proprietary API - managed only by standard Java APIs (JPA 2 / JDO 2).
+			  </li>
+			  <li>
+				Extremely fast - faster than any competitive JPA / JDO product.
+			  </li>
+			  <li>
+				Suitable for database files ranging from kilobytes to terabytes.
+			  </li>
+			  <li>
+				Supports both Client-Server mode and Embedded (in process) mode.
+			  </li>
+			  <li>
+				Single JAR with no external dependencies.
+			  </li>
+			  <li>
+				Database is stored as a single file.
+			  </li>
+			  <li>
+				Advanced querying and indexing capabilities.
+			  </li>
+			  <li>
+				Effective in heavy loaded multi user environment.
+			  </li>
+			  <li>
+				Can easily be embedded in applications of any type and size.
+			  </li>
+			  <li>
+				Tested with Tomcat, Jetty, GlassFish, JBoss and Spring.
+			  </li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

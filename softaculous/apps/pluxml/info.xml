@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PluXml
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/PluXml
+	</ratings>
+	<space>
+		1146079
+	</space>
+	<support>
+		http://forum.pluxml.org/
+	</support>
+	<version>
+		5.5
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<release_date>01-04-2016</release_date>
+	<admin>core/admin/auth.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PluXml</font> Blog or CMS to Xml
+		<br /><br />
+		No database : All data is stored in XML files. A simple file copy can move your site on a USB key, which makes it completely portable.
+		Collaborative tool : 5 profiles with different levels of permissions. Family, friends, business, PluXml find its place.
+		<br /><br />
+		PluXml is distributed under a free license <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li> No database required </li>
+			<li> Portable on USB key </li>
+			<li> Multiple users with different authorization levels </li>
+			<li> Static pages, categories, tag management, archive </li>
+			<li> Management comments </li>
+			<li> Media Manager: pictures, documents </li>
+			<li> Rss Feed articles, comments, tags, categories </li>
+			<li> Translated into 11 languages (French, German, English, Spanish, Italian, Dutch, Occitan, Polish, Portuguese, Romanian, Russian) </li>
+			<li> Customizable themes (supports themes for smartphones and mobile devices: iphone, blackberry, pocket pc, ...) </li>
+			<li> Plugins </li>
+			<li> Rewriting urls </li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,15 @@
+.gitignore
+.htaccess
+.travis.yml
+LICENSE
+README.md
+addons
+assets
+build
+compat.php
+index.php
+installer
+phpdoc.dist.xml
+system
+tests
+uploads

@@ -1,0 +1,96 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Lazarus
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/Lazarus
+	</ratings>
+	<space>
+		1062820
+	</space>
+	<support>
+		http://carbonize.co.uk/Lazarus/
+	</support>
+	<version>
+		1.24
+	</version>
+	<mod>32</mod>
+	<mod_files>1</mod_files>
+	<release_date>21-04-2015</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Lazarus</font> is a free guestbook script written in PHP that uses your MySQL database for storage and is based upon the excellent Advanced Guestbook script from Proxy2.
+		<br /><br />
+		Lazarus has more features and several layers of anti spam protection to make one of the most feature rich and spam resistant guestbook scripts available for free.
+		<br /><br />
+		Lazarus is released under the <a href="http://carbonize.co.uk/Lazarus/license.php" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+   <li><strong>Powerful spam fighting controls</strong>
+   <ul>
+      <li>Use Captcha or Saptcha to prevent automated posting</li>
+      <li>Each guestbook generates a unique form</li>
+      <li>Time delay before guests can post</li>
+
+      <li>Time limit on how long a guest has to post</li>
+      <li>Moderate entries before they appear in your guestbook</li>
+      <li>Block or moderate posts containing bad words</li>
+      <li>Ban ips or even ip blocks from posting</li>
+      <li>Block posts containing to many urls</li>
+   </ul>
+
+   <br />
+   </li>
+
+   <li><strong>Apart from their name and their message your guests can tell you their...</strong>
+   <ul>
+      <li>Email address. You can even make email addresses required</li>
+      <li>Location</li>
+      <li>Website</li>
+
+      <li>Yahoo! messenger id</li>
+      <li>Live (MSN) id</li>
+      <li>AIM id</li>
+      <li>ICQ uin</li>
+      <li>Skype id</li>
+      <li>Even their gender</li>
+
+      <li>And guests can upload an image with their posts</li>
+   </ul>
+   <br />
+   </li>
+   <li><strong>Other features</strong>
+   <ul>
+      <li>Powerful AGCode for formatting entries or even displaying pictures and Flash</li>
+
+      <li>Allow HTML in entries but control which tags can be used</li>
+      <li>Create thumbnails for images that have a large file size</li>
+      <li>Automatic resizing of images and Flash files displayed in entries</li>
+      <li>Graphical smileys (emoticons)</li>
+      <li>Previewing of entries</li>
+      <li>Other guests can comment on existing entries</li>
+
+      <li>Email notification of new entries and comments</li>
+      <li>Thank you email sent to guests after posting new entry</li>
+      <li>Search function</li>
+      <li>Email address encryption to prevent the addresses being harvested by spammers</li>
+      <li>Flood controls to prevent people from flooding your guestbook with entries</li>
+	</ul>
+
+    </li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,19 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="port" value="1000" save="true">
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<datadir>nodejs</datadir>
+	<cron>
+		<min>{rand(0,14)},{rand(15,29)},{rand(30,44)},{rand(45,59)}</min>
+		<hour>*</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>[[php_path]] -d disable_functions="" [[softpath]]/cron.php > /dev/null</command>
+	</cron>
+</softinstall>

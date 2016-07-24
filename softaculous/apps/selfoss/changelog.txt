@@ -1,0 +1,113 @@
+CHANGELOG
+---------
+
+Version 2.14
+
+    Implemented settings overwrite through prefixed ENV variables.
+    Fix: F3 would not launch when "magic_quotes_gpc" is not set.
+    Multiple enhancements to unread count user interface
+    Allow configuration of html
+    inline and resize emojis to fit into text flow
+    fix blockquote and pre overflow-x resetting
+    Wordpress share
+    add to allowed HTML-elements
+    Add functionality to show when the last post was found for a source
+    Change MySQL engine to InnoDB
+    fix file permissions
+    fix bad failure handling when using mobile mark these read button
+    fix typos
+    refresh event handlers upon mark these read ajax call error
+    rename CLI update script (Fix #587)
+    fix db_prefix not working (#686)
+    mobile: add unread count near logo at the top
+    periodicaly poll for stats updates, and reload list if it is empty
+    fixed "$HTTP_RAW_POST_DATA is deprecated" error
+    fix bad failure handling when using mobile mark these read button
+    rename CLI update script (Fix #587)
+    some refactorings
+
+Version 2.13
+
+    add fulltext rss spout for loading full content from any rss feed
+    show unread count in the document title
+    add titles to buttons
+    fix the author color on smartphones
+    fix reload shortcut after hitting last element of list
+    enable the app behaviour on android
+    add option 'auto_hide_read_on_mobile' support. Allows to hide read it when closing fullscreen view. Default to 0
+    fix tag names not case sensitive in mysql
+    fix bad encoding with selfoss-android app
+    avoid sql syntax error for spouts with zero items
+    avoid pgsql error on editing source
+    fix favicon parsing
+    enable secure cookie if using https and prevent cookie access from js
+    fix 'trying to get property of non-object' error
+    fix cannot run when base url contains a ~
+    fix cannot login when not using HTTPS
+    fix front-end nginx (through https:443) forward to apache2 (through http:80) the base url was http and not https
+    correctly return 403 permission denied when auth is lacking
+    correctly style sup and sub elements in entry content
+    scroll entry into view when not completely visible
+    github spout: use f3 internals and log errors in db
+    improvement of UTF-8 decoding
+    selfoss user agent for spouts
+    fix parsing href to get icon url
+    also try to use feed logo as icon
+    show and log error with stacktrace
+    added spout that is capable to retrieve a twitter list
+    allowing strike-through tag
+    new filter support for sources
+    allow windows 8 start screen pinning with notifications
+    pgsql upgrade to v6: please use transactions
+    new translation for brazilian portuguese
+    fix error during opml import
+    allow code html element in feed content
+    fixup feed icon in html homepage regexp
+    unbreak twitter spout: allow inline HTML elements in title
+    cleanup database abstraction code duplication
+    optimize database access
+    fix multiple database connections
+    hide passwords in source edit view
+    fix cookie not being set over HTTP
+    convert thumbnails to jpg
+    allow target attribute
+    add custom javascript file: user.js
+    ensure proper failure when feed url return HTTP/406
+    improvement of hungarian translation
+    improvement of polish translation
+    improvement of japanese translation
+    improvement of czech translation
+	
+Version 2.12
+
+    fix prefix bug on mysql
+    integrate fancybox for images
+    improved twitter integration
+    show authors of feeds
+    wallbag support added
+    update third party libraries
+    allow ajax based update of feeds
+    fix utf8 feed title bug
+    fix #405: extra spaces on login screen
+    fix #518: sorting of sources
+
+Version 2.11
+
+    little fix to Polish translation
+    instapaper spout: use HTTPS
+    A new spout to get full text for entries in the Teltarif RSS feed
+    fix pgsql VACUUM ANALYZE syntax error
+    A new spout to get full text for entries in the Lightreading RSS feed
+    Multi-language support of search and error fix.
+    Make it possible to disable auto stream more, add handy "Mark these read" button
+    Use PHP to set the fore color of all tags
+    itemsPerPage value is set from INI file.
+    API header returns application/json
+    added estonian translation
+    allow sub and sup elements
+    entry CSS tweaks
+    REST API : Get only items updated since given time #532
+    Bugfix: API REST : /login should return true if auth is disable
+    Bugfix: Heise feed pull kills Update process #499
+    Bugfix: https for openshift #488
+    Bugfix: heise spout error handling #517

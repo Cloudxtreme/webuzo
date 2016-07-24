@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Apache_Roller
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/java/blogs/Apache_Roller
+	</ratings>
+	<space>
+		42569728
+	</space>
+	<support>
+		http://roller.apache.org/
+	</support>
+	<version>
+		5.1.2
+	</version>
+	<mod>5</mod>
+	<admin>roller-ui/login.rol</admin>
+	<softversion>
+		4.1.2
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache Roller</font> is a full-featured, multi-user and group-blog server suitable for blog sites large and small.
+		<br /><br />Apache Roller is a Java web application that should be able to run on any Java EE server and relational database.
+		<br /><br />
+		Apache Roller is released under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>.
+		</english-overview>		
+		<english-features>
+			<font size="2" color="#182e7a">Roller's key features:</font>
+			<ul>
+				<li>Multi-user blogging: can support tens of thousands of users and blogs</li>
+				<li>Group blogging with three permisson levels (editor, author and limited)</li>
+				<li>Support for comment moderation and comment spam prevention measures</li>
+				<li>Bloggers have complete control over blog layout/style via Apache Velocity-driven templates</li>
+				<li>Built-in search engine indexes weblog entry content</li>
+				<li>Pluggable cache and rendering system</li>
+				<li>Support for blog clients that support MetaWeblog API</li>
+				<li>All blogs have entry and comment feeds in both RSS 2.0 and Atom 1.0 formats</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

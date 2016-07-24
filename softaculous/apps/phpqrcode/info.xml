@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHP_QR_Code
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/PHP_QR_Code
+	</ratings>
+	<space>
+		427377
+	</space>
+	<support>
+		http://phpqrcode.sourceforge.net/
+	</support>
+	<version>
+		1.1.4
+	</version>
+	<mod>2</mod>
+	<mod_files>2</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHP QR Code</font> is an open source library for generating QR Code, 2-dimensional barcode. Based on libqrencode C library, provides API for creating QR Code barcode images. <br /><br />
+
+PHP QR Code is implemented purely in PHP, with no external dependencies (except GD2 if needed). <br /><br />
+		PHP QR Code is released under the <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU/LGPL LICENSE</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+Some of library features includes: <br /><br />
+<li>Supports QR Code versions (size) 1-40</li>
+<li>Numeric, Alphanumeric, 8-bit and Kanji encoding</li>
+<li>Implemented purely in PHP, no external dependencies except GD2</li>
+<li>Exports to PNG, JPEG images, also exports as bit-table</li>
+<li>TCPDF 2-D barcode API integration</li>
+<li>Easy to configure</li>
+<li>Data cache for calculation speed-up</li>
+<li>Provided merge tool helps deploy library as a one big dependency-less file</li>
+<li>Debug data dump, error logging, time benchmarking</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

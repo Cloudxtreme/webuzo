@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the Binary Distributions -> Core tar package from (http://tomcat.apache.org/download-60.cgi)

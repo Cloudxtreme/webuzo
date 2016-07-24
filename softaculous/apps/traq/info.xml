@@ -1,0 +1,73 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Traq
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Traq
+	</ratings>
+	<space>
+		960593 
+	</space>
+	<support>
+		http://traq.io/
+	</support>
+	<version>
+		3.6.0
+	</version>
+	<mod>29</mod>
+	<release_date>31-10-2015</release_date>
+	<admin>admin</admin>
+	<min_require>3.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Traq</font> is a PHP powered project manager, capable of tracking issues for multiple projects and multiple milestones, there is also a project timeline which displays events about tickets milestones and more. 
+		<br /><br />
+		Traq is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE Version 3</a>.
+		</english-overview>		
+		<english-features>
+					<ul> 
+						<li> 
+							<strong>Multiple Projects :</strong> <br />
+							Manage multiple projects easily and effecively with Traq's multiple project features.<br /><br />
+						</li> 
+						<li> 
+							<strong>Milestones :</strong> <br />
+							Easily manage bugs and requests with project milestones.<br /><br />
+						</li> 
+						<li> 
+							<strong>Timeline :</strong> <br />
+							See what, and when, changes were made, tickets opened or closed with the project timeline.<br /><br />
+						</li> 
+						<li> 
+							<strong>Repository Browser :</strong> <br />
+							Browse your projects source repository with the built in repository browser.<br /><br />
+						</li> 
+						<li> 
+							<strong>Plugins :</strong> <br />
+							Extend with plugins, Traq has a powerful plugin system.<br /><br />
+						</li> 
+						<li> 
+							<strong>Filters :</strong> <br />
+							Filter tickets to find what you're looking for.<br /><br />
+						</li> 
+						<li> 
+							<strong>Notifications :</strong> <br />
+							Receive email notifications when tickets are created or updated.
+						</li> 
+					</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

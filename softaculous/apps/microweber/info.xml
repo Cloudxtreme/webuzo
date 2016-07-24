@@ -1,0 +1,82 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://demo.microweber.org/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Microweber
+	</ratings>
+	<space>
+		51965700
+	</space>
+	<support>
+		https://microweber.com/support
+	</support>
+	<version>
+		1.0.7
+	</version>
+	<mod>11</mod>
+	<release_date>01-03-2016</release_date>
+	<admin>admin</admin>
+	<min_require>1.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.1" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="libxml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Microweber</font> is an open source drag and drop CMS. The core idea of the software is to let you create your own website, online shop or blog. From this moment of creation on, your journey towards success begins. Tagging all along will be different modules, customizations and features of the CMS, among them many specifically tailored for e-commerce enthusiasts and bloggers. 
+		<br /><br />
+		Microweber is released under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target='_blank'>Apache License, Version 2.0</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font size="2" color="#1281B6"><b>Drag and Drop</b></font><br />
+		The easiest way to add and manage the content of your website or online store. Just use your mouse and imagination<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>e-Commerce</b></font><br />
+		Full online store solution included by default and for free. Upload your products and manage orders, customers and much more.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Live Edit</b></font><br />
+		Write text and add images or modules in front of your eyes. You have a full control of your website and content.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Modules and Layouts</b></font><br />
+		Add modules and layouts fast and easy in your website. Grow your business, enjoy the results.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Marketplace</b></font><br />
+		Sell your products and make money online. Find the best quality Templates and Modules.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Responsive Design</b></font><br />
+		All Microweber templates are responsive and look great on all mobile devices. Your site looks perfect on Desktop and Mobile Device!<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Statistics</b></font><br />
+		Track the users online on your site in real time. See how many users you have by days, weeks, months.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Site Manager</b></font><br />
+		The control of your website is in your hands. Everything you need is Microweber CMS.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Open Source</b></font><br />
+		Microweber is an Open Source Software developed for your needs<br /><br />
+	</li>
+</ul> 
+		</english-features>
+	</languages>
+</soft>

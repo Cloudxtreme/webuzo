@@ -1,0 +1,17 @@
+add_message.php
+admin
+captcha.php
+config.php
+extension.inc
+font
+footer.php
+header.php
+images
+include
+index.php
+install
+language
+license.txt
+readme.txt
+redirect.php
+template

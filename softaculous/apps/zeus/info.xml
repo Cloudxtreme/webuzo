@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zeuscart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Zeuscart
+	</ratings>
+	<space>
+		16142646
+	</space>
+	<support>
+		http://www.zeuscart.com/
+	</support>
+	<version>
+		4.0
+	</version>
+	<mod>3</mod>
+	<mod_files>2</mod_files>
+	<admin>admin/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zeuscart </font>shopping cart is based on PHP application and it is used as scripting language which facilitates developer in making dynamically driven websites. It is very facile to learn and understand.
+		<br /><br />
+Zeuscart is an incredibly stable &amp; richly-interfaced, open source shopping cart and it's a simple E-commerce software package which allows, even a non-technical person to  open an online store on the Internet, with minimal efforts. 
+		<br /><br />
+Zeuscart is a web-based PHP/My SQL shopping cart which is simple, powerful and easy to use.  Zeuscart includes a number of marketing-tailored features that can help you increase your online sales, promote repeat purchases, and boost customer satisfaction.
+		<br /><br />
+		Zeuscart is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>New Admin Template</li>
+<li>AJAX based Admin UI</li>
+<li>Product Variation</li>
+<li>Digital Product Download</li>
+<li>Customer Group Management</li>
+<li>Customer Group Management based discounts at Store Front</li>
+<li>Quick Link menu at Admin Area</li>
+<li>Grapical Statistics at Admin Panel</li>
+<li>Admin Settings</li>
+<li>Getting Started Links</li>
+</ul> 
+		</english-features>
+	</languages>
+</soft>

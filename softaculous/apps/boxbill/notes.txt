@@ -1,0 +1,2 @@
+1. insert license key : FREE-5RTY-POI8-0UYT-IUYT-TGH6 in bb-config.php
+i.e define('BB_LICENSE', 'FREE-5RTY-POI8-0UYT-IUYT-TGH6');

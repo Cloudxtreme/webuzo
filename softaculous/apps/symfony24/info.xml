@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Symfony
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Symfony
+	</ratings>
+	<space>
+		31313288 
+	</space>
+	<support>
+		http://symfony.com/
+	</support>
+	<version>
+		2.8.6
+	</version>
+	<mod>38</mod>
+	<release_date>09-05-2016</release_date>
+	<branch>473</branch>
+	<branch>546</branch>
+	<branch>345</branch>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator=">=" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Symfony</font> aims to speed up the creation and maintenance of web applications, and to replace the repetitive coding tasks by power, control and pleasure.
+		<br /><br />
+		Symfony is aimed at building robust applications in an enterprise context. This means that you have full control over the configuration: from the directory structure to the foreign libraries, almost everything can be customized.
+		<br /><br />
+		Symfony is released under the <a href="http://www.symfony-project.org/license" target="_blank">MIT LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li><b>Security</b>: Customize the Security Features with ease;</li>
+<li><b>Security</b>: Restrict Security Firewalls to specific Hosts;</li>
+<li><b>Stopwatch</b>: A Stopwatch Tag for Twig;</li>
+<li><b>Debug</b>: Better Error Messages for missing Classes and Functions;</li>
+<li><b>Debug</b>: Easier debugging of not-found resources;</li>
+<li><b>Debug</b>: Quicker Access to the Profiler when working on an API;</li>
+<li><b>DomCrawler</b>: Schema-relative URLs;</li>
+<li><b>DomCrawler</b>: Namespaces auto-discovery in DowCrawler;</li>
+<li><b>DomCrawler</b>: Disabling internal Validation of DomCrawler;</li>
+<li><b>Console</b>: Show logs in console;</li>
+<li><b>Console</b>: Console improvements;</li>
+<li><b>Console</b>: Better Console Integration with third-party Tools;</li>
+<li><b>HttpFoundation</b>: Using Constants for HTTP Status Code;</li>
+<li><b>HttpFoundation</b>: Limiting Session Metadata Writes;</li>
+<li><b>HttpFoundation</b>: The Request Stack;</li>
+<li><b>Config</b>: Dumping the default Configuration for an Extension;</li>
+<li><b>Process</b>: Limit a Process Run with an idle Timeout;</li>
+<li><b>Process</b>: Flushing stdout and stderr on a Process;</li>
+<li><b>Form</b>: Great Form Panel in the Web Profiler;</li>
+<li><b>Validator</b>: A better Callback constraint;</li>
+<li><b>Validator</b>: A more powerful image validator;</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

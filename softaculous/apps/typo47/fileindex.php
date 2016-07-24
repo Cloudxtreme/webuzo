@@ -1,0 +1,13 @@
+ChangeLog
+INSTALL.md
+LICENSE.txt
+NEWS.md
+README.md
+_.htaccess
+composer.json
+fileadmin
+index.php
+typo3
+typo3conf
+uploads
+typo3temp

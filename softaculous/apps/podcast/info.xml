@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Podcast_Generator
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/music/Podcast_Generator
+	</ratings>
+	<space>
+		6217556
+	</space>
+	<support>
+		http://podcastgen.sourceforge.net/
+	</support>
+	<version>
+		2.6
+	</version>
+	<mod>14</mod>
+	<release_date>28-02-2016</release_date>
+	<admin>?p=admin</admin>
+	<min_require>1.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Podcast Generator</font> is a free web based podcast publishing script written in PHP: upload media files (audio-video) via a web form along with episode information and automatically create podcast w3c-compliant feed including iTunes specific tags. It also features a comprehensive web administration.
+		<br /><br />
+		Podcast Generator is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+    <li>Very easy to install (Web Setup Wizard);</li>
+    <li>Free and open source;</li>
+    <li>Supports ANY media filetype (mp3, ogg, mpg, m4v, mov, pdf, etc...) and allows to create
+      mixed audio and video podcasts;</li>
+    <li>The XML feed automatically generated is fully compatible with aggregators (e.g. Juice and iTunes), meets the 
+      w3c standards and supports iTunes specific tags;</li>
+    <li>Organize your episodes by thematic categories (every category features its own podcast feed!);</li>
+
+    <li>User friendly web administration interface: upload, edit, delete 
+      episodes and fully customize your podcast;</li>
+    <li>Dynamically created "Recent podcasts" and "Podcast Archive" web pages;</li>
+    <li>Themes Support;</li>
+    <li>Multilanguage support;</li>
+    <li>Web or FTP upload of audio/video episodes;</li>
+    <li>Web mp3 streaming player;</li>
+  </ul>
+		</english-features>
+	</languages>
+</soft>

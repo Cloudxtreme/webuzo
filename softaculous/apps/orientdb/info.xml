@@ -1,0 +1,92 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/OrientDB
+	</ratings>
+	<space>
+		36211222
+	</space>
+	<support>
+		http://www.orientechnologies.com/orientdb/
+	</support>
+	<version>
+		2.1.0
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>05-08-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/orientdb</path>
+	<path name="bin">/usr/local/apps/orientdb/bin/server.sh</path>	
+	
+	<extract file="orientdb-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/orientdb</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">OrientDB Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/orientdb</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/orientdb/bin/server.sh</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#e65c08">OrientDB</font> is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs. Written in Java, it is incredibly fast: it can store up to 150,000 records per second on common hardware. Even for a Document based database, the relationships are managed as in Graph Databases with direct connections among records. You can traverse parts of or entire trees and graphs of records in a few milliseconds. Supports schema-less, schema-full and schema-mixed modes. Has a strong security profiling system based on user and roles and supports SQL amongst the query languages. Thanks to the SQL layer, it’s straightforward to use for those skilled in the relational database world. 
+<br /><br />
+		OrientDB is distributed under the <a href="www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2 license</a>
+		</english-overview>
+		<english-features>
+			<h2><font color="#e65c08">Multi-Model</font></h2>
+			<p>OrientDB is an Open Source NoSQL DBMS with the features of both Document and Graph DBMSs. Written in Java, it is incredibly fast: it can store up to 150,000 records per second on common hardware. Even for a Document based database, the relationships are managed as in Graph Databases with direct connections among records. You can traverse parts of or entire trees and graphs of records in a few milliseconds. Supports schema-less, schema-full and schema-mixed modes. Has a strong security profiling system based on user and roles and supports SQL amongst the query languages. Thanks to the SQL layer, it’s straightforward to use for those skilled in the relational database world.</p>
+			<h2><font color="#e65c08">No More Joins</font></h2>
+			<p>OrientDB can embed documents like any other Document Database, but can also connect documents like a Relational Database. The main difference is that OrientDB doesn’t use the costly JOIN, but rather uses direct, super-fast links taken from the Graph Database world.
+        No duplicates:  the resulting database is smaller and lighter
+        Faster:  a smaller database means better usage of RAM thus allowing more caching
+        Upon loading the order document, OrientDB will assemble the entire document by fetching all the connections transparently.</p>
+			<h2><font color="#e65c08">Speed</font></h2>
+			<p>OrientDB has been designed to be very fast. It inherits the best features and concepts from Document, Graph and Object Databases. Furthermore it uses the own MVRB-Tree algorithm as a mix of Red-Black Tree and B+Tree. MVRB-Tree consumes about half memory of the Red-Black Tree implementation maintaining the original speed while it balances the tree on insertion/update. Furthermore the MVRB-Tree allows fast retrieving and storing of nodes in persistent way.</p>
+			<h2><font color="#e65c08">Scalability</font></h2>
+			<p>The most common reason applications scale up badly is, very often, the database. The database is the bottleneck of most applications. OrientDB scales up very well on a single machine. A single server does the work of about 125 servers running MySQL. The transactional engine can run in distributed systems supporting up to 302,231,454,903,657 billion (2^78) records for the maximum capacity of 19,807,040,628,566,084 Terabytes of data distributed on multiple disks in multiple nodes.</p>
+			<h2><font color="#e65c08">Zero Configuration Clustering</font></h2>
+			<p>When you need more throughput, simply add a new server in the network and it will join the current distributed server cluster. Synchronization occurs automatically as soon as the server is brought online. You can’t get it much easier than that!</p>
+			<h2><font color="#e65c08">Reliability</font></h2>
+			<p>What happens when a server node crashes? The server cluster redistributes the load across the available nodes and all the clients connected to the node in failure are automatically switched to an available server node with no fail-over to the application level.</p>
+			<h2><font color="#e65c08">Competitor DBMSs</font></h2>
+			<p>OrientDB is a Document-Graph DBMS, so you can compare it against DocumentDB and GraphDB products. If you already know MongoDB, look at OrientDB vs MongoDB page.
+Also, take a look at GraphDB comparison and DocumentDB comparison. What about speed? Download the independent Benchmark between GraphDB products “XGDBench: A Benchmarking Platform for Graph Stores in Exascale Clouds“ by Tokyo Institute of Technology and IBM Research.</p>
+			<h2><font color="#e65c08">Easy to install and use?</font></h2>
+			<p>Absolutely. OrientDB is written completely in Java and can run on any platform without configuration and installation. The Full Server distribution is about 1Mb without the demo database. Do you develop with a language different than Java? No problem, look at the Programming Language Bindings.</p>
+		</english-features>
+	</languages>
+</soft>

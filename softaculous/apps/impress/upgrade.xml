@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>admin.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>mainfile.php</exclude>
+	</files>
+	<notes>Please login to your site as admin and then visit the above upgrade url. <br /> After completing the database Upgrade please delete the install folder.</notes>
+</softupgrade>

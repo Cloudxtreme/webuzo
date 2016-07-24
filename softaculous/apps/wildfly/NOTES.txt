@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download 'Java EE7 Full & Web Distribution' package from (http://wildfly.org/downloads/)

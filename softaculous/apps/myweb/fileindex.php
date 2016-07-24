@@ -1,0 +1,16 @@
+Docs
+README.md
+backups
+cache.php
+config
+favicon.ico
+img
+index.php
+install.php
+js
+lang
+lib
+modules
+status.php
+themes
+tmp

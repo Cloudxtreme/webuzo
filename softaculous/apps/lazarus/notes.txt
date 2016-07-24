@@ -1,0 +1,2 @@
+Empty the `session` field in the `auth` table for the user.
+And also add [[timestamp]] in 'auth' table for last_visit.

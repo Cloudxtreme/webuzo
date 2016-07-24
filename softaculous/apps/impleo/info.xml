@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Impleo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/music/Impleo
+	</ratings>
+	<space>
+		51927
+	</space>
+	<support>
+		http://sappy.dk/impleo/
+	</support>
+	<version>
+		2.0
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Impleo</font> is a simple PHP-script for managing your record collection.<br /><br />
+    It's possible to add, edit and delete records. Each record contains the name of the artist, title of the record and year of release. In addition to this, it's possible to add any kind of detail of your own choise. E.g.:
+    <ul>
+      <li>Format (CD, LP, MC etc.)</li>
+      <li>Record label</li>
+      <li>Catalog no.</li>
+      <li>Country</li>
+      <li>Comment</li>
+      <li>etc.</li>
+    </ul>
+    Since version 2.0 the script includes functionalites to upload an image to each record and search for any record in the collection. Now it's also possible to import and export the collection in XML-format.
+		<br /><br />
+		Impleo Music Collection is and always will be free of charge. Impleo is licensed under the <a href="http://people.freebsd.org/%7Ephk/" target="_blank">Beer-ware license</a>.
+		</english-overview>		
+		<english-features>
+	<ul>
+      <li>Format (CD, LP, MC etc.)</li>
+      <li>Record label</li>
+      <li>Catalog no.</li>
+      <li>Country</li>
+      <li>Comment</li>
+      <li>etc.</li>
+    </ul>
+		</english-features>
+	</languages>
+</soft>

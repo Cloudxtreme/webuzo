@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo_twg_med.jpg" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+    {{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/TinyWebGallery
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/TinyWebGallery
+	</ratings>
+	<space>
+		6060916
+	</space>
+	<support>
+		http://www.tinywebgallery.com/en/forum.php
+	</support>
+	<version>
+		2.3.4
+	</version>
+	<mod>32</mod>
+	<release_date>06-01-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview><font size="5" color="#182e7a">TinyWebGallery</font> is a free php based photo album / gallery that is very easy to install, extremely user friendly, does not need a database (uses xml files) but still has all the features you should expect and much more!
+		<br /><br />
+		TinyWebGallery can be configured very fast for a professional gallery like a model agency but also for the pictures from the last ski holiday! Just check out the demos and the list of all functions.
+		<br /><br />
+		TinyWebGallery is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE Version 2</a>.
+		</english-overview>		
+		<english-features>
+	<p>Features: </p>
+	* AJAX + Flash navigation with sliding image thumbnails<br />
+    * XML based - no database needed<br />
+    * TWG Admin to upload/manage images, manage users, Color Manager, Configuration of TWG <br />
+    * Keyboard navigation (arrow keys)<br />
+    * 3 different slideshow types<br />
+    * Protected galleries<br />
+    * Text and image watermarks<br />
+    * Full video support<br />
+    * TWG Flash uploader<br />
+    * Frontend in 26, backend in 5 languages!<br />
+    * Fullscreen mode<br />
+    * Remote picture support<br />
+    * All features can be enabled/disabled/configured<br />
+    * And a lot of things that makes this photo gallery unique.<br />
+		</english-features>		
+	</languages>
+</soft>

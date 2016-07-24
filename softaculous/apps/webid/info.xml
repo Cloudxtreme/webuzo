@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/WeBid
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/WeBid
+	</ratings>
+	<space>
+		5638201
+	</space>
+	<support>
+		http://www.webidsupport.com/
+	</support>
+	<version>
+		1.1.2P2
+	</version>
+	<mod>22</mod>
+	<release_date>21-05-2015</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WeBid</font> is an open-source auction script written in the popular language PHP which a massive collection of inbuilt features WeBid is the prefect chose for setting up any auction site.
+		<br /><br />
+WeBid has an easy to use administration panel and a user friendly installation process, which allows you to have your own auction site set up in minutes.
+		<br /><br />
+		WeBid is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>open-source</li>
+<li>easy to use administration panel</li>
+<li>user friendly installation process</li>
+<li>set up in minutes</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

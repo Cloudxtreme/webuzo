@@ -1,0 +1,16 @@
+addentry.php
+admin
+admin.php
+comment.php
+doc
+image.php
+img
+index.php
+install.php
+lang
+lib
+misc
+picture.php
+public
+templates
+tmp

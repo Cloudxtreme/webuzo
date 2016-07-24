@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/utilities/GeoIP
+	</ratings>
+	<space>
+		64507904
+	</space>
+	<support>
+		https://www.maxmind.com/en/support
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>	
+	
+	<path name="base">/usr/local/apps/geoip</path>
+	
+	<extract file="geoip-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/geoip</remove>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">GeoIP Environment:</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/geoip</td>
+			</tr>
+			<tr>
+				<td>Database Path</td>
+				<td>/usr/local/apps/geoip/share</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">MaxMind's GeoIP</font> products enable you to identify the location, organization, connection speed, and user type of your Internet visitors. The GeoIP2 databases are among the most popular and accurate IP geolocation databases available. 
+		<br /><br />
+		MaxMind's GeoIP is distributed under the <a href="https://www.maxmind.com/en/license_agree" target="_blank">MaxMind GeoIP License version 2.1</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Personalize web content</li>
+				<li>Tailor advertising</li>
+				<li>Conduct traffic analysis</li>
+				<li>Enforce digital rights</li>				
+				<li>Efficiently route Internet traffic</li>
+				<li>Comply with legal regulations</li>
+				<li>Detect online fraud through the minFraud service</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

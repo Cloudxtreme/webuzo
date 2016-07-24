@@ -1,0 +1,2 @@
+Put this code in '/core/cache.php' and 'lib/smarty/plugins/modifier.spacify.php' (IF any error occurs)
+error_reporting(E_PARSE);

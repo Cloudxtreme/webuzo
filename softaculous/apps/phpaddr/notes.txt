@@ -1,0 +1,1 @@
+For manual installation extract package and manually import Db

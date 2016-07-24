@@ -1,0 +1,61 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="brazilian">Brazilian</option>
+					<option value="catalan">Catalan</option>
+					<option value="czech">Czech</option>
+					<option value="danish">Danish</option>
+					<option value="german">German</option>
+					<option value="spanish">Spanish</option>
+					<option value="french">French</option>
+					<option value="greek">Greek</option>
+					<option value="galician">Galician</option>
+					<option value="croatian">Croatian</option>
+					<option value="italian">Italian</option>
+					<option value="lithuanian">Lithuanian</option>
+					<option value="hungarian">Hungarian</option>
+					<option value="dutch">Dutch</option>
+					<option value="polish">Polish</option>
+					<option value="norwegian">Norwegian</option>
+					<option value="portuguese">Portuguese</option>
+					<option value="romanian">Romanian</option>
+					<option value="russian">Russian</option>
+					<option value="slovak">Slovak</option>
+					<option value="slovenian">Slovenian</option>
+					<option value="finnish">Finnish</option>
+					<option value="swedish">Swedish</option>
+					<option value="hebrew">Hebrew</option>
+					<option value="thai">Thai</option>
+					<option value="japanese">Japanese</option>
+					<option value="korean">Korean</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>www/install/*</exclude>
+		<exclude>www/install/*/*</exclude>
+		<exclude>www/install/*/*/*</exclude>
+		<exclude>www/install/*/*/*/*</exclude>
+	</files>
+</softinstall>

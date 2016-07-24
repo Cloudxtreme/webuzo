@@ -1,0 +1,13 @@
+1) Do not install with Demo data.
+2) Try to add Upgrade capability.
+3) Sugar asks only for MySQLi
+4) Dont forget to add the "generatepasswordtmpl" and "lostpasswordtmpl" in email_templates table in SQL
+5) add 
+
+error_reporting(E_PARSE);
+
+$sugar_config['http_referer']['list'][] = '[[servervar]]'; 
+
+in config_override.php
+
+6) Check and replace custom folder from manual to zip if there are any changes.

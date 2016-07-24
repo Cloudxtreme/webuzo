@@ -1,0 +1,2 @@
+1. while installation SKIP install category i.e sample data.
+2. Only choose united states. Keep cities and region to ALL

@@ -1,0 +1,89 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/JRuby
+	</ratings>
+	<space>
+		46711273
+	</space>
+	<support>
+		http://jruby.org/
+	</support>
+	<version>
+		1.7.21
+	</version>
+	<mod>7</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>07-07-2015</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/jruby</path>
+	<path name="bin">/usr/local/apps/jruby/bin/jruby</path>	
+	
+	<extract file="jruby-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/jruby</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Jruby Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/jruby</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/jruby/bin/jruby</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://jruby.org/documentation</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">JRuby </font> is a 100% Java implementation of the Ruby programming language. It is Ruby for the JVM.
+		JRuby provides a complete set of core "builtin" classes and syntax for the Ruby language, as well as most of the Ruby Standard Libraries. The standard libraries are mostly Ruby's own complement of .rb files. 
+<br /><br />
+		<br /><br />
+		JRuby distributed under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GPL License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>High performance</li>
+				<li>Real threading</li>
+				<li>Vast array of libraries</li>
+				<li>Ruby 1.8.7 and 1.9.3 compatible</li>
+				<li>Both versions in single install</li>
+				<li>Easy migration</li>
+				<li>Easy to install</li>
+				<li>No hassles</li>
+			</ul>	
+		</english-features>
+	</languages>
+</soft>

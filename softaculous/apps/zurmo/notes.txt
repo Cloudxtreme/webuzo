@@ -1,0 +1,13 @@
+1. make DB with utf8_unicode_ci collate 
+
+2. Install without Demo Data
+
+3. Dump the sql by command : mysqldump --routines -u root -pmysql zurmo270 > zurmo.sql
+
+4. remove /*!50020 DEFINER=`root`@`localhost`*/
+
+5. Create where Engine is InnoDB
+
+6. copy /app/protected/runtime/uploads folder and its content(all images) from manual to zurmo.zip
+
+7. Download upgrade packages from : http://zurmo.org/upgrades

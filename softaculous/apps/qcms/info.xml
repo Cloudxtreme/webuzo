@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Quick.CMS 
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Quick.CMS 
+	</ratings>
+	<space>
+		1470454
+	</space>
+	<support>
+		http://opensolution.org/
+	</support>
+	<version>
+		6.1
+	</version>
+	<mod>10</mod>
+	<release_date>05-10-2015</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirements check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Quick.CMS</font> is comprehensive and easy to customize Content Management System helpfull in your web site management. This tool enables you to easily extend functionality and change layout of your website... and breath a sigh of relief.
+		<br /><br />
+		Quick.CMS is released under the <a href="http://opensolution.org/license.html" target="_blank">Creative Commons Attribution 2.5 LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>valid with standards</li>
+<li>simple to modify HTML and CSS</li>
+<li>small requirements</li>
+<li>SEO support</li>
+<li>languages management</li>
+<li>amazing abilities to customize</li>
+<li>WYSIWYG editor</li>
+<li>easy backup</li>
+<li>mobile version</li>
+<li>advanced images management</li>
+<li>support</li>
+<li>short cut for handicapped people - WAI</li>
+<li>web directory with websites based on our scripts</li>
+<li>over 7 years and 6000 websites</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

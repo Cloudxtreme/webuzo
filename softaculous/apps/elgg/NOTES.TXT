@@ -1,0 +1,4 @@
+1) Add the elggdata folder to data.zip BUT delete all files of root folders of that elggdata
+2) Take the data.zip after logging in the manual installation.
+3) We have disabled auto upgrade in 1.9.1 because it requires datadir upgrade when upgrading from 1.8.x, please check auto upgrade from 1.8.x if you enable auto upgrade in future
+4) Add a trailing slash '/' for datadir path in manual installation.

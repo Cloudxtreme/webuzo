@@ -1,0 +1,1 @@
+1. make DB with utf8_unicode_ci collate 

@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Conference_Systems
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Open_Conference_Systems
+	</ratings>
+	<space>
+		23146825
+	</space>
+	<support>
+		http://pkp.sfu.ca/ocs
+	</support>
+	<version>
+		2.3.6.0
+	</version>
+	<mod>2</mod>
+	<release_date>28-05-2014</release_date>
+	<admin>index.php/index/index/login</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Conference Systems (OCS)</font> is a free Web publishing tool that will create a complete Web presence for your scholarly conference.
+		<br /><br />Open Conference Systems (OCS) is an open source solution to managing and publishing scholarly conferences online. OCS is a highly flexible management and publishing system that can be downloaded for free and installed on a local Web server. 
+		<br /><br />It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with managing a conference, while improving the record-keeping and efficiency of editorial processes. 
+		<br /><br />It seeks to improve the scholarly and public quality of conference publishing through a number of innovations, from making policies more transparent to improving indexing.
+		<br /><br />
+		Open Conference Systems (OCS) is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="3" color="#182e7a">OCS will allow you to:</font>
+<ul>
+<li>create a conference Web site </li>
+<li>compose and send a call for papers</li>
+<li>electronically accept paper and abstract submissions</li>
+<li>allow paper submitters to edit their work</li>
+<li>post conference proceedings and papers in a searchable format</li>
+<li>post, if you wish, the original data sets</li>
+<li>register participants</li>
+<li>integrate post-conference online discussions</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

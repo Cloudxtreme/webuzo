@@ -1,0 +1,17 @@
+.htaccess
+.project
+COPYRIGHT
+INSTALL
+LICENSE
+admin
+config.inc.php
+crontab.php
+index.php
+lib
+locale
+robots.txt
+rss
+sitefiles
+sitemap.xml
+static.php
+template

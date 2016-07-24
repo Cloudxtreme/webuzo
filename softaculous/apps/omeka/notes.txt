@@ -1,0 +1,4 @@
+First change the details in the db.ini and then go to /install for manual installation
+Always check condition in upgrade.php
+We have enabled Auto upgrade. Please check and make changes if required in next version.
+As per its installation process select database charset as "utf8_unicode_ci" for manual installation

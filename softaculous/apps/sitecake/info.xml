@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SiteCake
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/SiteCake
+	</ratings>
+	<space>
+		23834045
+	</space>
+	<support>
+		http://sitecake.com/forum/
+	</support>
+	<version>
+		2.2.10
+	</version>
+	<mod>4</mod>
+	<admin>sitecake.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SiteCake</font> is a drag and drop CMS for simple websites. It lets you publish the content just by dragging it to your web page. It's CMS for static websites, with few pages only, to cover the niche below WordPress level of complexity.
+		<br /><br />
+		SiteCake was designed to be simple enough for a designer to integrate it on their own, without a need to hire a developer.
+		SiteCake was designed to be simple enough for a site owner to change some text, swap some photos and add a video on their own, without a need to hire a web editor.<br /><br />		
+		SiteCake is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License, version 2</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#63C3E2"><b>Supported features</b></font><br />
+<ul>
+<li>Headings (H1-H6)</li>
+<li>Text</li>
+<li>Images</li>
+<li>List</li>
+<li>Slideshow</li>
+<li>Video embedding (YouTube, Vimeo)</li>
+<li>Google maps embedding</li>
+<li>Custom HTML</li>
+<li>File uploads</li>
+<li>Apply custom CSS styles</li>
+<li>Auto load content from your HTML file</li>
+<li>Toolbar module configuration</li>
+<li>Works with PHP pages</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

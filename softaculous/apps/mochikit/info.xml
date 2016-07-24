@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://mochikit.com/demos.html
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/MochiKit
+	</ratings>
+	<space>
+		1983721
+	</space>
+	<support>
+		http://mochikit.com
+	</support>
+	<version>
+		1.4.2
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MochiKit</font> is a highly documented and well tested, suite of JavaScript libraries that will help you get shit done, fast. We took all the good ideas we could find from our Python, Objective-C, etc. experience and adapted it to the crazy world of JavaScript.
+		<br /><br />
+		MochiKit is a dual-licensed software available under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>, or the <a href="http://www.opensource.org/licenses/afl-2.1.php">Academic Free License, v2.1</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Lightweight</li>
+<li>Modular</li>
+<li>Object-Oriented JavaScript framework</li>
+<li>Cross-browser code</li>
+<li>Well Documented</li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font><br />
+		All of the modern and popular browsers: Safari 2.0.2, Firefox 1.0.7, Firefox 1.5b2, Internet Explorer 6, and Opera 8.5. Other JavaScript platforms should work if they're standards compliant
+
+		</english-features>
+	</languages>
+</soft>

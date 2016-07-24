@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://raphaeljs.com/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Raphael
+	</ratings>
+	<space>
+		92544 
+	</space>
+	<support>
+		http://raphaeljs.com/
+	</support>
+	<version>
+		2.2.0
+	</version>
+	<mod>11</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Raphaël</font> is a small JavaScript library that should simplify your work with vector graphics on the web. If you want to create your own specific chart or image crop and rotate widget, for example, you can achieve it simply and easily with this library.
+		<br /><br />
+		Raphaël is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Compact</li>
+<li>Modular</li>
+<li>Object-Oriented JavaScript framework</li>
+<li>Cross-browser code</li>
+<li>Coherent API</li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font><br />
+		Raphaël currently supports Firefox 3.0+, Safari 3.0+, Opera 9.5+ and Internet Explorer 6.0+. 
+
+		</english-features>
+	</languages>
+</soft>

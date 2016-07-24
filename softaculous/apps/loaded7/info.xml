@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Loaded_7
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Loaded_7
+	</ratings>
+	<space>
+		38578036
+	</space>
+	<support>
+		http://loaded7.com/
+	</support>
+	<version>
+		7.003.4.2
+	</version>
+	<mod>20</mod>
+	<release_date>09-09-2015</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="ionCube Loader" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Loaded 7</font> is a responsive ecommerce web application. 
+		<br /><br />
+		Based on a 3rd generation e-commerce platform, Loaded 7 includes new mobile responsive template in both admin and catalog.
+		<br /><br />
+		Loaded 7 is released under <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL Version 2</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Core Features:</b></font><br />
+<ul>
+<li><b>Open Source Core Code Base: </b>View and redistribute the core code base. Use it for free on your site.</li><br />
+<li><b>Customer Account Portal: </b>Your customers can check their orders and manage aspects of their account in the customer account portal.</li><br />
+<li><b>Simple Product Options: </b>Allow your customers to select options for products when ordering.</li><br />
+<li><b>Coupons: </b>Give your customers discounts code to use when ordering.</li><br />
+<li><b>SEO URLS: </b>URLS automatically generated optimized for search engine spidering.</li><br />
+<li><b>Social Media Tags: </b>Support for Open Graph for optimized sharing to Facebook and other social media sites.</li><br />
+<li><b>Word Press Bridge: </b>Run your store inside your Word Press Site.</li><br />
+<li><b>Category Pages: </b>Create content pages easily and link to them in your main navigation.</li><br />
+<li><b>Discount Customer Groups: </b>Set customer discounts by group.</li><br />
+<li><b>Order Status Types: </b>Organize your order statuses one step further by defining pending, approve and rejected types of statuses for your orders.</li><br />
+<li><b>Newsletter Manager: </b>Send email newsletters to your customers with opt-in during checkout.</li><br />
+<li><b>Special Pricing: </b>Put your products on sale with time based special pricing.</li><br />
+<li><b>Embedded AddOn Store: </b>Easily Find, Install, Review and Uninstall addons right from your admin.</li><br />
+</ul>
+<font size="2" color="#1281B6"><b>Pro Features:</b></font><br />
+<ul>
+<li><b>Professional Support: </b>Get support from the Loaded Commerce Team.</li><br />
+<li><b>Product Multi SKU Options: </b>Create Products Variants based on combinations of options and track inventory on hand.</li><br />
+<li><b>Sub Product Options: </b>Create simple product variants options and track inventory on hand.</li><br />
+<li><b>Product Classes: </b>Organize your products assets with product classes effects, categories, options, shipping calulators.</li><br />
+<li><b>Single Sign On Support: </b>Tie your customer logins to your main website application, works with our Loaded SSO plugin for WordPress.</li><br />
+</ul>
+		</english-features>
+	</languages>
+</soft>

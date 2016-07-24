@@ -1,0 +1,14 @@
+1. Configure composer.json add [[php_binary]]
+2. Add the following in composer.json under config :
+"cache-dir": "[[softpath]]/cache"
+We add this because by default it takes /root/.composer
+3. Make the ZIP after installing Laravel manually
+4. Move bootstrap/cache/compiled.php from manual to zip.
+5. Take care of symbolic link of vendon/bin folder
+
+Guide to install Composer :
+https://getcomposer.org/doc/00-intro.md
+
+curl -sS https://getcomposer.org/installer | php
+
+php composer.phar install

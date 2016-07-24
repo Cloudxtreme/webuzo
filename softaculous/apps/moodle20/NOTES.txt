@@ -1,0 +1,6 @@
+1) Empty the cache folder in data.zip
+2) Use defaultcity as default city while installation and country United States
+3) Check upgrade.php
+4) Download the Language packs here:
+http://download.moodle.org/langpack/
+5) Unpack the packages in the datadir and change the language [[language]] in SQL config and users table.

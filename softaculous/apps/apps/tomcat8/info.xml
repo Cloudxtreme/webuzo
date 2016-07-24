@@ -1,0 +1,80 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_containers/Tomcat_8
+	</ratings>
+	<space>
+		12883001
+	</space>
+	<support>
+		http://tomcat.apache.org/
+	</support>
+	<version>
+		8.0.24
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>06-07-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/tomcat8</path>
+	<path name="conf_dir">/usr/local/apps/tomcat8/conf</path>
+	<path name="catalina">/usr/local/apps/tomcat8/conf/Catalina</path>
+	<path name="xml">/usr/local/apps/tomcat8/conf/server.xml</path>
+	
+	<extract file="tomcat8-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/tomcat8</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache Tomcat8 Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/tomcat8/bin/catalina.sh</td>
+			</tr>
+			<tr>
+				<td>Conf Dir</td>
+				<td>/usr/local/apps/tomcat8/conf</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache Tomcat 8</font> is aligned with Java EE 7. In addition to supporting updated versions of the Java EE specifications, Tomcat 8 includes a number of improvements compared to Tomcat 7.
+		<br /><br />
+		Apache Tomcat is distributed under the <a href="http://www.apache.org/licenses/" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+		<ol>
+			<li>Support for Java Servlet 3.1, JavaServer Pages 2.3, Java Unified Expression Language 3.0 and Java WebSocket 1.0.</li>
+			<li>The default connector implementation is now the Java non-blocking implementation (NIO) for both HTTP and AJP.</li>
+			<li>A new resources implementation that replaces Aliases, VirtualLoader, VirtualDirContext, JAR resources and external repositories with a single, consistent approach for configuring additional web application resources. The new resources implementation can also be used to implement overlays (using a master WAR as the basis for multiple web applications that each have their own customizations).</li>
+		</ol>
+		</english-features>
+	</languages>
+</soft>

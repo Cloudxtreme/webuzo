@@ -1,0 +1,88 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_containers/GlassFish
+	</ratings>
+	<space>
+		136257536
+	</space>
+	<support>
+		https://glassfish.java.net/forum.html
+	</support>
+	<version>
+		4.1
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>01-09-2014</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/glassfish</path>
+	<path name="bin">/usr/local/apps/glassfish/bin/asadmin</path>	
+	
+	<extract file="glassfish-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/glassfish</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">GlassFish Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/glassfish</td>
+			</tr>
+			<tr>
+				<td>Asadmin Path</td>
+				<td>/usr/local/apps/glassfish/bin/asadmin</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>https://glassfish.java.net/documentation.html</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#E88A43">GlassFish</font> Server Open Source Edition is a production-ready application server that is developed by Oracle and the GlassFish community using an open source license.
+<br /><br />
+		<br /><br />
+		Glassfish is distributed under the <a href="https://glassfish.java.net/license.html#gpl" target="_blank">GPL</a>
+		</english-overview>
+		<english-features>		
+			<ul>
+				<li>Flexible, Extensible, and Customizable</li>
+				<li>Enhancing Developer Productivity</li>
+				<li>Production Readiness</li>
+				<li>Extending JavaEE with Clustering</li>
+				<li>Load Balancing Support</li>
+				<li>JMSand Message Queue Broker</li>
+				<li>DAS Backupand Recovery</li>
+				<li>Logging Service</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

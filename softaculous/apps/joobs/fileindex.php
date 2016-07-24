@@ -1,0 +1,13 @@
+.htaccess
+.zip
+Joobsbox
+LICENSE
+README
+Zend
+cache
+config
+core
+index.php
+plugins
+public
+sql

@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Joomla_2.5
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Joomla_2.5
+	</ratings>
+	<space>
+		19024501
+	</space>
+	<support>
+		http://www.joomla.org
+	</support>
+	<version>
+		2.5.28
+	</version>
+	<mod>49</mod>
+	<mod_files>2</mod_files>
+	<release_date>10-12-2014</release_date>
+	<admin>administrator</admin>
+	<min_require>1.6</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.4" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Joomla</font> is an award-winning content management system (CMS), which enables you to build Web sites and powerful online applications. Many aspects, including its ease-of-use and extensibility, have made Joomla the most popular Web site software available. Best of all, Joomla is an open source solution that is freely available to everyone.
+		<br /><br />
+		Joomla is used all over the world to power Web sites of all shapes and sizes. For example: <ul> 	<li>Corporate Web sites or portals</li> 	<li>Corporate intranets and extranets</li> 	<li>Online magazines, newspapers, and publications</li> 	<li>E-commerce and online reservations</li> 	<li>Government applications</li> 	<li>Small business Web sites</li> 	<li>Non-profit and organizational Web sites</li> 	<li>Community-based portals</li> 	<li>School and church Web sites</li> 	<li>Personal or family homepages</li> </ul>
+		Joomla is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>User Management </li>
+<li>Media Manager</li>
+<li>Language Manager</li>
+<li>Banner Management
+</li><li>Contact Management
+</li><li>Polls 
+</li><li>Search
+</li><li>Web Link Management
+</li><li>Content Management
+</li><li>Syndication and Newsfeed Management</li>
+<li>Menu Manager</li>
+<li>Template Management</li>
+<li>Integrated Help System</li>
+<li>System Features</li>
+<li>Web Services</li>
+<li>Powerful Extensibility</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

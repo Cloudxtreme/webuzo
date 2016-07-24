@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Fiyo_CMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Fiyo_CMS
+	</ratings>
+	<space>
+		10315988
+	</space>
+	<support>
+		http://www.fiyo.org
+	</support>
+	<version>
+		2.0.2.1
+	</version>
+	<mod>1</mod>
+	<mod_files>2</mod_files>
+	<release_date>01-07-2015</release_date>
+	<admin>dapur</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.4" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Fiyo CMS</font> is one of hundreds Content Management System available on the internet. Fiyo CMS is a software that allows a person to add and / or manipulating (changing) the content of a Web site.<br /><br />
+		Fiyo CMS is licensed under the terms of <a href="http://opensource.org/licenses/GPL-3.0" target='_blank'>GNU General Public License, version 3 (GPL-3.0).</a>
+</english-overview>		
+		<english-features>
+		<ul>
+<li> EASY DESIGN<br /><br />
+Fiyo theme is very easy once created. You can convert from HTML and CSS or template from sites you have previously made.</li><br />
+<li> SEO OPTIMIZED<br /><br />
+Each person will visit your site because Fiyo have invited a search engine to display the first page of the site. And also comes SEF Optimizer.</li><br />
+<li> FAST LOAD<br /><br />
+Fiyo designed for easy access and quick response. Lightweight and reliable system that will provide comfort to anyone who uses Fiyo.</li><br />
+<li> STRONG SCURITY<br /><br />
+Fiyo has been equipped with a safety system that is ready to protect your site from any disturbance. You can move AdminPanel to place wherever you like.</li><br />
+<li> NEAT CONSTRUCTION<br /><br />
+Construction Fiyo very structured so as to make it easier to develop. Content and addons presented neatly in categorization.</li><br />
+<li> RESPONSIVE<br /><br />
+Fiyo can be accessed anywhere, either in desktop, mobile, or table. AdminPanel of Fiyo responsive CMS already supports the features that make the website customize the appearance of media you use.</li>
+</ul>
+		</english-features>
+		<english-ad_dir>Admin Folder</english-ad_dir>
+	</languages>
+</soft>

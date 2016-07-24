@@ -1,0 +1,14 @@
+Options +FollowSymLinks -Indexes
+
+IndexIgnore *
+
+DirectoryIndex 
+    
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+# Simple URL redirect:
+RewriteRule ^(.*)$ http://[[domhost]]:[[port]][[relativeurl]]/$1 [P]
+
+</IfModule>

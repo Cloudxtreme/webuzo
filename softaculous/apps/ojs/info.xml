@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Journal_Systems
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Open_Journal_Systems
+	</ratings>
+	<space>
+		67019389
+	</space>
+	<support>
+		http://pkp.sfu.ca/ojs
+	</support>
+	<version>
+		2.4.8.0
+	</version>
+	<mod>13</mod>
+	<mod_files>2</mod_files>
+	<release_date>05-02-2016</release_date>
+	<admin>index.php/index/login</admin>
+	<min_require>2.0.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Journal Systems (OJS)</font> is a journal management and publishing system that has been developed by the Public Knowledge Project through its federally funded efforts to expand and improve access to research.
+		<br /><br />
+		OJS assists with every stage of the refereed publishing process, from submissions through to online publication and indexing. Through its management systems, its finely grained indexing of research, and the context it provides for research, OJS seeks to improve both the scholarly and public quality of refereed research.
+		<br /><br />
+		Open Journal Systems (OJS) is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="3" color="#182e7a">Basic Features</font>
+<ul>
+<li>OJS is installed locally and locally controlled.</li>
+<li>Editors configure requirements, sections, review process, etc.</li>
+<li>Online submission and management of all content.</li>
+<li>Subscription module with delayed open access options.</li>
+<li>Comprehensive indexing of content part of global system.</li>
+<li>Reading Tools for content, based on field and editors' choice.</li>
+<li>Email notification and commenting ability for readers.</li>
+<li>Complete context-sensitive online Help support.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

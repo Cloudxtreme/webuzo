@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SuiteCRM
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/SuiteCRM
+	</ratings>
+	<space>
+		138617877
+	</space>
+	<support>
+		http://suitecrm.com
+	</support>
+	<version>
+		7.6.4
+	</version>
+	<mod>21</mod>
+	<release_date>30-05-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SuiteCRM</font> is a fork of SugarCRM. SuiteCRM is designed to be a free and open source alternative to SugarCRM Professional Edition. Because it is based on SugarCRM, all the community provided extensions that work with Community Edition will also work with SuiteCRM. 
+		<br /><br />
+		SuiteCRM is also an excellent alternative to SalesForce Professional and Microsoft Dynamics
+		<br /><br />
+		SuiteCRM is released under the <a href="http://www.suitecrm.com/wiki/index.php/Licensing" target="_blank">GNU Affero General Public License version 3</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#A61042"><b>MANAGE YOUR CONTACTS</b></font><br /><br />
+Organise your business contacts and record relevant information that will help your business create opportunities and leads. Import your contacts to communicate with clients and send marketing campaigns. Duplicate contact information for clients who work in the same business, to reduce time and improve efficiency.<br /><br />
+<font size="2" color="#A61042"><b>TARGET CUSTOMERS</b></font><br /><br />
+Target customers you want to do business with and configure them into lists through information gathered in the contacts database. By understanding who you want to target, your business can focus on creating marketing campaigns for those people who will most likely buy your product or service.<br /><br />
+<font size="2" color="#A61042"><b>ORGANISE MEETINGS</b></font><br /><br />
+Schedule meetings with clients or colleagues with SuiteCRM Max, and send invites to those people you want to attend. Manage the notes of your meetings to keep track with what is happening in your business. Set an expected duration for those meetings and reminders prior to them taking place.<br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+	</languages>
+</soft>

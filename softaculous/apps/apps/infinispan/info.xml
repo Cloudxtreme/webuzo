@@ -1,0 +1,86 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Infinispan
+	</ratings>
+	<space>
+		140013354
+	</space>
+	<support>
+		http://infinispan.org/
+	</support>
+	<version>
+		7.2.5
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>10-09-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/infinispan</path>
+	<path name="bin">/usr/local/apps/infinispan/bin/standalone.sh</path>
+	<path name="conf">/usr/local/apps/infinispan/standalone/configuration/standalone.xml</path>
+	
+	<extract file="infinispan-$arch.tar.gz">$appsdir</extract>
+	
+	<is_default>107_1</is_default>
+	<is_default>109_1</is_default>
+	
+	<remove>/usr/local/apps/infinispan</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Infinispan Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base</td>
+				<td>/usr/local/apps/infinispan</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/infinispan/bin/standalone.sh</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://infinispan.org/documentation/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+			<font size="5" color="#182e7a">Infinispan </font>is an extremely scalable, highly available key/value data store and data grid platform. It is 100% open source, and written in Java. The purpose of Infinispan is to expose a data structure that is distributed, highly concurrent and designed ground-up to make the most of modern multi-processor and multi-core architectures. It is often used as a distributed cache, but also as a NoSQL key/value store or object database.
+			<br /><br />
+			Infinispan is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License (AL) v.2.0.</a>
+		</english-overview>
+		<english-features>
+			 <p> Most people use Infinispan for one of two reasons. Firstly, as a distributed cache. Putting Infinispan in front of your database, disk-based NoSQL store or any part of your system that is a bottleneck can greatly help improve performance. Often, a simple cache isn't enough - for example if your application is clustered and cache coherency is important to data consistency. A distributed cache can greatly help here.
+			 </p>
+			 <p> The other major use-case is as a NoSQL data store. In addition to being in memory, Infinispan can also persist data to a more permanent store. We call this a cache store. Cache stores are pluggable, you can easily write your own, and many already exist for you to use. Learn more about cache stores  and existing implementations you can use today - on the cache stores section of this website. </p>
+			 <p> A less common use case is adding clusterability and high availability to frameworks. Since Infinispan exposes a distributed data structure, frameworks and libraries that also need to be clustered can easily achieve this by embedding Infinispan and delegating all state management to Infinispan. This way, any framework can easily be clustered by letting Infinispan do all the heavy lifting. 
+			 </p> 		
+		</english-features>			
+	</languages>
+</soft>

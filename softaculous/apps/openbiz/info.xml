@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OpenBiz_Cubi
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/OpenBiz_Cubi
+	</ratings>
+	<space>
+		55059611
+	</space>
+	<support>
+		http://www.openbiz.me/
+	</support>
+	<version>
+		3.0.9
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<release_date>06-03-2013</release_date>
+	<admin>index.php/user/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Openbiz Cubi Platform</font> is a fast application development platform designed for business applications. It is built on top of the excellent Openbiz framework. It provides easy and intelligent development tools and implements almost all commonly used components, developers just need to work on their core business logic development. Openbiz Cubi makes application development so quick. 
+		<br /><br />
+		OpenBiz Cubi is released under the <a href="http://www.openbiz.me/developer/cubi/create-your-brand.php">BSD opensource license</a>.
+		</english-overview>		
+		<english-features>
+	<p>Key features: </p>
+<ul>
+<li><strong>Fast Application Development: </strong>All business and presentation compoenents are described by XML metadata which makes much easier to maintain applications. Cubi provide a set of tools to generate object metadata. It helps developers to create a CRUD page in several mouse clicks. Other development tools like Cubi AppBuilder provides a development workspace on your web browser. </li><br />
+<li><strong>Clear System Architecture: </strong>Openbiz Cubi is built on advanced object-oriented framework which uses technology including ORM, MVC, Dependency Injection, XML metadata. It has clean naming convension that is summarized from many real world application development experience. </li><br />
+<li><strong>Rich Components: </strong>Openbiz Cubi has provided many ready-to-use components that all applications will need. For example, user-role-permission management, multi-language support, session choice, multi-level cache, and etc ... </li><br />
+<li><strong>Cool User Interface: </strong>You don't have to spend much time in user interface design because Openbiz Cubi has tuned look and feel on each detail. Your Cubi based application will surely impress your clients with high product quality.</li><br />
+<li><strong>Easy Configurations: </strong>You don't need to do complicated code change or initiation in order to configure a Cubi function. Cubi provides user-friendly configuration pages for its system level functions. Even the application databases can be configured in a wizard by application admin. </li><br />
+<li><strong>Business-friendly License: </strong>Openbiz Cubi uses BSD license. It allows you to build your own application and event sell it without worrying about legal issues.</li><br />
+</ul>
+		</english-features>
+	</languages>
+</soft>

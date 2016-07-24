@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SiteDove
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/SiteDove
+	</ratings>
+	<space>
+		33600
+	</space>
+	<support>
+		http://sitedove.com/free.php
+	</support>
+	<version>
+		6
+	</version>
+	<mod>1</mod>
+	<mod_files>2</mod_files>
+	<admin>intrusion/settings.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SiteDove</font> Free is a powerful tool for beefing up the security of your website at <b>NO COST</b>. It includes a unique <b>Burglar Alarm</b> that shows you when changes are made to files on your site. If you're not sure who made those changes, you will want to investigate to see if your site has been hacked.<br /><br />
+		In this way, SiteDove Free acts as an <b>early warning system</b> that can detect malicious attacks long before search engines and your readers encounter them.
+		<br /><br />
+		SiteDove <a href="http://www.binpress.com/license/view/l/ab6ca4b0dcf536fac6fce03dbd44b5d0" target="_blank">License</a>.
+		</english-overview>		
+		<english-features>
+<ul> 
+	<li>Early Warning System detects potential attacks long before search engines and your readers encounter them</li>
+	<li>Monitors all PHP files on your site for modifications</li>
+	<li>File Modification Reports provide a list of changes for you to investigatge to see if your site has been hacked</li>
+	<li>Daily report shows all modifications made in the last 24 hours</li>
+	<li>Monthly email report shows a summary of all modifications made in the last 30 days</li>
+	<li>Exclusion list lets you customize which folders are monitored</li>
+	<li>One-Click upgrade to SiteDove Premium adds additional protection: continuous modification monitoring for all file types, spam/malware detection, blacklist monitoring, uptime checking, performance monitoring and broken link (404) detection</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

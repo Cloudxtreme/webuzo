@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Tiny_Tiny_RSS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/rss/Tiny_Tiny_RSS
+	</ratings>
+	<space>
+		10120354 
+	</space>
+	<support>
+		http://tt-rss.org/redmine/projects/tt-rss/wiki
+	</support>
+	<version>
+		1.15.3
+	</version>
+	<mod>12</mod>
+	<release_date>09-12-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Tiny Tiny RSS</font> is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible.
+		<br /><br />
+		Tiny Tiny RSS is licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GPL</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Server-side application, user only needs a web browser</li><br />
+<li>Supports RSS, RDF, Atom feeds using SimplePie</li><br />
+<li>Easy setup and configuration</li><br />
+<li>Streamlined interface using AJAX</li><br />
+<li>Authentication for reading protected feeds (e.g. LiveJournal friend-only posts)</li><br />
+<li><font color="#507AAA"><b>Supports :</b></font></li><br />
+	<ul>
+	<li>feed aggregation, </li><br />
+	<li>keyboard shortcuts,</li><br />
+	<li>OPML import/export, </li><br />
+	<li>multiple and single user operation,</li><br />
+	<li>mobile devices, </li><br />
+	<li>internationalization, </li><br />
+	<li>detecting and filtering duplicate articles, podcasts, </li><br />
+	<li>article scoring, </li><br />
+	<li>content filtering, </li><br />
+	<li>JSON-based API, </li><br />
+	<li>feed sharing between instances, </li><br />
+	</ul>
+<li>Integration into Desktop Software and Mobile Apps.</li><br />
+</ul>
+		</english-features>
+	</languages>
+</soft>

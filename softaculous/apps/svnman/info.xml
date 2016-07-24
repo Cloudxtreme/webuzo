@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SVNManager
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/SVNManager
+	</ratings>
+	<space>
+		16466422
+	</space>
+	<support>
+		http://www.softaculous.com/
+	</support>
+	<version>
+		1.09
+	</version>
+	<mod>1</mod>
+	<mod_files>2</mod_files>
+	<admin>index.php?page=User:LoginPage</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SVNManager</font> is a PHP web based tool to administer a Apache Subversion repository server.  
+		<br /><br />
+		SVNManager is released under the <a href="http://www.opensource.org/licenses/bsd-license.php" target="_blank">BSD license</a>.
+		</english-overview>		
+		<english-features>
+		<br /><font size="2" color="#1281B6"><b>With this tool you can remotely: </b></font><br />
+<ul>
+<li>Create, remove, load and dump repositories</li>
+<li>Manage user accounts for access to the repositories</li>
+<li>Manage groups for acces to the repositories</li>
+<li>Invite users by email to create an account on the server</li>
+</ul>
+		</english-features>
+		<english-shell_cmd>Shell Commands details</english-shell_cmd>
+		<english-svn_location>Subversion Locations</english-svn_location>
+		<english-htpassword_cmd>htpassword Command</english-htpassword_cmd>
+		<english-exp_htpassword_cmd>Path to the htpassword file.</english-exp_htpassword_cmd>
+		<english-svn_cmd>SVN Command</english-svn_cmd>
+		<english-exp_svn_cmd>Path to the SVN file.</english-exp_svn_cmd>
+		<english-svnadmin_cmd>Svnadmin Command</english-svnadmin_cmd>
+		<english-exp_svnadmin_cmd>Path to the svnadmin file.</english-exp_svnadmin_cmd>
+		<english-svn_repos_loc>SVN Repository Location</english-svn_repos_loc>
+		<english-exp_svn_repos_loc>Path to the svn repository directory (without the trailing slash).</english-exp_svn_repos_loc>
+		<english-err_htpassword>The htpassword file does not exist.</english-err_htpassword>
+		<english-err_svn_cmd>The SVN file does not exist.</english-err_svn_cmd>
+		<english-err_svnadmin_cmd>The svnadmin file does not exist.</english-err_svnadmin_cmd>
+		<english-err_svn_config_dir>The SVN config directory does not exist.</english-err_svn_config_dir>
+		<english-err_svn_repos_loc>The SVN repository directory does not exist.</english-err_svn_repos_loc>
+		<english-err_svn_passwd_file>The SVN password file does not exist.</english-err_svn_passwd_file>
+		<english-err_svn_access_file>The SVN access file does not exist.</english-err_svn_access_file>
+	</languages>
+</soft>

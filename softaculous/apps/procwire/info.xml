@@ -1,0 +1,86 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ProcessWire
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/ProcessWire
+	</ratings>
+	<space>
+		18884200
+	</space>
+	<support>
+		http://processwire.com/talk/
+	</support>
+	<version>
+		2.7.2
+	</version>
+	<mod>9</mod>
+	<admin>admin123</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.8" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ProcessWire</font> is a free PHP5 content management system and framework (open source CMS/CMF) built to save you time and work the way you do.<br />
+		ProcessWire gives simpler and stronger control over your pages, fields, templates and markup at any scale. And it provides a powerful template system that works the way you already do.<br />
+		ProcessWire’s jQuery-inspired API makes working with your content easy and enjoyable. Managing and developing a site in ProcessWire is shockingly simple–and fun–compared to what you may be used to.
+		<br /><br />
+		ProcessWire is licensed under the terms of <a href="http://mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License v2.0</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font size="2" color="#1281B6"><b>Simple, powerful, consistent, predictable, capable … and fun</b></font><br />
+		ProcessWire is designed to have an approachable simplicity that is retained regardless of scale. Simplicity often implies reduced capability, and this is not the case with ProcessWire. From the surface, there is very little complexity and the application requires no training. But open the hood, and you have a lot of horsepower at your disposal for just about any content need. The goal is jQuery or Google-like simplicity, for lack of a better term (a simple interface to powerful engineering). Regardless of scale, the inherent simplicity and joy in using the interface and CMS API remains consistent, predictable, and capable.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Highly capable on sites big and small</b></font><br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Easy-to-use, jQuery-style API</b></font><br />
+		ProcessWire's API takes it's inspiration from jQuery, providing a simple and fun programming interface to working with your content. It's all PHP, so you don't have another tag-scripting language to learn. While some background in PHP helps with more complex tasks, it is not required to develop your sites with ProcessWire.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Ideal for designers/developers and their clients</b></font><br />
+		Your design and development process won't be interrupted by ProcessWire – it's built to adapt to your way of doing things, not the other way around. ProcessWire gives you the tools to get at your data, but you make the markup. You never have to design a site for ProcessWire, and the system won't impose any limitations upon your site's design or the designer. ProcessWire is a system that you can feel good about handing the keys over to the client because it's easy for them to use and easy to support.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Easy and enjoyable to use</b></font><br />
+		ProcessWire's user interface is always focused on the task at hand. If you are editing a page, then the tools present on the screen are all specific to that end. ProcessWire does not leave the user with the impression that they have to learn a new application. It's something they already know.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Accommodates unique data needs easily</b></font><br />
+		All page fields in ProcessWire are custom fields. It's easy to edit, add, sort or remove fields from pages (via templates) as you see fit. Each template is assigned to one or more pages, and each field is assigned to one or more templates. There are no limits to the quantity and use of pages, templates or fields. Fields can be as simple as containing raw text or numbers, or more complex like rich text editors, page-to-page relations and fields that hold files or images. Fields you create in ProcessWire may be used as search and/or sort keys when finding and loading pages.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Modular plugin architecture</b></font><br />
+		While many CMSs use a modular architecture, ProcessWire takes the approach further in that the CMS itself is a group of modules built on top of the ProcessWire framework. Modules are not an afterthought or an extra, they are the system. As such, the system is well thought out and designed to be as simple and easy as possible.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Structure that makes sense</b></font><br />
+		ProcessWire uses a hierarchal structure for pages, like a family tree or a file system. There is no limit to the depth in which this structure can be defined. It is comfortable scaling to large and complex data needs, and remains simple regardless of scale. ProcessWire makes it easy to traverse this structure from the admin interface, as well as from the CMS API.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Pages that can do more</b></font><br />
+		While a Page in ProcessWire is most commonly representative of a page on your site, they may also be used as data containers for anything else (similar to a node in Drupal).  Whether used for output or not, a page's path (or URL) always relates directly to it's placement in the structure, keeping your site organized and accessible, inside and out. Each page gets  it's data structure (fields) from it's template.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Templates without limitations</b></font><br />
+		Templates are PHP files like any other, and you may use them as you wish. Whether you use them as HTML documents, RSS feeds, RESTful web services, or as controllers to call upon something else is up to you. There is no limit to the number of templates you can use, and you may assign them to pages as you see fit. Each template is assigned one or more fields that represent the data structure applied to it's pages.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Relational</b></font><br />
+		Any given pages may cross reference each other in a one-to-one or one-to-many relationship. This gives ProcessWire the ability to function like a relational database on top of a CMS. The client (or developer of the web site), rather than the software, defines what these relationships are.<br /><br />
+	</li>
+</ul> 
+		</english-features>
+		<english-ad_dir>Admin Folder</english-ad_dir>
+	</languages>
+</soft>

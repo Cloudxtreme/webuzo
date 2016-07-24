@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SPIP
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/SPIP
+	</ratings>
+	<space>
+		23066789
+	</space>
+	<support>
+		http://www.spip.net/
+	</support>
+	<version>
+		3.1.1
+	</version>
+	<mod>19</mod>
+	<release_date>10-03-2016</release_date>
+	<admin>ecrire</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SPIP</font> is a publishing system for the Internet in which great importance is attached to collaborative working, to multilingual environments, and to simplicity of use for web authors.
+		<br /><br />
+		It consists of a collection of files installed on a web server which allow you to take advantage of a number of automated tasks: multi-user management, laying out your articles without the need to use HTML, easily modifying the structure of your site, etc. 
+		<br /><br /> 
+		Using the very same application as used to browse a site (Netscape, Microsoft Internet Explorer, Mozilla, Opera...), SPIP enables you to build and update your site thanks to a very simple user interface.
+		<br /><br />
+		SPIP is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">General Public License (GPL)</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Petitions using SPIP</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Image processing</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Creating a multilingual site</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Internationalizing Templates</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Inserting LaTEX mathematical formulae</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Typographical Images</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Automatic image processing</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Content Syndication</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Multimedia and graphical processes</b></font>
+		</english-features>
+		<english-err_adminlen4>The username length should be 4 or more characters.</english-err_adminlen4>
+	</languages>
+</soft>

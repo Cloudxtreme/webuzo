@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/CumulusClips
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/video/CumulusClips
+	</ratings>
+	<space>
+		77558922
+	</space>
+	<support>
+		http://cumulusclips.org/forums/
+	</support>
+	<version>
+		2.3.1
+	</version>
+	<mod>7</mod>
+	<mod_files>2</mod_files>
+	<release_date>18-01-2016</release_date>
+	<admin>login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CumulusClips</font> | Free Video Sharing CMS, Video Sharing Script, Video Sharing Software, YouTube Clone.
+		<br /><br />
+		Start your own video sharing website with CumulusClips video sharing script. It's free and easy to use. You can build a YouTube clone where users can upload videos, rate videos, comment on videos, and much more.
+		<br /><br />
+		CumulusClips video sharing script produces video compatible on iOS &amp; Android mobile devices, as well as all the major browsers. These include: Firefox, Safari, Chrome, Opera, IE7+. Your videos are sure to reach the widest audience possible!
+		<br /><br />
+		CumulusClips is released under the <a href="http://cumulusclips.org/license/" target="_blank">GNU/GPL version 2</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li><font size="2" color="#000033"><b>Free &amp; Open Source</b></font></li>
+<li><font size="2" color="#000033"><b>Automatic Updates</b></font></li>
+<li><font size="2" color="#000033"><b>Embed Your Videos</b></font></li>
+<li><font size="2" color="#000033"><b>Mobile Ready</b></font></li>
+<li><font size="2" color="#000033"><b>Theme Based</b></font></li>
+<li><font size="2" color="#000033"><b>Plugin Ready</b></font></li>
+<li><font size="2" color="#000033"><b>Translated</b></font></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

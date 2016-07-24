@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ExoPHPDesk
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/ExoPHPDesk
+	</ratings>
+	<space>
+		1064066
+	</space>
+	<support>
+		http://exoscripts.com/exohelpdesk
+	</support>
+	<version>
+		1.2.1
+	</version>
+	<mod>5</mod>
+	<mod_files>4</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ExoPHPDesk</font> is a free php helpdesk software. It is a HelpDesk for Internet companies that require communicating with their customers. Includes Admin Area, Staff Area, Member Area. With a fast,easy template and Live chat system, it is the superior one.
+		</english-overview>		
+		<english-features>
+<p>
+  - Easy customization, by editing the templates to suit your site<br />
+  - Easy Installation through Automated steps<br />
+  - Administrator, Staff, Member Area<br />
+  - Fast And Easy Live Chat<br />
+  - Specify the viewable Tickets / Page<br />
+  - Fetch mail through an IMAP/POP3 Server and convert to tickets<br />
+
+   ( On Administrators or Staff Login)<br />
+  - Knowledge Base<br />
+  - Live Server Status<br />
+  - Unlimited Trouble Shooters<br />
+  - Mail Piping ( For Linux Users )
+  </p>
+		</english-features>
+	</languages>
+</soft>

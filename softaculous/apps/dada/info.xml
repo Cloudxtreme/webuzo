@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Dada_Mail
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/perl/mail/Dada_Mail
+	</ratings>
+	<space>
+		49043614
+	</space>
+	<support>
+		http://dadamailproject.com/support/boards/
+	</support>
+	<version>
+		9.2.2
+	</version>
+	<mod>41</mod>
+	<release_date>09-05-2016</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<index>mail.cgi</index>
+	<admin>mail.cgi/admin</admin>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Dada Mail</font> is a Contemporary Mailing List Manager,<br /><br />
+		enabling you to easily run a verified mailing list that your subscribers can trust, right on your own website.
+		<br /><br />Dada Mail helps you with managing an email mailing list, offering complete support for safe, closed-loop opt-in subscriptions, sending out mass mailings, keeping message archives and allowing you to share your messages in lots of neat ways.
+		<br /><br />
+		Dada Mail is licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#CC3366">Dada Mail is rich with features, but tries to Keep It Simple. Dada Mail is designed to favor flexibility, extensibility and ease-of-use over core speed or extremely flashy but hard-to-use features. We ship Dada Mail with sane default mailing list preferences, so you can start using Dada Mail, without causing a faux pas and keeping your subscribers happy.
+</font>
+		</english-features>
+		<english-db_set>Database Settings</english-db_set>
+		<english-db_pre>Table Prefix</english-db_pre>
+		<english-site_set>Site Settings</english-site_set>
+		<english-site_name>Mailing List Name</english-site_name>
+		<english-site_desc>List Short Name</english-site_desc>
+		<english-mail_desc>Mailing List Description</english-mail_desc>
+		<english-policy_desc>Privacy Policy</english-policy_desc>
+		<english-physical_desc>Physical Address</english-physical_desc>
+		<english-ad_act>Admin Account</english-ad_act>
+		<english-ad_name>Admin Username</english-ad_name>
+		<english-ad_pass>Dada Mail Root Password</english-ad_pass>
+		<english-list_pass>Mailing List Password</english-list_pass>
+		<english-f_name>First Name</english-f_name>
+		<english-l_name>Last Name</english-l_name>
+		<english-ad_email>List Owner Email Address</english-ad_email>
+		<english-err_php>The PHP version is less than the required 4.3.0 version!</english-err_php>
+		<english-err_no_token>The token functions are not available!</english-err_no_token>
+		<english-err_mb>The MultiByte String functions are not available!</english-err_mb>
+		<english-err_openconfig>Could not open the Configuration File</english-err_openconfig>
+		<english-err_writeconfig>Could not write the Configuration File</english-err_writeconfig>
+		<english-err_selectmy>The MySQL Database could not be selected.</english-err_selectmy>
+		<english-err_myconn>The MySQL Connection could not be established.</english-err_myconn>
+		<english-err_wrongemail>The email address is not valid.</english-err_wrongemail>
+		<english-err_ademail>The email address is not valid.</english-err_ademail>
+		<english-ad_lang>Choose Language</english-ad_lang>
+		<english-select_lang>Select Language</english-select_lang>
+	</languages>
+</soft>

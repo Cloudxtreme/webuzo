@@ -1,0 +1,82 @@
+ProjectSend r582:
+
+    Added a preview function for custom e-mail templates
+    Fixed the bug where wrong files were deleted
+    Fixed the search function for clients and groups when adding/editing files
+    Fixed a bug where files can’t be downloaded by a client if it was assigned to a group and not the client specifically
+    Fixed a bug where clients were not able to update their information and password
+    Security fixes
+
+ProjectSend r572:
+
+    XXS security error fix.
+    Fixed the update routine. r571 shows an available update even if using that version.
+    Added the language files to the git.
+
+ProjectSend r571:
+
+    Security fixes
+    Redirect on install error fixed
+    Public files are no longer considered orphan
+
+ProjectSend r561:
+
+    Security fixes
+    Tables are now responsive thanks to footable
+    Fix for the orphans list bug
+    Manage files list also shows unassigned files, because they might be public
+    Added password rules (eg: require a lower case letter, a number, etc)
+    Added SMTP authentication options
+    Added an option to limit the uploading file types to certain roles only
+    Fixes for the database queries giving errors when a NULL setting was incorrect
+    Fix for the password recovery table not being created
+    Fix for public settings being reset if a client edited a file
+    CSS Cleanup
+    minor UI cleaning
+
+ProjectSend r514:
+
+New features
+
+    Added a new form so users and clients can reset their password. *
+    Added the possibility to set an expiry date to any file.
+    Added an option to select if expired files should be hidden from the clients, or shown but not allowed to download.
+    Added a template editor so each system email text, and the general header/footer can be customized.
+    Added the possibility to set any file as public, which allows downloading via a tokenized link. Can be combined with the expiry date feature.
+    New options to select the maximum attemps to send each notification, and also an expiration date (globally, in days).
+    You can now search within the orphan files list. Also, it now has pagination.
+    Each password field now has a toggle button for visibility, and the “confirm password” fields were removed.
+    Added a new button on the files uploads page to copy the selected assignations of the current file to all others.
+    The download log is stored on a separate table. This allows the system to recognize the date each file has been downloaded.
+    Files (on the manage files page) can now be sorted by download count.
+
+Fixes
+
+    Implemented phpass for secure passwords.
+    Fixed the notifications being sent multiple times.
+    Changed the way the download link is generated to improve security.
+    More validations are made when a file is requested for download.
+    Fixed the back button so it won’t work after a user logs out.
+    No more infinite redirects on login.
+    The modal window can now be reused without reloading the page (the action is does it performs is no longer repetead).
+    Fixed the urls where a double slash (//) was used.
+    With the new download log, files that belong to groups can also be tracked when a client downloads it.
+    Options are now saved correctly every time.
+    Sorting files/users/groups by date now works with any set format.
+
+Updated scripts
+
+    plupload (1.5.7)
+    phpmailer (5.2.7)
+    Bootstrap (2.3.2)
+    timthumb
+    jQuery EasyTabs
+    jQuery flot
+
+Other notes
+
+    The new password storing system requires that all curent accounts generate a new one. The security has been improved at the cost of this minor issue.
+    The remember me checkbox has been temporarily removed. A more secure implementation is planned.
+    The version number is not visible for unlogged users.
+    jQuery is now loaded locally.
+    The UI has been normalized (menu, button and messages styles, margins, layouts).

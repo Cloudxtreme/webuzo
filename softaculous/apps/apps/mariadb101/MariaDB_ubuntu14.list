@@ -1,0 +1,4 @@
+# MariaDB 10.1 repository list - created 2016-04-20 07:03 UTC
+# http://mariadb.org/mariadb/repositories/
+deb [arch=amd64,i386] http://sfo1.mirrors.digitalocean.com/mariadb/repo/10.1/ubuntu trusty main
+deb-src http://sfo1.mirrors.digitalocean.com/mariadb/repo/10.1/ubuntu trusty main

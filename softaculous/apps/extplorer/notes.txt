@@ -1,0 +1,1 @@
+1. Extract the scripts.tar.gz in the zip package. i.e. scripts/ folder should be there in the package.

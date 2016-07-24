@@ -1,0 +1,1 @@
+1) Make zip from manual but configure the file as required.

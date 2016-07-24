@@ -1,0 +1,26 @@
+ ===== 3.1.29 ===== (21.12.2015)
+ 21.12.2015
+  - optimization improve speed of filetime checks on extends and extendsall resource
+  
+  ===== 3.1.28 ===== (13.12.2015)
+ 13.12.2015
+  - bugfix {foreach} and {section} with uppercase characters in name attribute did not work (forum topic 25819)
+  - bugfix $smarty->debugging_ctrl = 'URL' did not work (forum topic 25811)
+  - bugfix Debug Console could display incorrect data when using subtemplates
+  
+  ===== 3.1.27===== (18.06.2015)
+18.06.2015
+ - bugfix another update on file path normalization failed on path containing something like "/.foo/" https://github.com/smarty-php/smarty/issues/56
+
+ ===== 3.1.25===== (15.06.2015)
+ 15.06.2015
+  - optimization of smarty_cachereource_keyvaluestore.php code
+
+ ===== 3.1.24===== (23.05.2015)
+ 23.05.2015
+  - improvement on php_handling to allow very large PHP sections, better error handling
+  - improvement allow extreme large comment sections (forum 25538)
+  
+ 21.05.2015
+  - bugfix broken PHP 5.2 compatibility when compiling <?php tags https://github.com/smarty-php/smarty/issues/40
+  - bugfix named {foreach} comparison like $smarty.foreach.foobar.index > 1 did compile into wrong code https://github.com/smarty-php/smarty/issues/41

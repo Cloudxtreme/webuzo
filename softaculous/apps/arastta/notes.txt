@@ -1,0 +1,1 @@
+Install with demo data (Settings option while manual installation)

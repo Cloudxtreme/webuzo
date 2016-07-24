@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			<handle>__upgrade_files</handle>
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>app/config/parameters.yml</exclude>
+	</files>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

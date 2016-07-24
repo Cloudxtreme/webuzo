@@ -1,0 +1,16 @@
+.htaccess
+COPYING
+README
+adm
+blank.gif
+feed.php
+images
+index.php
+install.php
+js
+open_search.php
+pdf.php
+rdf.php
+theme
+uninstall.php
+upgrade.php

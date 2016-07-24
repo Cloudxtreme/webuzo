@@ -1,0 +1,4 @@
+1. The default home page is Forbidden in the package itself and we do not redirect to admin page because if we redirect there is no point to change the admin folder.
+2. Change the index.html on demo to redirect to admin page.
+3. Select timezone as : America/New_York.
+4. We have added admin_tips.txt to the package as the upgrade utility does not want any files from the folder except this file so we exclude the complete folder and copy the file.

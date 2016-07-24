@@ -1,0 +1,4 @@
+1) Make folliwing changes in .htaccess 
+RewriteBase [[relativeurl_]]
+It is mentioned in installer and on installation document
+2) Please check if new language is added in /application/language then update install.xml

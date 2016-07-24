@@ -1,0 +1,54 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+				<option value="english">English</option>
+				<option value="Albanian">Albanian</option>
+				<option value="Arabic">Arabic</option>
+				<option value="Catalan">Catalan</option>
+				<option value="Chinese Simplified">Chinese Simplified</option>
+				<option value="Croatian">Croatian</option>
+				<option value="Czech">Czech</option>
+				<option value="Dutch">Dutch</option>
+				<option value="Danish">Danish</option>
+				<option value="Estonian">Estonian</option>
+				<option value="Finnish">Finnish</option>
+				<option value="French">French</option>
+				<option value="German">German</option>
+				<option value="Greek">Greek</option>
+				<option value="Indonesian">Indonesian</option>
+				<option value="Italian">Italian</option>
+				<option value="Latvian">Latvian</option>
+				<option value="Lithuanian">Lithuanian</option>
+				<option value="Norwegian">Norwegian</option>
+				<option value="Persian">Persian</option>
+				<option value="Polish">Polish</option>
+				<option value="Portuguese">Portuguese</option>
+				<option value="Portuguese, Brazilian">Portuguese-BR</option>
+				<option value="Spanish">Spanish</option>
+				<option value="Swedish">Swedish</option>
+				<option value="Turkish">Turkish</option>
+				<option value="Vietnamese">Vietnamese</option>
+			</select>
+			<head>{{select_lang}}</head>
+		</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

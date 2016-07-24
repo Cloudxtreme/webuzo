@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Faveo_Helpdesk
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Faveo_Helpdesk
+	</ratings>
+	<space>
+		113740762
+	</space>
+	<support>
+		http://www.faveohelpdesk.com/contact-us/
+	</support>
+	<version>
+		1.0.7.4
+	</version>
+	<mod>7</mod>
+	<release_date>09-05-2016</release_date>
+	<admin>public/auth/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.9" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="tokenizer" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Faveo Helpdesk</font> Open source ticketing system build on Laravel framework.
+		<br /><br />
+		Faveo word is derived from Latin which means to be favourable. Which truly highlights vision and the scope as well as the functionality of the product that Faveo is. It is specifically designed to cater the needs of startups and SME's empowering them with state of art, ticket based support system. In today's competitive startup scenario customer retention is one of the major challenges. Handling client query diligently is all the difference between retaining or losing a long lasting relationship.
+		<br /><br />
+		Faveo Helpdesk is released under the <a href="https://opensource.org/licenses/OSL-3.0" target="_blank">Open Software License ("OSL") v. 3.0</a>.
+		</english-overview>		
+		<english-features>
+    	<font color="#1CBAC8"><b>Unlimited content</b></font><br />
+        Faveo comes with capability to upload unlimited content as many article and faq's.<br /><br />
+    	<font color="#1CBAC8"><b>Ticketing Management</b></font><br />
+        Faveo ticketing management system helps you to manage tickets and queries efficiently and effectively.<br /><br />
+    	<font color="#1CBAC8"><b>SLA Management</b></font><br />
+        Faveo comes loaded with integrated time-assigned resolution and support system based on SLA defined.<br /><br />
+    	<font color="#1CBAC8"><b>Priority Management</b></font><br />
+        Faveo comes loaded with integrated time-assigned priority ticket resolution and support system.<br /><br />
+    	<font color="#1CBAC8"><b>Auto Reply</b></font><br />
+        Faveo comes auto reply system for every ticket raised and reply.<br /><br />
+    	<font color="#1CBAC8"><b>Customer Portal</b></font><br />
+        Faveo comes with customer portal to track ticket status and access knowledge base.<br /><br />
+    	<font color="#1CBAC8"><b>Sort article according to category</b></font><br />
+        Easy to use helps you to sort articles according to categories.<br /><br />
+    	<font color="#1CBAC8"><b>Assign Tickets</b></font><br />
+        Faveo allows assignment of tickets to particular agent as well as departments<br /><br />
+    	<font color="#1CBAC8"><b>Built-In Knowledge Base</b></font><br />
+        Faveo comes loaded with Knowledge base to define FAQ's, An easy way for users to help themselves.<br /><br />
+		</english-features>
+		<english-err_names>The firstname and lastname may only contain letters</english-err_names>
+	</languages>
+</soft>

@@ -1,0 +1,59 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://developer.yahoo.com/yui/3/examples/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/YUI
+	</ratings>
+	<space>
+		32132593 
+	</space>
+	<support>
+		http://developer.yahoo.com/yui/
+	</support>
+	<version>
+		3.18.1
+	</version>
+	<mod>31</mod>
+	<release_date>22-10-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">YUI Library</font> is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.
+		<br /><br />
+		YUI is proven, scalable, fast, and robust. Built by frontend engineers at Yahoo! and contributors from around the world, it's an industrial-strength JavaScript library for professionals who love JavaScript.
+		<br /><br />
+		YUI is available under a <a href="http://developer.yahoo.com/yui/license.html" target="_blank">BSD license</a> and is free for all uses.
+		</english-overview>		
+		<english-features>
+<ul>
+<li><a href="http://developer.yahoo.com/yui/3/anim/" target="_blank">Animation</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/async-queue/" target="_blank">AsyncQueue</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/cache/" target="_blank">Cache</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/cookie/" target="_blank">Cookie</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/dataschema/" target="_blank">DataSchema</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/datasource/" target="_blank">DataSource</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/datatype/" target="_blank">DataType</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/dd/" target="_blank">Drag &amp; Drop (DD)</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/get/" target="_blank">Get</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/history/" target="_blank">History</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/imageloader/" target="_blank">ImageLoader</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/io/" target="_blank">IO</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/json/" target="_blank">JSON</a></li>
+<li><a href="http://developer.yahoo.com/yui/3/stylesheet/" target="_blank">StyleSheet</a></li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font><br />
+		Please refer to <a href="http://developer.yahoo.com/yui/articles/gbs/" target="_blank">YUI Graded Browser Support</a>
+
+		</english-features>
+	</languages>
+</soft>

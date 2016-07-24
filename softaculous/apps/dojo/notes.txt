@@ -1,0 +1,2 @@
+1. Make dojo.zip from original dojo/dojo.js
+2. Make package.zip from dojo/

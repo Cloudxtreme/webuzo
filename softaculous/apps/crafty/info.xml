@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Crafty_Syntax
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Crafty_Syntax
+	</ratings>
+	<space>
+		11408456
+	</space>
+	<support>
+		http://www.salessyntax.com
+	</support>
+	<version>
+		3.5.4
+	</version>
+	<mod>34</mod>
+	<release_date>28-05-2016</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Crafty Syntax</font> Live Help (CSLH) is an open source live support solution that helps customer support with live help functionality that can be proactively pushed to visitors to your site or requested by the consumer. Crafty Syntax includes a large range of features to allow multiple operators, multiple departments and multiple languages to be used.
+		<br /><br />
+		Crafty Syntax Live Help is free and is progammed in PHP with Mysql for the datatabase. Other highlighted features include the ability to create your own questions, auto inviting visitors, referer tracking, page tracking, ability to view what the customer is typing as they type, multiple chat sessions, sound alert, leave a message if offline, push urls, quick responses, Customizable graphics, and multiple operators.
+		<br /><br />
+		Crafty Syntax is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features><ul>
+<li>Unlimited operators, departments, and users</li>
+<li>Live Support with visitors on your site in real time</li>
+<li>Proactive chat invites</li>
+<li>Typing Preview to see what is being typed as it is being typed</li>
+<li>Chat Transcripts and Logging</li>
+<li>page and referer Tracking </li>
+<li>Canned Messages</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

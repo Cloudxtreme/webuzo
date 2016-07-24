@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the linux/mac community package from (http://neo4j.com/download/other-releases/)

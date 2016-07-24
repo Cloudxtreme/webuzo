@@ -1,0 +1,1 @@
+1. We need to configure config file since root folder can't be give full access.

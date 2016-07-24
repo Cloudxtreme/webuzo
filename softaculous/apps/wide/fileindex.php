@@ -1,0 +1,10 @@
+LICENSE
+README
+VERSION
+demo
+doc
+gpl.txt
+lgpl.txt
+lib
+test
+index.php

@@ -1,0 +1,1 @@
+Please place the USING BTREE properly in the SQL file

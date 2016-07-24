@@ -1,0 +1,147 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Eventum
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Eventum
+	</ratings>
+	<space>
+		10138632
+	</space>
+	<support>
+		http://dev.mysql.com/downloads/other/eventum/
+	</support>
+	<version>
+		2.2
+	</version>
+	<mod>1</mod>
+	<mod_files>5</mod_files>
+	<admin>manage/projects.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Eventum</font> is a user-friendly and flexible issue tracking system that can be used by a support department to track incoming technical support requests, or by a software development team to quickly organize tasks and bugs.
+		<br /><br />
+		Eventum is licensed under <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<h3>General</h3>
+
+<ul>
+  <li>Allow visitors to signup with new Eventum accounts
+    <ul>
+      <li>Ability to turn this feature off altogether</li>
+      <li>Specify which projects are available for users who create their own accounts</li>
+      <li>Specify which permission level these users are granted</li>
+    </ul>
+  </li>
+  <li>Ability to run several projects with the same instance of Eventum
+    <ul>
+      <li>Create custom releases, categories and priorities for each project</li>
+      <li>Assign users to specific projects</li>
+      <li>Configure certain projects to allow anonymous posting of new issues</li>
+    </ul>
+  </li>
+  <li>Create / Modify / Delete custom issue resolutions</li>
+  <li>Track duplicate issues
+    <ul>
+      <li>Changes to the duplicated issue are automatically propagated to the child issues</li>
+      <li>Links from/to the duplicated issue from/to the child ones</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Email Integration</h3>
+
+<ul>
+  <li>Integrate your support emails with issues in Eventum</li>
+  <li>Use as many email accounts as you want</li>
+  <li>Associate specific email accounts to projects</li>
+  <li>Create / Modify / Delete canned email responses to automate common tasks of replying to support email</li>
+  <li>Email Routing Interface
+    <ul>
+      <li>Email attachments are automatically saved in issue.</li>
+      <li>Control who is authorized to send emails in each issue.</li>
+      <li>Blocked emails are saved as notes for later use.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>SCM Integration</h3>
+
+<ul>
+  <li>Integration with CVS/SVN</li>
+  <li>Keep a history of all modified files associated with a given issue</li>
+  <li>The CVS module, filename, developer and revision information is saved</li>
+  <li>Integration with third party tools
+    <ul>
+      <li>Ability to view changes between revisions</li>
+      <li>Ability to view the source of specific revisions of files</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Project Management</h3>
+
+<ul>
+  <li>Time tracking tool allows you to keep your schedule up-to-date in a per issue basis
+    <ul>
+      <li>Enter time for tasks done in past dates</li>
+      <li>The owner may remove entries that are wrong or out of place</li>
+      <li>The total of time spent in an issue is displayed in the issue listing page</li>
+      <li>Custom categories to be able to see where most of the time is spent on</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Issue Listing</h3>
+
+<ul>
+  <li>Ability to save and load unlimited custom filters</li>
+  <li>The grid layout helps you to quickly find all the information you need</li>
+  <li>The assigned users are displayed for every issue</li>
+  <li>Quickly assign issues by choosing the issues and the users</li>
+  <li>The total time spent working in each issue is available</li>
+  <li>Export the issue listing contents to a spreadsheet</li>
+</ul>
+
+<h3>Reporting Issues</h3>
+<ul>
+  <li>Upload as many files as you want in one go</li>
+  <li>Report as many issues as you want without having to leave the issue report screen</li>
+</ul>
+
+<h3>Command Line Interface</h3>
+
+<ul>
+  <li>Quickly check and modify issues without opening a web browser.</li>
+    <ul>
+      <li>View details of issues.</li>
+      <li>Lock/Unlock issues.</li>
+      <li>Assign issues to any user.</li>
+      <li>Add authorized repliers to issues.</li>
+      <li>Change status of issues.</li>
+      <li>Add time tracking entries.</li>
+      <li>Close issues with comments.</li>
+      <li>List and download files attached to issues.</li>
+      <li>View issue emails.</li>
+      <li>Unblock blocked emails.</li>
+      <li>View issue notes.</li>
+    </ul>
+</ul>
+
+<p>And much more...</p>
+		</english-features>
+		<english-smtp_exp>Please provide the Server Address you wish to use.<br />
+		You can change this later from the Eventum Admin Panel.</english-smtp_exp>
+		<english-err_php53_com> is not compatible with PHP version 5.3+</english-err_php53_com>
+	</languages>
+</soft>

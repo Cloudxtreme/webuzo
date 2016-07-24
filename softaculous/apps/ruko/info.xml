@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Rukovoditel
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Rukovoditel
+	</ratings>
+	<space>
+		32871803
+	</space>
+	<support>
+		http://rukovoditel.net/forum.php
+	</support>
+	<version>
+		1.6.1
+	</version>
+	<mod>1</mod>
+	<release_date>25-02-2016</release_date>
+	<admin>index.php?module=users/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Rukovoditel</font> Free web-based open-source project management tool suitable for a small team.
+		Unlike traditional tools, Rukovoditel expands the approach to project management, allowing you to create your own application, the most suitable for your activity.
+		<br /><br />
+		Rukovoditel is divided into the Standard Part and the Extension. In Standard Part you will find tools for designing and configuring your application. Extension includes reports and tools for more effectively data management.
+		<br /><br />
+		Rukovoditel is released under the <a href="http://opensource.org/licenses/OSL-3.0" target="_blank">Open Software License version 3.0</a>.
+		</english-overview>		
+		<english-features>
+			<ul>
+				<li>Extend your application<br />
+				The system allows you to extend the application by adding new entities.</li>
+				<li>Create the necessary fields<br />
+				For each entity, you can add fields with different types.</li>
+				<li>Configure view<br />
+				You can customize the view of the form and a list of items</li>
+				<li>Use Comments<br />
+				Comments are used if necessary to keep a history of changes</li>
+				<li>Create Reports<br />
+				With reports, you can filter the data by any field.</li>
+				<li>Configure Access<br />
+				You have the ability to configure access to each entity, fields and comments.</li>
+				<li>Data Export<br />
+				The system will allow to export data to Excel / PDF format.</li>
+				<li>Data Import<br />
+				You have the ability to import data from Excel file</li>
+			</ul>		
+		</english-features>
+	</languages>
+</soft>

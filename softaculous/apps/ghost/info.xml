@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Ghost
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Ghost
+	</ratings>
+	<space>
+		14021980
+	</space>
+	<support>
+		https://ghost.org
+	</support>
+	<version>
+		0.8.0
+	</version>
+	<mod>26</mod>
+	<mod_files>1</mod_files>
+	<release_date>19-05-2016</release_date>
+	<admin>ghost</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Ghost</font> is an Open Source application which allows you to write and publish your own blog, giving you the tools to make it easy and even fun to do. It's simple, elegant, and designed so that you can spend less time making your blog work and more time blogging.
+		<br /><br />
+		Ghost is released under <a href="https://ghost.org/about/license/" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Customise it Completely. It's Yours.</b></font><br /><br />
+<font size="1">You can write themes for it so your blog can have its own design. You can write plugins for it to add your own functionality. You can host it on your laptop, or you can host it on a public server. The code is open, and so is the MIT license. No restrictions.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>It Works Where You Work</b></font><br /><br />
+<font size="1">We know that inspiration can strike anywhere, not just when you're sitting behind a computer. So, Ghost works where you work.
+Ghost is a fully responsive web application that works on all devices. Not just moderating comments or token functionality. The whole thing.
+</font><br /><br />
+		</english-features>		
+		<english-ghost_service_heading>Node.js Service</english-ghost_service_heading>
+		<english-service>Choose action for Node.js service</english-service>
+		<english-exp_service>Do you want to start/stop/restart Node.js service for this installation ?</english-exp_service>
+		<english-service_none>None</english-service_none>
+		<english-service_start>Start</english-service_start>
+		<english-service_stop>Stop</english-service_stop>
+		<english-service_restart>Restart</english-service_restart>
+	</languages>
+</soft>

@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/FUDforum
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/FUDforum
+	</ratings>
+	<space>
+		3851421
+	</space>
+	<support>
+		http://fudforum.org/forum/
+	</support>
+	<version>
+		3.0.5
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<release_date>06-10-2013</release_date>
+	<admin>adm/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.1.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="pcre" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">FUDforum</font> (Fast Uncompromising Discussion Forum) is a free and open source web discussion forum.
+		<br /><br />
+FUDforum combines an extensive feature set while maintaining the ability to generate forum web pages extremely fast.
+The forum includes i18n and templating support allowing for a complete customization of its output as well as a very capable group based permission system.
+<br /><br />
+FUDforum can also act as a Mailing List Manager, USENET newsreader and even an XML Feed Aggregator.
+This will allow you to build an instant community and consolidate all your messages into a single system. 
+		<br /><br />
+		FUDforum is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<b>Some of FUDforum's major features include:</b>
+<ul>
+<li><b>Spell Checker</b> FUDforum supports a fully functional spell checker, that if enabled would allow forum users to spell check their messages before posting.
+The spell checker utilizes PHP's Pspell library and supports multiple languages. </li><br />
+<li><b>Templating System</b> FUDforum contains a fully customizable templating system, that allows you to completely customize the the look and feel of your forum. For optimal performance the templates are compiled, so you do not lose any speed as you do in other forums by having a templating system.
+The Template Editor can be found inside the administrator control panel.</li><br />
+<li><b>i18n Support</b> FUDforum has full i18n support, that allows an easy translation of the forum into a language of your choice. Currently FUDforum is distributed with more than 40 languages, including English, French, German, Swedish, Polish, Turkish, Spanish, Chinese and several others.</li><br />
+<li><b>Group Permission System</b> FUDforum supports a highly capable permissions system, which can be used to control what forum users can and cannot do. Using this system you can grant special access rights to certain users, block users from seeing and/or accessing certain forum etc.</li><br />
+<li><b>Private Messaging</b> FUDforum includes a private messaging (PM) system that if enabled via the global control panel allows forum members to send private messages to one another.</li><br />
+<li><b>File Attachments</b> If permitted by the administrator, users may attach files to their forum and private messages. The amount of files that the user can attach as well as their maximum size can be defined by the administrator on a forum by forum basis via the forum control panel. The ability to attach files to private messages can be defined by the administrator via the private messaging system controls.</li><br />
+<li><b>Polls</b> FUDforum supports a complete polling system, which may enable users to add polls to their messages. Permissions to create and vote on polls is controllable by the admins via the group management system.</li><br />
+<li><b>Forum and Topic Subscriptions</b> The users on the forum have the ability to subscribe to topics and forums. By subscribing to a topic a user will receive an E-mail or ICQ notification about any new posts made inside that topic. The subscription to a forum on the other hand will notify the user of any new topics created in the forum.</li><br />
+<li><b>Full Text Search</b> FUDforum includes a full text search that allows users to search the posted messages by entering one or more keywords. The user has the option of limiting the search to a particular forum or category or they can search the entire forum. A user may either limit a search to a particular forum or category or search the entire forum.</li><br />
+<li><b>I-Spy and Online Status</b>I-SPY is a neat feature, that if enabled will allow forum users to see what other forum users are doing at this very moment.<br />
+The forum also keeps track of the currently online users, an indicator is placed beside each message showing whether the author of the message is currently online or not. This too can be disabled via the global control panel. </li><br />
+<li><b>BBcode</b> BBcode is a series of text formatting tags that allow users to style the text of their messages and signatures. More information about these features as well as the complete list of supported tags can be found here. </li><br />
+
+</ul>
+		</english-features>
+	</languages>
+</soft>

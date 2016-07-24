@@ -1,0 +1,31 @@
+2.3.4 (2015-02-08)
+------------------
+- Security vulnerability fix (http://mylittleforum.net/forum/index.php?id=8182)
+- Fix in contains_invalid_string() function (http://mylittleforum.net/forum/index.php?id=8169)
+- Smarty update (3.1.21)
+
+2.3.3 (2014-04-10)
+------------------
+- htmlspecialchars warnings bug fix (http://mylittleforum.net/forum/index.php?id=7576)
+- more smilies button bug fix (http://mylittleforum.net/forum/index.php?id=7612)
+- French language file bug fix (http://mylittleforum.net/forum/index.php?id=7175)
+- Spanish translation completed
+
+2.3.2 (2013-11-24)
+------------------
+- language bug fix: http://mylittleforum.net/forum/index.php?id=7077
+- theme switch bug fix: http://mylittleforum.net/forum/index.php?id=7345
+- Smarty updated (3.1.15)
+- Bad Behavior updated (2.2.14)
+- Swedish language file added
+
+
+2.3.1 (2012-12-01)
+------------------
+- JavaScript fix: http://mylittleforum.net/forum/index.php?id=6718
+- Stop Forum Spam (http://www.stopforumspam.com/) implemented
+- list spam feature implemented
+- Smarty updated (3.1.12)
+- Bad Behavior updated (2.2.11)
+- GeSHi updated (1.0.8.11)
+- set default time zone to UTC to prevent generating a E_NOTICE

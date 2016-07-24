@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Mambo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Mambo
+	</ratings>
+	<space>
+		13053359
+	</space>
+	<support>
+		http://forum.mambo-foundation.org/
+	</support>
+	<version>
+		4.6.5
+	</version>
+	<mod>5</mod>
+	<mod_files>4</mod_files>
+	<admin>administrator/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirements>
+	    <php_max>5.2</php_max>
+	</requirements>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Mambo</font> is a full-featured, award-winning content management system that can be used for everything from simple websites to complex corporate applications. It is used all over the world to power government portals, corporate intranets and extranets, ecommerce sites, nonprofit outreach, schools, church, and community sites. Mambo's "power in simplicity" also makes it the CMS of choice for many small businesses and personal sites.
+		<br /><br />
+		Powerful enough for the most demanding internet or intranet site, simple enough for everyone to use!
+		<br /><br />
+		Mambo uses Version 2 of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU/GPL license</a> which means that you are free to use Mambo and/or modify it, under the terms of the license.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>A large and healthy user and developer community.</li>
+<li>Provides a basic level of content approval for registered users.</li>
+<li>Online help.</li>
+<li>Page caching mechanism to improve performance on busy sites.</li>
+<li>Trash manager</li>
+<li>Advertising management (banners, etc).</li>
+<li>Media (images, documents) upload and management.</li>
+<li>Content display scheduling.</li>
+<li>Content syndication (RSS).</li>
+<li>Search engine friendly (SEF) URL's.</li>
+<li>Internationalisation (interface translation).</li>
+<li>Content macro language (aka mambots).</li>
+<li>Advanced and separate system administation system.</li>
+<li>Advanced package/addon/template deployment system.</li>
+<li>Simple but powerful template system (written mostly in HTML, no complex templating syntax to learn, just a    couple of PHP functions to include).</li>
+<li>Heirarchial user access groups.</li>
+<li>Basic visitor statistics.</li>
+<li>Multiple WYSIWYG content editor support</li>
+<li>Simple polls</li>
+<li>Content voting/rating system</li>
+</ul>
+		</english-features>
+		<english-err_php53_com>is not compatible with PHP version 5.3+</english-err_php53_com>
+	</languages>
+	<requirements check="php" type="version" operator="lt" value="5.3" />
+</soft>

@@ -1,0 +1,46 @@
+### v3.0.0 2016-04-13
+This release changes a lot of methods, please see [the upgrade guide](http://stuk.github.io/jszip/documentation/upgrade_guide.html).
+
+- replace sync getters and `generate()` with async methods (see [#195](https://github.com/Stuk/jszip/pull/195)).
+- support nodejs streams (in `file()` and `generateAsync()`).
+- support Blob and Promise in `file()` and `loadAsync()` (see [#275](https://github.com/Stuk/jszip/pull/275)).
+- add `support.nodestream`.
+- zip.filter: remove the defensive copy.
+- remove the deprecated API (see [#253](https://github.com/Stuk/jszip/pull/253)).
+- `type` is now mandatory in `generateAsync()`.
+- change the createFolders default value (now `true`).
+- Dates: use UTC instead of the local timezone.
+- Add `base64` and `array` as possible output type.
+- Add a forEach method.
+- Drop node 0.8 support (see [#270](https://github.com/Stuk/jszip/pull/270)).
+
+### v2.6.0 2016-03-23
+- publish `dist/` files in the npm package
+- update pako to v1.0.0
+- add support of Array in JSZip#load
+- improve file name / comment encoding support
+- handle prepended data
+- improve platform coverage in tests
+
+### v2.5.0 2015-03-10
+- add support for custom mime-types (see #199).
+- add an option to set the DEFLATE level (see #201).
+- improve the error message with corrupted zip (see #202).
+- add support for UNIX / DOS permissions (see #200 and #205).
+
+### v2.4.0 2014-07-24
+- update pako to 0.2.5 (see [#156](https://github.com/Stuk/jszip/issues/156)).
+- make JSZip work in a Firefox addon context (see [#151](https://github.com/Stuk/jszip/issues/151)).
+- add an option (`createFolders`) to control the subfolder generation (see [#154](https://github.com/Stuk/jszip/issues/154)).
+- allow `Buffer` polyfill in the browser (see [#139](https://github.com/Stuk/jszip/issues/139)).
+
+### v2.3.0 2014-06-18
+- don't generate subfolders (see [#130](https://github.com/Stuk/jszip/issues/130)).
+- add comment support (see [#134](https://github.com/Stuk/jszip/issues/134)).
+- on `ZipObject#options`, the attributes `date` and `dir` have been deprecated and are now on `ZipObject` (see [the upgrade guide](http://stuk.github.io/jszip/documentation/upgrade_guide.html)).
+- on `ZipObject#options`, the attributes `base64` and `binary` have been deprecated (see [the upgrade guide](http://stuk.github.io/jszip/documentation/upgrade_guide.html)).
+- deprecate internal functions exposed in the public API (see [#123](https://github.com/Stuk/jszip/issues/123)).
+- improve UTF-8 support (see [#142](https://github.com/Stuk/jszip/issues/142)).
+
+### v2.2.2, 2014-05-01
+ - update pako to v0.2.1, fix an error when decompressing some files (see [#126](https://github.com/Stuk/jszip/issues/126)).

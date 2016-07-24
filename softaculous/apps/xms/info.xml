@@ -1,0 +1,88 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/XMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/XMS
+	</ratings>
+	<space>
+		1065541
+	</space>
+	<support>
+		http://www.aws-dms.com
+	</support>
+	<version>
+		5.0.4
+	</version>
+	<mod>4</mod>
+	<release_date>13-05-2015</release_date>
+	<admin>index.php?use=templates/designer.xml</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="xsl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">XMS</font> is Easy, almost everything on the web is xml, isn't it? This opens new ways of using data, I mean everything on the internet can be considered a datasource, and there are plenty of them. 
+		<br /><br />
+		XMS is an online visual web development enviroment and framework, providing a web application base, with multi language support, based on XML.
+		<br /><br />
+		XMS is released under the <a href="http://www.aws-dms.com/GPL.TXT" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li><font color="#176BBD" size="2">Aws Designer: One tool for all operations</font>
+	<ul>
+		<li>Build applications</li>
+		<li>Create multi language support</li>
+		<li>Create / edit configuration</li>
+		<li>Template generator and editor</li>
+		<li>Bulk processing</li>
+		<li>Even create you own rss news</li>
+	</ul>
+	</li><br />
+	<li><font color="#176BBD" size="2">Onsite programming</font>
+	<ul>
+		<li>Using aws Designer you can create new applications or edit existing ones remotely, without using special software or any other resource.</li>
+		<li>You can even use a public computer, log into designer on your site and move on.</li>
+	</ul>
+	</li><br />
+	<li><font color="#176BBD" size="2">More data sources</font>
+	<ul>
+		<li>Any html/xml page on your site, or anywhere on internet, can be used as data source.</li>
+	</ul>
+	</li><br />
+	<li><font color="#176BBD" size="2">Less study</font>
+	<ul>
+		<li>You don't need to spend too much time learning dozens of classes, functions and browsing a bushy documentation.</li>
+		<li>You only have to understand how an aws application is working (takes less that 10 minutes) and use Designer rules manager to build a new application.</li>
+		<li>Can be easily used with any other framework and most of the time only basics of php coding is enough; In addition this software provides a "visual" framework (directives and filters) and only two classes awsXML (for xml files/datasources) and awsHTML (for html files/datasources)</li>
+	</ul>
+	</li><br />
+	<li><font color="#176BBD" size="2">Templates generated automatically</font>
+	<ul>
+		<li>You don't have to loose time building templates, because Designer does this for you!!</li>
+		<li>With simply one click of a button you can import any html page from your mockup or anywhere on the web.</li>
+	</ul>
+	</li><br />
+	<li><font color="#176BBD" size="2">Easy to extend</font>
+	<ul>
+		<li>You can define your own directives in application processor.</li>
+	</ul>
+	</li><br />
+	<li><font color="#176BBD" size="2">Easy to share</font>
+	<ul>
+		<li>Each application can be used as code library or templates container.</li>
+	</ul>
+	</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

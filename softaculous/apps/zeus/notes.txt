@@ -1,0 +1,4 @@
+1. While manual installation choose :
+Currency : US dollar
+currency token : $
+2. Install with sample data

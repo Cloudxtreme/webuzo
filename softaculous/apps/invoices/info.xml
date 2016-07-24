@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SimpleInvoices
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/SimpleInvoices
+	</ratings>
+	<space>
+		40283547
+	</space>
+	<support>
+		http://www.simpleinvoices.org/
+	</support>
+	<version>
+		2011.1
+	</version>
+	<mod>4</mod>
+	<mod_files>5</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Simple Invoices</font> focuses on the basic needs of invoicing yet gives users advanced flexibility without compromising simplicity.  
+		<br /><br />
+		Simple Invoices is released under the <a href="http://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Quick and nice looking invoices</li>
+<li>Export to Microsoft Word, Excel or plain text</li>
+<li>Multiple invoice types</li>
+<li>Invoice templates</li>
+<li>Invoice preferences</li>
+<li>Basic inventory support</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

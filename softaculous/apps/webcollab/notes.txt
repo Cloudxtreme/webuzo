@@ -1,0 +1,4 @@
+1) download tar.gz version (not the zip) from http://sourceforge.net/projects/webcollab/.
+2) Keep default abbreviated sitename.
+3) uncheck  'use email' and  don't enter 'smtp' details. 
+4) Keep default timezone (GMT).

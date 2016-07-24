@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/pimcore
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/pimcore
+	</ratings>
+	<space>
+		194597745
+	</space>
+	<support>
+		http://www.pimcore.org/
+	</support>
+	<version>
+		4.0.1
+	</version>
+	<mod>20</mod> 
+	<release_date>01-06-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="exif" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="openssl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pimcore</font> is a powerful and robust Zend Framework based PHP content management system (WCMS) for creating and managing digital content and assets.
+		<br /><br />
+		Besides being a full-featured open-source WCMS system, pimcore is the first and premier PHP open source enterprise product information management framework (PIM) available. 
+		<br /><br />
+		Pimcore is licensed under the <a href="http://www.pimcore.org/license" target="_blank">BSD license</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#F46200"><b>Web-Content Management</b></font><br />
+<font size="1">The biggest challenge for a content management system is to make it really easy and user-friendly for the editors to manage web content. Within pimcore almost all editing is done by using the drag-and-drop features of the rich administration interface, which is powered by well-known ExtJS framework.</font><br />
+<font size="2" color="#F46200"><b>Asset Management</b></font><br />
+<font size="1">Managing digital assets within pimcore is really easy, flexible and intuitive. It is a web-based, open source digital asset management module which has been designed to give your editors easy and fast access to print as well as web ready assets for website embedding or for content distribution. </font><br />
+<font size="2" color="#F46200"><b>Product Information Management</b></font><br />
+<font size="1">Product Information Management is the base technology for providing product information in a multi-channel and cross-media environment. Pimcore is the first and premier PHP open source enterprise product information management framework (PIM) available. </font><br />
+		</english-features>
+	</languages>
+</soft>

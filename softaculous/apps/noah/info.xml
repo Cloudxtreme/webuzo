@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Noahs_Classifieds
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/admanager/Noahs_Classifieds
+	</ratings>
+	<space>
+		5918620
+	</space>
+	<support>
+		http://www.noahsclassifieds.org/
+	</support>
+	<version>
+		3.2.0
+	</version>
+	<mod>12</mod>
+	<mod_files>3</mod_files>
+	<admin>user/login_form</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Noah's</font> Classifieds Free Version is a great Classifieds App that can be used for any niche.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Unlimited Categories and Sub-Categories.</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Control Panel LIST:</b></font>
+	<ul>
+		<li>Settings</li>
+		<li>Content</li>
+		<li>Users</li>
+		<li>Notifications</li>
+	</ul><br /> 
+<font size="2" color="#1281B6"><b>Custom Fields List:</b></font>
+	<ul>
+		<li>Text</li>
+		<li>Text Area</li>
+		<li>Boolean</li>
+		<li>Selection</li>
+		<li>Separator</li>
+		<li>Multiple Selection</li>
+		<li>Checkbox</li>
+		<li>Pictures</li>
+		<li>Media Files</li>
+		<li>Weblink</li>
+		<li>Calendar</li>
+	</ul>
+		</english-features>
+	</languages>
+</soft>

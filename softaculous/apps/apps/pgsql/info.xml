@@ -1,0 +1,111 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/PostgreSQL
+	</ratings>
+	<space>
+		21602304
+	</space>
+	<support>
+		http://www.postgresql.org/support/
+	</support>
+	<version>
+		9.3.6
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<release_date>02-02-2015</release_date>
+	
+	<path name="53so">/usr/local/apps/php53/ext/pgsql.so</path>
+	<path name="54so">/usr/local/apps/php54/ext/pgsql.so</path>
+	<path name="55so">/usr/local/apps/php55/ext/pgsql.so</path>	
+	<path name="56so">/usr/local/apps/php56/ext/pgsql.so</path>
+	<path name="base">/usr/local/apps/pgsql</path>
+	<path name="daemon">/usr/local/apps/pgsql/bin/psql</path>
+	
+	<initd name="postgresql">/usr/local/apps/pgsql/bin/postgresqlctl</initd>
+	
+	<extract file="pgsql-$arch.tar.gz">$appsdir</extract>
+	
+	
+	<remove>/usr/local/apps/pgsql</remove>	
+	
+	<notes>
+		<center><font size="5" color="#182e7a">PostgreSQL Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base</td>
+				<td>/usr/local/apps/pgsql</td>
+			</tr>
+			<tr>
+				<td>Server Binary</td>
+				<td>/usr/local/apps/pgsql/bin/psql</td>
+			</tr>
+			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PostgreSQL</font> is a powerful, open source object-relational database system. It has more than 15 years of active development and a proven architecture that has earned it a strong reputation for reliability, data integrity, and correctness. It runs on all major operating systems, including Linux, UNIX (AIX, BSD, HP-UX, SGI IRIX, Mac OS X, Solaris, Tru64), and Windows. It is fully ACID compliant, has full support for foreign keys, joins, views, triggers, and stored procedures (in multiple languages). It includes most SQL:2008 data types, including INTEGER, NUMERIC, BOOLEAN, CHAR, VARCHAR, DATE, INTERVAL, and TIMESTAMP. It also supports storage of binary large objects, including pictures, sounds, or video. It has native programming interfaces for C/C++, Java, .Net, Perl, Python, Ruby, Tcl, ODBC, among others.
+		<br /><br />
+		PostgreSQL is distributed under the <a href="http://opensource.org/licenses/postgresql" target="_blank">PostgreSQL License</a>
+		</english-overview>
+		<english-features>
+			
+			<h2>Featureful and Standards Compliant</h2><p>PostgreSQL prides itself in standards compliance. Its SQL implementation
+			strongly conforms to the ANSI-SQL:2008 standard. It has full support for
+			subqueries (including subselects in the FROM clause), read-committed and
+			serializable transaction isolation levels. And while PostgreSQL has a fully
+			relational system catalog which itself supports multiple schemas per database,
+			its catalog is also accessible through the Information Schema as defined in the
+			SQL standard.
+			</p><p>Data integrity features include (compound) primary keys, foreign keys with
+			restricting and cascading updates/deletes, check constraints, unique
+			constraints, and not null constraints.</p>
+			<p>It also has a host of extensions and advanced features. Among the
+			conveniences are auto-increment columns through sequences, and
+			<tt class="literal">LIMIT/OFFSET</tt> allowing the return of partial result
+			sets. PostgreSQL supports compound, unique, partial, and functional indexes
+			which can use any of its B-tree, R-tree, hash, or GiST storage methods.</p><p><a href="http://www.sai.msu.su/~megera/postgres/gist/doc/intro.shtml" target="_top">GiST</a>
+			(<span class="emphasis"><em>Generalized Search Tree</em></span>) indexing is an advanced system
+			which brings together a wide array of different sorting and searching algorithms
+			including B-tree, B+-tree, R-tree, partial sum trees, ranked B+-trees and many
+			others. It also provides an interface which allows both the creation of custom
+			data types as well as extensible query methods with which to search them. Thus,
+			GiST offers the flexibility to specify <span class="emphasis"><em>what</em></span> you store,
+			<span class="emphasis"><em>how</em></span> you store it, and <span class="emphasis"><em>the ability to define new
+			ways</em></span> to search through it --- ways that far exceed those offered by
+			standard B-tree, R-tree and other generalized search algorithms.</p><p>GiST serves as a foundation for many public projects that use PostgreSQL
+			such as <a href="http://openfts.sourceforge.net/" target="_top">OpenFTS</a> and <a href="http://postgis.refractions.net/" target="_top">PostGIS</a>. OpenFTS (Open Source Full
+			Text Search engine) provides online indexing of data and relevance ranking for
+			database searching. PostGIS is a project which adds support for geographic
+			objects in PostgreSQL, allowing it to be used as a spatial database for
+			geographic information systems (GIS), much like ESRI's SDE or Oracle's Spatial
+			extension.
+			
+			</p>
+		</english-features>
+	</languages>
+</soft>

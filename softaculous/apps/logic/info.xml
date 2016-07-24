@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Logic_Invoice
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Logic_Invoice
+	</ratings>
+	<space>
+		4156343
+	</space>
+	<support>
+		http://forum.logicinvoice.com/
+	</support>
+	<version>
+	   1.1.1
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<release_date>01-04-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+	<english-overview>
+	<font size="5" color="#182e7a">Logic Invoice</font>	is an accounting &amp; invoicing solution, which you can use to build websites and online applications. Best of all, Logic Invoice is an open source project, allowing everyone to freely access the source codes and make their own 		customisations.
+	<br /><br />
+	Logic Invoice is released under the <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU General Public License Version 3</a>.
+	</english-overview>		
+	<english-features>
+		<font size="2" color="#429AE1"><b>Accounting</b></font> : Create journal entries, manage your accounts and view your chart of accounts.<br /><br />
+		<font size="2" color="#429AE1"><b>Invoicing</b></font> : Keep track of invoices and bill your customers from your administration panel.<br /><br />
+		<font size="2" color="#429AE1"><b>Recurring Payments</b></font> : Automatically generate recurring invoices for your customers.<br /><br />
+		<font size="2" color="#429AE1"><b>Reporting</b></font> : Generate basic reports for accounting, invoices, or recurring payments.<br /><br />
+		<font size="2" color="#429AE1"><b>Multi-currency</b></font> : Supports multiple currencies in your system.<br /><br />
+		<font size="2" color="#429AE1"><b>Email Templates</b></font> : Customisable email notifications to both you and your customers.<br /><br />
+		<font size="2" color="#429AE1"><b>Article Pages</b></font> : Easily add article pages to your website.<br /><br />
+		<font size="2" color="#429AE1"><b>Payment Gateway</b></font> : Collect payments online with integrated payment gateways.<br /><br />
+		<font size="2" color="#429AE1"><b>Blog</b></font> : Keep your customers updated with the built-in blog.<br /><br />
+		<font size="2" color="#429AE1"><b>Modules</b></font> : Supports modules to enhance functionalities.<br /><br />
+		<font size="2" color="#429AE1"><b>Multiple Users</b></font> : Supports multiple administration users.<br /><br />
+	</english-features>
+	</languages>
+</soft>

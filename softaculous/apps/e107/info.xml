@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/e107
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/e107
+	</ratings>
+	<space>
+		16788803
+	</space>
+	<support>
+		http://e107.org/
+	</support>
+	<version>
+		2.1.1
+	</version>
+	<mod>11</mod>
+	<release_date>07-04-2016</release_date>
+	<admin>e107_admin</admin>
+	<min_require>1.0.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">e107</font> e107 is a content management system written in PHP and using the popular open source MySQL database system for content storage. It's completely free, totally customisable and in constant development.
+		<br /><br />
+		e107 is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+e107 features are as follow.
+<li>Favorite news</li>
+<li>Add lightview to downloads</li>
+<li>e107_images/newspost_images directory</li>
+<li>Show IM messenger status on profile</li>
+<li>Select as Best Answer" button</li>
+<li>Using the javascripts in AJAX way!</li>
+</ul>
+		
+		</english-features>
+	</languages>
+</soft>

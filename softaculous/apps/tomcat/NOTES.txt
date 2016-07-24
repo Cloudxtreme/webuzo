@@ -1,0 +1,7 @@
+1) Directly Downloaded from the website
+2) Add mysql-connector-java-5.1.22-bin.jar and mail-1.4.jar to lib/ directory
+3) Add ROOT folder to /webapps/docs/ directory
+4) Add tomcatctl in /bin/ folder from the old package
+5) We download the Binary Distributions -> Core tar package from (http://tomcat.apache.org/download-70.cgi)
+
+// Above files can be found in the previous committed tomcat.tar.gz

@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Webasyst
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Webasyst
+	</ratings>
+	<space>
+		23427076
+	</space>
+	<support>
+		http://www.webasyst.com/help/
+	</support>
+	<version>
+		1.5.10
+	</version>
+	<mod>17</mod>
+	<release_date>02-06-2016</release_date>
+	<admin>webasyst</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Webasyst</font> is a free PHP framework for creating sleek multi-user web apps and for building websites. Webasyst offers a multi-app UI ready for integrating and designing your app, handles user authorization, access rights management, routing setup, and much more. Great for creating web solutions for businesses and teams.
+		<br /><br />
+		Webasyst is licensed under the terms of <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">LGPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font size="2" color="#1281B6"><b>Sleek UI</b></font><br />
+		Webasyst framework offers a set of CSS classes for quick backend UI design adapted to every modern web browser. CSS includes classes for tabs, vertical, horizontal and dropdown menus, dialogs, forms, buttons, lists, tables, and many other things usually used when creating backend UIs.
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Multi-app backend</b></font><br />
+		Webasyst framework offers an easy way to access every app a particular user has access to. This makes Webasyst an excellent environment for in which every member has a different role.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Single backend sign-in</b></font><br />
+		Webasyst framework offers a single login interface for all backend users. Each user can log in with his own login name and password and can work only with those apps, to which he has sufficient access rights. This makes Webasyst an excellent environment for in which every member has a different role.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Quick frontend routing setup</b></font><br />
+		Built-in Site app offers all necessary tools to create websites powered by several independent apps: routing management tools, built-in WYSIWYG + HTML editors for design templates, design theme management routine, page content editor, and many other cool features. A website developer can easily integrate his own app with the Site app and utilize all of its powerful infrastructure. Check out our creating-a-website tutorial.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>MVC</b></font><br />
+		Webasyst framework is based on the MVC programming pattern. Its system architecture allows the installed applications to function independently and to have clearly defined interaction interfaces.<br /><br />
+	</li>
+</ul> 
+		</english-features>
+	</languages>
+</soft>

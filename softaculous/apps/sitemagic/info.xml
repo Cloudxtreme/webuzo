@@ -1,0 +1,154 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Sitemagic_CMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Sitemagic_CMS
+	</ratings>
+	<space>
+		11410788
+	</space>
+	<support>
+		http://sitemagic.org/
+	</support>
+	<version>
+		4.1.2
+	</version>
+	<mod>6</mod>
+	<admin>index.php?SMExt=SMLogin</admin>
+	<min_require>4.1</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Sitemagic CMS</font> is the world's most beautiful Content Management System. With Sitemagic CMS you can create some of the most stunning and captivating websites on the planet.
+		<br /><br />
+		The built-in Designer lets you create truly professional designs in literally minutes with simple point and click. The Editor lets you easily modify and lay out your content. The new cards inspired design concept everybody is talking about is built right into the new Editor, making your website the most hip on the web.
+		<br /><br />
+And while Sitemagic CMS is packed with great new features, it is still the most user friendly CMS on the market. It ships with tips and tricks built right in, making sure you get the most out of your new Content Management System.
+		<br /><br />
+		Sitemagic CMS is released under their custom <a href="http://sitemagic.org/license.txt" target="_blank">license</a>.
+		</english-overview>	
+		<english-features>
+	<ul>
+		<li>Designer</li>
+			<ul>
+				<li>World's most advanced yet userfriendly web designer tool, right in your browser</li>
+				<li>Easily modify one of the standard HTML5 design templates included</li>
+				<li>Change colors, fonts, borders, shadows, background images, and much more. - just point and click, it's that easy!</li>
+				<li>Super user friendly for first-time users</li>
+				<li>Powerful enough for professional web designers to build mind-blowing designs</li>
+				<li>No knowledge of CSS is required, but for professionals CSS is supported</li>
+				<li>Download and share design templates with a click of a button</li>
+				<li>All designs automatically adjust to mobile devices (responsive designs)</li>
+				<li>Ships with 5 awesome HTML5 design templates, ready to be changed using the Designer</li>
+			</ul>
+		<li>Pages</li>
+			<ul>
+				<li>Easily manage pages</li>
+				<li>TinyMCE page editor (WYSIWYG - What You See Is What You Get)</li>
+				<ul>
+					<li>Support for Cards inspired design concept</li>
+				</ul>
+				<li>Header and Footer editor</li>
+				<li>Add extensions directly within pages (e.g. contact forms, external modules, galleries etc.)</li>
+				<li>Set SEO meta data (keywords and description)</li>
+				<li>Restrict access (block search engines, block anyone, or set a password)</li>
+				<li>SEO friendly URLs</li>
+				<li>Pages automatically adapt to mobile devices</li>
+			</ul>
+		<li>Menu</li>
+			<ul>
+				<li>100% control over the content of the menu, nothing is added automatically</li>
+				<li>Easily create links to pages, extensions, or external websites</li>
+				<li>Easily manage menu structure with support for nested drop downs</li>
+				<li>Menu automatically adapts to mobile devices</li>
+			</ul>
+		<li>Files</li>
+			<ul>
+				<li>Manage folders and files</li>
+				<li>Upload and download files</li>
+				<li>Easily share files using the Downloads extension, and watch the download count</li>
+			</ul>
+		<li>Settings</li>
+			<ul>
+				<li>Set username and password</li>
+				<li>Change design and icon theme</li>
+				<li>Change language and timezone</li>
+				<li>Enable or disable extensions</li>
+				<li>Configure MySQL database (optional) By default Sitemagic CMS uses XML files for data storage</li>
+				<li>Configure SMTP e-mail service (optional) By default Sitemagic CMS send e-mails using PHP's mail(..) function, but can optionally be configured to use an SMTP server instead, for more reliable e-mail delivery</li>
+			</ul>
+		<li>Contact forms</li>
+			<ul>
+				<li>Create up to 10 different e-mail contact forms</li>
+				<li>Add an infinite number of input fields (textbox, textarea, checkbox, reply-to field)</li>
+				<li>Add multiple recipients</li>
+				<li>Easily add a contact form to a page using the page editor</li>
+				<li>By default sends mail using PHP's mail(..) function, but SMTP is also supported</li>
+			</ul>
+		<li>Image montage gallery</li>
+			<ul>
+				<li>Beautifully lays out your photos</li>
+				<li>Shuffle function to randomize image order</li>
+				<li>Images can be set to dynamically vary in size</li>
+				<li>Let visitors browser images in fullscreen mode</li>
+				<li>Slideshow with configurable timer</li>
+				<li>Optionally display EXIF image data</li>
+				<li>Optionally display folder name as gallery title</li>
+				<li>Optionally display file name as image title</li>
+				<li>Optionally enable gallery picker</li>
+				<li>Automatically adapts to mobile devices, making sure your photos look sharp on any screen</li>
+			</ul>
+		<li>Gallery</li>
+			<ul>
+				<li>Old style gallery with pager</li>
+				<li>Configurable number of colums and rows</li>
+				<li>Manually control image size and padding</li>
+				<li>Images can be opened in pop up windows</li>
+				<li>Can be added to any page using the page editor</li>
+			</ul>
+		<li>External modules</li>
+			<ul>
+				<li>Easily embed content or functionality from other websites (e.g. YouTube or Maps)</li>
+				<li>Can be added to any page using the page editor</li>
+			</ul>
+		<li>Language editor</li>
+			<ul>
+				<li>Easily translate Sitemagic CMS into your own language</li>
+				<li>Download and share translations</li>
+				<li>Support for Unicode</li>
+			</ul>
+		<li>Comments and ratings</li>
+			<ul>
+				<li>visitors can rate any content by clicking stars</li>		
+				<li>visitors can comments any content - unwanted comments can be removed</li>
+				<li>Can be added to any page using the page editor</li>
+			</ul>
+		<li>SEO - Search Engine Optimization</li>
+			<ul>
+				<li>Google Analytics support - track and monitor visitors</li>
+				<li>SEO friendly URLs which are automatically configured</li>
+				<li>Any page can have unique meta data and title specified</li>
+				<li>Optimized for all devices, including mobile</li>
+			</ul>
+		<li>Announcements / Notification center</li>
+		<li>Language packages included (add new languages using the Language editor):</li>
+			<ul>
+				<li>English (default)</li>
+				<li>Danish</li>
+				<li>German</li>
+				<li>Greek</li>
+			</ul>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

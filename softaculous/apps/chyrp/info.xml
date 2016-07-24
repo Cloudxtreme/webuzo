@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Chyrp
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Chyrp
+	</ratings>
+	<space>
+		2816518
+	</space>
+	<support>
+		http://chyrp.net/discuss/forum/support/
+	</support>
+	<version>
+		2.5.2
+	</version>
+	<mod>6</mod>
+	<admin>admin/</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Chyrp</font> is a blogging engine designed to be very lightweight while retaining functionality. It is powered by PHP and has very powerful theme and extension engines, so you can personalize it however you want.<br /><br />
+		The code is well-documented, and it has a very strong structure that's loosely based on the MVC design pattern.
+		<br /><br />
+		Chyrp is licensed under <a href="http://chyrp.net/about/license" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Extremely lightweight</li>
+<li>Preview mode</li>
+<li>Customize look of URLs, or use the recommended Clean URLs</li>
+<li>Easily add and edit pages</li>
+<li>Save posts as drafts for later editing and publishing</li>
+<li>Easy HTML blog posting</li>
+<li>Tons of modules to add functionality to your blog</li>
+<li>Clean interface with AJAX</li>
+<li>Add comment feather to add a comment system to blog</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

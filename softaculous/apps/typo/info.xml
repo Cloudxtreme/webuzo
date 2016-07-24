@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Typo3_45
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Typo3_45
+	</ratings>
+	<space>
+		47237422
+	</space>
+	<support>
+		http://typo3.com/
+	</support>
+	<version>
+		4.5.40
+	</version>
+	<mod>36</mod>
+	<release_date>19-02-2015</release_date>
+	<admin>typo3/index.php</admin>
+	<min_require>4.1</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">TYPO3</font>  is a free Open Source content management system for enterprise purposes on the web and in intranets. It offers full flexibility and extendability while featuring an accomplished set of ready-made interfaces, functions and modules.
+		<br /><br />
+		
+		Typo is free, open, and available to anyone under the <a href="http://www.fsf.org/licensing/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Site administration (create, move to, delete)</li>
+<li>Content management (text, images, links, downloads, forms)</li>
+<li>Text formatting with Rich Text Editor (italic,etc.)</li>
+<li>File management</li>
+<li>History and versioning</li>
+<li>Dynamic generation of menu items in the navigation</li>
+<li>Autom. compression and downsizing/enlargement of images</li>
+<li>Autom. generated sitemap</li>
+<li>Time control of content points or the whole website (start-/finish date)</li>
+<li>Wide permission system</li> 
+</ul>
+		</english-features>
+	</languages>
+</soft>

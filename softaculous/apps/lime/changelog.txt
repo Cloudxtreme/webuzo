@@ -1,0 +1,170 @@
+CHANGE LOG
+------------------------------------------------------
+Changes from 2.50+ (build 160526) to 2.50+ (build 160529) May 30, 2016
+-Fixed issue #10838: Wrong decimal separator for total in "array text" (Carsten Schmitz)
+-Fixed issue #11124: AuditLog breaks when delete multiple list particpants. (Alfredo Esteban)
+-Fixed issue #11210: Error on installation (Carsten Schmitz)
+-Fixed issue #11254: Wrong default language in statistics expert mode (LouisGac)
+-Fixed issue #11276: Google Analytics code not running (Carsten Schmitz)
+-Fixed issue #11278: Unable to upload templates (Carsten Schmitz)
+-Fixed issue #11288: Cannot edit/update oarticipants unless having superadministrator permission (Carsten Schmitz)
+-Fixed issue #11289: User can't see their own surveys anymore (admin can't filter) (LouisGac)
+-Fixed issue #11291: cron event never happen (Denis Chenu)
+-Fixed issue #11262: No save button after editing a token
+-Fixed issue: Notice when saving a token from token edition page. (LouisGac)
+-Fixed issue: Question timers not working properly (Carsten Schmitz)
+-Fixed issue: Survey settings modifications not logged in AuditLog (Alfredo Esteban)
+-Fixed issue: Removed additional left spaces within textareas of "List with comment"(Marcel Minke)
+#Updated translation: Catalan by qualitatuvic
+#Updated translation: Dutch by Han
+#Updated translation: Dutch (Informal) by Han
+#Updated translation: French (France) by arnaud21
+#Updated translation: German by c_schmitz
+#Updated translation: Indonesian by radhwaw
+#Updated translation: Italian by lfanfoni
+#Updated translation: Italian (Informal) by lfanfoni
+#Updated translation: Japanese by nomoto
+#Updated translation: Norwegian (Bokmal) by pmonstad
+#Updated translation: Norwegian (Nynorsk) by pmonstad
+#Updated translation: Polish by elisa
+#Updated translation: Polish (Informal) by elisa
+#Updated translation: Spanish (Mexican) by c_schmitz
+
+Changes from 2.50+ (build 160525) to 2.50+ (build 160526) May 25, 2016
+-New feature: Question List, user can search over qid, code, question and question type (LouisGac)
+-New feature: Response Excel format now exports xlsx files (Carsten Schmitz)
+-Fixed issue #10803: Can't search by question id in question list (LouisGac)
+-Fixed issue #11184: Date question are not validated (LouisGac)
+-Fixed issue #11190: The Donate link in footer opens in parent window (LouisGac)
+-Fixed issue #11245: Email Reminders Screen Layout, information off screen (LouisGac)
+-Fixed issue #11246: Theme Bay Of Many - Layer for adding an url parameter below other elements on page (LouisGac)
+-Fixed issue #11256: Certain area in "Save & activate survey" button are covered by the footer area (LouisGac)
+-Fixed issue #11259: Confirmation window always closes automatically in survey permissions page (LouisGac)
+-Fixed issue #11260: Response View - Title "Actions" duplicated (LouisGac)
+-Fixed issue #11261: Printable survey javascript/jquery error (LouisGac)
+-Fixed issue #11264: Token attributes management button colors don't match the function (Carsten Schmitz)
+-Fixed issue #11265: When activating a survey with existing token table the information shown is wrong (Carsten Schmitz)
+-Fixed issue #11268: Comfort update shows different valid date to my account on Limesurvey.org (LouisGac)
+-Fixed issue: Missing space between survey title and survey ID. (Marcel Minke)
+-Fixed issue: Missing default values for certain global settings (Carsten Schmitz)
+-Removed feature: Thousands separator on input in numeric questions (Carsten Schmitz)
+#Updated translation: Catalan by qualitatuvic
+#Updated translation: French (France) by arnaud21
+#Updated translation: German by c_schmitz
+#Updated translation: Indonesian by radhwaw
+#Updated translation: Japanese by nomoto
+#Updated translation: Polish by elisa
+#Updated translation: Polish (Informal) by elisa
+
+Changes from 2.50+ (build 160523) to 2.50+ (build 160525) May 25, 2016
+-Fixed issue #10724: Date Question Default value inconsistent behavior w/ token persistence enabled (LouisGac)
+-Fixed issue #10725: ComfortUpdate message, hide "ComfortUpdate" message for users who does not have rights to update the limesurvey. (LouisGac)
+-Fixed issue #11033: Slider question shows flash of text input on submit (LouisGac)
+-Fixed issue #11219: Missing translation (Carsten Schmitz)
+-Fixed issue #11221: Response filters cannot be opened after clicking view statistics (LouisGac)
+-Fixed issue #11223: Certain region in time statistics page are not displayed correctly (covered by side-menu) (LouisGac)
+-Fixed issue #11227: [security] XSS in template editing (Denis Chenu)
+-Fixed issue #11247: Columns in response browsing not aligned (LouisGac)
+-Fixed issue #11248: Saving plugin survey settings send PHP notice (Denis Chenu)
+-Fixed issue #11252: Consistent description for links to admin home (Carsten Schmitz)
+-Fixed issue #11253: Relation "correct_relation_defaultlanguage, permissions" is not defined in active record class "Survey". (LouisGac)
+-Fixed issue #11254: Wrong default language in statistics expert mode (LouisGac)
+#Updated translation: Catalan by qualitatuvic
+#Updated translation: French (France) by arnaud21
+#Updated translation: Indonesian by radhwaw
+#Updated translation: Norwegian (Bokmal) by pmonstad
+#Updated translation: Norwegian (Nynorsk) by pmonstad
+#Updated translation: Polish by elisa
+#Updated translation: Polish (Informal) by elisa
+#Updated translation: Portuguese (Brazil) by mauriciofurtado
+
+Changes from 2.50+ (build 160517) to 2.50+ (build 160523) May 23, 2016
+-New feature : Mass actions for survey list: Export archives, export structure, delete surveys (LouisGac)
+-New feature: User can choose how many columns are used to display advanced statistics (LouisGac)
+-New feature: User can choose to display Question Code or Question Text for graphs labels in advanced statistics (LouisGac)
+-Fixed issue #10104: failed authentication with LDAP shows "success" message (Alfredo Esteban)
+-Fixed issue #10986: Plugin survey setting type "checkbox" does not properly save (Denis Chenu)
+-Fixed issue #11173: Inconsistent use of on/off yes/no (Carsten Schmitz)
+-Fixed issue #11186: User can only see one survey on which he has permissions (LouisGac)
+-Fixed issue #11200: Last option in dropdown list is saved uncorrectly (Olle Haerstedt)
+-Fixed issue #11207: Interface changes in global settings (Carsten Schmitz)
+-Fixed issue #11229: 2.06+ template does not show in template editor (Carsten Schmitz)
+-Fixed issue: Undefined group for position selector when creating a new question (LouisGac)
+-Fixed issue: CSS file yiistrap.css not found (LouisGac)
+#Updated translation: Catalan by qualitatuvic
+#Updated translation: Chinese (Simplified) by zhoubin86282972, yanglaw
+#Updated translation: Dutch by Han
+#Updated translation: Dutch (Informal) by Han
+#Updated translation: French (France) by arnaud21
+#Updated translation: Galician by Calidonia
+#Updated translation: German by c_schmitz
+#Updated translation: Hebrew by devbyu
+#Updated translation: Indonesian by radhwaw
+#Updated translation: Latvian by c_schmitz, vipgroup, marcic
+#Updated translation: Norwegian (Bokmal) by pmonstad
+#Updated translation: Norwegian (Nynorsk) by pmonstad
+#Updated translation: Polish by elisa
+#Updated translation: Polish (Informal) by elisa
+
+Changes from 2.50+ (build 160516) to 2.50+ (build 160517) May 17, 2016
+-Fixed issue: Can't add answer options
+#Updated translation: French (France) by arnaud21
+#Updated translation: Hungarian by c_schmitz, hunkissleslie, Kengo06
+#Updated translation: Indonesian by radhwaw
+#Updated translation: Italian by lfanfoni
+#Updated translation: Italian (Informal) by lfanfoni
+
+Changes from 2.50+ (build 160512) to 2.50+ (build 160516) May 17, 2016
+-Fixed issue #10323: LDAP Authentication not working (Carsten Schmitz)
+-Fixed issue #11128: Browse button cosmetic isssue (Carsten Schmitz)
+-Fixed issue #11132: When copying a question question attributes are not copied (Carsten Schmitz)
+-Fixed issue #11161: Error when clicking "Import a question" button (Carsten Schmitz)
+-Fixed issue #11162: Display sid, gid and qid in admin panel (question summary) (LouisGac)
+-Fixed issue #11163: Survey response marked as 'finished' after opening email link/password twice (Denis Chenu)
+-Fixed issue #11165: Text strings are missing colons (Carsten Schmitz)
+-Fixed issue #11166: Missing build number info last stage ComfortUpdate (LouisGac)
+-Fixed issue #11170: Template CSS cannot be loaded (Olle Haerstedt)
+-Fixed issue #11173: Inconsistent use of on/off yes/no (Carsten Schmitz)
+-Fixed issue #11176: Endless redirect loop (LouisGac)
+-Fixed issue #11195: Expression Manager : bad comparaison with numeric value (Denis Chenu)
+-Fixed issue #11196: Sliders don't save negative values (Denis Chenu)
+-Fixed issue: Add subquestion in dual scales didn't work anymore (LouisGac)
+-Fixed issue: Bootstrap load order in admin GUI (LouisGac)
+-Fixed issue: Delete question button was invisible in active survey (LouisGac)
+-Fixed issue: HTML Editor display was wrong (LouisGac)
+-Fixed issue: Weird looking "copy" button while editing a question in active survey (LouisGac)
+-New feature #10051: Enable / disable quotas (Denis Chenu)
+-New feature: Breadcrumb for question edition and question group (LouisGac)
+-New feature: Button to group summary in question explorer (LouisGac)
+-New feature: Question Position Widget, ajax reload on group selector changes (LouisGac)
+-New feature: Question position widget when copying a question (LouisGac)
+-New feature: Show "Questions in group:{name}" instead of "Questions in this survey" in question list when group filter is on (LouisGac)
+-New feature: "Test/Execute" this survey from group edition (LouisGac)
+#Updated translation: Catalan by qualitatuvic
+#Updated translation: Dutch by Han
+#Updated translation: Dutch (Informal) by Han
+#Updated translation: French (France) by arnaud21
+#Updated translation: Greek by nasprok, kiolalis
+#Updated translation: Indonesian by radhwaw
+#Updated translation: Italian by lfanfoni
+#Updated translation: Italian (Informal) by lfanfoni
+#Updated translation: Japanese by nomoto
+#Updated translation: Norwegian (Bokmal) by pmonstad
+#Updated translation: Norwegian (Nynorsk) by pmonstad
+#Updated translation: Polish by elisa
+#Updated translation: Polish (Informal) by elisa
+#Updated translation: Romanian
+
+
+
+
+
+
+
+
+
+
+
+
+
+

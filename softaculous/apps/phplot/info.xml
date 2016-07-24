@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://phplot.sourceforge.net/phplotdocs/examples.html
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/PHPlot
+	</ratings>
+	<space>
+		700258 
+	</space>
+	<support>
+		http://sourceforge.net/projects/phplot/support
+	</support>
+	<version>
+		6.2.0
+	</version>
+	<mod>7</mod>
+	<release_date>04-11-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHPlot</font> is a graph library for dynamic scientific, business, and stock-market charts.
+		PHPlot allows PHP developers to create pie charts, bar graphs, line graphs, point graphs, etc. from a PHP application.
+		PHPlot is a specialized graphics library which provides a means for your PHP-enabled web server to create and manipulate graphs as objects and display the completed graph as an image.<br /><br />
+		PHPlot uses the GD library to create elementary shapes such as lines, rectangles, and text, but hides the details of GD from the application programmer. <br /><br />
+		PHPlot is licensed under the <a href="http://www.gnu.org/licenses/lgpl-2.1.html" target="_blank">GNU Lesser General Public License</a>.
+		</english-overview>		
+		<english-features>
+		<font size="4" color="78ba91"><b>PHPlot produces many features :</b></font>
+<font size="2">
+<ul>
+<li>Creates 14 plot types, plus 3 horizontal plot types and error plots</li>
+<li>Image output uses the GD library; PNG, JPEG, or GIF; truecolor or palette.</li>
+<li>Customizable colors, line widths, markers</li>
+<li>Flexible labels, tick marks, axes, titles, legend</li>
+<li>Uses TrueType Font text, or a simple line font</li>
+<li>Create multiple plots on one image</li>
+</ul>
+	</font>
+	</english-features>
+	</languages>
+</soft>

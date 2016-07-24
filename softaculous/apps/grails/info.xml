@@ -1,0 +1,83 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/Grails
+	</ratings>
+	<space>
+		183449884
+	</space>
+	<support>
+		http://grails.org/
+	</support>
+	<version>
+		2.5.1
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>29-07-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/grails</path>
+	<path name="bin">/usr/local/apps/grails/bin/grails</path>	
+	
+	<extract file="grails-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/grails</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Grails Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/grails</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/grails/bin/grails</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#763e7a">Grails</font> is an Open Source, full stack, web application framework for the JVM. It takes advantage of the Groovy programming language and convention over configuration to provide a productive and stream-lined development experience.  
+<br /><br />
+		<br /><br />
+		Grails is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>An easy to use Object Relational Mapping (ORM) layer built on Hibernate</li>
+				<li>An expressive view technology called Groovy Server Pages (GSP)</li>
+				<li>A controller layer built on Spring MVC</li>
+				<li>A command line scripting environment built on the Groovy-powered Gant</li>
+				<li>An embedded Tomcat container which is configured for on the fly reloading</li>
+				<li>Dependency injection with the inbuilt Spring container</li>
+				<li>Support for internationalization (i18n) built on Spring's core MessageSource concept</li>
+				<li>A transactional service layer built on Spring's transaction abstraction</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

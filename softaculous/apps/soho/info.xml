@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Soholaunch
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Soholaunch
+	</ratings>
+	<space>
+		36584194 
+	</space>
+	<support>
+		http://www.soholaunch.com/
+	</support>
+	<version>
+		v4.9.4 r25
+	</version>
+	<mod>5</mod>
+	<mod_files>1</mod_files>
+	<release_date>31-05-2013</release_date>
+	<admin>sohoadmin/</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Soholaunch</font> is an easy-to-use website builder designed to help you build, maintain, and manage your personal or business website. 
+		<br /><br />
+		It runs right from your website, making it easy to take shopping cart orders online, create forms, and edit site pages from any computer in the world!
+		<br /><br />
+		Soholaunch is launched under <a href="http://provx.soholaunch.com/sohoadmin/license.txt" target="_blank">END-USER LICENSE AGREEMENT (EULA)</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Edit Page Content</li>
+<li>Website Navigation Menus</li>
+<li>Plugins</li>
+<li>SitePal</li>
+<li>Photo Album</li> 
+<li>Blog Manager</li>
+<li>Secure Users Feature Overview</li>
+<li>Database Table Manager</li> 
+<li>eNewsletter Campaign Manager</li> 
+<li>Event Calendars</li> 
+<li>Search Engine Optimization</li> 
+<li>Quickstart Wizard</li> 
+<li>Website Traffic Statistics</li> 
+<li>Website Backup &amp; Restore</li> 
+</ul>
+		</english-features>
+	</languages>
+</soft>

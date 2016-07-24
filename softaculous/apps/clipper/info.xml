@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ClipperCMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/ClipperCMS
+	</ratings>
+	<space>
+		15865380
+	</space>
+	<support>
+		http://www.clippercms.com/forum/
+	</support>
+	<version>
+		1.3.0
+	</version>
+	<mod>1</mod>
+	<release_date>26-03-2015</release_date>
+	<admin>manager</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ne" value="5.3.0" />
+	<requirement check="mysql" type="version" operator="ne" value="5.0.51" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#27615F">ClipperCMS</font> is a flexible and powerful open source content management system. You can use this web software to build websites, personal blogs and also complex and dynamic applications. The CMS has been built keeping ease of use and simplicity in mind. If you are a Designer, a Developer or a Content Editor, you will love it!
+		<br /><br />
+		ClipperCMS is released under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU GENERAL PUBLIC LICENSE.</a>.
+		</english-overview>		
+		<english-features>
+<font color="#27615F"><b>For Developers</b></font><br />
+ClipperCMS is a robust and lightweight PHP CMS that will allow you to build a wide range of websites.<br /><br />
+<font color="#27615F"><b>For Content Editors</b></font><br />
+With the flexibility of ClipperCMS you can add and change the content with ease.<br /><br />
+<font color="#27615F"><b>For Designers</b></font><br />
+With ClipperCMS you don't need to learn any templating system. Your HTML/CSS code is already a template.<br /><br />
+		</english-features>
+	</languages>
+</soft>

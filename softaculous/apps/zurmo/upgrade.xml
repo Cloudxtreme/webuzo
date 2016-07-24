@@ -1,0 +1,15 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<auto_upgrade>1</auto_upgrade>
+	<donotunzip>1</donotunzip>
+	<files>
+		<exclude>app/protected/config/perInstance.php</exclude>
+		<exclude>app/protected/config/debug.php</exclude>
+	</files>
+</softupgrade>

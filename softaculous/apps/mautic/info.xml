@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Mautic
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Mautic
+	</ratings>
+	<space>
+		91925381
+	</space>
+	<support>
+		https://www.mautic.org/community/
+	</support>
+	<version>
+		1.4.1
+	</version>
+	<mod>16</mod>
+	<release_date>31-05-2016</release_date>
+	<admin>s/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.7" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Mautic</font> is a cutting-edge marketing automation platform with an elegant design and a powerful set of features built into an incredibly easy-to-use interface. Mautic is free and open source software. Regardless of the size of your business, or your sales team you can finally have access to a full set of marketing tools with no cost. You have equal opportunity for success and some of the most powerful marketing automation tools available and can compete with any business. Mautic empowers your business and saves you time.
+		<br /><br />
+		Mautic is released under the <a href="https://www.mautic.org/about/gpl" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul> 
+<li>Automated Marketing Campaigns, create unique campaigns for your segmented lead lists through an easy-to-use drag and drop interface<br /><br /></li> 
+<li>Social Media Listening, see what your leads are saying online across a half-dozen social networks<br /><br /></li> 
+<li>Lead Management, Generation, and Nurturing, along every step of the sales funnel<br /><br /></li> 
+<li>Website Visitor Monitoring and Analytics, learn what’s popular and what’s not, what works and what needs help<br /><br /></li> 
+<li>Landing Page Creation with drag-and-drop builder and fully customizable<br /><br /></li>
+<li>Asset Management, store your PDF’s, white papers, graphics, videos, and more on your server or in the cloud and track views, and more<br /><br /></li> 
+<li>1:1 Personalized Marketing, make each lead feel personally contacted, automatically<br /><br /></li> 
+<li>Email Marketing Campaigns send to group lists, segments, real-time triggers, and batch sending<br /><br /></li> 
+<li>Online Behavior Tracking<br /><br /></li> 
+<li>Forms with an easy form builder, and profile building<br /><br /></li>
+<li>Workflows for lifecycle nurturing<br /><br /></li> 
+<li>CRM integrations to easy convert leads to potential contacts<br /><br /></li> 
+<li>Custom field tracking and mapping<br /><br /></li> 
+<li>Dripflow campaigns and time-delayed contact<br /><br /></li> 
+<li>Full A/B campaigns and landing page testing<br /><br /></li>
+<li>API and Integrations (26 and counting)<br /><br /></li>
+<li>Dynamic and configurable mail service providers, use who you want: Mandrill, SendGrid, Mailchimp, AWS, Gmail<br /><br /></li>
+<li>Point system, assign point values to any activity and easily spot those leads ready for the next step, automatically have leads moved to new lists, or campaigns, or even to your CRM based on point total<br /><br /></li>
+<li>Mobile optimized<br /><br /></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

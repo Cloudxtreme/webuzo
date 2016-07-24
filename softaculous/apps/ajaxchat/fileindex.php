@@ -1,0 +1,14 @@
+changelog.txt
+chat.sql
+css
+flash
+img
+index.php
+install.php
+js
+lib
+license.txt
+readme.html
+socket
+sounds
+src

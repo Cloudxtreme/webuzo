@@ -1,0 +1,111 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/web_servers/LIGHTTPD
+	</ratings>
+	<space>
+		289832296
+	</space>
+	<support>
+		http://redmine.lighttpd.net/projects/lighttpd/boards/2
+	</support>
+	<version>
+		1.4.35
+	</version>
+	<mod>10</mod>
+	<softversion>
+		4.5.3
+	</softversion>
+	<major>1</major>
+	<release_date>12-03-2014</release_date>
+	
+	<requires>openssl</requires>
+	<requires>zlib</requires>
+	<requires>pcre</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/lighttpd</path>
+	<path name="daemon">/usr/local/apps/lighttpd/sbin/lighttpd</path>
+	<path name="conf_dir">/usr/local/apps/lighttpd/etc</path>
+	<path name="conf_d">/usr/local/apps/lighttpd/etc/conf.d</path>
+	<path name="conf">/usr/local/apps/lighttpd/etc/lighttpd.conf</path>
+	<path name="log">/usr/local/apps/lighttpd/var/log</path>
+	<initd_stop>1</initd_stop>
+	
+	<initd name="lighttpd">/usr/local/apps/lighttpd/sbin/lighttpdctl</initd>
+	<initd_stop>1</initd_stop>
+	
+	<extract file="lighttpd-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/sbin/lighttpd">/usr/local/apps/lighttpd/sbin/lighttpd</symlink>
+	
+	<is_default>3_1</is_default>
+	<is_default>18_1</is_default>
+	<is_default>125_1</is_default>
+	
+	<set_default>lighttpd</set_default>
+	
+	<remove>/usr/local/apps/lighttpd</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">LIGHTTPD Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/lighttpd/sbin/lighttpd</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/lighttpd/etc/lighttpd.conf</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LIGHTTPD</font> (pronounced "lighty") is an open-source web server more optimized for speed-critical environments than common products while remaining standards-compliant, secure and flexible. It is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems.
+		<br /><br />
+		LIGHTTPD is distributed under the <a href="http://www.lighttpd.net/assets/COPYING" target="_blank">BSD License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Load balancing FastCGI, SCGI and HTTP proxy support</li>
+				<li>chroot support</li>
+				<li>select()-/poll()-/epoll() based web server</li>
+				<li>Support for more efficient event notification schemes like kqueue and epoll</li>
+				<li>Conditional rewrites (mod_rewrite)</li>
+				<li>TLS/SSL with SNI support, via OpenSSL.</li>
+				<li>Authentication against an LDAP server</li>
+				<li>RRDtool statistics</li>
+				<li>Rule-based downloading with possibility of a script handling only authentication</li>
+				<li>Server Side Includes support (but not server-side CGI)[7]</li>
+				<li>Flexible virtual hosting</li>
+				<li>Modules support</li>
+				<li>Cache Meta Language (currently being replaced by mod_magnet) using the Lua programming language</li>
+				<li>Minimal WebDAV support</li>
+				<li>Servlet (AJP) support (in versions 1.5.x and up)</li>
+				<li>HTTP compression using mod_compress and the newer mod_deflate (1.5.x)</li>
+				<li>Light-weight (less than 1 MB)</li>
+				<li>Single-process design with only several threads. No processes or threads started per connection.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

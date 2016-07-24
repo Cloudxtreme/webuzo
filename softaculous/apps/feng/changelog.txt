@@ -1,0 +1,45 @@
+	Changelog
+	=========
+	
+	Since 3.4.2.1
+    ----------------
+    bugfix: overview error after selecting a member if the data base table prefix is different than fo.
+
+	Since 3.4.2
+    ----------------
+    bugfix: company name length restriction.
+	
+	Since 3.4.2-rc2
+	----------------
+	bugfix: dont use JSON_NUMERIC_CHECK constant if not defined (is a php predefined constant).
+	language: nl_nl updated.
+	
+	Since 3.4.2-rc
+	----------------
+	bugfix: member cache construction function fixed.
+	
+	Since 3.4.2-beta2
+	----------------
+	feature: Export custom reports to excel
+	bugfix: fixed object classification after changing member parent.
+	
+	Since 3.4.2-beta
+	----------------
+	bugfix: custom reports pdf export compatibility in windows (need to install wkhtmltopdf)
+	bugfix: custom report print view only shows first page
+	bugfix: custom reports print and csv/pdf export adjustments
+	bugfix: replicate purchase orders permissions over suppliers in the other content objects
+	bugfix: assigned user cannot complete task from task view if doesn't have write permissions
+	feature: filter member reports by associated dimensions (selected in left panel)
+	
+	Since 3.4.1.13
+    ----------------
+    language: fr_fr updated.
+
+    Since 3.4.1.12
+    ----------------
+    bugfix: users widget not working properly.
+
+	Since 3.4.1.11
+    ----------------
+	feature: search filter on mails

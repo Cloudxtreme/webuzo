@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpwcms
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/phpwcms
+	</ratings>
+	<space>
+		16345997
+	</space>
+	<support>
+		http://www.phpwcms.de/
+	</support>
+	<version>
+		1.8.3
+	</version>
+	<mod>29</mod>
+	<release_date>03-04-2016</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpwcms</font> is a robust and simple but yet powerful web based content management system running under PHP and  MySQL. phpwcms is in use on thousands of websites all over the world.
+		<br /><br />
+	phpwcms is optimized for being fast and easy. phpwcms is perfect for professional, public and private users. It is very easy to learn and gives you the flexibility to separate layout and content. Lots of powerful but simple implemented features assists publishers and web developers too.<br /><br />
+		phpwcms is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>W3C conform frontend rendering</li>
+<li> unlimited pagelayouts - pagelayout wizard supports content rendering as table, div or custom</li>
+<li> unlimited templates (1 per site structure level) - template editor included with support for custom html head, onLoad  JavaScripts and error messages,CSS file per template possible</li>
+<li> unlimited nested site structure levels - there is no limitation</li>
+<li> alias for every structure level possible, hidden level</li>
+<li> support for meta tag keyword and description</li>
+<li> many powerful replacement tags</li>
+<li> articles/pages are build by using content parts - article can have summary and/or redirection info</li>
+<li> template based articles, contentparts and form</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,168 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/version_control/Subversion
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://subversion.apache.org/
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/bin/svn</path>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Subversion Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/bin/svn</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Subversion</font> exists to be universally recognized and adopted as an open-source, centralized version control system characterized by its reliability as a safe haven for valuable data; the simplicity of its model and usage; and its ability to support the needs of a wide variety of users and projects, from individuals to large-scale enterprise operations.
+		<br /><br />
+		Subversion is distributed under the <a href="http://www.apache.org/licenses/" target="_blank">Apache License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>
+					<strong>Most CVS features.</strong>
+					<p>CVS is a relatively basic version control system.  For the most
+					part, Subversion has matched or exceeded CVS's feature set where
+					those features continue to apply in Subversion's particular
+					design.</p>
+				</li>
+
+				<li>
+					<strong>Directories are versioned.</strong>
+					<p>Subversion versions directories as first-class objects, just
+					like files.</p>
+				</li>
+	
+				<li>
+					<strong>Copying, deleting, and renaming are versioned.</strong>
+					<p>Copying and deleting are versioned operations.  Renaming is
+					also a versioned operation, albeit with some <a
+					href="http://subversion.tigris.org/issues/show_bug.cgi?id=898"
+					>quirks</a>.</p> 
+				</li>
+	
+				<li>
+					<strong>Free-form versioned metadata ("properties").</strong>
+					<p>Subversion allows arbitrary metadata ("properties") to be
+					attached to any file or directory.  These properties are key/value
+					pairs, and are versioned just like the objects they are attached
+					to.  Subversion also provides a way to attach arbitrary key/value
+					properties to a revision (that is, to a committed changeset).
+					These properties are not versioned, since they attach metadata to
+					the version-space itself, but they can be changed at any time.</p>
+				</li>
+	
+				<li>
+					<strong>Atomic commits.</strong>
+					<p>No part of a commit takes
+					effect until the entire commit has succeeded.  Revision numbers
+					are per-commit, not per-file, and commit's log message is attached
+					to its revision, not stored redundantly in all the files affected
+					by that commit.</p> 
+				</li>
+	
+				<li>
+					<strong>Branching and tagging are cheap
+							(constant time) operations.</strong>
+					<p>There is no reason for these operations to be expensive, so
+					they aren't.</p>
+				
+					<p>Branches and tags are both implemented in terms of an
+					underlying "copy" operation.  A copy takes up a small, constant
+					amount of space.  Any copy is a tag; and if you start committing
+					on a copy, then it's a branch as well.  (This does away with CVS's
+					"branch-point tagging", by removing the distinction that made
+					branch-point tags necessary in the first place.)</p>
+				</li>
+	
+				<li>
+					<strong>Merge tracking.</strong>
+					<p>Subversion 1.5 introduces merge tracking: automated assistance
+					with managing the flow of changes between lines of development,
+					and with the merging of branches back into their sources.  The 1.5
+					release of merge tracking has basic support for common scenarios;
+					we will be extending the feature in upcoming releases.</p>
+				</li>
+	
+				<li>
+					<strong>File locking.</strong>
+					<p>Subversion supports (but does not require) locking files so that
+					users can be warned when multiple people try to edit the same
+					file.  A file can be marked as requiring a lock before being
+					edited, in which case Subversion will present the file in
+					read-only mode until a lock is acquired.</p>
+				</li>
+	
+				<li>
+					<strong>Symbolic links can be versioned.</strong>
+					<p>Unix users can place symbolic links under version control.  The
+					links are recreated in Unix working copies, but not in win32
+					working copies.</p>
+				</li>
+	
+				<li>
+					<strong>Executable flag is preserved.</strong>
+					<p>Subversion notices when a file is executable, and if that file is
+					placed into version control, its executability will be preserved
+					when it it checked out to other locations.  (The mechanism
+					Subversion uses to remember this is simply <a href="#properties"
+					>versioned properties</a>, so executability can be manually
+					edited when necessary, even from a client that does not
+					acknowledge the file's executability, e.g., when having the wrong
+					extension under Microsoft Windows).</p>
+				</li>
+	
+	
+				<li>
+					<strong>Standalone server option (<tt>svnserve</tt>).</strong>
+					<p>Subversion offers a standalone server option using a custom
+					protocol, since not everyone wants to run an Apache HTTPD server.
+					The standalone server can run as an inetd service or in daemon
+					mode, and offers the same level of authentication and
+					authorization functionality as the HTTPD-based server.  The
+					standalone server can also be tunnelled over ssh.</p>
+				</li>
+			</ul>	
+			
+		</english-features>
+	</languages>
+</soft>

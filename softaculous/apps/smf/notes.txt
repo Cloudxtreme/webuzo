@@ -1,0 +1,6 @@
+1. For upgrade download Upgrade package and Copy upgrade files from that zip (Large Upgrade package)
+2. To add the Language files just download the files from the following URL :
+http://download.simplemachines.org/?smflanguages
+3. The files should be the latest SMF version
+4. Download the utf-8 files for all Languages
+5. Copy all the zip files to /languages folder

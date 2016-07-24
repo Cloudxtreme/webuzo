@@ -1,0 +1,9 @@
+Download tar file
+
+keep both password different (Admin password and List password both should be different)
+
+1) .htaccess is required so do not remove .htaccess even if it is not created by dada.
+
+2) In dada.zip Rename folder "/DADA/perllib/JSON-remove_to_install" to "/DADA/perllib/JSON" and file "/DADA/perllib/JSON.pm-remove_to_install" to "/DADA/perllib/JSON.pm" as it renames this folder and file in manual installation. (Do not change, keep default zip since no changes seen after installation 8.4.0 so check in next version)
+
+3) click on manual and not auto, mysql, Port 3306, Set up new mailing list at the time of installation and create mailing list

@@ -1,0 +1,2 @@
+1. Default login username : admin and password : 12345
+2. For mysql Go to admin panel ->contact and add it's entries.

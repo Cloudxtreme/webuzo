@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/libiconv
+	</ratings>
+	<space>
+		3264
+	</space>
+	<support>
+		http://www.gnu.org/software/libiconv/
+	</support>
+	<version>
+		1.14
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>13-01-2013</release_date>
+		
+	<extract file="libiconv-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">libiconv Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/libiconv/lib</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/libiconv/lib/libiconv.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		The <font size="5" color="#182e7a">iconv </font> API is the standard programming interface for converting character strings from one character encoding to another in Unix-like operating systems.
+		<br /><br />
+		libiconv is distributed under the <a href="http://www.gnu.org/copyleft/lesser.html" target="_blank">LGPL</a> License.
+		</english-overview>
+		<english-features>
+This library provides an iconv() implementation, for use on systems which don't have one, or whose implementation cannot convert from/to Unicode.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

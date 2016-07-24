@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/libtool
+	</ratings>
+	<space>
+		3075147
+	</space>
+	<support>
+		http://www.gnu.org/software/libtool/manual/libtool.html
+	</support>
+	<version>
+		2.4.6
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>13-01-2013</release_date>
+	
+	<path name="bin">/usr/local/apps/bin/libtool</path>
+		
+	<extract file="libtool-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		NO Info
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">GNU Libtool </font>is a programming tool from the GNU build system used for creating portable compiled libraries.
+Different operating systems handle shared libraries in different ways, and some platforms do not use shared libraries at all. 
+		<br /><br />
+		GNU Libtool is distributed under the <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">jpeg-6b</a>
+		</english-overview>
+		<english-features>
+Libtool helps manage the creation of static and dynamic libraries on various Unix-like operating systems. Libtool accomplishes this by abstracting the library-creation process, hiding differences between various systems (e.g. Linux systems vs. Solaris).
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right; margin:10px" width="250" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/YOURLS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/YOURLS
+	</ratings>
+	<space>
+		3626145
+	</space>
+	<support>
+		http://yourls.org/
+	</support>
+	<version>
+		1.7.1
+	</version>
+	<mod>10</mod>
+	<mod_files>1</mod_files>
+	<release_date>05-12-2015</release_date>
+	<admin>admin/</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">YOURLS</font>is a small set of PHP scripts that will allow you to run your own URL shortening service (a la TinyURL). You can make it private or public, you can pick custom keyword URLs, it comes with its own API. You will love it.
+
+		<br /><br />
+		 
+There's a WordPress plugin available for YOURLS, making integration with your blog a snap: create short URLs and tweet them automagically as you publish blog posts.
+
+		<br /><br />
+		YOURLS was developed under the open source <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPL license</a>.
+		</english-overview>		
+		<english-features>
+			<ul>
+				<li><tt>Public</tt> (everybody can create short links) or <tt>private</tt> (your links only)</li>
+				<li>Sequential or custom URL keyword</li>
+				<li>Handy <tt>bookmarklet</tt> to easily shorten and share links</li>
+				<li>Awesome <tt>stats</tt>: historical click reports, referrers tracking, visitors geo-location</li>
+				<li>Neat <tt>AJAXed</tt> interface</li>
+				<li>Cool developer <tt>API</tt></li>
+				<li>Friendly <tt>installer</tt></li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

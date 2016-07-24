@@ -1,0 +1,2 @@
+1) Add error_reporting(E_PARSE); in /classes/Query.php and then make zip
+2) Add database details in /database_constants.php and then visit /install for manual installation

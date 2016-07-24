@@ -1,0 +1,339 @@
+Version 6.3.1
+
+Release Type: Maintenance
+Release Date: 13th April 2016
+
+Maintenance
+
+CORE-9888 - Improve markdown formatting for nested lists
+CORE-9896 - Prevent fatal error when attempting to activate secondary language for email templates
+    Also known as: CORE-9901
+CORE-9898 - Improve markdown formatting in client email notification of new support tickets
+CORE-9899 - Clear support ticket note draft storage on successful submission
+CORE-9902 - Do not create invoices for free products/services at time of order
+    Also known as: CORE-9980
+CORE-9903 - Prevent CSS styling rules from rendering in plain-text version of email messages
+CORE-9905 - Send message properly populates email from client in client services page
+CORE-9907 - Ensure Carbon object is always available to Renew function
+CORE-9911 - Easy translation should fallback to default language
+CORE-9913 - Easy Translation should allow HTML in product descriptions
+    Also known as: MODULE-6393
+CORE-9917 - Update Easy Translation field configuration logic to ensure translations can be deleted properly
+CORE-9921 - Remove erroneous spaces from admin area open new ticket message box
+CORE-9922 - Exclude merged tickets from "Awaiting Reply" count in admin area
+CORE-9929 - Exclude merged tickets from Support Tickets Overview widget
+CORE-9933 - Fix invalid shorthand attribute syntax in OAuth layout template
+CORE-9940 - Prevent markdown editor word count failing for certain languages
+    Also known as: MODULE-6390
+CORE-9948 - Show markdown editor when composing new client notes
+CORE-9951 - Prevent hidden configurable options from showing up in client order summary
+CORE-9955 - Fix handling of emails where subject contains a non-existent ticket mask
+
+Modules
+
+ADDON-5985 - Provide Project Manager reports unencoded
+MODULE-6384 - GlobalSign SSL: Update module port to new 4.x API
+MODULE-6385 - Interworx: Only fall back to server IP if hostname not available
+MODULE-6391 - TPP Wholesale Registrar: Fix invalid method reference
+MODULE-6394 - OnlineNIC: Resolve failing response validation and processing
+    Also known as: CORE-9919
+MODULE-6395 - Address Two-Factor Authentication activation conflict with Markdown editor
+CORE-9794 - eNom SSL: Clear cart if transactions are pending from a previous eNom session
+CORE-9857 - Use more predictable method of determining a clients preferred payment gateway
+
+API
+
+CORE-9918 - Ensure GetClientsProducts returns product custom fields in client's language
+CORE-9937 - Ensure API GetSupportStatuses is returning all support ticket statuses
+CORE-9945 - Improve UpdateClient API support of 'password2' parameter
+
+Languages
+
+CORE-9878 - Turkish translation additions and improvements to client and admin area
+CORE-9909 - Portuguese translation additions and improvements
+CORE-9927 - Romanian translation additions and improvements to client area
+CORE-9931 - Portugese domain search translation improvements
+CORE-9936 - Arabic translation additions and improvements
+
+Version 6.3.0 GA
+
+Release Type: General Availability
+Release Date: 29th March 2016
+
+Maintenance
+
+ADDON-5981 - Update In Progress label status to reflect custom status colors in Project Management Addon
+CORE-7494 (#4859) -  Improved Tickets Submitted By Hour sorting in Support Overview
+CORE-9248 - Improved Whois info button information behavior with unregistered domains
+CORE-9461 - Update OAuth client side template files with translatable language strings
+CORE-9591 - Update example domain names to example.com
+CORE-9701 - Fix listing of associated credit log entries in invoice transaction log
+CORE-9738 - Update Order Summary when using up/down arrows to adjust quantity configurable options with no max/min configured
+CORE-9777 - Improved modal popup autofocus rules to provide more consistent behavior
+CORE-9796 - Allow Single Sign-On by default for clients created via the admin area
+CORE-9801 - Prevent loss of ticket reply message due to session timeout/expiry
+CORE-9804 - Ensure Preview button in Markdown Editor saves original message content
+CORE-9806 - Display who ticket was opened with for admin opened tickets
+CORE-9809 - Use more accurate ID for custom fields in Standard Cart checkout template
+CORE-9812 - Improve language of draft invoice admin area notice
+CORE-9813 - Only attempt to delete note attachment when an attachment is present
+CORE-9817 - Improve visual display of report buttons when spanning multiple rows
+CORE-9821 - Apply Markdown formatting when opening ticket via admin
+CORE-9822 - Improve visual rendering of tables in markdown ticket content
+CORE-9825 - Ensure proper usage of Any option on Ticket Status Multi-Filter
+CORE-9831 - Update to .cloud whois server
+CORE-9832 - Update to .co.zw whois listing
+CORE-9837 - Ensure Tickets Awaiting Reply count on admin pages are shown correctly
+CORE-9840 - Ensure recurring product pricing is showing correctly in ticket details
+CORE-9843 - Compatibility improvements to Markdown editor for PHP 5.4 and lower
+CORE-9856 - Consolidate use of ticket notification emails
+CORE-9870 - Preserve Return to Ticket List selection on reply
+CORE-9874 - Usability improvements to tab order of admin area open ticket interface
+CORE-9893 - Fix fatal error upon attempting to delete a product with dynamic translations enabled
+
+Modules
+
+MODULE-6348 - [eNomSSL] Add support for Comodo UCC product
+CORE-9857 - Prevent tokenisation modules from always overriding standard credit card form
+CORE-9865 - Replace cPanel direct script calls with XML API
+
+Languages
+
+CORE-9709 - Norwegian translation additions and improvements to admin area 
+CORE-9863 - Hebrew translations updates for admin area 
+CORE-9892 - Danish v6.3 Translation
+
+
+Version 6.3.0 RC 1
+
+Release Type: Release Candidate
+Release Date: 8th March 2016
+
+Implemented
+
+FEATURE-1053 - Client Email Verification
+FEATURE-1069 - Drag & Drop Sorting for Products & Product Groups
+FEATURE-1089 - Localisation Support for Product Names & Descriptions
+FEATURE-1090 - Localisation Support for Product Group Names, Headlines and Taglines
+FEATURE-1091 - Localisation Support for Custom Field Names & Descriptions
+FEATURE-1103 - Markdown Formatting Support for Support Tickets & Replies
+FEATURE-1104 - Markdown Formatting Support for Client Notes
+FEATURE-1247 - Compatibility Updates for PHP 7
+FEATURE-1293 - Improved Notification Emails of Ticket Related Changes
+FEATURE-1294 - Ability to set ticket parameters when posting a new note
+FEATURE-1301 - Updated cPanel Icons in Client Area Hosting Account Management UI
+FEATURE-1331 - Ability to set ticket parameters when posting a reply
+FEATURE-1335 - Inline Ticket Notes in Admin Area Ticket View
+FEATURE-1341 - Permanent redirects for merged tickets via search
+FEATURE-1344 - Support Ticket Watch Ability
+FEATURE-1390 - More powerful support ticket search/filter ability
+FEATURE-1418 - Inline viewing of image attachments within Support Tickets
+FEATURE-1419 - Ability to attach files to Support Ticket Notes
+
+Maintenance
+
+ADDON-5971 - Project Management Addon: Make My Projects client area navbar link translatable
+ADDON-5977 - Task List Templates are now saveable in Project Management Addon
+ADDON-5978 - GetProjects API command now returns multiple project details
+ADDON-5980 - Improvement to Create New Project button placement in Project Management Addon
+    Also known as: MODULE-6352
+CORE-6368 (#3171) - Reduce load time for ticket sidebars with improved index
+CORE-6461 (#3305) - Update getRecurringBillingValues calculations for non-compound tax
+CORE-7208 (#4478) - Ensure Update Credit properly reflects client's available credit summary
+CORE-8172 - Update numerous fields to prevent password managers from auto-populating 
+CORE-8591 - Updates to NetEarthOne ID Protect toggle
+CORE-8847 - Improve layout of knowledgebase categories when descriptions have varying lengths
+CORE-8938 - Update to quote pricing details with products configured with monthly pricing 
+CORE-8955 - Use WHMCS Connect without Configure Servers permission
+CORE-9219 - Ensure disabling domain addons page displays domain related sidebar 
+CORE-9223 - Update Income By Product report to calculate total product price
+CORE-9224 - Reduce database queries when adding domain to cart
+CORE-9310 - Prevent "Unable to load your shopping cart" error upon failed login attempt on cart summary page 
+CORE-9337 - Login as Client respects admin language setting
+CORE-9365 - Improved efficiency of configurable options slider in Standard_Cart 
+CORE-9426 - Client area affiliates referrals now sort correctly by signup date 
+CORE-9441 - Disable auto capitalization on domain input fields for mobile devices
+CORE-9463 - Make Remember Me checkbox clickable in login popup on cart.php
+CORE-9464 - Update to quote email message to reflect email status
+CORE-9467 - Prevent nameserver 1 field being saved incorrectly on server modification
+CORE-9476 - Correctly display all characters in product name on universal slider template
+CORE-9488 - Update domain checker template to remove improper closing HTML tag
+CORE-9491 - Create Health & Updates Check to show mis-matched table collation types
+CORE-9496 - Honour optional client profile fields on register.php in Six template
+CORE-9499 - Allow admin area login redirects to be preserved post session expiry
+CORE-9509 - Provide consistency in installation DB collations being used (utf8_unicode_ci)
+CORE-9520 - Remove hardcoded price value in cloud slider template
+CORE-9524 - Automatically update domain registration field with text entered in product domain field in admin order form
+CORE-9525 - Ensure Upgrade Email is sent on free upgrades 
+CORE-9526 - Improved efficiency of Facebook Javascript code in Announcements template
+CORE-9528 - Improvements to formatting of promotion code field on product upgrade page
+CORE-9564 - Improved error feedback on Application Links enable failure due to user permissions
+CORE-9566 - Update ticket feedback template file to include translateable language strings
+CORE-9567 - Ensure View Cart link in Six template shows correct item count
+CORE-9580 - Update invoice-related emails to use invoice status translation string
+CORE-9581 - Prevent the creation of duplicate email template names
+CORE-9585 - Correctly align configurable option slider when minimum quantity is 0
+CORE-9594 - Update styling of hidden Radio type configurable option on the admin product details tab
+CORE-9596 - Ensure Forget Password Link on Oauth Login Works
+CORE-9597 - Modification to positioning of dropdown menu on Universal Slider template
+CORE-9608 - Ensure contact sales team link is using translateable language string
+CORE-9609 - Update .top whois server
+CORE-9610 - Whois server updates 
+CORE-9613 - Liechtenstein (.li) whois server updates 
+CORE-9615 - Improved OpenID Connect stability with multiple configured URL's
+CORE-9618 - Client provided Romanian translations
+CORE-9629 - Macedonia (.mk) whois server updates
+CORE-9630 - Ukrainian translation additions/improvements
+CORE-9642 - Ensure CC option in email templates work properly
+CORE-9646 - Attaching a file outside of upload_max_filesize limit now displays error message
+CORE-9649 - Invoices are now removed from Billable Items tab when deleted
+CORE-9651 - Increase cryptographic strength of client password hashes
+CORE-9652 - Ensure invoice generation respects client selected language
+CORE-9658 - Update .club whois server 
+CORE-9663 - Update label of selectize box in view ticket options tab
+CORE-9665 - Switching currency on cart.php no longer redirects to a different product
+CORE-9668 - Improve handling of MySQL old_password error in upgrade script
+CORE-9676 - Improve handling of leap years in Expiry Date when renewing domains
+CORE-9677 - Improvement to Add Client API in handling Admin Only custom fields
+CORE-9685 - Improved SSL support for Bulk Checker Whois functionality
+CORE-9690 - SMTPAutoTLS activation is now set to off by default for mail sent via SMTP
+CORE-9691 - Update Application Links "Configure" functionality to improve language support
+CORE-9693 - Honour Copy To Field on admin support ticket email templates
+CORE-9771 - Domain transfer logic now honors lack of pricing for transfers
+    Also known as: CORE-8714
+
+Modules
+
+MODULE-6285 - Update URL used for Auth.net
+MODULE-6360 - [BluePay] Update to refund transaction calculation for partial refunds 
+MODULE-6364 - [Sagepay] Enforced IPv4 validation for IP addresses 
+MODULE-6367 - [Chronopay] Allow separate success and failure return URLs
+MODULE-6377 - Update ResellerClub DNS Management to return up to 200 DNS records
+    Also known as: CORE-9595
+CORE-9270 - Update to clientareadomaindetails.tpl to respect Use Default Nameservers variable with eNom 
+    Also known as: CORE-8894
+CORE-9623 - Hidden configurable options are now included in the Create Server function 
+
+API
+
+CORE-9540 - Update getclientsaddons API to return names for predefined addons
+CORE-9577 - Update getclientsdomains API to return "promoid" 
+CORE-9602 - Added Content-Type headers to API output
+CORE-9671 - AddClient: Improve handling of custom field values
+
+Languages
+
+CORE-9634 - Upgraded Portuguese-PT Translation
+CORE-9654 - Hebrew translation additions and improvements to client area
+CORE-9655 - Hebrew translation additions and improvements to admin area 
+CORE-9660 - Macedonian translation improvements
+CORE-9675 - Hungarian translation additions and improvements to client area
+CORE-9680 - French translation additions and improvements
+    Also known as: CORE-9683
+CORE-9688 - French translation displays proper GBP language code
+
+
+Version 6.2.2
+
+Release Type: Maintenance
+Release Date 2nd February 2016
+
+Maintenance
+
+CORE-6997 (#4159) - Fix IDN domain lookup in admin area lookup tool
+CORE-7190 (#4460) - Fix emails sending as plain text when they contain only an image
+CORE-7225 (#4500) - Fix erroneous logging of password change on product edit
+CORE-8356 - Fix ticket import error from emails containing Hebrew characters
+CORE-8886 - Improve password handling during installation process
+CORE-9008 - Ensure PDF attachments respect the client's language setting
+CORE-9010 - Improve handling of duplicate domains with multiple statuses
+CORE-9088 - Exclude mass pay invoices from client area invoice summary
+CORE-9165 - Ensure consistent behavior on changing currency when viewing cart
+CORE-9267 - Improve display of username when logging in as existing customer in cart checkout
+CORE-9355 - Retain preferred payment method when updating profile information
+CORE-9366 - Ensure fields and format consistency in all client profile pages
+CORE-9383 - Ensure compatibility in using special characters in piped emails and ticket replies
+CORE-9398 - Update CSV export download link description
+CORE-9415 - Ensure support for merge fields in addon welcome e-mails
+CORE-9418 - Remove use of deprecated preg_replace modifier in pipe script
+CORE-9425 - Ensure existing domains can still be transferred when Block Existing Domains enabled
+CORE-9439 - Health Check: Add iconv to recommended php extensions
+CORE-9450 - Improve PayPal Addon Transaction Lookup messaging on no invoice match
+CORE-9459 - Improve grammar of success message on server change
+CORE-9465 - Improve Email Marketer Tool CC rules when sending emails contacts and clients
+CORE-9467 - Prevent nameserver 1 field being saved incorrectly on server modification
+CORE-9470 - Fix fixed term termination days setting not retaining value in product settings
+CORE-9475 - Update WHOIS servers for .Irish, .Lawyer and .Pub
+CORE-9479 - Fix rendering of billing period for annual items when monthly pricing breakdown is enabled
+CORE-9484 - Modal should dismiss automatically on selection of an affiliate in admin view order page
+CORE-9490 - Health Check: Introduce warning for Older Versions of MySQL
+CORE-9497 - Prevent fatal error on re-ordering of product groups under certain conditions
+CORE-9501 - Ensure all product parameters are made available to ProductEdit hook calls
+CORE-9506 - Create credit log entry when providing an initial credit balance on adding clients
+CORE-9511 - Add additional template variable in order forms for short pricing style with currency suffix
+CORE-9512 - Add option to strip utf8mb4 in general settings
+CORE-9521 - Improve handling of creating UUID field on upgrade
+CORE-9529 - Ensure client contacts appear when adding orders in admin area
+    Also known as: CORE-9635
+CORE-9531 - Improve display of non-active clients in view/search clients page
+CORE-9535 - Improve email text placement when importing email validated with SpamCop
+CORE-9539 - Improve VAT Moss Report display for previous years
+CORE-9543 - Improve handling of line breaks in plain text email templates
+CORE-9554 - Improve calculation logic of Affiliate Payout Amount in Affiliate Program homepage
+CORE-9578 - Grammar updates to /lang/english.php file
+CORE-9586 - Update to .pe whois servers
+
+Modules
+
+MODULE-6270 - Improve handling of special characters in company name field in Nominet module
+MODULE-6319 - Provide consistency in select/deselect all accounts option in cPanel/WHM Import Tool 
+MODULE-6325 - Improved bandwidth reporting in Interworx module
+MODULE-6347 - Improve usage statistics gathering for reseller accounts in cPanel module
+MODULE-6349 - Add support for gTLDs in OnlineNIC registrar module
+MODULE-6351 - Update manual entry key creation in One Time Passwords module
+MODULE-6363 - Hide Release Domain option when 'AllowClientTAGChange' option is disabled in Nominet module configuration settings
+CORE-9109 - Update ChronoPay payment URL
+CORE-9291 - Update html entity encoding rules in Bank Transfer payment module
+CORE-9530 - Improve display of Network Status Widget to include Load and Uptime values
+
+API
+
+CORE-9339 - Modifications to AddClient API to populate custom client field values
+
+Languages
+
+CORE-8613 - Russian & Ukrainian translation additions and improvements
+CORE-8879 - Farsi translation additions and improvements
+CORE-8970 - German translation additions and improvements
+CORE-8987 - Portugese translation additions and improvements
+CORE-9178 - Romanian translation additions and improvements
+CORE-9215 - Portugese translation additions and improvements
+CORE-9227 - Spanish translation additions and improvements
+CORE-9234 - Dutch translation additions and improvements
+CORE-9235 - Hebrew translation additions and improvements
+CORE-9392 - Traditional Chinese translation additions and improvements
+CORE-9424 - Farsi translation additions and improvements
+CORE-9469 - Macedonian language client area translation 
+CORE-9474 - French translation additions and improvements
+CORE-9482 - Updates to the Brazilian Portuguese client area language file
+CORE-9489 - Hebrew translation additions and improvements
+    Also known as: CORE-9448
+CORE-9493 - Hebrew translation additions and improvements to admin area
+CORE-9522 - French translation additions and improvements
+CORE-9533 - Portugese translation additions and improvements
+CORE-9599 - Swedish translation additions and improvements
+
+Version 6.2.1
+
+Release Type: Security
+Release Date: 26th January 2016
+
+Security
+
+CORE-9551 - Ensure Kayako Loginshare enforces login correctly
+CORE-9583 - Redacted
+CORE-9592 - Redacted
+
+Maintenance
+
+CORE-9521 - Prevent error on upgrade when creating UUID field

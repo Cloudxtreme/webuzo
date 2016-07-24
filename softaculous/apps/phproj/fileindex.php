@@ -1,0 +1,15 @@
+.htaccess
+CONTRIBUTING
+INSTALL
+LICENSE
+README
+README.RELEASE
+UPDATE
+VERSION
+application
+configuration.php-dist
+htdocs
+index.html
+library
+tests
+configuration.php

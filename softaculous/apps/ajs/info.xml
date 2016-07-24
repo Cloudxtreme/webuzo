@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://orangoo.com/labs/AJS/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/AJS
+	</ratings>
+	<space>
+		126284
+	</space>
+	<support>
+		http://orangoo.com/labs/AJS/
+	</support>
+	<version>
+		4.6
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AJS</font> is a ultra lightweight JavaScript library that is around 2 years old. It is inspired by MochiKit, but differs by being small and expressive. The current version is only 33 KB (uncompressed!), whereas MochiKit and other libraries such as JQuery, Mootools or Prototype is over/around 100 KB
+		<br /><br />
+		AJS is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		AJS includes:
+<ul>
+<li>Powerful and easy to use AJAX functions</li>
+<li>Performance on almost everything</li>
+<li>Effects</li>
+<li>Drag and drop</li>
+<li>Functional programming such as AJS.map, AJS.partial</li>
+<li>DOM functions such as AJS.$</li>
+<li>AJAX JSON support (with AJS.loadJSON and AJS.serializeJSON)</li>
+<li>Unified position and size that works in all the modern browsers</li>
+<li>Unified events that work in  all the modern browsers</li>
+<li>and a lot more...</li>
+</ul>
+
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font>
+<ul>
+<li>Firefox 1,0 and 1.5</li>
+<li>IE 5.5 and 6.0</li>
+<li>Netscape 7</li>
+<li>Safari</li>
+<li>Opera 8.5 and 9</li>
+</ul>
+
+
+		</english-features>
+	</languages>
+</soft>

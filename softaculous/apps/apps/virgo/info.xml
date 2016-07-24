@@ -1,0 +1,101 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_containers/Virgo
+	</ratings>
+	<space>
+		49545216
+	</space>
+	<support>
+		http://www.eclipse.org/virgo/support/
+	</support>
+	<version>
+		3.6.3
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>20-07-2014</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/virgo</path>
+	<path name="bin">/usr/local/apps/virgo/bin/startup.sh</path>	
+	
+	<extract file="virgo-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/virgo</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Virgo Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/virgo</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/virgo/bin/startup.sh</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://www.eclipse.org/virgo/documentation/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Virgo</font> from EclipseRT is a completely module-based Java application server that is designed to run enterprise Java applications and Spring-powered applications with a high degree of flexibility and reliability. . 
+<br /><br />
+		<br /><br />
+		Virgo is distributed under the <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License 1.0</a>
+		</english-overview>
+		<english-features>
+			<font size="2" color="#1281B6"><b>Admin Console</b></font><br /><br />
+			Deploy and manage artifacts, examine diagnostic dumps, and examine bundle wiring, either in the live system or from a resolution failure<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Equinox console extension</b></font><br /><br />
+			Manage Virgo and deployed artifacts<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Plans</b></font><br /><br />
+			define the artifacts that comprise an application, optionally making the application atomic to tie the artifact lifecycles together, and scoped to isolate the application from other applications<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Provisioning</b></font><br /><br />
+			Automatically supply the dependencies of an application including bundles, plans, plan archives (PARs), and configurations, from both local and remote repositories<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Web container</b></font><br /><br />
+			supports vanilla WAR files, with all their dependencies in <tt>WEB-INF/lib</tt>, and Web Application Bundles, that import their dependencies via OSGi manifest metadata, via the reference implementation of the OSGi Web	Container specification, based on embedded <a href="http://tomcat.apache.org/">Apache Tomcat</a> and configured using the standard Tomcat <tt>server.xml</tt><br /><br /><br />
+			<font size="2" color="#1281B6"><b>User Region</b></font><br /><br />
+			Isolates the kernel from user-installed applications and enables admins to focus on application artifacts and their dependencies without seeing those of the kernel as well<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Spring</b></font><br /><br />
+			Virgo packages Spring, but can easily be configured to use a different version of Spring<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Hot Deployment</b></font><br /><br />
+			Deploy artifacts to Virgo by copying them into the <tt>pickup</tt> directory, either in archive or exploded form, as an alternative to deploying via the admin console<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Legacy Library Support</b></font><br /><br />
+			Enables third party libraries which were not designed for OSGi to function correctly, once they have been converted into OSGi bundles and deployed, through advanced support for thread context class loading, load time weaving, class path scanning, and implicit package use<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Advanced Resolution Failure Diagnostics</b></font><br /><br />
+			Resolution failures are analysed and reported in meaningful terms, a dump is taken for offline analysis using the admin console, and the set of bundles being deployed is not committed to the runtime, preserving a cleanly resolved state<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Logging</b></font><br /><br />
+			via embedded LogBack, configured in <tt>config/serviceability.xml</tt>, with a rich set of appenders available out of the box<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Automatic thread stack dump on deadlock</b></font><br /><br />
+		</english-features>
+	</languages>
+</soft>

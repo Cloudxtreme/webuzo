@@ -1,0 +1,54 @@
+HESK CHANGELOG
+
+Changes in 2.6.7
+- changed email piping and pop3 fetching files line endings to Unix format for compatibility
+- security: removed private info from query string, reported by Alec Broughton (www)
+- security: require email to view tickets setting is now enabled by default
+- fix: pagination in private staff messages not working
+- fix: wrong links to index and KB page in help files
+- in customer side emails are now shown as a link
+
+Changes in 2.6.6
+- improved reCaptcha library to work with cURL
+- verify MySQL privileges before installing/upgrading
+- fix: respect attachments settings in KB form (minimum 3 if enabled)
+- fix: always checking for maintenance mode when downloading attachments
+- fix: missing <tr> tag in Reports
+
+Changes in 2.6.5
+- HESK now supports Zend OPcache enabled
+- modified PHP7 depreciated class constructors
+- improved handling of values/options when changing custom field type
+- simple anti-SPAM image now uses PNG or GIF support if JPEG is not enabled
+- trim "Help Desk URL" trailing slash when saving settings
+- fix: send customer notification of a new staff reply in the correct language
+- fix: merging tickets could hide old replies until a new reply is posted
+- fix: preserve table prefix in installation script on connection error
+- fix: session expired error when trying to reset password
+- fix: don't send out content-type headers for CLI scripts
+
+Changes in 2.6.4
+- fix: session expired error if username case doesn't match exactly the one in database
+
+Changes in 2.6.3
+- update unknown IP address to the IP address of the first ticket visitor from customer interface
+- "last modified" value will now be preserved during hesk_tickets table update
+- staff private messages can now have signatures attached
+- added three new special tags to canned responses
+- improved status assignment logic when customer reopens a closed ticket
+- removed execution time limit in installation script to handle large database updates
+- updated inline URL regex to not process emails in URLs containing not encoded emails
+- fix: existing sessions should expire after changing credentials, reported by Indrajith.AN (www)
+- fix: missing a day in the DateArray() function when passing daylight saving time adjustments
+- fix: force content type header charset to utf-8 (override PHP 5.6+ default_charset)
+- fix: status change not logged in ticket history when staff inserting customer reply
+- fix: email to ticket: accept email if no message required but attachment exists
+- fix: email confirmation not working properly when multiple emails are allowed
+- fix: non-default MySQL ports ignored during upgrade using mysqli library
+- fix: "Small box" setting disables knowledgebase search in admin panel
+- fix: null attachment name length after removing non-ascii chars
+- fix: grammar error in English language file
+
+Changes in 2.6.2
+- fix: \0 converted to null byte in XML export
+- fix: closedby column in hesk_tickets table must accept signed values

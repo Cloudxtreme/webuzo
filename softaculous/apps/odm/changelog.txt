@@ -1,0 +1,75 @@
+OpenDocMan 1.3.5 Release Notes
+-----------------------------
+Posted on January 31, 2016 by Stephen Lawrence in Announcements, Changelog, Releases
+
+OpenDocMan v1.3.5 includes security and bug fixes. No database changes are required. Recommended that all users upgrade from older versions.
+
+Issues resolved:
+
+	– Fixed #226 – video/3gpp type
+	– Fixed #229 – computed base url during install
+	– Fixed #232 – space separator in dropdown
+	– Fixed #233 – Add Tamil language
+	– Fixed #240 – add correct port details to config sample
+	– Fixed #241 – Added CSRF protection
+	– Fixed #242 – Added output escaping to views
+	– Fixed #244 – password fields during install
+	– Fixed #245 – revision view not working for historical revisions
+
+Misc:
+
+	– Add missing x-zip to installer, remove invalid default date values in schema
+	– Cleanup last_message to use urlencode()
+	– Added composer.phar and /vendor folder for dependency management
+	– Added phplint to require-dev for build tests
+	– Clean up PHP_SELF usage
+
+OpenDocMan v1.3.4 Released
+-----------------------------
+Posted on August 29, 2015 by Stephen Lawrence in Announcements, Changelog, Files, Releases
+
+OpenDocMan v1.3.4 includes security and bug fixes. No database changes are required.
+
+Additional XSS security enhancements
+	
+	#166 – Handel broken dataDir mis-configuration more cleanly
+	#215 – Spelling changes
+	#216 – Clean up the filetype error message
+
+OpenDocMan v1.3.3 Released
+-----------------------------
+Posted on August 9, 2015 by Stephen Lawrence in Announcements, Changelog, Releases 
+
+The v1.3.3 release of OpenDocMan does not contain any database changes.
+
+	#213 – Security – Improve handling for xss High Priority Security
+	#212 – Add Swedish Translation
+	#204 – File(plug-ins/index.html/index.html_class.php) is not within the allowed path(s)
+	#202 – Password length limit too low in 1.3.2
+	#201 – Mixed line endings cause e-mail body length issues resulting in DKIM signature failure
+	#200 – Invalid index in index.php version 1.3.2
+	#10 – Auto-detect when an update has been applied
+
+OpenDocMan v1.3.2 Released
+-----------------------------
+Posted on February 16, 2015 by Stephen Lawrence in Announcements, Changelog, Releases
+
+OpenDocMan v1.3.2 includes some bug fixes. No database changes are required:
+
+    Issue #149 – You are not an administrator
+    Issue #196 – Smarty requires update
+    Issue #197 – Settings throwing PDO exception
+    Issue #198 – Search throwing PDO exception
+    Issue #199 – Dept Perms not saving
+
+OpenDocMan v1.3.1 Released
+----------------------------
+Posted on January 9, 2015 by Stephen Lawrence in Announcements, Changelog, Files, Releases
+
+OpenDocMan v1.3.1 includes some bug fixes. No database changes are required:
+
+    Issue #195 – Installer – DB version detection not working
+    Issue #194 – Old password logins are not working
+    Issue #191 – database.sql – user is being created w/o md5()
+    Issue #190 – Undefined index Dept_Perms_class.php line 361
+    Issue #189 – Plugins – Add/Edit pages not showing form fields for plugins properly

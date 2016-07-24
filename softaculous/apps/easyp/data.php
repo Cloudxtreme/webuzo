@@ -1,0 +1,1 @@
+<?PHP $s[dbhost] = "[[softdbhost]]";$s[dbusername] = "[[softdbuser]]";$s[dbpassword] = "[[softdbpass]]";$s[dbname] = "[[softdb]]";$s[tblname] = "easypoll";$s[phprath] = "PGNlbnRlcj4=";$s[phpruth] = "PGEgaHJlZj0iaHR0cDovL3BocHdlYnNjcmlwdHMuY29tLyI+";$s[phppath] = "[[softpath]]";$s[phpurl] = "[[softurl]]";$s[after_url] = ""; ?>

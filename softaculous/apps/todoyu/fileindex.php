@@ -1,0 +1,17 @@
+.htaccess
+ChangeLog
+LICENSE.txt
+__HOW_TO_INSTALL.txt
+__UPGRADE_TODOYU___READ_THIS_FIRST.txt
+cache
+config
+core
+doc
+ext
+favicon.ico
+files
+index.html
+index.php
+install
+lib
+log

@@ -1,0 +1,44 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/libcap
+	</ratings>
+	<space>
+		2392
+	</space>
+	<support>
+		http://www.google.com/
+	</support>
+	<version>
+		2.22
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>13-01-2013</release_date>
+		
+	<extract file="libcap-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		NO Info
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">libcap</font> is a commonly used method of lossy compression for digital photography (image). The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality.
+		<br /><br />
+		JPEG is distributed under the <a href="http://edd.fiserv.com/licenses/jpeg-6b.html" target="_blank">jpeg-6b</a>
+		</english-overview>
+		<english-features>
+Variable compression is possible. Jpeg files can be compressed to a very small file size, while still retaining some quality. For detailed files that require higher quality, you can choose to use less compression.
+<br /><br />
+Variable compression is possible. Jpeg files can be compressed to a very small file size, while still retaining some quality. For detailed files that require higher quality, you can choose to use less compression.
+		</english-features>
+	</languages>
+</soft>

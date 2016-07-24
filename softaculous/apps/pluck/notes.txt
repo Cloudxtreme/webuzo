@@ -1,0 +1,4 @@
+While installtion create a page with the following details :
+
+Title : home
+content : This is a sample page.

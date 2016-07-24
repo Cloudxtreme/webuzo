@@ -1,0 +1,71 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="system_name" size="30" value="Gibbon">
+				<head>{{system_name}}</head>
+			</input>
+			<input type="text" name="organisation_name" size="30" value="Organisation">
+				<head>{{organisation_name}}</head>
+			</input>
+			<input type="text" name="organisation_initials" size="30" value="Initials">
+				<head>{{organisation_initials}}</head>
+			</input>
+			<input type="select"> 
+			<select name="primary_assessment_scale">
+			<option value=''>Please select...</option>
+			<option value='00010'>Cognitive Abilities Test</option>
+			<option value='00009'>Completion</option>
+			<option value='00013'>IB Diploma (Subject)</option>
+			<option value='00014'>IB Diploma (Total)</option>
+			<option value='00007'>International College HK</option>
+			<option value='00004' selected="selected">Percentage</option>
+			<option value='00011'>UK National Curriculum KS3</option>
+			<option value='00015'>UK National Curriculum KS3 Simplified</option>
+			<option value='00003'>United Kingdom GCSE/iGCSE</option>
+			<option value='00012'>United Kingdom GCSE/iGCSE Predicted</option>    
+			</select>           
+				<head>{{primary_assessment_scale}}</head>
+			</input>
+			<input type="select">
+				<select name="sample_data">
+				<option value='N'>No</option>
+				<option value='Y'>Yes</option>    
+				</select>
+				<head>{{sample_data}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="select"> 
+				<select name="title">
+				<option value=""></option>
+				<option value="Ms. ">Ms.</option>
+				<option value="Miss ">Miss</option>
+				<option value="Mr. " selected="selected">Mr.</option>
+				<option value="Mrs. ">Mrs.</option>
+				<option value="Dr. ">Dr.</option>
+				</select>
+				<head>{{title}}</head>
+			</input>
+			<input type="text" name="sname" size="30" value="Administrator">
+				<head>{{s_name}}</head>
+			</input>
+			<input type="text" name="fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="Password1">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>			
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

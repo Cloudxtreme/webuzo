@@ -1,0 +1,46 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin" disabled="disabled">
+				<head>{{ad_name}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*/*/*/*/*/*/*</exclude>
+		<exclude>languages/de_de/Install.php</exclude>
+		<exclude>languages/en_us/Install.php</exclude>
+		<exclude>languages/nl_nl/Install.php</exclude>
+		<exclude>languages/pl_pl/Install.php</exclude>
+		<exclude>languages/pt_br/Install.php</exclude>
+		<exclude>languages/ru_ru/Install.php</exclude>
+	</files>
+</softinstall>

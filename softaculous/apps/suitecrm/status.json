@@ -1,0 +1,1 @@
+{"message":"Configuration relationships...[ok]<br>Create database...[ok]<br>Create default settings...[ok]<br>Install finish...[ok]<br>Installation process finished, <a href=\"[[cust_softurl]]\/index.php\">please log in...<\/a>","command":{"function":"redirect","arguments":"[[cust_softurl]]\/index.php"}}

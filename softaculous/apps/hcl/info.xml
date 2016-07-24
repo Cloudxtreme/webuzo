@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Help_Center_Live
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Help_Center_Live
+	</ratings>
+	<space>
+		1964317
+	</space>
+	<support>
+		http://sourceforge.net/projects/helpcenterlive/
+	</support>
+	<version>
+		2.1.7
+	</version>
+	<mod>6</mod>
+	<mod_files>4</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Help Center Live</font> is an open-source, community driven live chat &amp; support system. You may easily provide live support on your website just like large companies do with very little work. With Help Center Live, you can provide a real-time, live support or sales person experience.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Live Support</li>
+<li> FAQ</li>
+<li> Trouble Tickets</li>
+<li> WinApp addon so that the application can be minimised to your windows system tray</li>
+<li> Unlimited Operators/Departments/Users</li>
+<li> Unlimited Chat Sessions</li>
+<li> Transfer Chat</li>
+<li> Push web pages</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

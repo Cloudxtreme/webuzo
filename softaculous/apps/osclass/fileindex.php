@@ -1,0 +1,11 @@
+CHANGELOG.txt
+config-sample.php
+favicon.ico
+index.php
+licenses.txt
+oc-admin
+oc-content
+oc-includes
+oc-load.php
+robots.txt
+config.php

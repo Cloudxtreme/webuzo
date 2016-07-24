@@ -1,0 +1,78 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Cassandra
+	</ratings>
+	<space>
+		96137185
+	</space>
+	<support>
+		http://cassandra.apache.org/
+	</support>
+	<version>
+		2.1.8
+	</version>
+	<mod>6</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>09-07-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<path name="base">/usr/local/apps/cassandra</path>
+	<path name="bin">/usr/local/apps/cassandra/bin/cassandra</path>
+	
+	<extract file="cassandra-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Cassandra Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/cassandra</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/cassandra/bin/cassandra</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#197e7a">The Apache Cassandra</font> database is the right choice when you need scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data. Cassandra's support for replicating across multiple datacenters is best-in-class, providing lower latency for your users and the peace of mind of knowing that you can survive regional outages. 
+		<br /><br />
+		The Apache Cassandra is distributed under the <a href="http://www.apache.org/licenses/" target="_blank">Apache License, Version 2.0.</a>
+		</english-overview>
+		<english-features>
+			<ui>
+				<li><b>Proven :</b><p>Cassandra is in use at Netflix, eBay, Twitter, Urban Airship, Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large, active data sets. The largest known Cassandra cluster has over 300 TB of data in over 400 machines. </p></li>
+				<li><b>Performant :</b><p>Cassandra consistently outperforms popular NoSQL alternatives in benchmarks and real applications, primarily because of fundamental architectural choices.</p></li>
+				<li><b> Fault Tolerant :</b><p>Data is automatically replicated to multiple nodes for fault-tolerance. Replication across multiple data centers is supported. Failed nodes can be replaced with no downtime.</p></li>
+				<li><b> You're in Control :</b><p>Choose between synchronous or asynchronous replication for each update. Highly available asynchronous operations are optimized with features like Hinted Handoff and Read Repair.</p></li>
+				<li><b>Decentralized :</b><p>There are no single points of failure. There are no network bottlenecks. Every node in the cluster is identical.</p></li>
+				<li><b> Elastic :</b><p>Read and write throughput both increase linearly as new machines are added, with no downtime or interruption to applications.</p></li>
+				<li><b>Durable :</b><p>Cassandra is suitable for applications that can't afford to lose data, even when an entire data center goes down.</p></li>				
+			</ui>
+		</english-features>
+	</languages>
+</soft>

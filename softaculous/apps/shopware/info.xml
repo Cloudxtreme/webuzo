@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Shopware
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Shopware
+	</ratings>
+	<space>
+		99384704
+	</space>
+	<support>
+		http://shopware.com/resources/community-forum
+	</support>
+	<version>
+		5.1.6
+	</version>
+	<mod>20</mod>
+	<release_date>23-05-2016</release_date>
+	<admin>backend</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Shopware</font> is a highly flexible, powerful and customizable software solution that allows you to quickly and easily create an online shop, regardless of your store requirements.
+		<br /><br />
+		Shopware is based on novel eCommerce technologies, provides highly innovative marketing tools and includes integrated SEO functionalities, all of which are the basis for any successful online business. An intuitive interface and simple-to-use backend make the software the optimal choice for users, as well as designers, developers and decision makers.
+		<br /><br />
+		Shopware Community Edition is licensed under the terms of <a href="http://shopware.com/software/overview/faq-agpl" target="_blank">Affero General Public License version 3 (AGPLv3)</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font color="#1281B6"><b>Wide range of functions</b></font><br />
+		<p>The standard version of Shopware includes many innovative and unique features that give the software a basis for creating an attractive and sophisticated online store.</p>
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Extendable via plugins</b></font><br />
+		<p>Shopware is a modular eCommerce system. This means that many practical and profitable extras can be added in order to increase functionality. Start small and expand when needed.</p>
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Upgrade to PE/EE available</b></font><br />
+		<p>If you have decided for the Community or Professional Editions, you can seamlessly migrate at any time to the Professional or Enterprise Editions.</p>
+	</li>
+</ul> 
+		</english-features>
+	</languages>
+</soft>

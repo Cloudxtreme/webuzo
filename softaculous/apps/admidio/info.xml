@@ -1,0 +1,84 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Admidio
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Admidio
+	</ratings>
+	<space>
+		15228076
+	</space>
+	<support>
+		http://www.admidio.org/
+	</support>
+	<version>
+		3.1.3
+	</version>
+	<mod>23</mod>
+	<release_date>16-04-2016</release_date>
+	<admin>adm_program/system/login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.7" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Admidio</font> is a free online membership management, optimized for clubs, groups and organizations. It consists of classical management members from a variety of modules that can be installed and adjusted to a new or existing website. 
+		<br /><br />
+		Registered users have your website by Admidio including access to predefined and user-configurable membership lists, people profiles and an Agenda. In addition, members may be pooled in groups are assigned properties and search for it.
+		<br /><br />
+		Admidio is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE Version 2</a>.
+		</english-overview>		
+		<english-features>
+<ul> 
+	<li>
+		Access control (protects data from the eyes of unauthorized members)<br /><br />
+	</li> 
+	<li> 
+		Freely configurable membership lists<br /><br />
+	</li> 
+	<li> 
+		Export of all lists to Excel, OpenOffice or as a CSV file<br /><br />
+	</li> 
+	<li> 
+		Appointment and announcement management with iCal export<br /><br />
+	</li> 
+	<li> 
+		Free configuration of groups, departments and Features<br /><br />
+	</li> 
+	<li> 
+		Individual rights assignment to groups, departments and Features<br /><br />
+	</li> 
+	<li> 
+		Upload, manage, and view photos in a photo gallery<br /><br />
+	</li>  
+	<li> 
+		Profile fields can be configured<br /><br />
+	</li> 
+	<li> 
+		Adjusting the layout with the help of different Plugins<br /><br />
+	</li> 
+	<li> 
+		Access to a database of several organizations and member data<br /><br />
+	</li> 
+	<li> 
+		Guestbook with commenting capability for all entries<br /><br />
+	</li> 
+	<li> 
+		Import new users from a CSV file<br /><br />
+	</li> 
+	<li> 
+		and much more ...
+	</li>
+</ul>
+		</english-features>
+		<english-short_site_name>Short name</english-short_site_name>
+		<english-exp_short_site_name>Maximum 10 characters</english-exp_short_site_name>
+	</languages>
+</soft>

@@ -1,0 +1,17 @@
+.htaccess
+admin
+cache
+catalog
+common.php
+config.php
+download
+gbase_rss.php
+image
+index.php
+install
+library
+logs
+robots.txt
+rss.php
+sitemap.php
+admin1

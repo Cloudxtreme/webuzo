@@ -1,0 +1,17 @@
+.DS_Store
+.github
+.htaccess
+LICENSE.md
+README.md
+app
+changelog.md
+composer.json.dist
+composer.lock.dist
+extensions
+files
+index.php
+serve
+src
+theme
+vendor
+web.config

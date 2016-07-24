@@ -1,0 +1,81 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/server_side_scripting/Java_8
+	</ratings>
+	<space>
+		366000785
+	</space>
+	<support>
+		http://www.java.com/en/
+	</support>
+	<version>
+		8u92
+	</version>
+	<mod>7</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>19-04-2016</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/java8</path>
+	<path name="bin">/usr/local/apps/java8/bin</path>
+	<path name="jre_bin">/usr/local/apps/java8/jre/bin</path>	
+	
+	<extract file="java8-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/java8</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Java Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/java8/bin</td>
+			</tr>
+			<tr>
+				<td>JRE Binary</td>
+				<td>/usr/local/apps/java8/jre/bin</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Java </font>allows you to play online games, chat with people around the world, calculate your mortgage interest, and view images in 3D, just to name a few. It's also integral to the intranet applications and other e-business solutions that are the foundation of corporate computing. 
+<br /><br />
+		<br /><br />
+		Java is distributed under the <a href="http://www.oracle.com/technetwork/java/javase/terms/license/index.html" target="_blank">Java License</a>
+		</english-overview>
+		<english-features>
+		For Developers : <br />
+<ul>
+	<li>Write software on one platform and run it on virtually any other platform</li>
+	<li>Create programs that can run within a web browser and access available web services</li>
+	<li>Develop server-side applications for online forums, stores, polls, HTML forms processing, and more</li>
+	<li>Combine applications or services using the Java language to create highly customized applications or services</li>
+	<li>Write powerful and efficient applications for mobile phones, remote processors, consumer products, and practically any other electronic device</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/LifeType
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/LifeType
+	</ratings>
+	<space>
+		9295846
+	</space>
+	<support>
+		http://www.lifetype.net
+	</support>
+	<version>
+		1.2.12
+	</version>
+	<mod>13</mod>
+	<mod_files>1</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LifeType</font> supports multiple blogs and users, media management, generation of standard content, clean URLs and support for subdomains.
+LifeType is released under the GPL license, and requires PHP and MySQL to work.
+		<br /><br />
+		Writing articles is comfortable with the included state of the art WYSIWYG editor. Adding pictures and sound files (for Podcasting) is just a matter of browse and click.
+The Dashboard provides you with all the information you need every time you log in. Recent articles, comments and trackback as well as brief statistics get you updated about your blog immediately.
+		<br /><br />
+		LifeType is licensed under the <a href="http://www.fsf.org/licensing/licenses/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+		Writing articles is comfortable with the included state of the art WYSIWYG editor. Features include : 
+		<ul>
+<li>User Friendly Interface</li>
+<li>Integrated Media Management</li>
+<li>Choose your Style</li>
+<li>Add a Feature</li>
+<li>Built-in anti-spam Filter</li>
+<li>Support for Trackbacks</li>
+<li>Multiple Users per Blog</li>
+<li>Easy Installation</li>
+<li>Mobile features</li>
+<li>Multiple Blogs in one Installation</li>
+<li>Central Page for Communities</li>
+<li>Subdomains</li>
+<li>Easily Localizable</li>
+<li>Performance</li>
+<li>Nice Looking URLs</li>
+<li>Nice and Clean Code</li>
+<li>Clean Content</li>
+<li>Powerful Plugin Framework</li>
+<li>Smarty Templates</li>
+<li>XMLRPC</li>
+</ul>
+		</english-features>
+		<english-err_php53_com>is not compatible with PHP version 5.3+</english-err_php53_com>
+	</languages>
+</soft>

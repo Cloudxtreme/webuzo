@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/XMB
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/XMB
+	</ratings>
+	<space>
+		3122985
+	</space>
+	<support>
+		http://forums.xmbforum2.com/
+	</support>
+	<version>
+		1.9.11.13
+	</version>
+	<mod>9</mod>
+	<mod_files>4</mod_files>
+	<admin>cp.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">XMB</font> is a lightweight PHP forum software with all the features you need to support a growing community. With outstanding community support and contribution, you will find XMB to be easy to setup, customize, and enhance.
+		<br /><br />
+		XMB is available to anyone under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<p>Though XMB is lightweight out of the box, it offers the key features you need to get your message board up and running</p>
+<ul>
+<li>Forum Organization with Categories, Forums &amp; Sub-Forums</li>
+<li>Easy to use Member Management</li>
+
+<li>Anti-spam image verification for registration and anonymous posting</li>
+<li>U2U Private Messaging</li>
+<li>Inline Mass Moderation</li>
+<li>Easy-to-use Theming Interface</li>
+<li>Board Rules &amp; FAQ System</li>
+</ul>
+<p>These are just some of the many features included in XMB.</p>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

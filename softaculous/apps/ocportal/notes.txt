@@ -1,0 +1,10 @@
+1. Site closed in SQL 
+From This :('site_closed', 'CLOSED_SITE', 0, '', 'tick', 'return ''1'';', 'SITE', 'CLOSED_SITE', 'CONFIG_OPTION_site_closed', 0, ''),
+
+To :('site_closed', 'CLOSED_SITE', 0, '', 'tick', 'return ''0'';', 'SITE', 'CLOSED_SITE', 'CONFIG_OPTION_site_closed', 0, ''),
+
+only change is after return make 1 -> 0.
+
+2. Change the site_name in SQL in config table and also the value of c_set = 1
+
+3. Advanced. Your database of choice (should be installed on the/a server): mySQL 4.0+ (mysqli driver)

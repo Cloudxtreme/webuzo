@@ -1,0 +1,4 @@
+1) while installtion chose Advanced Settings for dbprefix (Select advance settings to enter dbprefix in database settings page while manual installation)
+2) Choose Table type InnoDB on database settings page under advanced settings
+3) Select Timezone America/NewYork
+4) Add '/plugins', '/www/admin/plugins', '/var/plugins' folder of manual install in zip package

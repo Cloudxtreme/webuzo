@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/WideImage
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/WideImage
+	</ratings>
+	<space>
+		2555541
+	</space>
+	<support>
+		http://wideimage.sourceforge.net/support/
+	</support>
+	<version>
+		11.02.19
+	</version>
+	<mod>2</mod>
+	<mod_files>3</mod_files>
+	<admin>demo/index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WideImage</font> is an object-oriented library for image manipulation.
+		<br /><br />
+		The library provides a simple way to loading, manipulating and saving images in the most common image formats.
+		<br /><br />
+		WideImage is released under the <a href="http://www.opensource.org/licenses/lgpl-2.1.php" target="_blank">GNU LGPL 2.1</a>.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font size="2" color="#1281B6"><b>Supported formats</b></font><br /><br />
+<font size="1">WideImage supports all formats that are natively supported by the GD extension on the server 
+(this currently includes GIF, PNG, JPG, GD, GD2, WBMP, XBM, XPM). It also supports BMP (read/write) and TGA (read only).
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Loading images</b></font><br /><br />
+<font size="1">Loading an image is easy — you only have to call the WideImage::load() static method and specify the image source. 
+WideImage tries to detect whether the source is a file, url, upload, a binary string or a valid GD image resource (image handle). WideImage supports the most common image formats.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Saving images</b></font><br /><br />
+<font size="1">WideImage supports saving images to files, outputting the image directly to the browser, and retrieving them as a string. With string output, you can easily capture image data and write it for example to a database.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Manipulating images</b></font><br /><br />
+<font size="1">In WideImage, you manipulate the images by calling the appropriate operation method on the image object. Every operation returns a new Image object (for the nerds: this is basically a value object).
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Smart coordinates</b></font><br /><br />
+<font size="1">Smart coordinates were implemented to make operations that involve coordinates, dimensions, and positioning easier. They can be useful with any operation that requires coordinates as parameters, like resize, crop, etc.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Resource handling</b></font><br /><br />
+<font size="1">WideImage takes care of image resources for you; you don't have to destroy the images explicitly, they're automatically destroyed when an image object is no longer used. You can change that at runtime by releasing the handle of an image via releaseHandle() method.
+</font><br /><br />
+		</english-features>
+	</languages>
+</soft>

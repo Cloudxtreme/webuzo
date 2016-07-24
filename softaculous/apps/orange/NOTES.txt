@@ -1,0 +1,3 @@
+1) Move USING BTREE to work on strict MySQL environments.
+2) Remove DEFINER=`root`@`localhost` from SQL file
+3) When converting preg_replace to soft_preg_replace check the database details properly it should not have test_

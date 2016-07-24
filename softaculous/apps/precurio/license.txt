@@ -1,0 +1,21 @@
+customerID: 0
+type: Trial
+users: 20
+
+------ LICENSE FILE DATA -------
+2172SV68EGQpZn0BCOTae3olzlaZPI1K
+l540qsOcjwqm6YE4KfiL0X2NTQetUVS+
+5UAGhvU9AyJ0sEc8zkRAR9cRnFqlwfaO
+xvojvIbmjq+OHigo36qeMc7EQly+PHaZ
+UnvL1lInCDQfnQ09dKNKODHvIbIPfSl8
+Q9zU8g6ROhafyxFHyy++pN8pgoMlHqcu
+QU09fNubrmMZdKvNhXembyQuPfcXseNr
+yeL+rJ2aYvkXOe5PG0TXybvjFsL88nlL
+iZBO+XSIZcL2zBQUaJ38Qwqivb13CQOd
+yvv+47iyuP7ongI73Jc1rcvgFtSTWAzB
+p9d7VNjro+E4YPTd8PtfZx56+7SDEwJP
++ctffDBCu6fbeV8BEHaWtjdnMiOM2eOQ
+PftjHTrRFoDLm2AoZy/C9A0OVJjb0EAI
+8M4pIa2yjeTXsLf8LnkUNH9FxhV90xLl
+mldRqR3R
+--------------------------------

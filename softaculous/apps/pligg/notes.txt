@@ -1,0 +1,11 @@
+1. Add [[language]] in sql and settings.php
+2. Remove .defualt from all language files in the package /languages/ folder.
+3. Rename the /favicon.ico.default to /favicon.ico
+4. Change the $dbver in upgrade.php it is the value from pligg_misc_data table `kliqqi_version` row
+5. adcopy_pubkey, adcopy_privkey and adcopy_hashkey are same for all installation.
+
+Note : As mentioned in the upgrade notes (i.e. readme.html) the old template is not compatible when upgrading from versions lower than 2.0
+Below is the extract from the upgrade notes :
+Either update your template to work with the latest version or navigate to /admin/admin_config.php?page=Template and change the template name to "bootstrap"
+
+5. We have disabled the upgrade because upgrading from pligg 2.0.2 to kliqqi 3.0.0 requires migration. and as of now there is no migration notes. http://www.kliqqi.com/migrating-from-pligg-to-kliqqi/

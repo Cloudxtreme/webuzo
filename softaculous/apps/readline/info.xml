@@ -1,0 +1,39 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/Readlin
+	</ratings>
+	<space>
+		6548182
+	</space>
+	<support>
+		http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+	</support>
+	<version>
+		6.3
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>	
+	
+	<extract file="readline-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		No Info
+	</notes>
+	<languages>
+		<english-overview>
+			No Info
+		</english-overview>
+		<english-features>
+			No Info
+		</english-features>
+	</languages>
+</soft>

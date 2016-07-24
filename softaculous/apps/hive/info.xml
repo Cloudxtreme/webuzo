@@ -1,0 +1,79 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Apache_Hive
+	</ratings>
+	<space>
+		108949135
+	</space>
+	<support>
+		http://hive.apache.org/
+	</support>
+	<version>
+		 1.2.1
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>27-06-2015</release_date>
+	
+	<requires>java</requires>
+	<requires>hadoop</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/hive</path>
+	<path name="bin">/usr/local/apps/hive/bin/hive</path>	
+	
+	<extract file="hive-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/hive</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache Hive Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/hive</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/hive/bin/hive</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache Hive</font> is data warehouse software facilitates querying and managing large datasets residing in distributed storage. Hive provides a mechanism to project structure onto this data and query the data using a SQL-like language called HiveQL. At the same time this language also allows traditional map/reduce programmers to plug in their custom mappers and reducers when it is inconvenient or inefficient to express this logic in HiveQL.
+<br /><br />
+		Apache Hive is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License, Version 2.0</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Tools to enable easy data extract/transform/load (ETL)</li>
+				<li>A mechanism to impose structure on a variety of data formats</li>
+				<li>Access to files stored either directly in <strong>Apache HDFS</strong> or in other data storage systems such as <strong>Apache HBase</strong> </li>
+				<li>Query execution via MapReduce</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

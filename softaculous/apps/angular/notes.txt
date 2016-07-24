@@ -1,0 +1,4 @@
+1. Download zip
+2. Make angular.zip by renaming angular.min.js to angular.js
+3. Make the package.zip of whole package
+4. Take the size of the angular.js

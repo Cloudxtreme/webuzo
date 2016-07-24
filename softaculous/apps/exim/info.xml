@@ -1,0 +1,81 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/Exim
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://www.exim.org/
+	</support>
+	<version>
+		4.x
+	</version>
+	<mod>7</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<path name="base">/etc/exim</path>
+	<path name="daemon">/usr/sbin/exim</path>
+	<path name="conf_dir">/etc/exim</path>
+	<path name="conf">/etc/exim/exim.conf</path>
+	<path name="user_dir">/etc/vmail</path>
+	<path name="email_dir">/var/local/vmail</path>
+		
+	<extract file="squirrel.zip">$webuzowww/squirrel</extract>
+	
+	<initd name="exim">/etc/init.d/exim</initd>
+	
+	<remove>$webuzowww/squirrel</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Exim Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Daemon</td>
+				<td>/usr/sbin/exim</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/etc/exim/exim.conf</td>
+			</tr>
+			<tr>
+				<td>Conf Dir</td>
+				<td>/etc/exim</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Exim </font> is a message transfer agent (MTA) developed at the University of Cambridge for use on Unix systems connected to the Internet. Exim can be installed in place of Sendmail, although the configuration of Exim is quite different.
+		<br /><br />
+		Exim is distributed under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank"> GNU General Public Licence</a>
+		</english-overview>
+		<english-features>
+Exim is highly configurable, and therefore has features that are lacking in other MTAs. It has always had substantial facilities for mail policy controls, providing facilities for the administrator to control who may send or relay mail through the system.  
+<br /><br />
+In version 4.x this has matured to an Access Control List based system allowing very detailed and flexible controls. The integration of a framework for content scanning, which allowed for easier integration of anti-virus and anti-spam measures, happened in the 4.x releases. This made Exim very suitable for enforcing diverse mail policies.
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,73 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/X-Cart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/X-Cart
+	</ratings>
+	<space>
+		90626892
+	</space>
+	<support>
+		http://forum.x-cart.com/
+	</support>
+	<version>
+		5.2.15
+	</version>
+	<mod>13</mod>
+	<release_date>17-05-2016</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="PDO" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">X-Cart</font> is a PHP/MySQL based secure shopping cart software with open source code. 
+		<br /><br />
+		X-Cart Free Edition is licensed under the terms of <a href="https://www.x-cart.com/license-agreement.html" target="_blank">X-Cart 5 end-user license agreement</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font color="#F39321"><b>Awesome Design Templates</b></font><br />
+		<p>Get your store up and running fast - without breaking the bank. Take a peek at all the great design templates we offer, then choose your fave and start customizing.</p>
+	</li>
+	<li> 
+		<font color="#F39321"><b>Open source PHP code</b></font><br />
+		<p>Open source means full control over everything for you. Add extra features now or in a year or two as your online business grows - no problem!</p>
+	</li>
+	<li> 
+		<font color="#F39321"><b>Technological Marvel</b></font><br />
+		<p>For you, it means smart and hassle-free performance. For your developer, it translates to faster work, easier maintenance and scalability plus helpful documentation - all of which are easier on your pocket! </p>
+	</li>
+	<li> 
+		<font color="#F39321"><b>Fast &amp; Secure</b></font><br />
+		<p>X-Cart is the only PCI DSS compliant software you can run on your own server. It works on any hosting, even a shared one, while featuring industry leading security - naturally!</p>
+	</li>
+	<li> 
+		<font color="#F39321"><b>Extensions</b></font><br />
+		<p>Access hundreds of add-ons via the Marketplace which is built right into your store admin area. Any developer can publish work there, and you can install it with one click-right from your website!</p>
+	</li>
+	<li> 
+		<font color="#F39321"><b>Great community</b></font><br />
+		<p>There's a very active community of many developers and e-commerce industry professionals. They address and solve loads of questions daily based on the real-world experience of actual online business.</p>
+	</li>
+	<li> 
+		<font color="#F39321"><b>Responsive</b></font><br />
+		<p>Bootstrap-based responsive design for optimal performance on all types of devices, from cell and tablet to widescreen desktop out of the box.</p>
+	</li>
+</ul> 
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

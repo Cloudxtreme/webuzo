@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Thelia_2
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Thelia_2
+	</ratings>
+	<space>
+		125667470
+	</space>
+	<support>
+		http://thelia.net/forum/
+	</support>
+	<version>
+		2.3.1
+	</version>
+	<mod>13</mod>
+	<release_date>18-05-2016</release_date>  
+	<admin>web/admin/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="intl" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="pdo_mysql" />  
+	<requirement check="php" type="extension" name="calendar" />  
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Thelia 2</font> E-commerce software, useful to create and manage online stores, published under a free license.
+		<br /><br />Developed in accordance to web development standards and based on Symfony 2, Thelia meets the following objectives : performance and scalability. Thanks to its features, Thelia helps merchants to improve the management of their business, their sales and turnover.
+		<br /><br />
+		Thelia 2 is released under the <a href="https://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LESSER GENERAL PUBLIC LICENSE Version 3</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#FC7022"><b>Performance :</b></font><br /><br />
+Thelia 2 has been developed in accordance to web development standards. The core is based on Symfony 2 components and meet the following objectives : performance and scalability.<br /><br />
+<font size="2" color="#FC7022"><b>Functional :</b></font><br /><br />
+New significant technological choices such as interoperability, css preprocessor or REST API, in addition to relevant added features allow merchants to improve the management of their business, their sales and turnover.<br /><br />
+<font size="2" color="#FC7022"><b>Ergonomic :</b></font><br /><br />
+Both back and front-office have been thought to be more efficient. Powered by the template engine Smarty and integrated with the unavoidable Bootstrap 3 and the standard HTML 5, they are fully adaptable.<br /><br />
+<font size="2" color="#FC7022"><b>Shipping fees estimation :</b></font><br /><br />
+Bringing the ZIP code, the city and the country of delivery in the cart to estimate shipping fees.<br /><br />
+<font size="2" color="#FC7022"><b>Coupons, vouchers and promotions :</b></font><br /><br />
+Add the possibility to : <br />
+- Available the promotion on a category of products only.<br/>
+- Offer shipping from such amount in the cart or any category of product or if the order contains a specific product.<br/>
+- Offer shipping for a defined transporter.<br/>
+- Define the countries where the promotion is available. The country taken into account here is the country of the default address.<br/>
+- Assign a starting date, in order to activate the offer by itself. <br/>
+- Promotion : Apply a discount percentage to a product or an entire category of products. Discount price is automatically calculated.
+<br /><br />
+<font size="2" color="#FC7022"><b>Front-office Hooks :</b></font><br /><br />
+Hooks integration in the front-office layout.<br /><br />
+<font size="2" color="#FC7022"><b>REST API :</b></font><br /><br />
+To make interactions between clients and services easier.<br /><br />
+		</english-features>
+	</languages>
+</soft>

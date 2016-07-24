@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- generator="Podcast Generator 2.6" -->
+	<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>[[site_name]]</title>
+		<link>[[softurl]]/</link>
+		<atom:link href="[[softurl]]/feed.xml" rel="self" type="application/rss+xml" />
+		<description>[[site_desc]]</description>
+		<generator>Podcast Generator 2.6 - http://podcastgen.sourceforge.net</generator>
+		<lastBuildDate>[[lastBuildDate]]</lastBuildDate>
+		<language>en</language>
+		<copyright>Your copyright notice</copyright>
+		<itunes:image href="[[softurl]]/images/itunes_image.jpg" />
+		<image>
+		<url>[[softurl]]/images/itunes_image.jpg</url>
+		<title>Podcast Title</title>
+		<link>[[softurl]]/</link>
+		</image>
+		<itunes:summary>[[site_desc]]</itunes:summary>
+		<itunes:subtitle>[[site_subtitle]]</itunes:subtitle>
+		<itunes:author>[[admin_username]]</itunes:author>
+		<itunes:owner>
+		<itunes:name>[[admin_username]]</itunes:name>
+		<itunes:email>[[admin_email]]</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>no</itunes:explicit>
+		
+		<itunes:category text="Arts"></itunes:category>
+		
+	</channel>
+	</rss>

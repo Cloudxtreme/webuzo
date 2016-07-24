@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/HelpDeskZ
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/HelpDeskZ
+	</ratings>
+	<space>
+		10724107
+	</space>
+	<support>
+		http://community.helpdeskz.com/
+	</support>
+	<version>
+		1.0.2
+	</version>
+	<mod>2</mod>
+	<release_date>01-06-2015</release_date>
+	<admin>?v=staff</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">HelpDeskZ</font> is a FREE and Open Source help desk solution for your business. It is easily integrated to your site and support requests can be created via email or web-based forms.
+		<br /><br />
+		It will give you a friendly interface for your site's tickets management. You can create a wide knowledge base for your customers and with the opportunity to create Canned Responses for the most popular requests, your will improve your support sytem productivity. In resume, powerful, easy to use, reliable, open source and FREE.
+		<br /><br />
+		HelpDeskZ is released under <a href="http://www.helpdeskz.com/license/gpl" target="_blank">GNU General Public License</a>.
+		</english-overview>
+		<english-features>
+<ul>
+	<li>Unlimited staff and users </li><br />
+	<li>Unlimited departments </li><br />
+	<li>Ticket priority levels </li><br />
+	<li>Ticket attachments </li><br />
+	<li>Canned responses </li><br />
+	<li>Knowledgebase integrated </li><br />
+	<li>News section integrated </li><br />
+	<li>Custom fields to have additional information </li><br />
+	<li>Login-Share system to integrate your help desk to third-party applications </li><br />
+	<li>Multilanguage </li><br />
+	<li>Autoclose tickets after X hours </li><br />
+	<li>SMTP mail options </li><br />
+	<li>Allow the use of SEO-friendly URLs </li><br />
+	<li>Ability to open or answer tickets via e-mail (pipe) </li><br />
+	<li>Twig as template engine for easy site integration </li><br />
+</ul>
+		</english-features>
+	</languages>
+</soft>

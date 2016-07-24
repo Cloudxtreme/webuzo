@@ -1,0 +1,4 @@
+1. We copy the mod_upgrade.php for auto upgrade and then after auto upgrade we revert the original file orig_upgrade.php
+// Softaculous Change
+define(PHPWG_IN_UPGRADE, true);
+2. Change the $dbver in upgrade.php it is the value from database config table `piwigo_db_version` row

@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Adminer
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/Adminer
+	</ratings>
+	<space>
+		423994
+	</space>
+	<support>
+		http://www.adminer.org/
+	</support>
+	<version>
+		4.2.5
+	</version>
+	<mod>28</mod>
+	<release_date>01-06-2016</release_date>
+	<admin>adminer.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Adminer</font> is a full-featured database management tool written in PHP.
+		<br /><br />
+		Conversely to phpMyAdmin, Adminer consist of a single file ready to deploy to the target server. Adminer is available for MySQL, PostgreSQL, SQLite, MS SQL and Oracle.
+		<br /><br />
+		Adminer is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.txt" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Connect to a database server with username and password</li>
+<li>Select an existing database or create a new one</li>
+<li>List fields, indexes, foreign keys and triggers of table</li>
+<li>Change name, engine, collation, auto_increment and comment of table</li>
+<li>Alter name, type, collation, comment and default values of columns</li>
+<li>Add and drop tables and columns</li>
+<li>Create, alter, drop and search by indexes including fulltext</li>
+<li>Create, alter, drop and link lists by foreign keys</li>
+<li>Create, alter, drop and select from views</li>
+<li>Create, alter, drop and call stored procedures and functions</li>
+<li>Create, alter and drop triggers</li>
+<li>List data in tables with search, aggregate, sort and limit results</li>
+<li>Insert new records, update and delete the existing ones</li>
+<li>Supports all data types, blobs through file transfer</li>
+<li>Execute any SQL command from a text field or a file</li>
+<li>Export table structure, data, views, routines, databases to SQL or CSV</li>
+<li>Alter export for projecting changes to production database</li>
+<li>Print database schema connected by foreign keys</li>
+<li>Show processes and kill them</li>
+<li>Display users and rights and change them</li>
+<li>Display variables with links to documentation</li>
+<li>Manage events and table partitions (MySQL 5.1)</li>
+<li>Schemas, sequences, user types (PostgreSQL)</li>
+<li>Extensive customization options</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

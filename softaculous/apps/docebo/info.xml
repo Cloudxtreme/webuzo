@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/others/DoceboLMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/DoceboLMS
+	</ratings>
+	<space>
+		38478696
+	</space>
+	<support>
+		http://www.docebo.org/doceboCms/
+	</support>
+	<version>
+		4.0.5
+	</version>
+	<mod>3</mod>
+	<mod_files>5</mod_files>
+	<admin>doceboCore/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">DoceboLMS</font> is a SCORM compliant Open Source e-Learning platform used in corporate, government and education markets. 
+		
+		<br /><br />DoceboLMS makes it extremely easy to construct the didactic content of lessons and teachers are free to reuse files that they already have (Powerpoint, Word, PDF, film clips, etc). Users can also be managed by groups or categories and it is also possible to personalise the graphic environment for subgroups of users.
+		<br /><br />
+		
+		DoceboLMS is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>User registration by administrator, moderated or free</li>
+<li>User management through groups, roles or organization tree</li>
+<li>Additional fields for better user cataloguing</li>
+<li>Competence management module and gap analysis</li>
+<li>Course and curricula management system</li>
+<li>Standard and customized multilevel report</li>
+<li>Generation and printing of PDF certificates</li>
+<li>Track monitoring and SCORM 1.2 and 2004 support</li>
+<li>Administrator management and profiling</li>
+<li>Didactic multimodel support</li>
+<li>Export report in Excel format and others, report scheduling for automatic sending</li>
+<li>Third party software/services interfacement</li>
+<li>Third party software/services import and export data</li>
+<li>Web authoring</li>
+<li>Pre-assessment and Post-assessment management</li>
+<li>Multitemplate and Multidomain layout customization</li>
+<li>Web browser only based, multibrowser compliance, no plugins required</li>
+<li>Internal search engine for content library</li>
+<li>Course catalog</li>
+<li>Automatic course subscription based on company role, group or tree position</li>
+<li>User registration or subscription through codes or cards</li>
+</ul>
+		</english-features>
+		
+	</languages>
+</soft>

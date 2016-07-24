@@ -1,0 +1,16 @@
+CHANGES
+INSTALL
+LICENSE
+TODO
+favicon.ico
+include
+index.php
+jscalendar
+lang
+left.php
+main.php
+plugins
+spaw
+test.sqlite
+test.sqlite3
+theme

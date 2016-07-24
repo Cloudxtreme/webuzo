@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Kirby
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Kirby
+	</ratings>
+	<space>
+		4702693
+	</space>
+	<support>
+		http://getkirby.com/support
+	</support>
+	<version>
+		2.3.0
+	</version>
+	<mod>7</mod>
+	<release_date>16-05-2016</release_date>
+	<admin>panel</admin>
+	<min_require>2.1.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#FF0200">Kirby</font> is a file-based CMS with a beautiful web interface and thousands of customers world-wide. Its 					flexible data structure and powerful template engine makes it easy to develop fast and high-standard websites in no time. From portfolios, to blogs, to full-blown company sites, Kirby has all you need. Being file-based comes with extra perks, such as version controllable content, super-easy deployments and blazing-fast performance.
+		<br /><br />
+		Kirby is released under <a href="http://getkirby.com/license" target="_blank">End User License Agreement</a>.
+		</english-overview>		
+		<english-features>
+<h3><font color="#FF0200">Any Content You Like</font></h3>
+	<ul>
+    <li>Blog articles, galleries, simple pages or complex product sheets – with Kirby you are not limited to a fixed data structure.</li>
+	</ul>
+<h3><font color="#FF0200">The Kirby Panel</font></h3>
+	<ul>
+    <li>Install the fast and powerful Kirby web interface to administrate your website right in your browser.</li>
+	</ul>
+<h3><font color="#FF0200">Kirby Prefers NoDB!</font></h3>
+	<ul>
+    <li>Kirby is file-based – No database involved. This means first class performance, version controllable content, simple backups and many other awesome sideeffects.</li>
+	</ul>
+<h3><font color="#FF0200">jQuery-Inspired API</font></h3>
+	<ul>
+    <li>Kirby's highly flexible API is very easy to learn and will boost your productivity while you can focus on building high-quality websites for your clients.</li>
+	</ul>
+<h3><font color="#FF0200">Markdown Syntax</font></h3>
+	<ul>	
+    <li>Use your favorite editor to write your content with plain Markdown or use Kirbytext, a powerful, extended version of the popular Markdown syntax.</li>
+	</ul>
+		</english-features>
+	</languages>
+</soft>

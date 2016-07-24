@@ -1,0 +1,1 @@
+1. New method is not implemented in previous versions because at step 7 i.e the last step after SMTP details, it does not give any output and stops the installation. Please check in the next version if possible.

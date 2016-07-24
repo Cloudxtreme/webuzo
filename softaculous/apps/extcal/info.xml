@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ExtCalendar
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/calendars/ExtCalendar
+	</ratings>
+	<space>
+		1112811
+	</space>
+	<support>
+		http://extcalendar.com/
+	</support>
+	<version>
+		2.0
+	</version>
+	<mod>3</mod>
+	<mod_files>4</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ExtCalendar</font> is an open-source calendar application, with an integrated event managemt system. <br /><br />
+	ExtCalendar is a powerful multi-user web-based calendar application. Features include Multi-Languages, Themes, Recurrent Events, Categories, Users and Groups management, Environment and General Settings, Template Configuration, Product Updates.  <br /><br />
+	ExtCalendar is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Multi-Languages</li>
+<li>Themes</li>
+<li>Recurrent Events</li>
+<li>Categories</li>
+<li>Users and Groups management</li>
+<li>Environment and General Settings</li>
+<li>Template Configuration</li>
+<li>Product Updates</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

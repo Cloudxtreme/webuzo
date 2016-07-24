@@ -1,0 +1,14 @@
+.gitignore
+COPYRIGHT.txt
+LICENSE.txt
+README.md
+htaccess.txt
+index.php
+install.php
+site
+site-beginner
+site-blank
+site-classic
+site-languages
+wire
+.htaccess

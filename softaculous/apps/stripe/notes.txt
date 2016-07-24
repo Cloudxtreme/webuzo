@@ -1,0 +1,1 @@
+1. We use __config.php to reset the theme to the previous one if the version is less than 3.0

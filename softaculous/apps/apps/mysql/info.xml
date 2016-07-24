@@ -1,0 +1,123 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/MySQL
+	</ratings>
+	<space>
+		281049146
+	</space>
+	<support>
+		http://www.mysql.com
+	</support>
+	<version>
+		5.5.49
+	</version>
+	<mod>25</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<release_date>11-04-2016</release_date>
+	
+	<requires>zlib</requires>
+	<requires>ncurses</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/mysql</path>
+	<path name="daemon">/usr/local/apps/mysql/bin/mysqld</path>
+	<path name="client">/usr/local/apps/mysql/bin/mysql</path>
+	<path name="conf_dir">/usr/local/apps/mysql/etc</path>
+	<path name="cnf">/usr/local/apps/mysql/etc/my.cnf</path>
+	
+	<initd name="mysqld">/usr/local/apps/mysql/bin/mysqlctl</initd>
+	
+	<extract file="mysql-$arch.tar.gz">$appsdir</extract>
+	<extract file="phpmyadmin.zip">$webuzowww/phpmyadmin</extract>
+	
+	<symlink target="/usr/bin/mysql">/usr/local/apps/mysql/bin/mysql</symlink>
+	<symlink target="/usr/bin/mysqladmin">/usr/local/apps/mysql/bin/mysqladmin</symlink>
+	<symlink target="/usr/bin/mysqld_safe">/usr/local/apps/mysql/bin/mysqld_safe</symlink>
+	<symlink target="/usr/bin/mysql_install_db">/usr/local/apps/mysql/bin/mysql_install_db</symlink>
+	
+	<is_default>82_1</is_default>
+	<is_default>83_1</is_default>
+	<is_default>128_1</is_default>
+	<is_default>131_1</is_default>
+	<is_default>132_1</is_default>
+	
+	<remove>/usr/local/apps/mysql</remove>
+	<remove>$webuzowww/phpmyadmin</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">MySQL Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+padding: 5px;
+}
+
+.notestable th{
+background: #EFEFEF;
+padding: 5px;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Server Binary</td>
+				<td>/usr/local/apps/mysql/bin/mysqld</td>
+			</tr>
+			<tr>
+				<td>Client Binary</td>
+				<td>/usr/local/apps/mysql/bin/mysql</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/mysql/etc/my.ini</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/local/apps/mysql/lib</td>
+			</tr>
+			<tr>
+				<td>libmysqlclient.so</td>
+				<td>/usr/local/apps/mysql/lib/libmysqlclient.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MySQL</font> is the world's most popular open source database. Whether you are a fast growing web property, technology ISV or large enterprise, MySQL can cost-effectively help you deliver high performance, scalable database applications.
+		<br /><br />
+		MySQL is distributed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GPL license</a>
+		</english-overview>
+		<english-features>
+			<font size="2" color="#1281B6"><b>Internals and Portability</b></font><br /><br />
+			Tested with a broad range of different compilers.Written in C and C++.<br /><br /><br />
+			<font size="2" color="#1281B6"><b>Data Types</b></font><br /><br />
+			Many data types: signed/unsigned integers 1, 2, 3, 4, and 8 bytes long, FLOAT, DOUBLE, CHAR, VARCHAR, BINARY, VARBINARY, TEXT, BLOB, DATE, TIME, DATETIME, TIMESTAMP, YEAR, SET, ENUM, and OpenGIS spatial types.<br /><br />
+			<font size="2" color="#1281B6"><b> Statements and Functions</b></font><br /><br />
+			Full operator and function support in the SELECT list and WHERE clause of queries. <br /><br /><br />
+			<font size="2" color="#1281B6"><b> Security:</b></font><br /><br />
+			A privilege and password system that is very flexible and secure, and that enables host-based verification.<br /><br /><br />
+			<font size="2" color="#1281B6"><b> Scalability and Limits: </b></font><br /><br />
+			Support for large databases. We use MySQL Server with databases that contain 50 million records. We also know of users who use MySQL Server with 200,000 tables and about 5,000,000,000 rows.<br /><br /><br />
+			<font size="2" color="#1281B6"><b> Connectivity:</b></font><br /><br />
+			Clients can connect to MySQL Server using several protocols.<br /><br /><br />
+			<font size="2" color="#1281B6"><b> Localization:</b></font><br /><br />
+			The server can provide error messages to clients in many languages.<br /><br /><br />
+			<font size="2" color="#1281B6"><b> Clients and Tools: </b></font><br /><br />
+			MySQL includes several client and utility programs. These include both command-line programs such as mysqldump and mysqladmin, and graphical programs such as MySQL Workbench.<br /><br /><br />
+		</english-features>
+	</languages>
+</soft>

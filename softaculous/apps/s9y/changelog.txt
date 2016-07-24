@@ -1,0 +1,152 @@
+Version 2.0.3 (January 4th, 2016)
+------------------------------------------------------------------------
+
+    * Fix XSS in backend comment editing form for logged-in authors,
+      thanks to Onur Yilmaz and Robert Abela from Netsparker.com
+
+    * Fix some backend entry form related event messages
+	
+Version 2.0.2 (Jul 24th, 2015)
+------------------------------------------------------------------------
+
+    * Fix security issues reported by Tim Coen of Curesec.com:
+
+      - Forbid uploading files with PHP contents and possible
+        PHP execution by authenticated users (critical if
+        you have possible untrustworthy authors)
+      - Add proper escaping for comment approval tokens to prevent
+        SQL injection (authenticated authors only)
+      - Add proper escaping of comment's author names in the
+        comment reply form to prevent XSS (2k11 template, javascript
+        based)
+
+    * Minor layout fixes for media DB media filters
+
+    * Backported some Importer db bugfixes
+
+    * CKEDITOR bugfix releases to 4.4.8 - please read the changelog.
+      Includes widget, lineutils, fakeobjects Plugins and S9y added
+      cheatsheet and procurator Plugins.
+      Changed config.autoParagraph set to false, to prevent wrapping
+      p tags around extraAllowedContent tags.
+
+    * Smarty bugfix upgrades to 3.1.27 - please read the changelog.
+      Compilation time was vastly improved.
+      New Features in NEW_FEATURES.txt.
+
+    * It is now possible to switch to a theme's admin theme if it has
+      been selected as a frontend theme first
+
+    * Syndication Plugin Issue #285:
+        - Add "none" as possible value for the xml-icon in the
+          syndication plugin, to enable plain links
+        - Reset subtome full icon path to support
+          serendipity_getTemplateFile()
+        - Link creation fixes for Bulletproof coloured style (eg blue)
+
+    * Fix auto include of a User theme /admin/user.css backend file.
+
+Version 2.0.1 (March 12th, 2015)
+------------------------------------------------------------------------
+
+   * Fix missing escaping (possible XSS) of category names in the Backend 
+     Entry Admin, which would allow editors that create a forged
+     category name to attack other editors in the backend (privileged
+     access to the backend required).
+     Thanks a lot to Edric Teo for reporting this issue.
+     
+   * Improved detection for possible upgrade/plugin/PHP errors. A
+     warning will be emitted on the dashboard, when the Serendipity
+     JavaScript-library could not be loaded.
+     
+   * syndication fix: use absolute urls for subtome
+   
+   * Issue 306: localStorage may be deactivated by setting a config
+     option or using security-related extensions at least in some
+     browsers, which might (at least in FF) break backend JS
+     functionality. Added extra tests to 2k11 backend JS.
+
+     If you use localStorage, please test if it is actually available
+     by testing if localStorage !== null in JS.
+
+   * Issue 280: Allow every theme to utilize a "user.css" file
+     that gets loaded on top of the frontend (or backend, if in admin/
+     subdirectory) theme. This file can be used for customized CSS
+     of a blog-admin which carries over to future Serendipity updates
+
+   * Issue 299: Do not display dashboard for users with no permission
+     to perform actions in the backend (frontend-users)
+
+   * Make "rewriteURL" smarty modifier available to do a
+     {$CONST.PATH_ARCHIVE|rewriteURL} within a smarty template file.
+
+   * Add a generic odd/even for backend dashboard widgets to align
+     properly. Future dashboard widgets need to get the new extra
+     class dashboard widget on the section element they create.
+
+   * Fix event emoticate plugin to reflect proper call usage of
+     serendipity_getTemplateFile(), if a theme uses custom emoticons.
+     UPDATE your themes emoticons.inc.php file, if have.
+            See example file in plugin dir.
+
+   * Change 2k11 config.inc.php to reflect proper
+     serendipity_getTemplateFile() when frontend files shall be
+     referenced within the backend.
+
+   * Fixed missing file message for deleted media items
+
+   * Fixed entry editor JS not emitting a 'No tags' msg in taxonomy
+     quick view. Improved serendipity.tagsList exit if freetag
+     plugin is not installed.
+
+   * Minor backend UI fixes (taxonomy quick view in entry editor,
+     'Done' msg emitted by Bayes plugin)
+
+   * Clearer language constants for entries in dashboard, labelled
+     "In progress"
+
+Version 2.0 (January 23rd, 2015)
+------------------------------------------------------------------------
+
+    * Smarty fix for purging compiled files
+
+    * Fix wrong search page ordering when stable archive was active
+
+    * Prevent entryproperties from saving/displaying a browser-side
+      stored password that was actually not set.
+
+    * Stronger check for existing logger interface to prevent errors
+      when it is not actively used.
+
+    * Fix entryproperties being removed when publishing an article
+      from the dashboard and by specific plugins (freetag, trackback)
+      that modify entry data.
+
+    * Fix deleting comments when user is not an admin, but the entry
+      belongs to him. Thanks to berberic.
+
+    * Patch PEAR.php to use "static" isError declaration to prevent
+      PHP error messages
+
+    * Change order of IF-statements in entries.tpl to check for
+      comment_moderate/comment_added, to properly emit the message
+      whether a comment is being moderated.
+
+    * Fix searching for entries in the admin panel with database
+      types other than "mysql"
+
+    * Change entry editor's category assignment to toggle between
+      a hierarchical and a plain list (good for many categories)
+
+    * Fix date formatting in entry editor to not use ISO year
+      but the calendar year
+
+    * Fix autoupdate version read and transmit
+
+Version 2.0-rc2 (December 23rd, 2014)
+------------------------------------------------------------------------
+
+    * Fixes escaping of comments in the new backend pane to prevent
+      XSS. Thanks to Steffen Röemann for reporting!
+
+    * Fix wrong parameter count in serendipity_entity_decode

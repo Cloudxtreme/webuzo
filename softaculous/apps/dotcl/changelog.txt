@@ -1,0 +1,74 @@
+Dotclear 2.9.1 - 2016-03-27
+===========================================================
+* Security: Add shtml extension to default media exclusion extension control, thank's Nitin Venkatesh for report
+* Changing theme is now allowed even with read-only theme folder
+* Audio media are not more preloaded in media manager pages
+* Array settings/prefs are stored with 'array' type rather than 'string'
+* ðŸ› â†’ Various bug fixes
+* ðŸŒ¼ â†’ Some cosmetic adjustments
+
+Dotclear 2.9 - 2016-02-29
+===========================================================
+* Additionnal menu items are now lexically sorted (default items and favorites order will be preserved)
+* Wiki syntax : Added ""marked text"" support (HTML5 only)
+* Session TTL are now adjustable (set DC_SESSION_TTL in inc/config.php)
+* Add behaviors for posts/pages/comments/users lists' columns → let 3rd party plugin playing with them
+* Blog and user lists are now lexically sorted
+* Some new filters have been added for post lists
+* Add a search engine in media manager (looking in filename, title and description metadata)
+* Add recent folders direct access mechanism for the media manager (setting in user prefs)
+* Add a another display mode (list) to the media manager
+* Details about currently selected thumbnail in media manager are now displayed
+* Shortcut access to the upload file form is now displayed on top on media page
+* Default insertion size (width and height) may now be defined for video media
+* Flash player fallback insertion is now optional for audio and video media
+* Modules may have dependencies on Dotclear core version too (using 'core' as module name)
+* Avoid mixed content (http vs https) for post/page preview: will open preview in another window if necessary
+* Finnish translation has been added
+* Content-length header is not more sent in HTTP response (should fix very long delays on some servers)
+* Template engine : add tpl:EntryAuthorEmailMD5 and tpl:EntryCategoryDescription tags
+* A new pref/setting array type is now available (JSON encoded in db)
+* Cope with sort of "un-attached" media → allows new features as "featured media" plugin
+* CKEditor library updated from 4.5.1 to 4.5.8
+* Update jQuery from 1.11.3 to 2.2.0, jQuery-migrate from 1.2.1 to 1.3.0, jQuery-ui-custom from 1.11.2 to 1.11.4
+* Provide jQuery 2.2.0 for public use (themes/plugins) - 1.4.2 (default) and 1.11.3 still provided
+* Some locales added or updated
+* PHP 7 compliance, PHP 5.3 min
+* Fix : Cope with "unknown" scheme in url (ie nor http: neither https: is defined in origin url)
+* Fix : Let select another theme even if theme folder is read-only
+* Fix : XML-RPC media uploaded are not more twice Base64 decoded
+* And plenty of other 🐛 🔫, various 🌼 adjustments, and also lot of 🍻 drunk
+
+Dotclear 2.8.2 - 2015-10-25
+===========================================================
+* Security fix : Fixed potential XSS on comments management page
+* Security fix : Enforce media exclusion control
+* Php 5.5 leaves NULL chars in unpack ==> add trim, fixed
+* Media title (in standard mode) is now taken into account on upload
+* Some ðŸ› ðŸ”«
+
+Dotclear 2.8.1 - 2015-09-23
+===========================================================
+* Fix admin pager parameters escaping - thanks Keiko Yashiki from JPCERT/CC for reporting this XSS
+* Error on changing post author in entries' lists: fixed
+* Cope with unknown URL scheme in X-Frame-Options
+* One ot two of ðŸ» drunk
+
+Dotclear 2.8 - 2015-08-13
+===========================================================
+* New module dependencies system (plugins)
+* Theme editor: Cope with css theme sub-folder
+* extension/heritage system applied to mustek templateset
+* installation wizard now allows SQLite engine
+* Legacy editor toolbar may now be displayed below textarea
+* Breadcrumb plugin added to the distribution, included in mustek/currywurst templatesets
+* Allow a fifth parameter (optional) for image to insert a legend using figure/figcaption tags (wiki)
+* XHTML validator removed from legacy editor
+* Update jQuery from 1.11.2 to 1.11.3
+* Add a blog parameter to disable internal search
+* Add some sort orders and filters criteria for posts and comments
+* Update CKEditor from 4.4.8 to 4.5.2
+* Add IP and antispam filter columns when displaying spams
+* Add actions to directly blacklist IP from comments list
+* Lexical sort order for tags and widgets
+* Use HTML5 audio tag for MP3 attachments

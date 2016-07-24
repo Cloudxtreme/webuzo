@@ -1,0 +1,4 @@
+1) add the following line to sql in option table( To give default site name otherwise it will take domain as Sitename by default) 
+	INSERT INTO `[[dbprefix]]options` VALUES('site_title', '[[site_name]]');
+
+2) If any problem occurs regarding login please check the install.php (in "__mysql()" function)and the manual code for reference.

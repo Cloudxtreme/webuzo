@@ -1,0 +1,114 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Live_helper_chat
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Live_helper_chat
+	</ratings>
+	<space>
+		27355701
+	</space>
+	<support>
+		http://livehelperchat.com/article/forum
+	</support>
+	<version>
+		2.46
+	</version>
+	<mod>46</mod>
+	<release_date>01-05-2016</release_date>
+	<admin>index.php/site_admin/user/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Live helper chat</font> is Free &amp; Flexible &amp; Open source - Live Support chat for your website. Web and desktop clients. XMPP notifications, GTalk, Jabber, OpenFire, Chrome extension, Node.js support, MySQL, PostgreSQL.
+		<br /><br />
+		Live helper chat is licensed under the terms of <a href="http://livehelperchat.com/commercial-support-13c.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font color="#1281B6"><b>IPhone, Android, IPod, BlackBerry support using XMPP generic services, GTalk, Monal, Xabber</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Unlimited operators,chats at the same time, departments</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>5 widget position</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>User screenshots, see what your users sees</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Drag &amp; Drop widgets</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Online users tracking</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Invite users to chat</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Chats archive</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Chat remarks</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Files uploads, drag &amp; drop</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Tablet and Mobile friendly</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Visitor tracking across different subdomains of domain</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Multilanguage back office where each operator can have different language.</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Chrome extension</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Operator To Operator chat</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Option to have custom form attributes or pre-fill existing ones</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Pro active users invitation to chat</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Google map with users locations</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>RTL and LTR languages support</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Questionary/voting module</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>FAQ module</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Chatbox/Shoutbox module</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Windows/Mac/Linux client</b></font><br />
+	</li>
+</ul> 
+		</english-features>
+		<english-department>Default Department</english-department>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

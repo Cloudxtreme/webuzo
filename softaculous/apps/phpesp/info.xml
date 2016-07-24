@@ -1,0 +1,43 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpESP
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/phpESP
+	</ratings>
+	<space>
+		5206460
+	</space>
+	<support>
+		http://sourceforge.net/projects/phpesp/
+	</support>
+	<version>
+		2.1.4
+	</version>
+	<mod>9</mod>
+	<mod_files>5</mod_files>
+	<admin>admin/manage.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpESP</font> is a script to let non-technical users create surveys, administer surveys, gather results, view statistics. All managed online after database initialization.
+		</english-overview>		
+		<english-features>
+		<ul>
+		<li>Create surveys</li>
+		<li>Administer surveys</li>
+		<li>Gather results</li>
+		<li>View statistics</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

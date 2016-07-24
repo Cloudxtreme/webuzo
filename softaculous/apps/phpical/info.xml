@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="phpical-logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpicalendar
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/calendars/phpicalendar
+	</ratings>
+	<space>
+		1393131
+	</space>
+	<support>
+		http://phpicalendar.net/forums/
+	</support>
+	<version>
+		2.31
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpicalendar</font> is an open source php application to parse and display shared icalendar-compatible calendars on a website.
+		<br /><br />
+		phpicalendar is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL</a> terms.
+		</english-overview>		
+		<english-features>
+		The features are as follows:<br /><br />
+
+* View calendars by day, week, month, or year as a graphical output or a list<br />
+* View different calendars (including remote web calendars) individually or in combinations<br />
+* Display web calendars in many different languages<br />
+* Display Google calendars<br />
+* Provide links to subscribe to or download calendars<br />
+* Search for events containing keywords<br />
+* Generate a variety of rss feeds to provide events to other websites<br />
+* Customize the appearance of your calendars<br />
+* Host different calendar sets from a single installation<br />
+
+		</english-features>
+	</languages>
+</soft>

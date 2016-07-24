@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/Zlib
+	</ratings>
+	<space>
+		528145
+	</space>
+	<support>
+		http://www.zlib.net/
+	</support>
+	<version>
+		1.2.8
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>02-05-2012</release_date>
+	
+	<extract file="zlib-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">ZLIB Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/zlib/lib</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/zlib/lib/libz.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zlib </font>is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.The zlib data format is itself portable across platforms.  
+		<br /><br />
+		Zlib is distributed under the <a href="http://www.zlib.net/zlib_license.html" target="_blank">Zlib License</a>	
+		</english-overview>
+		<english-features>
+			The original document is not changed; rather, a new document is created based on the content of an existing one.[3]
+			
+			XSLT is a Turing-complete language, meaning it can perform any calculation that can be performed by a modern computer program.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

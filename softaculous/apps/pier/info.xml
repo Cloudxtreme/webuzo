@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ProjectPier
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/ProjectPier
+	</ratings>
+	<space>
+		8524784
+	</space>
+	<support>
+		http://www.projectpier.org/
+	</support>
+	<version>
+		0.8.8
+	</version>
+	<mod>9</mod>
+	<mod_files>3</mod_files>
+	<admin>index.php?c=administration</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ProjectPier</font> is a Free, Open-Source, self-hosted PHP application for managing tasks, projects and teams through an intuitive web interface. ProjectPier will help your organization communicate, collaborate and get things done Its function is similar to commercial groupware/project management products, but allows the freedom and scalability of self-hosting
+		<br /><br />
+		ProjectPier is released under the <a href="http://www.projectpier.org/AGPL" target="_blank">AGPL Version 3</a>.
+		</english-overview>		
+		<english-features>
+<h3>General Features</h3>
+<ul>
+<li><strong>Web-Powered</strong>: PP is completely web based </li>
+<li><strong>Easy</strong>: PP is focused on simple concepts and usability to provide an easy to use solution</li>
+<li><strong>Organized</strong>: PP organizes your projects into Milestones, Messages, Tasklists, Tasks and Files.</li>
+<li><strong>Everywhere</strong>: E-mail notifications for new milestones, tasks, messages and comments mean that your users can stay in the loop without checking the site.</li>
+
+<li><strong>Free and Open</strong>: ProjectPier is open source and Free Software, and will always be free as in speech and as in beer (Honest Public Licence, modified GPL)</li>
+<li><strong>No Restrictions</strong>: PP allows an unlimited number of Projects, Clients, Users, and every other object. ProjectPier wants to help you get things done, not get in the way.</li>
+</ul>
+<p></p><h3>Administrative Features</h3>
+<ul>
+<li>Multi-client capability lets you manage projects of different clients simultanously</li>
+<li>Complete flexibility regarding allocation of users to projects</li>
+<li>3-Level rights management:
+<ol>
+<li>Administrator</li>
+
+<li>User of owner company</li>
+<li>User of client company</li>
+</ol>
+</li>
+<li>Possibility to limit rights of client users per project
+<ol>
+<li>Manage messages</li>
+<li>Manage tasks</li>
+<li>Manage milestones</li>
+<li>Upload files</li>
+<li>Manage files</li>
+
+<li>Assign tasks to members of owner company</li>
+<li>Assign tasks to members of other clients</li>
+</ol>
+</li>
+<li>Messages and task lists can be linked to milestones</li>
+<li>Versioning can be used to manage revisions of uploaded files.</li>
+<li>Tags can be used to categorize messages, tasks, milestones, and files</li>
+<li>Fulltext search per project covering messages, tasks, milestones, and files</li>
+<li>Privacy: Messages, tasks, milestones, files, and comments can be flagged as 'private', hiding sensitive information from clients</li>
+<li>Simple form generator (forms can be used to create tasks or comments)</li>
+
+</ul>
+
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

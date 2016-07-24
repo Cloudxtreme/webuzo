@@ -1,0 +1,2 @@
+1. If any warnings put error_reporting(E_PARSE); in /index.php
+2. $CONF['pastebin'] = $CONF['url'] in config.php 

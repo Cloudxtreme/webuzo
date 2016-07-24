@@ -1,0 +1,109 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/WildFly
+	</ratings>
+	<space>
+		156003200
+	</space>
+	<support>
+		http://wildfly.org/gethelp/
+	</support>
+	<version>
+		9.0.1
+	</version>
+	<mod>6</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>23-07-2015</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/wildfly</path>
+	<path name="bin">/usr/local/apps/wildfly/bin/standalone.sh</path>
+	<path name="conf">/usr/local/apps/wildfly/standalone/configuration/standalone.xml</path>	
+	
+	<extract file="wildfly-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/wildfly</remove>
+	
+	<is_default>106_1</is_default>
+	<is_default>107_1</is_default>
+	<is_default>123_1</is_default>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">WildFly Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/wildfly</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/wildfly/bin/standalone.sh</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>https://docs.jboss.org/author/display/WFLY8/Documentation</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WildFly</font> is a flexible, lightweight, managed application runtime that helps you build amazing applications.
+<br /><br />		
+		WildFly is distributed under the <a href="http://www.gnu.org/licenses/lgpl-2.1.html" target="_blank">GNU Lesser General Public License 2.1</a> 
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Clustering</li>
+				<li>Deployment API</li>
+				<li>Distributed caching (using Infinispan, a standalone project)</li>
+				<li>Distributed deployment</li>
+				<li>Enterprise JavaBeans versions 3 and 2.1</li>
+				<li>Failove (including Web and EJB sessions)</li>
+				<li>Hibernate integration (for persistence programming; Java Persistence API> or JPA)</li>
+				<li>Java Authentication and Authorization Service (JAAS)</li>
+				<li>Java EE Connector Architecture (JCA) integration</li>
+				<li>Java Management Extensions</li>
+				<li>Java Message Service (JMS) integration</li>
+				<li>Java Naming and Directory Interface (JNDI)</li>
+				<li>Java Transaction API (JTA)</li>
+				<li>Java Authorization Contract for Containers (JACC) integration</li>
+				<li>JavaMail</li>
+				<li>Java Server Faces 1.2 (Mojarra)</li>
+				<li>Java Server Pages (JSP) / Java Servlet 2.1/2.5 (Tomcat)</li>
+				<li>JBossWS (JBoss Web Services) for Java EE web services like JAX-WS</li>
+				<li>JDBC</li>
+				<li>Load balancing</li>
+				<li>Management API</li>
+				<li>OSGi framework</li>
+				<li>RMI-IIOP (JacORB, contraction of Java and CORBA)</li>
+				<li>SOAP with Attachments API for Java SAAJ)</li>
+				<li>Teiid data virtualization system</li>
+			</ul>	
+		</english-features>
+	</languages>
+</soft>

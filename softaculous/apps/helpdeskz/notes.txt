@@ -1,0 +1,1 @@
+1. Select mysqli in database configuration during manual installation.

@@ -1,0 +1,39 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/libraries/imap
+	</ratings>
+	<space>
+		289832296
+	</space>
+	<support>
+		http://www.washington.edu/imap/
+	</support>
+	<version>
+		2007f
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9		
+	</softversion>
+	<major>1</major>
+	
+	<extract file="imap-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		No Info
+	</notes>
+	<languages>
+		<english-overview>
+			No Info
+		</english-overview>
+		<english-features>
+			No Info
+		</english-features>
+	</languages>
+</soft>

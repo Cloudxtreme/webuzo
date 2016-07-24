@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="mootools.png" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://demos.mootools.net/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/MooTools
+	</ratings>
+	<space>
+		161783
+	</space>
+	<support>
+		http://mootools.net/
+	</support>
+	<version>
+		1.6.0
+	</version>
+	<mod>15</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MooTools</font> is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API.
+		<br /><br />
+		MooTools code respects strict standards and doesn't throw any warnings. It's extensively documented and has meaningful variable names: a joy to browse and a snap to understand.
+		<br /><br />
+		MooTools is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Compact</li>
+<li>Modular</li>
+<li>Object-Oriented JavaScript framework</li>
+<li>Cross-browser code</li>
+<li>Coherent API</li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font><br />
+		MooTools is compatible and fully tested with <a href="http://apple.com/safari/" target="_blank">Safari 2+</a>, Internet Explorer 6+, <a href="http://mozilla.com/" target="_blank">Firefox 2+</a> (and browsers based on gecko), <a href="http://opera.com/" target="_blank">Opera 9+</a>
+
+		</english-features>
+	</languages>
+</soft>

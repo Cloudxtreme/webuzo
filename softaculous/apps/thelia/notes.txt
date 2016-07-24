@@ -1,0 +1,2 @@
+1. Give permissions 0777 to /log and /cache before installation and access /web Directoy to start installation.
+2. /.htaccess is our file which is added to redirect Front end to /web directory. So don't remove it.

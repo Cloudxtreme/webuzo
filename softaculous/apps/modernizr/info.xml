@@ -1,0 +1,148 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Modernizr
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Modernizr
+	</ratings>
+	<space>
+		7101
+	</space>
+	<support>
+		http://www.modernizr.com
+	</support>
+	<version>
+		3.3.1
+	</version>
+	<mod>15</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Modernizr</font> is a small JavaScript library that detects the availability of native implementations for next-generation web technologies, 
+		i.e. features that stem from the HTML5 and CSS3 specifications.
+		<br /><br />
+		Many of these features are already implemented in at least one major browser (most of them in two or more), and what Modernizr does is, very simply, 
+		tell you whether the current browser has this feature natively implemented or not.
+		<br /><br />
+		Modernizr is available under the <a href="http://www.modernizr.com/license/" target="_blank">MIT and BSD licenses</a>.
+		</english-overview>		
+		<english-features>
+<font size="4" color="78ba91"><b>Features detected by Modernizr</b></font>
+<br /><br />
+<font size="2"><b>CSS features</b>
+<table border="0" cellspacing="1" cellpadding="7">
+<tr>
+<td><b>Feature</b></td>
+<td><b>Modernizr JS object property / CSS classname</b></td> 
+</tr>
+<tr>
+    <td><b>@font-face</b></td>
+    <td>fontface</td>
+ </tr>
+<tr>
+    <td><b>background-size</b></td>
+    <td>border-image</td>
+ </tr>
+<tr>
+    <td><b>border-radius</b></td>
+    <td>borderradius</td>
+ </tr>
+<tr>
+    <td><b>box-shadow</b></td>
+    <td>boxshadow</td>
+ </tr>
+<tr>
+    <td><b>Flexible Box Model</b></td>
+    <td>flexbox</td>
+ </tr>
+ </table>
+	</font>
+	<br /><br />
+<font size="2"><b>HTML5 features</b>
+<table border="0" cellspacing="1" cellpadding="7">
+<tr>
+<td><b>Feature</b></td>
+<td><b>Modernizr JS object property / CSS classname</b></td> 
+</tr>
+<tr>
+    <td><b>applicationCache</b></td>
+    <td>applicationcache</td>
+ </tr>
+<tr>
+    <td><b>Canvas</b></td>
+    <td>canvas</td>
+ </tr>
+<tr>
+    <td><b>Canvas Text</b></td>
+    <td>canvastext</td>
+ </tr>
+<tr>
+    <td><b>Drag and Drop</b></td>
+    <td>draganddrop</td>
+ </tr>
+<tr>
+    <td><b>hashchange Event</b></td>
+    <td>hashchange</td>
+ </tr>
+ <tr>
+    <td><b>History Management</b></td>
+    <td>history</td>
+ </tr>
+<tr>
+    <td><b>HTML5 Audio</b></td>
+    <td>audio</td>
+ </tr>
+ <tr>
+    <td><b>HTML5 Video</b></td>
+    <td>video</td>
+ </tr>
+ </table>
+	</font>
+		<br /><br />
+<font size="2"><b>Miscellaneous</b>
+<table border="0" cellspacing="1" cellpadding="7">
+<tr>
+<td><b>Feature</b></td>
+<td><b>Modernizr JS object property / CSS classname</b></td> 
+</tr>
+<tr>
+    <td><b>Geolocation API</b></td>
+    <td>geolocation</td>
+ </tr>
+<tr>
+    <td><b>Inline SVG</b></td>
+    <td>inlinesvg</td>
+ </tr>
+<tr>
+    <td><b>SMIL</b></td>
+    <td>smil</td>
+ </tr>
+<tr>
+    <td><b>SVG</b></td>
+    <td>svg</td>
+ </tr>
+<tr>
+    <td><b>SVG Clip paths</b></td>
+    <td>svgclippaths</td>
+ </tr>
+ <tr>
+    <td><b>Touch Events</b></td>
+    <td>touch</td>
+ </tr>
+<tr>
+    <td><b>WebGL</b></td>
+    <td>webgl</td>
+ </tr>
+ </table>
+			</font>
+		</english-features>
+	</languages>
+</soft>

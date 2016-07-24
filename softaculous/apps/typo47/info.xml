@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Typo3_6
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Typo3_6
+	</ratings>
+	<space>
+		57210610
+	</space>
+	<support>
+		http://typo3.com/
+	</support>
+	<version>
+		6.2.25
+	</version>
+	<mod>43</mod>
+	<release_date>24-05-2016</release_date>
+	<admin>typo3/index.php</admin>
+	<min_require>4.5</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.7" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="filter" />
+	<requirement check="php" type="extension" name="hash" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="soap" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="standard" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">TYPO3</font>  is a free Open Source content management system for enterprise purposes on the web and in intranets. It offers full flexibility and extendability while featuring an accomplished set of ready-made interfaces, functions and modules.
+		<br /><br />
+		Typo is free, open, and available to anyone under the <a href="http://www.fsf.org/licensing/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>TYPO3 harmonizes with HTML5</li>
+<li>Web Accessibility by default</li>
+<li>Improvements within the Rich Text Editor</li>
+<li>TCEforms - record editing in TYPO3</li>
+<li>Content management (text, images, links, downloads, forms)</li>
+<li>Text formatting with Rich Text Editor (italic,etc.)</li>
+<li>File management</li>
+<li>History and versioning</li>
+<li>Dynamic generation of menu items in the navigation</li>
+<li>Autom. compression and downsizing/enlargement of images</li>
+<li>Autom. generated sitemap</li>
+<li>Time control of content points or the whole website (start-/finish date)</li>
+<li>Wide permission system</li> 
+</ul>
+		</english-features>
+	</languages>
+</soft>

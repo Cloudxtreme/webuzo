@@ -1,0 +1,6 @@
+database:
+  connection:
+    driver: mysql
+    user: [[softdbuser]]
+    password: [[softdbpass]]
+    dsn: mysql:host=[[softdbhost]];dbname=[[softdb]];port=3306

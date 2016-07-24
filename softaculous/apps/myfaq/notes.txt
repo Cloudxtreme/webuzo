@@ -1,0 +1,3 @@
+1) While installing, Set permission level : Basic (no Group Support)
+2) Select database server "MySQL 5.x, MariaDB 5.x (ext/mysqli)"
+3) Make script where Database ENGINE is InnoDB

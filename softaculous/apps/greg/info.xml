@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; padding: 10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Gregarius
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/rss/Gregarius
+	</ratings>
+	<space>
+		2278878
+	</space>
+	<support>
+		http://sourceforge.net/projects/gregarius/
+	</support>
+	<version>
+		0.6.1
+	</version>
+	<mod>3</mod>
+	<mod_files>2</mod_files>
+	<admin>admin/</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Gregarius</font> is a web-based RSS/RDF/ATOM feed aggregator, designed to run on your web server, allowing you to access your news sources from wherever you want. 		
+
+		<br /><br />
+		Gregarius is FREE software and is released under the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>
+
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Completely web-based (runs on your web server)</li>
+<li>Simple, password-protected, administration and configuration</li>
+<li>AJAX powered item tagging</li>
+<li>Full-text search</li>
+<li>Committed to web standards: renders XHTML , CSS , supports OPML</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

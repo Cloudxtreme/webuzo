@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0">
+<channel>
+<title>[[site_name]] - RSS</title>
+<link>[[softurl]]/</link>
+<description>Powered by PageCookery Microblog v0.9.9 Build 120814</description>
+<language>zh</language>
+		<item>
+	    <title>[[regtime]] #[[admin_username]]</title>
+	    <link>[[softurl]]/?act=view&amp;id=1</link>
+	    <description><![CDATA[<strong>[[admin_username]]</strong> <span id="prefix" class="says">Says</span> Welcome to PageCookery, this is a test message, double click me to editable.				<p style="font: 10px Arial; margin-top: 10px; text-align: right;">
+			<span class="entry-meta">0 秒钟前 from PageCookery</span>
+		</p>]]></description>
+	    <pubDate>[[date_gmt]]</pubDate>
+	</item>
+	</channel>
+</rss>

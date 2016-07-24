@@ -1,0 +1,93 @@
+2.5.20
+
+Added multi-date selection to bookings page
+Added ability to send announcements as emails
+Added ability to send email to all users when reservation is cancelled
+Added ability to filter on multiple resources on bookings page
+Added ability to allow cross origin requests for API
+Added ability to import ICS files
+Fixed click and drag on condensed week view
+Fixed problem showing hidden resources on dashboard
+
+<softlatest>
+
+2.5.19
+
+Fixed some packaging issues from 2.5.18
+Added ability to filter multiple resources on the schedule
+Updated Japanese language files
+
+2.5.18
+
+Fixed bugs with CSRF checks
+Changed the manage reservation search filter to be inclusive of reservations spanning filtered time
+Fixed issue that didn't maintain selected date in schedule calendar popup
+Fixed double html encode issue for custom attributes
+Fixed issue filtering on custom attributes on manage reservations page
+Added fix to allow larger datasets returned when using group_concat
+Fixed the 'deleted by' name in the account deletion email
+
+2.5.17
+
+Fixed bug preventing schedule view switching on Chrome and IE
+Fixed bug with reports showing no results when searching on accessories
+Fixed issue displaying schedule dates even when no slots are defined
+If register or forgot password urls open in external site, open in new window
+Include total hours in reports
+Changed reservation email message to come from whoever made the reservation
+Added ability to override language strings
+Fixed missing homepageid upon registration
+Fixed missing email address in reservation reminders
+Properly custom attribute regex format if user supplied version is incorrect
+Added ability to remove all assigned permissions for resource
+Added ability to include all reservation attributes in display labels
+Save calendar expand/collapse on schedule page
+Fixed bug determining when to send notification emails
+Fixed bug with PR language
+Changed resource availability web service to use same logic as dashboard
+Fixed issue displaying reservations when date had no slots
+Fixed bug that prevented cookies from being written properly in IE
+Fixed warning when path property is not found in the url
+Removed CSRF check on registration page
+Ensure session is started when rendering captcha
+Fixed syntax issue on PHP 5.3 and lower
+
+2.5.16
+
+Added datetime custom attribute type
+Added ability to import a list of users
+Added ability to manage custom attributes through the API
+Added ability to customize report columns
+Added a yearly quota
+Added API for getting resource types and ability to set resource type in add/update
+Added ability to restrict showing user details to simply on/off or past/future reservations
+Added user deleted email notification
+When a reservation is created on behalf of another user, the user taking action is included in the email notifications
+When a user is created on behalf of another user, the user taking action is included in the email notification
+Improved rendering of schedule when being printed
+Resource details are now shown even if user does not have permission
+Added ability to include Google Analytics
+Fixed bug which prevented joining or canceling a recurring reservation instance if it violated a notice rule
+Fixed resource availability dashboard timeout issues
+Fixed bug with creating and updating reservations through the API
+Fixed bug which over-counted accessories when reservation contained multiple resources
+Fixed bug loading resource type attributes when managing custom attributes
+Fixed bug requiring user to uncheck removed resources from all groups
+Fixed bug for resource groups when they are returned from the db sorted incorrectly
+Fixed bug with upcoming reservations dashboard
+Changed cookies to be scoped to Booked root path
+Implemented CSRF checks (thank you Netsparker)
+Updated French language pack
+Updated Croatian language pack
+
+2.5.15
+
+    Added ability for users to join reservations without being invited
+    Upgraded CAS library to 1.3.3
+    Added Active Directory option to sync group membership into Booked
+    Added user details popup
+    Added ability to manage user and group permissions from resource management page
+    Fixed bug preventing recurring reservations from being deleted in management page
+    Fixed bug incorrectly grouping recurring reservations on calendar views
+    Updated Italian language
+    Updated Spanish language

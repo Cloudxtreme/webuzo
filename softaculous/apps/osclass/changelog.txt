@@ -1,0 +1,29 @@
+Osclass 3.6.1 2016-02-04
+------------------------
+
+- Fixed an issue with image rotation
+- Fixed the upgrade available message not being displayed
+- Fixed some minor details
+
+Osclass 3.6.0 2016-01-21
+------------------------
+
+- Fixed SQL injection vulnerability thanks to High-Tech Bridge Security Research Lab ( https://www.htbridge.com/ )
+- Fixed some minor details
+- Improvements in the market area
+
+Osclass 3.5.9 2015-10-16
+------------------------
+
+- Fixed typo
+- Fixed some URLs
+
+Osclass 3.5.8 2015-10-14
+------------------------
+
+- Fixed several vulnerabilities thanks to HP Fortify Open Review ( https://hpfod.com/open-source-review-project )
+- Minor bug fixes and improvements
+
+Osclass 3.5.6 2015-03-26
+------------------------
+- Fix typo

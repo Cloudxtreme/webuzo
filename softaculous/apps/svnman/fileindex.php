@@ -1,0 +1,16 @@
+COPYRIGHT
+HISTORY
+IMPORTANT
+INSTALL
+README
+config.php.linux
+config.php.win
+css
+docs
+images
+index.php
+js
+prado-2.0.3
+prado.COPYRIGHT
+svnmanager
+config.php

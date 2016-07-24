@@ -1,0 +1,681 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Store">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="admin_folder" size="30" value="admin123" save="true">
+				<head>{{ad_dir}}</head>
+				<handle>__admin_folder</handle>
+			</input>
+			<input type="select">
+				<select name="country_code">
+					<option value="US">United States</option>
+					<option value="AF">Afghanistan</option>
+					<option value="AL">Albania</option>
+					<option value="DZ">Algeria</option>
+					<option value="AS">American Samoa</option>
+					<option value="AD">Andorra</option>
+					<option value="AO">Angola</option>
+					<option value="AI">Anguilla</option>
+					<option value="AQ">Antarctica</option>
+					<option value="AG">Antigua and Barbuda</option>
+					<option value="AR">Argentina</option>
+					<option value="AM">Armenia</option>
+					<option value="AW">Aruba</option>
+					<option value="AU">Australia</option>
+					<option value="AT">Austria</option>
+					<option value="AZ">Azerbaijan</option>
+					<option value="BS">Bahamas</option>
+					<option value="BH">Bahrain</option>
+					<option value="BD">Bangladesh</option>
+					<option value="BB">Barbados</option>
+					<option value="BY">Belarus</option>
+					<option value="BE">Belgium</option>
+					<option value="BZ">Belize</option>
+					<option value="BJ">Benin</option>
+					<option value="BM">Bermuda</option>
+					<option value="BT">Bhutan</option>
+					<option value="BO">Bolivia</option>
+					<option value="BA">Bosnia and Herzegowina</option>
+					<option value="BW">Botswana</option>
+					<option value="BV">Bouvet Island</option>
+					<option value="BR">Brazil</option>
+					<option value="IO">British Indian Ocean Territory</option>
+					<option value="BN">Brunei Darussalam</option>
+					<option value="BG">Bulgaria</option>
+					<option value="BF">Burkina Faso</option>
+					<option value="BI">Burundi</option>
+					<option value="KH">Cambodia</option>
+					<option value="CM">Cameroon</option>
+					<option value="CA">Canada</option>
+					<option value="CV">Cape Verde</option>
+					<option value="KY">Cayman Islands</option>
+					<option value="CF">Central African Republic</option>
+					<option value="TD">Chad</option>
+					<option value="CL">Chile</option>
+					<option value="CN">China</option>
+					<option value="CX">Christmas Island</option>
+					<option value="CC">Cocos (Keeling) Islands</option>
+					<option value="CO">Colombia</option>
+					<option value="KM">Comoros</option>
+					<option value="CG">Congo</option>
+					<option value="CK">Cook Islands</option>
+					<option value="CR">Costa Rica</option>
+					<option value="CI">Cote D'Ivoire</option>
+					<option value="HR">Croatia</option>
+					<option value="CU">Cuba</option>
+					<option value="CY">Cyprus</option>
+					<option value="CZ">Czech Republic</option>
+					<option value="CD">Democratic Republic of Congo</option>
+					<option value="DK">Denmark</option>
+					<option value="DJ">Djibouti</option>
+					<option value="DM">Dominica</option>
+					<option value="DO">Dominican Republic</option>
+					<option value="TP">East Timor</option>
+					<option value="EC">Ecuador</option>
+					<option value="EG">Egypt</option>
+					<option value="SV">El Salvador</option>
+					<option value="GQ">Equatorial Guinea</option>
+					<option value="ER">Eritrea</option>
+					<option value="EE">Estonia</option>
+					<option value="ET">Ethiopia</option>
+					<option value="FK">Falkland Islands (Malvinas)</option>
+					<option value="FO">Faroe Islands</option>
+					<option value="FJ">Fiji</option>
+					<option value="FI">Finland</option>
+					<option value="FR">France</option>
+					<option value="GF">French Guiana</option>
+					<option value="PF">French Polynesia</option>
+					<option value="TF">French Southern Territories</option>
+					<option value="GA">Gabon</option>
+					<option value="GM">Gambia</option>
+					<option value="GE">Georgia</option>
+					<option value="DE">Germany</option>
+					<option value="GH">Ghana</option>
+					<option value="GI">Gibraltar</option>
+					<option value="GR">Greece</option>
+					<option value="GL">Greenland</option>
+					<option value="GD">Grenada</option>
+					<option value="GP">Guadeloupe</option>
+					<option value="GU">Guam</option>
+					<option value="GT">Guatemala</option>
+					<option value="GN">Guinea</option>
+					<option value="GW">Guinea-bissau</option>
+					<option value="GY">Guyana</option>
+					<option value="HT">Haiti</option>
+					<option value="HM">Heard and Mc Donald Islands</option>
+					<option value="HN">Honduras</option>
+					<option value="HK">Hong Kong</option>
+					<option value="HU">Hungary</option>
+					<option value="IS">Iceland</option>
+					<option value="IN">India</option>
+					<option value="ID">Indonesia</option>
+					<option value="IR">Iran (Islamic Republic of)</option>
+					<option value="IQ">Iraq</option>
+					<option value="IE">Ireland</option>
+					<option value="IL">Israel</option>
+					<option value="IT">Italy</option>
+					<option value="JM">Jamaica</option>
+					<option value="JP">Japan</option>
+					<option value="JO">Jordan</option>
+					<option value="KZ">Kazakhstan</option>
+					<option value="KE">Kenya</option>
+					<option value="KI">Kiribati</option>
+					<option value="KR">Korea, Republic of</option>
+					<option value="KW">Kuwait</option>
+					<option value="KG">Kyrgyzstan</option>
+					<option value="LA">Lao People's Democratic Republic</option>
+					<option value="LV">Latvia</option>
+					<option value="LB">Lebanon</option>
+					<option value="LS">Lesotho</option>
+					<option value="LR">Liberia</option>
+					<option value="LY">Libyan Arab Jamahiriya</option>
+					<option value="LI">Liechtenstein</option>
+					<option value="LT">Lithuania</option>
+					<option value="LU">Luxembourg</option>
+					<option value="MO">Macau</option>
+					<option value="MK">Macedonia</option>
+					<option value="MG">Madagascar</option>
+					<option value="MW">Malawi</option>
+					<option value="MY">Malaysia</option>
+					<option value="MV">Maldives</option>
+					<option value="ML">Mali</option>
+					<option value="MT">Malta</option>
+					<option value="MH">Marshall Islands</option>
+					<option value="MQ">Martinique</option>
+					<option value="MR">Mauritania</option>
+					<option value="MU">Mauritius</option>
+					<option value="YT">Mayotte</option>
+					<option value="MX">Mexico</option>
+					<option value="FM">Micronesia, Federated States of</option>
+					<option value="MD">Moldova, Republic of</option>
+					<option value="MC">Monaco</option>
+					<option value="MN">Mongolia</option>
+					<option value="MS">Montserrat</option>
+					<option value="MA">Morocco</option>
+					<option value="MZ">Mozambique</option>
+					<option value="MM">Myanmar</option>
+					<option value="NA">Namibia</option>
+					<option value="NR">Nauru</option>
+					<option value="NP">Nepal</option>
+					<option value="NL">Netherlands</option>
+					<option value="AN">Netherlands Antilles</option>
+					<option value="NC">New Caledonia</option>
+					<option value="NZ">New Zealand</option>
+					<option value="NI">Nicaragua</option>
+					<option value="NE">Niger</option>
+					<option value="NG">Nigeria</option>
+					<option value="NU">Niue</option>
+					<option value="NF">Norfolk Island</option>
+					<option value="KP">North Korea</option>
+					<option value="MP">Northern Mariana Islands</option>
+					<option value="NO">Norway</option>
+					<option value="OM">Oman</option>
+					<option value="PK">Pakistan</option>
+					<option value="PW">Palau</option>
+					<option value="PA">Panama</option>
+					<option value="PG">Papua New Guinea</option>
+					<option value="PY">Paraguay</option>
+					<option value="PE">Peru</option>
+					<option value="PH">Philippines</option>
+					<option value="PN">Pitcairn</option>
+					<option value="PL">Poland</option>
+					<option value="PT">Portugal</option>
+					<option value="PR">Puerto Rico</option>
+					<option value="QA">Qatar</option>
+					<option value="RE">Reunion</option>
+					<option value="RO">Romania</option>
+					<option value="RU">Russian Federation</option>
+					<option value="RW">Rwanda</option>
+					<option value="KN">Saint Kitts and Nevis</option>
+					<option value="LC">Saint Lucia</option>
+					<option value="VC">Saint Vincent and the Grenadines</option>
+					<option value="WS">Samoa</option>
+					<option value="SM">San Marino</option>
+					<option value="ST">Sao Tome and Principe</option>
+					<option value="SA">Saudi Arabia</option>
+					<option value="SN">Senegal</option>
+					<option value="RS">Serbia</option>
+					<option value="SC">Seychelles</option>
+					<option value="SL">Sierra Leone</option>
+					<option value="SG">Singapore</option>
+					<option value="SK">Slovak Republic</option>
+					<option value="SI">Slovenia</option>
+					<option value="SB">Solomon Islands</option>
+					<option value="SO">Somalia</option>
+					<option value="ZA">South Africa</option>
+					<option value="GS">South Georgia &amp; South Sandwich Islands</option>
+					<option value="ES">Spain</option>
+					<option value="LK">Sri Lanka</option>
+					<option value="SH">St. Helena</option>
+					<option value="PM">St. Pierre and Miquelon</option>
+					<option value="SD">Sudan</option>
+					<option value="SR">Suriname</option>
+					<option value="SJ">Svalbard and Jan Mayen Islands</option>
+					<option value="SZ">Swaziland</option>
+					<option value="SE">Sweden</option>
+					<option value="CH">Switzerland</option>
+					<option value="SY">Syrian Arab Republic</option>
+					<option value="TW">Taiwan</option>
+					<option value="TJ">Tajikistan</option>
+					<option value="TZ">Tanzania, United Republic of</option>
+					<option value="TH">Thailand</option>
+					<option value="TG">Togo</option>
+					<option value="TK">Tokelau</option>
+					<option value="TO">Tonga</option>
+					<option value="TT">Trinidad and Tobago</option>
+					<option value="TN">Tunisia</option>
+					<option value="TR">Turkey</option>
+					<option value="TM">Turkmenistan</option>
+					<option value="TC">Turks and Caicos Islands</option>
+					<option value="TV">Tuvalu</option>
+					<option value="UG">Uganda</option>
+					<option value="UA">Ukraine</option>
+					<option value="AE">United Arab Emirates</option>
+					<option value="GB">United Kingdom</option>
+					<option value="UM">United States Minor Outlying Islands</option>
+					<option value="UY">Uruguay</option>
+					<option value="UZ">Uzbekistan</option>
+					<option value="VU">Vanuatu</option>
+					<option value="VA">Vatican City State (Holy See)</option>
+					<option value="VE">Venezuela</option>
+					<option value="VN">Viet Nam</option>
+					<option value="VG">Virgin Islands (British)</option>
+					<option value="VI">Virgin Islands (U.S.)</option>
+					<option value="WF">Wallis and Futuna Islands</option>
+					<option value="EH">Western Sahara</option>
+					<option value="YE">Yemen</option>
+					<option value="ZM">Zambia</option>
+					<option value="ZW">Zimbabwe</option>
+				</select>
+				<head>{{select_country}}</head>
+			</input>
+			<input type="select">
+				<select name="store_time_zone">
+					<option>America/New_York</option>
+					<option>Africa/Abidjan</option>
+					<option>Africa/Accra</option>
+					<option>Africa/Addis_Ababa</option>
+					<option>Africa/Algiers</option>
+					<option>Africa/Asmara</option>
+					<option>Africa/Bamako</option>
+					<option>Africa/Bangui</option>
+					<option>Africa/Banjul</option>
+					<option>Africa/Bissau</option>
+					<option>Africa/Blantyre</option>
+					<option>Africa/Brazzaville</option>
+					<option>Africa/Bujumbura</option>
+					<option>Africa/Cairo</option>
+					<option>Africa/Casablanca</option>
+					<option>Africa/Ceuta</option>
+					<option>Africa/Conakry</option>
+					<option>Africa/Dakar</option>
+					<option>Africa/Dar_es_Salaam</option>
+					<option>Africa/Djibouti</option>
+					<option>Africa/Douala</option>
+					<option>Africa/El_Aaiun</option>
+					<option>Africa/Freetown</option>
+					<option>Africa/Gaborone</option>
+					<option>Africa/Harare</option>
+					<option>Africa/Johannesburg</option>
+					<option>Africa/Juba</option>
+					<option>Africa/Kampala</option>
+					<option>Africa/Khartoum</option>
+					<option>Africa/Kigali</option>
+					<option>Africa/Kinshasa</option>
+					<option>Africa/Lagos</option>
+					<option>Africa/Libreville</option>
+					<option>Africa/Lome</option>
+					<option>Africa/Luanda</option>
+					<option>Africa/Lubumbashi</option>
+					<option>Africa/Lusaka</option>
+					<option>Africa/Malabo</option>
+					<option>Africa/Maputo</option>
+					<option>Africa/Maseru</option>
+					<option>Africa/Mbabane</option>
+					<option>Africa/Mogadishu</option>
+					<option>Africa/Monrovia</option>
+					<option>Africa/Nairobi</option>
+					<option>Africa/Ndjamena</option>
+					<option>Africa/Niamey</option>
+					<option>Africa/Nouakchott</option>
+					<option>Africa/Ouagadougou</option>
+					<option>Africa/Porto-Novo</option>
+					<option>Africa/Sao_Tome</option>
+					<option>Africa/Tripoli</option>
+					<option>Africa/Tunis</option>
+					<option>Africa/Windhoek</option>
+					<option>America/Adak</option>
+					<option>America/Anchorage</option>
+					<option>America/Anguilla</option>
+					<option>America/Antigua</option>
+					<option>America/Araguaina</option>
+					<option>America/Argentina</option>
+					<option>America/Aruba</option>
+					<option>America/Asuncion</option>
+					<option>America/Atikokan</option>
+					<option>America/Bahia</option>
+					<option>America/Bahia_Banderas</option>
+					<option>America/Barbados</option>
+					<option>America/Belem</option>
+					<option>America/Belize</option>
+					<option>America/Blanc-Sablon</option>
+					<option>America/Boa_Vista</option>
+					<option>America/Bogota</option>
+					<option>America/Boise</option>
+					<option>America/Cambridge_Bay</option>
+					<option>America/Campo_Grande</option>
+					<option>America/Cancun</option>
+					<option>America/Caracas</option>
+					<option>America/Cayenne</option>
+					<option>America/Cayman</option>
+					<option>America/Chicago</option>
+					<option>America/Chihuahua</option>
+					<option>America/Costa_Rica</option>
+					<option>America/Creston</option>
+					<option>America/Cuiaba</option>
+					<option>America/Curacao</option>
+					<option>America/Danmarkshavn</option>
+					<option>America/Dawson</option>
+					<option>America/Dawson_Creek</option>
+					<option>America/Denver</option>
+					<option>America/Detroit</option>
+					<option>America/Dominica</option>
+					<option>America/Edmonton</option>
+					<option>America/Eirunepe</option>
+					<option>America/El_Salvador</option>
+					<option>America/Fortaleza</option>
+					<option>America/Glace_Bay</option>
+					<option>America/Godthab</option>
+					<option>America/Goose_Bay</option>
+					<option>America/Grand_Turk</option>
+					<option>America/Grenada</option>
+					<option>America/Guadeloupe</option>
+					<option>America/Guatemala</option>
+					<option>America/Guayaquil</option>
+					<option>America/Guyana</option>
+					<option>America/Halifax</option>
+					<option>America/Havana</option>
+					<option>America/Hermosillo</option>
+					<option>America/Indiana</option>
+					<option>America/Inuvik</option>
+					<option>America/Iqaluit</option>
+					<option>America/Jamaica</option>
+					<option>America/Juneau</option>
+					<option>America/Kentucky</option>
+					<option>America/Kralendijk</option>
+					<option>America/La_Paz</option>
+					<option>America/Lima</option>
+					<option>America/Los_Angeles</option>
+					<option>America/Lower_Princes</option>
+					<option>America/Maceio</option>
+					<option>America/Managua</option>
+					<option>America/Manaus</option>
+					<option>America/Marigot</option>
+					<option>America/Martinique</option>
+					<option>America/Matamoros</option>
+					<option>America/Mazatlan</option>
+					<option>America/Menominee</option>
+					<option>America/Merida</option>
+					<option>America/Metlakatla</option>
+					<option>America/Mexico_City</option>
+					<option>America/Miquelon</option>
+					<option>America/Moncton</option>
+					<option>America/Monterrey</option>
+					<option>America/Montevideo</option>
+					<option>America/Montreal</option>
+					<option>America/Montserrat</option>
+					<option>America/Nassau</option>
+					<option>America/Nipigon</option>
+					<option>America/Nome</option>
+					<option>America/Noronha</option>
+					<option>America/North_Dakota</option>
+					<option>America/Ojinaga</option>
+					<option>America/Panama</option>
+					<option>America/Pangnirtung</option>
+					<option>America/Paramaribo</option>
+					<option>America/Phoenix</option>
+					<option>America/Port-au-Prince</option>
+					<option>America/Port_of_Spain</option>
+					<option>America/Porto_Velho</option>
+					<option>America/Puerto_Rico</option>
+					<option>America/Rainy_River</option>
+					<option>America/Rankin_Inlet</option>
+					<option>America/Recife</option>
+					<option>America/Regina</option>
+					<option>America/Resolute</option>
+					<option>America/Rio_Branco</option>
+					<option>America/Santa_Isabel</option>
+					<option>America/Santarem</option>
+					<option>America/Santiago</option>
+					<option>America/Santo_Domingo</option>
+					<option>America/Sao_Paulo</option>
+					<option>America/Scoresbysund</option>
+					<option>America/Shiprock</option>
+					<option>America/Sitka</option>
+					<option>America/St_Barthelemy</option>
+					<option>America/St_Johns</option>
+					<option>America/St_Kitts</option>
+					<option>America/St_Lucia</option>
+					<option>America/St_Thomas</option>
+					<option>America/St_Vincent</option>
+					<option>America/Swift_Current</option>
+					<option>America/Tegucigalpa</option>
+					<option>America/Thule</option>
+					<option>America/Thunder_Bay</option>
+					<option>America/Tijuana</option>
+					<option>America/Toronto</option>
+					<option>America/Tortola</option>
+					<option>America/Vancouver</option>
+					<option>America/Whitehorse</option>
+					<option>America/Winnipeg</option>
+					<option>America/Yakutat</option>
+					<option>America/Yellowknife</option>
+					<option>Antarctica/Casey</option>
+					<option>Antarctica/Davis</option>
+					<option>Antarctica/DumontDUrville</option>
+					<option>Antarctica/Macquarie</option>
+					<option>Antarctica/Mawson</option>
+					<option>Antarctica/McMurdo</option>
+					<option>Antarctica/Palmer</option>
+					<option>Antarctica/Rothera</option>
+					<option>Antarctica/South_Pole</option>
+					<option>Antarctica/Syowa</option>
+					<option>Antarctica/Vostok</option>
+					<option>Arctic/Longyearbyen</option>
+					<option>Asia/Aden</option>
+					<option>Asia/Almaty</option>
+					<option>Asia/Amman</option>
+					<option>Asia/Anadyr</option>
+					<option>Asia/Aqtau</option>
+					<option>Asia/Aqtobe</option>
+					<option>Asia/Ashgabat</option>
+					<option>Asia/Baghdad</option>
+					<option>Asia/Bahrain</option>
+					<option>Asia/Baku</option>
+					<option>Asia/Bangkok</option>
+					<option>Asia/Beirut</option>
+					<option>Asia/Bishkek</option>
+					<option>Asia/Brunei</option>
+					<option>Asia/Choibalsan</option>
+					<option>Asia/Chongqing</option>
+					<option>Asia/Colombo</option>
+					<option>Asia/Damascus</option>
+					<option>Asia/Dhaka</option>
+					<option>Asia/Dili</option>
+					<option>Asia/Dubai</option>
+					<option>Asia/Dushanbe</option>
+					<option>Asia/Gaza</option>
+					<option>Asia/Harbin</option>
+					<option>Asia/Hebron</option>
+					<option>Asia/Ho_Chi_Minh</option>
+					<option>Asia/Hong_Kong</option>
+					<option>Asia/Hovd</option>
+					<option>Asia/Irkutsk</option>
+					<option>Asia/Jakarta</option>
+					<option>Asia/Jayapura</option>
+					<option>Asia/Jerusalem</option>
+					<option>Asia/Kabul</option>
+					<option>Asia/Kamchatka</option>
+					<option>Asia/Karachi</option>
+					<option>Asia/Kashgar</option>
+					<option>Asia/Kathmandu</option>
+					<option>Asia/Khandyga</option>
+					<option>Asia/Kolkata</option>
+					<option>Asia/Krasnoyarsk</option>
+					<option>Asia/Kuala_Lumpur</option>
+					<option>Asia/Kuching</option>
+					<option>Asia/Kuwait</option>
+					<option>Asia/Macau</option>
+					<option>Asia/Magadan</option>
+					<option>Asia/Makassar</option>
+					<option>Asia/Manila</option>
+					<option>Asia/Muscat</option>
+					<option>Asia/Nicosia</option>
+					<option>Asia/Novokuznetsk</option>
+					<option>Asia/Novosibirsk</option>
+					<option>Asia/Omsk</option>
+					<option>Asia/Oral</option>
+					<option>Asia/Phnom_Penh</option>
+					<option>Asia/Pontianak</option>
+					<option>Asia/Pyongyang</option>
+					<option>Asia/Qatar</option>
+					<option>Asia/Qyzylorda</option>
+					<option>Asia/Rangoon</option>
+					<option>Asia/Riyadh</option>
+					<option>Asia/Sakhalin</option>
+					<option>Asia/Samarkand</option>
+					<option>Asia/Seoul</option>
+					<option>Asia/Shanghai</option>
+					<option>Asia/Singapore</option>
+					<option>Asia/Taipei</option>
+					<option>Asia/Tashkent</option>
+					<option>Asia/Tbilisi</option>
+					<option>Asia/Tehran</option>
+					<option>Asia/Thimphu</option>
+					<option>Asia/Tokyo</option>
+					<option>Asia/Ulaanbaatar</option>
+					<option>Asia/Urumqi</option>
+					<option>Asia/Ust-Nera</option>
+					<option>Asia/Vientiane</option>
+					<option>Asia/Vladivostok</option>
+					<option>Asia/Yakutsk</option>
+					<option>Asia/Yekaterinburg</option>
+					<option>Asia/Yerevan</option>
+					<option>Atlantic/Azores</option>
+					<option>Atlantic/Bermuda</option>
+					<option>Atlantic/Canary</option>
+					<option>Atlantic/Cape_Verde</option>
+					<option>Atlantic/Faroe</option>
+					<option>Atlantic/Madeira</option>
+					<option>Atlantic/Reykjavik</option>
+					<option>Atlantic/South_Georgia</option>
+					<option>Atlantic/St_Helena</option>
+					<option>Atlantic/Stanley</option>
+					<option>Australia/Adelaide</option>
+					<option>Australia/Brisbane</option>
+					<option>Australia/Broken_Hill</option>
+					<option>Australia/Currie</option>
+					<option>Australia/Darwin</option>
+					<option>Australia/Eucla</option>
+					<option>Australia/Hobart</option>
+					<option>Australia/Lindeman</option>
+					<option>Australia/Lord_Howe</option>
+					<option>Australia/Melbourne</option>
+					<option>Australia/Perth</option>
+					<option>Australia/Sydney</option>
+					<option>Europe/Amsterdam</option>
+					<option>Europe/Andorra</option>
+					<option>Europe/Athens</option>
+					<option>Europe/Belgrade</option>
+					<option>Europe/Berlin</option>
+					<option>Europe/Bratislava</option>
+					<option>Europe/Brussels</option>
+					<option>Europe/Bucharest</option>
+					<option>Europe/Budapest</option>
+					<option>Europe/Busingen</option>
+					<option>Europe/Chisinau</option>
+					<option>Europe/Copenhagen</option>
+					<option>Europe/Dublin</option>
+					<option>Europe/Gibraltar</option>
+					<option>Europe/Guernsey</option>
+					<option>Europe/Helsinki</option>
+					<option>Europe/Isle_of_Man</option>
+					<option>Europe/Istanbul</option>
+					<option>Europe/Jersey</option>
+					<option>Europe/Kaliningrad</option>
+					<option>Europe/Kiev</option>
+					<option>Europe/Lisbon</option>
+					<option>Europe/Ljubljana</option>
+					<option>Europe/London</option>
+					<option>Europe/Luxembourg</option>
+					<option>Europe/Madrid</option>
+					<option>Europe/Malta</option>
+					<option>Europe/Mariehamn</option>
+					<option>Europe/Minsk</option>
+					<option>Europe/Monaco</option>
+					<option>Europe/Moscow</option>
+					<option>Europe/Oslo</option>
+					<option>Europe/Paris</option>
+					<option>Europe/Podgorica</option>
+					<option>Europe/Prague</option>
+					<option>Europe/Riga</option>
+					<option>Europe/Rome</option>
+					<option>Europe/Samara</option>
+					<option>Europe/San_Marino</option>
+					<option>Europe/Sarajevo</option>
+					<option>Europe/Simferopol</option>
+					<option>Europe/Skopje</option>
+					<option>Europe/Sofia</option>
+					<option>Europe/Stockholm</option>
+					<option>Europe/Tallinn</option>
+					<option>Europe/Tirane</option>
+					<option>Europe/Uzhgorod</option>
+					<option>Europe/Vaduz</option>
+					<option>Europe/Vatican</option>
+					<option>Europe/Vienna</option>
+					<option>Europe/Vilnius</option>
+					<option>Europe/Volgograd</option>
+					<option>Europe/Warsaw</option>
+					<option>Europe/Zagreb</option>
+					<option>Europe/Zaporozhye</option>
+					<option>Europe/Zurich</option>
+					<option>Indian/Antananarivo</option>
+					<option>Indian/Chagos</option>
+					<option>Indian/Christmas</option>
+					<option>Indian/Cocos</option>
+					<option>Indian/Comoro</option>
+					<option>Indian/Kerguelen</option>
+					<option>Indian/Mahe</option>
+					<option>Indian/Maldives</option>
+					<option>Indian/Mauritius</option>
+					<option>Indian/Mayotte</option>
+					<option>Indian/Reunion</option>
+					<option>Pacific/Apia</option>
+					<option>Pacific/Auckland</option>
+					<option>Pacific/Chatham</option>
+					<option>Pacific/Chuuk</option>
+					<option>Pacific/Easter</option>
+					<option>Pacific/Efate</option>
+					<option>Pacific/Enderbury</option>
+					<option>Pacific/Fakaofo</option>
+					<option>Pacific/Fiji</option>
+					<option>Pacific/Funafuti</option>
+					<option>Pacific/Galapagos</option>
+					<option>Pacific/Gambier</option>
+					<option>Pacific/Guadalcanal</option>
+					<option>Pacific/Guam</option>
+					<option>Pacific/Honolulu</option>
+					<option>Pacific/Johnston</option>
+					<option>Pacific/Kiritimati</option>
+					<option>Pacific/Kosrae</option>
+					<option>Pacific/Kwajalein</option>
+					<option>Pacific/Majuro</option>
+					<option>Pacific/Marquesas</option>
+					<option>Pacific/Midway</option>
+					<option>Pacific/Nauru</option>
+					<option>Pacific/Niue</option>
+					<option>Pacific/Norfolk</option>
+					<option>Pacific/Noumea</option>
+					<option>Pacific/Pago_Pago</option>
+					<option>Pacific/Palau</option>
+					<option>Pacific/Pitcairn</option>
+					<option>Pacific/Pohnpei</option>
+					<option>Pacific/Port_Moresby</option>
+					<option>Pacific/Rarotonga</option>
+					<option>Pacific/Saipan</option>
+					<option>Pacific/Tahiti</option>
+					<option>Pacific/Tarawa</option>
+					<option>Pacific/Tongatapu</option>
+					<option>Pacific/Wake</option>
+					<option>Pacific/Wallis</option>
+				</select>
+				<head>{{select_timezone}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="lc_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

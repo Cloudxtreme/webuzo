@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Cotonti
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Cotonti
+	</ratings>
+	<space>
+		8213152 
+	</space>
+	<support>
+		https://www.cotonti.com/forums
+	</support>
+	<version>
+	   0.9.18
+	</version>
+	<mod>1</mod>
+	<release_date>15-01-2015</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="pdo_mysql" />	
+ 	<languages>
+	<english-overview>
+		<font size="5" color="#2956B2">Cotonti</font> is a powerful open-source web development framework and content manager with a focus on security, speed and flexibility. <br /><br />
+		Cotonti combines the flexibility of a web framework with the rapid deployability and featureset of a content management system. Despite having features such as user accounts, content creation, file management and community tools out of the box, it can be easily extended using modules or plugins. Cotonti is powered by its own template engine which is both fast and easy to learn, even if you are not an experienced programmer.
+		<br /><br />
+		Cotonti is released under the <a href="http://opensource.org/licenses/BSD-3-Clause" target="_blank">BSD License</a>.
+	</english-overview>		
+	<english-features>
+    <font size="2" color="#0072C2">
+    <ul>
+    <li>Open source, community driven.</li>
+    <li>Secure and reliable.</li>
+    <li>Fast and lightweight.</li>
+    <li>Modular and extensible.</li>
+    <li>Layout separated from logic.</li>
+    <li>Fast and easy template engine.</li>
+    <li>Internationalized.</li>
+    </ul>
+    </font>
+		</english-features>
+	</languages>
+</soft>

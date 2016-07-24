@@ -1,0 +1,3 @@
+1.add index.php from old to new zip
+
+2.index.php  is just created to redirect to demo/index.php

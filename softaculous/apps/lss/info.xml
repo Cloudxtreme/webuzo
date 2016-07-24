@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Little_Software_Stats
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Little_Software_Stats
+	</ratings>
+	<space>
+		5572348
+	</space>
+	<support>
+		http://little-software-stats.com/
+	</support>
+	<version>
+		0.2.1
+	</version>
+	<mod>2</mod>
+	<release_date>11-11-2015</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator=">=" value="5.3.6" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Little Software Stats</font> is a web application that allows users to monitor their software. <br /><br />
+		Little Software Stats is the first runtime intelligence software released as open source and free. It is designed and developed through MySQL and PHP which will allow most web servers to run it. Little Software Stats allows users to collect information including executions, installations, exceptions, and geographical location. <br /><br />
+		Little Software Stats is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License v3</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li><strong>No Heavyloads: </strong>Little Software Stats was developed to have minimal SQL queries so your web server doesn't slow down.</li> <br />
+	<li><strong>API Based: </strong>Little Software Stats utilizes an API so whatever your programming language is, your software will be tracked. It is also well documented so you know how it exactly works.</li> <br />
+	<li><strong>Easy To Use Interface: </strong>Little Software Stats interface uses HighCharts which provides interactive and simple charts.</li><br />
+	<li><strong>Automated Data Tracking: </strong>There's no need to sort out the data because Little Software Stats already has that covered.</li> <br />
+	<li><strong>Simple Installation: </strong>With Little Software Stats installation, you'll have it setup in less then 5 minutes. It is automated so there's no code that needs to be changed.</li>
+</ul>
+		</english-features>
+		<english-err_php>The PHP version is less than the required 5.2.0 version!</english-err_php>
+		<english-err_passlen5>The password length should be 5 or more characters.</english-err_passlen5>
+	</languages>
+</soft>

@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Pydio
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/Pydio
+	</ratings>
+	<space>
+		43183299
+	</space>
+	<support>
+		https://pydio.com
+	</support>
+	<version>
+		6.4.1
+	</version>
+	<mod>26</mod>
+	<release_date>13-04-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pydio</font> formerly known as AjaXplorer. Pydio: Put Your Data In Orbit! allows you to instantly turn any server into a powerful file sharing platform : install once and access your files from anywhere.
+		<br /><br />
+		Organize, preview and share them, easily and securely.
+		<br /><br />
+		Pydio is released under the <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">Affero GPL License</a>.
+		</english-overview>
+		<english-features>
+		<ul>
+<li><font size="2" color="#1281B6"><b>Standard file system actions, plus metadata</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Drag'n'drop, right-click for contextual menus, modal windows</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Users / Roles Management</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Plugin architecture : interface with other CMS</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>FileSystem, FTP, SQL, LDAP, WebDAV, SMB, and more!</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>HTML5 Upload, PDF preview &amp; Online image edition.</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Google Analytics integration</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Dynamic FTP authentication</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Built-in WebDAV access to the repositories</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>iOS and Android applications available</b></font><br /></li>
+<li><font size="2" color="#1281B6"><b>Synchronization client currently available in public beta, for mac &amp; windows.</b></font><br /></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

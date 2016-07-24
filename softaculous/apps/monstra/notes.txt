@@ -1,0 +1,6 @@
+1. Select timezone as "(GMT-06:00) Central Time (US & Canada)"
+2. Make update.zip from the original package of the latest version and add only those directories which are metioned here :
+http://monstra.org/blog
+for eg : http://monstra.org/blog/monstra-304-release
+We shall provide incremental updates only since the update.zip gets changed for every release. Change the min_value in info.xml for every version.
+Check this blog for every next update and make the required changes. (since 3.0.4)

@@ -1,0 +1,4 @@
+1. (NOT REQUIRED NOW) We have added few variables in config.php so add them even if they are not in the current file (Now these variables are added in Database).
+2. After installation if you get update notification then add 
+('updateavailable', '0'),
+('updatelastcheck', '[[regtime]]'); In [[dbprefix]]settings_global table

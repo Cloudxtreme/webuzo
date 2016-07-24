@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Saurus
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Saurus
+	</ratings>
+	<space>
+		8185096
+	</space>
+	<support>
+		http://www.saurus.info
+	</support>
+	<version>
+		4.7.FINAL
+	</version>
+	<mod>8</mod>
+	<release_date>04-02-2015</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="function_exists" name="mb_get_info" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Saurus</font> is Free, Open Source Software for Building and Managing Websites.
+		<br /><br />
+		Saurus CMS ships with most common applications such as article list, blog, news with archive, forum and image gallery, packaged as content templates.
+		<br /><br />
+		In addition to the built-in content templates, site-specific custom applications can be developed using Saurus API.
+		<br /><br />
+		Saurus is licensed under <a href="http://www.saurus.info/license/" target="_blank">Mozilla Public License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>On-site editing</li>
+<li>Text editor</li>
+<li>File manager</li>
+<li>Manage structure</li>
+<li>Access control (ACL)</li>
+<li>Multi-site management</li>
+<li>Applications</li>
+<li>Template-based designr</li>
+<li>Saurus API</li>
+<li>Comment boards</li>
+<li>Staging</li>
+<li>MScheduled publishing</li>
+<li>Feedback forms</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

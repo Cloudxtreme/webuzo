@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PivotX
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/PivotX
+	</ratings>
+	<space>
+		7830492
+	</space>
+	<support>
+		http://pivotx.net/
+	</support>
+	<version>
+		2.3.11
+	</version>
+	<mod>11</mod>
+	<release_date>21-06-2015</release_date>
+	<admin>pivotx/</admin>
+	<min_require>2.3.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PivotX</font> is free software to help you maintain dynamic sites such as weblogs, online journals and other frequently updated websites in general. It's written in PHP and uses MySQL or flat files as a database.<br /><br />
+		PivotX is also a great tool to maintain more complex websites as well. Its powerful core and flexible template system make it easy for developers to adjust and extend. Whether you want an easy-to-use, robust blogging tool or are looking to push things to the max - PivotX offers the best of both worlds.
+		<br /><br />
+		PivotX is released under <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Entries and Pages</li>
+<li>Easy Blogging</li>
+<li>Images and Files</li>
+<li>Extensions</li>
+<li>Themes</li>
+<li>Template engine</li>
+<li>Multiple weblogs</li>
+<li>Multiple authors</li>
+<li>Flat files or MySQL database</li>
+<li>No rebuilding</li>
+<li>Commenting &amp; moderation</li>
+<li>Spam protection</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,2 @@
+1) Give [[dbprefix]] for cookie_prefix in config.php
+2) We have added upgrade from 7.02.06 So just check upgrade process for next version for confirmation

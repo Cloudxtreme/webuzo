@@ -1,0 +1,62 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Podcast Title">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="site_subtitle" size="30" value="Subtitle">
+				<head>{{site_desc}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="A little description">
+				<head>{{site_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_EN">English</option>
+					<option value="de_DE">German</option>
+					<option value="ee_ET">Estonian</option>
+					<option value="es_ES">Spanish</option>
+					<option value="fr_FR">French</option>
+					<option value="it_IT">Italian</option>
+					<option value="hu_HU">Hungarian</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="nb_NO">Norwegian</option>
+					<option value="pl_PL">Polish</option>
+					<option value="pt_BR">Portuguese (Brazil)</option>
+					<option value="sk_SK">Slovak</option>
+					<option value="sv_SE">Swedish</option>
+					<option value="cs_CS">Czech</option>
+					<option value="ru_RU">Russian</option>
+					<option value="th_TH">Thai</option>
+					<option value="ja_JP">Japanese</option>
+					<option value="ko_KR">Korean</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>
+		<exclude>setup/*/*/*</exclude>
+		<exclude>setup/*/*/*/*</exclude>
+	</files>
+</softinstall>

@@ -1,0 +1,4 @@
+1. Please add these lines in my_config.php even if they are not in the zip
+
+$youremail = '[[admin_email]]';
+$admin_email='[[admin_email]]';

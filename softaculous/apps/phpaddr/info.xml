@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHP_Address_Book
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/PHP_Address_Book
+	</ratings>
+	<space>
+		3892117
+	</space>
+	<support>
+		http://sourceforge.net/projects/php-addressbook/
+	</support>
+	<version>
+	   8.2.5.2
+	</version>
+	<mod>1</mod>
+	<release_date>10-01-2015</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.0.0" />
+ 	<languages>
+	<english-overview>
+	<font size="5" color="#182e7a">PHP Address Book</font> is a Simple, web-based address &amp; phone book based on PHP and MySQL.<br /><br />
+	PHP Address Book is released under the <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE</a>.
+	</english-overview>		
+	<english-features>
+    <ul>
+    <li>Manages contacts &amp; groups.</li>
+    <li>Exports Excel, vCard - Import vCard, LDIF (ThunderBird).</li>
+    <li>Show geographical maps of groups.</li>
+    <li>Protects the site with a login.</li>
+    <li>Detects and displays over 12 languages.</li>
+    <li>Displays the next birthdays.</li>
+    <li>Optimized for Browser, iPhone and Print.</li>
+	<li>Support ActiveSync for iPhone and Android.</li>
+	<li>Shows birthdays in iPhone calendar.</li>
+	<li>Authentication based on User/Password or IP-Address/-Range.</li>
+    </ul>
+	</english-features>
+	</languages>
+</soft>

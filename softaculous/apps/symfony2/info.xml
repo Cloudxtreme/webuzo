@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Symfony2
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Symfony2
+	</ratings>
+	<space>
+		27343714
+	</space>
+	<support>
+		http://symfony.com/
+	</support>
+	<version>
+		2.3.42
+	</version>
+	<mod>68</mod>
+	<release_date>30-05-2016</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator=">=" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Symfony</font> is a PHP framework for web projects.
+		<br /><br />
+		Speed up the creation and maintenance of your PHP web applications. Replace the repetitive coding tasks by power, control and pleasure.
+		<br /><br />
+		Symfony is a PHP Framework, a Philosophy, and a Community - all working together in harmony. 
+		<br /><br />
+		Symfony is released under the <a href="http://symfony.com/doc/current/contributing/code/license.html" target="_blank">MIT LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Faster and less greedy</li>
+<li>Unlimited flexibility</li>
+<li>Expandable</li>
+<li>Stable and sustainable</li>
+<li>The joy of developing</li>
+<li>Ease of use</li>
+<li>Reputation</li>
+<li>Permanence</li>
+<li>References</li>
+<li>Innovation</li>
+<li>Resources</li>
+<li>Interoperability</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

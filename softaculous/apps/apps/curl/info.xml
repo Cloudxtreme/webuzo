@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/CURL
+	</ratings>
+	<space>
+		3118336
+	</space>
+	<support>
+		http://curl.haxx.se
+	</support>
+	<version>
+		7.43.0
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>17-06-2015</release_date>
+	
+	<requires>openssl</requires>
+	<requires>zlib</requires>
+	<requires>ldap</requires>
+	
+	<extract file="curl-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Curl Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/bin/curl</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CURL</font> is a command line tool for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet and TFTP. curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a busload of other
+<br /><br />
+Curl is distributed under a <a href="http://curl.haxx.se/docs/copyright.html" target="_blank">MIT/X derivate license</a>
+		</english-overview>
+		<english-features>
+			Possibly more than <a href="http://daniel.haxx.se/blog/2012/05/16/300m-users/">500 million users</a> already, I'm sure you can use it as well!
+		</english-features>
+	</languages>
+</soft>

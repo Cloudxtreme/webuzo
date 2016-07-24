@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/CakePHP
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/CakePHP
+	</ratings>
+	<space>
+		15114814
+	</space>
+	<support>
+		http://discourse.cakephp.org/
+	</support>
+	<version>
+		3.2.10
+	</version>
+	<mod>71</mod>
+	<mod_files>1</mod_files>
+	<release_date>26-05-2016</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.9" />
+	<requirement check="mysql" type="version" operator="ge" value="5.1.10" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="intl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CakePHP</font> makes building web applications simpler, faster and require less code.
+		<br /><br />
+		CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+		<br /><br />
+		CakePHP is licensed under the <a href="http://www.opensource.org/licenses/mit-license.html" target="_blank">MIT LICENSE</a>.
+		</english-overview>	
+		<english-features>
+	<font size="4" color="#C82334"><b>Why use CakePHP</b></font><br /><br />
+<font size="2" color="#BD8A5D"><b>Build Quickly</b></font><br />
+<font>Use code generation and scaffolding features to rapidly build prototypes.</font><br /><br />
+<font size="2" color="#BD8A5D"><b>No Configuration</b></font><br />
+<font>No complicated XML or YAML files. Just setup your database and you're ready to bake.</font><br /><br />
+<font size="2" color="#BD8A5D"><b>Friendly License</b></font><br />
+<font>CakePHP is licensed under the MIT license which makes it perfect for use in commercial applications.</font><br /><br />
+<font size="2" color="#BD8A5D"><b>Batteries Included</b></font><br />
+<font>The things you need are built-in. Translations, database access, caching, validation, authentication, and much more are all built into one of the original PHP MVC frameworks.</font><br /><br />
+<font size="2" color="#BD8A5D"><b>Clean MVC Conventions</b></font><br />
+<font>Instead of having to plan where things go, CakePHP comes with a set of conventions to guide you in developing your application.</font><br /><br />
+<font size="2" color="#BD8A5D"><b>Secure</b></font><br />
+<font>CakePHP comes with built-in tools for input validation, CSRF protection, Form tampering protection, SQL injection prevention, and XSS prevention, helping you keep your application safe &amp; secure.</font><br /><br />
+		</english-features>
+	</languages>
+</soft>

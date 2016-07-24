@@ -1,0 +1,8 @@
+1) Install with Sample data.
+2) Add 
+<IfModule mod_php5.c>
+php_value magic_quotes_gpc Off
+</IfModule> 
+in /htdocs/.htaccess
+3) Check __requirements() function in upgrade.php
+4) Clear the cache in the data directory i.e. datadir/tmp (OLNY files not folders)

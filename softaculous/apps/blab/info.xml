@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/BlaB
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/BlaB
+	</ratings>
+	<space>
+		999868
+	</space>
+	<support>
+		http://hot-things.net/contacts.php
+	</support>
+	<version>
+		8.2
+	</version>
+	<mod>4</mod>
+	<release_date>25-05-2016</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">BlaB! </font> is a fully resizeble, multilanguage PHP/AJAX based and best viewed with any browser web chat that supports PHP4+ and MySQL, SQLite &amp; PostgreSQL databases.
+		<br /><br />
+		 It has guest login, built-in user registration system, sound notifications, changeable sets of emoticons, history that can be kept forever and much more!
+		 <br /><br />
+		BlaB! <a href="http://hot-things.net/cs/article.php?aid=3" target="_blank">License Agreement</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Supports almost any available browser today: MSIE7+, Opera, Mozilla Firefox, Safari and Google Chrome.</li>
+<li>NO FLASH &amp; NO JAVA: no additional plugins / server modules required</li>
+<li>HTML5 and CSS3 compliant</li>
+<li>100% resizable, you can run it in iframes of almost any size</li>
+<li>Registration system allowing 'guest' users</li>
+<li>Ban users and IP addresses from Admin CP</li>
+<li>Paint, share &amp; play paintings in chat</li>
+<li>History, bad words removal, Admin CP</li>
+<li>Sound notification on new messages</li>
+</ul>
+		</english-features>
+		<english-err_passlen5to12>Password should be between 5 to 12 characters.</english-err_passlen5to12>
+		<english-err_alphanumpass>Password should contain atleast one upper case, one lower case and one numeric character.</english-err_alphanumpass>
+	</languages>
+</soft>

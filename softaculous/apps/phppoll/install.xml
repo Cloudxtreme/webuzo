@@ -1,0 +1,26 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<chmod mode="ocfc">denied/info.txt</chmod>
+	<chmod mode="odc">images/</chmod>
+	<chmod mode="ofc">admin.php</chmod>
+	<chmod mode="ofc">ans.txt</chmod>
+	<chmod mode="ofc">logger.txt</chmod>
+	<chmod mode="ofc">poll_data.txt</chmod>
+	<chmod mode="ofc">question.txt</chmod>
+	<chmod mode="ofc">poll.php</chmod>
+	<files>
+		<exclude>setup.php</exclude>
+	</files>
+</softinstall>

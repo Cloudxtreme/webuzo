@@ -1,0 +1,72 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ImpressPages
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/ImpressPages
+	</ratings>
+	<space>
+		12561628
+	</space>
+	<support>
+		http://www.impresspages.org/community
+	</support>
+	<version>
+		4.6.5
+	</version>
+	<mod>47</mod>
+	<release_date>30-03-2016</release_date>
+	<admin>admin.php</admin>
+	<min_require>4.0.9</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ImpressPages CMS</font> is user friendly software. Its tools enable user to manage the content of website in a convenient way. The advantage of ImpressPages is the opportunity to see how the website which is being edited will look like after the changes. 
+		<br /><br />
+		All the information could be administered directly in the website. There is no need to perform monotonous lay-out tasks. <br />Insertion of text, pictures, galleries and video is very simple.<br /><br />
+		ImpressPages CMS is released under the <a href="http://www.impresspages.org/license" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Smart copy &amp; paste</b></font><br /><br />
+<font size="2">It erases all HTML and CSS trash (tags, styles, etc.), but leaves exactly what you expect and need: bold, italic, underline, links, lists, paragraphs, line breaks. All styles are automatically transformed to already defined website styles.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>SEO friendly</b></font><br /><br />
+<font size="2">From the very beginning CMS kernel has been developed considering the needs of SEO. The system/software automatically performs the major part of this task. Your website will have better ranking in search engines.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Specific SEO features of ImpressPages:</b></font><br />
+<ul><font size="2">
+<li>automatic generation of SEO friendly URLs;</li>
+<li>setting of title, keywords, description and URL values for each page;</li>
+<li>automatic sitemap generations;</li>
+<li>content widgets are compatible with SEO recommendations for content.</li>
+</font></ul><br />
+<font size="2" color="#1281B6"><b>Internal linking</b></font><br /><br />
+<font size="2">Internal page linking is made easy. Just browse the page tree and click on the page you need. Link is inserted automatically. If you have a link, system automatically select that page in a tree and shows you where it is.</font><br /><br />
+<font size="2" color="#1281B6"><b>Easy tool for multilingual websites</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Newsletter</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Smart search</b></font><br /><br />
+<font size="2" color="#1281B6"><b>RSS</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Sitemap</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Error reporting</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Antispam tool</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Move website with ease</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Maintenance mode</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Security</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Widgets and layouts</b></font><br /><br />
+<font size="2" color="#1281B6"><b>Tool for website administrator</b></font><br /><br />
+		</english-features>
+	</languages>
+</soft>

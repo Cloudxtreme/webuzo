@@ -1,0 +1,17 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>adm_program/installation/update.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>config.php</exclude>
+		<exclude>adm_my_files/config.php</exclude>
+	</files>
+	<notes>
+		Please delete the adm_program/installation folder after upgrade.
+	</notes>
+</softupgrade>

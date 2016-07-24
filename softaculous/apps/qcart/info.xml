@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Quick.Cart 
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Quick.Cart 
+	</ratings>
+	<space>
+		1492510
+	</space>
+	<support>
+		http://opensolution.org/
+	</support>
+	<version>
+		6.7
+	</version>
+	<mod>14</mod>
+	<release_date>30-03-2016</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirements check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Quick.Cart</font> is a simple and functional shopping cart for you and your customers. Intuitional products and orders management, amazing abilities to extend script and easy installation makes our script unique!
+		<br /><br />
+		Quick.Cart is released under the <a href="http://opensolution.org/license.html" target="_blank">Creative Commons Attribution 2.5 LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#182e7a">Admin Panel</font>
+<ul>
+<li>Products management</li>
+<li>Pages and subpages management</li>
+<li>Orders management</li>
+<li>Shipping and payment management</li>
+<li>Languages management</li>
+<li>Advanced SEO support</li>
+<li>Configuration</li>
+<li>Ability to disable products ordering</li>
+</ul>
+<font size="2" color="#182e7a">Customer</font>
+<ul>
+<li>Products and pages view</li>
+<li>Print products and pages description</li>
+<li>Searching products</li>
+<li>Basket management and option to save it for 24h</li>
+<li>Sending and printing orders</li>
+<li>Sending emails with order details to customer and admin</li>
+<li>Mobile version</li>
+<li>Possibility to change language</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

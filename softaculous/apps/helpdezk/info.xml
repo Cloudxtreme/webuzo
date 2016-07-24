@@ -1,0 +1,94 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/HelpDEZk
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/HelpDEZk
+	</ratings>
+	<space>
+		47833970
+	</space>
+	<support>
+		http://www.helpdezk.org/
+	</support>
+	<version>
+		1.0.1
+	</version>
+	<mod>5</mod>
+	<release_date>12-09-2014</release_date>
+	<admin>admin/login</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">HelpDEZk</font> is a powerfull software that manages requests/incidents. It has all the needed requirements to an efficient workflow management of all processes involved in service execution. This control is done for internal demands and also for outsourced services. 
+		<br /><br />
+		HelpDEZk can be used at any company's area, serving as an support to the shared service center concept, beyond the ability to log all the processes and maintain the request's history, it can pass it through many approval levels. 
+		<br /><br />
+		HelpDEZk can put together advanced managing resources with an extremely easy use. Simple and intuitive screens make the day-by-day easier for your team, speeding up the procedures and saving up a lot of time. It is developped in objects oriented PHP language, with the MVC architecture and uses the templates system SMARTY. For the javascripts, JQUERY is used.
+		<br /><br />
+		HelpDEZk is released under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE Version 3</a>.
+		</english-overview>
+		<english-features>
+<ul>
+	<li> 
+		<font size="2" color="#1281B6"><b>Technology</b></font><br />
+		Helpdezk is written in object oriented PHP language with the MVC architecture, uses SMARTY as template's system. For javascripts the JQUERY's library is used.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Requests and incidents control</b></font><br />
+		HelpDEZk, by its routing algorithm, will deliver the request to its responsible group, and, depending its configuration, will ask execution approval. It's possible attach files (error screens, forms of contract, etc) at any time while the request is being answered. The Answering workflow is totally flexible and configurable by the system's administrator. The SLA control is based on the attendants's working hours. HelpDEZk has all needed functions to manage requests of any company's area.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Automatic Comunication (HD Automatic Notification System)</b></font><br />
+		All modifications during the request/incident answering, are reported by email automatically to all involved in the process: requestor, auxiliary operator, and the attendance group's members. All these warnings are configurable by the administrator, including subject, text, and fields that are included in the email's template.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>SLA</b></font><br />
+		It's the part where the service's contracts between two or more entities whose the level of service's provision are defined formally. In practice, the term is used in delivery's time of a service or of a specific performance context. Manage the SLA is one of the most important missions of a helpdesk software. HelpDEZk measures all the involved indicators in managing relations with provider or internal customers.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Knowledge Database</b></font><br />
+		A Knowledge Database is, by definition, a centered information's repository about a determinate subject.
+The Knowledge Database module allows a fast change of information between the different HelpDEZk users. It's possible to post since simple problems solutions to complexes processes inside the company. The module is divided in categories, which make flexible the articles labeling. These articles can be searched in many ways - One of them is the search by keyword, in subject or in the article's body. The Knowledge Database is totally integrated with request's answering, that means it can be supplied with a problem/incident's solution, or contrary: the operator can choose a article data that is already in the database as a solution for the request he is answering. With the web API integration module, it's possible to access, via API, all the Knowledge database content, allowing use and sharing by any other software that the company already have.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Attendance Quality</b></font><br />
+		Always when a request is finished the user is invited to participate in a small satisfaction research. This research is totally configurable by the system's administrator, giving the user the possibility to measure the quality of many topics. These data are attached to the answering group, operator and area manager, allowing the group's performance analysis by charts and reports. With the alert's module integration it's possible to send email/sms always when a poor request answering is registered, always inside the filters pre-selected by the administrator.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Active Directoty , Open LDAP, Pop and Imap integration</b></font><br />
+		HelpDEZk users can be authenticated in many ways beyond the own system's database. With the purpose of keeping the authentication centered the HD allows user authentication in many ways: AD, Open LDAP, POP 3 and IMAP.
+If AD or Open LDAP is used, the users and their data can be imported in an automatic way, they also can be activated/deactivated depending on his status on the LDAP server.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Opening requests by email</b></font><br />
+		Requests can be opened by the user by email. Each answering group can provide an email address that will receive the requests. When the email is received the router algorithm will be applied for that group. Yet it's possible that users can be created by email or can be related to the users that already exists. There's also the possibility to reject emails from not registered users. Ultimately, all the request opening process can be made only with an email.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Downloads</b></font><br />
+		File database, manuals, documents that can be downloaded by operators and users. The permissions of each file are defined in the upload process.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Worked hours control</b></font><br />
+		The administrator can register the operators working hours, as also holidays, day-off and vacations. This register is used to calculate the request's delivery time. Furthermore all the used time is stored, which permits, by reports and charts, a total control of the hours worked by the operators and answering groups. With this, beside other things, it's possible to determinate hours and days that peaks of requests occurs, which can help the administrator to do a better workers division.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Cost Control</b></font><br />
+		With the register of used time in each request, it's possible to use it for costs calculation. A cost center can be attached to each user, with this, by reports, it's possible to have a very detailed view of the involved costs in the attendance in every company's area. For service providing companies, that have their contracts based in worked hours, HelpDEZk is a tool that will help in client's billing calculation, allowing an easy integration with the incoming bills software.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Alerts</b></font><br />
+		Module totally configurable by the operators or by the administrator where is possible send warnings by email.<br /><br />
+	</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

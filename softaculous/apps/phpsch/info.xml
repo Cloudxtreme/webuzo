@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="phpScheduleIt.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Booked
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/calendars/Booked
+	</ratings>
+	<space>
+		11961838
+  	</space>
+	<support>
+		http://www.bookedscheduler.com/
+	</support>
+	<version>
+		2.5.20
+ 	</version>
+	<mod>45</mod>
+	<mod_files>1</mod_files>
+	<release_date>30-04-2016</release_date>
+	<admin>Web/</admin>
+	<min_require>2.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Booked</font> (formerly phpScheduleIt) is a simple but powerful reserve-anything scheduler. With flexible layouts, custom rules, a powerful administrative backend, and an unbelievably simple user experience, Booked can fit almost any need. From conference rooms to lab equipment to airplanes - it's Booked.
+		<br /><br />
+		Booked is released under the <a href="https://www.gnu.org/copyleft/gpl.html" target="_blank">GNU/GPL Version 3</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>100% free and open source.(GPL)</li>
+			<li>OS independent. Only requires a web server running PHP and MySQL.</li>
+			<li>Multiple languages and cultures.</li>
+			<li>Simple to install in any enviornment with a web-based or manual installation process available.</li>
+			<li>Easy to extend with many pluggable components.</li>
+			<li>No limits when hosting on your server. Unlimited number of schedules, resources, users and reservations.</li>
+			<li>Active support community.</li>
+			<li>Easy to use administrative tools make it easy to quickly fine, manage and export data.</li>
+			<li>Powerful reporting system.</li>
+			<li>Reservation start and end reminders.</li>
+			<li>Intutive click and drag schedule view allows users to quickly find and book an available time slot.</li>
+			<li>Organize users and limit access by groups.</li>
+			<li>Flexible layout configuration lets you set up schedules that fit your needs.</li>
+			<li>Limit and control resource usage with a flexible quota system.</li>
+			<li>Optionally review and approve reservation requests.</li>
+			<li>Integration with Outlook®, Google® Calendar or any other system that accepts .ical files.</li>
+			<li>Authentication integration with LDAP, Active Directory, WordPress and more.</li>
+			<li>Customizable attributes and fields.</li>
+			<li>Tiered roles and permissions.</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

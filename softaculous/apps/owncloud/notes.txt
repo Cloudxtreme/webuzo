@@ -1,0 +1,17 @@
+1. Manual installation on any suPHP server only.
+2. instanceid in config.php is created after login. So, download config.php after login.
+3. Add the following query in `oc_preferences` table in sql
+('[[admin_username]]', 'core', 'lang', '[[language]]');
+4. Make data directory in /home/soft. change path in manual installation.
+5. Due to bug in windows in 5.0.13 version we have disabled it on windows. Kindly check and remove windows condition in next version from install.php and upgrade.php (Enabled back from 6.0). It does not work on windows, we have disabled from 8.1.1.
+6. After removing inserts from oc_filecache change auto increment value.
+7. Add [[admin_username]] folder from data_dir to data.zip with folder name as "admin"
+8. Everytime change version in upgrade.php to upgrade latest version from 6.0.4
+9. Change <min_require> in info.xml for major version.
+10. "data"  folder in the softpath is created by default but we maintain it in softadatadir (as recommended by the vendor) hence not to be taken.
+11. Due to this "data" folder, the below mentioned entry is removed from sql :
+('local::/{{softpath}}/data/', 2);
+and make softdatadir -> "numeric_id" as 2. (No need to perform this since 8.2.0 does not make this entry in manual installation itself.)
+12. Check for inserts in "oc_file_locks" after login. we remove it's entries as it creates the entries after login. (This entry is not made since 8.2.1 in manual installation)
+13. Remove inserts for oc_filecache, oc_file_locks, oc_mounts since 9.0.0 since they are created after login. Check in next version.
+14. rootcerts.crt in datadir is same for different servers, hence we have added in data.zip 

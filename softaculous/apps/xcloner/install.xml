@@ -1,0 +1,33 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="catalan">Catalan</option>
+					<option value="deutsch">German</option>
+					<option value="dutch">Dutch</option>
+					<option value="francais">French</option>
+					<option value="italian">Italian</option>
+					<option value="polish">Polish</option>
+					<option value="russian">Russian</option>
+					<option value="spanish">Spanish</option>
+					<option value="slovenian">Slovenian</option>
+					<option value="hungarian">Hungarian</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+</softinstall>

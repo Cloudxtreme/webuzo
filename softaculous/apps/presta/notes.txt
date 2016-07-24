@@ -1,0 +1,32 @@
+1. Choose database Engine 'InnoDB'
+2. If it is asked for country choose "United States" and Shop timezone as "US/Eastern"
+3. Install with Sample Data
+4. Add the contents of img/ folder from manual to zip
+5. We have added move_translations_module_file.php for issues upgrading from 1.4 to 1.5 (PLEASE REPLACE THIS FILE FROM NEW PACKAGE \install\upgrade\php\move_translations_module_file.php).
+Also add this code in the above file :
+// remove the existing files
+	if(file_exists($old_file) && file_exists($new_file)){
+		unlink($new_file);
+	}
+
+6. Upgrade not possible below 1.6.1.0
+
+7. check and 
+	copy translations/en
+	copy modules/*
+	copy en.php from other module folders
+	copy forward_msg.txt and lang.php from mail folder
+	copy mails/en/
+	copy themes/default/lang/en.php
+	from manual installation
+	
+8. Remove en.gzip from translations folder If it is deleted in manual installation
+
+9. The reason for excluding image folders in upgrade.xml http://doc.prestashop.com/display/PS15/Manual+update#Manualupdate-Step2-GettingReadyfortheNewVersion 'Copying the files that were backed up in "prestashop-prod" to the new "prestashop-prep" folder'
+
+10. Due to onboard module conflict in 1.6.0.11 to 1.6.0.13 upgrade we have excluded it in upgrade.xml. Kindly change it in next version if it work fine.
+
+11. We have added a DUMMY SQL upgrade file for upgrade from 1.6.0.13 to 1.6.0.14
+
+12. Upgrade from 1.6.1.2 to 1.6.1.3 and from 1.6.1.3 to 1.6.1.4 is not possible. Logs : "No upgrade is possible". See if they support upgrade in future.
+	( Wroking in 1.6.1.5)

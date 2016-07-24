@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/XCloner
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/XCloner
+	</ratings>
+	<space>
+		2278130
+	</space>
+	<support>
+		http://www.xcloner.com/support/
+	</support>
+	<version>
+		3.5
+	</version>
+	<mod>2</mod>
+	<release_date>24-02-2014</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">XCloner</font> is a professional website Backup and Restore application designed to allow you to create safe complete backups of any PHP/Mysql website and to be able to restore them anywhere. It works as a native Joomla backup component, as a native Wordpress backup plugin and also as standalone PHP/Mysql backup application.
+		<br /><br />
+		XCloner is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL version 2</a>.
+		</english-overview>
+		<english-features>
+<h3>Complete website backup</h3>Backup your website files and databases, send them to the cloud, restore backups anywhere.
+<h3>Automatic backups</h3>Create automatic backups with the built in XCloner cron script, and send them to Amazon S3.
+<h3>Secure</h3>XCloner has a built in security layer to protect and easily restore your website backups.
+<h3>Restore backups anywhere</h3>Easily restore backups on any location compatible with your website by using the XCloner restore.
+<h3>Open Source Support</h3>XCloner works as a native Joomla backup extension, Wordpress backup plugin and Standalone website backup application.
+<h3>Professional Support</h3>We offer Professional 24/7 support through the Free forums or Premium membership.
+<h3>Other</h3>
+<ul>
+<li>Backup and Restore any PHP/Mysql  website</li>
+<li>Create custom backups</li>
+<li>Generate automatic backups based on cronjobs</li>
+<li>Restore your backups anywhere</li>
+<li>Share your custom backups with your clients</li>
+<li>Store you backups on the Amazon S3 cloud</li>
+<li>Backend available languages: spanish, dutch, deutsch, english, italian, polish, russian, catalan, french</li>
+<li>Incremental mysql backup supporting large databases</li>
+<li>Incremental file system scanning and backup supporting large websites</li>
+<li>Backup Split option for environments with limited filesize</li>
+<li>JQuery Start UI</li>
+<li>Incremental files restore supporting large backups</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,4 @@
+DirectoryIndex mail.cgi index.php index.html
+<IfModule mod_alias.c>
+RedirectMatch 301 ^[[relativeurl]]/$ [[softurl]]/mail.cgi
+</IfModule>

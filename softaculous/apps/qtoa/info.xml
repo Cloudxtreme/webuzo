@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Question2Answer
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Question2Answer
+	</ratings>
+	<space>
+		5133917 
+	</space>
+	<support>
+		http://www.question2answer.org/
+	</support>
+	<version>
+		1.7.4
+	</version>
+	<mod>17</mod>
+	<release_date>15-03-2016</release_date>
+	<admin>?qa=admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Question2Answer</font> site helps your online community to share knowledge. People with questions quickly get the answers they need.
+		<br /><br />
+		The community dynamic is enriched by commenting, voting, notifications, user points and rankings.
+		<br /><br />
+		Question2Answer is licensed under <a href="http://www.question2answer.org/license.php" target="_blank">GNU General Public License version 2,</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Fast integrated search engine.</li>
+<li>Categories (up to 4 levels deep) and/or tagging.</li>
+<li>Voting, comments and follow-on questions.</li>
+<li>Points-based reputation management.</li>
+<li>Email notifications and RSS.</li>
+<li>Built-in user account management.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

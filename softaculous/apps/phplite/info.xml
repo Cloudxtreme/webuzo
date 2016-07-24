@@ -1,0 +1,59 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpLiteAdmin
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/phpLiteAdmin
+	</ratings>
+	<space>
+		240205   
+	</space>
+	<support>
+		http://code.google.com/p/phpliteadmin/
+	</support>
+	<version>
+		1.9.6
+	</version>
+	<mod>7</mod>
+	<release_date>05-07-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpLiteAdmin</font> is a web-based SQLite database admin tool written in PHP with support for SQLite2 and SQLite3. 
+		<br /><br />
+		phpLiteAdmin is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL v3</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>Lightweight - consists of a single 150KB source file for portability </li>
+			<li>Supports SQLite3 with backwards-compatibility for SQLite2 </li>
+			<li>Create and delete databases </li>
+			<li>Add, delete, rename, empty, and drop tables </li>
+			<li>Browse, add, edit, and delete records </li>
+			<li>Add, delete, and edit table columns </li>
+			<li>Manage table indexes </li>
+			<li>Manage table triggers </li>
+			<li>Import and export tables, structure, indexes, and data </li>
+			<li>View data as bar, pie, and line charts </li>
+			<li>Graphical search tool to find records based on specified field values </li>
+			<li>Create and run your own custom SQL queries in the free-form query editor/builder </li>
+			<li>Easily apply core SQLite functions to column values using the GUI </li>
+			<li>Write your own PHP functions to be available to apply to column values </li>
+			<li>Secure password-protected interface with login screen and cookies </li>
+			<li>Specify and manage an unlimited number of databases </li>
+			<li>Specify a directory and optionally its subdirectories to scan for databases </li>
+			<li>Allows multiple installations on the same server, each with a different password </li>
+			<li>Design your own theme using CSS or install a pre-made theme from the community </li>
+			<li>All presented in an intuitive, easy-to-use GUI that allows non-technical, SQL-illiterate users to fully manage databases </li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

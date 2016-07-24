@@ -1,0 +1,50 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{shell_cmd}}</heading>
+			<input type="text" name="htpassword_cmd" size="30" value="/usr/bin/htpasswd">
+				<head>{{htpassword_cmd}}</head>
+				<exp>{{exp_htpassword_cmd}}</exp>
+				<handle>__htpassword_cmd</handle>
+			</input>
+			<input type="text" name="svn_cmd" size="30" value="/usr/bin/svn">
+				<head>{{svn_cmd}}</head>
+				<exp>{{exp_svn_cmd}}</exp>
+				<handle>__svn_cmd</handle>
+			</input>
+			<input type="text" name="svnadmin_cmd" size="30" value="/usr/bin/svnadmin">
+				<head>{{svnadmin_cmd}}</head>
+				<exp>{{exp_svnadmin_cmd}}</exp>
+				<handle>__svnadmin_cmd</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{svn_location}}</heading>
+			<input type="text" name="svn_repos_loc" size="30" value="/var/www/repos">
+				<head>{{svn_repos_loc}}</head>
+				<exp>{{exp_svn_repos_loc}}</exp>
+				<handle>__svn_repos_loc</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/</exclude>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+	</files>
+</softinstall>

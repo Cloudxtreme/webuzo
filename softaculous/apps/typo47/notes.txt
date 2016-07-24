@@ -1,0 +1,8 @@
+1. Make script where Database ENGINE is InnoDB
+2. check and move typo3conf/PackageStates.php from manual to zip
+3. check and move uploads and inside files/folders from manual to zip
+4. check and move fileadmin and inside files/folders from manual to zip
+5. Uncheck Yes, download the list of distributions.
+6. We just copy the index.html to typo3temp/ as it was not created automatically.
+7. Compulsory backup option has been added for upgrading to 6.2.17 due to non-determination of extensions over cagefs.
+8. Cross upgrade from 6.2.19 - 7.6.4 is disabled at the time of release of the same. In next release change min_require in typo 7 branch and check corss upgrade. 

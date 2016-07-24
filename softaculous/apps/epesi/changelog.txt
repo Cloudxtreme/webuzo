@@ -1,0 +1,257 @@
+EPESI CHANGELOG
+===============
+
+(Dev) means that this change is significant only for developers.
+
+RELEASE 1.7.2-20160314
+-------
+
+- Fix birthday applet
+- Fix RB search and sort for calculated and select fields
+- Fix crits - allow to query by date field with LIKE operator
+- Fix calendar event drags - revert to original position on invalid drop
+- Fix tasks printout from calendar
+- Remove unsupported CRM/Assets module
+- Allow to block network update with .noupdate file or when .git exists
+- Fix RB permission rules save on PostgreSQL
+- Fix permission editor issue after editing rule
+- Fix WhoIsOnline module installation
+- Whitelabel integration fixes
+- Fix Roundcube memcache
+- Fix sending email with bug report - use files absolute path
+- Fix tabbed browser - pick last tab if trying to select page out of range
+- Fix Query Builder integration with QuickForm
+- Allow to disable expandable rows per RB instance
+- Add missing Exception class
+- Reorganize installation files and modules installed by default
+
+RELEASE 1.7.1-20160127
+-------
+
+- Fix agenda sort order
+- Fix RB browse search logic - search for all words in record
+- Fix sales opportunity and related notes integration
+- Fix quick search - save categories selection
+- SQL_TIMES - show caller in debug (georgehristov)
+- Fix update.php argv handling
+- Fix donate links, credits page, year in scripts
+- Remove unused modules and code
+- Add japanese, chinese and korean font support to PDF printing
+- Fix code in RB search to use merge_crits
+- Change mail applet refresh rate
+- Fix client IP address recognition in autologin feature
+- Update autologin feature - clean unused tokens, rolling token
+- Fix file cache implementation
+- Improve update.php script to skip some versions and create backups
+- Fix Currency field issues with empty value
+- New - pass RB table name as param to display callbacks (Dev)
+- Adapt some code to PHP 7
+- Add activity report for each user as addon
+- Fix rb search indexes patch - add checkpoints
+- Fix attachments - do not store edited_on changes in history entries
+- Fix timeless task switch for am/pm clock
+- Fix and improve switch_to_addon in RB and TabbedBrowser
+- Improve notes watchdog notification message - link to parent record
+- Fix automulti field freeze
+- Enable custom label for attachment addon (Dev)
+- Fix Query Builder integration - translation methods
+- Fix user param for user settings save method
+- Fix hide/show filters behavior
+- Fix access restrictions in RB queries using nested queries
+- Fix cache key for building queries - include tab alias
+- Add method to RB - get_record_vals (Dev) (georgehristov)
+- Fix crits to words - better translations and support all operators
+- Fix currency value parser - parse negative values
+- Update PHPMailer to 5.2
+- Allow to use self signed certificates for mail server settings
+- Fix frozen autoselect field value
+- Fix words map patch - check if indexes exist, truncate large index
+- Remove update EPESI from /admin
+- Add currency filter to currencies field (Dev)
+- Fix RB subqueries performance issues
+- Fix column width persistence in addons
+- Fix confirmLeave feature for with recordpicker opened
+- Fix cloned values in processing callback
+- Fix recordpicker's record label
+- Improve query builder date filters
+- Fix filtering by user id in recordbrowser permissions
+- Fix decimal point issues in currency field
+- New feature - code to auto hide some fields depending on the other value (georgehristov)
+- Fix RB crits for negation in multiselects
+- Add generic method to created linked field value (georgehristov)
+- Fix birthdays applet
+- Update Roundcube to 1.1.4
+- Fix RB navigation issues
+- Fix column widths saving in GB (georgehristov)
+- Update translations
+
+RELEASE 1.7.0-20151201
+-------
+
+- Fix error reporting issue - use absolute path to error file
+- Fix tooltip issues
+- Add confirmation before sending shoutbox message to all (georgehristov)
+- Fix multiple memcache sessions on one server
+- Fix records permission check for select fields
+- Remove watchdog notifications for forbidden notes
+- Add record processing for permanent record delete
+- Send watchdog notifications with cron
+- Fix select filter values formatting (georgehristov)
+- SQL fixes for PostgreSQL
+- Commondata arbitrary sort order (georgehristov)
+- Add epesi_log method and log errors to file (Dev)
+- New crits and query building mechanism (Dev)
+- Option to set custom QFfield callback code from GUI
+- Fix recent settings in RecordBrowser
+- Improve phone prefix check
+- Fix filter labels to get custom caption properly
+- Remove preload images cache
+- Fix performance issues in watchdog desktop notifications
+- Rewrite desktop notifications module (georgehristov)
+- Add mail indicator desktop notifications
+- Allow set number of watchdog notification per applet
+- Show record subscribers on watchdog eye icon
+- Enable watchdog for email records
+- Add filestorage module
+- Save filters for calendar
+- Enable advanced search for long text fields
+- Add option to decide who can manage applets on dashboard
+- Update JQuery to 1.11
+- Phonecalls - pass related record to notes
+- Improve RecordBrowser and Watchdog performance
+- Query Building with JQuery QueryBuilder
+- RB - add new fields before first page split
+- Fix selected currency reset on form validation
+- Fix reload mails action in Roundcube
+- Fix email archive - do not attach to disabled addresses
+- Add option to search companies by tax id field
+- Deactivate user when contact is deleted
+- Add Telegram integration to pass notifications to users - http://telegram.org
+- Remove not working google docs integration
+- Update Roundcube to version 1.1.3
+- Translations update
+- Other fixes and improvements
+
+RELEASE 1.6.5-20150324
+-------
+
+- Fix leightbox prompt id collision
+- Fix timestamp field layout
+- Fix print templates enabling
+- Fix printouts caching by browser
+- Fix JS errors related to form focus
+- Fix autoloader to use absolute path - fixes Roundcube issues
+- Fix calendar event span issues
+- Rename Roundcube's archive folders to not use EPESI word
+- Clear xcache on module update/install and themeup
+- Create function to return default CRM priority and use it for defaults
+- Fix RB patches order for update from older versions
+- Add method to filter blocked fields from record array (Dev)
+- Fix events permission issues in Activities addon and calendar
+- Update TCPDF fonts - fixes Chrome blank printout issue
+- Clear global cache on themeup
+- Fix order by currency field
+- Fix filters for currency field on PostgreSQL
+- Update CKEditor to version 4.4.7
+- Fix memcache session locking issues
+- Fix RB crits issue with empty multiselect rule
+
+RELEASE 1.6.4-20150316
+-------
+
+- Change cookie expiration time to 7 days for maintenance mode
+- Improve update process - make sure maintenance mode is on during patches
+- Set default customer for phonecalls, tasks and meetings
+- Fix toolbar mode switch in ckeditor
+- Add global cache stored in the file (Dev)
+- Update ckeditor to the latest version
+- Replace CustomRoundcubeAddons with built-in related mechanism
+- Fix Roundcube archive copy/paste
+- Add option to export RB report to csv file
+- Fix issues in currencies admin panel for PostgreSQL database
+- Register custom Prototype events also in jQuery (Dev)
+- Add selection rules to RecordBrowser
+- Currency field - fix frozen value display
+- Add option to disable module without uninstall
+- Improve /admin script to manage disabled modules
+- Base/Print - add more document config params to PDF
+- Base/Print - pass printer classname to document_config method (Dev)
+- Fix GenericBrowser's default template when expandable is disabled
+- Changes in expandable calculation to wrap long text fields - GenericBrowser
+- Fix admin access param to get_records method - RecordBrowser
+- Fix RB access rules - edit form and add check
+- Improve Demo mode security issue check for Base/Print module
+- Add filtering in RB for currency, integer and float fields
+- Add submodule concept and clean module manager code (Dev)
+- Add shared module variables concept (Dev)
+- Add custom port for SQL server during installation
+- Add resizable columns to GB (georgehristov)
+- Add small delay to load tooltips with AJAX
+- Add record info tooltips for every default linked label in RB
+- Fix access to csv export
+- Remove addons during recordset uninstallation
+- Add global function to get client IP address
+- Translate watchdog email notifications to user's language
+- Separate and improve watchdog email template
+- Confirm leaving edit form
+- Fix bugs in: RB search, module instance name
+- Fix recurrent calls to get_val
+- Improve select field labels to retrieve nested select values
+- Fix PostgreSQL database creation - quote db name
+
+RELEASE 1.6.3-20150107
+-------
+
+- Base/Print add method to obtain all templates (Dev)
+- Fix recordset uninstall issue caused by words map table constraint 
+- Add desktop notifications for Shoutbox, Watchdog and Messenger modules (georgehristov)
+- Add desktop notifications possibility (Dev) (georgehristov)
+- Login audit - obtain real IP for proxy connections
+- Improve module dependencies issue reporting
+- Add method Utils_CurrencyFieldCommon::get_all_currencies (Dev)
+- Add printer document config (Dev)
+- Rename recordset_printer RB patch to fix updates from older EPESI versions
+- Whitelabel fixes - replace EPESI text with constant
+- Include autonumber fields in default description callback
+- Fix duplicate tooltip on field's label - RecordBrowser
+- Fix popup calendar event
+- Fix locking issues with RB indexer
+- Make fields management as a first tab in RecordBrowser's admin
+- Sort patches by name (not by path), when no date is supplied in the filename
+- Rewrite to JQuery: Utils/Watchdog, Utils/Tooltip (georgehristov)
+- Base/Print - change PrintingHandler::output_document to public (Dev)
+- Fix fields editor in RecordBrowser - issues with select/multiselect
+- Fix display_phone to not create links when nolink is true
+- Fix translations in Access Restrictions admin panel
+- Fix fields processing order for new fields with *position* set
+- Fix date/time crits issues
+- Rewrite Session class
+- Fix issues with crm_company_contact field edit
+- Fix records indexing - create labels with *nolink* param
+- Fix Base/Print - buffer PDF output to append footers just once
+- Change icon for drag and drop fields sorting
+- Add default currency concept
+- Add new processing modes to RecordBrowser: edited, deleted, restored
+- Fix access issues for autocomplete fields
+- Fix desktop notifications to not show shoutbox notifications every time
+- Create link to record for autonumber fields
+- Add option to jump to new record or not in RB object (Dev)
+- Fix indexing when autonumber field has changed
+- Fix fields position numbers when removing field
+- Keep autonumber position during field edit
+- Add method to clear search index for certain tab (Dev)
+- Add button to clear search index in RB admin
+- Update RoundCube to 1.0.3
+- Add related records concept to meetings, tasks and phone calls
+- Change table width in RecordBrowser Reports printout
+- Fix undefined index issue in RB Reports
+- Fix update script to detect glob errors
+- Fix admin access - check for method with method exists instead of is callbable
+- Fix turkish language issues
+- Fix year bug in QuickForm
+- Allow to set custom caption for every field in RB
+
+RELEASE 1.6.2-20141020
+-------
+
+- Fix like operator on date fields - used by birthdays applet

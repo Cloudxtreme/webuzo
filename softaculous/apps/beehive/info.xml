@@ -1,0 +1,110 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Beehive
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/Beehive
+	</ratings>
+	<space>
+		11130881
+	</space>
+	<support>
+		http://www.beehiveforum.co.uk/faq/
+	</support>
+	<version>
+		1.4.7
+	</version>
+	<mod>4</mod>
+	<release_date>04-06-2015</release_date>
+	<admin>llogon.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.1.41" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="date" />
+	<requirement check="php" type="extension" name="fileinfo" /> 
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="gettext" />
+	<requirement check="php" type="extension" name="intl" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="mysqli" /> 
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Beehive </font> is an online forum/message board system with several powerful features.
+		<br /><br />
+		Beehive is an open-source project for creating a high-configurable frame-based discussion forum. Almost every aspect of Beehive is customisable to some degree, from the forum's name right down to how many posts per page each user wants to see, and with everything inbetween, including guest accounts, user profile catagories, your start page, your top frame, user's signatures, language packs, forum styles and emoticon sets - and if you don't like those that come as standard, it's easy to create add your own!
+		<br /><br />
+		Beehive is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+    <h3><font color="#445400"><li>All the regular features of forums:</li></font></h3>
+    <ul>
+        <li>Reply-to-user or reply-to-thread posting.</li>
+        <li>Subscribe to topics, or just mark High Interest</li>
+        <li>E-mail notification of post replies to you.</li>
+        <li>Complete PM (Private Message) system.</li>
+        <li>File Attachments.</li>
+        <li>Flexible searching system.</li>
+        <li>Optional guest access.</li>
+        <li>Optional stats to show active users, total posts, etc.</li>
+        <li>Ignore folders and topics you don't wish to read.</li>
+        <li>Multiple forum system, with a single userbase and per-forum options.</li>
+    </ul>
+    <h3><font color="#445400"><li>Accessibility support:</li></font></h3>
+    <ul>
+        <li>Easy-to-use frame-based layout.</li>
+        <li>Multiple style options, including dyslexia support.</li>
+        <li>I18N multiple language support, allowing a variety of languages to be used.</li>
+    </ul>
+    <h3><font color="#445400"><li>Various features unique to Beehive:</li></font></h3>
+    <ul>
+        <li>Powerful HTML posting, without security risks.</li>
+        <li>Advanced word-filtering facility.</li>
+        <li>Polls, including upto 20 options, anonymous voting or public ballots, and more.</li>
+        <li>Word Filter with Perl-compatible Regular Expression parsing.</li>
+        <li>Lite Version, for use with PDAs and some mobile phones.</li>
+        <li>Links section, for a forum-wide favourites list.</li>
+    </ul>
+    <h3><font color="#445400"><li>Extendable user profiles:</li></font></h3>
+    <ul>
+        <li>Allows any number of configurable fields.</li>
+        <li>Users can opt-in to a 'Forthcoming Birthdays' list.</li>
+    </ul>
+    <h3><font color="#445400"><li>Flexible relationships system:</li></font></h3>
+    <ul>
+        <li>Ability to ignore users posts, or signatures.</li>
+        <li>Ability to define 'friends', and easily see their threads.</li>
+        <li>Complete Ignore feature, for blocking a user out entirely.</li>
+    </ul>
+    <h3><font color="#445400"><li>Full, easy to use admin tools:</li></font></h3>
+    <ul>
+        <li>List possible aliases for each user.</li>
+        <li>Ban by user or IP address.</li>
+        <li>Delete all posts by a user.</li>
+        <li>Create sticky threads.</li>
+        <li>Style-creator, to create new styles.</li>
+        <li>Comprehensive user permissions.</li>
+        <li>Folders can be made no-polls or polls only.</li>
+        <li>Logs of all admin activities.</li>
+        <li>Optional gzip encoding of output, to save bandwidth.</li>
+    </ul>
+    <h3><font color="#445400"><li>And a <em>lot</em> of other little handy features.</li></font></h3>
+</ul>		
+		</english-features>
+		<english-f_webtag>Default Forum Webtag:</english-f_webtag>
+		<english-f_webtag_exp>A webtag may contain the characters A-Z, 0-9 and underscore.</english-f_webtag_exp>
+		<english-err_underscore>A webtag can contain only characters A-Z, 0-9 and underscore.</english-err_underscore>
+	</languages>
+</soft>

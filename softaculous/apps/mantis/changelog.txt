@@ -1,0 +1,157 @@
+mantisbt - 1.2.19 (Released 2015-01-24) [ View Issues ]
+=======================================
+
+MantisBT 1.2.19 is a security update for the stable 1.2.x branch. All
+installations that are currently running any 1.2.x version are strongly
+advised to upgrade to this release.
+
+This release resolves 5 security issues and fixes 2 regressions introduced in 1.2.18.
+
+
+- 0017940: [security] CVE-2014-9573: SQL Injection in manage_user_page.php (dregad) - closed.
+- 0017984: [security] CVE-2014-9624: CAPTCHA bypass is way easier than it should be (dregad) - closed.
+- 0017997: [security] CVE-2015-1042: URL redirection issue (dregad) - closed.
+- 0017938: [security] CVE-2014-9571: XSS in install.php (dregad) - closed.
+- 0017939: [security] CVE-2014-9572: Improper Access Control in install.php (dregad) - closed.
+- 0017967: [bugtracker] Reporting an issue gives: 'Invalid argument supplied for foreach()' in '/opt/mantisbt-1.2.18/core/gpc_api.php' line 259 (dregad) - closed.
+- 0017925: [email] Order of notes in email notifications seem to be based on user who triggered the action (dregad) - closed.
+- 0017977: [bugtracker] Fix handling of due dates (dregad) - closed.
+- 0018025: [administration] Installer UI tweaks (dregad) - closed.
+- 0011742: [bugtracker] Sort bug notes by date, not by ID (dregad) - closed.
+- 0017993: [authentication] User creation with captcha broken by fix for issue 0017811 (dregad) - closed.
+
+mantisbt - 1.2.18 (Released 2014-12-05) [ View Issues ]
+=======================================
+
+MantisBT 1.2.18 is an important security update for the stable 1.2.x branch. All installations that are currently running any 1.2.x version are strongly advised to upgrade to this release.
+
+
+- 0009885: [security] Emails on relations is send to people who cannot see the related issue (vboctor) - closed.
+- 0017878: [security] Prevent unauthorized users setting handler when reporting issue (dregad) - closed.
+- 0017362: [security] Multiple vulnerabilities in MantisBT (dregad) - closed.
+ - 0017877: [security] CVE-2014-9279: Db Credentials leak via unattended upgrade script (dregad) - closed.
+ - 0017876: [security] CVE-2014-9281: Reflected XSS in admin panel / copy_field.php (dregad) - closed.
+ - 0017874: [security] CVE-2014-9271: Persistent XSS in file uploads/attachments (dregad) - closed.
+ - 0017875: [security] CVE-2014-9280: PHP Object Injection in filter API (dregad) - closed.
+ - 0017297: [security] CVE-2014-9272: XSS in string_insert_hrefs allows script execution (dregad) - closed.
+ - 0017648: [security] CVE-2014-6316: URL redirection issue (dregad) - closed.
+- 0017073: [other] Incorrect $specific_where (dregad) - closed.
+- 0017289: [documentation] Code allows display of Resolution and Status in bug report page, but doc says it's not allowed (dregad) - closed.
+- 0017292: [code cleanup] Use of deprecated PREG_REPLACE_EVAL ('e') pattern modifier (dregad) - closed.
+- 0017322: [attachments] Warning in bug report when attachments are disabled (dregad) - closed.
+ - 0017324: [attachments] Debug output displayed when adding files (dregad) - closed.
+- 0017405: [bugtracker] proj_doc_update.php on document update crashes if new file is not uploaded (dregad) - closed.
+- 0017407: [bugtracker] Missing error param when updating project doc (dregad) - closed.
+- 0017457: [filters] Column summary of the free text search is not prefixed by table (filter_api) (dregad) - closed.
+- 0009460: [bugtracker] Default profile doesn't work (dregad) - closed.
+- 0010966: [security] No Errors shown at all if error_reporting=0 configured at server (dregad) - closed.
+- 0015420: [bugtracker] Invalid category check is not made (vboctor) - closed.
+- 0016957: [news] News section shouldn't show in permissions report when feature is disabled (vboctor) - closed.
+- 0016993: [api soap] Handler can be set without having appropriate access rights (vboctor) - closed.
+- 0017011: [db mssql] Graph « Cumulative by date » is not displayed in Summary > Advanced Summary (dregad) - closed.
+- 0017075: [migration] Import plugins should be able to set last_updated field to a date in the past (vboctor) - closed.
+- 0017076: [bugtracker] Issue history show date submitted and last updated as integers rather than dates (vboctor) - closed.
+- 0017847: [bugtracker] New BugData object due_date should be blank (dregad) - closed.
+- 0017848: [plug-ins] XML import plugin only replaces links in 'description' (dregad) - closed.
+- 0017640: [security] CVE-2014-6387: Null byte poisoning in LDAP authentication (dregad) - closed.
+- 0017725: [security] CVE-2014-7146 : PHP Code Injection Vulnerability in XmlImportExport plugin (dregad) - closed.
+- 0017744: [security] Attachments displayed in history despite user not authorised to view them (dregad) - closed.
+- 0017763: [api soap] mc_issue_update() email notification doesn't include added notes (vboctor) - closed.
+- 0017780: [security] CVE-2014-8598: XML plugin should restrict ability to import data (dregad) - closed.
+- 0017812: [api soap] CVE-2014-8554: SQL injection in SOAP API (dregad) - closed.
+- 0017890: [security] CVE-2014-9269: XSS in extended project browser (dregad) - closed.
+- 0017870: [security] CVE-2014-8987: XSS in adm_config_report.php (dregad) - closed.
+- 0017889: [security] CVE-2014-8986: adm_config_report.php filtering does not check config option is valid (dregad) - closed.
+- 0017583: [security] CVE-2014-9270: Stored XSS in Mantis (dregad) - closed.
+- 0017841: [security] CVE-2014-9089: SQL injection in view_all_set.php (vboctor) - closed.
+- 0017811: [security] CVE-2014-9117: CAPTCHA bypass (vboctor) - closed.
+- 0017827: [email] Disposable library triggers PHP STRICT warnings (dregad) - closed.
+- 0017924: [news] Not possible to set 'announcement' flag when editing News (dregad) - closed.
+
+mantisbt - 1.2.17 (Released 2014-03-03) [ View Issues ]
+=======================================
+
+MantisBT 1.2.17 is a security update for the stable 1.2.x branch. All installations that are currently running any 1.2.x version are strongly advised to upgrade to this release.
+
+- 0016940: [news] undefined function db_params() in core/news_api.php (dregad) - closed.
+- 0016989: [other] The bug_get_bugnote_count() function in the bug API always returns 0 (atrol) - closed.
+- 0017007: [webpage] duplicate "<a " tag (atrol) - closed.
+- 0017055: [security] CVE-2014-2238: SQL injection vulnerability in adm_config_report.php (dregad) - closed.
+
+mantisbt - 1.2.16 (Released 2014-02-06)
+=======================================
+
+MantisBT 1.2.16 is a security update for the stable 1.2.x branch. All installations that are currently running any 1.2.x version are strongly advised to upgrade to this release.
+
+- 0014301: [documentation] Add SOAP API documentation in the administration guide (rombert) - closed.
+- 0015572: [attachments] diskfile_is_name_unique() can return non-unique filename (dregad) - closed.
+- 0015762: [email] email_regex_simple() case sensitive, leading to incorrect e-mail links (dregad) - closed.
+- 0015775: [other] Wrong reporter when copying an issue (atrol) - closed.
+- 0015777: [other] Wrong value in field "Date Submitted" when copying issues (atrol) - closed.
+- 0015791: [other] System notice when json_url() retrieves non-existent member (dregad) - closed.
+- 0015807: [api soap] Support standard filters like ones in My View page in SOAP API (vboctor) - closed.
+- 0015812: [documentation] Wrong example code for custom validation functions (atrol) - closed.
+- 0009936: [api soap] add history information (rombert) - closed.
+- 0015496: [attachments] Script to move attachments from db to disk not working (dregad) - closed.
+- 0015774: [attachments] Incorrect number of attached files (dregad) - closed.
+- 0015893: [email] It should not be possible to reset a user's password if e-mail is blank (dregad) - closed.
+- 0015920: [administration] Missing config file causes cli scripts to fail silently (dregad) - closed.
+- 0015921: [code cleanup] Temp variables defined in global scope should be unset() after use (dregad) - closed.
+- 0015958: [email] Upgrade PHPMailer to 5.2.6 (dregad) - closed.
+ - 0014543: [email] Emails are not sent to addresses with single subdomain (dregad) - closed.
+ - 0015953: [email] 'Could not instantiate mail function' error with safe mode=ON (dregad) - closed.
+- 0015959: [api soap] SOAP: raw XML when browsing the WSDL (dregad) - closed.
+- 0016028: [api soap] Adding note via webservice generates wrong email content for assigned user (rombert) - closed.
+- 0016120: [email] Cannot modify Receive Reminder threshold on Manage Threshold Page (atrol) - closed.
+- 0009876: [performance] Performance problem with a lot of projects (dregad) - closed.
+- 0016174: [tools] Travis CI: set up PHP 5.5 build alongside 5.4 (rombert) - closed.
+- 0012955: [attachments] After updating a project documentation the file is damaged (dregad) - closed.
+- 0014541: [code cleanup] Remove calls to deprecated functions db_prepare* in "Docs" update page (dregad) - closed.
+- 0016126: [tools] Setup integration testing on Travis CI (rombert) - closed.
+- 0016158: [api soap] mc_filter_get_issues does not populate monitors fiels for retrieved issues (rombert) - closed.
+- 0016187: [administration] Application error on fresh install (dregad) - closed.
+- 0016202: [tools] Travis CI: set up PHP 5.3 build (atrol) - closed.
+- 0016204: [tools] User Test fails when bugnote_order is not set to default (dregad) - closed.
+- 0016205: [tools] Issue History tests fail when history order is descending (dregad) - closed.
+- 0016203: [tools] Issue History tests randomly fail (dregad) - closed.
+- 0010071: [administration] Manage Workflow Threshold page: 'Who can alter this value' is not saved (dregad) - closed.
+- 0012470: [custom fields] Custom fields names aren't translated in several places (dregad) - closed.
+- 0012480: [bugtracker] Editing a bug with no assigned user and no access to edit assigned to field shows 'user0' (dregad) - closed.
+- 0015770: [security] When $g_limit_reporters = ON; it is still possible to change reporter (dregad) - closed.
+- 0015790: [other] url_get() cURL should set User Agent (dregad) - closed.
+- 0015817: [api soap] SOAP API unit test failures (dregad) - closed.
+- 0016175: [tools] Customize Travis notifications (dregad) - closed.
+- 0016252: [api soap] API SOAP provides no answer after MantisBT upgrade (rombert) - closed.
+- 0016259: [bugtracker] When sorting issues by due_date, unset values should be listed at the end (dregad) - closed.
+- 0016337: [administration] Creating the first project on a fresh install causes error 2800 (dregad) - closed.
+- 0016340: [db db2] Error 401 for Manage Tags (dregad) - closed.
+- 0016341: [db postgresql] Impossible to retrieve attachments from DB with PostgreSQL >= 9.0 (dregad) - closed.
+- 0016342: [bugtracker] The g_html_valid_tags_single_line configuration variable seems to be ignored <ul><li>in favor of g_html_valid_tags</li></ul> (dregad) - closed.
+- 0016348: [code cleanup] Duplicated code in MantisCoreFormatting (dregad) - closed.
+- 0016408: [customization] config_eval() fails on configs that reference array values (vboctor) - closed.
+- 0016416: [installation] Improve first login experience by auto-redirecting to create project page (vboctor) - closed.
+- 0016431: [installation] Numerous "Invalid argument supplied for foreach()" errors when installing with DB script printed to screen (grangeway) - closed.
+- 0016484: [tagging] SOAP: Impossible to attach tags to issues (dregad) - closed.
+- 0016485: [api soap] SOAP API test failure for due date (dregad) - closed.
+- 0014563: [db oracle] Use of literal SQL statement causes ORA-01704 error when uploading attachments (dregad) - closed.
+- 0010873: [roadmap] Change Log/Roadmap do not work with inherited versions. (dregad) - closed.
+- 0014458: [other] Track third party libs as github repos (dregad) - closed.
+- 0015196: [api soap] Create history entries when creating issues with non-default status and resolution (rombert) - closed.
+- 0016376: [customization] Not able to change status without having update issue rights (dregad) - closed.
+- 0016420: [preferences] Editing user preferences when no project exists triggers application error 20 (dregad) - closed.
+- 0016513: [security] CVE-2013-4460: XSS in account_sponsor_page.php project names (atrol) - closed.
+- 0016607: [documentation] Wrong option html_tags in Admin Guide (atrol) - closed.
+- 0016767: [upgrade] upgrade_unattended script is no longer working (vboctor) - closed.
+- 0016768: [mantistouch] Default mantistouch_url correctly when MantisTouch is installed in 'm' subfolder (vboctor) - closed.
+- 0016769: [mantistouch] MantisTouch redirect can break soap api based on user agent sent (vboctor) - closed.
+- 0016770: [mantistouch] Redirect from MantisBT issue to MantisTouch should go to the same issue page on MantisTouch (vboctor) - closed.
+- 0011785: [code cleanup] Comment for access_compare_level in access_api.php is bogus (atrol) - closed.
+- 0015648: [email] add event signalling to email_build_subject() function (dregad) - closed.
+ - 0015647: [email] email subject is build manually in function email_bug_info_to_one_user() (atrol) - closed.
+- 0016706: [plug-ins] Plugin pages can be accessed directly when schema upgrade is needed (dregad) - closed.
+- 0016812: [bugtracker] Moving issue to child->child changes category to default (dregad) - closed.
+- 0016848: [bugtracker] Remove main page from main menu when news feature is OFF (vboctor) - closed.
+- 0006343: [bugtracker] Change status using actiongroup does not send email notifiation (dregad) - closed.
+- 0013659: [email] e-mail notification about priority change is not sent when using bug_actiongroup_page.php (dregad) - closed.
+- 0016879: [security] CVE-2014-1608: soap:Envelope SQL injection attack (dregad) - closed.
+- 0016880: [security] CVE-2014-1609: SQL injection vulnerabilities (dregad) - closed.

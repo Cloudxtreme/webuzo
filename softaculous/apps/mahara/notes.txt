@@ -1,0 +1,19 @@
+Install Manually on Webuzo PHP 5.4.
+
+1. Edit config.php file before runing the installer 
+
+	- $cfg->dbtype   = 'mysql';
+	- Add $cfg->dbprefix = ''; (Removed since v16.04.0, check in the version for the same)
+	- Fill database details
+	- also edit $cfg->dataroot
+	- Run the installer.
+
+2. When you create database choose utf8_unicode not general
+3. Delete all the contents and folders in the sub-directories of the data.zip i.e. keep only the empty folders in root directory (NOT NEEDED NOW BCOZ OF NEW METHOD)
+4. We have added alter query in install.php to set collation to UTF8
+7. Change the " to ` in the Trigger statements in the SQL file. (NOT NEEDED NOW BCOZ OF NEW METHOD)
+8. This might not work on AMPPS and Webuzo because the database user does not have Trigger permissions.(Removed this from version 1.9.1, as its working fine on both now.)
+9. Change the value of `passwordchange` field in the `usr` table to 0 so that it does not ask for a password change after the first login. (NOT NEEDED NOW BCOZ OF NEW METHOD)
+10. Please go through the upgrade.php requirements at every new release.
+11. We always un-comment the $cfg->passwordsaltmain in "config.php".
+12. Copy upgrade.php from lib folder and keep as org_upgrade.php and our changes in mod_upgrade.php

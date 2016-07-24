@@ -1,0 +1,13 @@
+1)in manual installation set the path of the  logs and upload_area directories in config.inc.php as :
+$tlCfg->log_path = '[[softpath]]/logs/';
+$g_repositoryPath = '[[softpath]]/upload_area/'; 
+
+2)use same root user  database credentials for 
+(Define database User for Testlink access:)
+
+3)Take database dump after logging in with default username and  password (i.e admin and admin ) and setting 
+First Name ,Last Name ,Email ,password from admin panel 
+
+4)Remove inserts from [[dbprefix]]events and [[dbprefix]]transactions tables and change auto-increment.
+
+5) Keep $tlCfg->config_check_warning_mode = 'SILENT';

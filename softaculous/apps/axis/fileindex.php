@@ -1,0 +1,14 @@
+.htaccess
+app
+index.php
+install
+js
+library
+license.txt
+media
+min.php
+php.ini.sample
+robots.txt
+scripts
+skin
+var

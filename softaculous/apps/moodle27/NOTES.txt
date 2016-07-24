@@ -1,0 +1,21 @@
+* Do not download Weekly Built.
+1) Empty the cache, localcache, muc, sessions, temp folder in data.zip
+2) Use "defaultcity" for city while installing and country United States
+3) Check upgrade.php for the upgrade after version 2.5
+4) Download the Language packs here:
+http://download.moodle.org/langpack/
+5) Unpack the packages in the /languages/[[language]].zip
+6) Change the language [[language]] in SQL config and users table.
+7) Check this function and if new file is added update it in upgrade.php:
+upgrade_stale_php_files_present() in the file :
+/lib/upgradelib.php
+8) required minimum version check for upgrade in info.xml should be changed in case of major version change
+9) We do not change $CFG->directorypermissions = 0777; in the config file because it is outside the web-accessible directory and does not matter if it is 0777
+10) Check if /muc/config.php file is created in data folder on non suPHP server i.e. (you can use Webuzo).
+11) `allversionshash` in config table is same for every install
+12) `assignfeedback_editpdf` has the value '/usr/bin/gs' on Windows as well as Linux Manual install hence we leave it as it is.
+13) We copy the _upgradesettings.php for auto upgrade and then after auto upgrade we revert the original file upgradesettings.php
+Make sure you take the latest copy of admin/upgradesettings.php from ZIP package. 
+if(!empty($_POST['softlogin'])){
+\core\session\manager::set_user(get_admin());
+}

@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download binary package of the latest version from other resources tab (http://scala-lang.org/download/)

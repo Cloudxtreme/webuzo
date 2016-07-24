@@ -1,0 +1,19 @@
+13.1.1 (2016-03-15)
+	- Fix a critical bug introcuced in version 13.0.0 that prevent storing the correct answers.
+
+13.0.1 (2015-12-12)
+	- Fix a bug related to PDF email attachments.
+
+13.0.0 (2015-12-12)
+	- Hide internal answer IDs during test execution.
+
+12.2.6 (2015-10-26)
+	- README in markdown format.
+	- Updated license terms.
+
+12.2.5 (2015-06-18)
+	- TCPDF Library was updated.
+	- German translation was updated.
+
+12.2.4 (2015-04-29)
+	- TCPDF Library was updated.

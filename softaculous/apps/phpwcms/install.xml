@@ -1,0 +1,69 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="pw">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+				<handle>__dbprefix</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Webmaster">
+				<head>{{real_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="bs">Serbian</option>
+					<option value="ca">Catalan</option>
+					<option value="cs">Czech</option>
+					<option value="da">Danish</option>
+					<option value="de">German</option>
+					<option value="es">Spanish</option>
+					<option value="et">Estonian</option>
+					<option value="fi">Finnish</option>
+					<option value="fr">French</option>
+					<option value="hu">Hungarian</option>
+					<option value="it">Italian</option>
+					<option value="lt">Lithuanian</option>
+					<option value="nl">Dutch</option>
+					<option value="no">Norwegian</option>
+					<option value="pl">Polish</option>
+					<option value="pt">Portuguese</option>
+					<option value="ro">Romanian</option>
+					<option value="se">Swedish</option>
+					<option value="sk">Slovak</option>
+					<option value="sl">Slovenian</option>
+					<option value="tr">Turkish</option>
+					<option value="vn">Vietnamese</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>setup/*</exclude>
+		<exclude>setup/*/*</exclude>
+		<exclude>setup/*/*/*</exclude>
+		<exclude>setup/*/*/*/*</exclude>
+		<exclude>setup/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

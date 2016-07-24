@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Pixelpost
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/Pixelpost
+	</ratings>
+	<space>
+		2077732
+	</space>
+	<support>
+		http://www.pixelpost.org/
+	</support>
+	<version>
+		1.7.3
+	</version>
+	<mod>7</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pixelpost</font>, a small photoblog application that's a no-brainer to set up and use. It's perfect for anyone wishing to regularly post their photos on the web like a blog.
+		<br /><br />
+Unlike other blog engines out there, Pixelpost doesn't try to solve all of the worlds problems. Pixelpost simply does photoblogs, and it does them well. If you are looking for a full blown CMS or text-blog, Pixelpost isn't for you. But if you want something simple, and designed from the ground up for photobloggers, like yourself, you've found the perfect app. 
+		<br /><br />
+		Pixelpost is free, open, and available to anyone under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+		<li>Smooth Install Assistant<br />Users who are upgrading will appreciate the new super-smooth upgrade system as well.</li>
+<li>Fancy Admin Stuff<br />Lots of little tweaks that are sure to make your life better.</li>
+<li>New Tags for Image and Browse Page<br />New features that will make the template system even easier to use.</li>
+<li>New Defensio Addon<br />A brand new spam filtering web service which comes as Pixelpost default addon now, it can be used instead of Akismet.</li>
+<li>Cool Feed Options<br />Setup your feeds to fit your needs.</li>
+<li>New Languages<br />For our friends all over the world!</li>
+<li>Brand New Front Workspaces<br />Addon creators are going to love us for this!</li>
+<li>Bug Fixes<br />Yes, we admit, there were a few bugs in the last version, we are only human.</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>		
+	</languages>
+</soft>

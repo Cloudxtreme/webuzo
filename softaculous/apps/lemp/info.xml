@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/stacks/LEMP
+	</ratings>
+	<space>
+		N/A
+	</space>
+	<support>
+		N/A
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<notes>
+		The LEMP Stack is basically intalling the apps listed alongside. It quickly installs the NGINX, MySQL and PHP environment necessary for development.
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LEMP</font> is a combination of free, open source software. The acronym LEMP refers to the first letters of Linux (Operating system), Nginx Server, MySQL (database software), and PHP, PERL or Python, principal components to build a viable general purpose web server.
+		</english-overview>
+		<english-features>
+			<font size="2" color="#1281B6"><b> Linux</b></font><br /><br />
+			Linux is free open-source software which means the source code is available for the operating system, which can be edited according to specific needs.<br /><br /><br />
+			
+			<font size="2" color="#1281B6"><b> NGinx</b></font><br /><br />
+			Nginx (pronounced engine-x) is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.<br /><br />
+			
+			<font size="2" color="#1281B6"><b> MySQL</b></font><br /><br />
+			MySQL is a multithreaded, multi-user, SQL database management system (DBMS) now owned by Oracle Corporation.<br /><br />
+			
+			<font size="2" color="#1281B6"><b> PHP</b></font><br /><br />
+			PHP is a reflective programming language originally designed for producing dynamic web pages. PHP is used mainly in server-side application software. Perl and Python can be used similarly..<br /><br />
+		</english-features>
+	</languages>
+</soft>

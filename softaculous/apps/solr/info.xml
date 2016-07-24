@@ -1,0 +1,130 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/Apache_Solr
+	</ratings>
+	<space>
+		216851370
+	</space>
+	<support>
+		http://lucene.apache.org/solr/index.html
+	</support>
+	<version>
+		5.2.1
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>10-06-2015</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/solr</path>
+	<path name="start">/usr/local/apps/solr/example/start.jar</path>
+	
+	<extract file="solr-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/solr</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache Solr Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/solr</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/solr/example/start.jar</td>
+			</tr>
+			<tr>
+				<td>Execute</td>
+				<td>cd /usr/local/apps/solr/example/; /usr/local/apps/java/bin/java -jar start.jar</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://lucene.apache.org/solr/4_8_0/tutorial.html</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Solr</font> is the popular, blazing fast open source enterprise search platform from the Apache LuceneTM project. Its major features include powerful full-text search, hit highlighting, faceted search, near real-time indexing, dynamic clustering, database integration, rich document (e.g., Word, PDF) handling, and geospatial search.
+		<br /><br />
+		Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
+		<br /><br />
+		Solr is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+			<h3 id="schema">Schema</h3>
+			<ul>
+				<li>Defines the field types and fields of documents</li>
+				<li>Can drive more intelligent processing</li>
+				<li>Declarative Lucene Analyzer specification</li>
+				<li>Dynamic Fields enables on-the-fly addition of new fields</li>
+			</ul>
+			<h3 id="query">Query</h3>
+			<ul>
+				<li>HTTP interface with configurable response formats (XML/XSLT, JSON, Python, Ruby, PHP, Velocity, CSV, binary)</li>
+				<li>Sort by any number of fields, and by complex functions of numeric fields</li>
+				<li>Advanced DisMax query parser for high relevancy results from user-entered queries</li>
+				<li>Highlighted context snippets</li>
+				<li>Faceted Searching based on unique field values, explicit queries, date ranges, numeric ranges or pivot</li>
+			</ul>
+			<h3 id="core">Core</h3>
+			<ul>
+				<li>Dynamically create and delete document collections without restarting</li>
+				<li>Pluggable query handlers and extensible XML data format</li>
+				<li>Pluggable user functions for Function Query</li>
+				<li>Customizable component based request handler with distributed search support</li>
+				<li>Document uniqueness enforcement based on unique key field</li>
+			</ul>
+			<h3 id="caching">Caching</h3>
+			<ul>
+				<li>Configurable Query Result, Filter, and Document cache instances</li>
+				<li>Pluggable Cache implementations, including a lock free, high concurrency implementation</li>
+				<li>Cache warming in background</li>
+				<li>Fast/small filter implementation</li>
+				<li>User level caching with autowarming support</li>
+			</ul>
+			<h3 id="solrcloud">SolrCloud</h3>
+			<ul>
+				<li>Centralized Apache ZooKeeper based configuration</li>
+				<li>Automated distributed indexing/sharding - send documents to any node and it will be forwarded to correct shard</li>
+				<li>Near Real-Time indexing with immediate push-based replication (also support for slower pull-based replication)</li>
+				<li>Transaction log ensures no updates are lost even if the documents are not yet indexed to disk</li>
+			</ul>
+			<h3 id="admin-interface">Admin Interface</h3>
+			<ul>
+				<li>Comprehensive statistics on cache utilization, updates, and queries</li>
+				<li>Interactive schema browser that includes index statistics</li>
+				<li>Replication monitoring</li>
+				<li>SolrCloud dashboard with graphical cluster node status</li>
+				<li>Full logging control</li>
+				<li>Text analysis debugger, showing result of every stage in an analyzer</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Aardvark_Topsites
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Aardvark_Topsites
+	</ratings>
+	<space>
+		1526937
+	</space>
+	<support>
+		http://www.aardvarktopsitesphp.com/
+	</support>
+	<version>
+		5.2.1
+	</version>
+	<mod>6</mod>
+	<mod_files>2</mod_files>
+	<admin>index.php?a=admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Aardvark Topsites</font> PHP is a free topsites script built on PHP and MySQL.
+<br /><br />
+A topsites list ranks a group of related sites by popularity. Webmasters join the topsites list and are given a button to put on their site and link back to the topsites list. 
+		<br /><br />
+		Aardvark Topsites is released under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		
+<p>Aardvark Topsites PHP has a ton of features.  I'm not going to bore you with all the inane details, but here is a list of the main features.</p><ul>
+<li>Members ranks can be shown on their button.</li>
+<li><strong>New:</strong> Stat Buttons, allowing you to customize your buttons and display all kinds of stats on them</li>
+<li>6 different ranking methods</li>
+<li>Counts unique pageviews, total pageviews, unique hits in, total hits in, unique hits out, and total hits out</li>
+<li><strong>New:</strong> Rank daily, weekly, or monthly</li>
+
+<li>Up/down/neutral arrows</li>
+<li>Customizable categories</li>
+<li>Fully customizeable skins: make your topsites look however you want!</li>
+<li>Simple web-based installer and upgrader</li>
+<li>Multiple pages</li>
+<li>Member login and lost password retrieval</li>
+<li>Seamlessly switches between languages</li>
+<li>Fast, integrated search</li>
+<li>Ad breaks</li>
+
+<li>Visitors can rate and review members</li>
+<li>Advanced stats and graphs</li>
+<li>Easy to install and maintain</li>
+<li>Powerful admin</li>
+<li><strong>New:</strong> Mass mail members</li>
+<li>Best of all, it's completely free!</li>
+</ul>
+		
+		</english-features>
+	</languages>
+</soft>

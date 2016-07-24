@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Business_Card
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Open_Business_Card
+	</ratings>
+	<space>
+		42339602
+	</space>
+	<support>
+		http://monoray.net/products/51-open-business-card
+	</support>
+	<version>
+		1.5.1
+	</version>
+	<mod>3</mod>
+	<release_date>24-05-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.1.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Business Card</font> CMS is an easy free script (engine, CMS) that enables to build a buiness card website. The software is built on a fast-working and up-to-date framework Yii, which allows to get with the times and use the latest developments in the programming sphere.
+		<br /><br />
+		Open Business Card is absolutely ready-made solution that can help to represent your company in the Internet.
+		<br /><br />
+		Open Business Card <a href="http://open-real-estate.info/en/license" target="_blank">License agreement</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>posting a catalogue of products with photos, descriptions and categories;</li>
+			<li>'News' area;</li>
+			<li>'Articles' area;</li>
+			<li>products and services price-list;</li>
+			<li>contact form;</li>
+			<li>flexible top menu. Possibility to add, edit, delete and hide pages;</li>
+			<li>possibility to set title, keywords and description (for SEO promotion) to every page;</li>
+			<li>protection of emails from parsing (on the analogy with module Email protected for Joomla);</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

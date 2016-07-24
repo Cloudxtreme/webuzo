@@ -1,0 +1,59 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHPfileNavigator
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/PHPfileNavigator
+	</ratings>
+	<space>
+		1469674
+	</space>
+	<support>
+		http://pfn.sourceforge.net/
+	</support>
+	<version>
+		2.3.3
+	</version>
+	<mod>5</mod>
+	<mod_files>5</mod_files>
+	<admin>xestion</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="zlib" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHPfileNavigator</font> is state-of-the-art, open source web based application to complete manage your files and folders.
+		<br /><br />
+It provides a powerful, reliable and easy web file management with a lots of cool features. Easy to install and configure, you can administrate your files and folders as easy as in your hard drive and access with strong security all over the net.
+		<br /><br />
+		PHPfileNavigator is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Aditional Information Files</li>
+<li>Safe Enviroment</li>
+<li>Indexation</li>
+<li>Web Access Control</li>
+<li>Tree View</li>
+<li>Download of Compressed Files and Directories</li>
+<li>File Extractions on the Server</li>
+<li>Size Control</li>
+<li>File Type Restrictions</li>
+<li>Full Administration</li>
+<li>Activity and Error Logs</li>
+<li>Image Management</li>
+<li>Web Page or Document Upload</li>
+<li>File Edition</li>
+<li>Compressed File Content Visualization</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

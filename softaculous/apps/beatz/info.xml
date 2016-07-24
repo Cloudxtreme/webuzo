@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Beatz
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/Beatz
+	</ratings>
+	<space>
+		33428995
+	</space>
+	<support>
+		http://www.cogzidel.com/products/beatz
+	</support>
+	<version>
+		1.1
+	</version>
+	<mod>3</mod>
+	<mod_files>4</mod_files>
+	<admin>administrator/index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Beatz</font> is an online social networking community script that allows you to start your own favourite artist band website.
+		<br /><br />
+		Beatz is an online community script for sharing, discussing and learning about new artists and your favorites. 
+		<br /><br />
+		Beatz is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>LAMP technology</li>
+<li>Mootool based slideshow</li>
+<li>Ajax based tab menus</li>
+<li>Customized Profile</li>
+<li>Embed Youtube Videos</li>
+<li>Featured Videos</li>
+<li>Ability to set profile background images</li>
+<li>Powerful administration panel</li>
+<li>Upload MP3 music files</li>
+<li>Billboard</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/videoDB
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/video/videoDB
+	</ratings>
+	<space>
+		5162027
+	</space>
+	<support>
+		http://www.videodb.net/blog/
+	</support>
+	<version>
+		4.0.0
+	</version>
+	<mod>3</mod>
+	<mod_files>2</mod_files>
+	<release_date>25-04-2013</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">videoDB</font> is a web application to manage a personal video collection.
+		<br /><br />
+		Multiple video types are supported, ranging from VHS tapes and DVDs to Blu-ray discs and DivX files on hard-disc. Even video games are supported.
+		<br /><br />
+		VideoDB allows you to effortlessly maintain and manage your collection by features fetching of movie data and covers from various information sourced, including Internet Movie Database (IMDB), Amazon, Allocine, DVDInside, DVDPlace, Google, OFDB, DVDB and tv.com. External data like cover images or actor thumbnails is locally cached in videoDB and readily available in your database.
+		<br /><br />
+		videoDB is released under the <a href="www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Integrate external data sources for movie information and covers (e.g. IMDB)</li>
+<li>Advanced search features (e.g. title, genre, cast, TV episodes and many more)</li>
+<li>Borrow manager for lending your movies out</li>
+<li>RSS feeds</li>
+<li>Data export (XLS, XML, PDF)</li>
+<li>Multi-user- share your collection with friends</li>
+<li>Fully ajax-enabled</li>
+<li>Unicode- collect movies of various languages in a single database</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

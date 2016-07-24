@@ -1,0 +1,41 @@
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase [[relativeurl_]] 
+
+
+#detail page
+#RewriteRule ^video/(.*)/(.*).html detail.php?vid=$1
+#RewriteRule ^profile/([a-zA-Z0-9]*).html user_profile.php?u=$1
+#RewriteRule ^profile/([a-zA-Z0-9]*)/videos.html user_videos.php?u=$1
+#RewriteRule ^profile/([a-zA-Z0-9]*)/videos/page([0-9]*).html user_videos.php?u=$1&p=$2
+
+RewriteRule ^feed/(.*).html feed.php?fid=$1
+RewriteRule ^video/(.*)/(.*).html detail.php?vid=$1
+RewriteRule ^rss/(.*)/page([0-9]*) rss/rss.php?tag=$1&p=$2
+RewriteRule ^rss/feed/(.*)/ rss/feed.php?fid=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)$ user_profile.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/$ user_profile.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/videos$ user_videos.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/videos/$ user_videos.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/videos/page([0-9]*).html user_videos.php?u=$1&p=$2
+RewriteRule ^profile/([a-zA-Z0-9]*)/favorites$ user_favorites.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/favorites/$ user_favorites.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/favorites/page([0-9]*).html user_favorites.php?u=$1&p=$2
+RewriteRule ^profile/([a-zA-Z0-9]*)/playlists$ user_playlists.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/playlists/$ user_playlists.php?u=$1
+RewriteRule ^profile/([a-zA-Z0-9]*)/playlists/page([0-9]*).html user_playlists.php?u=$1&p=$2
+
+RewriteRule ^profile/([a-zA-Z0-9]*)/playlists/([a-zA-Z0-9]*)/(.*)/page([0-9]*).html user_playlists_entry.php?u=$1&lid=$2&p=$4
+RewriteRule ^profile/([a-zA-Z0-9]*)/playlists/([a-zA-Z0-9]*)/(.*)/$ user_playlists_entry.php?u=$1&lid=$2
+#RewriteRule ^profile/([a-zA-Z0-9]*)/playlists/([a-zA-Z0-9]*)/(.*)$ user_playlists_entry.php?u=$1&lid=$2
+
+#other page, process in list.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^.* list.php
+
+</IfModule>
+

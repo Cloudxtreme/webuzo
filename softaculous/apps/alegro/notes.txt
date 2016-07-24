@@ -1,0 +1,4 @@
+1. make database with collate utf8_unicode_ci
+2. run file index with folder name as 'admin1'
+3. Install with "Default Install" i.e with sample data
+

@@ -1,0 +1,93 @@
+25-05-2016 6.1.86
+- Prevent removal of admin from admins group
+- Addressbook/User: Create a user from an addressbook contact now sets the correct remote combo text for the company field.
+- Fixed the addressbook selection in the favorites module.
+- Fix holdPosition by reload email messages grid
+- Show only the active custom fields by file batch edit
+- Fixed go checker
+- Tickets: added message content search to tickets search function
+- Tickets: added extra parameter for searching in the ticketno. only.
+- Core: Fixed sound for new emails.
+- In projects 2 add parent project search
+- Z-Push: Companies added to a contact on the client device are now also synced to GO.
+- Core: GridPanel.js - Added check for store.reader
+- PHP7 compatibility
+
+03-05-2016 6.1.85
+- Access denied on exporting private events
+- Projects2 partlet filter is now editable
+- Fix imap get response
+- Added setting to enabled and disable popup for email and reminders separately for desktop notifications
+- Fixed sound for new emails
+- Wrong links didn't show up in sent items
+- Projects2: Don't use the "Status" filter in the projects search results.
+- Projects2: Don't use the "Show mine only" checkbox in the projects search results.
+- Updated Czech translation
+- Fix agent name by new tickets
+- Add merge data and data check to batch edit
+- Users: set thousands and decimal separator to VARCHAR(1) instead of CHAR(), this makes a space character possible.
+
+19-04-2016 6.1.84
+- Fixed billing bug with invalid column
+- Updated Norwegian and German translation
+
+18-04-2016 6.1.83
+- Disabled spell checker by default. You can enable it by setting $config['spell_check_enabled']= true;
+- Prevented that notes would loss there decryption hash when a file folder was added without providing a password.
+- Workflow: Use of Config()->noreply_email for outgoing emails
+- Z-Push: Fixed saving of tasks from mobile to server on the same day as today
+- Fix importing data from vCard with type=PREF specification
+- Fix function create rrule for 5.4 and lower
+- Email: Strip strange chars from the link tag when sending the email
+- Leavedays: By leavedays edit the remove of year credits. it is now not possible to remove them if thar already leavedays booked
+- Addressbook: Fix address book by Contact to user
+
+04-04-2016 6.1.81
+- Add by Emial in 'Subscribe' dialog select all and deselect all
+- Fix custom work for DG after edit leavedays module
+- Language of an OrderStatus will be displayed in the same language the User views GroupOffice. If this is not available pick the first language added by the administrator.
+- Added Delete button en replaced add button to begin of the blue toolbar in the projects module
+- Tickets/Addressbook: Added fix for loading ticketGroup acl.
+- Email: Add by Email in 'Subscribe' dialog select all and deselect all
+- Leavedays: Fix custom work for DG after edit leavedays module
+- Billing: Language of an OrderStatus will be displayed in the same language the User views GroupOffice. If this is not available pick the first language added by the administrator.
+- Projects: Added Delete button en replaced add button to begin of the blue toolbar in the projects module
+- Billing: Removed purchase order creation from the PDF button in the Order dialog.
+- Fix holidays:
+		type sort in gui
+		year summary with 0 credit
+		sum credit main grid
+		add admin as manager
+- Files: Disabled a . at the end of a folder name. (Webdav on Windows OS cannot handle this.)
+- Email/Sieve: Added more information to sieve error messages
+- Added company variable the view when running actionRegister in the site module
+- Fix empty checker messages and email notification trigger only on new e-mails and more then 0 unseen
+- Projects2: Fixed permission problem on contact and company when adding new project
+- Tickets: Fixed problem with determining ticket agents when a user is removed.
+- Fix Time tracking week number selection for slower environment
+- Files: Changed up-icon in the "Default" theme and changed German translation.
+- Calendar: Fixed creation of RRULE. Changed: "RRULE:FREQ=MONTHLY;BYSETPOS=1;BYDAY=MO,TU" To: "RRULE:FREQ=MONTHLY;BYDAY=1MO,1TU"
+- Calendar: Added separate reminders for participants which can be set in the participation dialog.
+- Fix email multi select labeling
+- Holidays/Calendar: Fixed display of time and day data in the calendar list, also fixed time minutes 0 prefix.
+
+04-03-2016 6.1.80
+- Build error
+
+03-03-2016 6.1.79
+- Mail in gmail app marked as read bug fixed when using Exchange
+- Fix mail selection in billing 
+- Fixed calendar freeze when displaying a Leave day that had a start time and a duration with a decimal and a dot a decimal separator.
+- Fixed remote combo field for holidays credit type
+- Fix export "Contacts with companies" for companies in address book
+- Added Pakistan to the list of countries
+- Add hold position in email messages grid by reload after move
+- Projects2: Fixed manager filter store so it will display all users of GO.
+- Projects2: Show the projects of type "container" always in the tree when filtering on project manager.
+- Removed sort and hideable option from the SelectOptionsGrid in select customfield
+- Fix leavedays bugs !!!
+- Fix CORE deleteFeedback for GO.grid.GridPanel
+- Fix by project the reload of the subgrid after set statuses
+- Fix invoices update customer information 
+- MT940 Parser for German DATEV standard 
+- Removed libwbxml binaries for windows as they were detected (wrongly) as a virus.

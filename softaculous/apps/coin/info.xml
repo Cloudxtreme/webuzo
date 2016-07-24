@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" width="250" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpCOIN
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/phpCOIN
+	</ratings>
+	<space>
+		6501939
+	</space>
+	<support>
+		https://www.phpcoin.com/
+	</support>
+	<version>
+		1.6.5
+	</version>
+	<mod>2</mod>
+	<mod_files>2</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpCOIN</font> is a free WebWare package originally designed for web-hosting resellers.
+		<br /><br />
+		phpCOIN helps resellers to handle clients, orders, invoices, notes and helpdesk, but no longer limited to hosting resellers.
+		<br /><br />
+		phpCOIN is License under <a href="https://www.phpcoin.com/coin_docs/license.txt">End-User License Agreement</a>.
+		</english-overview>		
+		<english-features>
+		<ul class="arrow">
+<li><b>AuxPages</b> - the package provides a content module called "Auxpages" which permits the admin to load single coded pages into the system by simply creating the page and calling accordingly. This feature is to provide capability more advanced than the standard "Pages" or "SiteInfo" content.
+</li>
+<li><b>FAQ</b> - the package provides a basic "FAQ" module which permits the admin to create from the browser interface, "Frequently Asked Questions" content for the site. Multiple FAQ's with questions/answers can be created. In addition, the "FAQ" can be assigned to be viewed by all visitors, existing clients, or admins only and can features on/off for each item to permit "work in progress". The FAQ content is included in the "Search" content options.</li>
+<li><b>Menu System</b> - the package provide top menu, and seperate logged in user menu, that can be configured through the admin interface as to whether on/off, which images to use, and the desired link for each button. In addition, left/right menu columns are also available for additional menu functions.</li>
+
+<li><b>Pages</b> - the package provides a content module called "Pages" which permits the admin to create from the browser interface, content for the site. The content can be in the form of plain text, or common html with images, tables, etc. The "Pages" feature also includes footer menu navigation options for "flowing" documentation (prev / main / next buttons are configurable for each page). The Pages content is included in the "Search" content options.</li>
+<li><b>SiteInfo</b> - the package provides a content module called "SiteInfo" which permits the admin to create from the browser interface, content for the site. The content can be in the form of plain text, or common html with images, tables, etc. The SiteInfo content is very similar to the Pages content, but geared more towards common site information items: policies, about, main index, announcement, etc. and offers an on/off "Return" footer menu.</li>
+
+</ul>
+		</english-features>
+	</languages>
+</soft>

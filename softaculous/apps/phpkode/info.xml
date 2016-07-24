@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHPKode_Guestbook
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/PHPKode_Guestbook 
+	</ratings>
+	<space>
+		1551483
+	</space>
+	<support>
+		http://www.phpkode.com/
+	</support>
+	<version>
+		1.0
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<admin>index.html</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHPKode Guestbook</font> is a simple yet powerful Free PHP guestbook script using Ajax.
+		<br /><br />
+		The Guestbook features for easy to install, easy to integrate into your existing sites and an advanced anti-spam function.
+		<br /><br />
+		PHPKode Guestbook uses the Captcha image as the way to anti-SPAM protection. IP banlist is also provided to prevent admins from being spam.
+		<br /><br />
+		PHPKode Guestbook is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Easy to integrate</li>
+<li>Advanced anti-spam function</li>
+<li>Captcha image as the way to anti-SPAM protection</li>
+<li>IP banlist</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

@@ -1,0 +1,1 @@
+1) Add lang_settings.php and lang_settings.php.old to zip from "index" folder of manual installation

@@ -1,0 +1,59 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/EPESI
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/EPESI
+	</ratings>
+	<space>
+		64388849
+	</space>
+	<support>
+		http://epe.si/free-crm
+	</support>
+	<version>
+		1.7.2
+	</version>
+	<mod>22</mod>
+	<release_date>15-03-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">EPESI</font> is a web application for managing business information. It makes data organizing and sharing easy, simplifies internal communication and makes workflow more efficient.
+		<br /><br />
+		EPESI has a modular design which makes it flexible and easy to adapt. Its base consists of CRM application with PHP framework, both free and open source, that can be extended with specialized modules.
+		<br /><br />
+		EPESI is very easy to use. It has a nice, clean and intuitive interface. Many functionalities are designed specifically to let the user work more effectively. EPESI also has lots of shortcutting methods allowing you a quick access to your data.
+		<br /><br />
+		EPESI is released under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li>Dashboard</li>
+	<li><strong>Companies</strong> - addressbook of companies</li>
+	<li><strong>Contacts</strong> - addressbook of individuals</li>
+	<li>Shared <strong>Calendar</strong> with alerts</li>
+	<li>Shared <strong>Task List</strong> - To Do</li>
+	<li><strong>Phone Calls</strong> Log</li>
+	<li><strong>Notes</strong> and <strong>Files</strong> (Document Management)</li>
+	<li><strong>E-mail client</strong> - Roundcube IMAP</li>
+	<li>Exclusive <strong>Click2Fill</strong> form filling</li>
+	<li>Unique <strong>Watchdog</strong> module monitoring record changes</li>
+	<li>Advanced <strong>permission</strong> system</li>
+	<li><strong>Shoutbox</strong></li>
+	<li>Customizable <strong>shortcuts</strong> - quick access</li>
+</ul>
+		</english-features>
+		<english-city_ad>City</english-city_ad>
+	</languages>
+</soft>

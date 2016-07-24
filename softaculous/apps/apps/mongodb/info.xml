@@ -1,0 +1,107 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/MongoDB
+	</ratings>
+	<space>
+		292212600
+	</space>
+	<support>
+		http://www.mongodb.org/
+	</support>
+	<version>
+		3.2.1
+	</version>
+	<mod>12</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>11-01-2016</release_date>
+	
+	<path name="base">/usr/local/apps/mongodb</path>
+	<path name="daemon">/usr/local/apps/mongodb/bin/mongod</path>
+	<path name="bin">/usr/local/apps/mongodb/bin/mongo</path>
+	<path name="conf">/usr/local/apps/mongodb/etc</path>
+	<path name="data_dir">/var/lib/mongo</path>
+	<path name="53so">/usr/local/apps/php53/ext/mongo.so</path>
+	<path name="54so">/usr/local/apps/php54/ext/mongo.so</path>
+	<path name="55so">/usr/local/apps/php55/ext/mongo.so</path>
+	<path name="56so">/usr/local/apps/php56/ext/mongo.so</path>
+	
+	<symlink target="/usr/local/emps/lib/php/mongo.so">/usr/local/apps/php53/ext/mongo.so</symlink>
+	
+	<extract file="mongodb-$arch.tar.gz">$appsdir</extract>
+	<extract file="rockmongo.zip">$webuzowww/rockmongo</extract>
+	
+	<symlink target="/usr/bin/mongo">/usr/local/apps/mongodb/bin/mongo</symlink>
+	<symlink target="/usr/bin/mongod">/usr/local/apps/mongodb/bin/mongod</symlink>
+	
+	<initd name="mongod">/usr/local/apps/mongodb/bin/mongodbctl</initd>
+	
+	<remove>/usr/local/apps/mongodb</remove>
+	<remove>$webuzowww/rockmongo</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">MongoDB Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary Path</td>
+				<td>/usr/bin/mongo</td>
+			</tr>
+			<tr>
+				<td>Configuration File</td>
+				<td>/etc/mongod.conf</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MongoDB</font> (from "humongous") is a scalable, high-performance, open source NoSQL database
+		<br /><br />
+		MongoDB is distributed under the <a href="http://www.gnu.org/licenses/agpl-3.0.html" target="_blank">AGPL 3.0</a>
+		<p>For commercial use of the trademarks MongoDB, Mongo, or the leaf, please contact legal@mongodb.com.</p>
+		</english-overview>
+		<english-features>
+<ul class="home">
+	<li><a href="http://docs.mongodb.org/manual/core/data-modeling/">Document-Oriented Storage :</a>
+	  <p><a href="http://bsonspec.org">JSON-style documents</a> with
+	  dynamic schemas offer simplicity and power.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/indexes/">Full Index Support :</a>
+	  <p>Index on any attribute, just like you're used to.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/replication/">Replication &amp; High Availability :</a>
+	  <p>Mirror across LANs and WANs for scale and peace of mind.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/sharding/">Auto-Sharding :</a>
+	  <p>Scale horizontally without compromising functionality.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/applications/read/">Querying :</a>
+	  <p>Rich, document-based queries.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/applications/update/">Fast In-Place Updates :</a>
+	  <p>Atomic modifiers for contention-free performance.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/applications/map-reduce/">Map/Reduce :</a>
+	  <p>Flexible aggregation and data processing.</p></li>
+	<li><a href="http://docs.mongodb.org/manual/applications/gridfs/">GridFS :</a>
+	  <p>Store files of any size without complicating your stack.</p></li>
+	<li><a href="http://www.10gen.com/subscription">Commercial Support :</a>
+	  <p>Enterprise class support, training, and consulting available.</p></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,44 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/LESS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/apps/js/libraries/LESS
+	</ratings>
+	<space>
+		137983
+	</space>
+	<support>
+		http://lesscss.org/
+	</support>
+	<version>
+		2.5.3
+	</version>
+	<mod>20</mod>
+	<release_date>25-09-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LESS</font> is a dynamic stylesheet language.
+		<br /><br />
+		LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS runs on both the client-side (Chrome, Safari, Firefox) and server-side, with Node.js and Rhino. <br /><br />
+		LESS is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License v2.0</a>.
+		</english-overview>		
+		<english-features>
+	<ul>
+      <li><b>Variables : </b>Variables allow you to specify widely used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing one line of code.</li>
+      <li><b>Mixins : </b>Mixins allow you to embed all the properties of a class into another class by simply including the class name as one of its properties. It's just like variables, but for whole classes. Mixins can also behave like functions, and take arguments.</li>
+      <li><b>Nested Rules : </b>Rather than constructing long selector names to specify inheritance, in Less you can simply nest selectors inside other selectors. This makes inheritance clear and style sheets shorter.</li>
+      <li><b>Functions &amp; Operations : </b>Are some elements in your style sheet proportional to other elements? Operations let you add, subtract, divide and multiply property values and colors, giving you the power to create complex relationships between properties. Operations should only be performed within parentheses in order to ensure compatibility with CSS. Functions map one-to-one with JavaScript code, allowing you to manipulate values however you want.</li>
+    </ul>
+	</english-features>
+	</languages>
+</soft>

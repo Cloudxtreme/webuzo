@@ -1,0 +1,88 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OpenBiblio
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/OpenBiblio
+	</ratings>
+	<space>
+		3151328
+	</space>
+	<support>
+		http://obiblio.sourceforge.net/
+	</support>
+	<version>
+		0.7.2
+	</version>
+	<mod>4</mod>
+	<mod_files>1</mod_files>
+	<release_date>13-08-2014</release_date>
+	<admin>admin/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenBiblio</font> is an easy to use, automated library system written in PHP containing OPAC, circulation, cataloging, and staff administration functionality. 
+		<br /><br />
+		<br /><br />
+		OpenBiblio is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target = "_blank">GNU GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Integrated Library Management System (ILMS).</li>
+<li>Free/Open Source ILMS</li>
+<li>New OPAC interface</li>
+<ul>
+	<li>Member Interface for allowing Bookings</li>
+	<li>Member Interface for checking account</li>
+</ul>
+<li>New Marc Parser</li>
+<li>Improved MARC Import / Export</li>
+<li>On import -> Records are added to the Cart</li>
+<li>Image Support</li>
+<li>New Search Interface</li>
+<ul>
+	<li>Keywords: Title, Subject, Series, Publisher, Item Number</li>
+	<li>Media Type</li>
+	<li>Audience Level</li>
+	<li>Production Date</li>
+</ul>
+<li>Manage Requests (Bookings)</li>
+<li>Biblio View</li>
+<ul>
+	<li>Subjects link to search</li>
+	<li>Publisher links to search</li>
+	<li>Marc View</li>
+</ul>
+<li>Print Catalog</li>
+<li>Biblio Edit</li>
+<ul>
+	<li>New simple edit screen</li>
+	<li>New Marc Editing Screen</li>
+</ul>
+<li>Carts</li>
+<li>Request Cart</li>
+<li>Multiple Sites</li>
+<ul>
+	<li>Members only</li>
+</ul>
+<li>School Calendars</li>
+<li>Bulk Delete using list of barcodes</li>
+<li>Admin Interface to Check Database</li>
+<li>New Database Format</li>
+<ul>
+	<li>Call number has changed -> now in custom marc field</li>
+	<li>Title, author etc…. has been removed from biblio and put in Marc tables</li>
+</ul>
+<li>Better Internationalization</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

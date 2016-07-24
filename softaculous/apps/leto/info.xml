@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/LetoDMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/LetoDMS
+	</ratings>
+	<space>
+		37263235
+	</space>
+	<support>
+		http://letodms.com/
+	</support>
+	<version>
+		3.4.2
+	</version>
+	<mod>15</mod>
+	<mod_files>1</mod_files>
+	<release_date>14-01-2013</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LetoDMS</font>is an open-source document-management-system based on PHP and MySQL. 
+		<br /><br />
+		LetoDMS allows you to store any kind of binary data - just like a usual file-system. But there are some features that extend the normal capabilities of a file-system.
+		<br /><br />
+		LetoDMS makes it possible to access your documents not only via intranet in your office but worldwide via the internet.
+		<br /><br />
+		LetoDMS is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Document-Metadata</li>
+<li>Security-Mechanism</li>
+<li>Easy Access</li>
+<li>Upload files through web-interface</li>
+<li>Create folders to group your documents</li>
+<li>Edit document and folder properties online</li>
+<li>Detailed information on uploaded documents</li>
+<li>Lock and unlock documents</li>
+<li>Update documents - old versions are saved</li>
+<li>Individual Icons for different Mime-Types</li>
+<li>Set expiration-date for documents</li>
+<li>Users are notified about new/updated or expired documents via email</li>
+<li>Download documents or view them online within your Browser</li>
+<li>Control access via detailed ACLs (access control lists)</li>
+<li>User- and Group-Management</li>
+<li>Powerfule search-engine</li>
+<li>Template-System</li>
+<li>Intuitive User-Interface</li>
+<li>Should work with every Browser</li>
+<li>Auto-conversion to HTML to view even MS Word-Documents online</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

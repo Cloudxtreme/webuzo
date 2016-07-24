@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Monograph_Press
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Open_Monograph_Press
+	</ratings>
+	<space>
+		66599902
+	</space>
+	<support>
+		https://pkp.sfu.ca/omp/
+	</support>
+	<version>
+	   1.2.0.0
+	</version>
+	<mod>2</mod>
+	<release_date>11-04-2016</release_date>
+	<admin>index.php/index/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.7" />
+ 	<languages>
+	<english-overview>
+	<font size="5">Open Monograph Press (OMP)</font> is an open source software platform for managing the editorial workflow required to see monographs, edited volumes and, scholarly editions through internal and external review, editing, cataloguing, production, and publication.
+	OMP can operate, as well, as a press website with catalog, distribution, and sales capacities. 
+	<br /><br /> 
+Open Monograph Press(OMP) is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>
+    </english-overview>		
+	<english-features>
+	<ul>
+		<li>Handle edited volumes, with different authors for each chapter</li>
+		<li>Involve editors, authors, reviewers, designers, indexers, and others in book production</li>
+		<li>See submission through multiple rounds of both internal and external reviews</li>
+		<li>Utilize industry standard ONIX for bookseller metadata requirements (e.g., Amazon)</li>
+		<li>Create document libraries for submissions, recording contracts, permissions, etc</li>
+		<li>Handle thumbnail covers in Catalog, as well as Spotlight features</li>
+	</ul>
+	</english-features>
+	</languages>
+</soft>

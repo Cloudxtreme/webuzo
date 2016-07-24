@@ -1,0 +1,109 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/Artifactory
+	</ratings>
+	<space>
+		45130360
+	</space>
+	<support>
+		http://www.jfrog.com/home/v_contact
+	</support>
+	<version>
+		4.0.0
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>02-08-2015</release_date>
+	
+	<requires>java8</requires>
+	<requires>tomcat8</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/artifactory</path>
+	<path name="bin">/usr/local/apps/artifactory/bin</path>
+	<path name="startup">/usr/local/apps/artifactory/bin/artifactory.sh</path>
+	
+	<extract file="artifactory-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/artifactory</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Artifactory Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/artifactory</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/artifactory/bin/</td>
+			</tr>
+			<tr>
+				<td>Execute</td>
+				<td>cd /usr/local/apps/artifactory/bin/; ./artifactory.sh</td>
+			</tr>
+			<tr>
+				<td>Access</td>
+				<td>http://YOUR-IP:8081/artifactory</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Artifactory</font> offers powerful enterprise features and fine-grained permission control behind a sleek and easy-to-use UI.
+		<br /><br />
+		Artifactory acts as a proxy between your build tool (Maven, Ant, Ivy, Gradle etc.) and the outside world.
+		<br /><br />
+		Artifactory is distributed under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL License</a>
+		</english-overview>
+		<english-features>
+			<h3>Proxy</h3>
+			<ul>
+				<li>Artifactory acts as a proxy between your build tool (Maven, Ant, Ivy, Gradle etc.) and the outside world.</li>
+			</ul>
+			<h3>Local Cache</h3>
+			<ul>
+				<li>It caches remote artifacts so that you don't have to download them over and over again.</li>
+			</ul>
+			<h3>Control</h3>
+			<ul>
+				<li>It blocks unwanted (and sometimes security-sensitive) external requests for internal artifacts and controls how and where artifacts are deployed, and by whom.</li>
+			</ul>
+			<h3>Stability</h3>
+			<ul>
+				<li>Built on top of the Java Content Repository (JCR), Artifactory supports extremely high concurrency and offers unmatched data integrity.</li>
+			</ul>
+			<h3>Diligent</h3>
+			<ul>
+				<li>The underlying, backup-ready storage supports Artifactory's OpenMetadata(TM) technology, allowing every repository item to be attached with searchable XML metadata and user-defined properties.</li>
+			</ul>
+			<h3>Robust Architecture</h3>
+			<ul>
+				<li>Built on top of the Java Content Repository (JCR), Artifactory offers higher concurrency and unmatched data integrity. When run on top of MySQL Artifactory can support an amazingly high volume of concurrent downloads and deployments.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

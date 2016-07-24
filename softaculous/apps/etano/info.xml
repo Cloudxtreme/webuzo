@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Etano
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/Etano
+	</ratings>
+	<space>
+		27398225
+	</space>
+	<support>
+		http://www.datemill.com/
+	</support>
+	<version>
+		2.30
+	</version>
+	<mod>9</mod>	
+	<admin>admin/index.php</admin>
+	<release_date>19-03-2016</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Etano</font> can be used to start up a dating site, a social networking site, a classifieds site or any other type of site involving groups of people, companies, products.  
+		<br /><br />
+		Etano is released under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Photo Albums</li>
+<li>Captcha Support</li>
+<li>Saved Searches</li>
+<li>Profile Search</li>
+<li>Advanced Mailbox System</li>
+<li>User Preferences</li>
+<li>Blogs</li>
+<li>Comments</li>
+<li>Member Networks</li>
+<li>Block Member</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="pmwiki-32.gif" style="float:right; margin:10px" alt="" />{{overview}}		
+	</overview>
+	<features>
+    {{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PmWiki
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/wikis/PmWiki
+	</ratings>
+	<space>
+		1325638
+	</space>
+	<support>
+		http://pmwiki.org
+	</support>
+	<version>
+		2.2.87
+	</version>
+	<mod>79</mod>
+	<release_date>31-05-2016</release_date>
+	<admin>pmwiki.php?n=SiteAdmin.SiteAdmin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview><font size="5" color="#182e7a">PmWiki</font> is a wiki-based system for collaborative creation and maintenance of websites.
+		<br />
+		<br />
+PmWiki pages look and act like normal web pages, except they have an "Edit" link that makes it easy to modify existing pages and add new pages into the website, using basic editing rules. You do not need to know or use any HTML or CSS. Page editing can be left open to the public or restricted to small groups of authors. 
+		<br />
+		<br />
+		PmWiki is licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank" >GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<h2>Key PmWiki Features</h2>
+<strong>Custom look-and-feel</strong>: A site administrator can quickly change the appearance and functions of a PmWiki site by using different <a href="http://pmwiki.org/wiki/PmWiki/Skins" target="_blank">skins</a> and HTML templates.  If you can't find an appropriate skin <a href="http://www.pmwiki.org/wiki/Cookbook/Skins" target="_blank">already made</a>, you can easily modify one or create your own.
+<br /><br /><strong>Access control</strong>: PmWiki password protection can be applied to an entire site, to groups of pages, or to individual pages.  Password protection controls who can read pages, edit pages, and upload attachments.  PmWiki's access control system is completely self-contained, but it can also work in conjunction with existing password databases, such as <em>.htaccess</em>, LDAP servers, and MySQL databases.
+<br /><br /><strong>Customization and plugin architecture</strong>: One principle of the <a href="http://pmwiki.org/wiki/PmWiki/PmWikiPhilosophy" target="_blank">PmWikiPhilosophy</a> is to only include essential features in the core engine, but make it easy for administrators to customize and add new markup.  Hundreds of features are already available by using extensions (called "recipes") that are available from the PmWiki <a href="http://www.pmwiki.org/wiki/Cookbook/Cookbook" target="_blank">Cookbook</a>.
+		</english-features>
+		<english-></english->
+	</languages>
+</soft>

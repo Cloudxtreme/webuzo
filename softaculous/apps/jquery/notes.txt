@@ -1,0 +1,1 @@
+1. When there is an update in jquery 1 update its value in install.xml i.e if version is 1.12.0 <option value="1.12.0">1.12.0</option>. Keep branch 2 value same 2.0.0

@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the binary tar from (http://jruby.org/download)

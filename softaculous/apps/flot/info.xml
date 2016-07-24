@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://people.iola.dk/olau/flot/examples/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/apps/js/libraries/Flot
+	</ratings>
+	<space>
+		1940003 
+	</space>
+	<support>
+		http://www.flotcharts.org/
+	</support>
+	<version>
+		0.8.3
+	</version>
+	<mod>5</mod>
+	<release_date>21-04-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Flot</font> Attractive JavaScript plotting for jQuery.
+		<br /><br />
+		Flot is a pure JavaScript plotting library for jQuery, with a focus on simple usage, attractive looks and interactive features.<br /><br />
+		Works with Internet Explorer 6+, Chrome, Firefox 2+, Safari 3+ and Opera 9.5+<br /><br />
+		Flot is licensed under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">The MIT License (MIT)</a>.
+		</english-overview>		
+		<english-features>
+	<ul>
+      <li>Using other symbols than circles for points (with symbol plugin)</li>
+      <li>Plotting time series and visitors per day with zooming and weekends (with selection plugin)</li>
+      <li>Multiple axes and interacting with the axes</li>
+      <li>Thresholding the data(with threshold plugin)</li>
+      <li>Stacked charts (with stacking plugin)</li>
+      <li>Using filled areas to plot percentiles (with fillbetween plugin)</li>
+      <li>Tracking curves with crosshair (with crosshair plugin)</li>
+      <li>Plotting prerendered images (with image plugin)</li>
+      <li>Pie charts (with pie plugin)</li>
+    </ul>
+	</english-features>
+	</languages>
+</soft>

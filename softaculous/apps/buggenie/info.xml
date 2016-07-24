@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/The_Bug_Genie
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/The_Bug_Genie
+	</ratings>
+	<space>
+		47354971
+	</space>
+	<support>
+		http://www.thebuggenie.com/
+	</support>
+	<version>
+		4.1.0
+	</version>
+	<mod>7</mod>
+	<mod_files>1</mod_files>
+	<release_date>27-08-2015</release_date>
+	<admin>public/</admin>
+	<min_require>3.2.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.10" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="PDO" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">The Bug Genie</font> <b>Friendly</b> issue tracking and project management. Issue tracking and project management never looked this good.
+Designed to be beautiful, powerful and friendly - The Bug Genie is an absolute treat - and it's all yours.<br /><br />
+		The Bug Genie is released under the <a href="http://opensource.org/licenses/mozilla1.1.php" target="_blank">Mozilla Public License 1.1</a> only.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#497BB7"><b>Project management</b></font>
+<ul>
+<li>Separate project spaces</li>
+<li>Quick links</li>
+<li>Predefined searches</li>
+<li>Project team and roles</li>
+<li>Project dashboard</li>
+<li>Timeline</li>
+<li>Integrated release management</li>
+<li>Automatically generated roadmaps</li>
+<li>Meta information</li>
+<li>Complete project hierarchy</li>
+<li>Project prefixes</li>
+</ul>
+<font size="2" color="#497BB7"><b>Issue tracking</b></font>
+<ul>
+<li>Friendly issue reporting</li>
+<li>Complete issue type scheme support</li>
+<li>Issue actions when you need them</li>
+<li>Helpful quicksearch</li>
+<li>Easy issue editing</li>
+<li>Readable issue views</li>
+</ul>
+<font size="2" color="#497BB7"><b>Integrated, intelligent wiki </b></font>
+<ul>
+<li>Powerful wiki</li>
+<li>Code samples</li>
+<li>Table of contents</li>
+<li>Issue linking</li>
+<li>Embed images</li>
+<li>Wiki categories</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

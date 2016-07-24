@@ -1,0 +1,17 @@
+
+1) Include these two lines in mt.cgi it contains the path of packages.
+
+		use lib '/hsphere/shared/lib/perl5';
+		use lib '/hsphere/shared/lib/perl5/site_perl';
+		
+2) If You still get error after doing above step that only follow this step 
+
+	If movabletype is not running that please rename mt-config.cgi to another name and run mt-check.cgi file it will show you missing plugins.
+	If DBD:mysql is not installed than install it using following command :
+		perl -MCPAN -e 'install Bundle::DBD::mysql'
+		
+3) After Installation create one page under website. Give title home and publish it. then dump sql
+
+4) .htaccess is required so do not remove .htaccess even if it is not created by MT.
+
+5) Make script where MySQL engine is InnoDB

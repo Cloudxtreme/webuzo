@@ -1,0 +1,15 @@
+.DS_Store
+.gitignore
+COPYRIGHT.txt
+LICENSE.txt
+admin
+admin.php
+content
+feed.php
+index.php
+install.php
+languages
+plugins
+sitemap.php
+themes
+update.php

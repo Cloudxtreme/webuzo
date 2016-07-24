@@ -1,0 +1,302 @@
+webERP Change Log
+22/5/16 Release 4.13
+
+30/5/16 Phil: Default new salesperson to current
+30/5/16 Andew Galuski: remove hidden GP_Percent form field when customer login to prevent un-authorised viewing of this data when looking at the page source
+28/5/16 Gilberto Dos Santos Alves: Updated Portuguese Brazilian translation
+28/5/16 Phil: PrintCustStatement.php now has an option to email the statement and uses the customer contacts email addresses defined as wanting a statement and sends individual statements to each of the customer contacts for their customer statement and lists the customers and the recipients they have been sent to. The existing emailcustomerstatement script had too much potential to send statement for other customers to another customer by mistake - so I've removed it!
+23/5/16 Phil: PrintCustStatement.php now shows all the date.
+23/5/16 Phil: Credit_Invoice.php now adds correct tax authorities - correcting bug that resulted in foreign key errors when adding taxauthorities as per fix to SelectCreditItems.php on 13/1/16
+20/5/16 Phil: POS upload file now includes assembly items
+20/5/16 RChacon: Insert missing script as an utility.
+20/5/16 RChacon: In Login.php, add a return link.
+20/5/16 Paul Harness: CustomerAllocations.php consistent sort order adding by date and transno sorting for transactions on the same date
+15/05/16 RChacon: In SelectCustomer.php, use a default map host if $map_host is empty.
+15/05/16 RChacon: In AccountGroups.php, hide no printing elements.
+15/05/16 Exson: Add sequence digitals to make BOM sequences can be adjusted flexible and avoid any uncertainty of the number stored in SQL. Thanks Tim's suggestion.
+14/05/16 RChacon: In SelectCustomer.php, fix use of Google Maps JavaScript API V3, unpaired html tags and other bugs.
+13/05/16 RChacon: In AddCustomerContacts.php, add classes to print and table heads. Improve code.
+12/05/16 RChacon: Fix blank line caused by reverse character RTL. Clean up code.
+11/05/16 RChacon: Include translation to hebrew, thanks to Hagay Mandel.
+09/05/16 Exson: Tidy Code Up to remove redundant code according to Tim's guide.
+05/06/16 Exson: Modify Z_RePostGLFromPeriod.php to make this feature still reliable with prev
+05/06/16: Exson: Remove the $db which is not needed now. Reported by Tim. ious version of GLPostings.inc. Rework the new GLPostings.inc.
+05/06/16 Exson: Fixed typo of IndentText, thanks for Tim's report. Change sequence from int to double to make item is easily inserted into BOMs and Add pictures to BOMs and make BOM printable.
+01/05/2016 RChacon: In Z_poAddLanguage.php, fix directory name and default language file name.
+29/4/16 RChacon: In includes/DateFunctions.inc, add year in long date and time in locale format.
+26/4/16 Phil committed for Tim: apparently only change required for PHP7 see http://www.weberp.org/forum/showthread.php?tid=2733&pid=7132#pid7132
+25/4/16 RChacon: In Payments.php, allow to input a customised gltrans.narrative, supptrans.suppreference and supptrans.transtext.
+25/4/16 Jan Bakke: google maps api improvement to SubmitCustomerSelection changed script src to https du to mixed content error Updated to Google Maps API v.3 Integrated code lines from ceocode.php to update Customers (custbranch table) without lat (0) but width brpostaddr1 Show Branch Contact beneath Customer Contacts when branch is selected Table-width cleanup - diff submitted in March sorry Phil's bad :-(
+25/4/16 Jan Bakke: Improvements to allow .png and .gif images
+15/04/16 PaulT: add missing } causing error.
+12/04/16 Exson: add cost security token to make price security and cost security separated to cope with different situation.
+10/04/16 RChacon: In WorkCentres.php, add ViewTopic and BookMark and completes html table. In doc/Manual/ManualManufacturing.html, add help for WorkCentres.php.
+10/04/16 RChacon: In SupplierInvoice.php, add ' - ' to standardise gltran.narrative to "SupplierID - ". In SuppTransGLAnalysis.php, add ViewTopic and Bookmark, completes html tables, add text class, and add currency_code to input table. In css/*/default.css, regroup horizontal align classes for readability. In doc/Manual/ManualAccountsPayable.html, add anchor id="SuppTransGLAnalysis".
+07/04/16 RChacon: In includes/class.pdf.php, add script documentation and completes switch($Align) to translate from Pdf-Creator to TCPDF.
+07/04/16 Exson: Add remark column to CopyBOM.php.
+01/04/2016 Exson: Make Petty cash assigner and authorizer multiple selectable in PcExpenses.php,PcTabs.php, PcAssignCashToTab.php and PcAuthorizeExpenses.
+24/03/16 RChacon: In CustomerReceipt.php, allow more precision on the functional_exchange_rate. In Payments.php, add pattern and required attributes to the functional_exchange_rate input.
+24/03/16 Exson: Make the MRP report more place for material description in MRPReport.php.
+18/03/2016 Exson: Correct the currency code for transaction between bank account in GLAccountInquiry.php.
+18/03/2016 Exson: Fixed the bug that transaction between bank shows wrong original currency and amount in GLAccountInquiry.php.
+10/03/2016 Tim: Fixed the credit note tax authority not set up bug in SelectCreditItems.php. Reported by Bob.
+03/09/16 Exson: Fixed the bug of wrong location selected when add items to Work Orders in WorkOrderEntry.php.
+9/3/16 Andrew Galuski: Fix FormDesigner requires casting XML elements as strings
+03/09/16 Exson: Add PO details option to show balance of each outstanding PO in PO_SelectOSPurchOrder.php.
+03/09/16 Exson: Fixed the typo which make sql query failed in GLPostings.inc. reported by Richard.
+24/02/16: Richard, Exson Fix the GLPosting initiating error in GLPostings.inc.
+20/02/16 Janb,Tim fixed typo in upgrade4.12.3-4.13.sql
+19/02/16 Daveparrish fixed page number error of AgedDebtors.php.
+02/02/16 Exson��Fixed the bug of chartdetails bfwd amount wrong in GLPostings.inc.
+1/2/15 Exson: Make GL Posting really transaction in GLPostings.inc.
+30/01/16 Exson: Fix the bug to print invoice instead of credit note when a credit note requested in CustomerInquiry.php reported by daveparrish.
+14/01/16 Exson: Add Supplier transaction allocation inquiry in SuppWhereAlloc.php and add a link to in SupplierInquiry.php.
+14/01/16 Exson: Add credit note allocation option for CustWhereAlloc.php and add a link to it in CustomerInquiry.php and make the allocation printable by print.css.
+13/01/16 Exson: Add remark to BOM items and make the BOM printable via the new print.css created by Rafael.
+13/1/16 Phil: Fixed bug in creating customer credit notes manually - blank taxes were being added that caused the SQL to commit the transaction to fail with foreign key constraint to tax authorities
+13/01/16 Exson: Fixed the variables non-refresh bugs in GLAccountInquiry.php. Reported by Richard.
+11/01/16 Exson: Fixed the bug of bank account original amount data error. Reported by Tim, Richard and make this data only available for bank account.
+01/07/16 Exson: Fixed the lot control items negative not allowed problem and fix the data storage caused precision error which make material issuing is impossible under some situation in WorkOrderIssue.php.
+29/12/15 RChacon: In GLAccountUsers.php: Fix script name; add $ViewTopic and $BookMark; improve $SelectedGLAccount validation; improve page_title_text; improve select GL account; regroup modify access permission code (improve logic); add classes to table elements; translate database "0" and "1" to human "No" and "Yes"; simplify and tide code; modify prnMsg from multiple part sentence to one part sentence (better to translate when language use a different grammar structure from English); add "Print This", "Select A Different GL account" and "Return" buttons. Add info to ManualGeneralLedger.html.
+28/12/15 Exson: Fixed the bug that discount not modified for items whose discount is null in discount matrix in SelectOrderItems.php.
+27/12/15 RChacon: In UserGLAccounts.php: Fix script name; add $ViewTopic and $BookMark; improve $SelectedUser validation; improve page_title_text; improve select user; regroup modify access permission code (improve logic); add classes to table elements; translate database "0" and "1" to human "No" and "Yes"; simplify and tide code; modify prnMsg from multiple part sentence to one part sentence (better to translate when language use a different grammar structure from English); add "Print This", "Select A Different User" and "Return" buttons. Add info to ManualGeneralLedger.html.
+26/12/2015 Exson: Add items not received information on outstanding po inquiry screen in PO_SelectOSPurchOrder.php.
+24/12/15 Exson: Add supplier no as a option for supplier transaction inquiry in SupplierTransInquiry.php.
+24/12/15 Exson: Add width of printed text to make day to appear in PDFOstdgGRNsPageHeader.inc.
+2015/12/24 Exson: Add Completed option for PO printed to allowed the order details can be completed in PO_Header.php.
+20/12/15 Phil: GoodsReceived.php now shows the supplier's item code as well
+20/12/15 Phil: SelectProduct.php now allows items to be searched based on the supplier's item code
+14/12/15 Exson: Remove retrieving allocated data in Z_AutoCustomerAllocations.php.
+11/12/15 Exson: Fixed the default Transaction Disable bug to enable for CustomerBranches.php.
+10/12/15 Exson: Add invoice no while reprint GRN in ReprintGRN.php.
+10/12/15 Exson: Add multiple work orders total cost inquiry script.
+09/12/05 Exson: Fixed the telephone regular expression bug in SelectCustomer.php. Reported by Terry.
+01/12/15 Exson: Remove the wrong foreign key in suppinvstogrn. Reported by rafael.
+26/11/15 Exson: Fixed the rounding error caused extra lines on WO pdf file and 2 number display without locale format in PDFWOPrint.php.
+21/11/15 Gilberto Dos Santos Alves: Updated Portuguese Brazilian translation
+18/11/15 AlexFigueiro: Remove the duplicate foreign key in stockrequest and stockrequestitem;
+15/11/15 RChacon: Tidy css/*/default.css, reagrouping style for clases centre, number, page_title_text and text.
+15/11/15 Hazem wehbi Add new arabic locale for Syria.
+14/11/15 RChacon: In css/default/default.css, add sections to use with a cascading style sheet for a small device width, reagroup style for centre, number and text in tables.
+11/11/15 Ricard: New feature GL accounts - users authority.
+09/11/15 RChacon: In CustomerReceipt.php, minor changes (completes table columns, adds classes, etc.).
+05/11/15 Exson: Tidy code up following Tim's suggestion.
+3/11/15 RChacon: In GLAccountInquiry.php, add ViewTopic and BookMark, fix some colspan, and add thead and column classes.
+3/11/15 Exson: Tidy code up in StockClone.php.
+3/11/15 Exson: Fixed typo in PriceMatrix.php.
+30/10/15 Exson: Allow user input supplier's delivery note during goods receiving and make the inquiry script for it. So users can search corresponding GRN, PO and invoice with it.
+29/10/15 Exson: Add gl narrative and account balance information to DailyBankTransactions.php.
+28/10/15 Exson: Add bank default currency, original amount and check no data to GL account inquiry in GLAccountInquiry.php.
+06/10/15 UK-Steven: Contribute email customer statements feature scripts.
+06/10/15 Exson: Fixed the wrong unable to identify the selected customer warning at SelectOrderItems.php.
+23/09/2015 Tim: ADD invoice to grns mapping data in SupplierInvoice.php.
+21/09/15 RChacon: In StockLocStatus.php, add current date and time, and format to use print.css.
+21/09/15 Exson: Fix the wrong material cost updated in SupplierCredit.php. Reported by Akits.
+19/9/15 Dongbak Cha:Korean translation via Google translate
+14/9/15 RChacon: Rebuild languages files *.pot, *.po and *.mo to includes new texts.
+14/9/15 RChacon: In AnalysisHorizontalIncome.php, delete duplicated tag. Replaces text "Absolute/Relative variation" with "Absolute/Relative difference" to avoid confusions.
+13/9/15 RChacon: In AccountSections.php, add modifications for direct printing.
+4/9/15 Wes Wolfenbarger: Fix to Z_ImportStocks.php added quotes to descriptions - also fixes error message when the csv does not match the template
+27/08/15 Exson: Fixed the allocation status of involved invoice and credit notes in Credit_Invoice.php.
+19/08/15 RChacon: In AnalysisHorizontalIncome.php, delete variable $period because it is not used anywhere (thanks Tim). Extract header.inc from if.
+13/08/15 RChacon: In doc/ManualGeneralLedger.html, add help for the horizontal analysis.
+13/08/15 RChacon: Add new script AnalysisHorizontalIncome.php to generate an horizontal analysis of the statement of comprehensive income. In AnalysisHorizontalPosition.php, adjust signs and add report footnote.
+05/08/15 RChacon: In AnalysisHorizontalPosition.php, modify DB_fetch_array() function because it requires only one parameter (thanks Tim). Other improvements.
+04/08/15 RChacon: Add new script AnalysisHorizontalPosition.php to generate an horizontal analysis of the statement of financial position.
+02/08/15 RChacon: In CustomerReceipt.php, move currency tags near currency ratesand other minor changes.
+27/07/15 RChacon: In Payments.php, move currency tags near currency rates.
+20/06/15 RChacon: In header.inc, add meta tag to keep relationship between CSS pixels and device pixels.
+19/06/15 : Kif (from webERP Chinese Community QQ group) fixed the menu cannot show completely on mobile phone in xenos/default.css.
+04/06/15 TurboPT: Currencies.php: Add closing select, td and tr tags to complete last table row.
+27/05/15 Thumb: Fix error_reporting() bug change && to & in install/index.php.
+25/5/15 Tom Barry: SupplierInquiry.php moved SQL to get the users authorisation to put supplier invoices on hold outside the loop to avoid unecessary round trips to the SQL server
+21/5/15 RChacon: Adjust CustomerAccount.php for direct printing.
+19/5/15 RChacon: Add documentation and help for users in Locations.php and ManualInventory.html.
+
+17/5/15 Version 4.12.3
+
+17/5/15 Phil: Made currencies delete check first for bank accounts set up using the currency - as reported by Ricard
+10/05/15 RChacon: New features: (1) GL account code for an inventory location, so that you can have general ledger transactions of inventory transfers to or from this location; useful for pledged inventory and goods on consignment. (2) Allow Invoicing parameter to allow or deny the availability of a location to be delivered; useful when a location stores compromised good that can not be sold.
+09/05/15 Exson: Fixed no input filtering bug which cause input failure and location quantity become mess in WorkOrderReceive.php. But the transaction failure maybe still there.
+08/05/15 RChacon: In DeliveryDetails.php, add $ViewTopic and $BookMark to ManualSalesOrders.html.
+07/05/15 RChacon: In CustomerInquiry.php, hide submit button and 'More Info' columns when printing. Add thead tag to enable the table header to be printed at the top of each page.
+07/05/15 RChacon: In SupplierInquiry.php, hide submit button and 'More Info' columns when printing. Add thead tag to enable the table header to be printed at the top of each page.
+04/05/15 Exson: Make PO number searching also in compliance with location authority rules and make default search result as all if users have full location authority.
+04/05/15 Exson: Make all option available for users who have authority for all locations and all option available for all stock categories in PO_SelectOSPurchOrder.php.
+02/05/15 TeHonu: Added bankaccountusers table in Z_ChangeGLAccountCode.php
+30/04/15 TurboPT: Add Delivery Date in GoodsReceived.php output. Forum feature request by giusba71.
+30/04/15 Exson: Fixed the notice noise in SupplierCredit.php and SupplierInvoice.php.
+30/04/15 Exson: Fixed the properties initial bug and tidy code up by fix typo.
+26/04/15 Exson: Add adjustment reason to the mail text and fixed the notice noise in StockAdjustments.php.
+26/04/15 Exson: Comment out the mrpparameters table update in sql file upgrade4.11.3-4.11.4.sql which made a misleading during upgrade and absolutely non-necessary.
+26/4/15 Exson: Fixed the account code cannot be key in directly bug in GLJournal.php. Reported by Akits.
+26/4/15 Exson: Fixed the raw material sellable bug introduced by myself in SelectOrderItems.php.
+19/4/15 RChacon: Remove the class noprint from the image in page_title_text.
+19/4/15 RChacon: Add ".page_title_text img" as a display none class. This makes unnecessary to add the class noprint to the image in page_title_text.
+19/4/15 Phil: SelectSupplier - total supplier spend was incorrect only looked at supplier transactions excluding invoices? Now takes invoice net of debit notes reported by Andrew Galuski
+07/4/15 Exson: Fixed the Wiki link broken bug in SystemParameters.php.
+04/4/15 Exson: Fixed the bug that Credit and Debit submit amount was duplicated processed by local_number_format function.
+01/4/15 Exson: Remove comma from item description and suppliername to make csv file correctly in POReport.php.
+01/4/15 Exson: Fixed comma bug due to locale issue of POReport.php csv file. And add ordered/received quantity field in the report.
+01/4/15 Exson: Fixed the bug that when delete one gl item from the payment details, the bank account related setting will disappeared in Payments.php. Reported by Steven.
+01/4/15 Thumb: Add a Z_ImportCustbranch.php script to import customer branches.
+30/3/15  Vitaly: Get all taxes for the tax group, even if calculationorder is left at default value 0.
+29/3/15  Phil: Allow dummy/service items to be propogated to CounterLogic POS installs through the api
+27/3/15 Exson: Remove redundant code from PrintCustTrans.php.
+27/3/15 Exson: Make credit not for freight only is printable in PrintCustTrans.php.
+26/3/15 Exson: Fixed disabletrans status bug in CustomerBranches.php and fix index undefined noise.
+25/3/15 Exson: Add planned accumulation in MRP report.
+14/3/15 Exson: Fixed undefined index noise in Credit_Invoice.php.
+13/3/15 Exson: fixed the undefined index noise in WorkOrderReceive.php.
+13/3/15 Exson: Fixed the undefined index noise in SelectWorkOrder.php.
+13/3/15 Exson: Make Labor type allowed by category select in WorkOrderIssue.php.
+12/3/15 Exson: Make Order No sortable in SelectSalesOrder.php.
+12/3/15 Exson: Fixed undefined parameters noise in PO_SelectPurchOrder.php.
+11/3/15 Exson: Fixed wrong handling for dummy parts receiving from PO in GoodsReceived.php.
+09/3/15 Vitaly: Page refresh when credit type changes in Credit_Invoce.php
+09/3/15 RChacon: In DailyBankTransactions.php: Improves page_title_text. Orders by banktrans.transdate ascending and banktrans.banktransid ascending. Adds division to identify the report block. Groups table-header cells inside thead tags. Groups table-data cells inside tbody tags. Adds th.text class to left align. Adds "Print This" and "Return" buttons with icon.
+09/3/15 Exson: Fixed undefined index noise of $_POST['SupplierContact'] in PO_Header.php.
+08/3/15 Vitaly: Fit HTML view of invoices to one screen
+08/3/15 Exson: Fixed undefined index noise in PO_Items.php.
+07/3/15 RChacon: Deletes class="invoice" (it does not exist in css). Creates division id="Report" to identify the report block. Moves full width style to print.css (thanks Tim Schofield).
+07/3/15 Exson: Fixed undefined index noise in ShipmentCosting.php.
+07/3/15 Exson: Fixed property ShiptCounter non defined bug in DefineSuppTransClass.php.
+07/3/15 Exson: Fixed the undefine index OpenOrClose noise in Shipt_Select.php.
+07/3/15 Exson: Fixed undefine index InputError noise in SupplierInvoice.php.
+07/3/15 Exson: Fixed typo in AuditTrail.php.
+07/3/15 Exson: Remove properties $_SESSION['Shipment']->GLLink which never been defined in Shipments.php.
+07/3/15: Exson: Change login date of users without login record to 'No login record' instead of today. It's very confusion.
+07/3/15 Exson: Fixed order value error that should be value undelivered instead of uncompleted line value and some notice noise in SelectSalesOrder.php.
+04/3/15 Vitaly: Display Phantom assembly type correctly in SelectProduct.php
+04/3/15 Vitaly: Added missing comma to SQL statement in Credit_Invoice.php
+3/3/15 RChacon: Adds cross.png to all css images for use in Reset or Cancel buttons as needed.
+2/3/15 RChacon: Completes table-row colums, regroups price, cost and gross profit in one table-row, uses company decimal places for gross profit in SelectProduct.php.
+25/2/15 TurboPT: Fix Z_ImportSupplier bug reported in forum by: Bill Schlaerth.
+22/2/15 TurboPT: Fix supplier delivery address bug reported in form by: Giusba
+22/2/15 RChacon: Adjust page_title and add "Print This" and "Return" buttons with icon to Statement of Comprehensive Income and Trial Balance scripts. Add code documentation and removes redundant $ViewTopic and $BookMark in GLTrialBalance.php.
+22/2/15 RChacon: Add missing preview.png and new previous.png icons. Add "Print This" and "Return" buttons with icon in GLBalanceSheet.php.
+22/2/15 Simon Rhodes: added global $db; statements to functions in ConnectDB_mysql.inc that had been missed for the transaction functions
+21/2/15 RChacon: Add headings, page-title and centre-align styles to print.css. Improve page title to use with print.css and add code documentation in GLBalanceSheet.php.
+20/2/15 RChacon: Fix heading 2 html-tags inside paragraph html-tags. Add code documentation.
+19/2/15 RChacon: Fix AddTextWrap split behaviour (thanks Andrew Galuski). Add code documentation.
+19/2/15 Tim: Align numbers to the right in print.css
+17/2/15 Vitaly: Added print.css to allow printing pages off the screen
+15/2/2015: Exson: Fixed date format error for request date and start date in WorkOrderEntry.php.
+12/2/15 RChacon: Fix on PrintCustTransPortrait.php: Do not need to escape special characters in a string for use in an SQL statement.
+11/2/15 Vitaly: BOMIndented.php fix bug that duplicated components - error with SQL to restrict to only those users with permission to view a locations
+10/2/15 Phil: New script StockCategorySalesInquiry.php - shows category sales by item for a selected custom date range
+10/2/15 Phil: Reinstate Andrew Galuski's lost functionality that shows only the items that are defined for a customer (in the custitems table) when searching for items for a sales order/quote.
+9/2/15 RChacon: Standardise to currency.png. Delete currency.gif.
+8/2/15 RChacon: Changes from email.gif to email.png. Delete email.gif.
+8/2/15 Phil: InventoryPlanning.php now has an option to export the last 24 months usage to CSV
+8/2/15 RChacon:  Add credit.png, email.png, folders.png and currency.png. Delete bank.gif.
+7/2/15 Phil: New script CustomerAccount.php - on screen statement similar to CustomerInquiry.php
+
+8/2/14 Release 4.11.3
+
+8/2/14 Phil: prevented GL posting to control accounts from Payments.php and CustomerReceipts.php where the configuration option to stop postings to these accounts is set.
+8/2/14 Phil: Used Tim's code as the basis to allow deletion of internal stock request items.
+6/2/14 Eduardo Marzolla: geocode integration geocode with google API v3. You need to get a API Key from google. The parameters to geocode must be: geocode key: your API key geocode lat: your lat geocode long: your long geocode height: 100 geocode width: 100 host geocode: maps.googleapis.com
+6/2/14 icedlava: Payments.php - correct javascript to prevent error popup on every manual GL code entry, correct spacing.
+6/2/14 icedlava: BankMatching.php - correct column heading order.
+4/2/14 Tim: SalesTopCustomersInquiry.php - shows top customers over specified date range showing invoices/returns and net sales
+3/2/14 Exson: Fixed installer now allows characters in the database name
+3/2/14 Phil: Fix bug in Payments.php that was duplicating payments for mutliple GL analysis entries. Now just a single bank trans is created for the payment which can be analysed to any number of GL accounts
+31/1/14 Andrew Galuski: Profit and Loss format fixed for detailed - don't show zero balances accounts
+31/1/14 Muthu: Added sequence field to BOMs.php
+30/1/14 gilberto dos santos alves: Updated pt_BR and also applied to pt_PT translation since pt_PT translation was quite old
+28/01/14 Exson: Update the hold reason table default data dissallowinvoice to make customers' credit on watch is workable.
+24/1/14 Andrew Galuski: Display serial items on GRN printouts
+23/1/14 Phil: Fixed incompatible error traps on hyphens between new customers and new branches. Now both allow hyphens. Also prevented deletion of the last customer branch. Customer branches are now deleted when a customer is attempted to be deleted provided there are no dependent records.
+19/01/14 Exson: Add sales man login control and modify the PDF to download to harmony with other files and solve backward failure problem in PrintCustStatements.php.
+18/01/14 Paul T: Change property name value to uppercase to match use in the script. [causing input loss]
+16/01/14 Exson: Fixed sql strict mode failure problem in StockTransfers.php by adding a '' to qualitytext fields.
+23/1/14 Tim: PO_SelectOSPurchOrder.php now allows selection of purchase orders based on order dates
+14/1/14 Tim: system would go to get currency rates even though they were set to manual - bug fixed.
+14/1/14 Phil: Fixed bug that was not recording the standard cost against goods received - this would put all accounting out for both standard and weighted average journals.
+13/1/14 Phil: Fixed SuppInvGRNs.php price variance was not calculated correctly because cost not brought accross correctly as reported by Don Grimes
+11/1/14 CQZ: Fixed that no bank accounts recorded in gl in CounterReturns.php
+6/1/14 Phil: Apply Tim's bug report regarding conversion of database name to lower case in ConnectDB.inc Although uppercase characters should not be included in database names, removing this trap allows backward compatibility with users who did install with upper case database name
+4/1/14 Phil: Add option to create CSV from inventory valuation rather than create PDF
+2/1/14 Exson: Fixed php-mbstring extension detection failure in install/index.php during installation.
+27/12/13 Thumb: Fixed the stock location will loss problem when move to StockAdjustmentsControlled.php interface in StockAdjustments.php.
+23/12/13 Exson: Fixed the controlled items cannot be removed due to the negative operator is modified and balance of a serial no is wrong due negative operator is missing during credit controlled items by KEYED method. Other input method has not be inspected.
+22/12/13 Exson: Add a fool-proof to Credit_Invoice.php to prevent an invoice was credit again and again.
+22/12/13 Exson: Modify the stock select element to a combox box which autocomplete the limited stock ID options to 300 in PriceMatrix.php. Otherwise, users have to input an stock ID themselves. To avoid a too long stock list as pointed by Tim.
+21/12/13 Exson: Add price matrix features. Modified MainMenuLinksArray.php, GetPrice.inc and add pricematrix table and PriceMatrix.php
+20/12/13 Thumb: Salesman can only review his own customer's data
+14/12/12: Phil: As per Gilberto dos santos alves - Extended smtp user name to varchar(50) as sometimes a full email address is required - tidied the script a bit too.
+11/12/13: Thumb: fixed bug that calculated the wrong StandardCost of assembly parts in Credit_Invoice.php and SelectCreditItems.php. Bug confirmed by Phil.
+11/12/13 Thumb: fixed bug that using limit without offsetting in PO_Items.php,WorkOrderEntry.php and make users' DisplayRecordsMax effective in SelectOrderItems.php.And fixed typo in SelectCreditItems.php.
+9/12/13 Exson Fixed the typo of sql in DiscountCategories.php. Report by tangjun
+7/12/13 Phil: Allow entry of stock counts by stock category
+7/12/13 Phil: Fixed htmlMimeEmail.inc following Tim's submission - removed & value by reference errors
+4/12/13 Exson: Alter table stockmoves reference to varchar(100) to make it can meet mysql strict mode requirements when data is more than original 40.
+2/12/13 Exson: Fixed the typo in WWW_Users.php. Reported by Thumb.
+1/12/13 Exson: Fixed country Chinese sql for installation failure.
+1/12/13 CQZ: Correct Chinese translation error dispatch cut_off time.
+
+1/12/13 Release 4.11.2
+
+30/11/13 Ricard: Added user permissions by bank account so only certain users can see and create payments/receipts on bank accounts selected.
+30/11/13 rchacon: Includes supplier-code, currency-code, and currency-name-from-CurrenciesArray.php in SelectSupplier.php.
+2013/11/30 Thumb: Add salesman constraint to show salesperson's own sales orders invoice, customer etc in DailySalesInquiry.php,PDFDeliveryDifferences.php,PDFOrdersInvoiced.php,PDFOrderStatus.php,PDFPickingList.php,SalesByTypePeriodInquiry.php,SalesInquiry.php,SelectCompletedOrder.php.
+28/11/13 Phil: Apply Tim's idea for stripping slashes from incorrectly displayed items PO_Items.php and DeliveryDetails.php
+28/11/13 Thumb: Add salesman constraints to ConfirmDispatch_Invoice.php to ensure that sales can only print his own sales orders' invoice. 
+28/11/13 Thumb: Add constraints to salesman that he can only print his own sales orders in PrintCustOrder_generic.php
+28/11/13 Thumb: Add constraints to salesman that he can only print his own sales orders in PrintCustOrder.php
+28/11/13 Thumb: Add salesman login constraint to only their own customers available in SelectOrderItems.php and fixed SQL error of customers login. 
+27/11/13 Thumb: Add create new scripts to import Customers and Debtors. 
+26/11/13 Phil: Supplier invoice entry now allows modification of invoice quantities and prices for multiple goods received lines in line rather than having to go into each line to modify individually.
+20/11/13 rchacon: Translate the name of each language to the name in their respective language.
+20/11/13 Phil: Payments.php FunctionalExchangeRate was not defaulted appropriately when entering a supplier payment in FX from a bank account of the same currency selected and the transaction was posted immediately without update first. Fixed
+19/11/13 Thumb/CQZ: Add webERP Chinese country sql including Chinese COA, currency, role,tax, transaction type etc which should be localized. 
+19/11/13 Thumb: Add '-' to telephone no pattern in CustomerBranches.php and WWW_Users.php.
+19/11/13 Thumb: Correct translation of customer text and customer code in CustomerReceipt.php of locale file.
+19/11/13 Thumb: Text 'settled transaction' position adjusted to proper position in PrintCustStatements.php.
+18/11/13 Exson: Make inventory it as default to show inventory serial no in ConfirmDispatchControlled_Invoice.php.
+18/11/13 Exson Make company name client side requirements consistent with server side in CompanyPreferences.php.
+16/11/13 rchacon: Improves translation and format in PaymentMethods.php.
+16/11/13 Phil: MacPhotoBiker reported shipment charges html5 type=number removed to use the class=number javascript'
+12/11/13 rchacon: Allow translation of the subkey name in FormDesigner.php.
+07/11/13 rchacon: Allow translation of the key name in FormDesigner.php.
+7/11/13 Exson: Add check box to allow user to decide weather raw material is sellable or not.
+7/11/13 Exson Revise the bin definition to NOT NULL DEFAULT '' as suggest by Tim to make it more ISO compatible.
+06/11/13 rchacon: Allow multiline printing of salesorderdetails.narrative in quotations.
+5/11/13 Phil: Fixed the warning error in GLAccountInquiry.php add change variable type to array to make min() and max() reasonable. Reported by Jo
+04/11/13 icedlava: change insert new clone stock event to transaction as in Stocks.php for new item.
+03/11/13 rchacon: Allow translate the name of the currency on CompanyPreferences.php.
+3/11/13 Exson fixed the bug that discount id for category cannot be set and add an error message when there is no stockid set for the respective category.
+03/11/13 Exson: Fi3/11/13 Exson: fixed bug by removing pattern and add no-illegal-chars to stockid in StockReorderLevel.php.xed bug in MiscFunctions.js allow '0' input as number.
+01/11/13 rchacon: Allow translate the name of the currency on Currencies.php.
+31/10/13 rchacon: Allow translate the name of the currency on CustomerReceipt.php and Payments.php.
+30/10/13 rchacon: Allow insert different data on banktrans.ref and gltrans.narrative for the bank account on CustomerReceipt.php. Match the page_title_text with the MainMenuLinksArray option for Bank Account Payments Entry and Bank Account Receipts Entry. Regroup the General Ledger Transactions menu.
+30/10/13 Exson: Add required attribute for Z_MakeNewCompany.php to avoid file void error and make it more user friendly.
+30/10/13: Exson modify the locstock table change the bin to NULL to avoid stick sql standard constraint failed for those items without bin.
+30/10/13 Exson: Modify the the insert new stocks event to transaction.
+24/10/13 MailingGroupMaintenance.php, minor tag and other formatting corrections.
+20/10/13 icedlava: Add StockClone.php script to create a new item with the same properties, image, cost, purchasing and pricing data as the selected item, and allow modification of image and general item details before cloning.
+18/10/13 Paul T: ManualSecuritySchema.html, add missing tr tags, reduced doubled-closing td tags to one, and changed & to &amp; for HTML.
+18/10/13 Paul T: ManualInventory.html, add bracket to complete closing h3 tag.
+15/10/13 Paul T: GoodsReceived.php, change variable name from OrderNumber to OrderNo.
+11/10/13 Tim: Links for manual internal transfers and supplier payment link to allocations
+9/10/13  Exson: commit the fixed "Unable to Locate Purchase Order Number" error when the PO is created by SO interface. Fixed provided by Tim and reported by Merci from webERP forum.
+6/10/13 Phil: New script to show a grid of items by preferred supplier for placing purchase orders to the users's default inventory location - orders will be authorised if the user has authority and the auto-authorise config option is enabled.
+3/10/13 icedlava: PO_Items.php with non-stock items still require GL Code in case of modified order at invoice time else SQL error is generated due to invalid GL Code.
+2/10/13 David Lynn: Added new field url to suppliers modified SelectSupplier.php and Suppliers.php
+28/9/13 wh_hsn: help with regular expression to trap quotes and backslashes for data-type="no-illegal-chars"
+28/9/13 Phil: Followed Exson's example to set pattern to prevent dodgy characters in other scripts that were using a pattern that only allowed [a-zA-Z0-9] thus making it impossible to enter non latin characters.
+11/9/13 icedlava: SelectCompletedOrder.php Fix SQL typo.
+7/9/13 Exson: using javascript to set the pattern attribute based on a new attribute data-type and first script Stocks.php
+7/9/13 icedlava: Fix PrintStatements.php to allow selection of alphanumeric customer codes in length to match database definition.
+7/9/13 icedlava: StockStatus.php Allow dash in stock code again.
+
+6/9/13 Version 4.11.1
+
+6/9/13 Phil: Typo in ConfirmDispatch_Invoice preventing invoicing - changed patterns to remove {1,20} statements which make the pattern fail to validate. SelectProduct removed pattern from keyword search on description to allow entry of any characte as reported by Brian May
+5/9/13 icedlava: Stocks.php Set error message for upload image failure when no upload tmp directory set in php.
+5/9/13 icedlava: Stocks.php Clear item image for new item creation.
+5/9/13 icedlava: Suppliers.php regex pattern for email, also not all suppliers have email.
+4/9/13 Exson: Fixed the undefined StockID error and make it html5 compatible and table sorting in StockReorderLevel.php
+2/9/13 icedlava: SelectOrderItems.php fix frequently ordered items to accept entry as was not working.
+2/9/13 icedlava: inc tax corrected to ex tax on ConfirmDespatch.php and DeliveryDetails.php

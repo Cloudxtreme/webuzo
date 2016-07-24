@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Avactis
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Avactis
+	</ratings>
+	<space>
+		48270386
+	</space>
+	<support>
+		http://www.avactis.com/
+	</support>
+	<version>
+		4.7.9
+	</version>
+	<mod>23</mod>
+	<release_date>21-10-2015</release_date>
+	<admin>avactis-system/admin/</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Avactis</font> offers an extremely convenient set of tools to quickly launch an online business.
+		<br /><br />
+		Avactis Shopping Cart is a software package that allows you to open an online store on the Internet. Compared to other similar software, Avactis offers a unique advantage of very simple integration of the online store into your existing site. 
+		<br /><br />
+		For many similar systems, integration of an online store is a big problem that requires a lot of time and effort. Avactis eliminated this labor-intensive task by using special tags. As a result avactis can offer their customers a very convenient tool for the quick launch of an online business.
+		<br /><br />
+		Avactis license is available <a href="http://www.avactis.com/license.php" target="_blank">here</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Price-based discounting</li>
+<li>Discount code supported</li>
+<li>Affiliate tracking of orders</li>
+<li>Advanced newsletter management</li>
+<li>Quick checkout</li>
+<li>Wish List</li>
+<li>Gift Certificates</li>
+<li>Customer Reviews</li>
+<li>Digital Products</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

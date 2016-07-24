@@ -1,0 +1,113 @@
+XOOPS 2.5.x Changelog (Language changes: see: /docs/lang_diff.txt)
+
+===================================
+2.5.8 Final            2016-05-27
+===================================
+- replaced "dirname(__FILE__)" with "__DIR__" since the min. PHP is now 5.3.7, and __DIR__ is faster  (mamba)
+- updating some copyright notices (mamba)
+- fix issues when protector 'id_forceintval' preference is enabled, that manifests as an error when deleting private messages.  (rgriffith)
+- fix for Update setting Template import date to 0 (timgno/mamba)
+- Adding language constants for Protector's Prefix Manager (slider84/mamba)
+- allowing for "https" URL in YouTube links in Textsanitizer (mamba)
+- converting $i++ to ++$i for improved performance (mamba)
+- reverting couple of $i++ conversions (zyspec/mamba)
+- updated xBootstrap to Bootstrap 3.3.1 (Angelo Rocha)
+- Some code cleanup for private messages (Dingjie （Daniel） Yang/rgriffith)
+- Adding Footer blocks (timgno/mamba)
+- fixing a bug in xmlrpc.php (wppd/rgriffith)
+- remove addrFormat override in XoopsMultiMailer (rgriffith)
+- patch from Xoops 2.5.6 XoopsFormSelectUser is not compatible with some old modules like xNews (luciorota)
+- fix "setExtra" in moduleadmin.php, Admin buttons can now use "onClick" assignments (mamba)
+- updated XOOPS copyright to 2016, changed links to http://xoops.org (mamba)
+- replaced intval() with (int) (mamba)
+- added possibility to include full icon URL in module's menu.php (mamba)
+- added strong { font-weight: bold; } to reset.css (mamba)
+- added .tpl option for module Help files (mamba)
+- fix moved "count($tagsArray)" and "count($attrArray)" outside of FOR loop in xoopsfilterinput.php (mamba)
+- add option to set height of Themes block (mamba)
+- fix: Invalid argument supplied for foreach() (cesagonchu/mamba)
+- removed -khtml CSS properties (mamba)
+- fix profile/search (cesagonchu/slider84)
+- changed minimum image sizes in Image Manager to: 800x600, 1MB (mamba)
+- added image sort order in TinyMCE image-manager plugin (elpaksu/Peekay)
+- added Youtube handling enhancements (xd9527/geekwright)
+- fix system module update issue (zyspec)
+- fixed multiple issues (CSRF, weak password hash, and directory traversal) reported by hyp3rlinx (geekwright)
+- fix privileged information disclosure issue reported by Cédric MONTUY (geekwright)
+- Move to supported PHP mysqli extension for database access (redheadedrod/geekwright)
+- IPv6 safe in comments, protector, sessions and online
+- Include XMF library (geekwright)
+
+Updated:
+ - TinyMCE to 3.5.11 (mamba)
+ - PHPMailer to 5.2.14 (mamba)
+ - jQuery to 1.12.4 (mamba)
+ - jQuery UI 1.11.4 (mamba)
+ - jGrowl to 1.4.4 (mamba)
+ - phpThumb to 1.7.14-201603240806  (mamba)
+ - HTML Purifier to 4.7.0 (mamba)
+ - Bootstrap to 3.3.6 (mamba)
+ - Snoopy to 1.2.5 (zyspec)
+ - SWF banners to HTML5 (mamba)
+ - extra banners (mamba)
+
+=================================
+2016/02/02: Version 2.5.7.2 Final
+=================================
+
+This patch for XOOPS 2.5.7 corrects the following issues:
+
+- multiple issues reported by Tim Coen (Curesec GmbH)
+
+All XOOPS 2.5.7.1 users are advised to apply this patch as soon as possible. Any users that are running an older XOOPS version are advised to update to XOOPS 2.5.7.2 now.
+
+=================================
+2014/06/14: Version 2.5.7.1 Final 
+=================================
+
+This patch for XOOPS 2.5.7 corrects the following issues:
+
+- CSRF and XSS issues reported by Dingjie 'Daniel' Yang of Qualsys
+- XSS and best practice issues reported by Narendra Bhati
+
+All XOOPS 2.5.7 users are advised to apply this patch as soon as possible. Any users that are running an older XOOPS version are advised to update to XOOPS 2.5.7.1 now.
+
+
+===============================
+2014/06/14: Version 2.5.7 Final
+===============================
+- updated XoopsMediaUploader to use system memory values from php.ini, and to offer random file names (mamba/luciorota/zyspec)
+- added .tpl to XoopsList's getHtmlListAsArray (wizanda)
+- updating xBootstrap (voltan, Angelo Rocha)
+- moved all images, CSS, and JS files to /assets in modules Profile and PM (mamba)
+- renamed .html Smarty templates to .tpl in modules Profile and PM (mamba)
+- corrected English typos (cesag)
+- added missing .php file extension (AngeloRocha/Zyspec/rgriffith)
+- deprecated destoryVars($var) in object.php (cesag/rgriffith)
+- update phpmailer translation array to include all keys, and remove reassignment of $PHPMAILER_LANG as array() (cesag/rgriffith)
+- added XoopsRequest class (rgriffith)
+- removed hard-coded text from installation (mamba)
+
+Updated:
+ - TinyMCE to 3.5.11 (mamba)
+ 
+===============================
+2014/04/06: Version 2.5.7 RC 1
+===============================
+
+Bugfixes:
+- fixed System Module image manager html/js bugs (luciorota)
+- replaced "array_diff_assoc" with "array_diff_key" in /class/theme_blocks.php (masel/mamba)
+- icons for active module sections in System module not shown correctly (Slider84/mamba)  
+- added two new language definitions (see lang_diff.txt)
+- added Office 2007 MIME types (Voltan)
+- added xml MIME type (Goffy)
+- added new icons (mamba)
+
+Updated:
+ - jQuery to 1.11.0 (mamba)
+ - jQuery UI 1.10.4 (mamba)
+ - jQuery Lightbox to 1.2.3 (mamba)
+ - jQuery Form to 3.50.0 (mamba)
+ - jQuery Tablesorter to 2.5.11 (mamba)
+ - jGrowl to 1.2.14 (mamba)

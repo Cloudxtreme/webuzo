@@ -1,0 +1,9 @@
+INSTALL.txt
+application
+bin
+favicon.ico
+index.php
+library
+license.txt
+precurio.png
+public

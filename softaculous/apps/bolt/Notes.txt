@@ -1,0 +1,7 @@
+Add following entries before starting for manual installation in /app/config/config.yml
+
+  driver: mysql
+  username: root
+  password: mysql
+  databasename: bolt
+  host: localhost

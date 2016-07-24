@@ -1,0 +1,2 @@
+1. install with mysqli Improved
+2. Use Extended Inserts

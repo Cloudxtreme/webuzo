@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Piwik
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Piwik
+	</ratings>
+	<space>
+		40315025 
+	</space>
+	<support>
+		http://piwik.org/
+	</support>
+	<version>
+		2.16.1
+	</version>
+	<mod>70</mod>
+	<release_date>11-04-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Piwik</font> is a downloadable, open source (GPL licensed) web analytics software program. It provides you with detailed real time reports on your website visitors: the search engines and keywords they used, the language they speak, your popular pages and so much more.
+<br /><br />
+Piwik aims to be an open source alternative to Google Analytics.
+<br /><br />
+Piwik is a PHP MySQL software program that you download and install on your own webserver. At the end of the five minute installation process you will be given a JavaScript tag. Simply copy and paste this tag on websites you wish to track (or use an existing plugin to do it automatically for you).
+<br /><br />
+		Piwik is released under the <a href="http://piwik.org/free-software/" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>A clean and user-friendly interface to present data and to aid in data analysis.</li>
+<li>Clear and concise graphics presenting important information in an easy-to-understand format.</li>
+<li>Free:  phpMyVisites is completely free.  A logo may be added if desired.</li>
+<li>Security:  Because security is a critical software element, phpMyVisites has maximum protection against intrusions and external attacks.</li>
+<li>Multiple Web Sites:  Multiple web sites may be added. Each site will have precise and distinct statistics.</li>
+<li>Multi Users:  Add an infinite number of users and manage permissions for each user (viewing and/or administration rights for certain sites).</li>
+<li>International:  phpMyVisites is available in more than 30 languages.</li>
+<li>Open source, Free:  The source code is readily available and you are welcome to participate in the project (create new modules, personalize the interface, etc.).</li>
+<li>Precise visitor statistics over a period of time (day/week/month/year).</li>
+<li>Visitor Frequency:  new visitors, regular (known) visitors, and how often visitors view the web site.</li>
+<li>Management of web site statistics and all file types (PDF, Image, etc.).</li>
+<li>Web site page classification available (by groups, by subgroups, etc.).</li>
+<li>Visitor Analysis:  Statistics for pages where visitors leave the web site and for pages where the visitors enter the web site.</li>
+<li>Geographical Statistics:  Classification by continent/country (interactive world map).</li>
+<li>Technical Configuration Statistics:  Web browsers, resolution, managed plug-in, etc.).</li>
+<li>Complete and clear statistics about web site discovery:  How do visitors come to the web site?</li>
+<li>Five Clearly Defined Web Site Discovery Tools:  Search Engines, Web Sites, Partner Sites, Newsletters and Direct Access</li>
+<li>Able to detect more than 300 internationally-used search engines and keyword associations.</li>
+<li>Define web sites as partners and add an unlimited number of newsletters.</li>
+<li>Multiple Web Site Overview, a summary of important web site statistics for all managed web sites.</li>
+<li>Receive web site statistics everyday by e-mail, by RSS feed, etc.</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

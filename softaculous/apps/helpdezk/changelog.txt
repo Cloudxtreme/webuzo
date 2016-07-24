@@ -1,0 +1,65 @@
+[Version 1.0.1] - 09/09/2014
+Added Oracle database
+Changes in the configuration file.
+New features in the register of holiday.
+Possibility of registration  additional information when to terminate the request.
+Added Report of Requests Additional Information.
+Added button in the principal screen for the user with permition to access administrative area
+Fixed email template.
+Fixed bugs in LDAP/AD autentication.
+Fixed bugs in the program to import users .
+Developed REST API to mobile aplications.
+Added reason field when the  expiration date of request is changed.
+Added program to register  the  work hours.
+Adjustments to the system functionality.
+Added possibility to see the users phone number in the request.
+Added possibility to open requests by email.
+Added "auto refresh" in grids.
+Added feature that allow to save the show or hide certain columns in grids. .
+Added feature that allow to save the size of the columns in the grid. 
+Added feature that allows recording in the session the  columns order  of the attendants.
+
+[Version 1.0.0] - 02/12/2014
+Fix bug (Sql Injection on login page)
+Stable Version
+
+[Version 0.0.17] - 01/18/2014
+Integration with LDAP/ MS AD
+New open request screen.
+Select the area default  in request screen.
+Set default priority bug to save.
+New reports
+
+[Version 0.0.16] - 11/11/2013
+Fixed bug in login screen module warnings
+Functionality session time added
+Check if the group already exists when you enter a new
+Check if the department already exists when you enter a new
+Do not show buttons to save and forward the query screen when the request is for approval
+Adjust the search by description and added new fields in the search
+
+[Version 0.0.15] - 10/17/2013
+Set some FKs in the database.
+Added filter in repass modal.
+Possibility to increase / decrease font in reports.
+Fixed bug in department listing in the register of individuals.
+Added functionality to enable fields "Equipment" in opening requests.
+Putting the pointing solution when open request has already solved.
+Set bug in name of who created the request.
+Added functionality to allow for the reopening request for user.
+Inserted warnings module .
+fixed bug when checking  VIP users.
+Adjust the order of the groups in the insertion / editing services.
+Fix bug when editing email templates.
+Added features in the possibility of changing the name of the user who sends mail system.
+Fixed bug to only get emails from users who are active in the group.
+Fix bug in the registration program.
+Added the possibility of auxiliary attendant to insert a note.
+Fixed bug when opening request and forward.
+Fixed bug when rejecting the request, it is now placed the name of the person who rejected as responsible.	
+Adjustment in access permissions in the admin panel.
+Saving exchange status in the log table.
+Fixed bug in approving requests.
+Option "only my" on screen "in compliance" checked by default.
+Possibility to add the request to Google Calendar.
+Inserted back button in the change password modal.

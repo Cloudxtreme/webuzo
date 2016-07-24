@@ -1,0 +1,19 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>	
+		<group>
+			<heading>{{default}}</heading>	
+			<input type="checkbox" name="set_default" value="off">
+				<head>{{set-default}}</head>
+				<exp>{{exp-rem-default}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+		</group>
+		<group>
+			<heading>hidden</heading>
+				<input type="hidden" name="force_upgrade" value="off">
+					<admin type="checkbox" enabled="1"></admin>
+					<optional>true</optional>
+				</input>
+		</group>	
+	</settings>	
+</softinstall>

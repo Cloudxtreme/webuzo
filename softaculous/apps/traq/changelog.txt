@@ -1,0 +1,27 @@
+Changes in Traq v3.6.0 
+---------------------------
+    User pruning
+    Unique email address required during registration
+
+Changes in Traq v3.5.2:
+---------------------------
+    Fixed issue when creating projects without a display order.
+
+Changes in Traq v3.5.1:
+---------------------------
+    Added ability to link to wiki pages with [[page-slug]] and [[page-slug|Some text]]
+    Ticket ID is displayed with the other ticket properties
+    Disabled the loading of the latest news in the AdminCP when using HTTPS (this is temporary)
+    Fixed issue with custom fields being displayed for certain ticket types when they shouldn't have
+
+Changes in v3.5:
+---------------------------
+    Wiki page history
+    New permission: view ticket
+    Fixed issue with converting timestamps to unix style
+    Fixed issue with filtering tickets by owner
+    Fixed issue with multiple select custom fields
+
+Changes in Traq v3.4.3:
+---------------------------
+    Fixed custom field values not being displayed on the ticket listing page

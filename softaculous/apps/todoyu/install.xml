@@ -1,0 +1,59 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Company Name">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin" disabled="disabled">
+				<head>{{ad_name}}</head>
+				<optional>true</optional>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_US">English (United States)</option>
+					<option value="en_GB">English (United Kingdom)</option>
+					<option value="ca_ES">Catalan</option>
+					<option value="hr_HR">Croatian</option>
+					<option value="cs_CZ">Czech</option>
+					<option value="de_DE">German</option>
+					<option value="fr_FR">French</option>
+					<option value="it_IT">Italian</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="pl_PL">Polish</option>
+					<option value="pt_BR">Portuguese (Brazilian)</option>
+					<option value="sr_ME">Serbian</option>
+					<option value="es_CO">Spanish</option>
+					<option value="zh_CN">Chinese (Simplified)</option>
+					<option value="ja_JP">Japanese</option>
+					<option value="ru_RU">Russian</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>index.html</exclude>
+	</files>
+</softinstall>

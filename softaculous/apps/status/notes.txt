@@ -1,0 +1,6 @@
+1) Put the softaculous.png AVATARS in the folders check if it is required
+2) To add the Fancy URLs option rename the htaccess.sample file and add [[relativeurl]] and add the following in the config.php file:
+[[fancyurl]]
+[[singleuser]]
+3) Fileindex should be taken with FancyURL installed.
+

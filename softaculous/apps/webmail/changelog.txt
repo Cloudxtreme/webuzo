@@ -1,0 +1,19 @@
+[7.6.8]
+[+] Logs older than 1 day are deleted
+[+] AJAX API new methods - FileInfo, GetDavServerUrl
+[*] Bugfixes
+
+[7.6.7]
+[*] Compose screen new look
+[*] Bugfixes
+
+[7.6.6]
+[+] Global Address Book now available in WebMail Pro
+[*] Bugfixes
+
+[7.6.5]
+[*] Bugfixes.
+
+[7.6.4]
+[*] Bugfixes.
+[*] Mail compose editor performance boost.

@@ -1,0 +1,13 @@
+CHANGELOG.txt
+INSTALL.txt
+LICENSE.txt
+PEAR
+README.md
+README.txt
+UPGRADE.txt
+Zend
+backups
+index.php
+libraries
+upload
+www

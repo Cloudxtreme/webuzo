@@ -1,0 +1,80 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.prototypejs.org/learn
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Prototype
+	</ratings>
+	<space>
+		199803
+	</space>
+	<support>
+		http://www.prototypejs.org/
+	</support>
+	<version>
+		1.7.3
+	</version>
+	<mod>5</mod>
+	<release_date>22-09-2015</release_date>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Prototype</font> is a JavaScript Framework that aims to ease development of dynamic web applications.
+		<br /><br />
+		Featuring a unique, easy-to-use toolkit for class-driven development and the nicest Ajax library around, Prototype is quickly becoming the codebase of choice for web application developers everywhere.
+		<br /><br />
+		Prototype is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		Following are the features : 
+		<ul>
+<li>Easy-to-use toolkit</li>
+<li>Nicest Ajax library</li>
+<li>Object-Oriented JavaScript framework</li>
+<li>Cross-browser code</li>
+<li>Coherent API</li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font>
+		<p>The latest version of Prototype is compatible with the following browsers:</p>
+
+<table width="350">
+    <tr>
+      <th>Browser</th>
+      <th>Version(s)</th>
+    </tr>
+    <tr>
+      <td>Mozilla Firefox</td>
+      <td>>= 1.5</td>
+    </tr>
+    <tr>
+      <td>Microsoft Internet Explorer for Windows</td>
+      <td>>= 6.0</td>
+
+    </tr>
+    <tr>
+      <td>Apple Safari</td>
+      <td>>= 2.0.4</td>
+    </tr>
+    <tr>
+      <td>Google Chrome</td>
+
+      <td>>= 1.0</td>
+    </tr>
+    <tr>
+      <td>Opera</td>
+      <td>>= 9.25</td>
+    </tr>
+</table>
+
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,1 @@
+Remove the php_value and php_flag from the .htaccess file in the root folder.

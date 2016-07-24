@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/PNG
+	</ratings>
+	<space>
+		6522332
+	</space>
+	<support>
+		http://www.libpng.org/pub/png/libpng.html
+	</support>
+	<version>
+		1.6.17
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>03-28-2013</release_date>
+	
+	<extract file="libpng-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">libpng Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/libpng/lib</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/libpng/lib/libpng.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">libpng</font> is the official PNG reference library. It supports almost all PNG features, is extensible, and has been extensively tested for over 17 years. 
+		<br /><br />
+		libpng is distributed under the <a href="http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" target="_blank">OpenSource</a>
+		</english-overview>
+		<english-features>
+PNG's compression is among the best that can be had without losing image information and without paying patent fees, but not all implementations take full advantage of the available power. Even those that do can be thwarted by unwise choices on the part of the user.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

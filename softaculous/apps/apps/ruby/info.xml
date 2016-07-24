@@ -1,0 +1,75 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/server_side_scripting/Ruby
+	</ratings>
+	<space>
+		93728768
+	</space>
+	<support>
+		http://www.ruby-lang.org/en/
+	</support>
+	<version>
+		2.1.2
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>09-05-2014</release_date>	
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/ruby</path>
+	<path name="bin">/usr/local/apps/ruby/bin/ruby</path>
+	
+	<extract file="ruby-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/bin/ruby">/usr/local/apps/ruby/bin/ruby</symlink>
+	
+	<remove>/usr/local/apps/ruby</remove>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Ruby Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/ruby</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/ruby/bin/ruby</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">Ruby</font> is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
+		<br /><br />
+		Ruby is distributed under the <a href="http://www.ruby-lang.org/en/about/license.txt" target="_blank">Ruby License</a>
+		</english-overview>
+		<english-features>
+			<p>In Ruby, everything is an object. Every bit of information and code can be given their own properties and actions. Object-oriented programming calls properties by the name instance variables and actions are known as methods. Ruby's pure object-oriented approach is most commonly demonstrated by a bit of code which applies an action to a number.</p>
+			<p>Ruby is seen as a flexible language, since it allows its users to freely alter its parts. Essential parts of Ruby can be removed or redefined, at will. Existing parts can be added upon. Ruby tries not to restrict the coder.</p>
+		</english-features>
+	</languages>
+</soft>

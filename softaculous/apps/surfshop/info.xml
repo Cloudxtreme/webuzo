@@ -1,0 +1,78 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.surfshopcart.com/pages/examples.php
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/perl/ecommerce/SurfShopCART
+	</ratings>
+	<space>
+		591691
+	</space>
+	<support>
+		http://www.surfshopcart.com/forrumm/
+	</support>
+	<version>
+		2.3
+	</version>
+	<mod>3</mod>
+	<release_date>05-03-2016</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<index>shop.cgi</index>
+	<admin>admin.cgi</admin>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SurfShopCART</font> is an easy to use, yet powerful shopping cart and e-commerce solution that will give you the peace of mind that you want when you need to trust your business on the Internet.<br /><br />
+		It enables you to easily run a verified mailing list that your subscribers can trust, right on your own website.
+		<br /><br />Comes complete with a secure browser-based admin, search engine, optional customer sign-in, gift certificates, unlimited shipping options and calculations, mobile-friendly design - and much more.
+		<br /><br />
+		SurfShopCART is licensed under <a href="http://opensource.org/licenses/GPL-3.0" target="_blank">GNU General Public License, version 3</a>.
+		</english-overview>		
+		<english-features>
+<h3><font color="#333333">Rock Solid</font></h3>
+	<ul>
+    <li>No other feature is as important as this one when you need to trust your business to an e-commerce shopping cart. It's also extremely secure. Sleep sound tonight knowing that you have one less thing to worry about.</li>
+	</ul>
+<h3><font color="#333333">Beautiful HTML5/CSS3 Templates</font></h3>
+	<ul>
+    <li>The HTML templates that come with SurfShop are so nice you may never want to change them. However, since they're based on Boostrap 3, they're easy to work with if you find a need to modify them.</li>
+	</ul>
+<h3><font color="#333333">Adding Products Is A Breeze</font></h3>
+	<ul>
+    <li>You can add products one at a time in the admin section or upload them in bulk. And you can do the same with your categories! Very few carts have bulk category uploads. This is a HUGE time saver if you already have them in a database, spreadsheet, or text file.</li>
+	</ul>
+<h3><font color="#333333">Unlimited Sub-Categories</font></h3>
+	<ul>
+    <li>You can have as many categories and sub-categories as your business needs. Plus, you can assign multiple categories to products. You're not locked in with the SurfShop™ e-commerce system.</li>
+	</ul>
+<h3><font color="#333333">Customer Accounts</font></h3>
+	<ul>	
+    <li>Forcing a customer to create an account just to make a purchase is probably the single biggest frustration people have with online stores. SurfShop does not force your customers to create an account before they purchase through your cart. However, if they do, you can have special 'members only' pricing for them, and/or set up a mailing list for preferred customers.</li>
+	</ul>
+<h3><font color="#333333">Multiple Pricing Levels</font></h3>
+	<ul>	
+    <li>Retail, wholesale and member prices give you a wide range of customers you can support. Plus, you can also set up special sales with beginning and ending dates. With these 4 base prices, plus any fees or discounts using the calculation engine, your pricing options are endless!</li>
+	</ul>
+<h3><font color="#333333">Powerful Calculations</font></h3>
+	<ul>	
+    <li>You simply have to try this feature to see what we mean. You're not stuck using pre-programmed, simplistic formulas. Nor do you have to buy add-on modules just to do what you want. Create your own formulas to suit your business - not the other way around.</li>
+	</ul>
+<h3><font color="#333333">Powerful Calculations</font></h3>
+	<ul>	
+    <li>You simply have to try this feature to see what we mean. You're not stuck using pre-programmed, simplistic formulas. Nor do you have to buy add-on modules just to do what you want. Create your own formulas to suit your business - not the other way around.</li>
+	</ul>
+<h3><font color="#333333">Admin Section</font></h3>
+	<ul>	
+    <li>With it's browser-based admin section, you have easy and secure access to all the info in your online store. Importing and exporting of your products, categories, photos, etc. can all be handled with your browser. An extremely clean layout makes it easy to find information by date, order ID, customer name, etc. to make customized reports.</li>
+	</ul>
+		</english-features>
+		<english-comp_name>Merchant Company Name</english-comp_name>
+	</languages>
+</soft>

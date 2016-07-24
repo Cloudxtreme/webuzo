@@ -1,0 +1,2 @@
+1. Add error_reporting(0); in settings.inc
+2. Please check in the next version if it works with PHP 5.3+ then remove the condition in install.php that it is not compatible with PHP 5.3+

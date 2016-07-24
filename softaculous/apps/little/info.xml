@@ -1,0 +1,42 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/LittlePoll
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/LittlePoll
+	</ratings>
+	<space>
+		33515
+	</space>
+	<support>
+		http://www.mr-corner.com/LittlePoll/
+	</support>
+	<version>
+		1.3
+	</version>
+	<mod>8</mod>
+	<admin>lp_admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Simple</font> things can be amazing. Asking questions to your visitors shouldn't be rocket science. No databases, no fuss.
+		<br /><br />
+The Amazing Little Poll is a very simple php polling script. It does what it should do, and it is especially optimized to make it very easy to set-up. Making a script that works is one thing, but making a script that works for everybody is another!
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Create polls</li>
+<li>Simple to use</li>
+<li>Data Logging</li>
+</ul>		
+		</english-features>
+	</languages>
+</soft>

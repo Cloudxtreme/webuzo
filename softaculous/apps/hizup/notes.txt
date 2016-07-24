@@ -1,0 +1,4 @@
+1. For Enduser redirect Add our .htaccess (Not required now)
+2. Remove Windows condition once module installation starts working. Seems to work with 1.3.5, confirm with the next version and enable if required (Not required from 1.3.6)
+3. select "Social Dating Niche" from 1.3.0v
+4. SET @sDefIp = '37.205.56.35'; is defined in package sql itself for "Affiliates" & "Members" table in v1.3.6

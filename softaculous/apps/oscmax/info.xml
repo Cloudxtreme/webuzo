@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/osCmax
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/osCmax
+	</ratings>
+	<space>
+		23846242
+	</space>
+	<support>
+		http://www.oscmax.com/forums/forum.php
+	</support>
+	<version>
+	   2.5.4
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<admin>admin123</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<requirement check="php" type="extension" name="mysql" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="openssl" /> 
+ 	<languages>
+	<english-overview>
+    <font size="5" color="#182e7a">osCmax</font> is a powerful e-commerce/shopping cart web application. osCmax has all the features needed to run a successful     internet store and can be customized to whatever configuration you need.<br/><br/>
+	 osCmax is released under the <a href="http://www.gnu.org/licenses/gpl.txt" target="_blank">GNU General Public License</a>.
+	</english-overview>		
+    <english-features>
+	  <ul>
+      <li>Unlimited Products and Categories.</li>
+      <li>Gift Vouchers/Coupons.</li>
+      <li>Download/Virtual Product support.</li>
+      <li>Secure/Stable code base.</li>
+      <li>Web Based Admin Panel.</li>
+      <li>Supports PayPal, AuthorizeNet, Real time credit card processing.</li>
+      <li>Supports UPS, USPS and Fedex shipping.</li>
+	  <li>Full inventory control and tracking.</li>
+      <li>Spreadsheet/Excel based data entry for advanced users.</li>
+      <li>Separate customer groups (Retail, Wholesale, or add your own groups).</li>
+      <li>100% FREE!.</li>
+	  </ul>
+	</english-features>
+	<english-ad_dir>Admin Folder</english-ad_dir>
+	</languages>
+</soft>

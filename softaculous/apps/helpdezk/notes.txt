@@ -1,0 +1,2 @@
+1. Timezone : America/Newyork
+2. Dump the sql by command : mysqldump --routines -u root -pmysql helpdezk14 > helpdezk.sql

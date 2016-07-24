@@ -1,0 +1,2 @@
+prototype.js
+index.php

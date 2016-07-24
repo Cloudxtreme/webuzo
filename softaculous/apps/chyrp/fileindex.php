@@ -1,0 +1,12 @@
+README.markdown
+admin
+favicon.ico
+feathers
+includes
+index.php
+install.php
+modules
+themes
+upgrade.php
+uploads
+.htaccess

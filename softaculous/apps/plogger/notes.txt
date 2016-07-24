@@ -1,0 +1,1 @@
+Copy the themes folder from /plog-content/thumbs  to  /plog-content/themes

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase [[relativeurl]]/avactis-system/admin/mod_rewrite_test_02
+RewriteRule .* mod_rewrite_test.txt
+</IfModule>

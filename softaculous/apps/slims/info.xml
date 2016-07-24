@@ -1,0 +1,78 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SLiMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/SLiMS
+	</ratings>
+	<space>
+		28585352
+	</space>
+	<support>
+		http://forum.slims.web.id/
+	</support>
+	<version>
+		8.2
+	</version>
+	<mod>4</mod>
+	<release_date>07-03-2016</release_date>
+	<admin>index.php?p=login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SLiMS</font> (Senayan Library Management System) is a free and open source Library Management System. It is build on free and open source technology like PHP and MySQL.<br /><br />
+		 SLiMS provides many features such as bibliography database, circulation, membership management and many more that will help "automating"  library tasks.  
+		<br /><br />
+		SLiMS is licensed under <a href="http://slims.web.id/web/?q=license" target="_blank">GNU GENERAL PUBLIC LICENSE V3</a>.
+		</english-overview>			
+		<english-features>
+		<ul><font size="2">
+<li>Online Public Access Catalog (OPAC) with thumbnail document image support (can be use for book cover), Simple Search and Advanced Search mode</li>
+<li>Digital contents/files (PDF, DOC, RTF, XLS, PPT, Video, Audio, etc.) attachment in each bibliographic record support</li>
+<li>Documents record detail in MODS (Metadata Object Description Schema) XML format</li>
+<li>RSS (Really Simple Syndication) XML format for OPAC</li>
+<li>OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) in Dublin Core format for metadata harvesting purpose</li>
+<li>Bibliographic/catalog database management with book cover image support</li>
+<li>Serial publication control</li>
+<li>Document items (book copies) management with barcode support</li>
+<li>Master Files management to manages document referential data such as GMD, Collection Types, Publishers, Authors, Locations, Authors and Suppliers</li>
+<li>Circulation support with following sub-features :
+<ul>
+<li>Loan and Return transaction</li>
+<li>Collections reservation</li>
+<li>Quick return</li>
+<li>Configurable and flexible Loan Rules</li>
+<li>Membership management</li>
+<li>Stock Taking module to help Stock Op name process in library</li>
+<li>Reporting and Statistics</li>
+</ul>
+</li>
+<li>System modules with following sub-features :
+<ul>
+<li>Global system configuration</li>
+<li>Modules management</li>
+<li>Application Users and Groups management</li>
+<li>Holiday settings</li>
+<li>Barcodes generator utility</li>
+<li>Database backup utility</li>
+</ul>
+</li>
+<li>Responsive user interface</li>
+<li>3rd party bibliographic records indexing support with Sphinx Search and MongoDB</li>
+</font></ul>
+		</english-features>
+		<english-special_character>Spaces and Special characters are not allowed for</english-special_character>
+	</languages>
+</soft>

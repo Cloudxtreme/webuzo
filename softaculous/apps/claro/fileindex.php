@@ -1,0 +1,14 @@
+AUTHENTICATION.txt
+CREDITS.txt
+CUSTOMIZE.txt
+INSTALL.txt
+LICENSE.txt
+README.txt
+claroline
+favicon.ico
+index.php
+module
+web
+courses
+platform
+tmp

@@ -1,0 +1,50 @@
+2.46v
+
+1. Option to disable iframes rendering. It just increases security in some cases.
+2. href links in co-browsing will be replaced with javascript:void(0), so in order operator to click invalid link he will have to type it manually.
+
+execute doc/update_db/update_121.sql for update
+
+2.45v
+
+1. Admin themes
+execute doc/update_db/update_120.sql for update
+
+2.44v
+
+1. Rest API Initial version
+
+2.43v
+
+1. Chat lists will have option to filter by product
+2. Chat's widgets can be filtered by product
+3. Custom field in users account which would be used instead of Name surname if filled.
+
+execute doc/update_db/update_118.sql for update
+
+2.42v
+
+1. Product concept, few products can be assigned to single department [Sponsored]
+2. Passwords are stored using password_hash function. [Improved security]
+3. Cleanup user part [General]
+4. 5.4 PHP required
+5. https://github.com/LiveHelperChat/livehelperchat/issues/789
+6. Option to securely encrypt passed data to additional form data. [Sponsored]
+7. Paid chats concept, tutorial article is comming. [Sponsored]
+
+2.41v
+
+1. New statistic - unanswered chats. Chat becames unanswered if
+
+a. User starts chat and there is message field and chat is pending.
+b. Operator accepts a chat but visitor has already closed chat widget chat remains unanswered.
+c. If chat started in proactive mode and user filled message and chat is not accepted yet.
+d. Unanswered chat flag is removed.
+
+2. User row has 3 additional attributes which can be used for extensions.
+attr_int_1
+attr_int_2
+attr_int_3
+
+execute doc/update_db/update_116.sql for update
+

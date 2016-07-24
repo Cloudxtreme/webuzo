@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpAlbum
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/phpAlbum
+	</ratings>
+	<space>
+		666730
+	</space>
+	<support>
+		http://www.phpalbum.net/
+	</support>
+	<version>
+		0.4.1.16
+	</version>
+	<mod>7</mod>
+	<mod_files>3</mod_files>
+	<admin>main.php?cmd=album&amp;var1=&amp;login</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpAlbum</font> is an Open Source PHP script which allows you to create your personal Photo Album / Gallery in just a seconds. All you need is a web space with FTP access. No database is needed. After a few clicks you are ready to upload your photos, create new directories /galleries, and use your photo album. 
+		<br /><br />
+		phpAlbum is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+These are the features which phpAlbum offers you:<br />
+<ul>
+<li>Automatic generation of thumbnails and resized</li>
+<li>Commenting of pictures with antispam security code</li>
+<li><font color="#cc0000"><b>NEW!</b></font><b> IPTC Support, import of keywords and picture description, showing other IPTC-tags</b></li>
+<li><font color="#cc0000"><b>NEW!</b></font><b> E-Card - you can now send e-cards to your friends and family</b></li>
+<li>Screenshots for files to be downloaded, movie, audio, exe or whatever</li>
+<li>Password protection for your private galleries</li>
+
+<li>Admin section for creating new directories, uploading photos (works even with PHP safe_mode=on),Uploading ZIP Files preserving directory structure</li>
+<li>Short and long description of galleries/directories and photos</li>
+<li>Highly customizable layout, separated layout(HTML) from functional code, this allows easy creation of new themes</li>
+<li>Caching of all generated thumbnails and resized photos</li>
+<li>Transparent logo and icon processing with any background color, including IE6</li>
+<li>Access logging, with exclude strings</li>
+<li>And last but not least, you can help us with your suggestions to create usable, easy to install, php photo album script.</li>
+</ul>
+
+		</english-features>
+	</languages>
+</soft>

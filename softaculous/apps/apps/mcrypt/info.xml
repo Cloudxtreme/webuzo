@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/Mcrypt
+	</ratings>
+	<space>
+		266240
+	</space>
+	<support>
+		http://mcrypt.sourceforge.net/
+	</support>
+	<version>
+		2.6.8
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>14-09-2012</release_date>
+	
+	<requires>libmcrypt</requires>
+	<requires>mhash</requires>
+	<requires>libiconv</requires>
+	
+	<extract file="mcrypt-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Mcrypt :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Prefix</td>
+				<td>/usr/local/apps</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/bin/mcrypt</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Mcrypt</font>, and the accompanying libmcrypt, are intended to be replacements for the old Unix crypt, except that they are under the GPL and support an ever-wider range of algorithms and modes.
+		<br /><br />
+		mcrypt is distributed under the <a href="http://sourceforge.net/directory/license:gpl/" target="_blank">GNU General Public License version 2.0 (GPLv2)</a>
+		</english-overview>
+		<english-features>
+			No Information
+		</english-features>
+	</languages>
+</soft>

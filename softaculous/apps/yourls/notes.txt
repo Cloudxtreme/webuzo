@@ -1,0 +1,7 @@
+1. We add the index.php because it does not display any content on frontend so just added index.php which includes admin/index.php
+2. Database Upgrade is to be done only when the datbase version has changed in options table
+3. We have tested since the versions in 2011 and there is no database change, so when there is database change in future please check auto upgrade properly
+4. We copy the mod_upgrade.php for auto upgrade and then after auto upgrade we revert the original file orig_upgrade.php
+if(empty($_POST['softlogin'])){
+	yourls_maybe_require_auth();
+}

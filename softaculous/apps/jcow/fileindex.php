@@ -1,0 +1,17 @@
+.DS_Store
+.htaccess
+Install.txt
+License.txt
+files
+includes
+index.php
+install
+install.php
+js
+modules
+my
+robots.txt
+themes
+upgrade.php
+upgrade.txt
+uploads

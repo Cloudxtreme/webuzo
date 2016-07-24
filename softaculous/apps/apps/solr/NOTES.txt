@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the binary tar package from (http://lucene.apache.org/solr/mirrors-solr-latest-redir.html)

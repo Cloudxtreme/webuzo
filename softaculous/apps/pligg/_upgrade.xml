@@ -1,0 +1,15 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>install/upgrade.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>settings.php</exclude>
+		<exclude>libs/dbconnect.php</exclude>
+	</files>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

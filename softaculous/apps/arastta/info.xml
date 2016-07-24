@@ -1,0 +1,91 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Arastta
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Arastta
+	</ratings>
+	<space>
+		52661921
+	</space>
+	<support>
+		http://arastta.org/forum
+	</support>
+	<version>
+		1.3.2
+	</version>
+	<mod>13</mod>
+	<release_date>18-05-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.10" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Arastta</font> is the next generation of eCommerce software built with modern technologies such as Symfony, Doctrine (soon), MVC, Bootstrap, jQuery, Swift Mailer etc. Thanks to it's modular and lightweight structure, Arastta provides an awesome marketplace for theme and extension developers.
+		<br /><br />
+		Arastta is released under the <a href="https://gnu.org/licenses/quick-guide-gplv3.html" target="_blank">GNU GPLv3 license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>Responsive Design<br/>
+			Arastta is fully responsive with its core. Sell with Arastta on every device.</li>
+			<li>App Store<br/>
+			Without leaving Arastta admin, you can install or purchase anything.</li>
+			<li>Checkout Simplified<br/>
+			Made it easy! With Arastta checkout is completed in just 3 steps.</li>
+			<li>Theme Customizer<br/>
+			No code knowledge required. Create your own theme in seconds on the fly.</li>
+			<li>Layout Manager<br/>
+			Managing your modules for the layout is just piece of cake. Drag &amp; drop.</li>
+			<li>SEO Boosted<br/>
+			Get better results from search engines thanks to Arastta's great SEO features.</li>
+			<li>Security Increased<br/>
+			Arastta provides advanced security options and keeps your site safe.</li>
+			<li>Performance Improved<br/>
+			Caching technology and high quality code provides best performance.</li>
+			<li>Menu System<br/>
+			Just create, drag &amp; drop and manage your menus with ease.</li>
+			<li>Search Ajaxified<br/>
+			Thanks to Ajax Search just let your customers find products while typing.</li>
+			<li>Stats Redifened<br/>
+			Thanks to built-in stats &amp; graphs you will get every details with graphics.</li>
+			<li>Multi-language Enhanc.<br/>
+			Create your multi-language store easily and start to sell to the world.</li>
+			<li>Translations Eased<br/>
+			Forget hacking language files. Change language text within admin panel.</li>
+			<li>Admin Interface<br/>
+			Managing your products, categories via admin panel is just a peace of cake.</li>
+			<li>Marketing Organised<br/>
+			Reach your marketing tools from the same interface and get an overview.</li>
+			<li>Mail Delivered<br/>
+			Yours and your customers' mails are in safe and delivered with Swift Mailer.</li>
+			<li>File Manager<br/>
+			No need to login your FTP or cPanel. Manage your files via File Manager.</li>
+			<li>Built-in Export-Import<br/>
+			Import or Export your data within one-click via Excel files.</li>
+			<li>Migration Tools<br/>
+			No need to wait, just migrate your store from others with ease.</li>
+			<li>Backward Compatible<br/>
+			Keep using your extensions and themes after new updates.</li>
+			<li>Trigger System<br/>
+			Modify the core without hacking it thanks to the event system.</li>
+			<li>Technology Upgraded<br/>
+			Arastta uses the latest &amp; leading technologies and coding systems.</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

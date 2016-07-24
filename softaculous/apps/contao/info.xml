@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Contao
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Contao
+	</ratings>
+	<space>
+		45553273
+	</space>
+	<support>
+		http://www.contao.org/
+	</support>
+	<version>
+		3.5.12
+	</version>
+	<mod>57</mod>
+	<release_date>22-04-2016</release_date>
+	<admin>contao/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="dom" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Contao</font> is an open source content management system (CMS) for people who want a professional internet presence that is easy to maintain.
+		<br /><br />
+
+		The state-of-the-art structure of the system offers a high security standard and allows you to develop search engine friendly websites that are also accessible for people with disabilities. Furthermore, the system can be expanded flexibly and inexpensively. 
+		<br /><br />
+		Contao is released under the <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU Lesser General Public License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Advanced editing features</li>
+<li>Powerful site structure</li>
+<li>Fine-grained permission system</li>
+<li>Flexible form generator</li>
+<li>Full-text search engine</li>
+<li>Built-in CSS framework</li>
+<li>Built-in file manager</li>
+<li>Built-in news/blog module</li>
+<li>Built-in calendar module</li>
+<li>Built-in newsletter module</li>
+<li>Wide choice of additional modules</li>
+<li>Accessible front and back end</li>
+<li>Easy live update</li>
+<li>Ajax and PHP 5</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

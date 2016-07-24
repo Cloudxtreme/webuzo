@@ -1,0 +1,2 @@
+1. We have added slims v8.1 as 8 since v8.1 is not mentioned anywhere in the package. It is mentioned only over site as 8.1.
+2. Check how is the $sysconf['tg']['relative_url'] generated in sysconfig.inc.php

@@ -1,0 +1,11 @@
+config.php
+core
+data
+feed.php
+index.php
+install.php
+plugins
+readme
+sitemap.php
+themes
+update

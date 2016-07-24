@@ -1,0 +1,3 @@
+1. Keep root and public folder writable in manual install
+2. vendor has provide us the license.txt [ time limitation is removed and instead user limitation are added(i.e. limit number of users). Also, we never need to get another license file since it never expires. ]
+

@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ocPortal
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/ocPortal
+	</ratings>
+	<space>
+		34945118
+	</space>
+	<support>
+		http://www.ocportal.com/
+	</support>
+	<version>
+		9.0.25
+	</version>
+	<mod>44</mod>
+	<release_date>10-03-2016</release_date>
+	<admin>adminzone/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ocPortal</font> is the website Content Management System (a “CMS”) for building and maintaining a dynamic website. ocPortal's powerful feature-set means there's always a way to accomplish your vision.
+<br /><br />
+		Not only does ocPortal's CMS have all the features you'd expect: for instance photo galleries, news, file downloads and community forums/chats, but it does so whilst meeting the highest accessibility and professional standards. It is also smart enough to go beyond page management, to automatically handle search engine optimisation, and provide aggressive hack attack prevention.
+		<br /><br />
+		ocPortal is license under <a href="http://www.opensource.org/licenses/cpal_1.0" target="_blank">CPAL License</a>
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>ocPortal can be thoroughly customised </li>
+			<li>You can remove any features you don't need</li>
+			<li>you can do a surprising amount without a programmer</li>
+			<li>With ocPortal you can focus on design and stop having to hammer bits of technology into shape</li>
+			<li>Through ocPortal's advanced theme technology you can get a unique design up quickly </li>
+			<li>You can integrate ocPortal with most forum software, so that forum users may login to the site</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

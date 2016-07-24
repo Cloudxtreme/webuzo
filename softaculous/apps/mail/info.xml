@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Webinsta_Maillist
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/Webinsta_Maillist
+	</ratings>
+	<space>
+		2595657
+	</space>
+	<support>
+		http://www.webinsta.com/mailing.php
+	</support>
+	<version>
+		1.3e
+	</version>
+	<mod>7</mod>
+	<mod_files>1</mod_files>
+	<admin>maillist/admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">WEBinsta Maillist</font> manager is built to provide a centralized mailing list / newsletter system for small to medium website . Its simple yet quite powerfull . It support the standard subscribe and un-subscribe , remote verification , unsubscribe links , attachments and host of other such features . The best of all the total integration is less than 3 lines of code .
+		<br /><br />
+		Maillist is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+The various features are :<br />
+<ul>
+<li>Very simple integration into existing design ("no index.php ").</li>
+<li>Several database support.</li>
+<li>Deletion, setting, editing and other options from a centralized control panel .</li>
+<li>Suited for a small to medium website .</li>
+<li>Good looking and fun to work with .</li>
+<li>Multilingual support ( currently English , German , Dutch ,Spanish and Swedish and many others ) .</li>
+<li class="text">Templates for a real professional newsletter .</li>
+</ul>
+
+		</english-features>
+	</languages>
+</soft>

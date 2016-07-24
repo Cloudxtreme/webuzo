@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHProjekt
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/PHProjekt
+	</ratings>
+	<space>
+		94201485
+	</space>
+	<support>
+		http://www.phprojekt.com
+	</support>
+	<version>
+		6.2.1
+	</version>
+	<mod>14</mod>
+	<mod_files>5</mod_files>
+	<admin>htdocs</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHProjekt</font> is a modular application for the coordination of group activities and to share informations and document via the web.
+Components of PHProjekt: Group calendar, project management, time card system, file management, contact manager, mail client and many other modules.
+		<br /><br />
+		PHProjekt is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL</a>.
+		</english-overview>		
+		<english-features>
+Projects<br />
+Time card system<br />
+Contact manager<br />
+Calendar<br />
+Chat<br />
+Forum<br />
+Request tracker<br />
+Mail client<br />
+Files<br />
+Notes<br />
+Bookmarks<br />
+Voting system<br />
+Administration<br />
+Todo list<br />
+Reminder<br />
+Search System<br />
+		</english-features>	
+	</languages>
+</soft>

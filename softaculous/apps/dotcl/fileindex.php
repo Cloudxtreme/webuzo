@@ -1,0 +1,14 @@
+CHANGELOG
+CONTRIBUTING.md
+CREDITS
+LICENSE
+README.md
+admin
+cache
+db
+inc
+index.php
+locales
+plugins
+public
+themes

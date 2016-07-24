@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Family_Connections
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/Family_Connections
+	</ratings>
+	<space>
+		23124638
+	</space>
+	<support>
+		http://support.familycms.com/
+	</support>
+	<version>
+		3.6.2
+	</version>
+	<mod>3</mod>
+	<release_date>05-03-2016</release_date>
+	<admin>index.php</admin>
+	<verify_dom>1</verify_dom>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="zip" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Family Connections</font> is a Private Social Networking Share pictures and videos. Have discussions. Start a family tree.
+		<br /><br />
+		Family Connections is released under the <a href="https://www.familycms.com/license.php" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+			<h3>Private</h3>
+			Privacy is a big part of Family Connections. Your site is password protected and you control who has access and who doesn't.
+            <h3>Photos/Videos</h3>
+                Share photos safely and securely. Upload from your computer or import them from Instagram. Share videos through YouTube.
+            <h3>Communicate</h3>
+                Have a discussion on the message board, chat in real time, start a blog or even send private messages.
+            <h3>Calendar</h3>
+                Never forget a birthday, anniversary or other important date. Send out invitations and keep track of who's coming and who's not.
+            <h3>Family Tree</h3>
+                Collabrativly discover your family history by building a family tree.
+            <h3>Address Book</h3>
+                Organize contact information like email, phone and address.
+		</english-features>
+		<english-b_date>Birth Date</english-b_date>
+		<english-b_date_exp>Please enter the Birth Date in DD-MM-YYYY format.</english-b_date_exp>
+		<english-err_date>The date has to be in DD-MM-YYYY format.</english-err_date>
+		<english-err_birthday>Birth Date has to be between 1 and 31.</english-err_birthday>
+		<english-err_birthm>Birth Month has to be between 1 and 12.</english-err_birthm>
+		<english-err_birthy>Birth Year has to be between 1915 and 2014.</english-err_birthy>
+	</languages>
+</soft>

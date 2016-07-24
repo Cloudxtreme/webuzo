@@ -1,0 +1,3 @@
+If you get warnings on the index page and admin page then add the following line in 'index.php', 'adminactions.php' and 'admin.php' and 'ffabstraction.php':
+
+error_reporting(E_PARSE);

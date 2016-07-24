@@ -1,0 +1,148 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/Dovecot
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://www.dovecot.org/
+	</support>
+	<version>
+		2.x
+	</version>
+	<mod>6</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date></release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/etc/dovecot</path>
+	<path name="daemon">/usr/sbin/dovecot</path>
+	<path name="conf_dir">/etc/dovecot</path>
+	<path name="conf">/etc/dovecot/dovecot.conf</path>
+	
+	<initd name="dovecot">/etc/init.d/dovecot</initd>
+	<notes>
+		<center><font size="5" color="#182e7a">Dovecot Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Daemon</td>
+				<td>/usr/sbin/dovecot</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/etc/dovecot/dovecot.conf</td>
+			</tr>
+			<tr>
+				<td>Conf Dir</td>
+				<td>/etc/dovecot</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Dovecot</font> is an open source IMAP and POP3 email server for Linux/UNIX-like systems, written with security primarily in mind.
+		<br /><br />
+		Dovecot is an excellent choice for both small and large installations. It's fast, simple to set up, requires no special administration and it uses very little memory.
+		<br /><br />
+		Dovecot is distributed under the <a href="http://opensource.org/licenses/MIT" target="_blank">The MIT License (MIT)</a>
+		</english-overview>
+		<english-features>
+<p>Some of the most notable features of Dovecot include:</p>
+
+<ul>
+  <li>Dovecot is among the <strong>highest performing</strong> IMAP servers
+   while still supporting the <strong>standard</strong>
+   <a href="http://wiki2.dovecot.org/MailboxFormat/mbox">mbox</a> and
+   <a href="http://wiki2.dovecot.org/MailboxFormat/Maildir">Maildir</a>
+   formats. The mailboxes are transparently indexed, which gives Dovecot its
+   good performance while still providing full compatibility with existing
+   mailbox handling tools.</li>
+
+  <li>Dovecot is <strong>standards compliant</strong>. Dovecot v1.1 passes
+   all <a href="http://imapwiki.org/ImapTest/ServerStatus">IMAP server
+   standard compliancy tests</a> while most other servers fail many of
+   them.</li>
+
+  <li>Dovecot's indexes are <strong>self-optimizing</strong>. They contain
+   exactly what the user's client commonly needs, no more and no less.</li>
+
+  <li>Dovecot is <strong>self-healing</strong>. It tries to fix most of the
+   problems it notices by itself, such as broken index files. The problems are
+   however logged so the administrator can later try to figure out what caused
+   them.</li>
+
+  <li>Dovecot tries to be <strong>admin-friendly</strong>. Common error
+   messages are made as easily understandable as possible. Any crash, no
+   matter how it happened, is considered a bug that will be fixed.</li>
+
+  <li>Dovecot allows mailboxes and their indexes to be modified by multiple
+   computers at the same time, while still performing well. This means that
+   Dovecot <strong>works well with clustered filesystems</strong>.
+   <a href="http://wiki2.dovecot.org/NFS">NFS has caching problems</a>,
+   but you can work around them with <a href="http://wiki2.dovecot.org/Director">
+   director proxies</a>.</li>
+
+  <li>Dovecot's user authentication is extremely flexible and feature-rich,
+   supporting many different
+   <a href="http://wiki2.dovecot.org/Authentication">authentication
+   databases</a> and
+   <a href="http://wiki2.dovecot.org/Authentication/Mechanisms">mechanisms.</a>
+   </li>
+
+  <li><a href="http://www.postfix.org/">Postfix</a> 2.3+ and
+   <a href="http://www.exim.org/">Exim</a> 4.64+ users can do SMTP
+   authentication directly against Dovecot's authentication backend without
+   having to configure it separately.</li>
+
+  <li>Dovecot supports easy
+   <a href="http://wiki2.dovecot.org/Migration">migration from many existing
+   IMAP and POP3 servers</a>, allowing the change to be transparent to
+   existing users.</li>
+
+  <li>Dovecot supports <a href="http://wiki2.dovecot.org/Clients">workarounds</a>
+   for several bugs in IMAP and POP3 clients. Since the workarounds may cause
+   the protocol exchange to be slightly less optimal, you can enable only the
+   workarounds you need.</li>
+
+  <li>Dovecot's <a href="http://wiki2.dovecot.org/Design/Processes">design</a>
+   and <a href="/doc/securecoding.txt">implementation</a> is highly focused on
+   security. Rather than taking the traditional road of just fixing
+   vulnerabilities whenever someone happens to report them,
+   <a href="security.html">I offer 1000 EUR</a> of my own money to the first
+   person to find a security hole from Dovecot.</li>
+
+  <li>Dovecot is easily extensible.
+   <a href="http://wiki2.dovecot.org/Plugins">Plugins</a> can add new commands,
+   modify existing behavior, add their own data into index files or even add
+   support for new mailbox formats. For example
+   <a href="http://wiki2.dovecot.org/Quota">quota</a> and
+   <a href="http://wiki2.dovecot.org/ACL">ACL support</a> are completely
+   implemented as plugins.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,83 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/databases/JasDB
+	</ratings>
+	<space>
+		8064
+	</space>
+	<support>
+		http://www.oberasoftware.com/support/
+	</support>
+	<version>
+		0.8
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>23-07-2013</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/jasdb</path>
+	<path name="bin">/usr/local/apps/jasdb/starst.sh</path>	
+	
+	<extract file="jasdb-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/jasdb</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">JasDB Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/jasdb</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/jasdb/start.sh</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">JasDB</font> is a NoSQL database using a document-based storage mechanism. We developed JasDB to provide an alternative to current document-based implementations out there, to add something new to the industry and give users more choices. 
+		<br /><br />
+		JasDB was designed with easy of use and minimal configuration in mind. JasDB can be installed and configured in almost no time at all. Use JasDB as an embedded DB inside your JVM or you can use it to store your unstructured data in JSON format. If you want to scale JasDB, simply run and use it through the REST webservice. 
+<br /><br />
+		JasDB is distributed under the <a href="http://www.oberasoftware.com/jasdb-2/jasdb-mit-x11-license/" target="_blank">MIT X11 license</a>
+		</english-overview>
+		<english-features>
+			* Run as embedded DB inside the JVM<br />
+			* JSON Document storage<br />
+			* REST interface<br />
+			* Runs on Android<br />
+			* Complete Querying functionality<br />
+			* High concurrency environment<br />
+			* Stackable components allow great flexibility<br />
+			* Extensible<br />
+			* User security and granting model
+		</english-features>
+	</languages>
+</soft>

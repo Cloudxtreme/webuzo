@@ -1,0 +1,39 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/sNews
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/sNews
+	</ratings>
+	<space>
+		270427
+	</space>
+	<support>
+		http://snewscms.com/
+	</support>
+	<version>
+		1.7.1
+	</version>
+	<mod>8</mod>
+	<mod_files>4</mod_files>
+	<admin>login/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">sNews</font> is a completely free, standards compliant, PHP and MySQL driven Content Management System. sNews is extremely lightweight, simple and customizable. It's easy to install, and easy to use via a simple web interface. sNews consists of only one core engine file, one independent template file and its accompanying CSS stylesheet file, plus an .htaccess file that makes all URLs search engine friendly.
+		<br /><br />
+		sNews is released under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>.
+		</english-overview>		
+		<english-features>
+<i>No Info</i>
+		</english-features>
+	</languages>
+</soft>

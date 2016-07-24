@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Omeka
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/Omeka
+	</ratings>
+	<space>
+		60642695 
+	</space>
+	<support>
+		http://omeka.org/
+	</support>
+	<version>
+		2.4.1
+	</version>
+	<mod>27</mod>
+	<release_date>25-05-2016</release_date>
+	<admin>admin/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.2" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Omeka</font> is a free, flexible, and open source web-publishing platform for the display of library, museum, archives, and scholarly collections and exhibitions.
+		<br /><br />
+		Omeka makes launching an online exhibition as easy as launching a blog.
+		<br /><br />
+		Omeka is designed with non-IT specialists in mind, allowing users to focus on content and interpretation rather than programming. It brings Web 2.0 technologies and approaches to academic and cultural websites to foster user interaction and participation. 
+		<br /><br /> 
+		Omeka is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Batch importing and data sharing</li>
+<li>Metadata input and support</li>
+<li>Web 2.0 and online visitor interaction</li>
+<li>Representing data in different contexts</li>
+<li>Annotating and displaying item files</li>
+<li>Security and site performance</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

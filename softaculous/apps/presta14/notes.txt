@@ -1,0 +1,4 @@
+1. Choose database Engine 'MYISAM'
+2. Installation type "full mode"
+3. Add [[language]] in SQL employee table
+4. If it is asked for Default country: United States and Shop timezone: US/Eastern

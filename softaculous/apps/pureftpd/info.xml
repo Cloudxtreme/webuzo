@@ -1,0 +1,91 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/Pure-FTPd
+	</ratings>
+	<space>
+		888690
+	</space>
+	<support>
+		http://www.pureftpd.org/project/pure-ftpd
+	</support>
+	<version>
+		1.0.42
+	</version>
+	<mod>7</mod>
+	<softversion>
+		4.5.4
+	</softversion>
+	<major>1</major>
+	<release_date>27-07-2015</release_date>
+	
+	<requires>perl</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/pureftpd</path>
+	<path name="pure-pw">/usr/local/apps/pureftpd/bin/pure-pw</path>
+	<path name="daemon">/usr/local/apps/pureftpd/sbin/pure-ftpd</path>
+	<path name="sbin">/usr/local/apps/pureftpd/sbin</path>
+	<path name="conf_dir">/usr/local/apps/pureftpd/etc</path>
+	<path name="conf">/usr/local/apps/pureftpd/etc/pure-ftpd.conf</path>
+	<path name="datadir">/var/webuzo</path>
+	
+	<initd name="pure-ftpd">/usr/local/apps/pureftpd/bin/pureftpdctl</initd>
+	
+	<extract file="pureftpd-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/sbin/pure-ftpd">/usr/local/apps/pureftpd/sbin/pure-ftpd</symlink>
+	<symlink target="/usr/bin/pure-pw">/usr/local/apps/pureftpd/bin/pure-pw</symlink>
+	<symlink target="/usr/local/apps/pureftpd/etc/pureftpd.passwd">/var/webuzo/pureftpd.passwd</symlink>
+	
+	<remove>/usr/local/apps/pureftpd</remove>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Pure-FTPD Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/pureftpd</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/pureftpd/bin/pure-pw</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">Pure-FTPd</font> is actively supported, and it was always designed with security in mind, and the code is always re-audited as new kind of vulnerabilities are discussed.
+		<br /><br />
+		pure-ftpd is distributed under the <a href="http://opensource.org/licenses/BSD-3-Clause" target="_blank">BSD License</a>
+		</english-overview>
+		<english-features>
+			<p>The same source code compiles and runs on Linux, OpenBSD, NetBSD, DragonflyBSD FreeBSD, Solaris, Tru64, Darwin, Irix, HPUX, AIX and iPhone.
+Pre-built binary packages are available for Novell, Mandriva, Debian, Ubuntu, PLD Linux, Stampede Linux, Slackware Linux (Slimslack), Multilinux, Sorcerer Linux, Fli4L (the one-disk router), ROOT Linux, Gentoo Linux and almost every other free operating system.
+			</p>
+			<p>All server messages are translated in English, German, Romanian, French, Polish, Spanish, Danish, Dutch, Italian, Brazilian Portuguese, Slovak, Korean, Swedish, Norwegian, Russian, Traditional Chinese, Simplified Chinese, Czech, Turkish, Hungarian and Catalan.
+It helps your customers understand diagnostics, even when english isn't their native language.
+Messages are in independant files and they can be easily translated to new languages, or customized.			
+			</p>
+		</english-features>
+	</languages>
+</soft>

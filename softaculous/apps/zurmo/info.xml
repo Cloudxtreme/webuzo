@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zurmo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/Zurmo
+	</ratings>
+	<space>
+		93437185
+	</space>
+	<support>
+		http://zurmo.org/forums/
+	</support>
+	<version>
+		3.1.5
+	</version>
+	<mod>79</mod>
+	<release_date>25-05-2016</release_date>
+	<admin>app/index.php/zurmo/default/login</admin>
+	<min_require>0.8.00</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="soap" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="function_exists" name="ctype_digit" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zurmo</font> is an Open Source Customer Relationship Management (CRM) application that is mobile, social, and gamified. We use a test-driven methodology for building every part of the application. 
+		<br /><br />This means you can create and maintain a custom-built CRM system with the assurance that future updates are not going to break your installation. 
+		<br /><br />
+		Zurmo is released under the <a href="http://zurmo.org/license" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#1281B6"><b>Contact Management</b></font><br />
+<ul>
+<li>Full view of Contact details</li>
+<li>360 view of Accounts</li>
+<li>Lead Management</li>
+<li>Quickly find info with Global Search</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Activity Management</b></font><br />
+<ul>
+<li>Meetings,Tasks,Notes, and Attachments all in one place</li>
+<li>Roll Up to see activities from related records</li>
+<li>Latest activities widget, easy view of historical information</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Deal Tracking</b></font><br />
+<ul>
+<li>Sales Force Automation</li>
+<li>Create and Manage Opportunities</li>
+<li>Track Sales Pipeline</li>
+<li>Probability of Closure</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Gamification</b></font><br />
+<ul>
+<li>CRM Gamification rewards end users</li>
+<li>Scores &amp; Badges</li>
+<li>Achievement &amp; Status</li>
+<li>Proven to improve User Adoption</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Security</b></font><br />
+<ul>
+<li>Roles</li>
+<li>Groups</li>
+<li>Permissions, Rights, Policies</li>
+<li>Ad-hoc teams</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Personalize</b></font><br />
+<ul>
+<li>Custom fields, layouts and labels</li>
+<li>Custom Dashboards</li>
+<li>Calculated fields</li>
+<li>Dependent dropdowns</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

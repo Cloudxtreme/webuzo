@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/webERP
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/webERP
+	</ratings>
+	<space>
+		109846321
+	</space>
+	<support>
+		http://www.weberp.org/Support.html
+	</support>
+	<version>
+		4.13
+	</version>
+	<mod>5</mod>
+	<release_date>31-05-2015</release_date>
+	<admin>index.php</admin>
+	<min_require>4.01</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.1.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">webERP</font> is a complete web based accounting/ERP system that requires only a web-browser and pdf reader to use.  
+		<br /><br />
+		It has a wide range of features suitable for many businesses particularly distributed businesses in wholesale and distribution and manufacturing. 		
+		<br /><br />		
+		webERP is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Sales Orders</li>
+<li>Accounts Receivable</li>
+<li>Purchase Orders</li>
+<li>Accounts Payable</li>
+<li>General Ledger</li>
+<li>Contract Costing</li>
+<li>Shipment Costing</li>
+<li>MRP</li>
+<li>Multi-Currency - auto updated exchange rates</li>
+<li>Standard Costing</li>
+<li>Weighted Average Costing</li>
+<li>Multi-Inventory Location</li>
+<li>Multiple Invoice Taxes</li>
+<li>Serial Numbered Inventory and Lot Tracking</li>
+<li>Fixed Asset Register</li>
+<li>Manufacturing</li>
+<li>Multi-level Bills of Material</li>
+<li>Ghost Bills</li>
+<li>Kitsets and Assemblies</li>
+<li>Expense Claims </li>
+<li>Sales Analysis</li>
+<li>Multi-Language - utf8 support</li>
+<li>PDF reports </li>
+<li>Readable PHP code so allowing business people to understand scripts</li>
+<li>Low foot-print, fast, simple code</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

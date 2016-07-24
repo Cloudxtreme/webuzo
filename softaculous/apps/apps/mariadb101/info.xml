@@ -1,0 +1,111 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/MariaDB10
+	</ratings>
+	<space>
+		NA
+	</space>
+	<support>
+		https://mariadb.org/en/
+	</support>
+	<version>
+		10.1
+	</version>
+	<mod>1</mod>
+	<mod_files>0</mod_files>
+	<softversion>
+		4.7.2
+	</softversion>
+	<major>1</major>
+	
+	<release_date>25-03-2016</release_date>
+	
+	<requires>zlib</requires>
+	<requires>ncurses</requires>
+	<requires>readline</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr</path>
+	<path name="daemon">/usr/bin/mysql</path>
+	<path name="client">/usr/bin/mysql</path>
+	<path name="conf_dir">/etc</path>
+	<path name="cnf">/etc/my.cnf</path>
+	
+	<extract file="phpmyadmin.zip">$webuzowww/phpmyadmin</extract>
+
+	<initd name="mysql">/etc/init.d/mysql</initd>
+	
+	<is_default>16_1</is_default>
+	<is_default>82_1</is_default>
+	<is_default>83_1</is_default>
+	<is_default>128_1</is_default>
+	<is_default>131_1</is_default>
+
+	<remove>$webuzowww/phpmyadmin</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Mariadb Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Server Binary</td>
+				<td>/usr/bin</td>
+			</tr>
+			<tr>
+				<td>Client Binary</td>
+				<td>/usr/bin/mysql</td>
+			</tr>
+			<tr>
+				<td>Conf(Ubuntu)</td>
+				<td>/etc/mysql/my.cnf</td>
+			</tr>
+			<tr>
+				<td>Conf(CentOS)</td>
+				<td>/etc/my.cnf</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/lib/puglins/mysql</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-features>
+			<p>MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, Monty Program works to hire the best and brightest developers in the industry, work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability.
+			</p>
+		</english-features>
+		<english-overview>
+			<p><font size="5" color="#182e7a">MariaDB</font> is a community-developed fork of the MySQL relational database management system intended to remain free under the GNU GPL.</p> 
+			<p>It is notable for being led by the original developers of MySQL, who forked it due to concerns over its acquisition by Oracle.</p>
+			<p>Contributors are required to share their copyright with the MariaDB Foundation.MariaDB intends to maintain high compatibility with MySQL, ensuring a "drop-in" replacement capability with library binary equivalency and exact matching with MySQL APIs and commands.</p>
+			<p>It includes the XtraDB storage engine for replacing InnoDB, as well as a new storage engine, Aria, that intends to be both a transactional and non-transactional engine perhaps even included in future versions of MySQL.</p><br/>
+			<p style="color:red;font-size:18px">Please take NOTE of the following points before Installing MariaDB10 :</p>
+			<ul>
+				<li style="font-size:14px">If Database exist, a backup will be taken at <b>/var/webuzo</b></li>
+				<li style="font-size:14px">You cannot Downgrade to MySQL ,Percona or Previous versions of MariaDB</li>
+				<li style="font-size:14px">Installation may take a while depending on your Network Speed</li>
+			</ul>
+			<br/><br/>
+			MariaDB is distributed under the <a href="https://mariadb.com/kb/en/mariadb-license/" target="_blank">GNU General Public License, version 2</a>
+		</english-overview>
+	</languages>
+</soft>

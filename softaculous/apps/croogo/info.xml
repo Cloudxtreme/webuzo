@@ -1,0 +1,102 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Croogo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Croogo
+	</ratings>
+	<space>
+		9444170
+	</space>
+	<support>
+		http://croogo.org/support
+	</support>
+	<version>
+		2.2.3
+	</version>
+	<mod>14</mod>
+	<mod_files>1</mod_files>
+	<release_date>22-03-2016</release_date>
+	<admin>admin/users/users/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.10" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Croogo</font> is a free, open source, content management system for PHP. It is powered by CakePHP MVC framework.
+		<br /><br />
+		Croogo released under The <a href="http://wiki.croogo.org/about/license" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<font size='2'>
+<ul><br />
+<li>Content
+	<ul>
+		<li>Content Types: You can create your own content type
+			<ul>
+				<li>Blog</li>
+				<li>Node</li>
+				<li>Page </li>
+			</ul>
+		</li>
+			<li>Taxonomy: Categorization of your content</li>
+			<li>WYSIWYG Editor
+				<ul>
+					<li>Attachments (for image and file uploads) </li>
+				</ul>
+			</li>
+		<li>Comments
+			<ul>
+				<li>Threaded comments</li>
+				<li>Email notification</li>
+				<li>Moderation</li>
+				<li>Spam protection (requires Akismet API key)</li>
+				<li>Captcha (requires Recaptcha API key) </li>
+			</ul>
+		</li>
+		<li>Syndication: RSS feeds for
+			<ul>
+				<li>Individual content types</li>
+				<li>All promoted items</li>
+				<li>Comments </li>
+			</ul>
+		</li>
+		<li>SEO
+			<ul>
+				<li>Search engine friendly URLs</li>
+				<li>Full control over meta tags </li>
+			</ul>
+		</li>
+		<li>Custom fields </li>
+	</ul>
+</li>
+<li>Menu Manager</li>
+<li>Blocks</li>
+<li>Contact forms
+	<ul>
+		<li>Email notification</li>
+		<li>Messages archive</li>
+		<li>Spam protection (requires Akismet API key)</li>
+		<li>Captcha (requires Recaptcha API key) </li>
+	</ul>
+</li>
+<li>File Manager</li>
+<li>Users
+	<ul>
+		<li>ACL Manager (Permissions) </li>
+	</ul>
+</li>
+<li>Themes</li>
+<li>Web based administration</li>
+</ul>
+</font>
+		</english-features>
+	</languages>
+</soft>

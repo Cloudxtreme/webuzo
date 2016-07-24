@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/OpenLDAP
+	</ratings>
+	<space>
+		14241022
+	</space>
+	<support>
+		http://www.openldap.org/
+	</support>
+	<version>
+		2.4.41
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>26-01-2014</release_date>
+	
+	<extract file="ldap-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">OpenLDAP Library :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/ldap</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/ldap/lib/libldap.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenLDAP</font> Software is a free, open source implementation of the Lightweight Directory Access Protocol (LDAP) developed by the OpenLDAP Project. It is released under its own BSD-style license called the OpenLDAP Public License.
+		<br /><br />
+		OpenLDAP is distributed under the <a href="http://www.openldap.org/software/release/license.html" target="_blank">OpenLDAP</a> License
+		</english-overview>
+		<english-features>
+    LDAPv3 Support — OpenLDAP supports Simple Authentication and Security Layer (SASL), Transport Layer Security (TLS), and Secure Sockets Layer (SSL), among other improvements. Many of the changes in the protocol since LDAPv2 are designed to make LDAP more secure.
+<br /><br />
+    IPv6 Support — OpenLDAP supports the next generation Internet Protocol version 6.
+<br /><br />
+    LDAP Over IPC — OpenLDAP can communicate within a system using interprocess communication (IPC). This enhances security by eliminating the need to communicate over a network.
+<br /><br />
+    Updated C API — Improves the way programmers can connect to and use LDAP directory servers.
+<br /><br />
+    LDIFv1 Support — Provides full compliance with the LDAP Data Interchange Format (LDIF) version 1.
+<br /><br />
+    Enhanced Stand-Alone LDAP Server — Includes an updated access control system, thread pooling, better tools, and much more.
+<br /><br />
+Variable compression is possible. Jpeg files can be compressed to a very small file size, while still retaining some quality. For detailed files that require higher quality, you can choose to use less compression.
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,11 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>wp-admin/upgrade.php</setuplocation>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

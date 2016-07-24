@@ -1,0 +1,98 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/security/Linux_Malware_Detect
+	</ratings>
+	<space>
+		2478080
+	</space>
+	<support>
+		http://www.rfxn.com/projects/linux-malware-detect/
+	</support>
+	<version>
+		v1.4.2-1
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>08-04-2013</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/maldetect</path>
+	<path name="bin">/usr/local/maldetect/maldet</path>
+	<path name="cron">/etc/cron.daily/maldet</path>
+	
+	<extract file="lmd-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Linux Malware Detect Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/maldetect/maldet</td>
+			</tr>			
+			<tr>
+				<td>Cron File</td>
+				<td>/etc/cron.daily/maldet</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#142e7b">Linux Malware Detect </font> is a malware scanner for Linux released under the GNU GPLv2 license, that is designed around the threats faced in shared hosted environments. It uses threat data from network edge intrusion detection systems to extract malware that is actively being used in attacks and generates signatures for detection.<br /><br />
+		Linux Malware Detect is distributed under their <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank"> GNU General Public License</a>
+		</english-overview>
+		<english-features>
+			- MD5 file hash detection for quick threat identification<br />
+			- HEX based pattern matching for identifying threat variants<br />
+			- statistical analysis component for detection of obfuscated threats (e.g: base64)<br />
+			- integrated detection of ClamAV to use as scanner engine for improved performance<br />
+			- integrated signature update feature with -u|–update<br />
+			- integrated version update feature with -d|–update-ver<br />
+			- scan-recent option to scan only files that have been added/changed in X days<br />
+			- scan-all option for full path based scanning<br />
+			- checkout option to upload suspected malware to rfxn.com for review / hashing<br />
+			- full reporting system to view current and previous scan results<br />
+			- quarantine queue that stores threats in a safe fashion with no permissions<br />
+			- quarantine batching option to quarantine the results of a current or past scans<br />
+			- quarantine restore option to restore files to original path, owner and perms<br />
+			- quarantine suspend account option to Cpanel suspend or shell revoke users<br />
+			- cleaner rules to attempt removal of malware injected strings<br />
+			- cleaner batching option to attempt cleaning of previous scan reports<br />
+			- cleaner rules to remove base64 and gzinflate(base64 injected malware<br />
+			- daily cron based scanning of all changes in last 24h in user homedirs<br />
+			- daily cron script compatible with stock RH style systems, Cpanel &amp; Ensim<br />
+			- kernel based inotify real time file scanning of created/modified/moved files<br />
+			- kernel inotify monitor that can take path data from STDIN or FILE<br />
+			- kernel inotify monitor convenience feature to monitor system users<br />
+			- kernel inotify monitor can be restricted to a configurable user html root<br />
+			- kernel inotify monitor with dynamic sysctl limits for optimal performance<br />
+			- kernel inotify alerting through daily and/or optional weekly reports<br />
+			- e-mail alert reporting after every scan execution (manual &amp; daily)<br />
+			- path, extension and signature based ignore options<br />
+			- background scanner option for unattended scan operations<br />
+			- verbose logging  output of all actions<br />
+		</english-features>
+	</languages>
+</soft>

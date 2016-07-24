@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/BIND
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		https://www.isc.org/software/bind
+	</support>
+	<version>
+		9.x
+	</version>
+	<mod>8</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/var/named</path>
+	<path name="bin">/usr/sbin/named</path>
+	<path name="conf_dir">/var/named</path>
+	<path name="conf">/etc/named.conf</path>
+	
+	<initd name="named">/etc/init.d/named</initd>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">BIND Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/sbin/named</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/etc/named.conf</td>
+			</tr>
+			<tr>
+				<td>Conf Dir</td>
+				<td>/var/named/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">BIND </font>is by far the most widely used DNS software on the Internet. It provides a robust and stable platform on top of which organizations can build distributed computing systems with the knowledge that those systems are fully compliant with published DNS standards.
+		<br /><br />
+		BIND is distributed under the <a href="http://opensource.org/licenses/ISC" target="_blank">ISC License (ISC)</a>
+		</english-overview>
+		<english-features>
+BIND is open source software that implements the Domain Name System (DNS) protocols for the Internet. 
+<br /><br />
+It is a reference implementation of those protocols, but it is also production-grade software, suitable for use in high-volume and high-reliability applications.
+		</english-features>
+	</languages>
+</soft>

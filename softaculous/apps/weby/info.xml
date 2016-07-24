@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PHPWeby
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/PHPWeby
+	</ratings>
+	<space>
+		3866277
+	</space>
+	<support>
+		http://www.phpweby.com
+	</support>
+	<version>
+		1.2
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<admin>admin/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="function_exists" name="mb_get_info" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Php Weby</font> directory is a powerful and easy-to-use FREE link management script with numerous options for running a directory, catalog of sites or a simple link exchange system.
+		<br /><br />
+		Create a general directory and have users submit their favorite sites and charge if you want for the review. Or create regional directory for your town or state and sell advertising, or niche directory about a topic you love or know.
+		<br /><br />
+		Features include an integrated payment system with PayPal, link validation, SEO urls, unlimited categories and subcategories, reciprocal linking, link editor, template driven system compatible with phpLD templates and many more.
+		<br /><br />
+		Php weby free link directory script is licensed under the <a href="http://phpweby.com/license" target="_blank">GNU GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Unlimited categories and subcategories</li>
+<li>SEO friendly URLs with mod rewrite</li>
+<li>Link validation (optional)</li>
+<li>Instant payment system with PayPal</li>
+<li>Automatic category selection</li>
+<li>Automatic checking of duplicate links</li>
+<li>Compatible with PHPLD templates(ver 3.x, 3.3 not yet)</li>
+<li>Disallow/allow same link in different categories</li>
+<li>Add link from admin panel with option to request reciprocal link</li>
+<li>RSS/XML feeds(optional)</li>
+<li>Meta and Category description(optional)</li>
+<li>Change submitted link title,pagerank,url,description,category, contact name and/or e-mail</li>
+<li>Notify Submitter of Link Submission Receipt(optional)</li>
+<li>AJAX powered control panel</li>
+<li>Show latest and featured links (separate page)</li>
+<li>Ban IP, keyword or domain name</li>
+<li>Sell monthly, daily, yearly</li>
+<li>User comments, ratings</li>
+<li>Upgrade/degrade link to featured/regular</li>
+<li>Hits</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

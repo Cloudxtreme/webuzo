@@ -1,0 +1,5 @@
+1. We have added a fix in lib/lib.filterinput.php
+changed :
+if ( ! preg_match('#^[&a-zA-Z0-9\.:_/-\s]+$#uD', $str)) {
+to
+if ( ! preg_match('#^[&a-zA-Z0-9\.:_/\-\s]+$#uD', $str)) {

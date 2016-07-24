@@ -1,0 +1,15 @@
+admin
+backups
+close-tickets.php
+content
+control
+db-backup.php
+docs
+email-digest.php
+favicon.ico
+htaccess_COPY.txt
+index.php
+install
+licence.lic
+logs
+robots.txt

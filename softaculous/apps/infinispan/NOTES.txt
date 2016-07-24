@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the server package of the latest version from (http://infinispan.org/download/)

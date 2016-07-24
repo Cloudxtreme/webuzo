@@ -1,0 +1,6 @@
+CHANGELOG
+MIT-LICENSE
+README.rdoc
+lib
+src
+test

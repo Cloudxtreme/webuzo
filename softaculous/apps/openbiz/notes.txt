@@ -1,0 +1,5 @@
+1.To take dump after login and filling basic details.
+
+2.While manual installation keep mobile number = 000000000
+
+3. Add the content to resourse folder from manual to package.

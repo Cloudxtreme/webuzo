@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/version_control/Git
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://git-scm.com/
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/bin/git</path>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Git Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/bin/git</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Git</font> is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+		<br /><br />
+		Git is distributed under the <a href="https://github.com/git/git/blob/master/COPYING" target="_blank">GPLv2 Open Source License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li> <b>Frictionless Context Switching.</b> Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in. </li>
+				<li> <b>Role-Based Codelines.</b> Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.</li>
+				<li> <b>Feature Based Workflow.</b> Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line. </li>
+				<li> <b>Disposable Experimentation.</b> Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).  </li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

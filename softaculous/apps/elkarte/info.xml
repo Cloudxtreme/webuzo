@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ElkArte
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/ElkArte
+	</ratings>
+	<space>
+		10978207 
+	</space>
+	<support>
+		http://www.elkarte.net/community/
+	</support>
+	<version>
+	   1.0.7
+	</version>
+	<mod>2</mod>
+	<release_date>28-03-2016</release_date>
+	<admin>index.php?action=admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+	<font size="5" color="#182e7a">ElkArte</font> is a modern, powerful community building forum software. It is created by volunteers who believe in freedom of software. Initially based on Simple Machines Forum (SMF), it began with a complete overhaul of the code in order to modernize, implement new features and make a forum software be relevant in a time of unprecedented social interaction.<br/>
+	It has grown to become a modern, feature rich forum package to meet the demands of today's discussion groups.		
+	<br /><br />
+	ElkArte is released under the <a href="https://opensource.org/licenses/BSD-3-Clause" target="_blank">BSD-3 clause license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			 <li>Mentioning users including notifications</li>
+			 <li>Likes for posts and topics</li>
+			 <li>Drafts, including auto save</li>
+			 <li>OpenID 2.0</li>
+			 <li>Two built in modern, responsive themes</li>
+			 <li>Integrated video embedding for youtube, vimeo and dailymotion</li>
+			 <li>Drag and drop ordering in the administration interface</li>
+			 <li>Drag and drop file attachments</li>
+			 <li>Improved Anti Spam measures</li>
+			 <li>Improved password hashing using industry standards</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

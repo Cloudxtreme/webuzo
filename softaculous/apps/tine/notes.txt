@@ -1,0 +1,1 @@
+1. While manual installation : "Config Manager" -> Save Config and then move to Authentication/Accounts

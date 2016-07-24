@@ -1,0 +1,80 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/server_side_scripting/Rails
+	</ratings>
+	<space>
+		937283
+	</space>
+	<support>
+		http://rubyonrails.org/
+	</support>
+	<version>
+		4.1.1
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>06-05-2014</release_date>
+	
+	<requires>ruby</requires>
+	
+	<path name="base">/usr/local/apps/ruby</path>
+	<path name="bin">/usr/local/apps/ruby/bin/rails</path>
+	
+	<extract file="rails-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Rails Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/ruby</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/ruby/bin/rails</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">Ruby on Rails</font> is a breakthrough in lowering the barriers of entry to programming.Powerful web applications that formerly might have taken weeks or months to develop can be produced in a matter of days.
+		<br /><br />
+		Rails is distributed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>
+		</english-overview>
+		<english-features>
+			<p>Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.</p>
+
+			<p>Understanding the MVC pattern is key to understanding Rails. MVC divides your application into three layers, each with a specific responsibility.</p>
+
+			<p>The View layer is composed of "templates" that are responsible for providing appropriate representations of your application's resources. Templates can come in a variety of formats, but most view templates are HTML with embedded Ruby code (ERB files).</p>
+
+			<p>The Model layer represents your domain model (such as Account, Product, Person, Post, etc.) and encapsulates the business logic that is specific to your application. In Rails, database-backed model classes are derived from ActiveRecord::Base. Active Record allows you to present the data from database rows as objects and embellish these data objects with business logic methods. Although most Rails models are backed by a database, models can also be ordinary Ruby classes, or Ruby classes that implement a set of interfaces as provided by the Active Model module. You can read more about Active Record in its README.</p>
+
+			<p>The Controller layer is responsible for handling incoming HTTP requests and providing a suitable response. Usually this means returning HTML, but Rails controllers can also generate XML, JSON, PDFs, mobile-specific views, and more. Controllers manipulate models and render view templates in order to generate the appropriate HTTP response.</p>
+
+			<p>In Rails, the Controller and View layers are handled together by Action Pack. These two layers are bundled in a single package due to their heavy interdependence. This is unlike the relationship between Active Record and Action Pack, which are independent. Each of these packages can be used independently outside of Rails.</p>
+		</english-features>
+	</languages>
+</soft>

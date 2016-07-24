@@ -1,0 +1,4 @@
+1. Choose MySQL for type of database.
+2. Do not remove sha256.inc.php file we use it for password encryption.
+3. In /config/connect.php file in manual installation it doesnt takes "_" for dbprefix and database has it.
+4. Check for _jobs 'date' entries. In 3.0.11 we have used regtime. before it was [[queue_watch_date]] etc.

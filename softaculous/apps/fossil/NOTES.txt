@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download linux package from (https://www.fossil-scm.org/download.html)

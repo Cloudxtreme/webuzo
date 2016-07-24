@@ -1,0 +1,42 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/GNU_dbm
+	</ratings>
+	<space>
+		289832296
+	</space>
+	<support>
+		http://www.gnu.org.ua/software/gdbm
+	</support>
+	<version>
+		1.10
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<requires>openssl</requires>
+	<requires>libiconv</requires>	
+	
+	<extract file="gdbm-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		No Info
+	</notes>
+	<languages>
+		<english-overview>
+			No Info
+		</english-overview>
+		<english-features>
+			No Info
+		</english-features>
+	</languages>
+</soft>

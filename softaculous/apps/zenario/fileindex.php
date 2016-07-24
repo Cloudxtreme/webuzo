@@ -1,0 +1,14 @@
+.htaccess
+CONTRIBUTING.md
+README.md
+README_INSTALL.md
+cache
+htaccess_for_tildes_in_home_dir.txt
+index.php
+license.txt
+private
+public
+robots.txt
+zenario
+zenario_custom
+zenario_siteconfig.php

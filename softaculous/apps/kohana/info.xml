@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Kohana
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Kohana
+	</ratings>
+	<space>
+		2621486
+	</space>
+	<support>
+		http://kohanaframework.org/
+	</support>
+	<version>
+		3.3.5
+	</version>
+	<mod>15</mod>
+	<release_date>10-03-2016</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Kohana</font> is an elegant HMVC PHP5 framework that provides a rich set of components for building web applications.
+		<br /><br />
+It requires very little configuration, fully supports UTF-8 and i18n, and provides many of the tools that a developer needs within a highly flexible system. The integrated class auto-loading, cascading filesystem, highly consistent API, and easy integration with vendor libraries make it viable for any project, large or small.
+		<br /><br />
+		Kohana's license allows redistribution. Please read the <a href="http://kohanaframework.org/license" target="_blank">license</a>.
+		</english-overview>		
+		<english-features>
+<h1>Features</h1>
+<ul>
+<li> Highly secure</li>
+<li> Extremely lightweight</li>
+<li> Short learning curve</li>
+<li> Uses the MVC pattern</li>
+<li> 100% UTF-8 compatible</li>
+<li> Loosely coupled architecture</li>
+<li> Extremely easy to extend</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

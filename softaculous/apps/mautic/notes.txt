@@ -1,0 +1,3 @@
+1. Select mysqli for database setup
+2. Email configuration -> send immediately and PHP Mail
+3. In local.php 'install_source' => 'Softaculous', (has to be Softaculous)

@@ -1,0 +1,7 @@
+1. Take both the config files i.e. Windows and Linux. (We will configure the file accordingly)
+2. In the Windows config file comment the SQLite line and uncomment the MySQL line.
+
+Use this link to install subversion on your test server:
+http://wiki.centos.org/HowTos/Subversion
+
+3. Check if site is working : http://svnmanager.org/. Change support link in info if it works.

@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/Django 
+	</ratings>
+	<space>
+		88338432
+	</space>
+	<support>
+		https://www.djangoproject.com/
+	</support>
+	<version>
+		1.6.2
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>06-02-2014</release_date>	
+	
+	<requires>python2</requires>
+	
+	<path name="base">/usr/local/apps/python2</path>
+	<path name="bin">/usr/local/apps/python2/bin/django-admin.py</path>
+	
+	<extract file="django-$arch.tar.gz">$appsdir</extract>	
+	
+	<remove>/usr/local/apps/python2/bin/django-admin.py</remove>
+	<remove>/usr/local/apps/python2/lib/python2.7/site-packages</remove>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Django Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/python2</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/python2/bin/django-admin.py</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">Django</font> is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+		<br /><br />
+		Django is distributed under the <a href="https://github.com/django/django/blob/master/LICENSE">BSD license</a>
+		</english-overview>
+		<english-features>
+			<font size="2" color="#1281B6"><b>General</b></font>
+			<h3>Object-relational mapper</h3>			
+			<p>Define your data models entirely in Python. You get a rich, dynamic database-access API for free -; but you can still write SQL if needed.</p>
+			<h3>Automatic admin interface</h3>
+			<p>Save yourself the tedious work of creating interfaces for people to add and update content. Django does that automatically, and it's production-ready.</p>
+			<h3>Elegant URL design</h3>
+			<p>Design pretty, cruft-free URLs with no framework-specific limitations. Be as flexible as you like.</p>
+			<h3>Template system</h3>
+			<p>Use Django's powerful, extensible and designer-friendly template language to separate design, content and Python code.</p>
+			<h3>Cache system</h3>
+			<p>Hook into memcached or other cache frameworks for super performance -; caching is as granular as you need.</p>
+			<h3>Internationalization</h3>
+			<p>Django has full support for multi-language applications, letting you specify translation strings and providing hooks for language-specific functionality.</p>			
+		</english-features>
+	</languages>
+</soft>

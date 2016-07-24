@@ -1,0 +1,83 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Redis
+	</ratings>
+	<space>
+		5215536
+	</space>
+	<support>
+		http://redis.io/support
+	</support>
+	<version>
+		2.8.21
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>04-06-2015</release_date>
+	
+	<path name="base">/usr/local/apps/redis</path>
+	
+	<extract file="redis-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/Redis</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Redis Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/redis</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://redis.io/documentation</td>
+			</tr>
+			<tr>
+				<td>Commands</td>
+				<td>http://redis.io/commands</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Redis</font> is an open source, BSD licensed, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets. 
+<br /><br />
+		Redis is distributed under three clause <a href="http://redis.io/topics/license" target="_blank">BSD license</a>
+		</english-overview>
+		<english-features>
+			<p>You can run atomic operations on these types, like appending to a string; incrementing the value in a hash; pushing to a list; computing set intersection, union and difference; or getting the member with highest ranking in a sorted set.</p>
+			
+			<p>In order to achieve its outstanding performance, Redis works with an in-memory dataset. Depending on your use case, you can persist it either by dumping the dataset to disk every once in a while, or by appending each command to a log.</p>
+			
+			<p>Redis also supports trivial-to-setup master-slave replication, with very fast non-blocking first synchronization, auto-reconnection on net split and so forth.</p>
+			
+			<p>Other features include Transactions, Pub/Sub, Lua scripting, Keys with a limited time-to-live, and configuration settings to make Redis behave like a cache.</p>
+			
+			<p>You can use Redis from most programming languages out there.</p>
+			
+			<p>Redis is written in ANSI C and works in most POSIX systems like Linux, *BSD, OS X without external dependencies. Linux and OSX are the two operating systems where Redis is developed and more tested, and we recommend using Linux for deploying. Redis may work in Solaris-derived systems like SmartOS, but the support is best effort</p>
+		</english-features>
+	</languages>
+</soft>

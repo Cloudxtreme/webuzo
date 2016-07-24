@@ -1,0 +1,36 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/libexpat
+	</ratings>
+	<space>
+		2224128
+	</space>
+	<support>
+		http://expat.sourceforge.net/
+	</support>
+	<version>
+		2.0.1
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>05-06-2007</release_date>
+	
+	<extract file="libexpat-$arch.tar.gz">$appsdir</extract>
+	
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Libexpat </font>is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags). 
+<br /><br />
+Libexpat is distributed under a <a href="http://en.wikipedia.org/wiki/MIT_License" target="_blank">MIT license</a>
+		</english-overview>		
+	</languages>
+</soft>

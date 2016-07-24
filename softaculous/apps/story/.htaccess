@@ -1,0 +1,12 @@
+# Security stuff
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Rewrite rules for pretty URL
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php 
+
+# Enable php short open tags

@@ -1,0 +1,1 @@
+1. Check admin.php to delete unwanted files from previous version while upgrade and update upgrade.php accordingly.

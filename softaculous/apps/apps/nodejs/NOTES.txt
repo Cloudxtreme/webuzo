@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download linux binaries from (https://nodejs.org/dist/)

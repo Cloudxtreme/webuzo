@@ -1,0 +1,4 @@
+1. Choose license "Shopware Community Edition(license:AGPL)"
+2. Choose language "English" while manual installation. "Default shop currency:" as USD.
+3. Language id is added from "s_core_locales".
+4. install twice. one for english language and second for german language sql dump In "Default shop currency:" Euro.

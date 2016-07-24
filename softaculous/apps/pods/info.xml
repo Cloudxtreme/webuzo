@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PeoplePods
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/PeoplePods
+	</ratings>
+	<space>
+		4802950
+	</space>
+	<support>
+		http://peoplepods.net/
+	</support>
+	<version>
+		0.9
+	</version>
+	<mod>2</mod>
+	<mod_files>2</mod_files>
+	<admin>peoplepods/admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PeoplePods </font>is a developer-friendly social software toolkit.  
+		<br /><br />
+		Build applications where people meet, talk, share, read, work, publish and explore.
+		<br /><br />
+		PeoplePods provides a flexible infrastructure within which members of a site can create, comment upon, and consume content of arbitrary types. 
+		<br /><br />
+		PeoplePods is released under the <a href="http://code.google.com/p/peoplepods/source/browse/trunk/LICENSE.txt" target="_blank">PeoplePods License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Member profiles</li>
+<li>Discussion areas</li>
+<li>Member-created groups</li>
+<li>Wordpress plugin</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Advanced_Guestbook
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/Advanced_Guestbook
+	</ratings>
+	<space>
+		1177650
+	</space>
+	<support>
+		http://www.proxy2.de
+	</support>
+	<version>
+		2.4.4
+	</version>
+	<mod>6</mod>
+	<mod_files>3</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Advanced Guestbook</font> is a PHP-based guestbook script. It includes many useful features such as preview, templates, e-mail notification, picture upload, page spanning , html tags handling, smilies, advanced guestbook codes and language support. The admin script lets you modify, view, and delete messages. 
+		</english-overview>		
+		<english-features>
+<strong>Advanced Guestbook Features:</strong>
+<ul>
+<li>multiple polls</li>
+<li>templates</li>
+<li>unlimited options</li>
+<li>multi-language support</li>
+<li>IP-Logging</li>
+<li>IP-Locking</li>
+<li>cookie support</li>
+<li>comment feature</li>
+<li>vote expire feature</li>
+<li>random poll</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

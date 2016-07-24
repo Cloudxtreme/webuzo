@@ -1,0 +1,9 @@
+.htaccess
+LICENSE.txt
+README.txt
+cc-admin
+cc-content
+cc-core
+cc-install
+favicon.ico
+index.php

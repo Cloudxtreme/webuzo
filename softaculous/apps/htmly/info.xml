@@ -1,0 +1,72 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/HTMLy
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/HTMLy
+	</ratings>
+	<space>
+		3931844
+	</space>
+	<support>
+		https://www.htmly.com/blog
+	</support>
+	<version>
+		2.7.4
+	</version>
+	<mod>1</mod>
+	<release_date>24-01-2016</release_date>
+	<admin>login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">HTMLy</font> is an open source Databaseless Blogging Platform or Flat-File Blog prioritizes simplicity and speed written in PHP. HTMLy can be referred to as Flat-File CMS either since it will also manage your content.
+		<br /><br />
+		HTMLy uses a unique algorithm to find or list any content based on date, category, tag, or author, and the performance will remain fast even if we have thousands of posts and hundreds of tags.
+		<br /><br />
+		 HTMLy is licensed under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License Version 2.0</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li><b>Admin Panel</b><br/>
+			Manage your site with ease using the built-in admin panel</li>
+			<li><b>Markdown</b><br/>
+			Markdown editor with preview, image upload, and draft</li>
+			<li><b>Taxonomy</b><br/>
+			Grouping the contents using categories and tags</li>
+			<li><b>Content Type</b><br/>
+			Blog post, static page, image, video, audio, link, and quote</li>
+			<li><b>SEO Friendly</b><br/>
+			Clean URLs, meta canonical, meta description, and snippets</li>
+			<li><b>Multi Author</b><br/>
+			HTMLy support user role: choose as admin or regular user</li>
+			<li><b>Comments</b><br/>
+			Provides Disqus or Facebook comment integration</li>
+			<li><b>Widget</b><br/>
+			Latest posts, popular posts, related posts, archive, tag cloud</li>
+			<li><b>Online Backup</b><br/>
+			Download your posts and uploaded images as a Zip file</li>
+			<li><b>File Caching</b><br/>
+			HTMLy use aggressive file caching for performance boost</li>
+			<li><b>Cloud Update</b><br/>
+			No more FTP! update your HTMLy installation on the fly</li>
+			<li><b>Databaseless</b><br/>
+			HTMLy is flat-file blog and flat file CMS, no database needed</li>
+			<li><b>Importer</b><br/>
+			Import posts from RSS feed 2.0 into your HTMLy blog</li>
+			<li><b>Security</b><br/>
+			Recaptcha and cryptographic hash to secure the backend</li>
+		</ul>		
+		</english-features>	
+	</languages>
+</soft>

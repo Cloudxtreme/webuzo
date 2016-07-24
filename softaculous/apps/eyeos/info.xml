@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/eyeOS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/eyeOS
+	</ratings>
+	<space>
+		48953754
+	</space>
+	<support>
+		http://www.eyeos.org/
+	</support>
+	<version>
+		2.5
+	</version>
+	<mod>6</mod>
+	<mod_files>5</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">eyeOS </font> is a disruptive desktop entirely usable from a  web browser. It includes an office suite and some collaboration  aplications, as well as a full framework to develop new web apps as if they were desktop apps.
+		<br /><br />
+		 Free and Open Source so you can host your own system, keeping all your data under your control.
+		<br /><br />
+		eyeOS is released under the <a href="http://www.gnu.org/licenses/agpl-3.0.txt">GNU Affero General Public License version 3</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li><strong>Ubiquity:</strong> Access your documents, files and applications from anywhere and any device.</li>
+<li><strong>Flexibility:</strong> From the small business to the big corporation. Also for individual use. There is an eyeOS for you!</li>
+<li><strong>Integration:</strong> The eyeOS architecture makes easier and faster the integration of any web application that you use.</li>
+<li><strong>Simplicity:</strong> From its first steps, eyeOS has been planned and created to be intuitive and easy to use.</li>
+<li><strong>Collaboration:</strong> Share files and edit them in a real-time collaboration suite with other users.</li>
+<li><strong>Privacy:</strong> Decide where your files are: You can have your own eyeOS server!</li>
+<li><strong>Security:</strong> Control your eyeOS. You are who manage roles and permissions for each user.</li>
+<li><strong>Low costs:</strong> All in one in a single platform: the best way to optimize time and resources.</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

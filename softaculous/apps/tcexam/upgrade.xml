@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>shared/config/tce_db_config.php</exclude>
+		<exclude>shared/config/tce_paths.php</exclude>
+	</files>
+	<auto_upgrade>1</auto_upgrade>
+</softupgrade>

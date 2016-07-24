@@ -1,0 +1,9 @@
+1. Installer is at /Web/install
+2. While installation choose : Import sample data. Creates admin account: admin/password and user account: user/password
+3. Please change in the index.php redirect to 0 seconds and comment the echo.
+4. Remove two conditions from upgrade.php if phpsch team has fixed the upgrade process
+5. Rename /config/config-dist.php to /config/config.php and do following changes in it (MANUAL Installation):
+	i) provide installation password.
+   ii) provide database details(except database password, from 2.5.15 dbpassword is required)
+6. Changelog is available in readme.html
+7. If there is no change in database then make change the respective values in upgrade.php to disable setuplocation

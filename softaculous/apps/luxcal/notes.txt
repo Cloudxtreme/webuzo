@@ -1,0 +1,2 @@
+1) Installation file name is based on version i.e install422.php In every update change install...php in install.xml i.e  <exclude>install422.php</exclude>
+2) In manual install New to install: mycal = softaculous

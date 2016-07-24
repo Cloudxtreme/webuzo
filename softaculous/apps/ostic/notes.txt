@@ -1,0 +1,3 @@
+1. schema_signature same for every install
+2. Make script where Database ENGINE is InnoDB
+3. Don't convert ostic.sql to utf8

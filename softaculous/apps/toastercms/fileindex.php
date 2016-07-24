@@ -1,0 +1,16 @@
+.htaccess
+cache
+favicon.ico
+feeds
+index.php
+install
+media
+plugins
+previews
+robots.txt
+seotoaster_core
+system
+themes
+tmp
+version.txt
+website.kml

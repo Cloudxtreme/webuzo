@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zenbership
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/Zenbership
+	</ratings>
+	<space>
+		13946039
+	</space>
+	<support>
+		http://zenbership.com/Services/Support
+	</support>
+	<version>
+	   107
+	</version>
+	<mod>1</mod>
+	<release_date>08-03-2016</release_date>
+	<admin>admin/login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<languages>
+		<english-overview>
+	<font size="5" color="#182e7a">Zenbership</font> is a 100% free, open source membership CRM platform, designed to provide a central hub from which online businesses and organizations can manage and automate tasks.
+	<br /><br />
+	Zenbership is released under the <a href="http://zenbership.com/Legal/License" target="_blank">GPLv3 license</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>CRM &amp; Account Management</b></font><br />
+<font size="2">Manage Contacts : Manage a custom database of contacts that can be expanded to meet your needs</font><br />
+<font size="2">Manage Accounts : Groups contacts and members into accounts and manage entire accounts collectively</font><br /><br />
+<font size="2" color="#1281B6"><b>Membership Management</b></font><br />
+<font size="2">"Hands-Free" Management : Automate online registrations, payments, renewals, invoices, account updates, lost password recovery, event planning and reminders, and e-mail campaigns</font><br />
+<font size="2">Automated Due Collection : Membership dues can easily be collected online through the Zenbership subscription system</font><br /><br />
+<font size="2" color="#1281B6"><b>eCommerce Tools</b></font><br />
+<font size="2">Payment Gateway Integration : Integrated with a number of payment gateways, including popular solutions like Stripe, Authorize.net, and PayPal</font><br />
+<font size="2">Multiple Product Types : The shopping cart support multiple products types, including digital products, physical products, subscriptions products, and trial products</font><br /><br />
+<font size="2" color="#1281B6"><b>Subscriptions &amp; Dues</b></font><br />
+<font size="2">Flexible Billing Intervals : Charge subscriptions at regular intervals or on the same day every month or year, optionally setting a maximum number of renewals</font><br />
+<font size="2">Online Management : Members and users alike can easily manage subscriptions directly from their online management portal</font><br /><br />
+<font size="2" color="#1281B6"><b>Invoicing</b></font><br />
+<font size="2">Flexible Pricing Options : Create invoices with flexible options, including time based components, products found directly within the shopping cart, and even invoice credits</font><br />
+<font size="2">Easy Invoice Creation : Allow users to request invoices directly from the shopping cart or when registering for an event</font><br /><br />
+		</english-features>
+	</languages>
+</soft>

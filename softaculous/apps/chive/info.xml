@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Chive
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/Chive
+	</ratings>
+	<space>
+		11348957
+	</space>
+	<support>
+		http://www.chive-project.com
+	</support>
+	<version>
+		1.3.1
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<release_date>07-06-2013</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Chive</font> is a modern Open-Source <b>MySQL Data Management</b> tool. With it's <b>fast and elaborate user interface</b> it is getting very popular especially by web engineers. Chive was created because of an disaffection with existing tools. They usually were hard to handle and very time-consuming while the daily use of an web engineer. 
+		<br /><br />Chive is a free, open source, web-based database management tool, designed to bring joy to web developers - with easy administration, super fast UI and state of the art web technologies. Based on top of the current version of the Yii framework, Chive takes advantage of the MVC design pattern and unit testing. 
+		<br /><br />
+		Chive is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU General Public License v3</a>.
+		</english-overview>		
+		<english-features><br />
+<font size="2" color="#1281B6"><b>Keyboard focused workflow for fast search and navigation</b></font><br />
+<font>Chive always puts your keyboard focus into the quick-search text box. This allows you to find your database/table at every location by just typing the name, navigating with the up-down keys and pressing enter – easy, fast and efficient!</font><br /><br />
+<font size="2" color="#1281B6"><b>Inline editing everywhere - for data, tables, indices and more</b></font><br />
+<font>With Chive the administration of new datasets, procedures, and tables is easy. Click on a dataset and there will show up a new mask for editing. After saving the file you can keep on working with it – without time-consuming newstarts.</font><br /><br />
+<font size="2" color="#1281B6"><b>Syntax Editors with colored accentuation</b></font><br />
+<font>Longer SQL inquiries can be confusing and complicated. Chive is helping you to keep a level head with a clear structured formatting and the colored accentuation of keywords. </font><br /><br />
+<font size="2" color="#1281B6"><b>Repeated administration of your SQL queries</b></font><br />
+<font>Keep the overview on your tasks and save your most important SQL inquiries: Chive is helping you to save and re execute often used SQL quiries with just a few mouse clicks.</font><br /><br />
+<font size="2" color="#1281B6"><b>Analyze and Optimize your queries with Profiling</b></font><br />
+<font>Profiling your queries is very easy with chive. Just toggle profiling and chive will display the results via its indicator system. If you want to keep the results visible, you can always toggle the "pin" icon and the infos will stay on the screen! </font><br />
+		</english-features>
+	</languages>
+</soft>

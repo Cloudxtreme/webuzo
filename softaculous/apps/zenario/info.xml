@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zenario
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Zenario
+	</ratings>
+	<space>
+		30766210
+	</space>
+	<support>
+		http://zenar.io/forums
+	</support>
+	<version>
+		7.2.3
+	</version>
+	<mod>12</mod>
+	<release_date>01-06-2016</release_date>
+	<admin>zenario/admin/welcome.php?</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zenario</font> is a web-based content management system that can be used for simple or complex websites. It can accommodate any visual template design, has tools for managing users, location, GIS and organisational information.
+		<br /><br />
+		It is open source, well-supported, and modular. A website owner can fit together modular components to create an interface that is well-tailored to his needs. It's designed to grow with your site, adding extranet, online database and custom functionality when you need it.
+		<br /><br />
+		Zenario is available under the <a href="http://zenar.io/licensing" target="_blank">BSD License</a>.
+		</english-overview>
+		<english-features>
+		<ul>
+		<li>Easy Website Editing : Zenario lets you edit pages using a familiar WYSIWYG editor. Pages can be edited in-line in the visitor-facing part of the site, or via Zenario's Organizer administration area.</li>
+		<li>Structured Navigation : A Zenario website can have structured, hierarchical organization. When you add a node in the navigation hierarchy, it automatically appears in the visitor view of the website.</li>
+		<li>Design and Layouts : The in-built Gridmaker tool lets you develop a layout based on a familiar grid. That can be 4, 6, 10, 12, 16 columns... or any number you like. Gridmaker lets you define slots on your grid.</li>
+		<li>Users and Contacts : Zenario is a fully-fledged extranet system, offering secure access to authorised users. It can be set up in numerous ways; for example with self-registration, or with users being created solely by site administrators.</li>
+		<li>Location and GIS Data : Zenario has many tools for handling location-related data. With the Location Manager module you can model real-world locations, such as offices, retailer locations, or arbitrary points on the globe. Built-in Google Maps lets you define each one for mapping purposes.</li>
+		<li>Organisation Modelling : Combining user and location data, Organization Manager lets you create models of people who play roles in organisations. </li>
+		<li>Connecting with the Outside : It's easy to add Google Analytics; a simple copy and paste lets you put your Google code snippet into the head of every page of the site.</li>
+		<li>Datasets for extending existing data : Datasets is a powerful feature, allowing you to extend an existing data model, or create entirely new ones. </li>
+		<li>Modular Architecture : All functionality is derived from modules. Some modules create "managers" that create new database tables and add functionality in the Organizer admin system or the admin toolbar; while others create "plugins" that are appear in slots on the visitor-facing pages.</li>
+		<li>Scheduled Processing : Where functionality requires "cron" like nightly batch jobs (or at whatever time you like!), Zenario takes care of it. Its Scheduled Task Manager has the capability of calling a module's code at whatever time is required.</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

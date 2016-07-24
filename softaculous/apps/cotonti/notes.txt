@@ -1,0 +1,2 @@
+Keep Default theme : Nemesis
+Keep Modules, Plugins to default

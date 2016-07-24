@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SeoToaster_Ecommerce
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/SeoToaster_Ecommerce
+	</ratings>
+	<space>
+		115426793
+	</space>
+	<support>
+		http://forum.seotoaster.com/
+	</support>
+	<version>
+		2.5.0
+	</version>
+	<mod>5</mod>
+	<mod_files>1</mod_files>
+	<release_date>01-03-2016</release_date>
+	<admin>go</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="zip" /> 
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SeoToaster E-commerce</font> includes SeoToaster CMS to combine a powerful CMS, a private member area, a blog, a mobile wireframe, but also an advanced shopping cart, a B2B web quoting tool, and an impressive SEO &amp; marketing feature set.<br /><br />
+SeoToaster is the only solution you will ever need, whether to run 1 or hundreds of world-class eCommerce business. 
+		<br /><br />
+		SeoToaster E-commerce is released under <a href="http://www.seotoaster.com/seotoaster-license.html" target="_blank">GENERAL PUBLIC LICENSE V3</a>.
+		</english-overview>			
+		<english-features>
+		<b>Innovative Features for Everyone :</b><br/><br/>
+<strong><font size="2" color="#215A93"> Everything you need to build, manage &amp; market your store</font></strong> : <br />  Your store comes with a powerful CMS to manage your pages, a Google News compliant blog, and a web quote tool for B2B, phone or POS sales.<br /><br />
+
+<strong><font size="2" color="#215A93">Inline product lists building</font></strong> :<br /> no need to call your web designer or alter templates to add/edit automated products lists to your web pages.<br /><br />
+
+<strong><font size="2" color="#215A93">Integrated Email &amp; SMS remarketing</font></strong> :<br /> configure Email &amp; SMS remarketing in less than a minute for cart abandonment but also quote requests, account anniversaries or order shipping notifications.<br /><br />
+
+<strong><font size="2" color="#215A93">Built-in merchandising</font></strong> :<br /> group pricing, couponing, promotions, cross-selling…it’s all in there already.<br /><br />
+
+<strong><font size="2" color="#215A93">Unmatched SEO</font></strong> : <br /> automated optimized landing page creation, native microdata widgets, automated canonicalization and strict W3C compliance to help you secure the highest search engine rankings. <br /><br />
+
+<strong><font size="2" color="#215A93">Connected &amp; social</font></strong> :<br />  Automated Google webmaster tools, real-time analytics, brand monitoring &amp; social network marketing with a free cloud based SeoSamba account.<br /><br />
+
+<strong><font size="2" color="#215A93">Centralized management for multi-stores owners</font></strong> :<br /> Pilot your SEO &amp; marketing, while sharing product catalog &amp; inventory for any number of web stores from the a centralized interface in the cloud.<br /><br />
+
+<strong><font size="2" color="#215A93">No design limit</font></strong> :<br /> Unleash your creativity with full HTML support, front-end CSS and JS edition, developer mode.<br /><br />
+
+<strong><font size="2" color="#215A93">Mobile responsive wireframe</font></strong> :<br /> The ultimate tool to streamline website building with SeoToaster for web designers &amp; web developers.
+
+		</english-features>
+		<english-special_character>Spaces and Special characters are not allowed for</english-special_character>
+	</languages>
+</soft>

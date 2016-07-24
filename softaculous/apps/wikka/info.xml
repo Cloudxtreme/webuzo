@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+		
+	</overview>
+	<features>
+    {{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/WikkaWiki
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/wikis/WikkaWiki
+	</ratings>
+	<space>
+		3995601
+	</space>
+	<support>
+		http://wikkawiki.org
+	</support>
+	<version>
+		1.3.7
+	</version>
+	<mod>11</mod>
+	<release_date>13-05-2016</release_date>
+	<admin>UserSettings</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview><font size="5" color="#182e7a">Wikkawiki</font> is a flexible, standards-compliant and lightweight wiki engine written in PHP, which uses MySQL to store pages. Designed for speed, extensibility, and security. 
+		<br />
+		<br />
+		Wikkawiki is licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li> Support for different types of embedded elements: 
+	<ul>
+	<li> Images </li>
+	<li> Flash</li>
+	<li> Tabular Data</li>
+	<li> safe HTML code</li>
+	<li> RSS feeds</li>
+	<li> I-frames</li>
+	<li> Freemind data and maps </li>
+	<li> "menulets," small actions suitable for embedding in custom menus</li>
+	</ul>
+</li>
+<li> User-selectable and modular theme support.</li>
+<li> Administration modules to manage pages and users, including tools for bulk operations like user removal or page reversion.
+</li>
+<li> Advanced (but optional) <em>access control</em>, with user registration, password management and provision for user profiles, as well as access control lists for page access.</li>
+<li> Advanced <em>Syntax Highlighting</em> using GeSHi:
+<ul>
+<li> support for 68 markup/programming languages;</li>
+<li> easily customizable output;</li>
+<li> (optional) line numbering;</li>
+<li> clickable markup pointers to official documentation;</li>
+</ul></li>
+<li> Several <em>page-related features</em>, including full revision control, comments, categories, text searching, page cloning, advanced referrer management, file uploading/downloading interface, and a GUI page editor.
+</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

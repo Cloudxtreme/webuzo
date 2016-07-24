@@ -1,0 +1,41 @@
+Version 1.16.1 (April 6, 2016):
+-------------------------------------
+	Option to rotate listing photos after the upload;
+	Option to edit seasonal prices;
+	Error in listing view form under PHP 7 is fixed;
+	Paid systems PayPal and PayMaster - validity verification of payments is added;
+	Other improvements and minor corrections.
+
+Version 1.16.0 (March 22, 2016):
+-------------------------------------
+    New paid module 'Geo'. Automatically identifies country, region, city. Allows to configure autopopulating of the identified location into the search and filter on the main page and into the listing form;
+    Module SEO update. Now it's a standalone area in the admin panel, where you can configure SEO-urls and meta-data to all site pages. Main and complementary SEO settings management. Regeneration of current SEO-urls and meta-data;
+    Booking feature update. Automatical calculation of booking fee and immediate payment option for daily rented objects;
+    'Forms editor' module update. Visibility settings depending on the deal type;
+    Improvements in agencies functionality (now agency can edit agents' listings, appoint listings to agents and refill agents' ballance from the agency account);
+    Micromarkup schema.org, allows to enhance representaion of the file snippet in search results. Learn more;
+    Cookies warning;
+    Theme 'Atlas' update. Full-width slider in 'Atlas' theme. Option to choose listings display format on the main page: blocks, table, blocks + map;
+    Metro stations search in search form;
+    Framework Yii is updated to the latest version (1.1.17);
+    PHPMailer is updated to the latest version (5.2.14);
+    Correction of the layering of transparent png as watermark;
+    Multiple improvements and speedwork increase.
+
+Version 1.15.4 (February 29, 2016):
+-------------------------------------
+    errors' correction.
+
+Version 1.15.3 (January 31, 2016):
+-------------------------------------
+    - errors' correction.
+
+Version 1.15.2 (January 12, 2016):
+-------------------------------------
+
+	- errors' correction.
+
+Version 1.15.1 (December 16, 2015):
+-------------------------------------
+
+	- errors' correction.

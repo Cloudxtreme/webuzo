@@ -1,0 +1,17 @@
+<softedit xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ghost_service_heading}}</heading>
+			<input type="select">
+				<select name="ghost_service">
+					<option value="none">{{service_none}}</option>
+					<option value="start">{{service_start}}</option>
+					<option value="stop">{{service_stop}}</option>
+					<option value="restart">{{service_restart}}</option>
+				</select>
+				<head>{{service}}</head>
+				<exp>{{exp_service}}</exp>
+			</input>
+		</group>
+	</settings>
+</softedit>

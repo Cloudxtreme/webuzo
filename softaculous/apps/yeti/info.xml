@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/YetiForce 
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/YetiForce 
+	</ratings>
+	<space>
+		143886840
+	</space>
+	<support>
+		https://github.com/YetiForceCompany/YetiForceCRM
+	</support>
+	<version>
+		3.1.0
+	</version>
+	<mod>3</mod>
+	<release_date>18-05-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.1.0" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="imap" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="dom" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">YetiForce</font> is advanced open source software dedicated for companies that search for the latest technological solutions. It is not only very user-friendly but it also allows for full integration with external applications. <br /><br />
+		In addition to standard CRM functionalities, YetiForce has also solutions that won’t be found anywhere else and, therefore, it brings the software to the whole new level of innovation. It offers a possibility of configuration at every stage of use because it comes with an enormous array of tools, plugins and modules.<br /><br />
+		YetiForce is available under the <a href="https://yetiforce.com/en/implementer/license.html" target="_blank">YetiForce Public License 1.1</a>.
+		</english-overview>
+		<english-features>
+		<ul>
+			<li>Over 60 user modules </li>
+			<li>Over 70 configuration panels </li>
+			<li>Responsive menu</li>
+			<li>Fresh modern User Interface </li>
+			<li>Intuitive navigation</li>
+			<li>Time Control </li>
+			<li>New Logistics module</li>
+			<li>Inventory management</li>
+			<li>Customer Portal</li>
+			<li>Dashboard</li>
+			<li>Customization </li>
+			<li>E-mail client – Roundcube</li>
+			<li>Integration with LDAP, DAV, PBXManager and Google Maps</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

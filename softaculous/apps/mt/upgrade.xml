@@ -1,0 +1,26 @@
+<softupgrade xmlns="http://www.softaculous.com">	
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<www>www</www>
+	<files>
+		<exclude>mt-atom.cgi</exclude>
+		<exclude>mt-check.cgi</exclude>
+		<exclude>mt-comments.cgi</exclude>
+		<exclude>mt-feed.cgi</exclude>
+		<exclude>mt-ftsearch.cgi</exclude>
+		<exclude>mt-search.cgi</exclude>
+		<exclude>mt-tb.cgi</exclude>
+		<exclude>mt-testbg.cgi</exclude>
+		<exclude>mt-upgrade.cgi</exclude>
+		<exclude>mt-wizard.cgi</exclude>
+		<exclude>mt-xmlrpc.cgi</exclude>
+		<exclude>mt.cgi</exclude>
+		<exclude>mt-config.cgi</exclude>
+	</files>
+	
+</softupgrade>

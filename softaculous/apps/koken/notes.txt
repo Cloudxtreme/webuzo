@@ -1,0 +1,5 @@
+1) Add dbprefix in advance option
+2) Time zone America/New_York
+3) download latest.zip and be1cb2d9-ed05-2d81-85b4-23282832eb84.zip , take url from index.php of koken installer
+4 ) extract latest.zip and create elementary folder in storage/themes/
+extract the be1cb2d9-ed05-2d81-85b4-23282832eb84.zip file and move to storage/themes/elementary folder of extracted latest.zip

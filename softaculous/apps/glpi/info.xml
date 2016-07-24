@@ -1,0 +1,72 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/GLPI
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/GLPI
+	</ratings>
+	<space>
+		69845933
+	</space>
+	<support>
+		http://www.glpi-project.org/
+	</support>
+	<version>
+		0.90.3
+	</version>
+	<mod>31</mod>
+	<release_date>11-04-2016</release_date>
+	<admin>index.php</admin>
+	<min_require>0.68</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">GLPI</font> is the Information Resource-Manager with an additional Administration- Interface.
+		<br /><br />You can use it to build up a database with an inventory for your company (computer, software, printers...). It has enhanced functions to make the daily life for the administrators easier, like a job-tracking-system with mail-notification and methods to build a database with basic information about your network-topology.
+		<br /><br />
+		GLPI is released under the <a href="http://www.glpi-project.org/spip.php?article44" target="_blank">GNU/GPL version 2</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#1281B6"><b>General</b></font><br />
+<ul>
+<li>Multi-entities management (multi-park, multi-structure)</li>
+<li>Multi-users management</li>
+<li>Multiple Authentication System (local, LDAP, AD, Pop/Imap, CAS, x509...) and multiple servers.</li>
+<li>Multilingual management</li>
+<li>Permissions and profiles system </li>
+<li>Pagination system </li>
+<li>Configurability of display fields in lists </li>
+<li>Export System in PDF, CSV, SLK (spreadsheet), PNG and SVG </li>
+<li>Saving/restoration module of the database to the SQL format </li>
+<li>Exportation of the database to the XML format</li>
+<li>System of notifications on events (consumable stock, expiry of contracts and licenses), customizable and by entity </li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Inventory</b></font><br />
+<ul>
+<li>Import data of the inventory from one or several OCS Inventory NG servers or with the plugins FusionInventory </li>
+<li>Inventory of the computers fleet with management of its components, disk space and TCO management </li>
+<li>Inventory of the monitors with management of the connections to the computers </li>
+<li>Inventory of the network hardware fleet with management of the connections to the devices (IP, Mac addresses, VLANs...). </li>
+<li>Inventory of printers fleet with management of connections to the computers and management of consumable associated and consumption and the thresholds of alarm.</li>
+<li>Inventory of the external devices (scanners, graphical tables...) with management of the connections to the computers - Inventory of the telephones fleet with management of connections to the computers </li>
+<li>Inventory if the software fleet with license and expiration dates management </li>
+<li>Administrative and financial Information management (purchase, guarantee and extension, damping) </li>
+<li>Management of the various states for the materials (in repair...) - Management of generic peripherals and monitors being able to be associated several computers </li>
+<li>Management of external bonds towards other applications </li>
+<li>History of the modifications on the elements of the inventory</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

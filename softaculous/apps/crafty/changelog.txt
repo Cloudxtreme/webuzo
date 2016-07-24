@@ -1,0 +1,38 @@
+   Version 3.5.4:  (Released: May 28, 2016   ) 
+================================================================== 
+ + updated graphics to include new logo of Sales Syntax.
+ + Added tab for linking user database for CRM management.
+ + Added ability for support tickets. 
+ + added tab for lead management and added wall for operators to
+   see posts.
+   
+FILES CHANGED: 
+------------------------------------------------------------------
+   setup.php, config_cslh.php, class/mysql_db.php, class/mysqli_db.php, 
+   mobile/mysql_db.php, mobile/mysqli_db.php, images/logo.jpg.
+   images/loginbk.jpg
+
+   Version 3.5.3:  (Released: March 30, 2016   ) 
+================================================================== 
+ + converted the depreciated mysql functions to mysqli functions 
+   for support for php 4+
+   
+   Version 3.5.2:  (Released: December 2, 2015   ) 
+================================================================== 
+ + added HTML5 support for audio tag and made this option default
+   for all new installations. should allow audio to play without 
+   quicktime for the latest browsers. code still includes option 
+   to use embed tags for older browsers.
+   
+   Version 3.5.1:  (Released: November 28, 2015   ) 
+================================================================== 
+ + new website transition and security updates are being made from 
+   our new domain salessyntax.com rather then from craftysyntax.com
+   or cslh.com . salessyntax.com will have the Customer relationship
+   management system and live help system while Sales Syntax will
+   have the chatwoo system
+
+   Version 3.4.7:  (Released: August 15, 2013   ) 
+================================================================== 
+ + Added the CRM features for gathering customer data 
+  from visitors to website even when offline.

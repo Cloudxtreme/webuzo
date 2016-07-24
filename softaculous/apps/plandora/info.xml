@@ -1,0 +1,64 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Plandora
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/java/projectman/Plandora
+	</ratings>
+	<space>
+		52471476
+	</space>
+	<support>
+		http://www.plandora.org/contact.htm
+	</support>
+	<version>
+		1.13.0
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<release_date>29-06-2013</release_date>
+	<admin>do/login?operation=prepareLogin</admin>
+	<softversion>
+		4.1.2
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Plandora</font> project was born to be a tool to help the software development process, from the customer requirement until the task conclusion, and consequently gather the "history" of project. <br />
+		The Plandora system can be useful for teams that have problems with resource bottle-necks, parallel projects, critical dead lines, necessity for scope documentation of tasks and requirements, etc.
+		<br /><br />
+		Plandora is released under <a href="http://www.gnu.org/licenses/lgpl-2.1.html" target="_blank">LGPL</a>.
+		</english-overview>
+		<english-features>
+		<font size="2" color="#1281B6"><b>Multiples roles </b></font>
+		<ul >
+			<li>Project Leader, Project Resource, Customer and System Administrator (Root). Each role is associated with different features into system.</li>
+		</ul>
+		<font size="2" color="#1281B6"><b>Customer GUI</b></font>
+		<ul>
+			<li>The system provides customer GUI to open Requirements and follow the status of opened Requirements.</li>
+		</ul>
+		<font size="2" color="#1281B6"><b>Resource TO DO list</b></font>
+		<ul>
+			<li>The task working time from the resource TO DO list, can be updated and will be considered dynamically by the Gantt chart and eventually will change the status of request viewed by customer requester.</li>
+		</ul>
+		<font size="2" color="#1281B6"><b>Gadgets</b></font>
+		<ul>
+			<li>The main form could contain gadgets that can be selected by user in order to improve his task or management</li>
+		</ul>			
+		<font size="2" color="#1281B6"><b>Meta Fields</b></font>
+		<ul>
+			<li>The tool implements the concept of Meta Fields. A Meta Field is a visual element (text box, combo box, calendar or a SQL combo box) created by system administrator and can be related with requirements, tasks or risks of a specific project. The Meta Fields is useful to give more customization from the inputs.</li>
+		</ul>
+		<font size="2" color="#1281B6"><b>Multiplatform</b></font>
+		<ul>
+			<li>The Plandora tool is multiplatform. It is written in Java and runs in any operational system that supports the Java language.</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

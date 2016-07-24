@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Logaholic
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Logaholic
+	</ratings>
+	<space>
+		15546859
+	</space>
+	<support>
+		http://www.logaholic.com/help/questions
+	</support>
+	<version>
+		6.0.2
+	</version>
+	<mod>36</mod>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<min_require>4.3.6</min_require>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Logaholic</font> is a powerful web analytics solution that delivers reliable, objective information about the performance of your web site content, traffic, keywords and marketing. Get useful insights that will help you improve your site today. 
+		<br /><br />
+		Logaholic's low impact Javascript tracking tags ensure that collecting data won't slow down your website. If tracking should fail, it does so without delays in load time, invisible to the user.
+		<br /><br />
+		Logaholic is licensed under their <a href="http://www.logaholic.com/terms-of-service/" target="_blank">Custom License Agreement</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Analyze mutiple websites</li>
+<li>Unique Visitors and Visits</li>
+<li>Conversion rates</li>
+<li>Bounce Rates</li>
+<li>New and Returning Visitors</li>
+<li>Save reports as CSV or XML file for use in Excel and other applications</li>
+<li>Auto-Detect for Google Adsense referrer clicks</li>
+<li>Track performance of marketing campains</li>
+<li>Profile management</li>
+<li>User management</li>
+<li>Selectable Visitor Identifcation method</li>
+<li>Create visitor groups by Country, Landing Pages, Search Engines, Keyword, Referrers, KPI's – you name it!</li>
+<li>View many Logaholic reports just for selected traffic segment</li>
+<li>Log analyzer for single files, entire directories or gzipped archives</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

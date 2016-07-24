@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the 	EAP zip file from (http://jbossas.jboss.org/downloads). Login ID: nikhil@softaculous.com & Password: Webuzo@1234

@@ -1,0 +1,1 @@
+1. Make script where Database ENGINE is InnoDB(If manual doesn't works on webuzo then make it on cpanel)

@@ -1,0 +1,6 @@
+1. Manual Installation works on a suPHP server
+2. Always make x2.zip file on Linux by zip command. Bcoz in js/ folder there are two files with same name. i.e x2chart.js & X2Chart.js. In windows it overwrites and keeps only x2chart.js in zip. So, Create zip on linux (not required any more)
+3. Make `unique_id` in INSERT in table `x2_admin` as 'none' (script vendor asked us to make it 'none').
+4. Timezone US/Pacific
+5. No sample data while manual installation
+6. If you get error on webuzo manual install then disable tokenizer, sqlite, pdo_sqlite, PDO, iconv, ctype

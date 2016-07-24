@@ -1,0 +1,2 @@
+1. we have disabled auto upgrade because upgrade utility asks for login details to update the database. Enable it later if it works
+2. Select Timezone : America/New_York

@@ -1,0 +1,2 @@
+1. Keep Short name: and Email label: as it is while manual installation.
+2. Try to restore the upgrade functionality

@@ -1,0 +1,43 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/CJ_Dynamic_Poll
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/CJ_Dynamic_Poll
+	</ratings>
+	<space>
+		123436
+	</space>
+	<support>
+		http://www.cj-design.com
+	</support>
+	<version>
+		2.0
+	</version>
+	<mod>5</mod>
+	<mod_files>2</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CJ Dynamic Poll</font> does exactly what it says in the title - it is a poll that changes dynamically. Ever wondered how websites can display poll questions one minute then once you have voted display the results in the same place? Well... this script does just that. Complete with full Admin Interface the CJ Dynamic Poll is a must have for all websites!
+		<br /><br />
+		CJ Dynamic Poll is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+		<li>Create surveys</li>
+		<li>Administer surveys</li>
+		<li>View statistics</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

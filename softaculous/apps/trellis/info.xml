@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Trellis_Desk
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Trellis_Desk
+	</ratings>
+	<space>
+		3340870
+	</space>
+	<support>
+		http://www.accord5.com/trellis
+	</support>
+	<version>
+		1.0.4
+	</version>
+	<mod>2</mod>
+	<mod_files>3</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Trellis Desk</font> is a powerful and robust help desk solution for your business.
+		<br /><br />
+	Improve your company's service by allowing your customers to quickly and easily submit support tickets to your team. Trellis Desk sports a range of advanced features that enable your business to handle customer support more efficiently. <br /><br />
+		Trellis Desk is released under the <a href="http://www.accord5.com/trellis/license">End User License Agreement</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Ticket departments</li>
+<li>Ticket priority levels</li>
+<li>Canned ticket replies</li>
+<li>Group permissions</li>
+<li>Ticket escalation</li>
+<li>Ticket assignment</li>
+<li>Rich text editor</li>
+<li>Helpdesk RSS feeds</li>
+<li>Ticket attachments</li>
+<li>Skin manager</li>
+<li>Language manager</li>
+<li>Manage articles and categories</li>
+<li>Article ratings and comments</li>
+<li>Smart display of KB articles during ticket submission</li>
+<li>Pipe support emails into your helpdesk</li>
+<li>Email notifications</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

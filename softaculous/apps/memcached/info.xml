@@ -1,0 +1,128 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/utilities/memcached
+	</ratings>
+	<space>
+		8024064
+	</space>
+	<support>
+		http://memcached.org/
+	</support>
+	<version>
+		v1.4.20
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>20-12-2013</release_date>
+	
+	<requires>libevent</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/memcached</path>
+	<path name="sbin">/usr/local/apps/memcached/bin/memcached</path>
+	<initd name="memcached">/usr/local/apps/memcached/bin/memcachedctl</initd>
+	
+	<extract file="memcached-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/memcached</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Memcached Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base</td>
+				<td>/usr/local/apps/memcached</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/memcached/bin/memcached</td>
+			</tr>
+			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+			<font size="5" color="#182e7a">Memcached</font> is free and open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
+			<br /><br />
+			Memcached is distributed under the <a href="http://opensource.org/licenses/BSD-3-Clause" target="_blank">New BSD License</a>.
+		</english-overview>
+		<english-features>
+			<p>
+			  memcached allows you to take memory from parts of your system where
+			  you have more than you need and make it accessible to areas where
+			  you have less than you need.
+			</p>
+			
+			<p>
+			  memcached also allows you to make better use of your memory.  If you
+			  consider the diagram to the right, you can see two deployment
+			  scenarios:
+			</p>
+			
+			<ol>
+			  <li>Each node is completely independent (top).</li>
+			  <li>Each node can make use of memory from other nodes (bottom).</li>
+			</ol>
+			
+			<p>
+			  The first scenario illustrates the classic deployment strategy,
+			  however you'll find that it's both wasteful in the sense that the
+			  total cache size is a fraction of the actual capacity of your web
+			  farm, but also in the amount of effort required to keep the
+			  cache consistent across all of those nodes.
+			</p>
+			
+			<p>
+			  With memcached, you can see that all of the servers are looking into
+			  the same virtual pool of memory.  This means that a given item is
+			  always stored and always retrieved from the same location in your
+			  entire web cluster.
+			</p>
+			
+			<p>
+			  Also, as the demand for your application grows
+			  to the point where you need to have more servers, it generally also
+			  grows in terms of the data that must be regularly accessed.  A
+			  deployment strategy where these two aspects of your system scale
+			  together just makes sense.
+			</p>
+			
+			<p>
+			  The illustration to the right only shows two web servers for
+			  simplicity, but the property remains the same as the number
+			  increases.  If you had fifty web servers, you'd still have a usable
+			  cache size of 64MB in the first example, but in the second, you'd
+			  have 3.2GB of usable cache.
+			</p>
+			
+			<p>
+			  Of course, you aren't required to use your web server's memory for
+			  cache.  Many memcached users have dedicated machines that are built
+			  to only be memcached servers.
+			</p>					
+		</english-features>
+	</languages>
+</soft>

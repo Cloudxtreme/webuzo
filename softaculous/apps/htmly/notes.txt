@@ -1,0 +1,1 @@
+Use "Using Zip Archive" method for manual installation : https://docs.htmly.com/basics/installations

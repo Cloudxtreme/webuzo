@@ -1,0 +1,65 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/security/Linux_Environment_Security
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://www.rfxn.com/projects/linux-environment-security/
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/les</path>
+	<path name="bin">/usr/local/les/les</path>
+	
+	<extract file="les-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Linux Environment Security Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/les/les</td>
+			</tr>						
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#142e7b">Linux Environment Security </font> is intended as a facility to quickly and easily secure RedHat/RPM based environments. It does such by enforcing root-only permissions on system binaries (binaries that have no place being executed by normal users), enforcing root-only path traversal on system paths, enforcing immutable bit on essential rpm package contents (i.e: coreutils), and enforcing immutable bit on shell profile scripts..<br /><br />
+		Linux Environment Security is distributed under their <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank"> GNU General Public License</a>
+		</english-overview>
+		<english-features>
+			<p>The combined usage of all LES options provides an increased level of local environment security, with the goal of preventing environment based attacks. Such attacks would consist of compromised system binaries; tainting the $PATH variable to point to invalid paths where trojan/malicious binaries are located; alterations to user profile scripts to activate key loggers or process based hi-jacking; traversal exploration of the system paths etc…; the possible attack trends are numerious hence the importance of hardening the local environment space.</p>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/InfiniteWP
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/InfiniteWP
+	</ratings>
+	<space>
+		6462733
+	</space>
+	<support>
+		http://infinitewp.com/
+	</support>
+	<version>
+		2.7.1.1
+	</version>
+	<mod>18</mod>
+	<mod_files>1</mod_files>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.4" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">InfiniteWP</font> is a free, self-hosted multiple WordPress management platform that simplifies your WordPress management tasks into a simple click of a button.
+		<br /><br />
+		InfiniteWP is released under the <a href="http://infinitewp.com/terms-conditions/" target="_blank">END USER LICENSE AGREEMENT</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#E2563E"><b>One Master Login</b></font> : One-click access to all your WordPress dashboards. Forget your passwords once and for all.<br /><br />
+<font size="2" color="#E2563E"><b>One-click updates</b></font> : Click the Update All button like a Boss and update everything - WP core, plugins and themes.<br /><br />
+<font size="2" color="#E2563E"><b>Instant Backup &amp; Restore</b></font> : Create backups of all your WordPress sites simultaneously. Restore backups instantly. <br /><br />
+<font size="2" color="#E2563E"><b>Manage Plugins &amp; Themes</b></font> : Activate, Deactivate and delete plugins and themes in bulk. Bulk install favorite plugins with a single click. <br /><br />
+		</english-features>
+	</languages>
+</soft>

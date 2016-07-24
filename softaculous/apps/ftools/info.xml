@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Form_Tools
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Form_Tools
+	</ratings>
+	<space>
+		7978080 
+	</space>
+	<support>
+		http://www.formtools.org/
+	</support>
+	<version>
+		2.2.6
+	</version>
+	<mod>19</mod>
+	<mod_files>3</mod_files>
+	<release_date>29-06-2013</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Form Tools</font> is a PHP / MySQL script that provides any existing web form with a backend database and a user-friendly interface to manage the form submission data.
+		<br /><br />
+		Form Tools provides a wealth of tools for managing and manipulating your form data. Whether you create your forms by hand or through a script, whether your form is in HTML, Flash, Silverlight or anything else - Form Tools can help!
+		<br /><br />
+		Form Tools is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Choice of data export</li>
+<li>Email notifications</li>
+<li>Client accounts</li>
+<li>Views</li>
+<li>Customizable interface</li>
+<li>Component-based architecture</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

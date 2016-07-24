@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Prismotube_Express
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/video/Prismotube_Express
+	</ratings>
+	<space>
+		2561261
+	</space>
+	<support>
+		http://www.alurian.com/php-video-script/prismotube-express/
+	</support>
+	<version>
+		1.13
+	</version>
+	<mod>3</mod>
+	<mod_files>3</mod_files>
+	<admin>admin/</admin>
+	<release_date>20-02-2013</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Prismotube Express</font> is the free basic version of Prismotube without all the bells and whistles.
+It is a video script that is based on the Youtube API that allows you to build a video site on any topic in record time.
+		<br /><br />
+All you need is a couple of keywords.
+		<br /><br />
+Prismotube Express comes with in-built smart video script with a unique AutoSmart Content™ and Auto-Refrez™ technology.
+		<br /><br />
+		Prismotube Express is released under their Custom License Agreement.
+		</english-overview>		
+		<english-features>
+		<ul>
+		<li><font size="2" color="#1281B6">Setup a niche video site</font><br /></li>
+		<li><font size="2" color="#1281B6">Add a video section to your existing site</font><br /></li>
+		<li><font size="2" color="#1281B6">AutoSmart Content™ technology pulls in video contents from the Youtube API based on your keywords</font><br /></li>
+		<li><font size="2" color="#1281B6">Auto-Refrez™ refreshes the contents everyday without your intervention</font><br /></li>
+		</ul>
+		</english-features>
+		<english-err_php54_com>is not compatible with PHP version 5.4+</english-err_php54_com>
+	</languages>
+</soft>

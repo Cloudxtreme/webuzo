@@ -1,0 +1,50 @@
+1.7
+---
+- added: support for PDO and MySQLi
+- added: social bookmarklets - share on Twitter, Facebook or Tumblr in a click
+- added: check api.yourls.org if a new version of YOURLS is available
+- added: proxy support - install YOURLS behind a firewall!
+- improved: security regarding SQL injections
+- improved: security regarding your credentials - now auto-encrypted
+- improved: external HTTP request handling
+- improved: ƒυηкƴ UTF-8 titles handling
+- fixed: compatibility with Apache mod_security blocking bookmarklets
+- fixed: lots of bugs
+
+1.6
+---
+- added: مرحبا العالم! Hej verden! 你好世界! Kumusta mundo! Ciao mondo! Hello world! Translation API.
+- added: custom API actions
+- added: support for URLs with common protocols
+- fixed: search and pagination in the admin interface
+- updated: third party libs jQuery, ezSQL, GeoIP
+- improved: sanitizing and escaping functions
+
+1.5.1
+-----
+- added: full jsonp support
+- added: ability to use encrypted passwords in the config file
+- fixed: support for http://www.sho.rt/bleh and http://sho.rt/bleh
+- added: support for any favicon dropped in the /user directory
+- updated: Google Visualization API instead of deprecated Google Charts
+- fixed: bugs, bugs, bugs
+- added: hooks, hooks, hooks
+- improved: things, things, things
+
+1.5
+---
+- added: plugin architecture! OMG plugins!!1!!1!
+- added: directory /user, config.php can be moved there
+- added: new "instant bookmarklets"
+- added: 1 click copy-to-clipboard a la bitly
+- change in logic: now all request are handled by PHP and don't rely on .htaccess
+- added: saving URL titles
+- added: support for prefix-n-shorten: sho.rt/http://example.com/
+- added: core plugin to allow hyphens in URLs
+- added: core sample plugin to wrap redirected URLs in a social toolbar
+- added: core sample plugin to show how to create administration page in plugins
+- added: core plugin to display a random pretty background
+- changed: layout now using a more consistent palette, see http://yourls.org/palette
+- added: anti XSS and anti CSRF measures
+- added: interactive map if possible in stat traffic by countries
+- fixed: lots of bugs

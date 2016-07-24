@@ -1,0 +1,112 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/MariaDB
+	</ratings>
+	<space>
+		404416375
+	</space>
+	<support>
+		https://mariadb.org/en/
+	</support>
+	<version>
+		5.5.49
+	</version>
+	<mod>18</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<release_date>22-04-2016</release_date>
+	
+	<requires>zlib</requires>
+	<requires>ncurses</requires>
+	<requires>readline</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/mariadb</path>
+	<path name="daemon">/usr/local/apps/mariadb/bin/mysqld</path>
+	<path name="client">/usr/local/apps/mariadb/bin/mysql</path>
+	<path name="conf_dir">/usr/local/apps/mariadb/etc</path>
+	<path name="cnf">/usr/local/apps/mariadb/etc/my.cnf</path>
+	
+	<initd name="mariadb">/usr/local/apps/mariadb/bin/mariactl</initd>
+	
+	<extract file="mariadb-$arch.tar.gz">$appsdir</extract>
+	<extract file="phpmyadmin.zip">$webuzowww/phpmyadmin</extract>
+	
+	<symlink target="/usr/bin/mysql">/usr/local/apps/mariadb/bin/mysql</symlink>
+	<symlink target="/usr/bin/mysqladmin">/usr/local/apps/mariadb/bin/mysqladmin</symlink>
+	<symlink target="/usr/bin/mysqld_safe">/usr/local/apps/mariadb/bin/mysqld_safe</symlink>
+	<symlink target="/usr/bin/mysql_install_db">/usr/local/apps/mariadb/bin/mysql_install_db</symlink>
+	
+	<is_default>16_1</is_default>
+	<is_default>83_1</is_default>
+	<is_default>128_1</is_default>
+	<is_default>131_1</is_default>
+	<is_default>132_1</is_default>
+	
+	<remove>/usr/local/apps/mariadb</remove>
+	<remove>$webuzowww/phpmyadmin</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Mariadb Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+padding: 5px;
+}
+
+.notestable th{
+background: #EFEFEF;
+padding: 5px;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Server Binary</td>
+				<td>/usr/local/apps/mariadb/bin/mysqld</td>
+			</tr>
+			<tr>
+				<td>Client Binary</td>
+				<td>/usr/local/apps/mariadb/bin/mysql</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/mariadb/etc/my.ini</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/local/apps/mariadb/lib</td>
+			</tr>
+			<tr>
+				<td>libmysqlclient.so</td>
+				<td>/usr/local/apps/mariadb/lib/libmysqlclient.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MariaDB</font> is a drop-in replacement for MySQL.
+ 
+		<br /><br />
+		MariaDB is distributed under the <a href="https://mariadb.com/kb/en/mariadb-license/" target="_blank">GNU General Public License, version 2</a>
+		</english-overview>
+		<english-features>
+			<p>MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, Monty Program works to hire the best and brightest developers in the industry, work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability.
+			</p>
+		</english-features>
+	</languages>
+</soft>

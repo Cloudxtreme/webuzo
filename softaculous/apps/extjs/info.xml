@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.extjs.com/deploy/dev/examples/samples.html
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Ext_JS
+	</ratings>
+	<space>
+		6824053
+	</space>
+	<support>
+		http://www.extjs.com
+	</support>
+	<version>
+		4.2.1
+	</version>
+	<mod>14</mod>
+	<mod_files>1</mod_files>
+	<release_date>16-05-2013</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Ext JS</font> is a JavaScript platform for rapid development of cross-browser web apps. Ext JS helps you build sustainable applications faster than ever.
+		<br /><br />
+		Develop amazing web apps built on web standards.
+		<br /><br />
+		Ext JS is a <a href="http://www.extjs.com/products/license.php" target="_blank">dual-licensed software</a> available under a Commercial License or under GPL 3.
+		</english-overview>		
+		<english-features>
+		<p>Ext JS is a cross-browser JavaScript library for building rich internet applications. It includes:</p>
+		<ul class="features">
+			<li><span>High performance, customizable UI widgets</span></li>
+			<li><span>Well designed and extensible Component model</span></li>
+			<li><span>An intuitive, easy to use <a href="http://www.extjs.com/docs">API</a></span></li>
+
+			<li><span><a href="http://www.extjs.com/store/extjs">Commercial</a> and <a href="http://www.extjs.com/products/license.php">Open Source</a> licenses available</span></li>
+		</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font>
+		<p>Ext JS supports all major web browsers including:</p>
+		    <ul class="features">
+				<li>Internet Explorer 6+</li>
+		    	<li>FireFox 1.5+ (PC, Mac)</li>
+		    	<li>Safari 3+</li>
+		    	<li>Opera 9+ (PC, Mac)</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

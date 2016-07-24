@@ -1,0 +1,42 @@
+Brushtail 14.0 (Jan 2016) changes
+There were a lot incremental versions of Brushtail 13 so this release is going to 14.0 
+
+
+PC booker - PC name (PC 1, PC 2 etc) can now be displayed on screen.
+Frontpage - This can now be set per user. Different users can have different start page.
+Leave requests - staff can now view branch calendar of who has submitted leave.
+Event calendar tags - the tag selection when adding events has been tidied up.
+Helpdesk - files can now be uploaded to jobs.
+Helpdesk - request form fields were concatenated to a single request field. After upgrade new requests will be kept as original fields, so fields can be edited individually. Also CSV export will have a column for every field in request form.
+Helpdesk - form fields can be merged, if too many fields after upgrade
+Inventory - added checkin/checkout feature.
+Fixed calendar bug fixed - email notification sent to people on waiting list.
+Room bookings - now also has a "slot mode" where bookings are for predefined time slots.
+Room bookings - can now have email alerts for booking confirmation, booking cancellation, unpaid booking reminder. Email text for these can be edit with rich text editor.
+Room bookings - can now be automatically cancelled after predefined number of days.
+PC bookings - individual locations can now be excepted from public holidays.
+TV display - fixed bug with youtube videos.
+
+Brushtail 12.0 (Feb 2015) changes
+
++ added database indexes for performance
++ config.php
+$EMAIL_CONFIRMATION_URL parameter dropped (duplication of $WEB_CALENDAR_DIRECTORY_URL)
++ email now sent as html email. This allows logos to be put in email footer.
++ html5 email address validation in forms
++ tidied up forms style
++ Patrons can be sent reminder emails for a calendar event. This is done content management, can be done manually or automatically.
++ added datepicker to room booking custom fields 
++ TV slideshow updated
+fixed css bugs
+slideshow should be unaffected by network outages
+If added to device Home screen (tested with safari on ipad, chrome and firefox on android) slideshow will open in  full screen mode.
++ public upcoming events page Updated. Search box updated. If events have tags then you can filter events by tag.
++ Upcoming events page only shows events with images (does not apply when searching) - config.php parameter $UPCOMING_EVENTS_IMAGE_ONLY = "on";
++ upcoming events has a slideshow view (webcal.php?event=slide) showing event images.
++ adding calendar events, recurrency can now be hourly.
++ room bookng receipts now show finish time.
++ Adding calendar events - tags can now be mandatory
++ Can now limit number of web bookings per event per patron barcode
++ PCbooker - Patrons can use a "lock screen" button to lock screen if they need to go to printer etc. 
+ Screen locked only for duration of booking and unlocked with PIN used at start of session.

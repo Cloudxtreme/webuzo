@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpLD
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/phpLD
+	</ratings>
+	<space>
+		3489204
+	</space>
+	<support>
+		http://www.phplinkdirectory.com
+	</support>
+	<version>
+		2.2.0
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpLD</font> is the most widely used directory script on the internet. Users have tested the script on over 50,000 websites, and its a script that works in nearly all PHP hosting environments.
+		<br /><br />
+		Another great advantage of phpLD is the number of templates and mods available. There are complete sites devoted to mods and templates.
+		</english-overview>		
+		<english-features>
+Paypal Integration for Selling Featured Links <br />
+Set Expiration for Featured Links (ex. sell monthly, annually, lifetime)<br />
+Validation <br /> 
+Emailer <br /> 
+Create Reports of Link Request Emails sent to show your customer<br /> 
+Notify Submitter of Link Submission Receipt <br /> 
+Unlimited Categories and Subcategories (tested on 2 million+) <br /> 
+And much more!
+		</english-features>
+	</languages>
+</soft>

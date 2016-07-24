@@ -1,0 +1,2 @@
+1. We have Given upgrade from version r180.
+2. Use default dbprefix while manual installation. (Suggested by vendor)

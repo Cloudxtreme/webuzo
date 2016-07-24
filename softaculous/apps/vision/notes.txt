@@ -1,0 +1,6 @@
+1. Download the PHP 5.3 version from the client center :
+https://secure.visionhelpdesk.com/clientarea.php
+2. Copy the PHP 5.3 package as vision.zip and copy PHP 5.2 package to packages/vision_php52.zip and PHP 5.4 package as packages/vision_php54.zip (package should be ground zero zip)
+3. (At the moment languages is disabled) To enable language we have changed "is_enabled" in avis_language table from 0 to 1 for all languages.
+4. Always check upgrade.php to change version
+5. Language is not supported in 4.0.2 so we have removed it. Please add it back once developer adds language packs.

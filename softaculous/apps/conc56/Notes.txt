@@ -1,0 +1,6 @@
+1) Install twice i.e with and without sampledata and give the name of sql file accordingly.
+2) Copy the whole /files folder from manual installed with sampledata and then make data.zip (DONT FORGET TO EMPTY the contents of cache folder)
+3) Please do not replace timestamp in FileVersions table in sql. (There is no timestamp in FileVersions table)
+4) Remove ENVIRONMENT_CACHE from the Config table. Concrete5 generates it.
+5) We have excluded the file "config/site_theme_paths.php" during upgrade becuase it has the user's customization and should not be overwritten.
+6) Add this line in Config table of both sql for language ('SITE_LOCALE', '[[date_gmt]]', '[[language]]', 0, 0);

@@ -1,0 +1,18 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{wiki_settings}}</heading>
+			<input type="text" name="sn" size="30" value="My PmWiki">
+				<head>{{wiki_name}}</head>
+				<exp>{{wiki_name_exp}}</exp>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>
+		</group>
+	</settings>
+</softinstall>

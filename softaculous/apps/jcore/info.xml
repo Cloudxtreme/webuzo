@@ -1,0 +1,109 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/jCore
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/jCore
+	</ratings>
+	<space>
+		18751261
+	</space>
+	<support>
+		http://jcore.net/
+	</support>
+	<version>
+		0.9
+	</version>
+	<mod>2</mod>
+	<mod_files>2</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">jCore</font> server is the core system on which you can build your jCore client sites. 
+		<br /><br />
+		This is the system that contains all the libraries and/or modules you would use for your client sites.This way if there is a new release or an important bug fix you won't have to update all your sites one by one for each of your clients, just update jCore server and all your client sites will be updated at once.
+		<br /><br />
+		jCore is released under the <a href="http://www.gnu.org/licenses/gpl.html" targe="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<br /><br />
+<font size="2" color="#182e7a">Dynamic Web 2.0 Layout</font>
+<ul>
+<li>You build up your site from scrach using blocks (divs) and customizing them with css/js.</li>
+</ul>
+<font size="2" color="#182e7a">Multilanguage Support</font>
+<ul>
+<li>Using PHP's implemented translation functionality you can translate any port of the site.</li>
+</ul>
+<font size="2" color="#182e7a">Multiple Menus</font>
+<ul>
+<li>Have multiple menus for e.g. Top Menu, Bottom Menu, Left Menu on your site with unlimited menu items.</li>
+</ul>
+<font size="2" color="#182e7a">Content Management</font>
+<ul>
+<li>Manage your site's content with a WYSIWYG editor and attach files/pictures to them.</li>
+</ul>
+<font size="2" color="#182e7a">Dynamic Forms</font>
+<ul>
+<li>Create submit forms with custom fileds and store or send valus trough email.</li>
+</ul>
+<font size="2" color="#182e7a">Extensibility (Modules)</font>
+<ul>
+<li>Extend your site with further functionality like Photogallery or a File sharing module and so on.</li>
+</ul>
+<font size="2" color="#182e7a">jQuery Implementation</font>
+<ul>
+<li>jCore uses jQuery for it's front end coding, it even implements it's on jQuery plugins to make implementation of further jQuery plugins easily.</li>
+</ul>
+<font size="2" color="#182e7a">Content Codes</font>
+<ul>
+<li>Include posts, modules, blocks, forms and other are of your site in your posts/blocks contents.</li>
+</ul>
+<font size="2" color="#182e7a">RSS Feeds</font>
+<ul>
+<li>Keep your readers up to date with rss feeds.</li>
+</ul>
+<font size="2" color="#182e7a">Advertisements</font>
+<ul>
+<li>Easily place ad codes / banners on your site and earn money.</li>
+</ul>
+<font size="2" color="#182e7a">Members Management</font>
+<ul>
+<li>Manage your site members or send out mass emails to let them know about news.</li>
+</ul>
+<font size="2" color="#182e7a">SEO Friendly Links</font>
+<ul>
+<li>Have your links reendered in a human friendly way so people can remember them easily.</li>
+</ul>
+<font size="2" color="#182e7a">Brute Force Protection</font>
+<ul>
+<li>Will protect you from brute force attacks on your user's accounts.</li>
+</ul>
+<font size="2" color="#182e7a">Password Trading Protection</font>
+<ul>
+<li>Will protect you from password traders / sharers and notify you of compromised accounts.</li>
+</ul>
+<font size="2" color="#182e7a">Custom 404 Error Page</font>
+<ul>
+<li>Instead of showing a 404 Url Not found page you can customize to show your own text within your own site.</li>
+</ul>
+<font size="2" color="#182e7a">Custom Maintenance Text</font>
+<ul>
+<li>Will let you close your site for maintenance with your own notification text while you are making updates to your site.</li>
+</ul>
+<font size="2" color="#182e7a">API - Partial Classes</font>
+<ul>
+<li>Using partial classes you will be able to extend the core features without affecting compatibility for future updates.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

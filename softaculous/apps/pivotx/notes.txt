@@ -1,0 +1,8 @@
+1. Do not delete the PasswordHash.php as it is required for encrypting password.
+2. Dont configure the following files because they are created automatically by the script after login
+	/pivotx/db/ser_events.php
+	/pivotx/db/ser_sessions.php
+	/pivotx/db/ser_weblogs.php
+	/pivotx/db/ser_categories.php
+	/pivotx/db/ser_logins.php
+3. While installation Default language * English

@@ -1,0 +1,141 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/message_queue/RabbitMQ
+	</ratings>
+	<space>
+		4843678
+	</space>
+	<support>
+		http://www.rabbitmq.com/
+	</support>
+	<version>
+		3.5.4
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>22-07-2015</release_date>
+	
+	<requires>erlang</requires>		
+	
+	<path name="base">/usr/local/apps/rabbitmq</path>
+	
+	<extract file="rabbitmq-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/rabbitmq</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">RabbitMQ Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/rabbitmq</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://www.rabbitmq.com/documentation.html</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">RabbitMQ</font> is a 
+			<ul>
+				<li>Robust messaging for applications</li>
+				<li>Easy to use</li>
+				<li>Runs on all major operating systems</li>
+				<li>Supports a huge number of developer platforms</li>
+				<li>Open source and commercially supported</li>
+			</ul>
+	<br /><br />
+		RabbitMQ is provided under a dual license <a href="http://www.rabbitmq.com/mpl.html" target="_blank">Mozilla Public License.</a>
+		</english-overview>
+		<english-features>		
+			<h3>Reliability</h3>
+				<p>
+				  RabbitMQ offers a variety of features to let you trade off
+				  performance with reliability, including persistence,
+				  delivery acknowledgements, publisher confirms, and high
+				  availability.
+				</p>		
+				<h3>Flexible Routing</h3>
+				<p>
+				  Messages are routed through exchanges before arriving at
+				  queues. RabbitMQ features several built-in exchange types
+				  for typical routing logic. For more complex routing you
+				  can bind exchanges
+				  together or even write your own exchange type as a
+				  plugin.
+				</p>		
+				<h3>Clustering</h3>
+				<p>
+				  Several RabbitMQ servers on a local network can
+				  be clustered together, forming
+				  a single logical broker.
+				</p>		
+				<h3>Federation</h3>
+				<p>
+				  For servers that need to be more loosely and unreliably
+				  connected than clustering allows, RabbitMQ offers a
+				  federation model.
+				</p>		
+				<h3>Highly Available Queues</h3>
+				<p>
+				  Queues can be mirrored across several
+				  machines in a cluster, ensuring that even in the event of
+				  hardware failure your messages are safe.
+				</p>		
+				<h3>Multi-protocol</h3>
+				<p>
+				  RabbitMQ supports messaging over a
+				  variety of messaging protocols.
+				</p>		
+				<h3>Many Clients</h3>
+				<p>
+				  There are RabbitMQ clients for almost
+				  any language you can think of.
+				</p>		
+				<h3>Management UI</h3>
+				<p>
+				  RabbitMQ ships with an easy-to
+				  use management UI that allows
+				  you to monitor and control every aspect of your message
+				  broker.
+				</p>		
+				<h3>Tracing</h3>
+				<p>
+				  If your messaging system is misbehaving, RabbitMQ
+				  offers tracing support to let
+				  you find out what's going on.
+				</p>		
+				<h3>Plugin System</h3>
+				<p>
+				  RabbitMQ ships with a variety
+				  of plugins extending it in
+				  different ways, and you can
+				  also write your own.
+				</p>
+		</english-features>
+	</languages>
+</soft>

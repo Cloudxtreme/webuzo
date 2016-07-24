@@ -1,0 +1,108 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/TorqueBox
+	</ratings>
+	<space>
+		97197761
+	</space>
+	<support>
+		http://torquebox.org/
+	</support>
+	<version>
+		3.1.2
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>09-04-2015</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/torquebox</path>
+	<path name="bin">/usr/local/apps/torquebox/jruby/bin/torquebox</path>
+	<path name="conf">/usr/local/apps/torquebox/jboss/standalone/configuration/standalone.xml</path>	
+	
+	<extract file="torquebox-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/torquebox</remove>
+	
+	<is_default>106_1</is_default>
+	<is_default>109_1</is_default>
+	<is_default>123_1</is_default>		
+	
+	<notes>
+		<center><font size="5" color="#182e7a">TorqueBox Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/torquebox</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/torquebox/jruby/bin/torquebox</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://torquebox.org/documentation/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">TorqueBox</font> is a new kind of Ruby application platform that supports popular technologies such as Ruby on Rails and Sinatra, while extending the footprint of Ruby applications to include built-in support for services such as messaging, scheduling, caching, and daemons.
+
+TorqueBox provides an all-in-one environment, built upon the latest JBoss AS Java application server and JRuby. Functionality such as clustering, load-balancing and high-availability is included right out-of-the-box.
+
+<br /><br />
+		<br /><br />
+		TorqueBox is distributed under the dual licensed <a href="http://torquebox.org/license-lgpl.txt" target="_blank">GNU Lesser General Public License</a> and <a href="http://torquebox.org/license-mit.txt" target="_blank">MIT License</a>
+		</english-overview>
+		<english-features>
+			<h1 id="rack">Rack</h1>			
+			<p>TorqueBox supports Rack, including Rails 2.3.x, 
+			Rails 3.x, Sinatra, and others.  Rack applications are served 
+			as first-class resources within the web container. The web container is clusterable, and web sessions may 
+			be shared between nodes without any additional configuration.</p>			
+			<h1 id="jdbc">JDBC</h1>			
+			<p>High-performance tried-and-true Java Database Connectivity (JDBC) database drivers power your ActiveRecord and
+			other database access.</p>			
+			<h1 id="daemons">Daemons</h1>			
+			<p>TorqueBox provides the framework to manage your daemon-like Ruby components.  TorqueBox
+			makes sure it starts and stops with your application.  What you do in the middle is
+			up to you.</p>			
+			<h1 id="scheduled-jobs">Scheduled Jobs</h1>			
+			<p>Cron-like functionality is provided by the TorqueBox server. Job classes implemented in Ruby have full access 
+			to to your Ruby environment and are managed by a durable job scheduler.</p>			
+			<h1 id="messaging">Messaging</h1>			
+			<p>Your simple Ruby components can both produce and consume messages from 
+			clustered and distributed asynchronous messaging fabric powered by HornetQ.</p>			
+			<h1 id="asynchronous-tasks">Asynchronous Tasks</h1>
+			<p>Leveraging the messaging system, TorqueBox makes it easy to execute simple
+			tasks and methods asynchronously, allows your application to quickly return
+			control to the user.</p>	
+		</english-features>
+	</languages>
+</soft>

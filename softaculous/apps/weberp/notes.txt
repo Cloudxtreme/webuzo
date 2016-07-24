@@ -1,0 +1,5 @@
+1. Install without dbprefix bcoz of it takes dbprefix as prewb_weberp4
+2. Time Zone : America/New_york
+3. Install with sample data
+4. Dump the sql by command : mysqldump --routines -u root -pmysql web4101 > weberp.sql
+5. Copy companies/database folder from manual to companies/softaculous

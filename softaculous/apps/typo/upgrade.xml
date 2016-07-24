@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>typo3/install/index.php?TYPO3_INSTALL[type]=update&password=joh316</setuplocation>	
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>typo3conf/ENABLE_INSTALL_TOOL</exclude>
+		<exclude>typo3conf/localconf.php</exclude>
+	</files>
+</softupgrade>

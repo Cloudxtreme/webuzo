@@ -1,0 +1,104 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/web_servers/Apache_2.2
+	</ratings>
+	<space>
+		39273412
+	</space>
+	<support>
+		http://httpd.apache.org/
+	</support>
+	<version>
+		2.4.20
+	</version>
+	<mod>12</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>2</major>
+	<release_date>11-04-2016</release_date>
+	
+	<requires>openssl</requires>
+	<requires>zlib</requires>
+	<requires>pcre</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/apache2</path>
+	<path name="daemon">/usr/local/apps/apache2/bin/httpd</path>
+	<path name="conf_dir">/usr/local/apps/apache2/etc</path>
+	<path name="conf_d">/usr/local/apps/apache2/etc/conf.d</path>
+	<path name="conf">/usr/local/apps/apache2/etc/httpd.conf</path>
+	<path name="log">/usr/local/apps/apache2/logs</path>
+	
+	<initd name="httpd">/usr/local/apps/apache2/bin/apachectl</initd>
+	
+	<extract file="apache2-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/sbin/httpd">/usr/local/apps/apache2/bin/httpd</symlink>
+	
+	<is_default>18_1</is_default>
+	<is_default>60_1</is_default>
+	<is_default>3_1</is_default>	
+	
+	<set_default>httpd2</set_default>
+		
+	<remove>/usr/local/apps/apache2</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/apache2/bin/httpd</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/apache2/etc/httpd.conf</td>
+			</tr>
+			<tr>
+				<td>Default User</td>
+				<td>nobody</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache</font> Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows NT. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.
+<br /><br />
+Apache httpd has been the most popular web server on the Internet since April 1996, and celebrated its 17th birthday as a project this February.
+<br /><br />
+The Apache HTTP Server ("httpd") is a project of <a href="http://www.apache.org" target="_blank">The Apache Software Foundation</a>.
+		<br /><br />
+		Apache 2.4 is distributed under the <a href="http://www.apache.org/licenses/" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+<p>Apache supports a variety of features, many implemented as <a href="http://wikipedia.org/wiki/Compiler" title="Compiler">compiled</a> <a href="http://wikipedia.org/wiki/Modular_programming" title="Modular programming">modules</a> which extend the core functionality. These can range from server-side programming language support to authentication schemes. Some common language interfaces support <a href="http://wikipedia.org/wiki/Mod_perl" title="Mod perl">Perl</a>, <a href="http://wikipedia.org/wiki/Mod_python" title="Mod python">Python</a>, <a href="http://wikipedia.org/wiki/Tcl" title="Tcl">Tcl</a>, and <a href="http://wikipedia.org/wiki/PHP" title="PHP">PHP</a>. Popular authentication modules include mod_access, mod_auth, mod_digest, and mod_auth_digest, the successor to mod_digest. A sample of other features include <a href="http://wikipedia.org/wiki/Secure_Sockets_Layer" title="Secure Sockets Layer" class="mw-redirect">Secure Sockets Layer</a> and <a href="http://wikipedia.org/wiki/Transport_Layer_Security" title="Transport Layer Security">Transport Layer Security</a> support (<a href="http://wikipedia.org/wiki/Mod_ssl" title="Mod ssl">mod_ssl</a>), a <a href="http://wikipedia.org/wiki/Proxy_server" title="Proxy server">proxy</a> module (<a href="http://wikipedia.org/wiki/Mod_proxy" title="Mod proxy">mod_proxy</a>), a <a href="http://wikipedia.org/wiki/URL_rewriting" title="URL rewriting" class="mw-redirect">URL rewriter</a> (mod_rewrite), custom log files (mod_log_config), and filtering support (mod_include and mod_ext_filter).</p>
+<p>Popular compression methods on Apache include the external extension module, mod_gzip, implemented to help with reduction of the size (weight) of web pages served over <a href="http://wikipedia.org/wiki/HTTP" title="HTTP" class="mw-redirect">HTTP</a>. <a href="http://wikipedia.org/wiki/ModSecurity" title="ModSecurity">ModSecurity</a> is an open source intrusion detection and prevention engine for web applications. Apache logs can be analyzed through a web browser using free scripts such as <a href="http://wikipedia.org/wiki/AWStats" title="AWStats">AWStats</a>/<a href="http://wikipedia.org/wiki/W3Perl" title="W3Perl">W3Perl</a> or <a href="/w/index.php?title=Visitors_(program)&amp;action=edit&amp;redlink=1" class="new" title="Visitors (program) (page does not exist)">Visitors</a>.</p>
+<p><a href="http://wikipedia.org/wiki/Virtual_hosting" title="Virtual hosting">Virtual hosting</a> allows one Apache installation to serve many different actual websites. For example, one machine with one Apache installation could simultaneously serve www.example.com, www.example.org, test47.test-server.example.edu, etc.</p>
+<p>Apache features configurable error messages, <a href="http://wikipedia.org/wiki/Database_management_system" title="Database management system">DBMS</a>-based authentication databases, and <a href="http://wikipedia.org/wiki/Content_negotiation" title="Content negotiation">content negotiation</a>. It is also supported by several <a href="http://wikipedia.org/wiki/Graphical_user_interface" title="Graphical user interface">graphical user interfaces</a> (GUIs).</p>
+<p>It supports password authentication and <a href="http://wikipedia.org/wiki/Digital_certificate" title="Digital certificate" class="mw-redirect">digital certificate</a> authentication. Apache has a built in <a href="http://wikipedia.org/wiki/Search_engine" title="Search engine" class="mw-redirect">search engine</a> and an HTML authorizing tool and supports <a href="http://wikipedia.org/wiki/FTP" title="FTP" class="mw-redirect">FTP</a>.</p>
+<p>Because the source code is freely available, anyone can adapt the server for specific needs, and there is a large public library of Apache add-ons.</p>
+<p>The open source software movement has received enormous attention in the last several years. It is often characterized as a fundamentally new way to develop software that poses a serious challenge to the commercial software businesses that dominate most software markets today.</p>
+		</english-features>
+	</languages>
+</soft>

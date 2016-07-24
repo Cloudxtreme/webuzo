@@ -1,0 +1,4 @@
+1. Add [[language]] in local.php
+2. Choose License type 'Do not show any license information'. 
+3. Install three times i.e in Open Mode, Public mode & closed mode to check ACL values in install.php
+4. <vr search="2013-05-10a">2013-05-10+</vr> added for force upgrade by softaculous. So remove it in next version

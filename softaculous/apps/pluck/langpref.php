@@ -1,0 +1,3 @@
+<?php
+$langpref = '[[language]].php';
+?>

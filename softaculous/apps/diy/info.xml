@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/DIY
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/DIY
+	</ratings>
+	<space>
+		391810
+	</space>
+	<support>
+		http://www.xml.lt/Resources/Framework
+	</support>
+	<version>
+		0.3
+	</version>
+	<mod>2</mod>
+	<mod_files>3</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">DIY</font> is an open-source lightweight web application framework based on object-oriented PHP 5, MySQL, and XSLT. It is fully object-oriented and designed following the MVC architecture and REST design principles. The idea behind it is not to reinvent the wheel but instead to combine existing and proven technologies in a convenient and effective way.
+		<br /><br />
+		The DIY Framework is released under a <a href="http://www.gnu.org/copyleft/lesser.html">LGPL</a> license.
+		</english-overview>		
+		<english-features>
+	<p>Features: </p>
+<ul>
+<li>MVC design.</li>
+<li>Fully object-oriented PHP 5.</li>
+<li>Focus on RESTful resources and URIs.</li>
+<li>XSLT-based views.</li>
+<li>Database ORM support.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,38 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Multiplayer_Checkers
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/games/Multiplayer_Checkers
+	</ratings>
+	<space>
+		145640
+	</space>
+	<support>
+		http://www.alilg.com/scripts/free-php-ajax-multiplayer-checkers-game-script/
+	</support>
+	<version>
+		1.0.0
+	</version>
+	<mod>5</mod>
+	<mod_files>2</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Multiplayer Checkers</font> lets your visitors challenge each other, play checkers and chat with this AJAX-enabled script.
+		<br /><br />
+		Multiplayer Checkers License allows redistribution of Exact Copies of its softwares.
+		</english-overview>		
+		<english-features>
+			<i>No Info</i>
+		</english-features>
+	</languages>
+</soft>

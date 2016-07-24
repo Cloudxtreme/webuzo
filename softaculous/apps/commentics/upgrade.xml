@@ -1,0 +1,17 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>installer</setuplocation>
+	<settings>		
+		<group>
+			<input type="text" name="admin_folder" size="30" value="admin123" save="true">
+				<head>{{ad_dir}}</head>
+				<exp>{{ad_dir_upg}}</exp>
+				<handle>__admin_folder</handle>
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>includes/db/details.php</exclude>
+		<exclude>includes/words/*</exclude>	
+		<exclude>includes/words/*/*</exclude>	
+	</files>
+</softupgrade>

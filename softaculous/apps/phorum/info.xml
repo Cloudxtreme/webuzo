@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Phorum
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/Phorum
+	</ratings>
+	<space>
+		4265364
+	</space>
+	<support>
+		http://www.phorum.org/
+	</support>
+	<version>
+		5.2.20
+	</version>
+	<mod>17</mod>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Phorum</font> was the original PHP and MySQL based Open Source forum software. Phorum's developers pride themselves on creating message board software that is designed to meet different needs of different web sites while not sacrificing performance or features.
+		<br /><br />
+		Phorum is available to anyone under their modified version of <a href="http://www.phorum.org/license.txt">The Apache Software License Version 1.1</a>.
+		</english-overview>		
+		<english-features>
+		<h2>Performance</h2>
+            <p>The group of developers of Phorum had very different needs.  Some needed software that could run a single forum with over 2,000 new posts per day.  Others hosted over 4,000 forums on one server.  The end result is a versatile product that can serve anyone's needs.</p>
+		<h2>Freedom</h2>
+            <p>For the Phorum team, freedom means having the ability to make your message board do what you want it to do.  Your message board should fit into your site.  The developers of Phorum believe that the branding of the message board software should not over power the branding of your products and services.</p>
+		<h2>Forum Customization</h2>
+            <p>To satisfy the web master that needs every bell and whistle, or those that want to make their web site unique, the Phorum team created a very flexible hook &amp; module system.  These hooks allow a webmaster to create modules for using external authentication, altering message data before its stored, adding custom information about users or messages... almost anything you could want.</p>
+		<h2>Forum Design</h2>
+            <p>Phorum gives the web designers the power to rearrange the data in any shape, form or fashion they could want.  The templates are in pure HTML with simple to understand text commands embedded in them.  You can use the provided templates as a starting point or start from scratch.  The power is in your hands.</p>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

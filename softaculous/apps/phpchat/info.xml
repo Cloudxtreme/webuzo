@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpFreeChat
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/phpFreeChat
+	</ratings>
+	<space>
+		2350272 
+	</space>
+	<support>
+		http://www.phpfreechat.net/
+	</support>
+	<version>
+		1.7
+	</version>
+	<mod>6</mod>
+	<mod_files>3</mod_files>
+	<release_date>04-06-2013</release_date>
+	<admin></admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpFreeChat</font> is a free, simple to install, fast, customizable and multi languages chat that uses a simple filesystem for message and nickname storage.
+		<br /><br />
+		It uses AJAX to smoothly refresh (no flicker) and display the chat zone and the nickname zone. It supports multi-rooms (/join), private messages, moderation (/kick, /ban), customized themes based on CSS  and plugins systems that allows you to write your own storage routines (ex: Mysql, IRC backends), and you own chat commands !
+		<br /><br />
+		phpFreeChat is released under the <a href="http://www.gnu.org/licenses/lgpl-2.1.html">GNU LGPL license</a>.
+	</english-overview>		
+	<english-features>
+		Some of phpFreeChat major features include:
+		<ul>
+		<li>Simple</li>
+		<li>Fast</li>
+		<li>Customizable</li>
+		<li>Opensource</li>
+		<li>It doesn't require MySQL or any SQL database</li>
+		<li>Can write your own customized CSS  stylesheets</li>
+		<li>Plugin system allows you to write your own storage routines</li>
+		</ul>
+	</english-features>
+	</languages>
+</soft>

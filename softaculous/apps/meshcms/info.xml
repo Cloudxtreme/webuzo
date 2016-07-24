@@ -1,0 +1,76 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/MeshCMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/java/cms/MeshCMS
+	</ratings>
+	<space>
+		9896811
+	</space>
+	<support>
+		http://cromoteca.com/en/meshcms/discussion/
+	</support>
+	<version>
+		3.6
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<admin>meshcms/admin/login.jsp</admin>
+	<softversion>
+		4.1.2
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MeshCMS</font> is an online editing system written in Java.
+		It provides a set of features usually included in a CMS, but it uses a more traditional approach: pages are stored in regular HTML files and all additional features are file-based, without needing a database. 
+		<br /><br />MeshCMS has been thought as a quick tool to edit pages online, manage files and create some common components like menus, breadcrumbs, mail forms, image galleries and so on.
+		<br /><br />
+		MeshCMS is released under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#182e7a">File-based</font>
+<ul>
+<li>No database needed</li>
+</ul>
+<font size="2" color="#182e7a">Multi-site support</font>
+<ul>
+<li>Multiple sites can be served with a single installation on a single context</li>
+</ul>
+<font size="2" color="#182e7a">Compatible with other editors</font>
+<ul>
+<li>Since it is file-based, you can edit your files with other programs if you want, then upload them as usual</li>
+</ul>
+<font size="2" color="#182e7a">Search engine friendly</font>
+<ul>
+<li>Due to its file-based nature, sites made with MeshCMS get pretty URLs by default, have a clear site map and are easily indexed by search engines</li>
+</ul>
+<font size="2" color="#182e7a">WYSIWYG editor included</font>
+<ul>
+<li>Uses TinyMCE</li>
+</ul>
+<font size="2" color="#182e7a">File manager</font>
+<ul>
+<li>File manager with image thumbnails, file operations, clipboard, upload, download, unzip and other functions - can also be used from within the wysiwyg editor to select links and images</li>
+</ul>
+<font size="2" color="#182e7a">Support for themes</font>
+<ul>
+<li>Uses SiteMesh as engine</li>
+</ul>
+<font size="2" color="#182e7a">Support for modules</font>
+<ul>
+<li>To create commonly used components automatically - some module templates are provided (image gallery, mail form, download list, site map and others)</li>
+</ul>
+<font size="2" color="#182e7a">Tag library</font>
+<ul>
+<li>To create new themes easily - menus and other common components are created automatically</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

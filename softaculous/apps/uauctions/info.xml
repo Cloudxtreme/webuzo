@@ -1,0 +1,106 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/u-Auctions
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/u-Auctions
+	</ratings>
+	<space>
+		25264827
+	</space>
+	<support>
+		https://u-auctions.com/forum/
+	</support>
+	<version>
+		5.3.9
+	</version>
+	<mod>4</mod>
+	<release_date>21-12-2015</release_date>
+	<admin>admin/login.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="bcmath" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">u-Auctions</font> is an open-source auction script written in the popular language PHP which is a massive collection of inbuilt features u-Auctions is the prefect chose for setting up any auction site in minutes.
+		<br /><br />
+		u-Auctions has an easy to use administration panel and a user friendly installation process, which allows you to have your own auction site set up in minutes. 
+		<br /><br />
+		u-Auctions is released under the <a href="https://www.u-auctions.com/licenses/free" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<h3><font color="#8B0D40">Bid increment</font></h3>
+	<ul>
+    <li>Seller can use custom bid increment</li>
+	</ul>
+<h3><font color="#8B0D40">Proxy Bidding</font></h3>
+	<ul>
+    <li>Proxy bidding makes it easier for users to bid on two different items being sold at the same time</li>
+	</ul>
+<h3><font color="#8B0D40">Photo Gallery</font></h3>
+	<ul>
+    <li>Sellers will be able to upload pictures up to the maximum you specify</li>
+	</ul>
+<h3><font color="#8B0D40">Facebook Login</font></h3>
+	<ul>
+    <li>Facebook Login allows the user to login with there facebook account</li>
+	</ul>
+<h3><font color="#8B0D40">Share auctions</font></h3>
+	<ul>	
+    <li>Share auctions allows the user to share auctions on Google+, Facebook and Twitter</li>
+	</ul>
+<h3><font color="#8B0D40">Bult in payment gateways</font></h3>
+	<ul>	
+    <li>Users can use the built in payment gateways to pay for items and fees (paypal/authorize.net/Worldpay/Skrill/2Checkout)</li>
+	</ul>
+<h3><font color="#8B0D40">Auction type</font></h3>
+	<ul>	
+    <li>Users can make Standard, Dutch or Digital items auctions</li>
+	</ul>
+<h3><font color="#8B0D40">Item Condition</font></h3>
+	<ul>	
+    <li>Users can add there own Item Condition to there auctions</li>
+	</ul>
+<h3><font color="#8B0D40">Report Auctions</font></h3>
+	<ul>	
+    <li>Users can Report Auctions to the site admin</li>
+	</ul>	
+<h3><font color="#8B0D40">SEO</font></h3>
+	<ul>	
+    <li>SEO is used to make the address link look better and used to help optimize the address to be found in search engines</li>
+	</ul>
+<h3><font color="#8B0D40">Favourite seller</font></h3>
+	<ul>	
+    <li>Users can add there own favourite seller</li>
+	</ul>
+<h3><font color="#8B0D40">Advertisement banner system</font></h3>
+	<ul>	
+    <li>Users can add there own Advertisement banner from there control panel and the banner will be displayed at the top right corrner of the header</li>
+	</ul>
+<h3><font color="#8B0D40">Works on smartphones and tablets</font></h3>
+	<ul>	
+    <li>No app needed the webpages will auto resize to fit the screen</li>
+	</ul>
+<h3><font color="#8B0D40">Phpass</font></h3>
+	<ul>	
+    <li>Phpass is a framework aimed at simplifying the process for encrypting or hashing the passwords</li>
+	</ul>
+		</english-features>
+		<english-full_name>Full Name</english-full_name>
+		<english-us_name>User's Name</english-us_name>
+		<english-us_pass>User's Password</english-us_pass>
+	</languages>
+</soft>

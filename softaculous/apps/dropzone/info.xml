@@ -1,0 +1,44 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.dropzonejs.com/#try-it-out
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/DropzoneJS
+	</ratings>
+	<space>
+		64400  
+	</space>
+	<support>
+		http://www.dropzonejs.com/
+	</support>
+	<version>
+		4.3.0
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">DropzoneJS</font> is an open source library that provides drag’n’drop file uploads with image previews. It's lightweight, doesn't depend on any other library (like jQuery) and is highly customizable.
+		<br /><br />
+		DropzoneJS is licensed under the <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT Licenses</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Image thumbnail previews. Simply register the callback thumbnail(file, data) and display the image wherever you like</li>
+<li>Retina enabled</li>
+<li>Multiple files and synchronous uploads</li>
+<li>Progress updates</li>
+<li>Support for large files</li>
+<li>Complete theming. The look and feel of Dropzone is just the default theme. You can define everything yourself by overwriting the default event listeners.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

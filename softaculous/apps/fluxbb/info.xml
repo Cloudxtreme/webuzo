@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/FluxBB
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/FluxBB
+	</ratings>
+	<space>
+		1468496 
+	</space>
+	<support>
+		http://www.fluxbb.org/
+	</support>
+	<version>
+		1.5.9
+	</version>
+	<mod>23</mod>
+	<release_date>09-11-2015</release_date>
+	<admin>admin_index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">FluxBB</font> is a free open source forum application designed to be fast, light and user friendly.
+		<br /><br />
+		FluxBB's code, written in PHP, has a proven track record of stability and security. FluxBB is being actively developed.
+		<br /><br />
+		FluxBB is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Supports PHP4 and PHP5</li>
+<li>Supports MySQL, PostgreSQL and SQLite</li>
+<li>Produces valid XHTML 1.0 Strict pages</li>
+<li>Easily translated into any language</li>
+<li>Support for UTF-8 (v1.4)</li>
+<li>Free for domestic and commercial use</li>
+<li>Distributed under GNU General Public Licence</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

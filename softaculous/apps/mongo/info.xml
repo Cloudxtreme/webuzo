@@ -1,0 +1,93 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/RockMongo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/RockMongo
+	</ratings>
+	<space>
+		955902
+	</space>
+	<support>
+		http://rockmongo.com/
+	</support>
+	<version>
+		1.1.7
+	</version>
+	<mod>6</mod>
+	<release_date>06-06-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">RockMongo</font> is a MongoDB administration tool, written in PHP5, is Best in PHP world, more like PHPMyAdmin. 
+		<br /><br />
+		RockMongo is released under the <a href="http://opensource.org/licenses/bsd-license.php" target="_blank">New BSD License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Runs fast, and easy to install</li>
+<li>I18N (English, Chinese(English, Chinese, French, Japanese, British, Spanish, German, Russion, Italian)</li>
+<li>System
+
+<ul>
+<li>Multiple hosts, and one host can has multiple administrators</li>
+<li>Switch among hosts freely</li>
+<li>Password protection</li>
+</ul></li>
+<li>Server
+
+<ul>
+<li>Server info (web server, PHP, directives in PHP.ini ...)</li>
+<li>Status</li>
+<li>Databases overview</li>
+<li>Replication status</li>
+</ul></li>
+<li>Database
+
+<ul>
+<li>Query, create, drop, repair</li>
+<li>Execute commands and javascript codes</li>
+<li>Statistics</li>
+<li>Profiling</li>
+<li>Users management </li>
+<li>Data transfer(clone)</li>
+<li>Export/import</li>
+</ul></li>
+<li>Collection
+
+<ul>
+<li>Advanced query and explain tool</li>
+<li>Read, insert, update, duplicate and remove single row</li>
+<li>Query, create and drop indexes</li>
+<li>Validate collection</li>
+<li>Clear all records in collection</li>
+<li>Remove and change a batch of criteria matched rows</li>
+<li>Statistics</li>
+<li>Rename</li>
+<li>Modify properties (capped, size, max ...)</li>
+<li>Data transfer(clone)</li>
+<li>Export/import</li>
+</ul></li>
+<li>Field
+
+<ul>
+<li>Update/Remove/Clear operations</li>
+</ul></li>
+<li>GridFS 
+
+<ul>
+<li>View chunks</li>
+<li>Download file</li>
+</ul></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

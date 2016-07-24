@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/StatusNet
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/microblogs/StatusNet
+	</ratings>
+	<space>
+		42151221
+	</space>
+	<support>
+		http://status.net/
+	</support>
+	<version>
+		1.1.1
+	</version>
+	<mod>11</mod>
+	<mod_files>2</mod_files>
+	<release_date>16-07-2013</release_date>
+	<admin>index.php/main/login</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">StatusNet</font> is the open source microblogging platform that helps you share and connect 						 		in real-time within your own domain. With StatusNet you can encourage collaboration, build and engage your community, and be 		in command of your brand.
+		<br /><br />
+		StatusNet is released under the <a href="http://www.gnu.org/licenses/agpl-3.0.html">AGPLv3</a> terms.
+		</english-overview>		
+		<english-features>
+The features are as follows:<br />
+<ul class="right">
+<li>Groups</li>
+<li>Popular Notices</li>
+<li>File Sharing</li>
+<li>Interface with Other Social Networks</li>
+<li>Mobile and Desktop Access</li>
+<li>Plug-ins</li>
+<li>Customizable Interface</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

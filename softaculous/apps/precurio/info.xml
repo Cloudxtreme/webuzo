@@ -1,0 +1,75 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Precurio
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Precurio
+	</ratings>
+	<space>
+		98056559
+	</space>
+	<support>
+		http://www.precurio.com/
+	</support>
+	<version>
+		4.3
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<admin>public/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="curl" /> 
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="ionCube Loader" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Precurio</font> An Intranet solution that is affordable, easy to deploy, and just works.
+		<br /><br />
+		Precurio Intranet works with your users, your infrastructure, your requirements AND within your budget. 
+		<br /><br />
+		Precurio is a commercial application. The Softaculous Precurio package provides a free trial for up to 20 users.
+		</english-overview>		
+		<english-features>
+<font color="#44AFE3"><b>Document Management</b></font>
+<ul>
+	<li>Ease of use - access and upload important documents for at-a-glance access and sharing.</li>
+	<li>Organization - complete hierarchical control of main and sub-folder creation for total control and management of your company's documents.</li>
+	<li>Sharing - easily share documents with team and staff members.</li>
+</ul>
+<font color="#44AFE3"><b>Discussion Forums</b></font>
+<ul>
+	<li>Engage - foster engagement company-wide through our state of the art forum application that will manage all of your ongoing threaded discussions.</li>
+	<li>Threaded communication - you can create new boards, sub boards and display recent discussions through our time-line features.</li>
+</ul>
+<font color="#44AFE3"><b>Events Management</b></font>
+<ul>
+	<li>Manage - keep everyone up to date with what's happening within your company and create new events and view events by official, personal and locations.</li>
+	<li>Calendar - allows employees to check out, at a glance, all the upcoming events and confirm attendance and add comments to the actual events themselves.</li></ul>
+<font color="#44AFE3"><b>Content Management</b></font>
+<ul>
+	<li>News and announcements - keep employees up to date with all the latest happenings from the company and across the industry with easy blog styled announcements section.</li>
+	<li>Publish Internal Articles - it's your own internal system for publishing articles on a variety of mission critical or even educational elements.</li>
+</ul>
+<font color="#44AFE3"><b>Team Management</b></font>
+<ul>
+	<li>Team Rooms - create specific team areas to manage groups, teams or  departments privately.</li>
+</ul>
+<font color="#44AFE3"><b>Company Collaboration</b></font>
+<ul>
+	<li>Staff Directory - Access all the company staff members via an easy to navigate directory.</li>
+	<li>Department Viewer - List all of your company's internal departments for access at a glance.</li>
+	<li>Instant Messaging - Our built in chat application makes instant communication and collaboration a breeze.</li>
+</ul>	
+		</english-features>
+	</languages>
+</soft>

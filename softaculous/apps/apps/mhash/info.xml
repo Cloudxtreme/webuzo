@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/mhash
+	</ratings>
+	<space>
+		995328
+	</space>
+	<support>
+		http://mhash.sourceforge.net/
+	</support>
+	<version>
+		0.9.9.9
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>14-09-2012</release_date>
+	
+	<extract file="mhash-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Mhash :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Prefix</td>
+				<td>/usr/local/apps</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/local/apps/lib</td>
+			</tr>
+			<tr>
+				<td>libmhash.so</td>
+				<td>/usr/local/apps/lib/libmhash.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Mhash</font> is a free library which provides a uniform interface to a large number of hash algorithms. These algorithms can be used to compute checksums, message digests, and other signatures. The HMAC support implements the basics for message authentication, following RFC 2104. In the later versions some key generation algorithms, which use hash algorithms, have been added.
+		<br /><br />
+		Mhash is distributed under the <a href="http://sourceforge.net/directory/license:lgpl/" target="_blank">GNU Library or Lesser General Public License version 2.0 (LGPLv2)</a>
+		</english-overview>
+		<english-features>No Information</english-features>
+	</languages>
+</soft>

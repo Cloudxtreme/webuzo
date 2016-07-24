@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Source_Point_Of_Sale
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Open_Source_Point_Of_Sale
+	</ratings>
+	<space>
+		20791716
+	</space>
+	<support>
+		http://www.opensourceposguide.com/
+	</support>
+	<version>
+		2.4.0
+	</version>
+	<mod>11</mod>
+	<release_date>02-04-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Source Point of Sale</font> is a point of sale system built on top of a CodeIgniter base. It therefore is written in PHP and uses MySQL as the database backend for data storage.<br /><br />
+		 This means that it'll run on any system with a web browser and can be run on a local server or hosted for multiple clients to access.<br /><br />
+ 
+ <br /><br />
+		Open Source Point Of Sale is released under the <a href="http://www.opensource.org/licenses/gpl-3.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE
+Version 3</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li><strong>Customer tracking</strong> <br /><br /></li>
+<li><strong>Inventor tracking</strong> <br /><br /></li>
+<li><strong>Supplier tracking</strong> <br /><br /></li>
+<li><strong>Many reports are built in</strong> <br /><br /></li>
+<li><strong>Easy to use sales register interface</strong> <br /><br /></li>
+<li><strong>Employees with permissions assignment</strong> <br /><br /></li>
+<li><strong>Gift cards</strong> <br /><br /></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

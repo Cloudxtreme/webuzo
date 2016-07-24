@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Maian_Support
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Maian_Support
+	</ratings>
+	<space>
+		14228495
+	</space>
+	<support>
+		http://www.maiansupport.com/support.html
+	</support>
+	<version>
+		3.4
+	</version>
+	<mod>8</mod>
+	<release_date>02-06-2016</release_date>
+	<admin>admin</admin>
+	<min_require>2.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="imap" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Maian Support</font> is a FREE support ticket system written in PHP/MySQL. Maian Support is a software with no nag screens, ads or spyware. It can be used for an unlimited time at no further cost.
+		<br /><br />Support is an integral part of any business and good support helps you to build a solid relationship between you and your clients. Maian Support helps you to build this confidence by providing an easy to use support system completely free of charge.
+		<br /><br />
+		Maian Support is released under their own <a href="http://www.maiansupport.com/licence.html" target='_blank'>Free Licence</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Main Features List (Certain features are restricted in the Free Version)</b></font><br />
+<ul>
+<li>Easy to install support ticket system written in PHP/MySQL</li>
+<li>Multiple admin users with access levels / delete priorities</li>
+<li>Multiple departments</li>
+<li>Fully searchable F.A.Q with categories and ajax based voting system</li>
+<li>Validates as XHTML Strict. Clean, tableless design to meet modern standards.</li>
+<li>Template based for easy site integration</li>
+<li>E-mail templates for easy editing</li>
+<li>SMTP mail options</li>
+<li>Ability to start tickets via e-mail (uses IMAP functions)</li>
+<li>Dispute system so multiple people can respond to same ticket</li>
+<li>Multiple attachments with file/size restrictions</li>
+<li>Ticket portal to view tickets by e-mail address</li>
+<li>Custom fields to capture additional form information</li>
+<li>Notepad option for admin to make backend notes about tickets</li>
+<li>Open tickets via XML data posts. Any application that can trigger XML posts can open tickets</li>
+<li>BBCode support</li>
+<li>Option for visitors to change passwords</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

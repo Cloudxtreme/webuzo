@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/eSyndiCat
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/eSyndiCat
+	</ratings>
+	<space>
+		8725701
+	</space>
+	<support>
+		http://www.esyndicat.com/
+	</support>
+	<version>
+		1.8
+	</version>
+	<mod>4</mod>
+	<mod_files>1</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">eSyndiCat</font> is a PHP software for building rich web directories &amp; more.
+		<br /><br />
+		eSyndiCat is a full-featured php directory software that can be used as an addition to your existing site or as a stand-alone platform. Using eSyndiCat Directory Software your website can achieve top rank and take the leading positions in the most popular search engines!
+		<br /><br />
+		eSyndiCat is a professional, affordable php directory software. With a large and highly customisable set of key features coupled with a standards compliant interface, eSyndiCat Directory Software has been chosen by thousands of webmasters all over the world.
+		<br /><br />
+		eSyndiCat <a href="http://www.esyndicat.com/license.html" target='_blank'>License Agreement</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Complete control and ownership</b></font><br />
+<p>eSyndiCat gives you a simple, unbranded directory software that can be customized in any way. You are allowed to maintain control over all functionality of your site and content.</p>
+<h4>Keep your content</h4>
+<p>You manage the content of your directory. eSyndiCat teams provides several tools to populate your site content after the installation.</p>
+<h4>Fully unencrypted source code</h4>
+<p>You'll have the complete PHP source code to play with, making it possible to implement your own functionality or integrate your own custom features.</p>
+
+<font size="2" color="#1281B6"><b>Flexible Advanced Features</b></font><br />
+<p>eSyndiCat includes a great number of powerful features, that will make your directory website unique.</p>
+<h4>Drag-and-drop Content Management</h4>
+<p>Use eSyndiCat's built-in, visual drag-and-drop CMS to arrange content, customize blocks, create new pages, post news, and place advertisements. Create your own content blocks using our Blocks manager.</p>
+<h4>Monetize directory &amp; get profits</h4>
+<p>Start earning money using eSyndiCat sponsored listings. You are able to create sponsored plans and charge any fee for a listing placement. eSyndiCat supports a set of the most popular gateways that can be used to accept payments.</p>
+<h4>Easy Google Adsense integration</h4>
+<p>Integrate your Google AdSense ads into your directory pages. You do not need to edit a number of HTML files, modify your php files. Google AdSense or any other ads can be easily managed in eSyndiCat Admin Panel. Get profits now using eSyndiCat directory script.</p>
+
+<font size="2" color="#1281B6"><b>Plugins and Themes</b></font><br />
+<p>eSyndiCat's extensive plugins system allows you to start as small or large websites. Go full-featured now, or include additional features as your directory portal grows.</p>
+<h4>Get free or paid plugins</h4>
+<p>The eSyndiCat team offers a great number of free professional plugins. Anyway, you can explore the plugins that are sold third-party developers.</p>
+<h4>Get development services for custom projects</h4>
+<p>We offer custom modification services at very affordable prices. We've also partnered with several web development firms that can take on eSyndiCat-based custom projects of all sizes. Give us your project details and we'll connect you with the right people.</p>
+
+
+<font size="2" color="#1281B6"><b>Advanced Listing Fields</b></font><br />
+<p>eSyndiCat provides an easy way to setup your listing fields via admin panel. You don't need to code any line of code at all - this can be easily created in admin panel. There are many listing field types that could be created. They are: inputs, textareas, radios, checkboxes, images, dates, currencies, attachments, and many more. You can control what pages these fields should be displayed, allow editing, etc. Please check our demos for details.</p>
+
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,6 @@
+<softcopy xmlns="http://www.softaculous.com">
+	<setuplocation>administration/updatedatabase.php</setuplocation>
+	<files>
+		<exclude>includes/settings.php</exclude>
+	</files>
+</softcopy>

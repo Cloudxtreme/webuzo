@@ -1,0 +1,21 @@
+29-02-2016 5.0.112
+- Used new Ioncube encoder
+
+26-02-2016 5.0.111
+- Fix build error
+
+26-02-2016 5.0.110
+- Ticket installation was broken
+- When a download link is created for a file that was already shared the random code will stay the same
+
+05-11-2015 5.0.109
+- Small bug fixes for gastouderbureau module
+
+23-10-2015 5.0.107
+- problem with ticket statuses fixed
+- z-push upgrade to 2.2.5
+
+16-10-2015 5.0.106
+- z-push upgrade to 2.2.4
+- Added prefix for contact and company images.
+- use password_hash function if available (PHP 5.5+)

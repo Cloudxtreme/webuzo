@@ -1,0 +1,93 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My SPIP Site">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="spip">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+				<handle>__admin_username</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Administrator">
+				<head>{{real_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en">English</option>
+					<option value="ar">Arabic</option>
+					<option value="ast">Asturian</option>
+					<option value="ay">Aymara</option>
+					<option value="bg">Bulgarian</option>
+					<option value="br">Brezhoneg</option>
+					<option value="bs">Bosnian</option>
+					<option value="ca">Catalan</option>
+					<option value="co">Corsican</option>
+					<option value="cpf">Creole</option>
+					<option value="cpf_hat">Creole (Haiti)</option>
+					<option value="cs">Czech</option>
+					<option value="da">Danish</option>	
+					<option value="de">German</option>
+					<option value="eo">Esperanto</option>
+					<option value="es">Spanish</option>
+					<option value="eu">Euskara</option>
+					<option value="fa">Persian</option>
+					<option value="fon">Fongbe</option>
+					<option value="fr">French</option>
+					<option value="gl">Galician</option>
+					<option value="he">Hebrew</option>
+					<option value="hu">Hungarian</option>
+					<option value="id">Indonesian</option>
+					<option value="it">Italian</option>
+					<option value="it_fem">Italiana</option>
+					<option value="ja">Japanese</option>
+					<option value="km">Cambodian</option>
+					<option value="lb">Luxembourgian</option>
+					<option value="my">Burmese</option>
+					<option value="nl">Dutch</option>
+					<option value="oc_auv">Auvergnat</option>
+					<option value="oc_gsc">Gascon</option>
+					<option value="oc_lms">Lemousin</option>
+					<option value="oc_lnc">Lengadocien</option>
+					<option value="oc_ni">Nicard</option>
+					<option value="oc_ni_la">Nicard (larg)</option>
+					<option value="oc_prv">Provencal</option>
+					<option value="oc_va">Vivaro-Alpine</option>
+					<option value="pl">Polish</option>
+					<option value="pt">Portuguese</option>
+					<option value="pt_br">Portuguese Brazilian</option>
+					<option value="ro">Romanian</option>
+					<option value="ru">Russian</option>
+					<option value="sk">Slovak</option>
+					<option value="sv">Swedish</option>
+					<option value="tr">Turkish</option>
+					<option value="vi">Vietnamese</option>
+					<option value="zh">Chinese</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

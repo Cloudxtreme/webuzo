@@ -1,0 +1,44 @@
+************************
+Coppermine Photo Gallery
+************************
+Copyright (c) 2003-2016 Coppermine Dev Team
+v1.0 originally written by Gregory Demar
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3
+as published by the Free Software Foundation.
+********************************************
+Coppermine version: 1.5.42
+$HeadURL: https://svn.code.sf.net/p/coppermine/code/trunk/cpg1.5.x/CHANGELOG.txt $
+$Revision: 8846 $
+*********************************************
+Changelog
+=========
+[A] = Added new feature
+[B] = Bugfix (fix something that wasn't working as expected)
+[C] = Cosmetical fix (layout, typo etc.)
+[D] = Documentation improvements
+[M] = Maintenance works
+[O] = Optimization of code
+[S] = Security fix (issues that are related to security)
+*********************************************
+
+2016-05-11 [M] Release of cpg1.5.42 {eenemeenemuu}
+2016-05-11 [A] Added new cpg_db_* functions (thread ID 77214 & 78699) {eenemeenemuu}
+2016-05-10 [C] Changed default color of flash upload button (thread ID 77179) {eenemeenemuu}
+2016-03-21 [B] Changed redirection target if classic installer is locked {eenemeenemuu}
+2016-03-21 [C] Removed PHP notices in classic installer {eenemeenemuu}
+2016-03-15 [B] Fixed preview pictures in batch-add interface (thread ID 78626) {eenemeenemuu}
+2016-03-09 [B] Fixed install wizard step 9 for some PHP versions (thread ID 78388 & 78513) {ron4mac}
+2016-03-02 [M] Updated header information to reflect current year {eenemeenemuu}
+2016-02-01 [O] Removed superfluous code in function "UnsharpMask" {eenemeenemuu}
+2015-11-19 [M] Counted version count up in SVN repository from cpg1.5.40 to cpg1.5.41 {eenemeenemuu}
+2015-11-18 [M] Release of cpg1.5.40 {eenemeenemuu}
+2015-11-18 [M] Updated header information to reflect current year {eenemeenemuu}
+2015-09-16 [A] Added hidden feature to display confirmation message when adding/removing pictures to/from favorites (thread ID 78394) {eenemeenemuu}
+2015-09-08 [A] Better double vote prevention if detailed vote statistics are enabled in the config {eenemeenemuu}
+2015-09-08 [B] Fixed broken referrer feature (thread ID 78385) {eenemeenemuu}
+2015-08-31 [A] Added hidden feature to set default value for album property "Visitors can upload files" (thread ID 78355) {eenemeenemuu}
+2015-08-31 [B] Fixed not processed variable in db_input.php (thread ID 78348) {eenemeenemuu}
+2015-08-20 [O] Updated Finnish language file (user contribution) {eenemeenemuu}
+2015-08-14 [M] Counted version count up in SVN repository from cpg1.5.38 to cpg1.5.39 {eenemeenemuu}

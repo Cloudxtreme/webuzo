@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>Movable Type 5.2.13</engineName>
+<engineLink>http://www.sixapart.com/movabletype/</engineLink>
+<homePageLink>[[wwwurl]]/</homePageLink>
+<apis>
+<api name="MetaWeblog" preferred="true" apiLink="[[softurl]]/mt-xmlrpc.cgi" blogID="1" />
+<api name="MovableType" preferred="false" apiLink="[[softurl]]/mt-xmlrpc.cgi" blogID="1" />
+<api name="Blogger" preferred="false" apiLink="[[softurl]]/mt-xmlrpc.cgi" blogID="1" />
+<api name="Atom" preferred="false" apiLink="[[softurl]]/mt-atom.cgi/weblog" blogID="1" />
+</apis>
+</service>
+</rsd>

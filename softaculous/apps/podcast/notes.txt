@@ -1,0 +1,1 @@
+1. We configure feed.xml as its needed for script to save feeds. Script requires root writable if we do not configure feed.xml

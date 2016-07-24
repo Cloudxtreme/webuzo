@@ -1,0 +1,3 @@
+1) Directly Downloaded from the website
+2) We download the latest zip from http://www.jfrog.com/open-source/
+3) Update Java Directory path in artifactory.default in bin folder

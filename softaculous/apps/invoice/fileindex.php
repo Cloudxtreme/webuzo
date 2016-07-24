@@ -1,0 +1,12 @@
+.gitignore
+CONTRIBUTING.md
+README.md
+application
+assets
+htaccess
+index.php
+license.txt
+robots.txt
+system
+uploads
+.htaccess

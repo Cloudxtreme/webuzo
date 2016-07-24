@@ -1,0 +1,15 @@
+1) Download the egw-pear package from sourceforge and add it to the zip (Not required from 14.2+)
+
+2) (Not Required) add error_reporting(E_PARSE); in following files and then make a zip
+
+index.php
+
+/phpgwapi/inc/class.egw_cache_files.inc.php
+
+/phpgwapi/inc/class.translation.inc.php
+
+3) Select this check box "Give admin access to all installed apps"
+
+4) SQL encryption type for passwords: to ssha
+
+5) Add -> "Mail domain (for Virtual mail manager):" as imap.gmail.com

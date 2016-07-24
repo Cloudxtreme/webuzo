@@ -1,0 +1,49 @@
+{
+    "id": "1",
+    "timeZone": "UTC",
+    "dateFormat": "MM\/DD\/YYYY",
+    "timeFormat": "HH:mm",
+    "weekStart": 0,
+    "defaultCurrency": "USD",
+    "thousandSeparator": ",",
+    "decimalMark": ".",
+    "dashboardLayout": [
+        {
+            "name": "My Espo",
+            "layout": [
+                {
+                    "id": "default-activities",
+                    "name": "Activities",
+                    "x": 2,
+                    "y": 2,
+                    "width": 2,
+                    "height": 2
+                },
+                {
+                    "id": "default-stream",
+                    "name": "Stream",
+                    "x": 0,
+                    "y": 0,
+                    "width": 2,
+                    "height": 4
+                },
+                {
+                    "id": "default-tasks",
+                    "name": "Tasks",
+                    "x": 2,
+                    "y": 0,
+                    "width": 2,
+                    "height": 2
+                }
+            ]
+        }
+    ],
+    "dashletsOptions": {},
+    "smtpPort": 25,
+    "smtpAuth": false,
+    "language": "[[language]]",
+    "exportDelimiter": ";",
+    "receiveAssignmentEmailNotifications": true,
+    "useCustomTabList": false,
+    "emailReplyToAllByDefault": true
+}

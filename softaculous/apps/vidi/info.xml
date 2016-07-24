@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/VidiScript
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/video/VidiScript
+	</ratings>
+	<space>
+		3935888
+	</space>
+	<support>
+		http://www.vidiscript.co.uk/
+	</support>
+	<version>
+		1.0.3a
+	</version>
+	<mod>7</mod>
+	<mod_files>5</mod_files>
+	<admin>account</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">VidiScript</font> packed with features you can only find on major media sharing communities such as YouTube, Meta Cafe and Break, VidiScript is the most powerful FREE open source video sharing community script available online today! 
+		<br /><br />
+		VidiScript is released under the <a href="http://www.gnu.org/licenses/quick-guide-gplv3.html">GPL license</a>.
+		<br /><br />
+		NOTE: FFMPEG and certain Video Tools need to be installed for this script to work.
+		</english-overview>		
+		<english-features>
+<ul>
+<li> 100% Free</li>
+<li> Open Source (You're In Full Control)</li>
+<li> Packed With Features Not Found In Other Similar Scripts</li>
+<li> Built With Your Users In Mind - Your Community Will Thrive</li>
+<li> SEO friendly - Driving tons of FREE traffic from the search engines</li>
+<li> Interactive profiles &amp; features- keeping your members coming back day after day</li>
+<li> Powerful admin management giving you full control</li>
+<li> Bundled with FlowPlayer (With FlowPlayer you can sell video ads, stream live video, and more)</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

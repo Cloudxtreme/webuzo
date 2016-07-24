@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Collabtive
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Collabtive
+	</ratings>
+	<space>
+		13445004
+	</space>
+	<support>
+		http://collabtive.o-dyn.de/
+	</support>
+	<version>
+		2.1.1
+	</version>
+	<mod>10</mod>
+	<mod_files>3</mod_files>
+	<release_date>13-03-2015</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Collabtive</font> is web-based project management software.
+		<br /><br />
+		Collabtive is intended for small to medium-sized businesses and freelancers. 
+		<br /><br />
+		Collabtive is cloud based groupware easy and efficient for your projects.
+		<br /><br />
+		Collabtive is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Unlimited projects, milestones, tasklists, and tasks</li>
+<li>Unlimited members with user profiles</li>
+<li>Role-based permission management</li>
+<li>Messaging and instant messaging</li>
+<li>File management</li>
+<li>Timetracking</li>
+<li>Timetracker reports, activity logs and messages in PDF format</li>
+<li>Export user profiles as vCard</li>
+<li>RSS feeds for messages and tasks</li>
+<li>Synchronization of calendars via iCal task export</li>
+<li>Excel files from activity logs and timetracker reports</li>
+<li>E-mail notifications</li>
+<li>Search, tags</li>
+<li>Basecamp import</li>
+<li>Fully themeable</li>
+<li>Full UTF8 support</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

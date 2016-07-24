@@ -1,0 +1,10 @@
+1. Set the debug to false in .env
+2. Do not use same upgrade method when there is change in database. Ask vendor for upgrade utility.(from version 1.5.1 vendor provides script's upgrade utility)
+3. We have changed the password function so please check login before launching the next version
+4. Set the APP_ENV to production in .env
+5. /public should be there in APP_URL in .env
+6. Do not edit compiled.php for \r \n because dreamviewer is unable to edit the file properly
+7. Add the following line to the .htaccess file in the root folder :
+<IfModule mod_alias.c>
+RedirectMatch 301 ^[[relativeurl]]/$ [[softurl]]/public
+</IfModule>

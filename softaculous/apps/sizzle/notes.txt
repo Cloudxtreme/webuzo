@@ -1,0 +1,2 @@
+Make the package.zip from the whole package and 
+sizzle.zip contains only the sizzle.js from /src/sizzle.js.

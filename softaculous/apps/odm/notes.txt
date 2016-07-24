@@ -1,0 +1,1 @@
+We have disabled update as it requires to rename config.php and start over installation again ( which requires admin details). 

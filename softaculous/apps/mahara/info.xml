@@ -1,0 +1,86 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Mahara
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Mahara
+	</ratings>
+	<space>
+		63121074
+	</space>
+	<support>
+		http://mahara.org/
+	</support>
+	<version>
+		16.04.0
+	</version>
+	<mod>37</mod>
+	<release_date>28-04-2016</release_date>
+	<admin>admin/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Mahara</font> is an open source e-portfolio system with a flexible display framework. Mahara, meaning 'think' or 'thought' in Te Reo Māori, is user centred environment with a permissions framework that enables different views of an e-portfolio to be easily managed.
+		<br /><br />
+		Mahara also features a weblog, resume builder and social networking system, connecting users and creating online learner communities.<br /><br />
+		Mahara is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font size="2" color="#1281B6"><b>File Repository</b></font><br /><br />
+Mahara includes a file repository which allows users to:
+<ul>
+<li>Create folder and sub folders structures </li>
+<li>Upload multiple files quickly and efficiently </li>
+<li>Give each file a Name and Description </li>
+<li>Manage their file allocation Quota </li>
+<li>When uploading a file users must agree to a configurable Copyright disclaimer. </li>
+<li>Can extract .zip, .tar.gz and .tar.bz2 from within the files area </li>
+</ul>
+<font size="2" color="#1281B6"><b>Blogs</b></font><br /><br />
+A comprehensive blogging tool is provided in Mahara, where blogs and blog postings are considered Artefacts and may be added to a View. <br />
+The blogging tool allows users to: 
+<ul>
+<li>Create blog posts using a WYSIWYG editor </li>
+<li>Attach files to posts </li>
+<li>Embed images into postings </li>
+<li>Configure whether or not Comments may be received on their blog </li>
+<li>Create draft postings for later publishing </li>
+</ul>
+<font size="2" color="#1281B6"><b>Social Networking</b></font><br /><br />
+Mahara provides a social networking facility where users can create and maintain a list of Friends within the system. ePortfolio owners choose whether other users can add them to their Friends list automatically or by request and approval. 
+<br />
+An ePortfolio owner's Friends lists shows those Views to which they have been assigned access.
+<br /><br />
+<font size="2" color="#1281B6"><b>Resume Builder</b></font><br /><br />
+Mahara includes a resumé builder which allows users to create digital CV’s by entering information into a variety of optional fields including: <br />
+<ul>
+<li>Contact and personal information </li>
+<li>Employment and education history </li>
+<li>Certifications, accreditations and awards </li>
+<li>Books and publications, professional memberships </li>
+<li>Personal, academic and work skills and </li>
+<li>Personal, academic and career goals </li>
+</ul>
+<font size="2" color="#1281B6"><b>Profile Information</b></font><br /><br />
+Within Mahara users are able to share details through a variety of optional profile information fields including: <br />
+<ul>
+<li>Preferred Name </li>
+<li>Student ID </li>
+<li>Postal address and contact phone numbers </li>
+<li>Skype, MSN, Yahoo &amp; Jabber name </li>
+<li>Introduction </li>
+<li>Profile Icons images </li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

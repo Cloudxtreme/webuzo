@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/appRain
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/appRain
+	</ratings>
+	<space>
+		6123288
+	</space>
+	<support>
+		http://www.apprain.com/forum
+	</support>
+	<version>
+		4.0.3
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<release_date>01-10-2015</release_date>
+	<admin>admin/system</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.1.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">appRain</font> is one of the first officially released Opensource Content Management Framework (CMF). CMF is a new web engineering concept where "CMS (Content Management System)" and "Framework" perform together to produce endless varieties of output in a very limited time. appRain, published with lots of extensive features to reduce our development work time. It satisfies both Client and Developers with a safe and quality output.
+		<br /><br />
+		Finally appRain is a single platfrom with both facilities of CMS and Framework. CMS makes the work faster with less effort and Framework contribute to implement complex demand.
+		<br /><br />
+		appRain Content Management Framework is released under <a href="http://www.apprain.com/license" target="_blank">License</a>.
+		</english-overview>		
+		<english-features>
+		<font size="2" color="#48A782"><b>Develop Web Applications Easy and Faster</b></font><br />
+		appRain is both a CMS and a framework. appRain can be used for basic and large-scale web application deployments.<br /><br />
+		<font size="2" color="#48A782"><b>Archive and Share</b></font><br />
+		Never develop a module multiple times again: appRain helps archive your work for future use.<br /><br />
+		<font size="2" color="#48A782"><b>Help, Documentation, and Participation</b></font><br />
+		appRain has a vairty of documentaion to help you work.
+		</english-features>
+	</languages>
+</soft>

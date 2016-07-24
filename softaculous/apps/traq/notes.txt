@@ -1,0 +1,6 @@
+1. Check if traq works on windows or not. If it works Please remove following check from install.php and upgrade.php 
+if($globals['softpanel'] == 'ampps'){
+		$error[] = 'Traq cannot be upgraded on '.$globals['softpanel'];	
+}
+
+(Above condition has been removed from version 3.0.9)

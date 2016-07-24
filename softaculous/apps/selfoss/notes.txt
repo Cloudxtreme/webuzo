@@ -1,0 +1,10 @@
+1.For manual install only fill database details and also read README.md file from package.
+2.Requires PHP 5.3
+3.Does not work without .htaccess
+4. If it does not work on localhost try on cpanel server
+5. remove thumbs .sh file from zip
+6. To Upgrade we need to change the config.ini if there is a change so change it in our Upgrade function
+7. keep salt lkjl1289 in config.ini
+8. Remove # from
+#RewriteBase /selfoss
+In htaccess

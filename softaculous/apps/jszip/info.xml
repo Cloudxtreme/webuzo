@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://jszip.stuartk.co.uk/test/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/JSZip
+	</ratings>
+	<space>
+		99375
+	</space>
+	<support>
+		http://jszip.stuartk.co.uk/
+	</support>
+	<version>
+		3.0.0
+	</version>
+	<mod>10</mod>
+	<release_date>13-04-2016</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">JSZip</font> helps you create .zip files with Javascript.<br /><br />
+		JavaScript today is capable of generating a lot of data. The easiest way to deliver multiple files to your users is in a zip file. 
+		Instead of wasting server resources and bandwidth you can get the client to do it for you by JSZip.<br /><br />
+		JSZip is licensed under the <a href="http://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank">GPLv3</a> and/or <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT</a> License.
+		</english-overview>		
+		<english-features>
+		<font size="4" color="78ba91"><b>JSZip features :</b></font>
+<font size="2">
+<ul>
+<li><b>add(name, data [,options])</b>Add a file to the zip file. Supports chaining.</li>
+<li><b>folder(name)</b>Add a directory to the zip file. Supports chaining.</li>
+<li><b>find(needle)</b>Compare a string or regular expression against all of the filenames and returns an informational object for each that matches.</li>
+<li><b>remove(name)</b>Delete a file or folder.</li>
+<li><b>generate(asBytes = false)</b>Generates the complete zip file. By default encoded as base64.</li>
+</ul>
+	</font>
+	</english-features>
+	</languages>
+</soft>

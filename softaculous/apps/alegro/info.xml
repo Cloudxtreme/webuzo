@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/AlegroCart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/AlegroCart
+	</ratings>
+	<space>
+		12660968
+	</space>
+	<support>
+		http://forum.alegrocart.com/
+	</support>
+	<version>
+		1.2.9
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<release_date>16-11-2015</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AlegroCart</font> is a free open source e-commerce shopping cart solution based on MVC Framework. You can have your own shopping cart operational in a very short time, which can be managed through administration by you and your staff. 
+		<br /><br />
+		AlegroCart comes with a modular template system that features separate style folders. Templates, Styles, Colors, and page layouts as well as module layout are all set by the template manager in admin.
+		<br /><br />
+		AlegroCart is released under the <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Error Handlers </li>
+<li>Search Engine Optimization </li>
+<li>Product Descriptions</li>
+<li>Product by Manufacturer, Category and Search Display Page Features</li>
+<li>Page Display Options</li>
+<li>Dynamic Category Menu</li>
+<li>Ajax Add to Cart</li>
+<li>Product Pricing</li>
+<li>New Product Search</li>
+<li>Module Features</li>
+<li>New Selectable Template, Styles and color schemes</li>
+</ul>
+		</english-features>
+		<english-err_administration_folder>The Admin folder name cannot be "admin" and "administration"!</english-err_administration_folder>
+		<english-ins_ad_dir>Admin Folder Name</english-ins_ad_dir>
+		<english-err_adminlen6>The Admin folder name should be greater than 5 and less than 15 characters.</english-err_adminlen6>
+	</languages>
+</soft>

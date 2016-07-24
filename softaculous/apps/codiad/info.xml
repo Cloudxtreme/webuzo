@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Codiad
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Codiad
+	</ratings>
+	<space>
+		8347888
+	</space>
+	<support>
+		http://codiad.com/
+	</support>
+	<version>
+		2.7.2
+	</version>
+	<mod>57</mod>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Codiad</font> is a web-based IDE framework with a small footprint and minimal requirements.
+		<br /><br />
+		Codiad was built with simplicity in mind, allowing for fast, interactive development without the massive overhead of some of the larger desktop editors. That being said even users of IDE's such as Eclipse, NetBeans and Aptana are finding Codiad's simplicity to be a huge benefit.
+		<br /><br />
+		Codiad is released under the <a href="http://opensource.org/licenses/MIT" target="_blank">The MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Support for 40+ languages</li>
+<li>Real-Time Collaborative editing</li>
+<li>Plugin Library</li>
+<li>Over 20 Syntax color themes</li>
+<li>Error checking and notifications</li>
+<li>Completely Open-Source</li>
+<li>Mutliple user support</li>
+<li>Easily customized source</li>
+<li>Editor screen splitting</li>
+<li>Runs on your own server</li>
+<li>LocalStorage redundancy</li>
+<li>Quick-Download backups</li>
+<li>Maximum editor screen space</li>
+<li>Smart auto-complete</li>
+<li>i18n Language Support</li>
+</ul>
+		</english-features>
+		<english-project_name>Project Name</english-project_name>
+	</languages>
+</soft>

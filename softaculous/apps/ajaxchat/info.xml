@@ -1,0 +1,81 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/AJAX_Chat 
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/AJAX_Chat 
+	</ratings>
+	<space>
+		1308238 
+	</space>
+	<support>
+		http://frug.github.io/AJAX-Chat/
+	</support>
+	<version>
+		0.8.8
+	</version>
+	<mod>2</mod>
+	<release_date>18-04-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AJAX Chat</font> is a free and fully customizable open source web chat implemented in JavaScript, PHP and MySQL which integrates nicely with common forum systems like phpBB, MyBB, PunBB, SMF and vBulletin.
+		<br /><br />
+		Bluimp's AJAX Chat is released under a <a href="https://raw.githubusercontent.com/Frug/AJAX-Chat/master/chat/license.txt" target="_blank">Modified MIT License.</a>
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Usable as shoutbox</li>
+<li>Multiple channels</li>
+<li>Private messaging</li>
+<li>Private channels</li>
+<li>Invitation system</li>
+<li>Kick/Ban or Ignore offending Users</li>
+<li>Online users list with user menu</li>
+<li>Emoticons/Smilies</li>
+<li>Easy way to add custom emoticons</li>
+<li>BBCode support</li>
+<li>Optional Flash based sound support</li>
+<li>Optional visual update information (changing window title)</li>
+<li>Clickable Hyperlinks</li>
+<li>Splitting of long words to preserve chat layout</li>
+<li>Flood control</li>
+<li>Possibility to delete messages inside the chat</li>
+<li>IRC style commands</li>
+<li>Easy interface to add custom commands</li>
+<li>Possibility to define opening hours for the chat</li>
+<li>Possibility to enable/disable guest users</li>
+<li>Persistent client-side settings</li>
+<li>Multiple languages (auto-detection of ACCEPT_LANGUAGE browser setting)</li>
+<li>Multiple styles with easy layout customization through stylesheets (CSS) and templates</li>
+<li>Automatic adjustment of displayed time to local client timezone</li>
+<li>Standards compliance (XHTML 1.0 strict)</li>
+<li>Accepts any text input, including code and special characters</li>
+<li>Multiline input field with the possibility to enter line breaks</li>
+<li>Message length counter</li>
+<li>Realtime monitoring and logs viewer</li>
+<li>Support for unicode (UTF-8) and non-unicode content types</li>
+<li>Bandwidth saving update calls (only updated data is sent)</li>
+<li>Optional support to push updates over a Flash based socket connection (increased performance and responsiveness)</li>
+<li>Survives connection timeouts</li>
+<li>Easy integration into existing authentication systems</li>
+<li>Sample phpBB2, phpBB3, MyBB, PunBB, SMF and vBulletin integrations provided</li>
+<li>Separation of layout and code</li>
+<li>Well commented Source Code</li>
+<li>Developed with Security as integral part - built to prevent Code injections, SQL injections, Cross-site scripting (XSS), Session stealing and other attacks</li>
+<li>Tested successfully with Microsoft Internet Explorer, Mozilla Firefox, Opera, Safari and Konqueror - built to work with all modern browsers :)</li>
+		</ul>		
+		</english-features>
+	</languages>
+</soft>

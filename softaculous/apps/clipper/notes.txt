@@ -1,0 +1,2 @@
+1. select timezone America/New_York
+2. Install/Overwrite without Sample Web Site

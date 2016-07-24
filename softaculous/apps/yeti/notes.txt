@@ -1,0 +1,1 @@
+1. Select Currency as "USA, Dollars" and Time zone as "UTC -6:00 Central Time (US & Canada)"

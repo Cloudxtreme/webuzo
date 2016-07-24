@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PhpGedView
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/PhpGedView
+	</ratings>
+	<space>
+		50753748
+	</space>
+	<support>
+		http://www.phpgedview.net/
+	</support>
+	<version>
+		4.2.4
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PhpGedView</font> is a revolutionary genealogy program which allows you to view and edit your genealogy on your website. PhpGedView has full editing capabilities, full privacy functions, can import from GEDCOM files, and supports multimedia like photos and document images. PhpGedView also simplifies the process of collaborating with others working on your family tree. Your latest genealogy information is always on your website and available for others to see. 
+		<br /><br />
+		PhpGedView is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li> Improvements to the external database structure, and a redesign of the internal data structures, for performance, flexibility and ease of maintenance.
+</li><li> More options for statistics and charting.
+</li><li> Improved multimedia handling.
+</li><li> Support for three new languages: Slovenian, Romanian and Indonesian.
+</li><li> Improved soundex searching for non-English languages.
+</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

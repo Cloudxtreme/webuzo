@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/EGroupware
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/EGroupware
+	</ratings>
+	<space>
+		78903669
+	</space>
+	<support>
+		http://www.egroupware.org
+	</support>
+	<version>
+		14.3.007
+	</version>
+	<mod>13</mod>
+	<release_date>13-01-2016</release_date>
+	<admin>index.php</admin>
+	<min_require>1.4</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">EGroupware</font> is the leading Online Collaboration Tool and the top choice for big enterprises, small businesses and teams within and across organizations all over the globe.
+		<br /><br />
+		EGroupWare is a free open source groupware software intended for businesses from small to enterprises. Its primary functions allow users to manage contacts, appointments, projects and to-do lists.
+		<br /><br />
+		EGroupWare is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Calendar (including support for scheduling of groups, resources and contacts)</li>
+<li>Contact-manager using an SQL database or LDAP</li>
+<li>Integrated IMAP webmail client (FelaMiMail)</li>
+<li>Infolog, an application for tasks and notes</li>
+<li>Element based project manager highly integrated with all other apps</li>
+<li>Resources management (inventory) and booking tool integrated into eGroupWare calendar</li>
+<li>File manager</li>
+<li>SiteMgr: web based authoring system with fine granulated access control lists</li>
+<li>Time-tracker application integrated with project manager</li>
+<li>Tracking of bugs or other, integrated with project manager</li>
+<li>Wiki</li>
+<li>Knowledge base</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

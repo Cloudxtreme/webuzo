@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Kliqqi
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Kliqqi
+	</ratings>
+	<space>
+		6743611
+	</space>
+	<support>
+		http://www.kliqqi.com
+	</support>
+	<version>
+		3.0.0
+	</version>
+	<mod>27</mod>
+	<release_date>23-04-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Kliqqi</font> formerly known as Pligg CMS is an individualized content management system that lets you to easily create a social network or online social community similar to Facebook, Reddit, or Twitter,  where users can publish articles, vote on them,  leave comments, and share them with friends &amp; family. The users are in control of the content. While most content management systems are designed for only one or two authors, Kliqqi was designed as a way for a large number of contributors to submit and moderate content.
+		<br /><br />
+		Kliqqi is released under the <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 Unported Copyright</a>.
+		</english-overview>
+		<english-features>
+		<font size="2" color="#0073AA"><b>Core Features:</b></font><br />
+		Kliqqi is packed with features such as easy customization, groups, member profiles, search engine friendly urls, infinite scroll, article voting system, comment voting system, advanced admin panel, antispam protection, rss feeds, and more..<br /><br />
+		<font size="2" color="#0073AA"><b>Template Features:</b></font><br />
+		Kliqqi uses the Smarty template system with built-in auto-caching to keep our code separate from the design. This makes customizing your template easier than ever!<br /><br />
+		<font size="2" color="#0073AA"><b>Module Features:</b></font><br />
+		Kliqqi uses module system to add custom functions and features to your site. Want to automatically embed a video? Just activate the module and you’re all set..
+		</english-features>
+	</languages>
+</soft>

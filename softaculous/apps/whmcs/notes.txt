@@ -1,0 +1,11 @@
+1. data.zip is made by zipping the following folders from the package:
+/downloads/
+/templates_c/
+/attachments/
+2. Languages are seperate for admin account and enduser site. The files are there in the /lang/ folder for enduser and /admin/lang/ folder for admin languages.
+Check if the languages we provide the files exists in the respective folders.
+3. In sql keep 'SMTPPassword' and 'FTPBackupPassword' fields blank in `tblconfiguration` table.
+4. We have disabled 5.3.10 on windows as it gives "Admin Directory Conflict" error even on manual installation. We have opened ticket to WHMCS for the same. Check in next version if it works then remove the check.(removed from 5.3.11)
+5. In SQL `tbladmins` table we set only one password since we do not know the password hash. WHMCS creates the other password hash on 1st login.
+6. Use config.php from crons/config.php.new. We explicitely do this to set Custom Crons Directory
+7. Do not change uuid from tbladmins table as it is same for all installations.

@@ -1,0 +1,11 @@
+1) Default Timezone should be ZERO I.e UTC +0000 and keep default country NONE
+2) Leave "Check for updates automatically ", "Email notifications"  as it is.
+3) Delete all watchdog INSERTS And also change its AUTO INCREMENT =1 ; 
+4) Delete this table inserts from following tables cache_bootstrap, cache_config, cache_container, cache_data, cache_default, cache_discovery, cache_entity,
+cache_menu, cache_render. Drupal creates it on login
+5) We do not copy .htaccess from /sites/default/files/.htaccess because Drupal creates it.
+6) In next update change the datestamp to a variable  [[datestamp]] and update the datestamp everytime in install.php
+7) Try to detect if Clean URL will work and update accordingly in database
+8) No need to generate system.js_cache_files and drupal_css_cache_files. It's same for all install
+9) If any new root level folder added in drupal package then add its entry in upgrade.php apart from vendor and core. Only 'core', 'vendor' and root level files need to be deleted before upgrade. (https://api.drupal.org/api/drupal/core!UPGRADE.txt/8)
+10) Do not change "default_config_hash" from sql since it remains same accross installations for same version.

@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Blog
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Open_Blog
+	</ratings>
+	<space>
+		5166955
+	</space>
+	<support>
+		http://www.open-blog.info/
+	</support>
+	<version>
+		1.2.1
+	</version>
+	<mod>7</mod>
+	<mod_files>2</mod_files>
+	<admin>index.php/user/login</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Blog</font> is a free and open source blogging platform built using the CodeIgniter PHP framework.
+		<br /><br />
+		It provides users with a very powerful yet easy to use interface which makes blogging simple and enjoyable.
+		<br /><br />
+		Open blog is released under the <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li><strong>Friendly user interface</strong></li>
+    <li><strong>Easy to install</strong></li>
+	<li><strong>Multi language support</strong></li>
+	<li><strong>Templates support</strong></li>
+	<li><strong>Open Source</strong></li>
+	<li><strong>Search engine friendly URLs</strong></li>
+	<li><strong>Pages</strong></li>
+	<li><strong>Links</strong></li>
+	<li><strong>Feed support</strong></li>
+	<li><strong>Aministrator panel</strong></li>
+	<li><strong>WYSIWYG editor</strong></li>
+	<li><strong>Check for updates</strong></li>
+	<li><strong>Plug-ins</strong></li>
+	<li>and much much more...</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

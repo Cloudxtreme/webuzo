@@ -1,0 +1,79 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Textpattern
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Textpattern
+	</ratings>
+	<space>
+		1952578
+	</space>
+	<support>
+		http://textpattern.com/
+	</support>
+	<version>
+		4.5.7
+	</version>
+	<mod>18</mod>
+	<mod_files>1</mod_files>
+	<release_date>20-09-2014</release_date>
+	<admin>textpattern/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.3" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Textpattern</font> is a web application designed to help overcome the hurdles to publishing online, and to simplify the production of well-structured, standards-compliant web pages.
+		<br /><br />
+		Textpattern is a flexible, elegant and easy-to-use content management system. It is both free and open source.
+		<br /><br />
+		Textpattern is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<h3>Interface Features</h3>
+
+		<ul>
+			<li>Quick conversion of plain text to valid XHTML with Textile</li>
+				<li>Quickly search old articles by keyword</li>
+				<li>Up-to-the-minute visitor/referrer logs</li>
+
+				<li>Browser-based template and CSS editing</li>
+				<li>Unlimited site sections</li>
+				<li>Unlimited article, link, file and image categories</li>
+				<li>Browser-based file and image upload &amp; organization</li>
+				<li>Fast intuitive editing of articles, links, comments, page elements</li>
+
+				<li>Posting, editing &amp; design privileges hierarchy</li>
+				<li>Unlimited site authors</li>
+				<li>Browser-based plugin installation and maintenance</li>
+				<li>Import content from other content management systems</li>
+		</ul>
+
+		<h3>Publishing Features</h3>
+
+		<ul>
+			<li>Built-in search engine</li>
+				<li>Visitors can subscribe to custom article and link XML feeds</li>
+				<li>Browse categories and sections via popup or link list</li>
+				<li>Adjustable date/time stamps on articles</li>
+
+				<li>Articles can be set to appear at future date/time</li>
+				<li>Comments are accepted on a per-article basis</li>
+				<li>Comments may be closed after a fixed time or on the fly</li>
+				<li>Password-protect site sections, or even specific articles</li>
+		</ul>
+<h3>Languages</h3>
+
+<p><a href="http://textpattern.com/features/301/languages" title="Languages" target="_blank">There are over 40 available, and growing!</a></p>
+		</english-features>
+	</languages>
+</soft>

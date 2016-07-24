@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/HumHub
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/socialnetworking/HumHub
+	</ratings>
+	<space>
+		52235390
+	</space>
+	<support>
+		https://www.humhub.org/en
+	</support>
+	<version>
+		1.0.1
+	</version>
+	<mod>1</mod>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="exif" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="intl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">HumHub</font> is a free social network software and framework built to give you the tools to make communication and collaboration easy and successful. It's lightweight, powerful and comes with an user-friendly interface. With HumHub you can create your own customized social network, social intranet or huge social enterprise application that really fits your needs.
+		<br /><br />
+		HumHub is released under the <a href="https://www.humhub.org/en/licences" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#00FFFF"><b>NOTIFICATIONS</b></font> : Well informed about things related to you.<br /><br />
+<font size="2" color="#00FFFF"><b>ACTIVITY STREAM</b></font> : Monitor work and communications at a glance.<br /><br />
+<font size="2" color="#00FFFF"><b>DASHBOARD</b></font> : Overview and fast access to the most important information. <br /><br />
+<font size="2" color="#00FFFF"><b>SOCIAL TOOLS</b></font> : Post, comment, follow, like and connect with other. <br /><br />
+<font size="2" color="#00FFFF"><b>USER PROFILES</b></font> : The digital business card for each user. <br /><br />
+<font size="2" color="#00FFFF"><b>GROUPS</b></font> : Organize user in departments, branches or anything else. <br /><br />
+<font size="2" color="#00FFFF"><b>DIRECTORY</b></font> : Find spaces, users and groups in a sorted way. <br /><br />
+<font size="2" color="#00FFFF"><b>FILES</b></font> : Share documents, media files and discuss about it. <br /><br />
+<font size="2" color="#00FFFF"><b>PUBLIC ACCESS</b></font> : Share content also with non-registered users.<br /><br />
+<font size="2" color="#00FFFF"><b>SEARCH</b></font> : Find people, discussions and files easily.<br /><br />
+<font size="2" color="#00FFFF"><b>MOBILE READY</b></font> : Use it with all kind of modern devices like smart phones and tablets.<br /><br />
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,33 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>contao/install.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			<handle>__upgrade_files</handle>
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>system/config/dcaconfig.php</exclude>
+		<exclude>system/config/localconfig.php</exclude>
+		<exclude>system/config/langconfig.php</exclude>
+		<exclude>system/config/pathconfig.php</exclude>
+		<exclude>templates/*</exclude>
+		<exclude>templates/*/*</exclude>
+		<exclude>templates/*/*/*</exclude>
+		<exclude>templates/*/*/*/*</exclude>
+		<exclude>tl_files/*</exclude>		
+		<exclude>tl_files/*/*</exclude>		
+		<exclude>tl_files/*/*/*</exclude>		
+		<exclude>tl_files/*/*/*/*</exclude>		
+		<exclude>files/*</exclude>
+		<exclude>files/*/*</exclude>
+		<exclude>files/*/*/*</exclude>
+		<exclude>files/*/*/*/*</exclude>
+		<exclude>files/*/*/*/*/*</exclude>
+	</files>
+	<notes>
+	The default password for InstallTool is "password".
+	</notes>	
+</softupgrade>

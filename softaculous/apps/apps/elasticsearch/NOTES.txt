@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the tar package from (https://www.elastic.co/downloads/elasticsearch)

@@ -1,0 +1,138 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/4images
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/4images
+	</ratings>
+	<space>
+		3610813
+	</space>
+	<support>
+		http://www.4homepages.de
+	</support>
+	<version>
+		1.7.13
+	</version>
+	<mod>13</mod>
+	<release_date>17-11-2015</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">4images</font>is as a web based PHP and MySQL for displaying images on the Internet.
+
+4images can be configured through an administration area. 4images supports apart from the typical image formats like JPG, GIF and PNG, other data formats. Furthermore 4images includes a template system to modify the design of the gallery. An external language file allows for easy translation into other languages.
+		<br /><br />
+		4images is free for private and non-commercial use. You can read the <a href="http://www.4homepages.de/4images/license.php" target="_blank">4images license</a> at their web site.
+		</english-overview>		
+		<english-features>
+		<b>This is a list of features 4images includes:</b> <ul>
+        <li><b>General functions</b> 
+          <ul>
+            <li>extensive, password protected adminstration are to configure and 
+              control the whole gallery system</li>
+            <li>database backup function</li>
+
+            <li>multi language support</li>
+            <li>easy to use installer for 4images</li>
+            <li>RSS-Feeds (latest images of the gallery, latest images of a category, 
+              latest comments of an image)<br />
+              <br />
+              <br />
+            </li>
+          </ul>
+
+        </li>
+        <li><b>Categories</b> 
+          <ul>
+            <li>unlimited categories and subcategories</li>
+            <li>logging and statistics of clicks for each categorie or subcategory</li>
+            <li>title and description (optional) for every category</li>
+            <li>number of visible subcategories below categories can be defined<br />
+
+              <br />
+            </li>
+          </ul>
+        </li>
+        <li><b>Images</b> 
+          <ul>
+            <li>pre-configured for the following image- and file formats:<br />
+              jpg, gif, png, aif, au, avi, mid, mov, mp3, mpg, swf, wav, ra, rm, 
+              zip, pdf</li>
+
+            <li>extendable for every file format (3gp, psd, smil, etc.)</li>
+            <li>upload through browser, through admin panel or via FTP (Batchupload)</li>
+            <li>automatic thumbnail generation (requires: <a href="http://www.imagemagick.org" target="_blank">ImageMagick</a>, 
+              <a href="http://www.boutell.com/gd" target="_blank">GD</a> or <a href="http://netpbm.sourceforge.net" target="_blank">NetPBM</a>)</li>
+            <li>automatic resizing of images (requires: <a href="http://www.imagemagick.org" target="_blank">ImageMagick</a>, 
+              <a href="http://www.boutell.com/gd" target="_blank">GD</a> or <a href="http://netpbm.sourceforge.net" target="_blank">NetPBM</a>)</li>
+
+            <li>showing IPTC and EXIF data of images</li>
+            <li>ratings by users for every image</li>
+            <li>individual to activate comment function for every image</li>
+            <li>download function for every image, including counter</li>
+            <li>download selected files as zip-archive</li>
+            <li>description and keywords for every image</li>
+
+            <li>easy to customize e-cards (colors, font)</li>
+            <li>protection against hotlinking<br />
+              <br />
+            </li>
+          </ul>
+        </li>
+        <li><b>Comments</b> 
+          <ul>
+
+            <li>individual to activate comment function for every image</li>
+            <li>support of bb-codes like bold, italic, etc.</li>
+            <li>HTML-code in comment field can be disabled</li>
+            <li>spam control</li>
+            <li>badword function</li>
+            <li>automatic wrapping of long words<br />
+
+              <br />
+            </li>
+          </ul>
+        </li>
+        <li><b>User</b> 
+          <ul>
+            <li>extensive user administration including registration (double opt-in)</li>
+            <li>extensive permission management for users and usergroups</li>
+
+            <li>lightbox for registered users</li>
+            <li>upload function for registered users</li>
+            <li>"Who is online" function</li>
+            <li>Newsletter function</li>
+            <li>encryped storage of passwords in the database<br />
+              <br />
+
+            </li>
+          </ul>
+        </li>
+        <li><b>Templates</b> 
+          <ul>
+            <li>easy to customizable layout via templates to fit the own web layout</li>
+            <li>templates can be edited using a general HTML editor or via the 
+              administration area</li>
+            <li>standard template is included</li>
+
+            <li>many more templates avaible to download</li>
+          </ul>
+        </li>
+      </ul>
+      
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>		
+	</languages>
+</soft>

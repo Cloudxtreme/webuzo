@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/iGalerie
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/iGalerie
+	</ratings>
+	<space>
+		4019621
+	</space>
+	<support>
+		http://www.igalerie.org/
+	</support>
+	<version>
+		2.4.2
+	</version>
+	<mod>14</mod>
+	<release_date>01-01-2016</release_date>
+	<admin>admin/connexion.php</admin>
+	<min_require>2.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="zip" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">iGalerie</font> is an open and free PHP application that allows you to create and manage your photo gallery as just that effectively.
+		<br /><br />
+		iGalerie is released under the <a href="http://www.gnu.org/licenses/gpl.html" target = "_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#427094"><b>An application modern</b></font><br /><br />
+<font size="2">iGalerie offers all the features of a modern gallery: adding comments by your visitors, RSS feeds, sending multiple images, full-screen slideshow, management metadata EXIF ​​/ IPTC / XMP, cloud tags, URL rewriting, geolocation lock albums password, etc ...</font><br /><br />
+<font size="2" color="#427094"><b>Administration effectively</b></font><br /><br />
+<font size="2">With iGalerie, adjustments are made via an ergonomic and user-friendly administration interface clear,. All functions can be activated by a mouse click, allowing you to create a minimalist gallery as a very complete gallery. And thanks to the contextual and full documentation online help, you'll never get lost!</font><br /><br />
+<font size="2" color="#427094"><b>A member management Advanced</b></font><br /><br />
+<font size="2">iGalerie allows your visitors to sign up, send their images or become a director. You have complete and advanced management of all your users: system groups with many permissions, several methods for validating entries, customizable profile information, avatars, email notifications ...</font><br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>		
+	</languages>
+</soft>

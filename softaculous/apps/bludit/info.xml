@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Bludit
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Bludit
+	</ratings>
+	<space>
+		1988299
+	</space>
+	<support>
+		http://forum.bludit.com/
+	</support>
+	<version>
+	   1.1.2
+	</version>
+	<mod>5</mod>
+	<release_date>26-02-2016</release_date>
+	<admin>admin/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+ 	<languages>
+		<english-overview>
+		<font size="5">Bludit</font> is a simple web application to make your own blog in seconds, it's completly free and open source. Bludit uses flat-files (text files in JSON format) to store the posts and pages, you don't need to install or configure a database.
+		<br /><br />
+		Bludit is released under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			 <li>Fast</li>
+			 <li>Simple</li>
+			 <li>Extensible</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

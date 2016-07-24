@@ -1,0 +1,2 @@
+1. Do not change the column prefix while installing manually
+2. Empty the cache and smarty folder in the data.zip

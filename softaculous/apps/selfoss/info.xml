@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/selfoss
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/rss/selfoss
+	</ratings>
+	<space>
+		3621730
+	</space>
+	<support>
+		http://selfoss.aditu.de/
+	</support>
+	<version>
+		2.14
+	</version>
+	<mod>21</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">selfoss</font> is a new multipurpose rss reader, live stream, mashup, aggregation web application.
+		<br /><br />
+		selfoss supports all modern browsers, including Mozilla Firefox, Safari, Google Chrome, Opera and Internet Explorer. You can easily add your own data sources. Spouts (aka plugins) fetch the content from the different sources.
+		<br /><br />
+		selfoss is licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPLv3 license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<font size="2" color="#1281B6"><b>Features :</b></font><br /><br />
+<li>web based rss reader</li><br />
+<li>universal aggregator</li><br />
+<li>open source and free</li><br />
+<li>easy extendable with an open plugin system (write your own data connectors)</li><br />
+<li>mobile support (Android, iOS, iPad)</li><br />
+<li>use selfoss to live stream and collect all your posts, tweets, feeds in one place</li><br />
+<li>lightweight PHP application with less than 2 MB</li><br /><br />
+</ul>
+		</english-features>
+	</languages>
+</soft>

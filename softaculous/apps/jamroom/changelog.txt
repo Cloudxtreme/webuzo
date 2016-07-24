@@ -1,0 +1,56 @@
+
+Version 5.3.5:
+ - New: "db_verify_table" event fired when creating/updating a DB table
+ - Change: Expired cache cleanup moved to hourly maintenance for better performance on large systems
+ - Change: Better support in the WYSIWYG editor for pasting HTML and having it work correctly
+ - Bug Fix: emoji check function was triggering warnings to error_log from util.php
+ - Bug Fix: Possible PHP warnings with developer mode enabled for preg_match_all() in util.php
+ - Bug Fix: Modifying form_submit.tpl and moving the spinner image was breaking the form submit
+ - Bug Fix: Some custom form fields with values over 512 bytes may not show all contents
+ - Bug Fix: Style changes from the search tab in the style editor could change wrong CSS elements
+ - Bug Fix: Domain validation failing on some sub domains (i.e. sub.domain.co.uk)
+ - Bug Fix: Changing label name in User Menu Entry was not working correctly
+ - Bug Fix: "notice" form type could be set to "required" in Form Designer causing an error
+
+
+Version 5.3.4:
+ - New: "email_prepare" event trigger that is fired before each batch of queued emails is sent
+ - New: Sleeping queue entries in Queue Viewer now show how much longer they are sleeping for
+ - New: Enhanced search in "Skin Style" now searches for Selectors, Rules and Values
+ - New: "array" checktype plugin to test for a value being an array
+ - Change: Browser spellchecker activated by default in editor
+ - Change: bundled TinyMCE WYSIWYG Editor updated to version 4.3.8
+ - Change: DataStore optimizations to improve query time for very large result sets
+ - Bug Fix: Result ordering from a module index search could duplicate results across pages
+ - Bug Fix: Item Display Order may not order correctly when used in a Seamless list
+ - Bug Fix: Bad caching of timezone data was making some event timestamps incorrect
+ - Bug Fix: Breaks being added inside tables when created in the WYSIWYG editor
+ - Bug Fix: Emptying recycle bin may not remove all attached media files
+ - Bug Fix: Editor form fields were not being tested for banned words correctly
+ 
+Version 5.3.3:
+ - New: Added tabindex plugin to TinyMCE so pressing tab will now activate the editor
+ - New: "email_sent" event trigger that is fired after a batch of queued emails is sent
+ - Change: Pending items now show their title (if available) and not their link
+ - Change: Pending items now link to their update form and not the detail page
+ - Bug Fix: Admin created items missing "pending" flag which could prevent some listings
+ - Bug Fix: Quota check for user menu items not checking user "home profile" values
+ - Bug Fix: Very wide images uploaded to the IMAGES tab cause the content to be hidden
+ - Bug Fix: menu_onclick value was displaying invalid html when used
+ - Bug Fix: Pending item view tabs were showing all pending items, not just the selected one
+ - Bug Fix: URL error in the pending user search form fixed
+ - Bug Fix: Emoji in a Profile Name not showing correctly in Page Title used on profile pages
+ - Bug Fix: Emoji characters in DS data not being written to CSV export file correctly
+ - Bug Fix: Emoji characters in cached items may not insert correctly
+ - Bug Fix: CSV DataStore file export generation taking longer than 30 seconds may fail
+ - Bug Fix: Timestamps may not adjust correctly for Daylight Saving Time
+ - Bug Fix: Cancel button in Form Designer not taking you back to actual form
+ - Bug Fix: Profile and User images for "shared" profiles may not show to the profile owner
+ 
+Version 5.3.2:
+ - Bug Fix: Quota limit not being properly checked if enabled in jrCore_db_create_item()
+ - Change: HTTP request method added to fdebug() logging
+
+Version 5.3.1:
+ - New: unicode database functions to provide support for emoji characters in text fields
+ - Bug Fix: Quota Config not redirecting back to correct tab when an error is encountered

@@ -1,0 +1,4 @@
+Languages have been added.
+Procedure to configure language:
+1.Check the language files in lang folder eg: "english.php"
+2.Change the language in SQL i.e in config table [[language]] , i.e replace english.php to [[language]].php

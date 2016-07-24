@@ -1,0 +1,16 @@
+.github
+.gitignore
+.htaccess.default
+README.md
+assets
+build.xml
+composer.json
+composer.lock
+contao
+files
+index.php
+robots.txt
+share
+system
+templates
+vendor

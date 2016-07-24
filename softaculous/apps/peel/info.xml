@@ -1,0 +1,88 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PEEL_SHOPPING
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/PEEL_SHOPPING
+	</ratings>
+	<space>
+		42560854
+	</space>
+	<support>
+		http://forum.peel.fr/
+	</support>
+	<version>
+		8.0.2
+	</version>
+	<mod>2</mod>
+	<release_date>11-01-2016</release_date>
+	<admin>membre.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PEEL SHOPPING</font> is a free ecommerce CMS in PHP / MySQL, that is to say a modern and safety management tool that lets you manage your product catalog, the text on your website and everything else from a single, simple and efficient administrative interface.
+		<br /><br />
+		PEEL SHOPPING is released under the <a href="https://www.peel.fr/lire/licence-gpl-pour-peel-shopping-70.html" target="_blank">GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+		<font color="#0029A2" size="3">General Features:</font>
+    <ul>
+        <li>Interface Administrator to manage secure all aspects of the online shop.</li>
+        <li>Ability to manage the location of the modules from the back office.</li>
+        <li>Management of multiple VAT rates.</li>
+        <li>Virtual Caddie allows visitors to add or remove products from their cart.</li>
+        <li>Management of multiple text boxes manageable home page and other areas of the site.</li>
+        <li>Management of banner ads (multiple locations)</li>
+        <li>Ability to manage the Google Adsense banners.</li>
+        <li>Content Management Module (unlimited number of pages)</li>
+        <li>Module for generating promotional codes and value in %</li>
+        <li>Ability to easily integrate Google Analythics the tag in the back office.</li>
+    </ul>
+    <font color="#0029A2" size="3">Product Management:</font>
+    <ul>
+        <li>Updating real-time product.</li>
+        <li>Unlimited number of products.</li>
+        <li>Number of categories and subcategories Unlimited.</li>
+		<li>Possibility to place the categories and products from the back office.</li>
+		<li>Ability to disable a product without deleting the profile.</li>
+		<li>Choice between several system zooms highlighting the picture of your products.</li>
+		<li>Management attributes "color" and "size" for product info.</li>
+		<li>Management of the display of images produced by color.</li>
+		<li>Ability to create any number of other attributes "options".</li>
+		<li>Opportunity to showcase products on the home page of the site.</li>
+    </ul>
+    <font color="#0029A2" size="3">Management charges:</font>
+    <ul>
+        <li>Ability to have multiple type of shipment.</li>
+        <li>Ability to offer shipping to customers.</li>
+        <li>Calculation of shipping based on weight or the total amount of the order.</li>
+        <li>Calculation of shipping depending on delivery area.</li>
+        <li>Calculation of shipping depending on the type of delivery.</li>
+        <li>Ability to exempt shipping when ordering over N products.</li>
+    </ul>
+    <font color="#0029A2" size="3">Order Management:</font>
+    <ul>
+        <li>Warning order confirmation email and the customer.</li>
+        <li>Ability for the customer to follow an order via colissimo.</li>
+		<li>Saving accounts receivable and opportunity for consultation on each sheet.</li>
+		<li>Detailed overview of customer orders per customer.</li>
+		<li>Issue invoices and delivery notes in PDF format.</li>
+		<li>Can the customer to find his orders from their account.</li>
+		<li>Can the vendor to change the terms of sale.</li>
+		<li>Ability to offer its customers partial payments.</li>
+		<li>Ability to view the PDF invoices from the order history.</li>
+		<li>Ability to set a minimum order required.</li>
+    </ul>
+		</english-features>
+	</languages>
+</soft>

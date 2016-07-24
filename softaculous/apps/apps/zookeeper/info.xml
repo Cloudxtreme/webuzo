@@ -1,0 +1,120 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/java_tools/Apache_ZooKeeper
+	</ratings>
+	<space>
+		8064
+	</space>
+	<support>
+		http://zookeeper.apache.org/
+	</support>
+	<version>
+		3.4.6
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>13-03-2014</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/zookeeper</path>
+	<path name="bin">/usr/local/apps/zookeeper/bin/zkCli.sh</path>	
+	
+	<extract file="zookeeper-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/zookeeper</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache ZooKeeper Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/zookeeper</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/zookeeper/bin/zkCli.sh</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache ZooKeeper </font>is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All of these kinds of services are used in some form or another by distributed applications. 
+		<br /><br />
+Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable. Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage. Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.  
+<br /><br />
+		Apache ZooKeeper is distributed under the <a href="http://www.apache.org/licenses/" target="_blank">Apache License</a>
+		</english-overview>
+		<english-features>
+			<p>
+			   <strong>ZooKeeper is simple.</strong> ZooKeeper
+				allows distributed processes to coordinate with each other through a
+				shared hierarchal namespace which is organized similarly to a standard
+				file system. The name space consists of data registers - called znodes,
+				in ZooKeeper parlance - and these are similar to files and directories.
+				Unlike a typical file system, which is designed for storage, ZooKeeper
+				data is kept in-memory, which means ZooKeeper can achieve high
+				throughput and low latency numbers.</p>
+				<p>The ZooKeeper implementation puts a premium on high performance,
+				highly available, strictly ordered access. The performance aspects of
+				ZooKeeper means it can be used in large, distributed systems. The
+				reliability aspects keep it from being a single point of failure. The
+				strict ordering means that sophisticated synchronization primitives can
+				be implemented at the client.
+			</p>
+			<p>
+				<strong>ZooKeeper is replicated.</strong> Like the
+				distributed processes it coordinates, ZooKeeper itself is intended to be
+				replicated over a sets of hosts called an ensemble.
+			</p>
+			<p>
+				The servers that make up the ZooKeeper service must all know about
+				each other. They maintain an in-memory image of state, along with a
+				transaction logs and snapshots in a persistent store. As long as a
+				majority of the servers are available, the ZooKeeper service will be
+				available.
+			</p>
+			<p>
+				Clients connect to a single ZooKeeper server. The client maintains
+				a TCP connection through which it sends requests, gets responses, gets
+				watch events, and sends heart beats. If the TCP connection to the server
+				breaks, the client will connect to a different server.</p>
+			<p>
+				<strong>ZooKeeper is ordered.</strong> ZooKeeper
+				stamps each update with a number that reflects the order of all
+				ZooKeeper transactions. Subsequent operations can use the order to
+				implement higher-level abstractions, such as synchronization
+				primitives.
+			</p>
+			<p>
+				<strong>ZooKeeper is fast.</strong> It is
+				especially fast in "read-dominant" workloads. ZooKeeper applications run
+				on thousands of machines, and it performs best where reads are more
+				common than writes, at ratios of around 10:1.
+			</p>
+		</english-features>
+	</languages>
+</soft>

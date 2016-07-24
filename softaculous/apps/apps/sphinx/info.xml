@@ -1,0 +1,98 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/Sphinx
+	</ratings>
+	<space>
+		80090582
+	</space>
+	<support>
+		http://sphinxsearch.com/about/contact/
+	</support>
+	<version>
+		2.1.9
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>03-07-2014</release_date>
+	
+	<extract file="sphinx-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/sphinx</remove>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Sphinx Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/sphinx</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/sphinx/bin/searchd</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Sphinx </font> is an open source full text search server, designed from the ground up with performance, relevance (aka search quality), and integration simplicity in mind. It's written in C++ and works on Linux (RedHat, Ubuntu, etc), Windows, MacOS, Solaris, FreeBSD, and a few other systems.
+		<br /><br />
+		Sphinx is distributed under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GPLv2 License </a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>
+					<b>Batch and Real-Time full-text indexes.</b> Two index  backends that support both efficient offline index construction andincremental on-the-fly index updates are available.
+				</li>
+				<li>
+					<b>Non-text attributes support</b>. An arbitrary number of attributes (product IDs, company names, prices, etc) can be stored in the index and used either just for retrieveal (to avoid hitting the DB), or for efficient Sphinx-side search result set post-processing.
+				</li>
+				<li>
+					<b>SQL database indexing.</b> Sphinx can directly access and index data stored in MySQL (all storage engines are supported), PostgreSQL, Oracle, Microsoft SQL Server, SQLite, Drizzle, and anything else that supports ODBC.
+				</li>
+				<li>
+					<b>Non-SQL storage indexing.</b> Data can also be streamed to batch indexer in a simple XML format called XMLpipe, or inserted directly into an incremental RT index.
+				</li>
+				<li>
+					<b>Easy application integration.</b> Sphinx comes with three different APIs, SphinxAPI, SphinxSE, and SphinxQL. SphinxAPI is a native library available for Java, PHP, Python, Perl, C, and other languages. SphinxSE, a pluggable storage engine for MySQL, enables huge result sets to be shipped directly to MySQL server for post-processing. SphinxQL lets the application query Sphinx using standard MySQL client libary and query syntax.
+					</li>
+				<li>
+					<b>Advanced full-text searching syntax</b>. Our querying engine supports arbitrarily complex queries combining boolean operators, phrase, proximity, strict order, and quorum matching, field and position limits, exact keyword form matching, substring searches, etc.
+				</li>
+				<li>
+					<b>Rich database-like querying features.</b> Sphinx does not limit you to just keyword searching. On top of full-text search result set, you can compute arbitrary arithmetic expressions, add WHERE conditions, do ORDER BY, GROUP BY, use MIN/MAX/AVG/SUM, aggregates etc. Essentially, full-blown SQL SELECT is supported.
+				</li>
+				<li>
+					<b>Better relevance ranking.</b> Unlike many other engines, Sphinx does not solely rely on 30-year-old statistical ranking that only considers keyword frequencies, nor limits you to it. By default, Sphinx additionally analyzes keyword proximity, and ranks closer phrase matches higher, with perfect matches ranked on top. Also, ranking is flexible: you can choose from a number of built-in relevance functions, tweak their weights by using expressions, or develop new ones.
+				</li>
+				<li>
+					<b>Flexible text processing.</b> Sphinx indexing features include full support for SBCS and UTF-8 encodings (meaning that effectively all world's languages are supported); stopword removal and optional hit position removal (hitless indexing); morphology and synonym processing through word forms dictionaries and stemmers; exceptions and blended characters; and many more.
+				</li>
+				<li>
+					<b>Distributed searching.</b> Searches can be distributed across multiple machines, enabling horizontal scale-out and HA (High Availability).
+				</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

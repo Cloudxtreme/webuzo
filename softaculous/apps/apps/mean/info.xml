@@ -1,0 +1,79 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/stacks/MEAN
+	</ratings>
+	<space>
+		289832
+	</space>
+	<support>
+		http://mean.io/#!/support
+	</support>
+	<version>
+		v0.3.3
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>06-05-2014</release_date>
+	
+	<requires>mongodb</requires>
+	<requires>git</requires>
+	<requires>nodejs</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/nodejs</path>
+	<path name="bin">/usr/local/apps/nodejs/bin/mean</path>		
+	
+	<notes>
+		<center><font size="5" color="#182e7a">MEAN Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/nodejs</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/nodejs/bin/mean</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://mean.io/#!/docs</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#763e7a">MEAN</font> is an acronym for MongoDB, Express, AngularJs and NodeJs. MEAN is an opinionated fullstack javascript framework - which simplifies and accelerates web application development. 
+<br /><br />
+		<br /><br />
+		MEAN is distributed under the <a href="opensource.org/licenses/MIT" target="_blank">MIT License</a>
+		</english-overview>
+		<english-features>
+			<p>Source for npm package meanio. mean-cli is a core package of the mean.io project and is used primarily to manage packages for extending functionality, for example adding a package to enable inline editable tokens.
+
+The cli provides a lot of useful functionality, such as scaffolding options to ceate new packages, assign roles to users, check the mongo status, add/remove packages and list currently installed packages.</p>
+		</english-features>
+	</languages>
+</soft>

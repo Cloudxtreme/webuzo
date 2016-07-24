@@ -1,0 +1,14 @@
+1)Select database driver as "MySQLi"
+
+2) Removed unset($_SERVER[\'HTTP_X_FORWARDED_HOST\']); in localconfig.php If it is required in next version than add it.
+
+3)Add following line in localconfig.php to disable maintenance mode:
+$GLOBALS['TL_CONFIG']['maintenanceMode'] = false;
+
+4) After removing inserts from tl_log table change auto increment
+
+5) Make script where Database ENGINE is InnoDB
+
+6) Don't convert contao.sql to utf8(As enduser won't work if you convert it).
+
+7) We do not delete the install.php because they have not mentioned in their guide to delete it and it allows to import templates using this file.

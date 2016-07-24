@@ -1,0 +1,40 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/BlackNova_Traders
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/games/BlackNova_Traders
+	</ratings>
+	<space>
+		10060706
+	</space>
+	<support>
+		http://blacknova.net
+	</support>
+	<version>
+		0.663
+	</version>
+	<mod>6</mod>
+	<mod_files>4</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">BlackNova Traders</font> is a web-based, multi-player space exploration game inspired by the popular BBS game of TradeWars. It is coded using PHP, SQL, and Javascript.
+		<br /><br />
+		BlackNova Traders is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+			<i><font size="4">Web-based, multi-player space exploration game inspired by the popular BBS game of TradeWars</font></i>
+		</english-features>
+	</languages>
+</soft>

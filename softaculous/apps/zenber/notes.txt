@@ -1,0 +1,9 @@
+in manual intallation use: 
+Company Name(site_name)
+Company URL(http://domhost/)
+don't use company logo .
+time adjustment (default :0 ).
+don't check Opt-in to the anonymous stat collection program
+company email(admin_email).
+admin email(admin_email).
+

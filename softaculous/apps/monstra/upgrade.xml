@@ -1,0 +1,18 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<auto_upgrade>1</auto_upgrade>
+	<donotunzip>1</donotunzip>
+	<files>
+		<exclude>storage/database/users.table.xml</exclude>
+		<exclude>storage/database/options.table.xml</exclude>
+		<exclude>.htaccess</exclude>
+		<exclude>install.php</exclude>
+		<exclude>sitemap.xml</exclude>
+	</files>
+</softupgrade>

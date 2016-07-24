@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/JoobsBox
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/JoobsBox
+	</ratings>
+	<space>
+		11134734
+	</space>
+	<support>
+		http://www.joobsbox.com/
+	</support>
+	<version>
+		0.9.20090730
+	</version>
+	<mod>2</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">JoobsBox</font> is the most flexible software for job boards, with a plugins and themes system ready for your needs.
+		<br /><br />It comes with a plugin system which makes it possible to extend the application easily. 
+		<br /><br />The application offers a powerful administration panel where all the categories, listings, plugins &amp; other variables can be controlled. JoobsBox is multilingual and themeable.
+		<br /><br />
+		JoobsBox is licensed under <a href="http://www.joobsbox.com/license/" target="_blank">BSD License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Powerful search engine</li>
+<li>Approve, edit and delete job postings</li>
+<li>Create, edit and delete categories</li>
+<li>Configurable categories order</li>
+<li>Configurable language</li>
+<li>Set duration of job listings</li>
+<li>RSS feeds for entire portal or for specific categories</li>
+<li>SEO friendly urls</li>
+<li>Seamlessly integration with your existing website</li>
+<li>Auto-post jobs to Twitter (plugin)</li>
+<li>Optimized for iPhone (plugin)</li>
+<li>Google Analytics statistics (plugin)</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

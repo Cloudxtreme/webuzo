@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.jqplot.com/deploy/dist/examples/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/jqPlot
+	</ratings>
+	<space>
+		3113663 
+	</space>
+	<support>
+		http://www.jqplot.com
+	</support>
+	<version>
+		1.0.9
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">jqPlot</font> is a plotting and charting plugin for the jQuery Javascript framework.
+		<br /><br />
+		jqPlot produces beautiful line, bar and pie charts with many features. jqPlot's Strongest Feature is its Pluggability!
+		Computation and drawing of lines, axes, shadows even the grid itself is handled by pluggable "renderers".<br /><br />
+		Not only are the plot elements customizable, plugins can expand functionality of the plot too!
+		There are plenty of hooks into the core jqPlot code allowing for custom event handlers, creation of new plot types, adding canvases to the plot, and more!<br /><br />
+		jqPlot is licensed under the <a href="http://www.jqplot.com/docs/files/gpl-2-0-txt.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="4" color="78ba91"><b>jqPlot produces beautiful line, bar and pie charts with many features :</b></font>
+<font size="2">
+<ul>
+<li>Numerous chart style options.</li>
+<li>Date axes with customizable formatting.</li>
+<li>Up to 9 Y axes.</li>
+<li>Rotated axis text.</li>
+<li>Automatic trend line computation.</li>
+<li>Tooltips and data point highlighting.</li>
+<li>Sensible defaults for ease of use.</li>
+</ul>
+	</font>
+	</english-features>
+	</languages>
+</soft>

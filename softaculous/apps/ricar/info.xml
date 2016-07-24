@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/RicarGBooK
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/RicarGBooK
+	</ratings>
+	<space>
+		193639
+	</space>
+	<support>
+		http://ricargbook.adrielmedia.com/
+	</support>
+	<version>
+		1.2.2
+	</version>
+	<mod>5</mod>
+	<mod_files>2</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">RicarGBooK</font> is a guestbook system written in PHP and based on flat files. You can delete or modify any comment with an admin control panel. It's easy, simple and completely free!
+		<br /><br />
+		RicarGBooK is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Easy to install.</li>
+
+<li>No database required.</li>
+<li>Approval messages.</li>
+<li>Multiple languages available.</li>
+<li>Guestbook error log.</li>
+<li>Email notification.</li>
+<li>Spam protection with CAPTCHA.</li>
+
+<li>Spam filter.</li>
+<li>Admin control panel.</li>
+<li>Emoticons and BBCode.</li>
+<li>Flood protection.</li>
+<li>Bad words filter.</li>
+
+<li>Admin can edit or delete comments.</li>
+<li>Admin can ban IP address.</li>
+<li>valid XHTML 1.0 and CSS.</li>
+
+<li><b>Free!</b></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

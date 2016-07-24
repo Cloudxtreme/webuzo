@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/eXtplorer
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/eXtplorer
+	</ratings>
+	<space>
+		6168215
+	</space>
+	<support>
+		http://extplorer.net/
+	</support>
+	<version>
+		2.1.9
+	</version>
+	<mod>10</mod>
+	<release_date>12-04-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">eXtplorer</font> is a php-based file manager for your own web space. It's cross-browser compliant and offers everything you need. 
+		<br /><br />
+		eXtplorer is a PHP- and Javascript-based File Manager, which you can be placed on your own web space.
+		<br /><br />
+		eXtplorer is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>
+		<english-features>
+		<br />
+		<font size="2" color="#1281B6"><b>The Main Features of eXtplorer are: </b></font><br />
+		<ul>
+<li><b>Copy &amp; Move</b> Files and Directories by Drag &amp; Drop</li>
+<li>Dynamic Directory Tree with on-demand loading of subdirectories</li>
+<li><b>Edit</b> Files</li>
+<li><b>Rename</b>, Delete or Create new Files and Directories</li>
+<li>Access Files through ''FTP'' or directly (using PHP) to totally overcome permission and file ownership issue</li>
+<li><b>Upload </b>or Download files just as you like</li>
+<li>Create and <b>Extract Archives</b> (ZIP, Tar, Tar/GZ, Tar/BZ)</li>
+<li><b>User Management</b> with different permission levels like "View only" or "Edit" and "Admin"</li><br />
+All these features are packed into an intuitive Layout which makes working with files very easy. 
+</ul>
+		</english-features>
+	</languages>
+</soft>

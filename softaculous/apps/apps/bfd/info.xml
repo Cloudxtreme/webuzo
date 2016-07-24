@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/security/Brute_Force_Detection
+	</ratings>
+	<space>
+		67655
+	</space>
+	<support>
+		http://www.rfxn.com/projects/linux-environment-security/
+	</support>
+	<version>
+		1.5-2
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/bfd</path>
+	<path name="bin">/usr/local/bfd/bfd</path>
+	<path name="cron">/etc/cron.daily/bfd</path>
+	<path name="log">/var/log/bfd_log</path>
+	<path name="etc">/etc/logrotate.d/bfd</path>
+	
+	<extract file="bfd-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Brute Force Detection Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/bfd/bfd</td>
+			</tr>			
+			<tr>
+				<td>Cron File</td>
+				<td>/etc/cron.daily/bfd</td>
+			</tr>
+			<tr>
+				<td>Log File</td>
+				<td>/var/log/bfd_log</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Brute Force Detection</font> is a modular shell script for parsing application logs and checking for authentication failures. It does this using a rules system where application specific options are stored including regular expressions for each unique auth format.
+		<br /><br />
+		Brute Force Detection is distributed under their <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank"> GNU General Public License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li><p>In addition to the benefits of parsing logs in a single stream, BFD also uses a log tracking system so logs are only parsed from the point which they were last read. This greatly assists in extending the performance of BFD even further as we are not constantly reading the same log data. The log tracking system is
+compatible with syslog/logrotate style log rotations which allows it to detect when rotations have happened and grab log tails from both the new log file and the rotated log file.</p></li>
+				<li><p>You can also leverage BFD to block attackers using any number of tools such as APF, Shorewall, raw iptables, ip route or execute any custom command. There is also a fully customizable e-mail alerting system with an e-mail template that is well suited for every day use or you can open it up and modify it. </p></li>
+				<li><p>The attacker tracking in BFD is handled using simple flat text files that are size-controlled to prevent space constraints over time, ideal for disk less
+devices. There is also an attack pool where trending data is stored on all hosts hat have been blocked including which rule the block was triggered by.</p></li>
+				<li><p>In the execution process, there is simply a cron job that executes BFD once every 3 minutes by default. An embedded lock file system makes sure that no
+two instances ever run at the same time, preventing messy and potentially load heavy results. The cronjob can be run more frequently for those that desire it and doing so will not cause any performance issues (no less than once a minute).</p></li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

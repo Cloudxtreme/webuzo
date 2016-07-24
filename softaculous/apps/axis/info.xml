@@ -1,0 +1,101 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Axis
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Axis
+	</ratings>
+	<space>
+		40255424
+	</space>
+	<support>
+		http://www.axiscommerce.com/
+	</support>
+	<version>
+		0.8.7.2
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Axis commerce</font> is a powerfull open source e-commerce platform.
+		<br /><br />
+		Axis commerce is a provides Multiply stores management, Admin Ajax user interface, One page checkout and SEO friendly.
+		<br /><br />
+		Axis commerce is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#182e7a">Catalog</font>
+<ul>
+<li>Category, manufacturer, price and attribute filters</li>
+<li>Manufacturers management</li>
+<li>Product properties, modifiers and variations</li>
+</ul>
+<font size="2" color="#182e7a">Sales</font>
+<ul>
+<li>Onestep checkout page</li>
+<li>Guest checkout</li>
+<li>Customer order comments</li>
+<li>Pdf invoices, slips and labels</li>
+<li>Email notifications</li>
+</ul>
+<font size="2" color="#182e7a">Payment</font>
+<ul>
+<li>Filter payment methods by order total, billing address and shipping method</li>
+<li>6 methods are supports out of the box</li>
+</ul>
+<font size="2" color="#182e7a">Locations and Taxes</font>
+<ul>
+<li>Unlimited currencies</li>
+<li>Unlimited languages</li>
+<li>Tax rates per geozone and customer group</li>
+</ul>
+<font size="2" color="#182e7a">Payment</font>
+<ul>
+<li>Filter payment methods by order total, billing address and shipping method</li>
+<li>6 methods are supports out of the box</li>
+</ul>
+<font size="2" color="#182e7a">Backend office</font>
+<ul>
+<li>Ajax powered interfaces</li>
+<li>Powerful frontend design controls</li>
+<li>Multiple sites management</li>
+<li>Content management system</li>
+</ul>
+<font size="2" color="#182e7a">Customers</font>
+<ul>
+<li>Unlimited customer groups</li>
+<li>Whishlist</li>
+<li>Orders history</li>
+<li>Address book</li>
+</ul>
+<font size="2" color="#182e7a">Shipping</font>
+<ul>
+<li>Filter allowed shipping methods by shipping address, order subtotal and payment method</li>
+<li>9 methods are supported out of the box</li>
+</ul>
+<font size="2" color="#182e7a">SEO</font>
+<ul>
+<li>Unique url for every language</li>
+<li>Meta tags management</li>
+<li>Xml sitemap</li>
+</ul>
+<font size="2" color="#182e7a">Frontend office</font>
+<ul>
+<li>Easy to add additional functionality with custom modules</li>
+<li>Easy theme customization</li>
+<li>Search with Lucene engine</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

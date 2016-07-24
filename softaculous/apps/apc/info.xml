@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/modules/APC
+	</ratings>
+	<space>
+		111168
+	</space>
+	<support>
+		http://pecl.php.net/package/apc
+	</support>
+	<version>
+		3.1.9
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>14-05-2011</release_date>
+	
+	<path name="53so">/usr/local/apps/php53/ext/apc.so</path>
+	<path name="54so">/usr/local/apps/php54/ext/apc.so</path>
+	
+	<extract file="apc-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">APC Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://in3.php.net/apc</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#156e7a">APC</font> is a free, open, and robust framework for caching and optimizing PHP intermediate code.
+		<br /><br />
+		Apc is distributed under the <a href="apc.lighttpd.net/browser/trunk/COPYING" target="_blank">PHP License </a>
+		</english-overview>
+		<english-features>
+			<h3>APC Functions</h3><br />
+			<ul>
+				<li>apc_add — Cache a new variable in the data store.</li>
+				<li>apc_bin_dump — Get a binary dump of the given files and user variables</li>
+				<li>apc_bin_dumpfile — Output a binary dump of cached files and user variables to a file</li>
+				<li>apc_bin_load — Load a binary dump into the APC file/user cache</li>
+				<li>apc_bin_loadfile — Load a binary dump from a file into the APC file/user cache</li>
+				<li>apc_cache_info — Retrieves cached information from APC's data store</li>
+				<li>apc_cas — Updates an old value with a new value</li>
+				<li>apc_clear_cache — Clears the APC cache</li>
+				<li>apc_compile_file — Stores a file in the bytecode cache, bypassing all filters.</li>
+				<li>apc_dec — Decrease a stored number</li>
+				<li>apc_define_constants — Defines a set of constants for retrieval and mass-definition</li>
+				<li>apc_delete_file — Deletes files from the opcode cache</li>
+				<li>apc_delete — Removes a stored variable from the cache</li>
+				<li>apc_exists — Checks if APC key exists</li>
+				<li>apc_fetch — Fetch a stored variable from the cache</li>
+				<li>apc_inc — Increase a stored number</li>
+				<li>apc_load_constants — Loads a set of constants from the cache</li>
+				<li>aapc_sma_info — Retrieves APC's Shared Memory Allocation information</li>
+				<li>apc_store — Cache a variable in the data store</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

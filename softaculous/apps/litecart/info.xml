@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/LiteCart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/LiteCart
+	</ratings>
+	<space>
+		4570928 
+	</space>
+	<support>
+		http://www.litecart.net/
+	</support>
+	<version>
+		1.3.5
+	</version>
+	<mod>19</mod>
+	<release_date>18-04-2016</release_date>
+	<admin>admin123</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="exif" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LiteCart</font> is a new innovative free shopping cart platform developed in PHP. Founded by swedish developer T. Almroth. Based on the latest modern technology such as PHP 5.3+, jQuery, HTML 5 and CSS 3. Logical design and a simple to use interface. The framework is constructed to be lightweight and easy for developers to modify and build upon.
+		<br /><br />
+		LiteCart is released under their custom <a href="http://www.litecart.net/license" target="_blank">Free License</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Features:</b></font><br />
+<ul>
+<li>Lightweight</li>
+<li>Logical user interface</li>
+<li>Easy to navigate</li>
+<li>Reduced amounts of mouse clicks</li>
+<li>Modern interface</li>
+<li>Unlimited products</li>
+<li>Unlimited categories</li>
+<li>Multiple languages</li>
+<li>Multiple currencies</li>
+<li>Multiple charset support</li>
+<li>Fixed prices per currency</li>
+<li>ISO Codes</li>
+<li>One Step Checkout</li>
+<li>Plug 'n play admin apps</li>
+<li>Order editor</li>
+<li>Multiple product images</li>
+<li>Search Engine Friendly</li>
+<li>PHP, jQuery, HTML 5 &amp; CSS 3</li>
+<li>Injection based translations</li>
+<li>And much more...</li>
+</ul>
+Add-ons can be obtained on the official website
+		</english-features>
+		<english-ad_dir>Admin Folder</english-ad_dir>
+		<english-select_country>Select Country</english-select_country>
+		<english-select_timezone>Select Timezone</english-select_timezone>
+	</languages>
+</soft>

@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Support_Incident_Tracker
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/Support_Incident_Tracker
+	</ratings>
+	<space>
+		10653578
+	</space>
+	<support>
+		http://sitracker.org/
+	</support>
+	<version>
+		3.66
+	</version>
+	<mod>1</mod>
+	<mod_files>3</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Support Incident Tracker</font> (or SiT!) is a Free Software/Open Source (GPL) web based application which uses PHP and MySQL for tracking technical support calls/emails (also commonly known as a 'Help Desk' or 'Support Ticket System').
+		<br /><br />
+		Manage contacts, sites, technical support contracts and support incidents in one place. Send emails directly from SiT!, attach files and record every communication in the incident log. SiT is aware of Service Level Agreements and incidents are flagged if they stray outside of them.
+		<br /><br />
+		Support Incident Tracker is released under the <a href="http://www.gnu.org/philosophy/free-sw.html" target='_blank'>Free Software</a>.
+		</english-overview>		
+		<english-features>
+<ul><li> Free and Open Source software!  Licensed under the GNU General Public License
+</li><li> Web based: easy to install and use
+</li><li> Separate incident queues for each user
+</li><li> Incidents can be shared between engineers to encourage team working
+</li><li> Incidents are pushed out to engineers after they are logged rather than 'picked up' (pulled) to avoid incidents being ignored
+</li><li> Incidents can be assigned Low, Medium, High or Critical priority depending on customer impact
+</li><li> Send and receive emails within Incidents
+</li><li> Log of customer communication and engineer actions with each incident
+</li><li> Configurable service levels (SLA's) for different types of incident, for different priorities and for each part of the incident life-cycle
+</li><li> Knowledge Base
+</li><li> Customer (Site and Contacts) Address Database
+</li><li> Tasks List
+</li><li> Holiday/Vacation management
+</li><li> Engineer/user profiles
+</li><li> Engineer status can be set (e.g. In office/out of office)
+</li><li> LDAP Integration (Support for Active Directory, eDirectory, openLDAP)
+</li><li> Fully configurable support entitlements
+</li><li> Configurable list of engineer skills which can be used for sharing incidents amongst engineers with similar skills
+</li><li> Choice of themes
+</li><li> Dashboard, including installable components such as RSS Feeds and Statistics
+</li><li> Tags and tag cloud for incidents, sites, contacts and more
+</li><li> Fast search facility, including full text searching
+</li><li> Easily customised email templates
+</li><li> Reporting
+</li><li>Highly customisable user- and system-level notification and action framework
+</li><li> Multiple language support, currently 13 translations and counting
+</li><li> Uses valid accessible XHTML 1.0 throughout
+</li><li> Extensible via plugins
+</li><li> Much more...
+</li></ul>
+		</english-features>
+	</languages>
+</soft>

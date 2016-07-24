@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/FrontAccounting
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/FrontAccounting
+	</ratings>
+	<space>
+		5651227
+	</space>
+	<support>
+		http://www.frontaccounting.com/
+	</support>
+	<version>
+		2.3.25
+	</version>
+	<mod>28</mod>
+	<mod_files>1</mod_files>
+	<release_date>21-02-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">FrontAccounting</font> is an accounting system for small companies. It is web based, simple, but powerful, system for the entire ERP chain.
+		<br /><br />
+		FrontAccounting is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Purchase Orders</li>
+<li>Goods Receivable Notes</li>
+<li>Supplier Invoices/Credit Notes</li>
+<li>Customer Invoices/Credit Notes</li>
+<li>General Ledger with Budget</li>
+<li>Accounts Receivable</li>
+<li>Items and Inventory</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

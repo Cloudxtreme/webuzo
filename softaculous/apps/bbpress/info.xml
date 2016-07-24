@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/bbPress
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/bbPress
+	</ratings>
+	<space>
+		2174441
+	</space>
+	<support>
+		http://bbpress.org/
+	</support>
+	<version>
+		1.2
+	</version>
+	<mod>7</mod>
+	<mod_files>4</mod_files>
+	<admin>bb-admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">bbPress</font> is forum software with a twist from the creators of WordPress. bbPress is plain and simple forum software, plain and simple. It’s easy to use, easy to administrate, fast and clean. But don’t let its simplicity deceive you; underneath the gleam, it’s got some powerful features and is highly customizable
+		<br /><br />
+		bbPress is released under the <a href="http://bbpress.org/about/gpl/">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+Some of bbPress major features include:
+<ul>
+<li>Open Source, always and forever</li>
+<li>Less (code) is more</li>
+<li>Simplicity is a feature</li>
+<li>Speed and security are the foundation of any good user experience</li>
+<li>Put the user first</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+		<english-err_no_dbprefix>Could not determine the database prefix</english-err_no_dbprefix>
+	</languages>
+</soft>

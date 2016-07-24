@@ -1,0 +1,2 @@
+1. Add // Set random Cookie 
+Cookie::$salt = '[[salt]]'; and [[relativeurl]] in bootstrap.php

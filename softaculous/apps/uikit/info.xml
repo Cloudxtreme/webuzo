@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.getuikit.com/docs/customizer.html
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/UIkit	
+	</ratings>
+	<space>
+		2370998
+	</space>
+	<support>
+		http://www.getuikit.com/
+	</support>
+	<version>
+		2.26.3
+	</version>
+	<mod>37</mod>
+	<release_date>12-05-2016</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">UIkit</font> A lightweight and modular front-end framework for developing fast and powerful web interfaces.
+		<br /><br />
+		UIkit gives you a comprehensive collection of HTML, CSS, and JS components
+which is simple to use, easy to customize and extendable.
+		<br /><br />
+		UIkit is open source and <a href="http://opensource.org/licenses/MIT" target="_blank">MIT licensed</a>. It is absolutely free of charge and you can use, copy, merge, publish and distribute the framework without any limitations.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#3DC0F1"><b>LESS</b></font><br /><br />
+UIkit is developed in LESS to write well-structured, extendable code which is easy to maintain.
+<br /><br />
+<font size="2" color="#3DC0F1"><b>Components</b></font><br /><br />
+A collection of small, responsive components using consistent and conflict-free naming conventions.
+<br /><br />
+<font size="2" color="#3DC0F1"><b>Customizer</b></font><br /><br />
+UIkit's very basic style can be extended with themes and is easy to customize to create your own look.
+<br /><br />
+<font size="2" color="#3DC0F1"><b>Responsive</b></font><br /><br />
+With the mobile-first approach UIkit provides a consistent experience from phones and tablets to desktops.
+<br /><br />
+	</english-features>
+	</languages>
+</soft>

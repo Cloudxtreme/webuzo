@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://jsmorph.com/demos.html
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/jsMorph
+	</ratings>
+	<space>
+		1257561 
+	</space>
+	<support>
+		http://jsmorph.com
+	</support>
+	<version>
+		0.5.0
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">jsMorph</font> is a morphing - motion - tweening framework that knows what you need to do... get going!<br /><br />
+		It's a nice ensemble of best timing, fast, smart and resource saving algorithms and convenience.<br /><br />
+		jsMorph is a completely Cross-Browser, pure javaScript animation framework that can manipulate almost any and multiple stylings of multiple HTML elements. 
+		It auto detects start positions, auto converts units, automatically adjusts rendering speed and corrects time leaks for smoother rendering experience.<br /><br />
+		jsMorph is licensed under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License Version 2</a>.
+		</english-overview>		
+		<english-features>
+		<font size="4" color="78ba91"><b>jsMorph features :</b></font>
+<font size="2">
+<ul>
+<li>super fast rendering due to optimized browser rendering buffer usage.</li>
+<li>individual triggering for single or grouped rendering.</li>
+<li>recycling functionality for less memory usage.</li>
+<li>plenty callback functionality for best control.</li>
+<li>chaining possibility for shorter code.</li>
+<li>Tooltips and data point highlighting.</li>
+<li>Sensible defaults for ease of use.</li>
+</ul>
+	</font>
+	</english-features>
+	</languages>
+</soft>

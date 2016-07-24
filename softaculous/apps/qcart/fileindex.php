@@ -1,0 +1,9 @@
+.htaccess
+admin.php
+core
+database
+files
+index.php
+plugins
+read-me.txt
+templates

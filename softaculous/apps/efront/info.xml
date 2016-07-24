@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/eFront
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/eFront
+	</ratings>
+	<space>
+		81769666
+	</space>
+	<support>
+		http://www.efrontlearning.net
+	</support>
+	<version>
+		3.6.15
+	</version>
+	<mod>19</mod>
+	<release_date>15-06-2015</release_date>
+	<admin>www/index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">eFront</font> is a modern learning system, bundled with key enterprise functionality ranging from skill-gap analysis and branch management to tailor-made reports. 
+		<br /><br />
+		eFront is released under the <a href="http://www.efrontlearning.net/license" target="_blank">Common Public Attribution License Version 1.0 (CPAL)</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Emphasis on user experience</li>
+<li>A unified learning environment</li>
+<li>The best tests engine</li>
+<li>Standards compliant and certified</li>
+<li>A multitude of social tools</li>
+<li>Extended reports and analytics</li>
+</ul>
+		</english-features>
+		
+	</languages>
+</soft>

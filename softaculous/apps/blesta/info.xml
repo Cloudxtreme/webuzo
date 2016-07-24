@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Blesta
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Blesta
+	</ratings>
+	<space>
+		39278412
+	</space>
+	<support>
+		http://www.blesta.com/forums/
+	</support>
+	<version>
+		3.6.1
+	</version>
+	<mod>26</mod>
+	<release_date>09-11-2015</release_date>
+	<admin>admin/login/</admin>
+	<min_require>3.0.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.1.3" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="ionCube Loader" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Blesta</font> Automatically Invoice &amp; Manage Clients With Ease.
+		<br /><br />
+		Blesta is a well written, secure, user and developer friendly client management, billing, and support application. Written in PHP on our very own open source minPHP MVC framework, Blesta is object oriented and extendable.
+		<br /><br />
+		<b>Blesta License Information</b> : If you do not have a license key, 30 days free trial license key will be activated during the installation process. If you have already purchased a license key, the installation process will fetch the respective license key from Blesta.
+		<br /><br />
+		Blesta <a href="http://www.blesta.com/license/" target="_blank">License Agreement</a>.
+		</english-overview>		
+		<english-features>
+<h4><font size="2" color="#1370A8"><b>Professional Invoices</b></font></h4>
+<font>Blesta creates gorgeous, professional looking PDF invoices, and sends them to your clients automatically. Invoices can be sent via email, fax, postal mail, or queued up for print and delivery by your staff.
+Two different invoice templates are currently available, and they can be customized with your own logo, background image and more.
+Invoices are generated automatically for any recurring services or recurring invoices that are set up, and one-off invoices can be created as well. Invoices support quantities, both decimal and fractional, so you can easily bill for time spent.
+A multi-tier tax system calculates the appropriate tax for the region automatically. Exclusive, and inclusive tax types, cascading tax, and more.</font><br />
+<h4><font size="2" color="#1370A8"><b>Automation</b></font></h4>
+<font>Blesta has automation down so that you can focus on what matters most; growing your business. Through automation and a simple intuitive interface, you're able to spend less time using Blesta and more time getting stuff done.
+Blesta automates the creation of invoices, sends out payment reminders and late notices, processes payments, suspends past due services, and even remotely backs up its own database to protect against hardware failure.
+You can even schedule what time you want automated tasks to run. Create and send invoices to customers at the most responsive time of day!</font><br />
+<h4><font size="2" color="#1370A8"><b>Payment Gateways</b></font></h4>
+<font>Blesta supports all the most popular payment gateways, and we're continually adding more.That's a partial list to the right.
+We break gateways into two categories, Merchant, and Non-Merchant. Merchant gateways allow the processing of credit card or ACH payments directly from Blesta while Non-Merchant gateways take the client away from Blesta to complete payment. Authorize.NET would be considered a merchant gateway, while PayPal would be considered a non-merchant gateway.
+Some merchant gateways support the storage of sensitive card and bank details offsite. Those that don't store these details offsite store them encrypted securely with RSA.</font><br />
+<h4><font size="2" color="#1370A8"><b>Payment Reminders</b></font></h4>
+<font>Blesta can send payment reminders prior to an invoice due date, and late reminders after an invoice becomes late. The email message, the number of days before or after the invoice is due, and the time of day the message is sent is all configurable.
+Messages include a special link for the client to make payment, which does not require a login. Loginless payments increase the bottom line and provide for a good customer experience by making it easy to make payment.</font><br />
+<h4><font size="2" color="#1370A8"><b>Multi-Currency</b></font></h4>
+<font>Accept money in any currency you like. Gateways, once installed, allow you to specify which currencies to accept from the ones it supports. Pricing can be specified on the package level in various currencies, but if it isn't, you can rely on todays exchange rate to convert the price automatically and process the payment in the currency selected.
+Multi-Currency is there if you need it and you can process different currencies through different gateways.</font><br />
+<h4><font size="2" color="#1370A8"><b>Client Management</b></font></h4>
+<font>In Blesta, client management happens on each client's "Client Profile" page. This page contains all information pertaining to the client, and all actions that can be performed on their account. Information is neatly displayed for Staff, and can be customized to their individual roles and preference. Widget boxes can be moved, minimized, and customized by each staff member on a per-company basis.</font><br />
+<h4><font size="2" color="#1370A8"><b>Support System</b></font></h4>
+<font>The Support System features a clean and intuitive, ajax powered ticket system.
+Clients can open tickets in their client area, or by email through piping, POP or IMAP. Tickets are assigned to departments where staff can respond. New and updated tickets show up automatically in the ticket queue, which can be displayed full screen; great for dedicated support staff.
+As with many things in Blesta, the support system is a plugin. If you're already using a third-party support system, you can uninstall Blesta's support system quickly and easily.</font><br />
+<h4><font size="2" color="#1370A8"><b>Customize &amp; Extend</b></font></h4>
+<font>Make it your own. Customize your dashboard, add or remove widgets, drag and drop them into new positions. Minimize them, maximize them, and configure them to your liking.
+Install new plugins, modules, and gateways that extend Blesta in powerful ways, unlocking new native-like features. There is Blesta core, and there are extensions. Configure Blesta to be exactly what you need, without the confusing clutter.</font><br />
+		</english-features>
+	</languages>
+</soft>

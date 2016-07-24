@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Jamroom
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Jamroom
+	</ratings>
+	<space>
+		29077540
+	</space>
+	<support>
+		http://www.jamroom.net/the-jamroom-network/forum
+	</support>
+	<version>
+		5.3.5
+	</version>
+	<mod>45</mod>
+	<release_date>03-05-2016</release_date>
+	<admin>user/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Jamroom</font> is a community content management system. It enables you to bring your entire community online to participate in your websites content creation.
+		<br /><br />
+		If you want to build an online community where everyone has their own identity then Jamroom can provide you with the tools to do it.
+		Jamroom is licensed under the <a href="http://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License (MPL), version 2.0</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>100% Your Branding and Control</b></font><br /><br />
+Jamroom 5 is a "White Label" Social Media System - Jamroom code runs on <b>your server, and is 100% under your control.</b>
+<ul>
+	<li>All logos and images are easily changed to your logos and images.</li>
+	<li>Templates and CSS are 100% customizable to your site design and colors.</li>
+	<li>No fees for "logo removal" or other silly charges.</li>
+</ul>
+<font size="2" color="#1281B6"><b>Extensive Profile features</b></font><br /><br />
+Jamroom 5 is a <b>profile centered</b> system based around user generated content: 
+<ul>
+	<li>Flexible profiles featuring both group and individual aspects.</li>
+	<li>Twitter™ like Activity Stream and Follower System makes "friends" easy.</li>
+	<li>Build your community on user provided content like blogs, audio, video and forums.</li>
+</ul>
+<font size="2" color="#1281B6"><b>Easy to expand and customize</b></font><br /><br />
+Jamroom 5 makes it <b>easy to add new features</b> and customize your site to suit your community needs. 
+<ul>
+	<li>Install dozens of modules and features with 1 click using the Jamroom Marketplace.</li>
+	<li>Powerful online editors for customizing images, templates and styles.</li>
+	<li>Flexible template based design makes it easy to tweak the site to suit your needs.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

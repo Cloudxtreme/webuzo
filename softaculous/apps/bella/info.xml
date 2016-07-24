@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/BellaBook
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/BellaBook
+	</ratings>
+	<space>
+		86275
+	</space>
+	<support>
+		http://www.jemjabella.co.uk/scripts/bellabook
+	</support>
+	<version>
+		3.7
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">BellaBook</font> is a small and simple PHP guestbook. It works using "flat files" - that means no need to fiddle with complex MySQL databases!
+		<br /><br />
+BellaBook has been crafted to provide a feature packed user feedback system with an easy-to-edit coding structure; using CSS to control it all.
+		<br /><br />
+		BellaBook is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<strong>BellaBook Features:</strong>
+<ul>
+<li>Spam word and IP checks/blocking</li>
+<li>Known spam-bot blocking</li>
+<li>Basic flood control</li>
+<li>Optional required fields</li>
+<li>Built-in theme 'switcher'</li>
+<li>"Space out" big words to retain layout shape</li>
+<li>Optional entry moderation feature</li>
+<li>Pagination as standard — in admin panel as well</li>
+<li>Optional emoticons included</li>
+<li>Optional spam-preventing captcha</li>
+<li>CSS based layout, tables for entry display &amp; valid XHTML pages</li>
+<li>Line breaks in entries</li>
+<li>New: inline sanitisation</li>
+<li>New: hidden field spambot 'trap'</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,86 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/LuxCal
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/calendars/LuxCal
+	</ratings>
+	<space>
+		2128862
+	</space>
+	<support>
+		http://www.luxsoft.eu/index.php?pge=forum
+	</support>
+	<version>
+		4.4.0M
+	</version>
+	<mod>2</mod>
+	<release_date>01-03-2016</release_date>
+	<admin>index.php?l&amp;xP=20</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">LuxCal</font> is an innovative web based event calendar for home use and small businesses.
+		<br /><br />
+		 It is easy to setup and allows easy and fast management of your calendar events at home, in the office, on business trips or when on holiday. LuxCal is feature rich, has been designed for user-friendliness and will help you to make error-free data inputs. The user interface colors are easy to customize.
+		<br /><br />
+		LuxCal is released under the <a href="http://www.luxsoft.eu/index.php?pge=gnugpl" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li>Very friendly user interface and fast; designed for speed</li>
+	<li>Multi-user access with username / password protection</li>
+	<li>User self registration (or via administrator)</li>
+	<li>User groups </li>
+	<li>Access rights and available event categories configurable per user group </li>
+	<li>Private events only visible to the owner of the event and not to other users</li>
+	<li>Various views: year, full month, work month, full week, work week, day, upcoming, changes</li>
+	<li>Optimized for mobile devices with a limited screen size</li>
+	<li>All views with full event details 'on-mouseover'</li>
+	<li>Event filtering on event owner and category in all calendar views. Multiple selections possible</li>
+	<li>Repeating events (e.g. every other week, every 2nd Monday, every last Sunday of March)</li>
+	<li>Multi-day events, spanning two or more days (can be combined with repeating)</li>
+	<li>Individual occurrences of repeating and multi-day events editable</li>
+	<li>Text search facility with wild cards and search criteria</li>
+	<li>Checkbox for events in a certain events category. E.g. "approved", "done"</li>
+	<li>Instantly available upcoming events list and To-do list</li>
+	<li>Email reminders during event creation and/or a number of days before event due date</li>
+	<li>Email notifications of calendar changes (added, edited and deleted events)</li>
+	<li>Event coloring according to event categories (text and background colors per category specified by admin)</li>
+	<li>Event coloring according to user (background colors per user specified by admin)</li>
+	<li>Easy to tailor date and time formats (e.g. dd-mm-yyyy, mm/dd/yyyy, yyyy.mm.dd, ... May 24, 2012, 24 May 2012, ... 21:30, 21.30, 09:30pm, 09.30PM, ...)</li>
+	<li>Easy replication of existing events without re-typing the event data</li>
+	<li>First day of week selectable: Monday or Sunday</li>
+	<li>Easy embedding of full calendar in an existing web page (iframe)</li>
+	<li>Interactive mini calendar (200px x 200px) which can be embedded in your web page. Full month or work month view</li>
+	<li>Stand-alone sidebar with upcoming events or To-do list which can be easily integrated in your web page</li>
+	<li>Single Sign-On when full calendar embedded in a parent web page which requires logging in</li>
+	<li>Quick, easy and flexible navigation via a navigation bar with "options" panel</li>
+	<li>Event title, venue and description; description with URL (hyper link) and thumbnail image support</li>
+	<li>iCal file event import/export capability (exchange of event data with other calendars)</li>
+	<li>CSV file event import capability (e.g. Outlook export)</li>
+	<li>Multi-language user interface through separate language files (for languages see below)</li>
+	<li>Default user interface language can be set per registered user</li>
+	<li>User interface language selectable and remembered per user during the session</li>
+	<li>Customizable look (through CSS) and layout (settings page)</li>
+	<li>Functions to optimize and backup the calendar database</li>
+	<li>RSS feed - upcoming events for the next x days (x can be set by the administrator)</li>
+	<li>Based on category, events can be excluded from the RSS feeds</li>
+	<li>The calendar produces valid HTML5 code which allows for better structured HTML pages</li>
+	<li>Access rights sensitive Help information</li>
+	<li>Multiple calendars sharing the same database</li>
+	<li>Proposing and approving events</li>
+	<li>SMTP mail for event reminders and reports</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

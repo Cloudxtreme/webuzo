@@ -1,0 +1,93 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/Elasticsearch
+	</ratings>
+	<space>
+		34768859
+	</space>
+	<support>
+		http://www.elasticsearch.org/
+	</support>
+	<version>
+		1.7.1
+	</version>
+	<mod>7</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>29-07-2015</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/elasticsearch</path>
+	<path name="bin">/usr/local/apps/elasticsearch/bin/elasticsearch</path>	
+	
+	<extract file="elasticsearch-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/elasticsearch</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Elasticsearch Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/elasticsearch</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/elasticsearch/bin/elasticsearch</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://www.elasticsearch.org/guide/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Elasticsearch </font>is flexible and powerful open source, distributed real-time search and analytics engine for the cloud. 
+<br /><br />
+		<br /><br />
+		Elasticsearch is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+			<ul>  
+				<li> Real Time Data.</li>				  
+				<li> Real Time Analytics.</li>				  
+				<li> Distributed.</li>				  
+				<li> High Availability.</li>				  
+				<li> Multi-tenancy.</li>
+				<li> Full Text Search.</li>				  
+				<li> Document Oriented.</li>				  
+				<li> Conflict Management.</li>				  
+				<li> Schema Free.</li>				  
+				<li> RESTful API.</li>
+				<li>Per-operation Persistence.</li>
+                <li>Apache 2 Open Source License.</li>				
+				<li>Build on top of Apache Lucene ™.</li>
+			</ul>	
+		</english-features>
+	</languages>
+</soft>

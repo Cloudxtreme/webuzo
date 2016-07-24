@@ -1,0 +1,11 @@
+README.txt
+cookbook
+docs
+local
+pmwiki.php
+pub
+scripts
+wikilib.d
+index.php
+uploads
+wiki.d

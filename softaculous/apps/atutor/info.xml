@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ATutor
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/ATutor
+	</ratings>
+	<space>
+		27335749
+	</space>
+	<support>
+		http://atutor.ca/
+	</support>
+	<version>
+		2.2.1
+	</version>
+	<mod>10</mod>
+	<mod_files>1</mod_files>
+	<release_date>30-01-2016</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="extension" name="mbstring" /> 
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="zlib" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ATutor</font> is an Open Source Web-based Learning Management System (LMS) used to develop and deliver online courses. Administrators can install or update ATutor in minutes, develop custom themes to give ATutor a new look, and easily extend its functionality with feature modules
+		<br /><br />
+		Educators can quickly assemble, package, and redistribute Web-based instructional content, easily import prepackaged content, and conduct their courses online. Students learn in an accessible, adaptive, social learning environment.
+		<br /><br />
+		ATutor is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Accessibility</li>
+<li>Social Networking</li>
+<li>Things Current</li>
+<li>Security</li>
+<li>My Courses</li>
+<li>Inbox/Messaging</li>
+<li>Adaptive Navigation</li>
+<li>Work Groups</li>
+<li>File Storage</li>
+<li>Group Blogs</li>
+<li>Feedback</li>
+<li>Preference Settings</li>
+<li>Communication Tools</li>
+<li>Content Package Viewer</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

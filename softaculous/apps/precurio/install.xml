@@ -1,0 +1,49 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="precurio">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_fname" size="30" value="System">
+			<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+			<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>	
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>						
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_US">English</option>
+					<option value="fr_FR">French</option>
+					<option value="es_ES">Spanish</option>
+					<option value="it_IT">Italian</option>
+					<option value="pt_BR">Brazilian Portuguese</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>public/install/*</exclude>
+		<exclude>public/install/*/*</exclude>
+		<exclude>public/install/*/*/*</exclude>
+		<exclude>public/install/*/*/*/*</exclude>
+		<exclude>public/install/*/*/*/*/*</exclude>
+		<exclude>public/install/*/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

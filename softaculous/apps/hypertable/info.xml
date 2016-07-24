@@ -1,0 +1,78 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Hypertable
+	</ratings>
+	<space>
+		369294291
+	</space>
+	<support>
+		http://hypertable.com/home/
+	</support>
+	<version>
+		0.9.8.9
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>29-06-2015</release_date>
+	
+	<path name="base">/usr/local/apps/hypertable</path>
+	<path name="daemon">/usr/local/apps/hypertable/bin/start-all-servers.sh</path>
+	<path name="conf">/usr/local/apps/hypertable/conf</path>	
+	
+	<remove>/usr/local/apps/hypertable</remove>	
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Hypertable Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary Path</td>
+				<td>/usr/local/apps/hypertable/bin/</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Hypertable</font> delivers scalable database capacity at maximum performance to speed up your big data application and reduce your hardware footprint.
+		<br /><br />
+		Hypertable is distributed under the <a href="http://hypertable.com/community/license/" target="_blank">GNU General Public License Version 3</a>
+		</english-overview>
+		<english-features>
+			<h2>Scalability</h2>
+			<p>Hypertable was designed for the express purpose of solving the scalability problem, a problem that is not handled well by a traditional RDBMS.  While it is possible to design a distributed RDBMS system by breaking the dataset into shards, this solution requires an enormous amount of engineering effort and the resulting system will have inherent weaknesses because the core database engine was not designed for scalability.  Hypertable is based on a design developed by Google to meet their scalability requirements and solves the scale problem better than any of the other NoSQL solutions out there.</p>
+			<h2>Good Fit For Wide Range of Applications</h2>
+			<p>Many of the current scalable NoSQL database offerings are based on a hash table design which means that the data they manage is not kept physically ordered by any meaningful key.  These systems do not lend themselves well to applications that require fast access to ranges of data (e.g. analytics, sorted URL lists, messaging applications, etc).  Because Hypertable keeps data physically sorted by a primary key, it is well-suited to a broad set of applications.</p>
+			
+			<h2>Cost Savings </h2>
+			<p>Hypertable has been designed and implemented for maximum efficiency and optimum performance.  By choosing to do the implementation in a compiled language that does not incur the performance and stability costs of garbage collection and runtime interpretation, Hypertable can deliver equivalent database capacity on a fraction of the hardware.  This translates into less equipment, less power consumption, and less datacenter real estate.</p>
+			
+			<h2>Performance</h2>
+			<p>The other benefit of Hypertable's highly efficient design and implementation is that it delivers all the advantages you get from better performance.  For live applications, Hypertable can help deliver a much more responsive user experience by reducing overall request latency.  For offline applications, higher throughput is achieved which means more work can be accomplished in a given amount of time.</p>
+			
+			<h2>Clean Semantics</h2>	
+			<p> Hypertable is a consistent database.  Many of the scalable NoSQL database offerings are designed around the concept of eventual consistency which makes those databases more difficult to reason about.  Eventually consistent databases require complex syntactic or semantic reconcilers and in some circumstances can even lose data.  When an application writes data into Hypertable and gets a success response, the modification is durable and will always be reflected in subsequent operations.
+		</p>
+		</english-features>
+	</languages>
+</soft>

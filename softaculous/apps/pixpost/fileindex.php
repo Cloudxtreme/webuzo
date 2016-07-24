@@ -1,0 +1,10 @@
+ReadMe.txt
+addons
+admin
+doc
+images
+includes
+index.php
+language
+templates
+thumbnails

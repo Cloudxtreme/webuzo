@@ -1,0 +1,93 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Pebble
+	</demo>
+	<ratings>
+		http://www.softaculous.com/apps/java/blogs/Pebble
+	</ratings>
+	<space>
+		21324612
+	</space>
+	<support>
+		http://pebble.sourceforge.net/
+	</support>
+	<version>
+		2.6.4
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<admin>loginPage.action</admin>
+	<softversion>
+		4.1.2
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pebble </font>is a lightweight, open source, Java EE blogging tool. It's small, fast and feature-rich with unrivalled ease of installation and use.  
+		<br /><br />Blog content is stored as XML files on disk and served up dynamically, so there's no need to install a database. All maintenance and administration can be performed through your web browser, making Pebble ideal for anybody who is constantly on the move or doesn't have direct access to their host.
+		<br /><br />
+		Pebble is released under the <a href="http://pebble.sourceforge.net/license.html" target="_blank">Apache 1.1</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#182e7a">Content</font>
+<ul>
+<li>Posting and management of content through your web browser, including rich text editor support.</li>
+<li>Blogger and MetaWeblog API interface included for posting content via compatible tools.</li><li>Categorisation of content into multiple hierarchical categories.</li>
+<li>Tagging of content and a generation of a tagcloud.</li>
+<li>RSS enclosures for distributing files or podcasting.</li>
+<li>Simple content publication workflow.</li>
+</ul>
+<font size="2" color="#182e7a">Reader responses</font>
+<ul>
+<li>Reader responses, in the form of threaded comments and MovableType TrackBacks.</li>
+<li>E-mail notifications when new responses are received.</li>
+<li>Pluggable moderation, spam detection and CAPTCHA support.</li>
+<li>Bulk response management features to approve/reject/remove comments and TrackBacks.</li>
+</ul>
+<font size="2" color="#182e7a">Web-based Adminstration</font>
+<ul>
+<li>Management of your blog via a web browser.</li>
+<li>File management and the ability to upload arbitary files and images.</li>
+<li>Capture of blog referers, requests and logs for viewing or export.</li>
+<li>Customizable regex based referer filters to combat referer spam.</li>
+</ul>
+<font size="2" color="#182e7a">Newsfeeds</font>
+<ul>
+<li>RSS 2.0, RDF and Atom 1.0 feeds for blog entries and responses.</li>
+<li>Category and tag specific newsfeeds.</li>
+<li>Syndicate external newsfeeds.</li>
+<li>PubSubHubBub support via plugin</li>
+</ul>
+<font size="2" color="#182e7a">Navigation</font>
+<ul>
+<li>View blog entries by permalink, day or month. * Navigate through your blog entries in several ways, including a locale-aware calendar control. * Text based and advanced searching.</li>
+</ul>
+<font size="2" color="#182e7a">Team, project, multi-user blogs and security</font>
+<ul>
+<li>Multiple people can contribute to a single blog.</li>
+<li>Multiple people can contribute to a single blog.</li>
+<li>Host more than a single blog for a project, group or community.</li>
+<li>Integrate Pebble with your existing security infrastructure (e.g. LDAP, Active Directory, RDBMS, etc).</li>
+<li>Login using any OpenID provider.</li>
+</ul>
+<font size="2" color="#182e7a">i18n</font>
+<ul>
+<li>Content in international character sets such as UTF-8.</li>
+<li>Publication of content aligned with your timezone, regardless of where your host is based.</li>
+<li>Locale sensitive delivery of dates, times and numbers.</li>
+</ul>
+<font size="2" color="#182e7a">Plugin APIs</font>
+<ul>
+<li>Permalink Providers let you customize the format of your permalinks.</li>
+<li>Content Decorators let you customize how blog entries are displayed.</li>
+<li>Blog Listeners let you write Java code that is called when your blog starts up and shuts down.</li>
+<li>Blog Entry Listeners let you write Java code that is called when blog entries are added, removed, published and unpublished.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

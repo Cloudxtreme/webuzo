@@ -1,0 +1,44 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/EasyPoll
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/EasyPoll
+	</ratings>
+	<space>
+		245972
+	</space>
+	<support>
+		http://www.phpwebscripts.com
+	</support>
+	<version>
+		1.0
+	</version>
+	<mod>8</mod>
+	<mod_files>1</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">EasyPoll</font> is a PHP script to create your own poll. It's very easy to install and run. Design of the poll is fully editable, you may insert the poll into any page you want. You can use it on an unlimited number of webpages for free.
+		</english-overview>		
+		<english-features>
+		<ul><li>Unlimited number of polls, one of them may be active in a time</li>
+	<li>Easy installation</li>
+	<li>Each poll may have up to 5 answers</li>
+
+	<li>You can edit, enable, disable, reset the poll in any time</li>
+	<li>Password protected admin area</li>
+	<li>Design is fully adjustable</li>
+	</ul>
+		</english-features>
+	</languages>
+</soft>

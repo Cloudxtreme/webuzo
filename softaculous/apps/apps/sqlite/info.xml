@@ -1,0 +1,83 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/server_side_scripting/sqlite
+	</ratings>
+	<space>
+		93728768
+	</space>
+	<support>
+		http://sqlite.org/
+	</support>
+	<version>
+		3.8.4.1
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>11-03-2014</release_date>
+	
+	<path name="bin">/usr/local/apps/bin/sqlite3</path>
+	
+	<extract file="sqlite-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Sqlite Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/bin/sqlite3</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">SQLite</font> is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed SQL database engine in the world.
+		<br /><br />
+		Sqlite is distributed under the <a href="http://sqlite.org/copyright.html" target="_blank">public domain</a>
+		</english-overview>
+		<english-features>
+			<ui>
+				<li>Transactions are atomic, consistent, isolated, and durable (ACID) even after system crashes and power failures.</li>
+				<li>Zero-configuration - no setup or administration needed.</li>
+				<li>Implements most of SQL92. (Features not supported)</li>
+				<li>A complete database is stored in a single cross-platform disk file.</li>
+				<li>Supports terabyte-sized databases and gigabyte-sized strings and blobs. (See limits.html.)</li>
+				<li>Small code footprint: less than 400KiB fully configured or less than 250KiB with optional features omitted.</li>
+				<li>Faster than popular client/server database engines for most common operations.</li>
+				<li>Simple, easy to use API.</li>
+				<li>Written in ANSI-C. TCL bindings included. Bindings for dozens of other languages available separately.</li>
+				<li>Well-commented source code with 100% branch test coverage.</li>
+				<li>Available as a single ANSI-C source-code file that you can easily drop into another project.</li>
+				<li>Self-contained: no external dependencies.</li>
+				<li>Cross-platform: Unix (Linux, Mac OS-X, Android, iOS) and Windows (Win32, WinCE, WinRT) are supported out of the box. Easy to port to other systems.</li>
+				<li>Sources are in the public domain. Use for any purpose.</li>
+				<li>Comes with a standalone command-line interface (CLI) client that can be used to administer SQLite databases.</li>
+			</ui>
+		</english-features>
+	</languages>
+</soft>

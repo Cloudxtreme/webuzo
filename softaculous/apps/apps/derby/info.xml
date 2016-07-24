@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/Apache_Derby
+	</ratings>
+	<space>
+		38703104
+	</space>
+	<support>
+		http://db.apache.org/derby/
+	</support>
+	<version>
+		10.11.1.1
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>27-08-2014</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/derby</path>
+	<path name="bin">/usr/local/apps/derby/bin</path>	
+	
+	<extract file="derby-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/derby</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache Derby Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/derby</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/derby/bin</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://db.apache.org/derby/manuals/index.html</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache Derby </font>, an Apache DB subproject, is an open source relational database implemented entirely in Java. 
+<br /><br />
+		<br /><br />
+		Apache Derby is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+			<ul>  
+				<li> Derby has a small footprint -- about 2.6 megabytes for the base engine and embedded JDBC driver.</li>				  
+				<li> Derby is based on the Java, JDBC, and SQL standards.</li>				  
+				<li> Derby provides an embedded JDBC driver that lets you embed Derby in any Java-based solution.</li>				  
+				<li> Derby also supports the more familiar client/server mode with the Derby Network Client JDBC driver and Derby Network Server</li>				  
+				<li> Derby is easy to install, deploy, and use.</li>				
+			</ul>	
+		</english-features>
+	</languages>
+</soft>

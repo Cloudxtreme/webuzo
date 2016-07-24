@@ -1,0 +1,10 @@
+admin
+config.php
+functions.php
+index.php
+install.php
+language.php
+license.txt
+readme.txt
+statistics.php
+style.css

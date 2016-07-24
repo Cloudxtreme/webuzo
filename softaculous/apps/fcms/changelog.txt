@@ -1,0 +1,37 @@
+  3.6.2
+    #524 - FCMS 3.6.0 - Google/YouTube db updates missing from install
+
+  3.6.1
+    #516 - Update version, added blank state to blue-chrome, updated changelog
+
+  3.6.0
+    #395 - Update Youtube API to v 3.0
+    #484 - Import Pictures from Facebook
+    #491 - New YouTube API
+    #502 - Need a blank state message when no new entries found
+    #504 - 'Unknown' user when creating Polls in admin
+    #505 - Update Picasa API to use new Google API
+    #507 - Facebook: Invalid Scopes: publish_stream, offline_access.
+
+  3.5.1
+    #405 - Upgrade Ajax Chat to latest version
+    #424 - Members cannot add to family tree
+    #465 - CHAT ERROR: error on line 2 at column 1: Extra content at the end of the document
+    #471 - Cannot edit Family Tree (non admin)
+    #486 - Account - Undefined index: advanced_tagging
+    #487 - Admin: Can't edit user profiles
+    #488 - Turning site off causes php errors
+    #494 - Fix unauthorized photo/file access
+    #495 - Unauthorized users can see protected photos
+    #496 - Deny access to non-admin users on Youtube and Instagram config pages
+    #499 - Fix hard-coded URLS for no_avatar.jpg
+    #500 - Change gravatar URL to be compatible with both HTTP and HTTPS sites
+
+  3.5.0
+    #407 - Move from Prototype to jQuery
+    #441 - HTML5 YouTube videos
+    #450 - Memory error on Family Tree with a lot of relatives
+    #452 - Upgrade plupload to 2.1.1
+    #454 - PHP Error pre_replace(): The /e modifier is deprecated
+    #472 - PhotoDestination issue when uploading instagram
+    #473 - Foursquare API needs updated

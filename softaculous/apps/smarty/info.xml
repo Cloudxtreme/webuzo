@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Smarty
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Smarty
+	</ratings>
+	<space>
+		1381963
+	</space>
+	<support>
+		http://www.smarty.net/
+	</support>
+	<version>
+		3.1.29
+	</version>
+	<mod>27</mod>
+	<release_date>21-12-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Smarty</font> is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. This implies that PHP code is application logic, and is separated from the presentation.
+		<br /><br />
+		Smarty is released under the <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">LGPL</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Clean separation of presentation from application code</li>
+<li>PHP backend, Smarty template frontend</li>
+<li>Compliment PHP, not replace it</li>
+<li>Fast development/deployment for programmers and designers</li>
+<li>Quick and easy to maintain</li>
+<li>Syntax easy to understand, no PHP knowledge required</li>
+<li>Flexibility for custom development</li>
+<li>Security: insulation from PHP</li>
+<li>Free, open source</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

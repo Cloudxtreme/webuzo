@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the linux system - community edition package from (http://orientdb.com/download/)

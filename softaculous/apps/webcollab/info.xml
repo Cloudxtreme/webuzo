@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/WebCollab
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/WebCollab
+	</ratings>
+	<space>
+		2294334
+	</space>
+	<support>
+		http://webcollab.sourceforge.net/
+	</support>
+	<version>
+	   3.44
+	</version>
+	<mod>1</mod>
+	<release_date>17-12-2015</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="php" type="extension" name="mbstring" />
+ 	<languages>
+	<english-overview>
+	<font size="5">WebCollab</font> is a collaborative web-based system for projects and project management. WebCollab is easy to use, and encourages users to work together. The software is functionally elegant and secure without being cumbersome for users, or graphically intensive.		
+	<br /><br />
+	The software is ideally suited to tracking multiple projects and innumerable small tasks across an organisation of any size. If you have reminder notes stuck all over your desk, then you need WebCollab!.	
+	<br /><br />
+	WebCollab is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">General Public License</a>.
+	</english-overview>		
+	<english-features>
+	<ul>
+		<li>Easy to read and intuitive screen layouts. Most users can use WebCollab without training</li>
+		<li>Individual users are assigned rights and permissions.Users can also be put into groups with controlled rights and permissions</li>
+		<li>Projects and tasks progress and approaching deadlines are graphically highlighted</li>
+		<li>Changes are personally highlighted for other users to see</li>
+		<li>Changes and new items can be emailed to affected users</li>
+		<li>WebCollab is fast and stable</li>
+		<li>Secure - particular attention has been paid to security. Only one security report in seven years of use</li>
+		<li>Robust and scalable. Many years of daily production use</li>
+	</ul>
+	</english-features>
+	</languages>
+</soft>

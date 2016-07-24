@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.5" method="upgrade">
+  <name>Magyar (hu-HU) nyelvi csomag</name>
+  <packagename>hu-HU</packagename>
+  <version>3.5.1.1</version>
+  <creationDate>2016-05-18</creationDate>
+  <author>Joomla! Hungary</author>
+  <authorEmail>szerk@joomlacms.hu</authorEmail>
+  <authorUrl>joomlacms.hu</authorUrl>
+  <description>hu-HU nyelvi csomag</description>
+  <files>
+	<file type="language" client="site" id="hu-HU">site_hu-HU.zip</file>
+	<file type="language" client="administrator" id="hu-HU">admin_hu-HU.zip</file>
+  </files>
+  <updateservers>
+    <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+  </updateservers>
+</extension>

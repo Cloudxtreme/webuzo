@@ -1,0 +1,5 @@
+1) install with demo data.
+2) Select Timezone : America/New_York
+3) When you download the X-Cart package for making update please check if the package has our affiliate code. The code should be in the following file :
+xcart/etc/config.personal.php
+4) Take the database dump using mysqldump utility because the database has some ALTER queries do not work when dumped from phpMyAdmin

@@ -1,0 +1,24 @@
+Version 1.5.1 (May, 24 2016):
+
+- bug fixes;
+
+Version 1.5.0 (May, 21 2016):
+
+- Brute force attack protection during the authorization process (display of captcha after third unsuccessful attempt); 
+- Cookies warning; 
+- PHPMailer is updated to the latest version (5.2.15); 
+- Performance optimization; 
+- Numerous improvements and bug fixes.
+
+Version 1.4.1 (February, 14 2016):
+
+- bug fixes;
+
+Version 1.4.0 (February, 5 2016):
+
+- multiple languages;
+- Yii version is updated up to 1.1.17;
+- speedwork of script is increased;
+- minification of js and css files;
+- clearing cache from the admin panel ('Site maintenance' area);
+- numerous improvements and bug fixes; 

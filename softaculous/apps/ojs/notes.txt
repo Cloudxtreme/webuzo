@@ -1,0 +1,2 @@
+1. While installing on webuzo give writable permission to cache
+2. Choose password encryption method sha1

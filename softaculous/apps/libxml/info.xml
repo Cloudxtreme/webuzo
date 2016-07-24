@@ -1,0 +1,94 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/apps/libraries/libxml
+	</ratings>
+	<space>
+		17973248
+	</space>
+	<support>
+		http://www.xmlsoft.org/
+	</support>
+	<version>
+		2.9.0
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>09-11-2012</release_date>
+	
+	<requires>zlib</requires>
+	<requires>libiconv</requires>
+	
+	<extract file="libxml-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Libxml2 is a Library.</font></center>
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<td>Desc</td>
+				<td>Path</td>
+			</tr>
+			<tr>
+				<td>Prefix</td>
+				<td>/usr/local/apps</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/bin</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/local/apps/lib</td>
+			</tr>
+			<tr>
+				<td>libxml2.so</td>
+				<td>/usr/local/apps/lib/libxml2.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Libxml2</font> is the XML C parser and toolkit developed for the Gnome project (but usable outside of the Gnome platform). XML itself is a metalanguage to design markup languages, i.e. text language where semantic and structure are added to the content using extra "markup" information enclosed between angle brackets. HTML is the most well-known markup language. Though the library is written in C <a href="python.html">a variety of language bindings</a> make it available in other environments. Libxml2 is known to be very portable, the library should build and work without serious troubles on a variety of systems (Linux, Unix, Windows, CygWin, MacOS, MacOS X, RISC Os, OS/2, VMS, QNX, MVS, VxWorks, ...)
+		<br /><br />
+		Libxml2 is distributed under the <a href="http://www.opensource.org/licenses/mit-license.html" target="_blank">MIT License</a>
+		</english-overview>
+		<english-features>
+		This document describes libxml, the <a href="http://www.w3.org/XML/">XML</a> C parser and toolkit developed for the
+		<a href="http://www.gnome.org/">Gnome</a> project. <a href="http://www.w3.org/XML/">XML is a standard</a> for building tag-based
+		structured documents/data. <br/>
+		Here are some key points about libxml:
+		<ul><li>Libxml2 exports Push (progressive) and Pull (blocking) type parser
+			interfaces for both XML and HTML.</li>
+		  <li>Libxml2 can do DTD validation at parse time, using a parsed document
+			instance, or with an arbitrary DTD.</li>
+		  <li>Libxml2 includes complete <a href="http://www.w3.org/TR/xpath">XPath</a>, <a href="http://www.w3.org/TR/xptr">XPointer</a> and <a href="http://www.w3.org/TR/xinclude">XInclude</a> implementations.</li>
+		  <li>It is written in plain C, making as few assumptions as possible, and
+			sticking closely to ANSI C/POSIX for easy embedding. Works on
+			Linux/Unix/Windows, ported to a number of other platforms.</li>
+		  <li>Basic support for HTTP and FTP client allowing applications to fetch
+			remote resources.</li>
+		  <li>The design is modular, most of the extensions can be compiled out.</li>
+		  <li>The internal document representation is as close as possible to the <a href="http://www.w3.org/DOM/">DOM</a> interfaces.</li>
+		  <li>Libxml2 also has a <a href="http://www.megginson.com/SAX/index.html">SAX like interface</a>;
+			the interface is designed to be compatible with <a href="http://www.jclark.com/xml/expat.html">Expat</a>.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

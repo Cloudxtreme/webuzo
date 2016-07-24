@@ -1,0 +1,21 @@
+*** It cannot be installed on Webuzo. CSS dosnt work. (Do not prefer Webuzo for Manual Installation). It works from 3.9.3
+
+1) Install with Sample data
+
+2) Install in www folder i.e rename ur www folder and create new blank www and install in that www because Fork is installed only in root dir
+
+3) Add these files from manual www to zip
+check and move /bundles and its sub files and folders to zip
+
+frontend/files/backend_users/avatars/32x32/god.jpg to frontend/files/backend_users/avatars/32x32
+frontend/files/backend_users/avatars/64x64/god.jpg to frontend/files/backend_users/avatars/64x64
+frontend/files/backend_users/avatars/128x128/god.jpg to frontend/files/backend_users/avatars/128x128
+frontend/files/backend_users/avatars/source/god.jpg to frontend/files/backend_users/avatars/source
+
+4) The version in the __requirements() in Upgrade.php should be increased when there is a Major Upgrade because it is not possible to upgrade to a Major version. This is now handled by info.xml <min_require> tag so we do not need to make changes in upgrade.php
+
+5) No values in timezones table from 3.9.5. Check in the next version.
+
+6) check and update version in upgrade.php if it upgrade requires to delete appProdProjectContainer.php
+
+7) <requirement check="php" type="extension" name="pcre" version="8" operator="ge"><![CDATA[ PCRE Library Version => (8.(\d){2}) ]]></requirement> Add this entry in info.xml once softaculous bug is fixed and launched. Also update <softversion>

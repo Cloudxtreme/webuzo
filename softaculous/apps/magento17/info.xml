@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Magento17
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Magento17
+	</ratings>
+	<space>
+		80141314 
+	</space>
+	<support>
+		http://www.magentocommerce.com
+	</support>
+	<version>
+		1.7.0.2
+	</version>
+	<mod>1</mod>
+	<mod_files>5</mod_files>
+	<admin>index.php/admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Magento</font> is an Open Source ecommerce web application launched on March 31, 2008. It was created by Varien, building on components of the Zend Framework.
+		<br /><br />
+		Magento is available under the <a href="http://www.opensource.org/licenses/osl-3.0.php" target="_blank">Open Software License version 3.0</a>
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Marketing Promotions and Tools </li>
+<li>Analytics and Reporting </li>
+<li>Search Engine Optimization </li>
+<li>Site Management </li>
+<li>Catalog Management </li>
+<li>Catalog Browsing </li>
+<li>Product Browsing </li>
+<li>Mobile Commerce </li>
+<li>International Support </li>
+<li>Checkout </li>
+<li>Shipping </li>
+<li>Payment </li>
+<li>Customer Service </li>
+<li>Customer Accounts </li>
+<li>Order Management</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

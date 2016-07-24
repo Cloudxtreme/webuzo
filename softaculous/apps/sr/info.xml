@@ -1,0 +1,39 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Shadows_Rising
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/games/Shadows_Rising
+	</ratings>
+	<space>
+		2117694
+	</space>
+	<support>
+		http://sourceforge.net/projects/shadowsrising/
+	</support>
+	<version>
+		0.0.5b
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Shadows Rising</font> is a browser based RPG written in PHP, Javascript, and XHTML. MySQL/PostgreSQL supported. The core engine will allow users create unique RPGs by adding new items, classes, terrain maps to Game Modules.
+		<br /><br />
+		Shadows Rising is released under the <a href="http://www.affero.org/oagpl.html">Affero GPL license</a>.
+		</english-overview>		
+		<english-features>
+			The core engine will allow users create unique RPGs by adding new items, classes, terrain maps to Game Modules
+		</english-features>
+	</languages>
+</soft>

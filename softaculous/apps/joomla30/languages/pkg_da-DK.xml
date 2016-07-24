@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.5" method="upgrade">
+  <name>Danish (da-DK) language pack</name>
+  <packagename>da-DK</packagename>
+  <version>3.5.1.1</version>
+  <creationDate>2016-04-01</creationDate>
+  <author>Danish Translation Team (Transl.: Ronny Buelund, Ole Bang Ottosen)</author>
+  <authorEmail>dansk@danskjoomla.dk</authorEmail>
+  <authorUrl>www.danskjoomla.dk</authorUrl>
+  <description>Danish language pack</description>
+  <files>
+    <folder type="language" client="site" id="da-DK">site_da-DK</folder>
+    <folder type="language" client="administrator" id="da-DK">admin_da-DK</folder>
+  </files>
+  <updateservers>
+    <server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+  </updateservers>
+</extension>

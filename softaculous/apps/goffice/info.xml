@@ -1,0 +1,71 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Group_Office_5
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/Group_Office_5
+	</ratings>
+	<space>
+		57640946
+	</space>
+	<support>
+		http://www.group-office.com/
+	</support>
+	<version>
+		5.0.112
+	</version>
+	<mod>79</mod>
+	<release_date>29-02-2016</release_date>
+	<admin>index.php</admin>
+	<min_require>3.7.41</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Group Office</font> is an enterprise CRM and collaboration tool. Share projects, calendars, files and e-mail online with co-workers and clients. Easy to use and fully customizable.
+		<br /><br />
+		Group Office is licensed under the terms of <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">GNU Affero General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font size="2" color="#1281B6"><b>E-mail</b></font><br />
+		The flexible e-mail module integrates in all other modules. Link the mails easily to your customers and projects.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Calendar</b></font><br />
+		In a corporate environment a calendar can't be missed. This calendar allows you to plan all sorts of recurring events and set reminders for them. The easy to use interface will never let you miss an event. It's easy to set up multiple calendars and share them with other users. The calendar supports the import and export of the popular iCalendar standard. This makes it possible to synchronise the Group-Office calendar with other calendar software that support the iCalendar protocol.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>File sharing</b></font><br />
+		The files module is used to store your files online and share them if you want with co-workers or clients. You can easily edit files locally and they will be transferred back to your online disk automatically. You can upload files or even entire folders easily with the Java upload program. You can also create corporate templates for text documents or any other kind.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Addressbook</b></font><br />
+		Keep in touch with your prospects and customers in an easy way. The addressbook keeps track of all the customers related notes, e-mail, files etc. With the ticket system you will be reminded of important events so you will never forget a customer.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Tasks</b></font><br />
+		Keep your tasks organized online and sync them to you devices easily!<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Notes</b></font><br />
+		Add notes and encrypt them if they contain sensitive data.<br /><br />
+	</li>
+	<li> 
+		<font size="2" color="#1281B6"><b>Newsletters</b></font><br />
+		Send personalized mails to your customers with the built in bulk mailer.<br /><br />
+	</li>
+</ul> 
+		</english-features>
+		<english-no_domain_verify>Could not access your domain. Please make sure your domain is pointing to this server and there is no .htaccess file restricing access to your domain</english-no_domain_verify>
+	</languages>
+</soft>

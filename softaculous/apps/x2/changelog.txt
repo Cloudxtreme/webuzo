@@ -1,0 +1,71 @@
+# 6.0.1 #
+5/26/2016
+* General Changelog / Developer Notes
+  * X2Touch now supports persistent sessions
+  * Improvements to web capture API
+  * Miscellaneous bug fixes
+
+# 6.0 #
+4/26/2016
+* General Changelog / Developer Notes
+  * X2CRM is now fully open source
+  * UI tweaks and enhancements
+  * Miscellaneous bug fixes
+
+# 5.5 #
+2/26/2016
+* General Changelog / Developer Notes
+  * PHP7 compatibility
+  * Yii updated to 1.1.17
+  * PHPMailer updated to 5.2.14
+  * File attachment feature added to most X2Touch modules, including custom modules
+  * Added "Copy to Sent" dropdown to email client configuration to explicitly store sent messages
+  * Added "Reply All" button to email client
+  * New Office365 credentials type
+  * Added web tracker JavaScript code export functionality
+  * Fixed importer bug which created erroneous relationships
+  * Automated email logging bugfixes
+  * Fixed bug preventing records export download button from showing
+  * Fixed email client quota issue with Office365
+* Tracked Bug Fixes:  
+  * [3335](http://x2software.com/index.php/bugReports/3335): CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous  
+  * [3336](http://x2software.com/index.php/bugReports/3336): Trying to get property of non-object  
+  * [3348](http://x2software.com/index.php/bugReports/3348): array_combine() expects parameter 1 to be array, null given  
+  * [3358](http://x2software.com/index.php/bugReports/3358): User Report  
+  * [3363](http://x2software.com/index.php/bugReports/3363): Undefined variable: id  
+  * [3367](http://x2software.com/index.php/bugReports/3367): Undefined index: dupeCheck  
+  * [3376](http://x2software.com/index.php/bugReports/3376): User Report  
+  * [3379](http://x2software.com/index.php/bugReports/3379): file_exists(): open_basedir restriction in effect. 
+  * [3383](http://x2software.com/index.php/bugReports/3383): User Report  
+  * [3643](http://x2software.com/index.php/bugReports/3643): User Report
+
+# 5.4.3 #
+1/9/2016
+* General Changelog / Developer Notes
+  * Fixed a bug with web lead capture
+  * Fixed a broken form layout in X2Touch
+  * Fixed a bug in Lists
+  
+# 5.4.2 #
+1/7/2016
+* General Changelog / Developer Notes
+  * X2Touch changes:
+    * Added support for the Topics module
+    * Module form layouts can now be customized from the new "Mobile App Form Editor" admin page
+  * Improved error handling of automated email logging
+  * Action History "Email From" filter now includes logged inbound emails
+  * New option on the "Email Settings" admin page to enable List-Unsubscribe email header
+  * Updated module delete functionality to clean up associated custom module summary widgets
+  * Updated Process module to allow for financial information on any module type
+* Tracked Bug Fixes:  
+  * [3189](http://x2software.com/index.php/bugReports/3189): CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.createDate' in 'having clause'  
+  * [3283](http://x2software.com/index.php/bugReports/3283): file_exists(): open_basedir restriction in effect. File is not within the allowed path(s)
+  * [3296](http://x2software.com/index.php/bugReports/3296): CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Admin' for key 'PRIMARY'  
+  * [3300](http://x2software.com/index.php/bugReports/3300): array_flip(): Can only flip STRING and INTEGER values!  
+  * [3302](http://x2software.com/index.php/bugReports/3302): CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'active' at row 1  
+  * [3303](http://x2software.com/index.php/bugReports/3303): CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tags' in 'where clause'  
+  * [3310](http://x2software.com/index.php/bugReports/3310): X2MergeableBehavior and its behaviors do not have a method or closure named "setMergedField".  
+  * [3312](http://x2software.com/index.php/bugReports/3312): The system is unable to find the requested action "id".  
+  * [3323](http://x2software.com/index.php/bugReports/3323): Trying to get property of non-object  
+  * [3324](http://x2software.com/index.php/bugReports/3324): Eigenschaft "Contacts.Array ist nicht definiert."
+  * [3330](http://x2software.com/index.php/bugReports/3330): Relationships labelling bug

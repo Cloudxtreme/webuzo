@@ -1,0 +1,110 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/webtrees
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/webtrees
+	</ratings>
+	<space>
+		75739431
+	</space>
+	<support>
+		http://www.webtrees.net/index.php/en/
+	</support>
+	<version>
+		1.7.4
+	</version>
+	<mod>14</mod>
+	<release_date>02-03-2016</release_date>
+	<admin>admin.php</admin>
+	<min_require>1.3.2</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.2" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.13" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">webtrees</font> is the web's leading on-line collaborative genealogy application. It is open source software, and costs $ zero - yes, that means totally FREE!
+		<br /><br />
+		All you need to use it is a website with PHP and MySQL installed.
+		<br /><br />
+		It works from standard GEDCOM files, and is therefore compatible with every major desktop application; and it aims to be efficient and effective by using the right combination of third-party tools, design techniques and open standards.
+		<br /><br />
+		webtrees is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE Version 2</a>.
+		</english-overview>		
+		<english-features>
+					<ul> 
+						<li> 
+							<strong>Collaboration :</strong> <br />
+							Share your information AND adding or editing it with your relatives around the world. But YOU control who has access and what they can see or do.<br /><br />
+						</li> 
+						<li> 
+							<strong>Privacy :</strong> <br />
+							This is a VERY important aspect of putting your Family History on the web. With webtrees your data is as secure as you want it to be. Control is configurable at: 
+								<ul>
+								<li>the site level - controlling who can view or register on the site, from anyone down to no-one!</li>
+								<li>the family tree level. Each tree you have can be configured differently.</li>
+								<li>the user level. You can vary what each registered user can see; whether they can edit data or not; and if you want them to be able to change configurations themselves.</li>
+								<li>the individual record level. You can configure webtrees to show only deceased persons data; or everyone; or hide specific individuals; even people who died recently; and much more...</li>
+								<li>the "fact" level. This allows you to hide more sensitive facts (such as Social Security Numbers) from everyone except yourself, or any level of access you choose.<br /><br /></li>
+								</ul>
+						</li> 
+						<li> 
+							<strong>Display pages :</strong> <br />
+							Individual, with configurable tabs to display Relatives, Sources, Notes, Maps, Media, Stories, and more...<br /><br />
+							Family, showing immediate relatives, and family events.<br /><br />
+							On every pages you can display media items attached to individuals, or specific events in an individuals history. "Media" means photos, documents, videos, sound-bites, web links etc.<br /><br />
+						</li> 
+						<li> 
+							<strong>Lists :</strong> <br />
+							    Sort and filter lists of Individuals, Families, Sources, Notes, Repositories, Media items.<br /><br />
+    							Place lists with maps.<br /><br />
+    							Show "branches" of families with common surnames.<br /><br />
+						</li> 
+						<li> 
+							<strong>Charts :</strong> <br />
+							Configurable on-screen charts in a selection of layouts: Ancestry; circle; compact; descendancy; family book, hourglass, inter-active; lifespan; pedigree (chart or map); relationships, statistics; and timeline.<br /><br />
+						</li> 
+						<li> 
+							<strong>Reports :</strong> <br />
+							Text format reports and charts to view on-screen or download: Ahnentafel; birth date &amp; place; births, deaths &amp; marriages; cemeteries; descendancy, expanded relatives; family group, individual; marriage date &amp; place, pedigree (portrait or landscape); relatives.<br /><br />
+						</li> 
+						<li> 
+							<strong>Calendar :</strong> <br />
+							View events for today, this month in any year, or any year.<br /><br />
+						</li>  
+						<li> 
+							<strong>Search :</strong> <br />
+							General, Advanced, and Search &amp; replace (for users with permission to do so).<br /><br />
+						</li>  
+						<li> 
+							<strong>Help :</strong> <br />
+							Extensive Help screens available throughout all pages, and for most features, as well as Help forum and Wiki assistance.<br /><br />
+						</li>  
+						<li> 
+							<strong>Multimedia :</strong> <br />
+							Add and view multimedia files of many types and formats: photographs, documents, certificates and video.<br /><br />
+						</li>  
+						<li> 
+							<strong>Maps :</strong> <br />
+							View maps of the locations where your ancestors lived and worked, using the Google Maps™ feature.<br /><br />
+						</li>  
+						<li> 
+							<strong>Themes (templates) :</strong> <br />
+							The standard webtrees package comes with six style themes (templates) from which to choose. One of those ("colors") has no less than 14 (!) different "color palettes", giving you a total of 19 different styles for your webtrees site. You can choose a different one for each family tree, and even allow your users to choose their own.<br /><br />
+						</li>  
+						<li> 
+							<strong>International display :</strong> <br />
+							By default webtrees is displayed in "International English", but you can choose to install many other languages. These already include US, British, and Australian English, Italian, Polish, Spanish, Finnish, French, and German. Others, including Catalan, Danish, Dutch, Estonian, Hebrew, Hungarian, Norwegian, Russian, Slovak, Slovenian, Swedish, and Turkish are well developed, and more will be available later.
+						</li> 
+					</ul>
+		</english-features>
+	</languages>
+</soft>

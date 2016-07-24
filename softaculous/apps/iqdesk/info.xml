@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/iQDesk
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/iQDesk
+	</ratings>
+	<space>
+		10795445
+	</space>
+	<support>
+		http://www.iqdesk.co.uk
+	</support>
+	<version>
+		1.1
+	</version>
+	<mod>5</mod>
+	<mod_files>1</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">iQDesk</font> is a unique software specifically designed for freelancers, small and any type of one-person-business.
+		<br /><br />
+		iQDesk is designed with only the main modules that any freelancer or small company needs to run its business successfully.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>The software is based on real business needs.</li>
+<li>It is <strong>Simple</strong>, clear and offers the features you actually need to run your business, so it is very usable and practical.</li>
+<li>You can export the entire software to Excel.</li>
+<li>It is on the web so all you need is an internet connection to get you started.</li>
+<li><strong>Free Software for everyone.</strong></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

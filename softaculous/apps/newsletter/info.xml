@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OpenNewsletter
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/OpenNewsletter
+	</ratings>
+	<space>
+		674108
+	</space>
+	<support>
+		http://sourceforge.net/projects/opennewsletter/
+	</support>
+	<version>
+		2.5.1
+	</version>
+	<mod>2</mod>
+	<mod_files>2</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenNewsletter</font> is a web-based open source solution for sending email newsletters to a subscriber list. 
+		<br /><br />
+		Email delivery options include an HTML version and/or a Text version.
+		<br /><br />
+		Open Newsletter is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Small, simple, and beautiful</li>
+<li>Requires NO database</li>
+<li>You can add/delete subscribe</li>
+<li>You can import/export subscribe</li>
+<li>Users can subscribe</li>
+<li>Users can unsubscribe (an unsubscribelink may appear at the end of newsletters.) </li>
+<li>Rename database file 'data.dat' to anything for security</li>
+<li>Send susubscribe link if you want</li>
+<li>Send text or HTML newsletter</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

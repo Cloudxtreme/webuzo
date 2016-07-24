@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SilverStripe
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/SilverStripe
+	</ratings>
+	<space>
+		32513906
+	</space>
+	<support>
+		http://www.silverstripe.org
+	</support>
+	<version>
+		3.4.0
+	</version>
+	<mod>29</mod>
+	<release_date>03-06-2016</release_date>
+	<admin>index.php/admin/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="hash" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="SimpleXML" />
+	<requirement check="php" type="extension" name="tokenizer" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SilverStripe CMS</font> is an open source web content management system used by governments, businesses, and non-profit organisations around the world. It is a power tool for professional web development teams, and web content authors rave about how easy it is to use.
+		<br /><br />
+		As a platform, SilverStripe CMS is used to build websites, intranets, and web applications. The modern architecture of SilverStripe CMS allows organisations to keep pace with innovation on the web. SilverStripe CMS enables websites and applications to contain stunning design, great content, and compelling interactive and social functions.
+		<br /><br />
+		SilverStripe CMS is free, open, and available to anyone under the <a href="http://www.silverstripe.org/bsd-license" target="_blank">BSD license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Edit content with ease</li>
+<li>Build complex websites quickly and robustly</li>
+<li>Multiple page templates</li>
+<li>Platform agnostic—it will run on open source or Microsoft web servers and databases, and the CMS works across today's popular browsers</li>
+<li>Unobtrusive JavaScript and an automatically generated Google sitemap</li> 
+<li>Excellent support of web services</li>
+<li>Object-oriented MVC/ORM architecture.</li>
+<li>Set up approval processes for new content, publish or unpublish items on a particular date (embargo/expiry function), and have differing levels of access permissions for different parts of your site.</li> 
+</ul>
+		</english-features>
+	</languages>
+</soft>

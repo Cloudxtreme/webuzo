@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/PCRE
+	</ratings>
+	<space>
+		2887680
+	</space>
+	<support>
+		http://www.pcre.org/
+	</support>
+	<version>
+		8.37
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>28-04-2015</release_date>
+	
+	<extract file="pcre-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">PCRE Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/bin</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/local/apps/lib</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PCRE</font> library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API. The PCRE library is free, even for building proprietary software.
+		<br /><br />
+		PCRE is distributed under the <a href="http://www.pcre.org/licence.txt" target="_blank">BSD LICENCE</a>
+		</english-overview>
+		<english-features>No Information</english-features>
+	</languages>
+</soft>

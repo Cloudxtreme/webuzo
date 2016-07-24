@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://mezzoblue.github.com/PaintbrushJS/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/PaintbrushJS
+	</ratings>
+	<space>
+		1797966
+	</space>
+	<support>
+		http://mezzoblue.github.com/PaintbrushJS/
+	</support>
+	<version>
+		0.3
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.8
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PaintbrushJS</font> is a lightweight browser-based image processing library built with Javascript and canvas.
+		<br /><br />
+		PaintbrushJS is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+		</english-overview>
+		<english-features>
+		You use it by applying a class to an element on the page and setting a few parameters with some extra <span class="caps">HTML</span> attributes. If the element is an <code>img</code> or it has a <code>background-image</code> set in your <span class="caps">CSS</span>, PaintbrushJS will create a temporary <code>canvas</code> element and manipulate the image there, before finally saving it back out to the original element.
+		</english-features>
+	</languages>
+</soft>

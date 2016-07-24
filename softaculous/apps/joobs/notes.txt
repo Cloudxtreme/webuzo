@@ -1,0 +1,5 @@
+1. Comment the first two lines in the following file:
+	/config/config.php
+	
+	//set_magic_quotes_runtime(false);
+	//ini_set('magic_quotes_gpc', false);

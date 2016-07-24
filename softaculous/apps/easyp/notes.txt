@@ -1,0 +1,2 @@
+1. add $s[phpurl] = "[[softurl]]";$s[after_url] = ""; in data.php.
+2. scopy index.php from package to redirect url to /admin

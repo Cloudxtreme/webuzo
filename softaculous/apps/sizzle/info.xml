@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://sizzlejs.com/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Sizzle
+	</ratings>
+	<space>
+		2516209
+	</space>
+	<support>
+		http://sizzlejs.com/
+	</support>
+	<version>
+		2.3.0
+	</version>
+	<mod>31</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Sizzle</font> is a pure-JavaScript CSS selector engine
+designed to be easily dropped in to a host library.
+		<br /><br />
+		Sizzle is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Completely standalone (no library dependencies)</li>
+<li>Competitive performance for most frequently used selectors</li>
+<li>Only 4KB minified and gzipped</li>
+<li>Highly extensible with easy-to-use API</li>
+<li>Designed for optimal performance with event delegation</li>
+<li>Clear IP assignment (all code held by the Dojo Foundation, contributors sign CLAs)</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

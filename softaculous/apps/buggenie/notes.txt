@@ -1,0 +1,5 @@
+1. Add an index.php in the package from the old package. It is just a file to redirect to the /public folder.
+2. Make script where Database ENGINE is InnoDB
+3. We have disabled upgrade because it requires composer to be installed before upgrading and config file has been changed.
+4. Copy composer.phar and vendor folder from manual zip.
+5. Upgrade guide for 3.2.x to 4.x https://github.com/thebuggenie/thebuggenie/blob/master/UPGRADE.md

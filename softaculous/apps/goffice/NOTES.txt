@@ -1,0 +1,6 @@
+1. In manual installation for "Temporary file path" create '[[softpath]]/tmp' directory and provide path to this directory.
+2. Choose country 'United States'.
+3. Choose Timezone 'America/New_York'.
+4. Set Currency to '$'.
+5. Dont provide SMTP server details, just click 'continue'.
+6. In future if you add any language then check it properly its working or not. As in v5.0.91 "Thailand" was not working by new method.

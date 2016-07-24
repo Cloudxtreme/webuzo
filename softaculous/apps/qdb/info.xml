@@ -1,0 +1,73 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/message_queue/QDB
+	</ratings>
+	<space>
+		6488064
+	</space>
+	<support>
+		http://qdb.io/
+	</support>
+	<version>
+		0.6.0
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>09-12-2014</release_date>
+	
+	<requires>java</requires>		
+	
+	<path name="base">/usr/local/apps/qdb</path>
+	
+	<extract file="qdb-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/qdb</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">QDB Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/qdb</td>
+			</tr>		
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">QDB</font> is in production at BrandsEye, an awesome online monitoring and insights tool. 
+<br /><br />
+		QDB is provided under a <a href="http://qdb.io/license" target="_blank">Apache License, Version 2.0.</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>REST API for easy access from curl and any programming language</li>
+				<li>Backup messages from a queue</li>
+				<li>Replay by timestamp as needed</li>
+				<li>Watch incoming messages with curl</li>
+				<li>Alerts and monitoring</li>			
+			</ul>			
+		</english-features>
+	</languages>
+</soft>

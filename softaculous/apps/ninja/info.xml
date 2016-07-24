@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Invoice_Ninja
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Invoice_Ninja
+	</ratings>
+	<space>
+		158042257
+	</space>
+	<support>
+		https://www.invoiceninja.com/faq
+	</support>
+	<version>
+		2.5.2.2
+	</version>
+	<mod>30</mod>
+	<admin>public/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.9" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Invoice Ninja</font> is a solution for invoicing and billing customers. With Invoice Ninja, you can easily build and send beautiful invoices from any device that has access to the web. Your clients can print your invoices, download them as pdf files, and even pay you online from within the system.
+		<br /><br />
+		Invoice Ninja is released under the <a href="http://opensource.org/licenses/AAL" target="_blank">Attribution Assurance License</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#211F1F"><b>Secure &amp; Private</b></font><br />Invoice Ninja has been built from the ground up to keep your data safe. Only you have access to your login &amp; accounting details, &amp; we will never share your transaction data to any third party.
+Our website operates with 256-bit encryption, which is even more secure than most banking websites. Invoice Ninja uses the TLS 1.0 cryptographic protocol, AES_256_CBC string encryption, SHA1 message authentication and DHE_RSA key exchanges. We feel safe here and have invested heavily in measures to ensure that you do too.<br /><br />
+<font size="2" color="#211F1F"><b>Live .PDF View</b></font><br />With Invoice Ninja, we've done away with the need for cumbersome multi-click invoice previewing after each save.
+When you enter the details of your customer and/or invoice in our editor, you can instantly see the results in the pdf preview pane below. Want to see what your invoice would look like in a different layout style? The live pdf can show you four beautiful preset styles in real time too.
+Just create, save, send, and you're done!<br /><br />
+<font size="2" color="#211F1F"><b>Online Payments</b></font><br />Invoice Ninja seamlessly integrates with all of the top internet payment processors and gateways so you can get paid for your work quickly and easily.
+Invoices created with our tools aren't just for bookkeeping purposes - they bring in the Benjamins. We also make it super easy to choose the right gateway for the specific needs of your business and are happy to help you to get started working with the gateway of your choice. What's more, we're constantly working on rolling out additional gateway integrations, so if you don't see the one you use here, just let us know, and there's a good chance we'll add it for you. 
+		</english-features>
+		<english-exp_license_key>Click <a href="https://app.invoiceninja.com/license?affiliate_key=D8XR37" target="_blank">here</a> to Buy license.</english-exp_license_key>
+	</languages>
+</soft>

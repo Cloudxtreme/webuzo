@@ -1,0 +1,5 @@
+1) Use Storage Engine Innodb.
+2) Use binary database character set.
+3) Use the License as "No license footer"
+4) Check the language files exists in the /languages/classes/ & /languages/messages/ it should be there with the downloaded zip
+5) We have added __mw_scurl_call() because we need $cookie which was not in functions.php remove this once Softaculous is launched and also change <softversion> to 4.5.2

@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/TestLink
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/TestLink
+	</ratings>
+	<space>
+		67240735
+	</space>
+	<support>
+		http://forum.testlink.org/
+	</support>
+	<version>
+	   1.9.14
+	</version>
+	<mod>1</mod>
+	<release_date>19-09-2015</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+ 	<languages>
+		<english-overview>
+		<font size="5">TestLink</font> is a web based test management and test execution system. It enables quality assurance teams to create and manage their test cases as well as to organize them into test plans. These test plans allow team members to execute test cases and track test results dynamically.
+		<br/><br/>
+		TestLink is released under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>TestLink helps you to keep the test process under control</li>
+			<li>It forms a repository for requirements and test cases, and relates these to builds,platforms and staff</li>
+			<li>You allocate tests to staff who carry them out and record the results</li>
+			<li>A wide variety of reports provide information on what has been done and what still needs to be done</li>
+			<li>Enables quality assurance teams to create and manage their test cases as well as to organize them into test plans</li>
+		</ul>
+	</english-features>
+	</languages>
+</soft>

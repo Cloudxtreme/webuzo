@@ -1,0 +1,64 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Magento
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/Magento
+	</ratings>
+	<space>
+		114813160
+	</space>
+	<support>
+		http://www.magentocommerce.com
+	</support>
+	<version>
+		1.9.2.4
+	</version>
+	<mod>33</mod>
+	<mod_files>1</mod_files>
+	<release_date>23-02-2016</release_date>
+	<admin>index.php/admin123</admin>
+	<branch>67</branch>
+	<branch>545</branch>
+	<branch>486</branch>
+	<branch>465</branch>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Magento</font> is an Open Source ecommerce web application launched on March 31, 2008. It was created by Varien, building on components of the Zend Framework.
+		<br /><br />
+		Magento is available under the <a href="http://www.opensource.org/licenses/osl-3.0.php" target="_blank">Open Software License version 3.0</a>
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Marketing Promotions and Tools </li>
+<li>Analytics and Reporting </li>
+<li>Search Engine Optimization </li>
+<li>Site Management </li>
+<li>Catalog Management </li>
+<li>Catalog Browsing </li>
+<li>Product Browsing </li>
+<li>Mobile Commerce </li>
+<li>International Support </li>
+<li>Checkout </li>
+<li>Shipping </li>
+<li>Payment </li>
+<li>Customer Service </li>
+<li>Customer Accounts </li>
+<li>Order Management</li>
+		</ul>
+		</english-features>
+		<english-ad_path>Admin Path</english-ad_path>
+		<english-err_passlen7>The password length should be 7 or more characters</english-err_passlen7>
+		<english-err_pass_alphanumeric>Password should be alphanumeric</english-err_pass_alphanumeric>
+	</languages>
+</soft>

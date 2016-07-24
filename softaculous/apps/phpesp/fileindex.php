@@ -1,0 +1,12 @@
+CHANGELOG
+LICENSE
+README
+admin
+docs
+examples
+images
+index.php
+js
+locale
+public
+scripts

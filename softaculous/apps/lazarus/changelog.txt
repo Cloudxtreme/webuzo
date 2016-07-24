@@ -1,0 +1,79 @@
+Changelog for 1.24
+
+Fixed - Comment now uses anti bot test text if question and answer is used
+Fixed - Cookie login not working for some users
+Fixed - Some users were getting error of Database has gone away
+
+------------------------------------------------
+
+Changelog for 1.23
+
+Fixed - SFS check not returning error on comments
+Fixed - Admin area not using chosen database functions
+
+Added - More domains to bad list
+Added - String escaping when saving changes in admin for security and bug fixing
+Added - Ability to select all entries on admin page in one click
+
+Removed - asianet.co.th from bad hosts list as it was blocking legitimate users
+
+Some stuff I've forgotten 
+
+------------------------------------------------
+
+Changelog for 1.22
+
+Fixed - User pics not being deleted with post
+Fixed - Bad word checking was case sensitive
+Fixed - Posts from Chrome on Android were showing as Chrome not Android
+Fixed - Updated YouTube AGCode to support https urls
+
+Changed - Space for name, email and URL increased to 150 to allow for non-western characters
+Changed - Now just uses remote_addr for the posters IP for security and consistency
+
+Added - Location now has a globe image that links to Google map of the location
+Added - Support for iPad in browser detection
+Added - Support for URLs that use non-Latin characters 
+
+------------------------------------------------
+
+Changelog for 1.21
+
+Fixed - Logout in admin was not deleting your cookie
+Fixed - Seeing \n or \r\n in email notifications.
+Fixed - Regression meaning thumbnails were displayed wrong size
+Fixed - Image not showing for Opera browser
+
+Changed - .htaccess now has more entries for better blocking on supporting servers
+Changed - StopForumSpam address now uses their load balancer
+
+------------------------------------------------
+
+Changelog for 1.20.4
+
+Fixed - MySQL error if ICQ disabled or not submitted
+Fixed - Entries not showing. I think browser detect was the issue.
+
+------------------------------------------------
+
+Changelog for 1.20.3
+
+Fixed - New Opera detection resulted in preg_match error
+
+------------------------------------------------
+
+Changelog for 1.20.2
+
+Fixed - SFS not working when both email and IP being checked and using fallback method
+Fixed - Error on saving security settings if ' used in bot test question or answer
+Fixed - Error message on some servers about undefined constant IS_INSTALLER
+Fixed - Image Upload setting would always say directories were unwriteable
+Fixed - Uploaded images not showing in easy admin
+Fixed - Flash AGcode not working with youtu.be urls
+Fixed - Slashes being needlessly stripped from email body
+Fixed - mysql.class.php always being used even if mysqli requested
+
+Changed - Faster deletion of redundant files in tmp folder
+
+Added - Detection for Opera 15 and IE 11 useragents due to massive changes in useragents
+Added - lazTop ID to top div so you can style the sign and navigation links

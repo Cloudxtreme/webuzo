@@ -1,0 +1,16 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>upgrader.php</setuplocation>
+	<files>
+		<exclude>info.php</exclude>
+	</files>
+	<notes>
+	To finish the Upgrade process click on the above URL and follow the 5th, 6th and 7th step.
+	</notes>
+</softupgrade>

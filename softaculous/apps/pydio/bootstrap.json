@@ -1,0 +1,37 @@
+{
+  "core.conf":{
+    "UNIQUE_INSTANCE_CONFIG":{
+      "instance_name":"conf.sql",
+      "group_switch_value":"conf.sql",
+      "SQL_DRIVER":{
+        "core_driver":"core",
+        "group_switch_value":"core"
+      }
+    },
+    "AJXP_CLI_SECRET_KEY":"[[AJXP_CLI_SECRET_KEY]]",
+    "DIBI_PRECONFIGURATION":{
+      "mysql_username":"[[softdbuser]]",
+      "mysql_use_mysqli":true,
+      "mysql_password":"[[softdbpass]]",
+      "mysql_host":"[[softdbhost]]",
+      "mysql_driver":"mysql",
+      "mysql_database":"[[softdb]]",
+      "group_switch_value":"mysql"
+    }
+  },
+  "core.auth":{
+    "MASTER_INSTANCE_CONFIG":{
+      "instance_name":"auth.sql",
+      "group_switch_value":"auth.sql",
+      "SQL_DRIVER":{
+        "core_driver":"core",
+        "group_switch_value":"core"
+      }
+    }
+  },
+  "core.cache":{
+    "UNIQUE_INSTANCE_CONFIG":[
+      
+    ]
+  }
+}

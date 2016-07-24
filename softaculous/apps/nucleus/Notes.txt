@@ -1,0 +1,2 @@
+1) Download 'upgrades' folder and put it in zip - 'nucleus/upgrades' (Not needed, it is included in the default package itself from 3.70)
+2) $CONF['alertOnSecurityRisk'] = 0; in config.php

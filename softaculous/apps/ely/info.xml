@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://elycharts.com/examples
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Elycharts
+	</ratings>
+	<space>
+		169000 
+	</space>
+	<support>
+		http://elycharts.com/
+	</support>
+	<version>
+		2.1.6
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Elycharts</font> is a pure javascript charting library, easy to use and completely customizable.
+		<br /><br />
+		It helps you create good looking interactive charts on you web pages or web applications,
+		 with a lot of useful features: legend and label support, mouse tracking, tooltips, templates, animations<br /><br />
+		Elycharts is licensed under the <a href="http://elycharts.com/license" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		<font size="4" color="78ba91"><b>Elycharts can draw all frequently used chart types :</b></font>
+<font size="2">
+<ul>
+<li>line charts with spline support</li>
+<li>area and areaspline charts</li>
+<li>column/bar charts</li>
+<li>sparklines and sparkbars</li>
+<li>pie charts</li>
+</ul>
+	</font>
+	</english-features>
+	</languages>
+</soft>

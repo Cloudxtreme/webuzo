@@ -1,0 +1,8 @@
+1. Set Country United States, Time zone "America/New_York" and Admin folder to "admin123" in manual installation
+2. Install without demo data.
+3. Create admin.zip from admin folder for upgrade. Also check for configured file in admin folder. They should not exist in admin folder.
+4. versions <= 1.1.2 does not work on webuzo after installation (even manual). Check in the next version for webuzo, if it works then remove the condition from install.php. Even if it doesn't work we need to check upgrade on webuzo(non suPHP server)
+5. make DB with utf8_unicode_ci collate
+6. Always copy and change list of "Select country" and "Select Timzone" from actual installation method.
+7. Check and Move favicon.ico and robots.txt from manual to zip
+8. Always check for permissions in "install\upgrade_patches\" with respective version file and add in our upgrade.php also add for it's parent directory.

@@ -1,0 +1,12 @@
+changelog.txt
+common.inc.php
+core
+docs
+forum
+index.php
+install
+install.php
+plan_docs
+qcms
+qlib
+sql

@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="tikilogo.png" style="float:right; margin:10px" alt="" />{{overview}}		
+	</overview>
+	<features>
+    {{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Tiki_Wiki_CMS_Groupware
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Tiki_Wiki_CMS_Groupware
+	</ratings>
+	<space>
+		145705500
+	</space>
+	<support>
+		http://info.tiki.org/
+	</support>
+	<version>
+		15.0
+	</version>
+	<mod>1</mod>
+	<release_date>25-04-2016</release_date>
+	<admin>tiki-admin.php</admin>
+	<branch>569</branch>
+	<branch>433</branch>
+	<branch>44</branch>
+	<min_require>3.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<languages>
+		<english-overview><font size="5" color="#182e7a">Tiki</font> is a CMS/Groupware which offers a large number of features "out-of-the-box" arguably more than any other Open Source Web Application. It can be overwhelming, even to an experienced user or administrator. 
+		<br />
+		Tiki has all the classic CMS and portal features of other applications, but also includes features not available anywhere else. Tiki is highly configurable and modular; all features are optional and can be administered through Tiki's browser-based interface.
+		<br />
+		<br />
+		TikiWiki is licensed under <a href="http://www.gnu.org/licenses/lgpl-2.1.html" target="_blank" >GNU Lesser General Public License Version 2.1</a>.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font size="3" color="#1281B6"><b>Tiki has the features you need:</b></font><br /><br />
+<ul>
+<li>Wikis (like Wikipedia)</li>
+<li>Forums (like phpBB)</li>
+<li>Blogs (like WordPress)</li>
+<li>Articles (like Digg)</li>
+<li>Image Gallery (like Flickr)</li>
+<li>Map Server (like Google Maps)</li>
+<li>Link Directory (like DMOZ)</li>
+<li>Multilingual (like Babel Fish)</li>
+<li>Bug tracker (like Bugzilla)</li>
+<li>RSS feeds (in &amp; out)</li>
+<li>Free source software (LGPL)</li>
+</ul>
+And <i>much</i> more...
+		</english-features>
+		<english-></english->
+	</languages>
+</soft>

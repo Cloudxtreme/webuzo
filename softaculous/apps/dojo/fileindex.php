@@ -1,0 +1,2 @@
+dojo.js
+index.php

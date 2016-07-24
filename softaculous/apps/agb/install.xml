@@ -1,0 +1,58 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="arabic">Arabic</option>
+					<option value="shqip">Albanian</option>
+					<option value="bosanski">Croatian</option>
+					<option value="bulgarian">Bulgarian</option>
+					<option value="chinese_big5">Chinese</option>
+					<option value="chinese_gb">Chinese_GB</option>
+					<option value="czech">Czech</option>
+					<option value="danish">Danish</option>
+					<option value="dutch">Dutch</option>
+					<option value="finnish">Finnish</option>
+					<option value="french">French</option>
+					<option value="german">German</option>
+					<option value="hungarian">Hungarian</option>
+					<option value="indonesian">Indonesian</option>
+					<option value="italian">Italian</option>
+					<option value="lithuanian">Lithuanian</option>
+					<option value="persian">Persian</option>
+					<option value="polish">Polish</option>	
+					<option value="portugues">Portuguese</option>
+					<option value="romanian">Romanian</option>
+					<option value="russian">Russian</option>
+					<option value="serbian">Serbian</option>
+					<option value="slovak">Slovak</option>
+					<option value="spanish">Spanish</option>
+					<option value="swedish">Swedish</option>
+					<option value="turkish">Turkish</option>
+					<option value="vietnamese">Vietnamese</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install.php</exclude>
+	</files>
+</softinstall>

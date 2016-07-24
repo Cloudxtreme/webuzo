@@ -1,0 +1,11 @@
+Its only for users if they ask how to add project :
+
+Error on Add Project: You don't have permission to access the requested page
+
+1. Hover on "Administration" on Top -> Select "Company".
+
+2. In "Contacts" Section, select "Edit user account" of "admin".
+
+3. In "Options" section, For "Can manage his/her own projects" select "Yes" 
+
+Don't follow this steps for making package.

@@ -1,0 +1,67 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Brushtail
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Brushtail
+	</ratings>
+	<space>
+		17660487
+	</space>
+	<support>
+		http://www.brushtail.org.au/contact.htm
+	</support>
+	<version>
+		14
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<release_date>14-02-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Brushtail</font>  is an intranet developed for a public library service. Now available as open source software. Brushtail is written in the PHP scripting language. <br /><br />
+			Brushtail is released under the <a href="http://www.brushtail.org.au/faq.htm" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+	<english-features>
+<ul>
+  <li>Content management system allows the delegation of content editing by the intranet administrator. Content editors can create pages, add Images and documents can be uploaded.</li>
+  <li>Access control defined by the administrator as to what a user can read and edit. </li>
+  <li>Intranet content is keyword searchable. Boolean searching is supported. Search results can include content pages and uploaded documents. </li>
+  </ul>
+<h3>Modules</h3>
+<ul>
+  <li><strong>Content</strong><br />
+ Content modules consist of content pages and noticeboards that users can post messages to. </li>
+  <li><strong>Calendars</strong><br />
+  Event calendars can be used for listing events, training and other activities. Calendars can be used by staff as an event booking system. 
+  This module also has a public web calendar interface. 
+  The public interface also publishes a rss feed.</li>
+
+  <li><strong>PC Bookings</strong> <br />
+  A booking system that staff can use to manage public computer bookings. Access to public computers with pcbooker client software can be regulated via the intranet .  There is also a public web interface for patrons to make future bookings.</li>
+  <li><strong>Request tracking </strong> <br />
+  An log of  requests submitted via a form. Power users can search, edit or delete the requests archive.</li>
+   <li><strong>Room bookings  </strong><br />
+  A bookings module for meeting/community rooms etc.</li>
+    <li><strong>Leave applications</strong><br />
+  A module for staff to make online leave applications. When leave is approved an automated email is sent to the applicant.</li>
+    <li><strong>Email form  </strong><br />
+  Request forms that email the form message. </li>
+  <li><strong>File archive </strong> <br />
+ Can be used for uploading and archiving documents. Metadata is keyword searchable.</li>
+   <li><strong>TV display</strong> <br />
+ Module for creating a html slideshow that be displayed on display TVs. This can be used with TVs that have a media player that has a web browser and WIFI.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

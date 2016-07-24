@@ -1,0 +1,3 @@
+1. Download English pack from http://www.igalerie.org/forum/viewtopic.php?id=1942
+	copy locale/en_GB from this pack to zip at locale/en_GB and images/flags/en_GB.png from this pack to zip at images/flags/en_GB.png
+2. Default time zone: America/Newyork

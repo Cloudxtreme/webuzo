@@ -1,0 +1,64 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Pixie
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/Pixie
+	</ratings>
+	<space>
+		2389089
+	</space>
+	<support>
+		http://www.getpixie.co.uk/
+	</support>
+	<version>
+		1.04
+	</version>
+	<mod>7</mod>
+	<mod_files>3</mod_files>
+	<admin>admin/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pixie</font> is a free, open source web application that will help quickly create your own website.
+		<br /><br />
+		Many people refer to this type of software as a "content management system (cms)", we prefer to call it as Small, Simple, Site Maker.
+		<br /><br />
+		Pixie is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License v3</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>Clean URLs</li>
+			<li>CSS Themes</li>
+			<li>Database Backups</li>
+			<li>File manager with tag support</li>
+			<li>Free and Open Source</li>
+			<li>jQuery</li>
+			<li>Microformats</li>
+			<li>Modules, Themes, Plug-ins and Blocks</li>
+			<li>Multilingual</li>
+			<li>No limits</li>
+			<li>Portable</li>
+			<li>Quick to develop for</li>
+			<li>Robots.txt</li>
+			<li>RSS 2.0</li>
+			<li>hAtom to RSS script</li>
+			<li>Search Engine Friendly</li>
+			<li>Small</li>
+			<li>Spam Protected</li>
+			<li>System and referral logs</li>
+			<li>User support with privileges</li>
+			<li>Web Based</li>
+			<li>XHTML compatible rich text editor</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

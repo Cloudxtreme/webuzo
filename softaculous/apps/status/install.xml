@@ -1,0 +1,41 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Status">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="select">
+				<select name="site_profile">
+					<option value="private">Private</option>
+					<option value="community">Community</option>
+					<option value="public">Public</option>
+					<option value="singleuser">Single User</option>
+				</select>
+				<head>{{select_type}}</head>
+			</input>
+			<input type="checkbox" name="fancyurls" value="off">
+				<head>{{fancyurls}}</head>
+				<exp>{{exp_fancyurls}}</exp>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install.php</exclude>
+	</files>	
+</softinstall>

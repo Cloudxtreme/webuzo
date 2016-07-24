@@ -1,0 +1,283 @@
+Changes since 3.1.8
+Bug
+
+    [PHPBB3-8058] - Default style in ACP->Board Settings not observing offset
+    [PHPBB3-13028] - "View unanswered posts" link should be called instead "View unanswered topics"
+    [PHPBB3-13264] - Editing an unapproved post as a moderator/admin approves it
+    [PHPBB3-13521] - Q&A Captcha ACP, required fields error corrupts inputted data
+    [PHPBB3-13630] - NULL value parsed into $select_single can cause 403 Forbidden on certain restrictive hosting environments for "Find a Member" function within Private Message composition
+    [PHPBB3-13681] - Email queue shouldn't be cached by opcache
+    [PHPBB3-13683] - Controller generates urls with absolute path of phpbb's root
+    [PHPBB3-13842] - Missing rewrite module on IIS7 leads to an error
+    [PHPBB3-13977] - Fatal error entering UCP if bookmarked topic was deleted
+    [PHPBB3-14132] - SQL Error when creating a new subject on fresh installation
+    [PHPBB3-14136] - IE compatibility meta is missing in overall_header.html
+    [PHPBB3-14241] - Security bug into Spambot control Questions
+    [PHPBB3-14272] - Use valid html5 input elements in forms
+    [PHPBB3-14290] - Function set_modified_headers() never sends 304 'Not Modified' header
+    [PHPBB3-14408] - Remove span corners
+    [PHPBB3-14422] - Support cmd+enter & ctrl+enter for submitting message
+    [PHPBB3-14437] - Place Inline Images on Post get scrambled up -- not follow the order you place them in.
+    [PHPBB3-14443] - jabber notification-template prefix "short" breaks resolution of paths in extensions
+    [PHPBB3-14475] - Do not log upon automatically removing users form newly registered users group
+    [PHPBB3-14481] - phpBB does not obey HTTP_X_FORWARDED_PORT header
+    [PHPBB3-14483] - call to header(arg, arg) function sendHeaders() in Response.php causes Error 500 in app.php generated links
+    [PHPBB3-14496] - Automatic update relies on cache creating files in cache folder
+    [PHPBB3-14500] - Duplicate newversion in build.xml
+    [PHPBB3-14514] - Users get skipped in passwords_convert_p1 migration
+    [PHPBB3-14519] - Do not query database for unread notifications if all are retrieved
+    [PHPBB3-14532] - Database column default incorrectly escaped on MSSQL
+    [PHPBB3-14533] - "U_NOTIFICATION_SETTINGS" doesn't return the correct URL
+    [PHPBB3-14536] - Force timestamp to be integer in user::format_date()
+    [PHPBB3-14559] - Attachments' behaviour in quotes
+    [PHPBB3-14562] - Extension's permissions don't have language fallback
+    [PHPBB3-14570] - Board versions for 3.2.x can be accidentally downgraded to 3.1.x
+    [PHPBB3-14577] - Stop using sizeof() inside for() loop
+
+Improvement
+
+    [PHPBB3-10356] - Username search should find all users for administrators instead of NORMALs and FOUNDERs only
+    [PHPBB3-12305] - Add new event core.viewforum_get_topic_id_sql to control forum topic listing
+    [PHPBB3-14134] - Send warning notification PM in user's language.
+    [PHPBB3-14316] - Add memberlist_view.html template events before/after the custom fields and zebra links
+    [PHPBB3-14365] - Add core event to the function topic_review()
+    [PHPBB3-14366] - Add core events to the function decode_message()
+    [PHPBB3-14395] - Add event core.viewtopic_add_quickmod_option_after
+    [PHPBB3-14471] - Add filedata var to the core.avatar_driver_upload_move_file_before event
+    [PHPBB3-14486] - Add an event and fix an event in login_box()
+    [PHPBB3-14508] - Change language notice on account activation
+    [PHPBB3-14540] - Adjust class recursive_dot_prefix_filter_iterator to increase performance
+
+New Feature
+
+    [PHPBB3-12684] - Add a command to add a user from the CLI
+    [PHPBB3-14189] - [PHP] - core.gen_sort_selects_after
+
+Task
+
+    [PHPBB3-14538] - Update composer dependencies
+    [PHPBB3-14565] - Updates composer to 1.0.0-b2
+
+Changes since 3.1.7-PL1
+Bug
+
+    [PHPBB3-12441] - Database-size in ACP missing after update MariaDB from 5.5 to 10.0
+    [PHPBB3-12618] - Extension Version Check does not support https
+    [PHPBB3-13180] - Increase the field size of date format to allow more syntax for other calendars
+    [PHPBB3-13908] - After clause in migration add_column schema tool not honored
+    [PHPBB3-14046] - Instant message (jabber) dialog says message sent on the creation screen
+    [PHPBB3-14303] - Some changes for UTF-8 variant on language pack?
+    [PHPBB3-14374] - Update dynamically generated jquery CDN script tag
+    [PHPBB3-14386] - open_basedir restriction in effect with remote upload avatar
+    [PHPBB3-14387] - Extend avatar-driver by extension in ACP not possible
+    [PHPBB3-14394] - Only purge cache in functional tests if necessary
+    [PHPBB3-14396] - Use VCHAR_UNI instead of VCHAR for user_dateformat
+    [PHPBB3-14397] - Fix @since tag in event 'core.ucp_prefs_view_after'
+    [PHPBB3-14403] - phpbb\log should still work even when no user data is given
+    [PHPBB3-14407] - Users not being removed from Newly Registered Users group
+    [PHPBB3-14409] - Update session page info before displaying online list
+    [PHPBB3-14411] - Delete permanently is not working as it should be
+    [PHPBB3-14423] - Display database size for Aria storage engine
+    [PHPBB3-14425] - Database tests do not allow using socket
+    [PHPBB3-14427] - Memberlist Display Wrong
+    [PHPBB3-14433] - Functional tests fail for extensions
+    [PHPBB3-14439] - Error page shown in Manage users -> Anonymous -> Select Form -> Avatar when board wide all avatar settings are disabled
+    [PHPBB3-14467] - Automatic resize of textarea calculates wrong height
+    [PHPBB3-14475] - Do not log removal of users from newly registered group
+
+Improvement
+
+    [PHPBB3-14289] - Add events in navbar header
+    [PHPBB3-14356] - Add template events to viewtopic around back2top link
+    [PHPBB3-14412] - Comment fixes for PHPDoc in the events
+    [PHPBB3-14458] - Explicitly state RewriteBase into .htaccess root file
+
+Changes since 3.1.7
+
+	Security Issue
+	[SECURITY-188] - Check form key in acp_bbcodes
+	Bug
+	[PHPBB3-14343] - Undefined variable $phpbb_dispatcher when (un-)locking a topic or post
+	
+Changes since 3.1.6
+Bug
+
+	[PHPBB3-8839] - Wrong new status of subforumlink on index
+	[PHPBB3-8920] - PM-Report for every moderator
+	[PHPBB3-9153] - New member can delete pm just in one way
+	[PHPBB3-9252] - Conflict when (dis)approving a post by two moderators at the same time
+	[PHPBB3-11468] - Controllers can not set additional parameters of page_header()
+	[PHPBB3-11971] - Validating not correctly in Spambot countermeasures
+	[PHPBB3-12616] - Report notification is not removed when post is disapproved or deleted
+	[PHPBB3-13202] - dead code in sessions.php
+	[PHPBB3-13423] - Driver sqlite3 failed periodically
+	[PHPBB3-13636] - Unexpect return to previous page behaviour
+	[PHPBB3-13656] - database_upgrade.php fails when database password contains a % character
+	[PHPBB3-13748] - Wrong tooltip after poll vote change
+	[PHPBB3-13759] - submit_post doesn't take $data['post_time'] - into account
+	[PHPBB3-13799] - Avatar gallery subfolders paths are handled incorrectly
+	[PHPBB3-13831] - Post deletion reason is not appearing on moderation logs
+	[PHPBB3-13835] - File upload of large files where filename contains umlauts fails
+	[PHPBB3-13846] - Permissions around soft deleting are inconsistently handled
+	[PHPBB3-13851] - "Can ignore flood limit" permission not taking effect
+	[PHPBB3-13892] - "Someone reports a post" notification setting has no effect
+	[PHPBB3-13945] - Account re-activation does not create a notification
+	[PHPBB3-13950] - If disabled extension - no hidden permission set
+	[PHPBB3-13960] - Profile field validation may break
+	[PHPBB3-13976] - Fix comment typo in salted_md5 driver
+	[PHPBB3-13988] - Atom feeds use relative links for image attachments
+	[PHPBB3-13992] - Fix html5 error from output on w3.org its new validator
+	[PHPBB3-14058] - subsilver2 Contact us form doesn't have an email subject field
+	[PHPBB3-14070] - Disabled avatar types is still displayed on the forum
+	[PHPBB3-14106] - Sorting is unworkable while moderating forum (merge topics)
+	[PHPBB3-14114] - Inconsistency in install.html in 3.1.x Automatic uopdate package
+	[PHPBB3-14127] - Error in the BBCode FAQ in 'Linking to another site'
+	[PHPBB3-14142] - Remove unused ignore_configs from avatar drivers
+	[PHPBB3-14143] - Flush the in-memory mail queue when writing it to the disk
+	[PHPBB3-14153] - Notifications dropdown header doesn't clear floats
+	[PHPBB3-14159] - Not accessible link on main ACP page
+	[PHPBB3-14161] - The core.download_file_send_to_browser_before - $vars - 'extension' it does not exist
+	[PHPBB3-14163] - Select All in code bug in Edge
+	[PHPBB3-14181] - Custom report/denial reason not shown in user notifications
+	[PHPBB3-14186] - Incorrect string concatenation in phpbb_mcp_sorting()
+	[PHPBB3-14200] - Allow hidden users to see theself on viewonline
+	[PHPBB3-14215] - [ticket/14212] - Adding event after users have been removed to a group
+	[PHPBB3-14217] - [ticket/13591] - Change SQL query into array to allow
+	[PHPBB3-14224] - Fix trailing whitespaces
+	[PHPBB3-14228] - Vertical align of numbers in polls
+	[PHPBB3-14236] - Race condition in the functional tests
+	[PHPBB3-14242] - Fix on memberlist the sort method.
+	[PHPBB3-14249] - Online list isn't sorted anymore
+	[PHPBB3-14258] - Add event in auth::Login
+	[PHPBB3-14271] - Update nginx sample config
+	[PHPBB3-14276] - Function get_folder_status not setup for use of plurals
+	[PHPBB3-14287] - Loading indicator not removed after confirming action that does not produce a message
+	[PHPBB3-14297] - Uppercase and lowercase when sorting topics
+	[PHPBB3-14334] - Do not use deprecated function get_user_avatar() in user_loader
+	[PHPBB3-14339] - State support for PHP 7.0 in docs
+	[PHPBB3-14346] - Improve version check output when phpbb.com is unreachable
+	Improvement
+	[PHPBB3-7362] - Title/Post Icons Need Attribute Text
+	[PHPBB3-8800] - Add "mark topics read" link to "View unread posts"
+	[PHPBB3-10343] - ACP: searching for users does not show inactive accounts
+	[PHPBB3-13684] - Only resize attached file comments vertically
+	[PHPBB3-13934] - Enctype clause for forms may be needed for profile fields
+	[PHPBB3-14066] - Add template events to search_body.html
+	[PHPBB3-14073] - Add core events to the several places in includes/functions_admin.php
+	[PHPBB3-14075] - Event in posting preview
+	[PHPBB3-14080] - Add template events to viewforum_body.html before/after/append/prepend the topic row
+	[PHPBB3-14088] - Add core events to the search.php
+	[PHPBB3-14089] - [Template] - posting_topic_title_after
+	[PHPBB3-14098] - Add core events to the search backends (fulltext_*.php)
+	[PHPBB3-14102] - Add core event to the mcp_topic.php
+	[PHPBB3-14113] - Add core events to the memberlist.php for customizing members search
+	[PHPBB3-14117] - Add core events to index.php to allow modifying birthdays list
+	[PHPBB3-14123] - Add more descriptive help to the CLI commands
+	[PHPBB3-14126] - Add viewtopic_topic_title_after template event
+	[PHPBB3-14133] - Comment fix for phpbb_get_user_rank()
+	[PHPBB3-14154] - Include "Clean Name" for disabled Extensions
+	[PHPBB3-14155] - Add row highlighting to extensions and style management
+	[PHPBB3-14156] - Add the Symfony ResponseListener
+	[PHPBB3-14164] - Helpful instructions for database updates
+	[PHPBB3-14170] - Fix mcp_change_poster_after event
+	[PHPBB3-14201] - Add ACP template events
+	[PHPBB3-14213] - [PHP] - core.group_add_user_after
+	[PHPBB3-14219] - Add email address into inactive user display in ACP
+	[PHPBB3-14261] - Pages served from app.php can't disable the update of session_page
+	[PHPBB3-14283] - Add a "Manage Group" link on a group page
+	[PHPBB3-14313] - Don't display quote button on unapproved posts
+	[PHPBB3-14343] - Add event when locking/unlocking posts/topics
+	New Feature
+	[PHPBB3-14144] - [Template] - quickreply_editor_subject_before
+	[PHPBB3-14146] - [Template] - viewtopic_body_post_subject_before
+	[PHPBB3-14187] - [ACP Template] - acp_styles_before_table
+	[PHPBB3-14188] - [PHP] - core.acp_styles_action_before
+	[PHPBB3-14191] - [PHP] - core.get_gravatar_url_after
+	[PHPBB3-14192] - [PHP] - core.memberlist_memberrow_before
+	Task
+	[PHPBB3-14140] - Update Symfony to benefit from improvement to the console component
+
+Changes since 3.1.5
+Bug
+
+	[PHPBB3-10711] - SQL error DUPLICATE for KEY in FORUMS_TRACK_TABLE
+	[PHPBB3-13711] - disabled accounts receive mails
+	[PHPBB3-13815] - Event parameters in posting do not affect behavior as expected
+	[PHPBB3-13903] - Container naming doesn't allow Windows' semicolon
+	[PHPBB3-13930] - Check for correct spacing between keyword & parenthesis in codesniffer
+	[PHPBB3-13941] - One test is blocked in an inifinite loop on php 5.5+ and with sqlite3
+	[PHPBB3-13948] - Only reports top level WHOIS IP for a user in ACP
+	[PHPBB3-13949] - Replace colon with colon lang key in memberlist search page
+	[PHPBB3-13951] - Jump to page function does not work since 3.1.5 upgrade
+	[PHPBB3-13952] - Fulltext Native errors from tidy_search cron task
+	[PHPBB3-13955] - 3.1.5 not loading CDN resources
+	[PHPBB3-13962] - Forum dropdown in MCP queue could expand beyond screen size
+	[PHPBB3-13966] - Change post's author --> error message
+	[PHPBB3-13967] - BBCode guide - loading phpBB logo image breaks https
+	[PHPBB3-13980] - Current avatar not removed when uploading with different extension
+	[PHPBB3-13984] - AJAX Loading Indicator broken
+	[PHPBB3-14037] - Memberlist profile fields headlines not computed from same way as data
+	[PHPBB3-14049] - Plupload delete request should use config headers
+	[PHPBB3-14069] - Incorrect sql_fetchfield call in style_update_p1 migration
+	[PHPBB3-14077] - Select all code not work in Microsoft Edge
+	[PHPBB3-14082] - Fix wrong variables in fulltext native search for keyworded results
+	[PHPBB3-14083] - Fix wrong variables in fulltext mysql search for author search
+	[PHPBB3-14093] - Hardcoded language in ucp_pm_viewfolder.html
+	[PHPBB3-14103] - Underline in abbreviations in Firefox 40
+	[PHPBB3-14104] - Fix missing variable in fulltext native search query for total results for author
+	[PHPBB3-14115] - Microdata is not valid in prosilver
+
+Improvement
+
+	[PHPBB3-11530] - Remove quotes that are too deep automatically
+	[PHPBB3-12952] - Display HTTP Output along with Status code in case assertion fails in functional tests
+	[PHPBB3-13598] - Add an option to post a locked topic
+	[PHPBB3-13786] - Add core events to add MCP post options
+	[PHPBB3-13818] - Browse Extensions Database link in Extension Manager
+	[PHPBB3-13843] - Add templates events to insert custom panel-tab into posting editor
+	[PHPBB3-13863] - [Template] - topiclist_row_append/topiclist_row_prepend in mcp_forum.html
+	[PHPBB3-13879] - We're using px most places but ems in others
+	[PHPBB3-13882] - Avatars in notifications should be lazy loaded
+	[PHPBB3-13899] - Add items to core.search_results_modify_search_title
+	[PHPBB3-13911] - Add configuration options to profile fields
+	[PHPBB3-13931] - Wrong order in docs/events.md
+	[PHPBB3-13968] - [PHP] - core.user_setup_after
+	[PHPBB3-13971] - Add draft_id variable to event core.posting_modify_template_vars
+	[PHPBB3-13981] - Events to intercept uploaded avatar deletion
+	[PHPBB3-13995] - Invalid HTML using Projection Media Type
+	[PHPBB3-14002] - Add template events before/after user details in ucp_main_front.html
+	[PHPBB3-14005] - Allow extensions control post buttons displaying
+	[PHPBB3-14014] - [PHP] - mcp_forum_view_actions
+	[PHPBB3-14064] - Add template events to ucp_pm_history.html
+	[PHPBB3-14065] - Add template events to attachment.html
+	[PHPBB3-14067] - Add template events to overall_header.html around feeds
+	[PHPBB3-14068] - New events around poll panel in viewtopic
+	[PHPBB3-14072] - Add core event to the function format_display()
+	[PHPBB3-14085] - [Template] - posting_topic_title_prepend
+	[PHPBB3-14086] - [Template] - Add mcp_forum_topic_title_*
+	[PHPBB3-14090] - [Template] - mcp_topic_topic_title_*
+	[PHPBB3-14091] - [Template] - mcp_topic_subject_*
+	[PHPBB3-14101] - Add core event to the download/file.php
+	[PHPBB3-14116] - sql_affectedrows has no arguments
+
+New Feature
+
+	[PHPBB3-12692] - Add a console command to manage the thumbnail
+	[PHPBB3-13311] - Add php event to acp manage_forums when deleting content
+	[PHPBB3-13974] - Add php event for altering data when changing a post's poster
+	[PHPBB3-13997] - [Template] - posting_editor_submit_buttons
+	[PHPBB3-14006] - [PHP] - core.ucp_register_agreement
+	[PHPBB3-14041] - [Template] - viewtopic_dropdown_top_custom
+	[PHPBB3-14042] - [Template] - viewtopic_dropdown_bottom_custom
+	[PHPBB3-14043] - [PHP] - core.get_avatar_after
+	[PHPBB3-14087] - Add an event to ucp_activate.php.
+
+Sub-task
+
+	[PHPBB3-13694] - Allow modifying the Postgres author search query for results
+
+Task
+
+	[PHPBB3-13947] - Add CHItA to developer list
+	[PHPBB3-14010] - Update Plupload to 2.1.8
+	[PHPBB3-14099] - Update Twig to 1.20

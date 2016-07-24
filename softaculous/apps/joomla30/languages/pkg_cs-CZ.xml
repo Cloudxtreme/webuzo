@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.5" method="upgrade">
+	<name>Czech Language Pack</name>
+	<packagename>cs-CZ</packagename>
+	<version>3.5.1.1</version>
+	<creationDate>2016-04-16</creationDate>
+	<author>Czech Joomla Translation Team</author>
+	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorUrl>www.joomlaportal.cz</authorUrl>
+	<copyright></copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<url></url>
+	<packager>Joomla! Czech Translation Team</packager>
+	<packagerurl>www.joomlaportal.cz</packagerurl>
+	<description>Joomla! 3.5.1 Full Czech (cs-CZ) Language Package - Version 3.5.1v1</description>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+	</updateservers>
+	<files>
+		<file type="language" client="site" id="cs-CZ">site_cs-CZ.zip</file>
+		<file type="language" client="administrator" id="cs-CZ">admin_cs-CZ.zip</file>
+	</files>
+</extension>

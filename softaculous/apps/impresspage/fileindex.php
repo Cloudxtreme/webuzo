@@ -1,0 +1,13 @@
+.htaccess
+Ip
+Plugin
+Theme
+admin.php
+config.php
+favicon.ico
+file
+index.php
+install
+license.html
+readme.md
+robots.txt

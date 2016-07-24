@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST
+README.html
+bootstrap.inc
+embed.php
+images
+index.php
+init.inc
+install
+lib
+locale
+main.php
+modules
+themes
+upgrade
+config.php
+login.txt

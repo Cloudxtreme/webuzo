@@ -1,0 +1,38 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpCollab
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/phpCollab
+	</ratings>
+	<space>
+		7133024
+	</space>
+	<support>
+		http://www.php-collab.com/
+	</support>
+	<version>
+		2.5
+	</version>
+	<mod>6</mod>
+	<mod_files>2</mod_files>
+	<admin>administration/admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpCollab</font> is an open source internet-enabled system for use in projects that require collaboration over the internet. Those organizations, such as consulting firms, that rely on a division between firm-side and client-side information will benefit most from use of phpCollab <br /><br />
+		phpCollab is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL</a>.
+		</english-overview>		
+		<english-features>
+	<i>No Info</i>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Real_Estate
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Open_Real_Estate
+	</ratings>
+	<space>
+		47156964
+	</space>
+	<support>
+		http://open-real-estate.info/en/faq
+	</support>
+	<version>
+		1.16.1
+	</version>
+	<mod>29</mod>
+	<release_date>06-04-2016</release_date>
+	<admin>site/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.1.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Real Estate</font> is a free software for building websites of real estate agencies and realtors. It is based on Yii CMF - one of the fast working modern frameworks.
+		<br /><br />
+		Open Real Estate is a ready-to-use business solution. It can increase the profits of the real estate agency and the real estate agents as well.
+		<br /><br />
+		Open Real Estate is released under the open source <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL version 2</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>it is possible to post listings of property for sale and for rent with images, descriptions, displaying on the map;</li>
+			<li>user is able to reserve a property online;</li>
+			<li>user is able to send a message for booking a property with criteria he/she needs and his/her comments, the administrator is able to find and advise him/her an appropriate real estate;</li>
+			<li>search through listings, sort by price and rate;</li>
+			<li>all listings are displayed on the map;</li>
+			<li>users can post comments and rate the listings;</li>
+			<li>comments and rates can be displayed on the site at once or only after moderation by the administrator;</li>
+			<li>each listing can have an image gallery (unlimited number of images);</li>
+			<li>user can set a bookmark with publishing in social networks;</li>
+			<li>the section News;</li>
+			<li>the section Q&amp;As;</li>
+			<li>management of site pages, ability to embed widgets (functional blocks) into pages;</li>
+			<li>the listing can be marked as Special offer, and such a listing will be highlighted in search results;</li>
+			<li>management of site parameters: cache settings, maps settings, settings of listings' displaying, settings of notifications for the administrator and users and many other parameters;</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

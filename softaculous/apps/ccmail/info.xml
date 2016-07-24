@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="ccmail.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ccMail
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/ccMail
+	</ratings>
+	<space>
+		845915
+	</space>
+	<support>
+		http://www.cicoandcico.com/
+	</support>
+	<version>
+		1.0.2
+	</version>
+	<mod>5</mod>
+	<mod_files>4</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="lt" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CcMail</font> is a free, open, powerful Mailing List Manager that doesnt require any programming knowledge. It was designed to have a user-friendly interface, being in the same time complete and powerful.
+CcMail offers the basic functionalities of a commercial, expensive script for free.
+		<br /><br />
+		CcMail is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<strong>Key Features:</strong>
+<ul>
+<li>No database required</li>
+
+<li>Easy to install and manage</li>
+<li>Multilingual user interface</li>
+<li>Compose with online HTML editor</li>
+</ul>
+
+<p><strong>Other Features</strong></p>
+<ul>
+<li>Send emails in a variety of ways (including SMTP)</li>
+
+<li>Information Groups: Users can choose what to receive informations about</li>
+<li>Import Users from other Mailing List Managers</li>
+<li>Easy Backup</li>
+<li>WYSIWYG HTML editor</li>
+<li>Scheduling</li>
+<li>Validation Email</li>
+<li>Easy to update</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/AmpJuke
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/music/AmpJuke
+	</ratings>
+	<space>
+		5958834
+	</space>
+	<support>
+		http://www.ampjuke.org/
+	</support>
+	<version>
+		0.8.8
+	</version>
+	<mod>8</mod>
+	<mod_files>2</mod_files>
+	<release_date>14-08-2014</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AmpJuke</font> will act as your streaming server.
+		<br /><br />
+Besides music streaming AmpJuke can fetch album covers/images/lyrics automatically using various webservices from last.fm, Bing! and other sources.
+		<br /><br />Scan+import tags from as many tracks you like, use the favorites as well as a bunch of other personal settings to customize the way AmpJuke operates.
+		<br /><br />
+		AmpJuke is released under the <a href="http://www.ampjuke.org/license.txt" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Scan and import information (tags) from music files to a MySQL-database</li>
+<li>Automatically send listening statistics to last.fm. No plugin is needed</li>
+<li>Upload music</li>
+<li>Download music</li>
+<li>Retrieve and display biographies for artists/performers and albums</li>
+<li>Any mediaplayer that "understand" the .m3u-playlist format, can play the streamed music...or just use the flash player...or a combination</li>
+<li>Retrieve and store album covers automatically using a webservice from last.fm, and/or try the "Scan metadata"</li>
+<li>Random play with various options for "fair" rotation of tracks</li>
+<li>Display related performers using webservice from last.fm</li>
+<li>Stream music from related performers</li>
+<li>Manage music using personal favorite lists</li>
+<li>Share favorites with other users</li>
+<li>Downsample (transcode) music in realtime to a lower bitrate using LAME</li>
+<li>Show what's playing right now and what's up next</li>
+<li>Themes, icons and several languages makes the 'look and feel' of AmpJuke a matter of personal preference</li>
+<li>Display lyrics for virtually any song in your collection</li>
+<li>Edit track-, performer- and/or album-information</li>
+<li>Automatically block IP-adresses that fails to authenticate a number of times</li>
+<li>Enabled self-registration of users</li>
+<li>...plus much, much more!</li>
+</ul>
+		</english-features>
+		<english-special_character>Spaces and Special characters are not allowed for Admin Password</english-special_character>
+	</languages>
+</soft>

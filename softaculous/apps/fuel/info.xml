@@ -1,0 +1,105 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/FuelPHP
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/FuelPHP
+	</ratings>
+	<space>
+		9404292
+	</space>
+	<support>
+		http://fuelphp.com/
+	</support>
+	<version>
+		1.8
+	</version>
+	<mod>12</mod>
+	<release_date>09-04-2016</release_date>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">FuelPHP</font> is a simple, flexible, community driven PHP 5.3+ framework, based on the best ideas of other frameworks, with a fresh start!
+		<br /><br />
+		 FuelPHP is a MVC (Model-View-Controller) framework that was designed from the ground up to have full support for HMVC as part of its architecture. FuelPHP is extremely portable, works on almost any server and prides itself on clean syntax. 
+		<br /><br />
+		FuelPHP is released under the <a href="http://fuelphp.com/docs/license.html" target="_blank">The MIT License</a>.
+		</english-overview>		
+		<english-features>
+		<font size="3" color="#8339E7">An (H)MVC framework</font>
+<p>
+	FuelPHP is a MVC (Model-View-Controller) framework that was designed from the ground up to have full support for HMVC as part of its architecture. But we didn't stop there, we also added ViewModels (also known as presentation models) into the mix which give you the option to add a powerfull layer between the Controller and the View. FuelPHP also supports a more router based approach where you might route directly to a closure which deals with the input uri, making the closure the controller and giving it control of further execution.</p>
+<ul>
+	<li>
+		Full HMVC implementation</li>
+	<li>
+		ViewModels to get the View-specific logic out of your Views and Controllers</li>
+	<li>
+		Route directly to closures</li>
+</ul>
+	<font size="3" color="#8339E7">Modular and extendable to a fault</font>
+<p>
+	Almost every class in FuelPHP's core package can be extended without you having to change a single line of code where it's used on extending the core). You can package more functionality into packages that extend or replace the FuelPHP core and you can keep your application modular by dividing it up into application modules. Packages and modules are also a great way to enable re-use of your code.</p>
+<ul>
+	<li>
+		Extend or replace Core classes without rewriting a single line of code.</li>
+	<li>
+		Package additional functionality into Packages.</li>
+	<li>
+		Create modular application by dividing it up into Application Modules.</li>
+</ul>
+	<font size="3" color="#8339E7">Security</font>
+<p>
+	Security concerns have been front and center from the beginning. Out-of-the-box FuelPHP's Views will encode all your output to make it secure and prevent XSS attacks. If you need to allow HTML through you can mark it as safe or have it cleaned by the default included HTMLawed. FuelPHP also supports CSRF prevention with tokens, input filtering and the Query Builder will assist you in preventing any SQL injection attacks. Several security features inside the framework use functionality offered by PHPSecLib. More about Security in FuelPHP can be read in the documentation.</p>
+<ul>
+	<li>
+		Input filtering</li>
+	<li>
+		URI filtering</li>
+	<li>
+		XSS filtering</li>
+	<li>
+		Output encoding</li>
+	<li>
+		CSRF token protection</li>
+	<li>
+		SQL injection prevention</li>
+</ul>
+	<font size="3" color="#8339E7">Oil: the power of the command line</font>
+<p>
+	FuelPHP leverages the power of the command line through a utility called "oil". The utility is designed to help speed up development, increase efficiency and assist testing and debugging while being entirely optional if you are not a fan of the terminal.</p>
+<ul>
+	<li>
+		Code generation, Scaffolding and Admin generation.</li>
+	<li>
+		Run Database Migrations.</li>
+	<li>
+		Interactive Debugging.</li>
+	<li>
+		Tasks - useful for cron type activities like importing data and other batch or background operations.</li>
+</ul>
+	<font size="3" color="#8339E7">Base classes for Controllers and Models</font>
+<p>
+	FuelPHP includes some base classes to give you a flying start.</p>
+<ul>
+	<li>
+		Controller_Template - Add simple page templating functionality to your controllers.</li>
+	<li>
+		Controller_Rest - An easy way to create a RESTful API.</li>
+	<li>
+		Controller_Hybrid - Combine the two features into a single controller.</li>
+	<li>
+		Model_Crud - Provides all methods for CRUD operations on a single table.</li>
+</ul>
+	</english-features>
+	</languages>
+</soft>

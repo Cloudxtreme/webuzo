@@ -1,0 +1,19 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>www/upgrade.php</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>www/.htaccess</exclude>
+		<exclude>config/my.php</exclude>
+		<exclude>www/data/</exclude>
+		<exclude>www/data/*</exclude>
+		<exclude>www/data/*/*</exclude>
+		<exclude>www/data/*/*/*</exclude>
+		<exclude>www/data/*/*/*/*</exclude>
+	</files>
+</softupgrade>

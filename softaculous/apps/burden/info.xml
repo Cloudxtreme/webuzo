@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Burden
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Burden
+	</ratings>
+	<space>
+		1019357
+	</space>
+	<support>
+		https://github.com/joshf/Burden
+	</support>
+	<version>
+	   3.0
+	</version>
+	<mod>1</mod>
+	<release_date>19-02-2015</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+ 	<languages>
+	<english-overview>
+	<font size="5" color="#182e7a">Burden</font> is a full featured task management app written in PHP. The script provides an easy way to add, edit or delete tasks.<br /><br />
+	Tasks are highlighted in different colours depending on their importance and whether or not they are overdue. Each task can also be marked as completed or incomplete. Full sorting and task searching is also included.<br /><br />
+ 	Burden is released under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+	</english-overview>		
+	<english-features>
+		<ul>
+		<li>Tasks can be added via cURL.</li>
+		<li>Tasks can be marked as important to highlight critical tasks.</li>
+		<li>Overdue tasks are highlighted clearly.</li>
+		<li>Tasks can be sorted into categories.</li>
+		<li>Variety of sorting options.</li>
+		<li>Works well on mobile devices due to a responsive layout.</li>
+		<li>Beautiful notifications system thanks to Bootstrap Notify.</li>
+		</ul>
+	</english-features>
+	</languages>
+</soft>

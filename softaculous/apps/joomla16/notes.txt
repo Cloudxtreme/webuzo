@@ -1,0 +1,34 @@
+1. Add [[language]] in SQL.
+2. If new language need to add then have to add its entry in install.php in __install()
+3. Language Pack : http://community.joomla.org/translations/joomla-16-translations.html
+4. Put the language packs in the /language folder i.e. admin_[[language]].zip and site_[[language]].zip
+7. Choose MySQLi driver and not MySQL
+8. Do not install with sample data. Use joomla sample data sql and change dbprefix. Also, check that truncate extention and language table should not be there in sample data sql because we add languge in extension table
+9. USING BTREE in the SQL file should be before the field name it should be this :
+  KEY `idx_usergroup_nested_set_lookup` USING BTREE (`lft`,`rgt`)
+and not this:
+  KEY `idx_usergroup_nested_set_lookup` (`lft`,`rgt`) USING BTREE
+10. Add as many languages as you can in the next update.
+11. Check in the Admin Panel -> Site -> System Information -> Directory Permissions for "Writeable permissions" on apache server.
+
+12. Languages not updated :
+
+					<option value="zh-CN">Chinese</option>
+					<option value="ru-RU">Russian</option>
+					<option value="de-DE">German</option>
+					<option value="fa-IR">Persian</option>
+					<option value="pl-PL">Polish</option>
+					<option value="es-ES">Spanish</option>
+					<option value="pt-PT">Portuguese</option>
+					<option value="pt-BR">Portuguese (Brazil)</option>
+					<option value="ar-AA">Arabic</option>
+					<option value="el-GR">Greek</option>
+					<option value="ko-KR">Korean</option>
+					<option value="nb-NO">Norwegian</option>
+					<option value="sv-SE">Swedish</option>
+					<option value="th-TH">Thai</option>
+					<option value="tr-TR">Turkish</option>
+					<option value="he-IL">Hebrew</option>
+					
+13. Make script where Database ENGINE is InnoDB
+14. If you get error while upgrading for deleting some files, then check "administrator/components/com_admin/script.php" file for list of files to be deleted and add them in upgrade.php.

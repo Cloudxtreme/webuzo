@@ -1,0 +1,11 @@
+** Dump SQL at login page only **
+
+1) Use MYSQLI
+2) Delete tables ending with 'archive_blob_2010_03', 'archive_numeric_2010_03' (If any)
+3) Add this in SQL 
+INSERT INTO `[[dbprefix]]user_language` VALUES('[[admin_username]]', '[[language]]', 0); {add 0 for "use_12_hour_clock" that's the default value} from 2.16.0 in last Language table
+4) Choose Timezone America/New york
+5) Choose Not an Ecommerce site
+6) We have added a CRON Job for the script because it requires if there is huge data for the site.
+7) Make script where Database ENGINE is InnoDB
+8) make changes in upgrade.php if script ask for writable permission for config file.

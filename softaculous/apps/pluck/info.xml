@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Pluck
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Pluck
+	</ratings>
+	<space>
+		4459711
+	</space>
+	<support>
+		http://www.pluck-cms.org
+	</support>
+	<version>
+		4.7.3
+	</version>
+	<mod>3</mod>
+	<release_date>08-12-2014</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Pluck</font> is your small and simple content management system, written in php. With pluck, you can easily manage your own website without knowledge of programming languages.
+		<br /><br />
+		Pluck focuses on ease of use and enables everyone to manage his own website. This makes pluck an excellent choice for every small website.<br /><br />
+		Pluck is available under the terms of the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#1281B6"><b>Pluck is packed with some nice features, from which we've listed the most important ones on this page</b></font><br /><br />
+<ul><font size="2">
+<li>create an unlimited amount of pages</li>
+<li>create your own blog</li>
+<li>automatic sitemap generations;</li>
+<li>create an album to show images or photos to your visitors</li>
+<li>include a contact form in your page(s)</li>
+</font></ul>
+		</english-features>
+	</languages>
+</soft>

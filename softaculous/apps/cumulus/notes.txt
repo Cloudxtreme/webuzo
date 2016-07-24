@@ -1,0 +1,4 @@
+while manual installation provide this path as ftp path:
+/public_html/.../.../...
+
+Remove ftp details from config file

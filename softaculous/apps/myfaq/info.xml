@@ -1,0 +1,126 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpMyFAQ
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/phpMyFAQ
+	</ratings>
+	<space>
+		21165434
+	</space>
+	<support>
+		http://www.phpmyfaq.de/
+	</support>
+	<version>
+		2.9.1
+	</version>
+	<mod>58</mod>
+	<release_date>31-05-2016</release_date>
+	<admin>admin</admin>
+	<min_require>2.5</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="xmlwriter" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="filter" />
+	<requirement check="php" type="extension" name="fileinfo" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpMyFAQ</font> is an open source FAQ system using PHP.
+		<br /><br />
+		phpMyFAQ is a multilingual, completely database-driven FAQ-system. It supports various databases to store all data, PHP 5.3.3 (or higher) is needed in order to access this data. phpMyFAQ also offers a multi-language Content Management-System with a WYSIWYG editor and an Image Manager, flexible multi-user support with user and group based permissions on categories and records, a wiki-like revision feature, a news system, user-tracking, language modules, enhanced automatic content negotiation, templates, extensive XML-support, PDF-support, a backup-system, a dynamic site map, related articles, tagging, RSS feeds, built-in spam protection systems, LDAP support, Twitter and Facebook support and an easy to use installation script.
+		<br /><br />
+		phpMyFAQ is released under the <a href="http://www.phpmyfaq.de/license.php" target="_blank">Mozilla Public License Version 2.0</a>
+		</english-overview>		
+		<english-features>
+<ul>
+	<li>		
+	<font size="2" color="#1281B6"><b>Various supported database systems</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Content Management System</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>User and group based permissions</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>LDAP and HTTP authentication with Single Sign On support</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Active Directory support</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Social networks</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Revision system</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Community modules</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>FAQ statistics</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Backup and Restore</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Templating system</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Powerful search</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>OpenSearch support</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>User comments</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Smart answering</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Easy to use HTML editor</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Multilanguage support</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Most popular FAQs, latest FAQs, and sticky FAQs</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Browse by Category or Tags</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Search engine optimization</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Extended sitemap support</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Simple installation and configuration</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Exports your FAQ</b></font><br /><br />
+	</li>
+	<li>		
+	<font size="2" color="#1281B6"><b>Advanced spam protection</b></font><br /><br />
+	</li>
+	
+</ul>
+
+		</english-features>
+	</languages>
+</soft>

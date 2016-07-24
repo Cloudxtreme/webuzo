@@ -1,0 +1,2 @@
+1. Make jszip.zip from original dist/jszip.js by renaming jszip.min.js to jszip.js
+2. Make package.zip from root

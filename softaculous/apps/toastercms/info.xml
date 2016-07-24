@@ -1,0 +1,74 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SeoToaster_CMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/SeoToaster_CMS
+	</ratings>
+	<space>
+		58750601
+	</space>
+	<support>
+		http://forum.seotoaster.com/
+	</support>
+	<version>
+		2.5.0
+	</version>
+	<mod>5</mod>
+	<mod_files>1</mod_files>
+	<release_date>01-03-2016</release_date>
+	<admin>go</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="zip" /> 
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="json" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SeoToaster CMS</font> is the most advanced SEO &amp; marketing website building &amp; management system that can be used right out of the box, with no plug-ins required. SeoToaster combines in one package a full blown CMS, but also a private area membership system, a blog that complies with Google News &amp; Yahoo News requirements, and a responsive mobile wireframe for building websites.<br /><br />
+		 SeoToaster CMS features a uniquely intuitive content management system interface, combined with powerful automated marketing such as web-to-call, automated SMS and email marketing.  
+		<br /><br />
+		SeoToaster CMS is released under <a href="http://www.seotoaster.com/seotoaster-license.html" target="_blank">GENERAL PUBLIC LICENSE V3</a>.
+		</english-overview>			
+		<english-features>
+		<b>Innovative Features for Everyone :</b><br/><br/>
+		
+<strong><font size="2" color="#215A93">Simplified yet powerful website edition</font></strong> : <br /> Click and edit content right on your web pages. Your content is saved automatically.<br /><br />
+
+<strong><font size="2" color="#215A93">Integrated membership system</font></strong> :<br /> Protect access to private information in 1 click. Great for non-profit &amp; membership organizations.<br /><br />
+
+<strong><font size="2" color="#215A93">Integrated blog system</font></strong> :<br /> SeoToaster helps you get your site featured in Yahoo news &amp; Google news by meeting all technical requirements.<br /><br />
+
+<strong><font size="2" color="#215A93">Native SEO, Mobile, Local &amp; Social functions</font></strong> :<br /> SeoToaster generates geo-localization file for mobile &amp; local search, and let you publish your updates to Twitter, LinkedIn and Facebook wall &amp; pages in 1 click.<br /><br />
+
+<strong><font size="2" color="#215A93">Built-in tripwire web form protections</font></strong> : <br /> to prevent bots to spam your email without interfering with conversion objectives, as sometimes Recaptcha does. <br /><br />
+
+<strong><font size="2" color="#215A93">Connected &amp; social</font></strong> :<br /> Automated Google webmaster tools, real-time analytics, brand monitoring &amp; social network marketing with a free cloud based SeoSamba account. <br /><br />
+
+<strong><font size="2" color="#215A93">Centralized management for multi-websites owners</font></strong> :<br /> Manage &amp; automate SEO, social networking and online marketing across any number of websites through a centralized interface. <br /><br />
+
+<strong><font size="2" color="#215A93">Mobile responsive wireframe</font></strong> :<br />The ultimate tool to streamline responsive website building with SeoToaster for web designers &amp; web developers. <br /><br />
+
+<strong><font size="2" color="#215A93">Strict W3C compliance</font></strong> :<br /> Get maximum website performance with search engines as SeoToaster and all marketplace vetted plug-ins produce strictly W3C-compliant code. <br /><br />
+
+<strong><font size="2" color="#215A93">APPS</font></strong> :<br /> A cloud-based service that connect web forms with functionalities such as email marketing. An entirely new way to add functionalities from the cloud and switch services provider with no plug-in tinkering. <br /><br />
+
+<strong><font size="2" color="#215A93">Built-in media servers</font></strong> :<br /> providing up to five-times faster web serving leveraging modern web browser parallel download capabilities. <br /><br />
+
+<strong><font size="2" color="#215A93">Specialized inline editor types</font></strong> :<br /> Build unbreakable website themes by defining website areas functions (imageonly, textonly, videonly etc…). Great to minimize headaches and support calls. <br /><br />
+
+		</english-features>
+		<english-special_character>Spaces and Special characters are not allowed for</english-special_character>
+	</languages>
+</soft>

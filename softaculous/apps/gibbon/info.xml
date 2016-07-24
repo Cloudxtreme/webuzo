@@ -1,0 +1,77 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Gibbon
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/Gibbon
+	</ratings>
+	<space>
+		108968215
+	</space>
+	<support>
+		http://forum.gibbonedu.org/
+	</support>
+	<version>
+		11.0.00
+	</version>
+	<mod>6</mod>
+	<release_date>20-01-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.0.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="gettext" />
+	<requirement check="php" type="extension" name="curl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Gibbon</font> is free, open source software: its flexible design gives schools complete control and freedom.
+		<br /><br />
+		Gibbon collates student information, helping teachers to understand, contact, find and help their students. It allows teachers to plan, teach, collect, assess and return work in one streamlined process. It is built by teachers, with the primary purpose of aiming to solve problems common to all schools.
+		<br /><br />
+		Gibbon is released under the <a href="https://gibbonedu.org/license/" target="_blank">GNU GENERAL PUBLIC LICENSE Version 3</a>.
+		</english-overview>		
+		<english-features>
+<font color="#74748D"><u><h2>Learning</h2></u></font>
+<b><i><font size="2" color="#74748D">Planner </font></i></b><br/>
+Use Smart Units to cut your planning time in half (based on anecdotal evidence). Plan lessons using rich multimedia and share them with students and parents. Incorporate lessons into units and automatically aggregate details through Departments. Assign homework, collect student work online and then tie it to a Markbook for grading. Create outcomes and assign them to units, allowing for curriculum mapping. Invite participants to peer assess each others' work through Crowd Assessment. Allow Guests to come in and view or take lessons. Take class attendance, and compare it to school attendance. Make notes on what worked and what can be improved. Students can like lessons, allowing teachers to earn gold stars and discover which lessons and popular and which are not.<br/><br/>
+<b><i><font size="2" color="#74748D">Resources </font></i></b><br/>
+Find, catalog and share resources within a single school-wide database. View resources as you find them, or insert resources directly into lesson plans, using HTML to create rich lesson plans. Organise resources using category, purpose, tags and year groups.<br/><br/>
+<b><i><font size="2" color="#74748D">Timetable </font></i></b><br/>
+Display individual timetables for any student or teacher. Quickly find where people are, and the phone number of the room they are in. Link to school and personal Google Calendars, and display as dynamic overlay to see all events in one place. User the Planner to create lesson plans for any class.<br/><br/>
+<b><i><font size="2" color="#74748D">Activities </font></i></b><br/>
+Create a listing for a school activities program and allow students to view and sign up online. Manage applications on first come, first serve basis or by manual selection. Generate attendees lists and attendance registers for (great for off-site activities).<br/><br/>
+<font color="#74748D"><u><h2>Assessment</h2></u></font>
+<b><i><font size="2" color="#74748D">Markbook </font></i></b><br/>
+Continuously record and report on academic data across all subjects and choose to make it available to the students and their parents. Empower teachers with longitudinal academic data across all subjects, available in a single view. Integrate with the Planner to quickly view and mark student work submissions. Upload responses to students in terms of marked work, rubrics or voice recordings.<br/><br/>
+<b><i><font size="2" color="#74748D">Rubrics </font></i></b><br/>
+Create interactive, clickable rubrics and track student progress over time. Use outcomes from the Planner, and start tracking performance across a cohort or the whole school.<br/><br/>
+<b><i><font size="2" color="#74748D">Crowd Assessment </font></i></b><br/>
+Allow student work to be shared to flexible sets of users, who can view, like and discuss the work. Use this to enable peer assessment or cast your net wider to a whole crowd. Students who have their work "liked" by others earn gold stars, which can be used as an incentive.<br/><br/>
+<font color="#74748D"><u><h2>People</h2></u></font>
+<b><i><font size="2" color="#74748D">Application Form </font></i></b><br/>
+Allow members of the public to apply for school places online. Manage a priority-based queue of applications, and reject and accept applicants at any time. Automatically create user accounts and family links for accepted students and their parents, including assignment of usernames and passwords.<br/><br/>
+<b><i><font size="2" color="#74748D">Attendance </font></i></b><br/>
+Take school attendance for form groups or individual students. Quickly see a student's recent or full history to establish patterns of absence. Set future absences to make morning attendance faster. Generate school absence reports for emergency evacuation use. Allow parents to view attendance data, allowing closer monitoring of truancy.<br/><br/>
+<b><i><font size="2" color="#74748D">Behaviour </font></i></b><br/>
+Create notes outlining both positive and negative student behaviour. Describe behaviour with school generated descriptor and severity lists, along with individual comments. View notes by roll group or individual student. Roll group tutors see summary of recent activity on their homepage. Students receive gold star incentives for positive behaviour, and can view when, why and by whom they were deemed meritorious.<br/><br/>
+		</english-features>
+		<english-password_check>Password must contain at least one lowercase letter, and one uppercase letter. Contain at least one number. Must be at least 8 characters in length.</english-password_check>
+		<english-primary_assessment_scale></english-primary_assessment_scale>
+		<english-title>Title</english-title>
+		<english-s_name>Surname</english-s_name>
+		<english-f_name>First Name</english-f_name>
+		<english-system_name>System Name</english-system_name>
+		<english-organisation_name>Organisation Name</english-organisation_name>
+		<english-organisation_initials>Organisation Initials</english-organisation_initials>
+		<english-primary_assessment_scale>Primary Assessment Scale</english-primary_assessment_scale>
+	</languages>
+</soft>

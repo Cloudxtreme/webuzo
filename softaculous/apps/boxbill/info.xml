@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/BoxBilling
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/BoxBilling
+	</ratings>
+	<space>
+		30140012
+	</space>
+	<support>
+		http://www.boxbilling.com/forum
+	</support>
+	<version>
+		4.20
+	</version>
+	<mod>11</mod>
+	<mod_files>1</mod_files>
+	<release_date>23-09-2015</release_date>
+	<admin>bb-admin/staff/login</admin>
+	<min_require>4.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="gettext" />
+	<requirement check="php" type="extension" name="pdo" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">BoxBilling</font> New generation free billing software!
+		<br /><br />Complete client management, billing &amp; support software. BoxBilling is free and will always be free!
+		<br /><br />You can sell any product imaginable - web hosting, software licenses, servers, downloadable products and setup any custom products.
+		<br /><br />BoxBilling is released under the <a href="http://www.boxbilling.com/LICENSE.txt" target="_blank">Public License version 1.0</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#1281B6"><b>BoxBilling is a free billing &amp; client management software</b></font><br />
+<ul>
+<li>Great clients experience and intuitive interface</li>
+<li>Easy to use client area!</li>
+<li>Manage your client base</li>
+<li>Bill and invoice automatically</li>
+<li>Offer multiple payment gateways</li>
+<li>Offer subscriptions billing</li>
+<li>Powerful API</li>
+<li>Supports automated billing, invoicing, product provisioning</li>
+<li>Automatically create hosting accounts as soon as the payment is received</li>
+<li>Suspend when account becomes overdue, terminate when a specified amount of time passes.</li>
+<li>Enable multiple currencies, accept one time and recurring payments</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

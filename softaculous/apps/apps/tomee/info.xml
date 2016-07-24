@@ -1,0 +1,92 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_containers/Apach_TomEE_Plus
+	</ratings>
+	<space>
+		51536528
+	</space>
+	<support>
+		http://tomee.apache.org/support.html
+	</support>
+	<version>
+		1.7.2
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>01-05-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/tomee</path>
+	<path name="bin">/usr/local/apps/tomee/bin/catalina.sh</path>	
+	
+	<extract file="tomee-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/tomee</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache TomEE Plus Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/tomee</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/tomee/bin/catalina.sh</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://tomee.apache.org/documentation.html</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache TomEE Plus </font>has all the features of TomEE with the addition of JAX-RS, JAX-WS, JMS and the Java Connector Architecture. The additional functionality is delivered via Apache CXF, Apache ActiveMQ and the Geronimo Connector library<br /><br />
+		<br /><br />
+		Apache TomEE Plus is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li><strong>CDI</strong> - Apache OpenWebBeans</li>
+				<li><strong>EJB</strong> - Apache OpenEJB</li>
+				<li><strong>JPA</strong> - Apache OpenJPA</li>
+				<li><strong>JSF</strong> - Apache MyFaces</li>
+				<li><strong>JSP</strong> - Apache Tomcat</li>
+				<li><strong>JSTL</strong> - Apache Tomcat</li>
+				<li><strong>JTA</strong> - Apache Geronimo Transaction</li>
+				<li><strong>Servlet</strong> - Apache Tomcat</li>
+				<li><strong>Javamail</strong> - Apache Geronimo JavaMail</li>
+				<li><strong>Bean Validation</strong> - Apache BVal</li>
+				<li><strong>JAX-RS</strong> - Apache CXF</li>
+				<li><strong>JAX-WS</strong> - Apache CXF</li>
+				<li><strong>JMS</strong> - Apache ActiveMQ</li>
+				<li><strong>Connector</strong> - Apache Geronimo Connector</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,43 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_realname" size="30" value="Administrator">
+				<head>{{real_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en_GB">English</option>
+					<option value="de_DE">German</option>
+					<option value="es_ES">Spanish</option>
+					<option value="fi_FI">Finnish</option>
+					<option value="fr_FR">French</option>
+					<option value="it_IT">Italian</option>
+					<option value="nl_NL">Dutch</option>
+					<option value="ru_RU">Russian</option>
+					<option value="hu_HU">Hungarian</option>
+					<option value="pt_PT">Portuguese</option>
+					<option value="nb_NO">Norwegian Bokmål</option>
+					<option value="id_ID">Indonesian</option>
+					<option value="cs_CZ">Czech</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+</softinstall>

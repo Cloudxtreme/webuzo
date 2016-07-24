@@ -1,0 +1,115 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/version_control/CVS
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://cvs.nongnu.org
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/bin/cvs</path>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">CVS Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/bin/cvs</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CVS</font> is a version control system, an important component of Source Configuration Management (SCM). Using it, you can record the history of sources files, and documents. 
+		<br /><br />
+		CVS is distributed under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU GPL License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+
+				<li> 
+				
+					It can run scripts which you can supply to log <small>CVS</small> operations or enforce 
+					site-specific polices. 
+				
+				</li>
+				<li> 
+				
+					<strong>Client/server <small>CVS</small></strong> enables developers scattered by geography or slow
+					modems to function as a single team.  The version history is stored on
+					a single central server and the client machines have a copy of all the
+					files that the developers are working on.  Therefore, the network
+					between the client and the server must be up to perform <small>CVS</small> operations
+					(such as checkins or updates) but need not be up to edit or manipulate the
+					current versions of the files.  Clients can perform all the same
+					operations which
+					are available locally.
+				
+				</li>
+				<li>
+				
+					In cases where several developers or teams want to each maintain
+					their own version of the files, because of geography and/or policy,
+					<small>CVS</small>'s <strong>vendor branches</strong> can import a version from another team
+					(even if they don't use <small>CVS</small>), and then <small>CVS</small> can merge the changes from
+					the vendor branch with the latest files if that is what is desired.
+					
+				</li>
+				<li>
+				
+					<strong>Unreserved checkouts</strong>, allowing more than one developer to work on
+					the same files at the same time.
+					
+				</li>
+				<li>
+				
+					<small>CVS</small> provides a flexible <strong>modules database</strong> that provides a symbolic
+					mapping of names to components of a larger software distribution.  It
+					applies names to collections of directories and files.  A single
+					command can manipulate the entire collection.
+				
+				</li>
+				<li> 
+				
+					<small>CVS</small> servers run on most unix variants, and clients for Windows
+					NT/95, OS/2 and VMS are also available.  <small>CVS</small> will also operate
+					in what is sometimes called server mode against local repositories on Windows
+					95/NT. 
+				
+				</li>
+				</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,45 @@
+=======================
+Installation Procedure:
+=======================
+
+Step 1 : Download files
+-----------------------
+- Download letoDMS files here : http://sourceforge.net/projects/mydms/fi...S%203.2.0/
+- Download ADOdb files here : http://adodb.sourceforge.net/
+- Download LOG files here : http://pear.php.net/package/Log/download/All
+
+
+Step 2 : Files Installation
+---------------------------
+- ungzip and untar LetoDMS-3.2.0.tar.gz in <rootdir>
+- ungzip and untar LetoDMS_Core-3.2.0.tgz in <rootdir>/LetoDMS_Core
+=> you must have <rootdir>/LetoDMS_Core/Core.php
+- ungzip and untar adodbxxx.tgz in <rootdir>/adodb
+- ungzip and untar Logxxx.tgz in <rootdir>/LetoDMS_Core
+=> you must have <rootdir>/LetoDMS_Core/Log/Log.php
+
+Step 3 : Configuration
+----------------------
+- copy <rootdir>/conf/settings.xml.template to <rootdir>/conf/settings.xml
+- edit settings.xml file, search <database TAG and change value :
+-> dbDriver = "_DBC_DBTYPE_" ==> mysql
+- create file <rootdir>/conf/ENABLE_INSTALL_TOOL
+- launch <rootdir>/install/install.php
+- set values
+- Delete file ENABLE_INSTALL_TOOL if possible
+- Edit file : inc/inc.LogInit.php and replace
+include("Log.php");
+=>
+include("<rootdir>/LetoDMS_Core/Log/Log.php");
+
+- Edit LetoDMS_Core/Core/inc.DBAccess.php
+require_once "adodb/adodb.inc.php";
+=>
+include("<rootdir>/adodb/adodb.inc.php");
+
+
+NOTE : LetoDMS requires Zend framework for Lucene Search. So you need to download the Zend framework here :
+http://www.zend.com/en/community/downloads
+Download the 1.12.x minimal build as the latest vesion i.e. 2.x does not include the search part.
+Go to /ZendFramework-1.12.1/library/ copy Zend folder to Leto root folder and make leto.zip
+No need to include_path in php.ini bcoz letoDMS makes its root directory as include_path

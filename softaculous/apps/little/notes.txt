@@ -1,0 +1,1 @@
+1. Add index.php,lp_test.php and lp_silly.php from previous package. If required then Make the changes in this files.

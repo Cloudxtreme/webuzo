@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Wolf_CMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Wolf_CMS
+	</ratings>
+	<space>
+		3181513
+	</space>
+	<support>
+		https://www.wolfcms.org/forum/
+	</support>
+	<version>
+		0.8.3.1
+	</version>
+	<mod>1</mod>
+	<release_date>10-08-2015</release_date>
+	<admin>?/admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="pdo" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Wolf CMS</font> simplifies content management by offering an elegant user interface, flexible templating per page, simple user management and permissions, as well as the tools necessary for file management.
+		<br /><br />
+		Wolf CMS is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL version 3</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li><b>Unlimited hierarchically structured page navigation menu</b><br/>
+			The page navigation menu provides critical information and functions. It allows you to quickly perform common actions on pages and shows how information has been organized.</li>
+			<li><b>Drag and drop page ordering</b><br/>
+			This function simplifies the organization of your site’s pages. It makes new sorting arrangements of pages possible.</li>
+			<li><b>Flexible page content: body, sidebar, extended, summary</b><br/>
+			Each page can have its own customized parts (divisions). It can be ‘extended’ text for news, or ‘summary’ for article: you can define whatever you want, whenever you want. These can even be used for extended metadata fields.</li>
+			<li><b>Per page layout customization</b><br/>
+			Pages can have their own layout, or can inherit the layout of the parent page, or they can reuse another page layout. This allows the site owner to make every page look exactly as desired.</li>
+			<li><b>Simple and reusable content snippets</b><br/>
+			You can define ‘snippets’: small pieces of content used across several pages, like page headers or footers, or contact info, etc. This means less cut-and-paste text in your pages. This will reduce your modification time when you need to add, remove or change the text in it.</li>
+			<li><b>Password protected administration</b></li>
+			<li><b>Simple user and permission  management</b></li>
+			<li><b>File manager (plugin) allows you to upload, browse and edit files</b></li>
+		</ul>	
+		</english-features>
+	</languages>
+</soft>

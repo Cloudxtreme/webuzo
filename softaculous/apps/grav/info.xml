@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/GRAV
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/GRAV
+	</ratings>
+	<space>
+		13768239
+	</space>
+	<support>
+		http://getgrav.org/forum
+	</support>
+	<version>
+	   1.0.10
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<release_date>11-02-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.9" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="openssl" />
+ 	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Grav</font> is a Fast, Simple, and Flexible file-based Web-platform. Although Grav follows principles similar to other flat-file CMS platforms, it has a different design philosophy than most. The underlying architecture of Grav is built using well established and best-in-class technologies. 
+		<br /><br />
+		Grav is released under the <a href="https://github.com/getgrav/grav/blob/develop/LICENSE.txt" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li><b>Fast</b> : Performance is not just an afterthought, we baked it in from the start</li>
+	<li><b>Extensible</b> : Grav has a powerful API and sophisticated Package Manager to make it super flexible</li>
+	<li><b>Enjoyable Content Creation</b> : Use your favorite Markdown editor to create your content online or offline</li>
+	<li><b>Stellar Performance</b> : Grav intelligently caches content to deliver great performance, regardless of hosting</li>
+	<li><b>Powerful Content Filtering</b> : Create unlimited taxonomies such as tags, categories, and authors to filter and manage your content</li>
+	<li><b>Dynamic Content Types</b> : The flat-file nature of Grav lets you define custom fields for any of your pages, including modular content</li>
+	<li><b>Simple Backups and Restores</b> : Being file based means backing up and restoring your data is super easy, and changing hosts/servers is a breeze</li>
+	<li><b>Image Media Processing</b> : Dynamic image manipulation to resize, crop, resample, and effects all with automatic caching of images</li>
+	<li><b>Easy Theme Customization</b> : No need to start from scratch, use Theme Inheritance and then modify the bits you need, allowing for easier update</li>
+</ul>
+		</english-features>
+			<english-err_alphanumpass8>Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters</english-err_alphanumpass8>
+			<english-err_username>Username requires only lowercase chars, numbers, underscore and dash.</english-err_username>
+	</languages>
+</soft>

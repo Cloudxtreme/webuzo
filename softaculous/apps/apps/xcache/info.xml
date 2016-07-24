@@ -1,0 +1,82 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/modules/Xcache
+	</ratings>
+	<space>
+		11468
+	</space>
+	<support>
+		http://xcache.lighttpd.net/#GettingSupport
+	</support>
+	<version>
+		3.1.0
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>10-10-2013</release_date>
+	
+	<path name="53so">/usr/local/apps/php53/ext/xcache.so</path>
+	<path name="54so">/usr/local/apps/php54/ext/xcache.so</path>
+	<path name="55so">/usr/local/apps/php55/ext/xcache.so</path>
+	
+	<extract file="xcache-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Xcache Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://xcache.lighttpd.net/wiki/DocTOC</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">XCache</font> is a fast, stable ​PHP opcode cacher that has been proven and is now running on production servers under high load. 
+		<br /><br />
+		xcache is distributed under the <a href="http://xcache.lighttpd.net/browser/trunk/COPYING" target="_blank">Xcache License </a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Optimized opcode cache.</li>
+				<li>Using a generator to produce C code, reduces human mistake greatly.</li>
+				<li>Running stable on PHP_4_3/PHP_4_4/PHP_5_1/PHP_5_2</li>
+				<li>Supported and tested on all lastest php cvs branches, such as PHP_4_3 PHP_4_4 <del>PHP_5_0</del> PHP_5_1 PHP_5_2 HEAD (6.x)</li>
+				<li>Alpha supported for in-alpha-php6, with unicode enabled.</li>
+				<li>Readonly Cacher Protection that prevents the cache from being corrupted by php-core/extension or any code other than XCache itself.</li>
+				<li>Atomic get/set/inc/dec api operation on var cache for php programmers.</li>
+				<li>XCache Uptime statistics collector (enabled by server admin), shows you how stable each XCache version is on each php version.</li>
+				<li>Self sanity test at build time, discover C struct changes within the php script engine. catch up with new php version easier. see a real life example</li>
+				<li>Automatically disables itself if the cache is corrupted </li>
+				<li>Optimizer</li>
+				<li>Disassembler. See how your php script is compiled into opcode.</li>
+				<li>Decompiler. decompile opcode into php code.</li>
+				<li>Coverager + real life testcase framework,</li>
+				<li>real life testcase framework, a control script with real browser. you have to write the test cases.</li>
+				<li>builtin Coverager + its viewer from web, to see how much script you have tested.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

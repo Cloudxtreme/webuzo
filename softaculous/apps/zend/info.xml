@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Zend
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/Zend
+	</ratings>
+	<space>
+		10054598
+	</space>
+	<support>
+		http://framework.zend.com/
+	</support>
+	<version>
+		2.4.9
+	</version>
+	<mod>49</mod>
+	<release_date>23-11-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Zend Framework</font> is based on simplicity, object-oriented best practices, corporate friendly licensing, and a rigorously tested agile codebase.
+		<br /><br />
+		Zend Framework is focused on building more secure, reliable, and modern Web 2.0 applications and web services, and consuming widely available APIs from leading vendors like Google, Amazon, Yahoo!, Flickr, as well as API providers and cataloguers like StrikeIron and ProgrammableWeb.
+		<br /><br />
+		ZendFramework is released under the <a href="http://framework.zend.com/license" target="_blank">BSD LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Extreme Simplicity and Productivity</li>
+<li>Object-oriented best practices</li>
+<li>Corporate friendly licensing</li>
+<li>Rigorously tested agile codebase</li>
+<li>Secure</li>
+<li>Reliable</li>
+<li>AJAX support through JSON</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

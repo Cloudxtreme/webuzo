@@ -1,0 +1,69 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/RainLoop_Webmail
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/RainLoop_Webmail
+	</ratings>
+	<space>
+		14477234 
+	</space>
+	<support>
+		http://www.rainloop.net
+	</support>
+	<version>
+		1.10.0.107
+	</version>
+	<mod>4</mod>
+	<release_date>16-05-2016</release_date>
+	<admin>?admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="libxml" />
+	<requirement check="php" type="extension" name="dom" />
+	<requirement check="php" type="extension" name="openssl" />
+	<requirement check="php" type="extension" name="date" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">RainLoop webmail</font> Simple, modern &amp; fast web-based email client.<br />
+		RainLoop webmail was designed with efficient memory use in mind, so it can work fine even on low-end web servers.<br />Regardless of mailbox size and number of mails in it, memory use per active user is always kept at a minimum, even when very large mails are processed. 
+		<br /><br />
+		RainLoop Webmail (Community edition) is released under <a href="http://www.rainloop.net/licensing/" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE Version 3 (AGPLv3).</a>
+		</english-overview>
+		<english-features>
+		<ul>
+		<li>Modern user interface.</li>
+		<li>Complete support of IMAP and SMTP protocols including SSL and STARTTLS.</li>
+		<li>Sieve scripts (Filters and vacation message).</li>
+		<li>Minimalistic resources requirements.</li>
+		<li>Direct access to mail server is used (mails are not stored locally on web server).</li>
+		<li>Allows for adding multiple accounts to primary one, simultaneous access to different accounts in different browser tabs is supported. Additional identities.</li>
+		<li>Administrative panel for configuring main options.</li>
+		<li>Integration with Facebook, Google, Twitter and Dropbox.</li>
+		<li>Managing folders list.</li>
+		<li>Simple look'n'feel customization.</li>
+		<li>Configurable multi-level caching system.</li>
+		<li>Extending functionality with plugins installed through admin panel.</li>
+		<li>Perfect rendering of complex HTML mails.</li>
+		<li>Drag'n'drop for mails and attachments.</li>
+		<li>Keyboard shortcuts support.</li>
+		<li>Autocompletion of e-mail addresses.</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

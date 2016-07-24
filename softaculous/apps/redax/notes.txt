@@ -1,0 +1,4 @@
+1) download the "Lite" package.
+2) Download the Upgrade SQLs from download page and put it on "updates" folder. Also add [[dbprefix]] in the sql statements.
+3) As sql file changes in upgrade we need to make version changes into upgrade.php for sql_import
+4) We have disabled upgrade from 2.2.0 as we need to change config file. Please check if it is required in next version as well. If not required, then make min_require as 2.2.0.

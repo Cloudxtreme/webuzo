@@ -1,0 +1,1 @@
+1) extjs.zip is to be made from the /src/ folder in package.zip

@@ -1,0 +1,4 @@
+1. On first visit to installation via [[softurl]]/index.php it gives error messages. It is a bug in the script itself and happens in manual installation as well. Mentioned at https://support.chamilo.org/issues/4869
+2. Due to error we have disabled upgrade from 1.9 to 1.10. They have mentioned that upgrade will work from 1.10.2 so kidly enable and check upgrade from 1.9.x to 1.10.x. (upgrade is enabled from 1.10.2)
+3. Replace the following line in configuration.php and uncomment it.
+$_configuration['packager'] = 'chamilo'; to $_configuration['packager'] = 'Softaculous';

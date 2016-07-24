@@ -1,0 +1,7 @@
+1. Please make the zip from manual.
+2. Please export the soho.sql after login. It should contain "site_pages" table.
+3. Please delete the file sohoadmin/filebin/eula.lic from the manual while zipping
+4. Download the installer from here:
+http://www.soholaunch.com/Install_Soholaunch.php
+5. Get the link to download the package from here:
+http://update.securexfer.net/public_builds/build.conf.php

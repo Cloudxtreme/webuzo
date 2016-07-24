@@ -1,0 +1,73 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/version_control/Darcs
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://darcs.net/
+	</support>
+	<version>
+		2.8.0
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>28-12-2012</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/local/apps/darcs/darcs</path>
+	
+	<extract file="darcs-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/darcs</remove>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Darcs Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/darcs/darcs</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Darcs  </font>is a free and open source, cross-platform version control system, like git, mercurial or subversion but with a very different approach. Thanks to its focus on changes rather than snapshots, Darcs can offer a free way of working, and a simpler user interface. 
+		<br /><br />
+		Darcs is distributed under the <a href="https://gnu.org/licenses/gpl.html" target="_blank">GNU GPL License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li><strong>Offline mode</strong>. You can commit changes even if you're on the road with no access to the server. That's because your own working directory is a repository in its own right. When you get home, you do a <code>darcs push</code> to commit to the public server.</li>
+				<li><strong>Easy branching and merging</strong>. Every repository is a branch. There is no branch administration except pushing and pulling between repositories.</li>
+				<li><strong>Easy patch sending by e-mail</strong>. I want to add a feature or bugfix to an open-source project. I make a local Darcs copy, apply my changes, then send my changes by email (<code>darcs send</code>). The project's maintainer(s) can decide whether to accept or reject the changes. This way, the maintainer(s) of the main repository do not need to give commit privileges to anyone else. This is how Darcs itself is maintained, by the way.</li>
+				<li><strong>Parallel development</strong>. Let's say I follow the development of this open-source project, and I have some <code>controversial</code> patches that aren't accepted by the official maintainers. No problem – I make my changes, release my own distribution. It's a fork, of sorts, but it's still connected to the mainline. Whenever the official project makes changes, I do a <code>darcs pull</code> to get them, and resolve any conflicts. This way, my fork is kept up to date with the main project's repository.</li>
+				<li><strong>Cherry-picking</strong>. If you've ever worked on a team, you will know that somebody often has a change you want, but which can't be committed to the trunk yet. With Darcs you can grab just the one change by pulling it into your repository.</li>
+				<li><strong>Interactivity</strong>. When you record a patch, Darcs enables you to be precise and say "yes" or "no" to every change that you can include in your patch. Thus you can really create minimal patches, or separate your work in several patches, each one doing a consistent change. You can also tell Darcs to record everything in one patch by passing the <code>-a</code> flag to <code>darcs record</code>. Other commands, like <code>darcs pull</code> and <code>darcs push</code>, behave the same.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

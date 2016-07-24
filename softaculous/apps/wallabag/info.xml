@@ -1,0 +1,90 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/wallabag
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/wallabag
+	</ratings>
+	<space>
+		 14883320
+	</space>
+	<support>
+		https://www.wallabag.org/
+	</support>
+	<version>
+		1.9.2
+	</version>
+	<mod>11</mod>
+	<release_date>18-04-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="gettext" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="filter" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">wallabag</font> is a read-it later application. You can use it to save a link (including all content : text, images, videos). Moreover, you can manage all your saved link performing actions like tag, favorite, archive and for sure deletion!
+		<br /><br />
+		wallabag is licensed under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li> 
+		<font color="#1281B6"><b>wallabag is free and open source. Forever.</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>No time to read? Save a link in your wallabag to read it later</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Read the saved articles in a comfortable view: the content, only the content</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You save all the content: text and pictures</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You can easily migrate from others private services.</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You like an article? Share it by email, on twitter or in your shaarli</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Because we are increasingly mobile, wallabag fits all your devices</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Saving a link is so easy because we provide you many tools: extensions for Chrome and Firefox, iOS, Android and Windows Phone application, a bookmarklet, a simple field in your config webpage.</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You can set tags to your entries.</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>wallabag is multilingual: french, english, spanish, german, italian, russian, persian, czech, polish, ukrainian and slovienian.</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You’re not the only one at home to use wallabag? it’s good, wallabag is multi users</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You prefer a dark template? Perfect, many templates are available in the configuration screen</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Many storage allowed: sqlite, mysql and postgresql</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>Scroll position is saved: when you return on an article, you come back where you was. So convenient!</b></font><br />
+	</li>
+	<li> 
+		<font color="#1281B6"><b>You can flattr flattrable articles directly from your wallabag</b></font><br />
+	</li>
+</ul> 
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,14 @@
+.gitignore
+README.markdown
+assets
+favicon.ico
+index.php
+install
+license.txt
+login.php
+logout.php
+reset.php
+settings.php
+version.txt
+worker.php
+config.php

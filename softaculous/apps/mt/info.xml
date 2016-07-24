@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/MovableType
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/perl/blogs/MovableType
+	</ratings>
+	<space>
+		25707602
+	</space>
+	<support>
+		http://www.movabletype.org/
+	</support>
+	<version>
+		5.2.13
+	</version>
+	<mod>12</mod>
+	<release_date>15-04-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<index>index.cgi</index>
+	<admin>mt.cgi</admin>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Movable Type</font> is powerful enough for building websites, blogs, and communities on a single platform.<br /><br />
+		It's easier than ever to publish and share information with Movable Type.
+		<br /><br />Movable Type makes it simple to manage entire websites, start new blogs, and build an engaged community of readers and customers.
+		<br /><br />
+		Movable Type is licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+			<li>Single, unified software solution for building website and blogs</li>
+			<li>Enhanced CMS</li>
+			<li>New theme mechanism</li>
+			<li>Powerful Dashboard</li>
+			<li>Template Based Output</li>
+			<li>Asset Manager</li>
+			<li>Member Profiles</li>
+			<li>Simultaneous Registration and Commenting</li>
+			<li>Local Authentication &amp; OpenID Support</li>
+			<li>Member Registration and Authentication</li>
+			<li>Email Verification</li>
+			<li>Comment Control</li>
+			<li>Tags, Tag Search and Tag Clouds</li>
+			<li>Delegation of Blog Management</li>
+			<li>Administrator Control over Entry and Listing Screen Display Defaults</li>
+			<li>Multiblog Aggregation</li>
+			<li>Scalability</li>
+			<li>Rebuild Queue</li>
+			<li>TypePad AntiSpam</li>
+			<li>Live Documentation</li>
+		</ul>
+		</english-features>
+		<english-db_set>Database Settings</english-db_set>
+		<english-db_pre>Table Prefix</english-db_pre>
+		<english-site_set>Site Settings</english-site_set>
+		<english-site_name>Site Name</english-site_name>
+		<english-site_desc>Site Description</english-site_desc>
+		<english-ad_act>Admin Account</english-ad_act>
+		<english-ad_name>Admin Username</english-ad_name>
+		<english-ad_pass>Admin Password</english-ad_pass>
+		<english-f_name>First Name</english-f_name>
+		<english-l_name>Last Name</english-l_name>
+		<english-ad_email>Admin Email</english-ad_email>
+		<english-err_php>The PHP version is less than the required 4.3.0 version!</english-err_php>
+		<english-err_no_token>The token functions are not available!</english-err_no_token>
+		<english-err_mb>The MultiByte String functions are not available!</english-err_mb>
+		<english-err_openconfig>Could not open the Configuration File</english-err_openconfig>
+		<english-err_writeconfig>Could not write the Configuration File</english-err_writeconfig>
+		<english-err_selectmy>The MySQL Database could not be selected.</english-err_selectmy>
+		<english-err_myconn>The MySQL Connection could not be established.</english-err_myconn>
+		<english-err_wrongemail>The email address is not valid.</english-err_wrongemail>
+		<english-err_ademail>The email address is not valid.</english-err_ademail>
+		<english-ad_lang>Choose Language</english-ad_lang>
+		<english-select_lang>Select Language</english-select_lang>
+	</languages>
+</soft>

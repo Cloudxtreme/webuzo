@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Plogger
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/Plogger
+	</ratings>
+	<space>
+		1675326
+	</space>
+	<support>
+		http://www.plogger.org/
+	</support>
+	<version>
+		1.0
+	</version>
+	<mod>3</mod>
+	<admin>plog-admin/index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Plogger</font> is the next generation in open-source photo gallery systems. A web application not bloated with superfluous features or complicated configuration settings. 
+		<br /><br />
+		Plogger is a simple yet powerful tool — everything you need to share your images with the world. Plogger is your photos integrated into your website, a fully featured photo sharing package with an attractive and easy to use administrative interface that makes managing your galleries a breeze.
+		<br /><br />
+		Plogger is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Smart Content</li>
+<li>Extensions / Plugins</li>
+<li>Better SEO</li>
+<li>Extended International Support</li>
+<li>More Options</li>
+<li>Security</li>
+<li>Build your Own Themes</li>
+<li>Plogger XML Service</li>
+<li>Description fields for pictures</li>
+<li>Easy Gallery Creation</li>
+<li>Automatic Thumbnail Generation</li>
+<li>RSS support</li>
+<li>Integrated JavaScript Slideshow</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

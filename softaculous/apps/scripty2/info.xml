@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://scripty2.com/demos/cards/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Scripty2
+	</ratings>
+	<space>
+		3126812
+	</space>
+	<support>
+		http://scripty2.com/
+	</support>
+	<version>
+		2.0.0 B1
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.8
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Scripty2</font> is a powerful, flexible JavaScript framework to help you write your own delicious visual effects &amp; user interfaces.
+		<br /><br />
+		Scripty2 is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		Scripty2 extends the Prototype Javascript Framework by adding visual effects, user interface controls, and utilities : 
+		<ul>
+<li>Compact</li>
+<li>Modular</li>
+<li>Object-Oriented JavaScript framework</li>
+<li>Cross-browser code</li>
+<li>Coherent API</li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font><br />
+		scripty2 is divided into three parts, core, fx, and ui, and supports IE6+, Safari 3+, Firefox 3+, Chrome, Opera 10 and most WebKit-based browsers.
+
+		</english-features>
+	</languages>
+</soft>

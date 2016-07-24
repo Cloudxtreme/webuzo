@@ -1,0 +1,59 @@
+# 2.5.3
+
+2015-09-25
+
+ - Fix import inline a URL
+
+# 2.5.1
+-------------------------------------
+
+    Fix problems with less being async in some browsers
+    Minor fix only likely to affect programmatic usage of ruleset find
+    Fix error when a namespaced mixin is invoked in global scope
+	
+	
+# 2.5.0
+-------------------------------------
+
+ - supports the scoped @plugin directive to load function plugins
+ - All directives are bubbled (e.g. supports), not just media
+ - Performance improvements to the parser - should help non-chrome browsers with very large less files to be alot quicker.
+ - the image size function respects include paths like other file functions
+ - colour functions take a relative argument that applies percentages relatively instead of absolutely
+ - include paths now allows : as a separator on windows (recognising and not splitting drive names by the backslash)
+ - @import (css) does not pull the directive above comments
+ - Fix for import statements without quotes sometimes causing issues
+ - replace supports dimensions and colours
+ - the browser field is set in the package.json for use with browserify
+ - another fix to support paths being passed as a string instead of an array
+ - detached rulesets can be used as default arguments
+ - Fix alot of false warnings about extends
+ - errors written to stderr more consistently
+ - consistently keep units if strict units is off
+ - Better support for comments in function all arguments
+
+
+# 2.3.1
+-------------------------------------
+
+ - Fix depends option (regression in 2.3.0)
+ - Support parent selector (&) used in sub element expression (e.g. :not(.c_&))
+
+# 2.2.0
+-------------------------------------
+
+ - do not apply relative paths to svg-gradient and data-uri functions data-uri output
+ - using import filename interpolation and import inline together now works
+ - deprecate the compression option (still works, but outputs a warning unless silent)
+ - The node version of less now has image-size, image-width, image-height which return the image dimensions of a file
+ - Fixed an issue that could cause the parse to occur more than once and the callback be called multiple times
+ - if you are outputting to the console, lessc defaults to silent so warnings do not end up in output
+ - isunit function supports '' to test if a dimension has no unit
+ - data-uri function now counts characters after base64 encoding instead of bytes before encoding to determine ie8 support
+ - fix bug effecting guards on pseudo class selectors
+ - do not cache on the browser when used with modifyVars
+ - detection if less does not parse last character in file
+ - detection of whether a file is css now requires /css, .css, ?css, &css instead of just css. You can still tell less the type of file using import options.
+ - remove extra new line added to sourcemap entry inline file
+ - support safari extension
+ - less.parse now exposes a way to get the AST. We do not recommend you use this unless you need to.

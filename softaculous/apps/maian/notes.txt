@@ -1,0 +1,3 @@
+1. While manual installation provide database details in /control/connect.php before starting with manual installation.
+2. Select Character set as "utf8_general_ci". And Mysql version as "MySQL5".
+3. Select timezone "(GMT) London" as its selected by default by script

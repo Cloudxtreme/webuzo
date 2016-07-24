@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PASTE
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/PASTE
+	</ratings>
+	<space>
+		5215307 
+	</space>
+	<support>
+		http://sourceforge.net/projects/phpaste/support
+	</support>
+	<version>
+		1.9
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<release_date>06-10-2013</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PASTE</font> is an open source pastebin forked from the original pastebin.com script.
+		<br /><br />
+		It's complete with a brand new design and features such as password protected pastes, archives, custom templates and much more still to come.
+		<br /><br />
+		PASTE is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Password protected pastes</li>
+<li>Archives</li>
+<li>Custom templates</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

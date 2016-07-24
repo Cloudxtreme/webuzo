@@ -1,0 +1,42 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/FreeType
+	</ratings>
+	<space>
+		12484046
+	</space>
+	<support>
+		http://www.freetype.org
+	</support>
+	<version>
+		2.4.12
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<requires>openssl</requires>
+	<requires>libiconv</requires>
+	
+	<extract file="freetype-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		No Info
+	</notes>
+	<languages>
+		<english-overview>
+			No Info
+		</english-overview>
+		<english-features>
+			No Info
+		</english-features>
+	</languages>
+</soft>

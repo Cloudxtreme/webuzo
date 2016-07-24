@@ -1,0 +1,83 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/HBase
+	</ratings>
+	<space>
+		361478545
+	</space>
+	<support>
+		http://hbase.apache.org/
+	</support>
+	<version>
+		 0.98.14
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>31-08-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<path name="base">/usr/local/apps/hbase</path>
+	<path name="bin">/usr/local/apps/hbase/bin/hbase</path>
+	
+	<extract file="hbase-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">HBase Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/hbase</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/hbase/bin/hbase</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#197e7a">Apache HBase</font> is the Hadoop database, a distributed, scalable, big data store.
+		Use Apache HBase when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. Apache HBase is an open-source, distributed, versioned, column-oriented store modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities on top of Hadoop and HDFS.  
+		<br /><br />
+		Apache HBase is distributed under the <a href="http://hbase.apache.org/license.html" target="_blank">Apache License, Version 2.0.</a>
+		</english-overview>
+		<english-features>
+			<ul>    
+				<li>Linear and modular scalability.	</li>					
+				<li>Strictly consistent reads and writes.</li>					
+				<li>Automatic and configurable sharding of tables</li>					
+				<li>Automatic failover support between RegionServers.</li>					
+				<li>Convenient base classes for backing Hadoop MapReduce jobs with Apache HBase tables.</li>					
+				<li>Easy to use Java API for client access.</li>					
+				<li>Block cache and Bloom Filters for real-time queries.</li>					
+				<li>Query predicate push down via server side Filters</li>					
+				<li>Thrift gateway and a REST-ful Web service that supports XML, Protobuf, and binary data encoding options</li>					
+				<li>Extensible jruby-based (JIRB) shell</li>					
+				<li>Support for exporting metrics via the Hadoop metrics subsystem to files or Ganglia; or via JMX</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

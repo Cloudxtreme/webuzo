@@ -1,0 +1,74 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/version_control/Bazaar
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://wiki.bazaar.canonical.com/BzrSupport
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/bin/bzr</path>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Bazaar Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/bin/bzr</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Bazaar</font> is a version control system that helps you track project history over time and to collaborate easily with others. Whether you're a single developer, a co-located team or a community of developers scattered across the world, Bazaar scales and adapts to meet your needs. Part of the GNU Project, Bazaar is free software sponsored by Canonical.
+		<br /><br />
+		Bazaar is distributed under the <a href="http://www.gnu.org/licenses/" target="_blank">GNU License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Version control for everyone</li>
+				<li>Work offline</li>
+				<li>Any workflow</li>
+				<li>Cross platform support</li>
+				<li>Rename tracking and smart merging</li>				
+				<li>High storage efficiency and speed</li>
+				<li>Any workspace model</li>
+				<li>Plays well with others</li>
+				<li>Launchpad</li>
+				<li>Plugins and bzrlib</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

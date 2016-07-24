@@ -1,0 +1,7 @@
+b2db:
+    username: [[softdbuser]]
+    password: "[[softdbpass]]"
+    dsn: "mysql:host=[[softdbhost]];dbname=[[softdb]]"
+    tableprefix: '[[dbprefix]]'
+    cacheclass: 'TBGCache'
+

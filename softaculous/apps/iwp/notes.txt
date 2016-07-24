@@ -1,0 +1,1 @@
+1. (17, 'installedEmail', '[[admin_email]]'); -> [[admin_email]] is the email which we provide at the time of downloading the package from their website, so do replace it.

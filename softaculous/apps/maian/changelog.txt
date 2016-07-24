@@ -1,0 +1,109 @@
+Maian Support Changelog (www.maiansupport.com)
+
+[+] Added   [*] Updated  [-]  Bug Fix
+
+Version 3.4 (02/06/2016):
+[-] Fixed a couple of undefined index errors related to standard responses
+[-] Fixed bug on closed disputes page for restricted staff members causing page to fail to load
+[-] Fixed bug that caused name display errors for visitor who initially opened ticket
+[-] Fixed bug that prevented departments from displaying on Thursdays if day was set.
+[-] Fixed custom page error when header code was uncommented to show custom pages in menu
+[-] Fixed display errors in Webkit based browsers due to invalid syntax in bootstrap CSS file
+[-] Fixed invalid Run Now link for email digest on staff creation page. Broke in previous version.
+[-] Fixed invalid image links in CSS files. Broke in previous version.
+[-] Fixed javascript bug caused by minifying javascript files that prevented admin graphs from working. Broke in 3.3.
+[-] Fixed minor duplicate div ID issue related to custom pages and FAQ
+
+Version 3.3 (25/04/2016): 
+[+] Added support for PHP7 
+[*] API updated with option to send and save attachment with original file names 
+[*] Fixed a couple of typos in the English language files 
+[*] jQuery library updated to latest stable release 
+[-] Fixed API bug that prevented attachments from saving where tickets had single attachment. Possibly broke in 3.2. 
+[-] Fixed bug causing BB code to not parse at all on FAQ pages 
+[-] Fixed bug that caused admin footer text to display in the frontend footer 
+[-] Fixed bug that caused tickets to be hidden accidentally for tickets opened via email if a reply was received before the ticket was assigned. ie: auto reply 
+[-] Fixed bug that prevented create ticket page from working if no attachments were enabled 
+[-] Fixed database backup issue when database name was in uppercase characters 
+[-] Fixed display bug if BBCode was enabled, but the text contained no BB code 
+[-] Fixed imap decoding bug on certain HTML emails 
+[-] Fixed undefined error message when attachments were disabled 
+
+Version 3.2 (20/12/2015):
+[*] Improved appearance of overlay spinner and improved positioning when screen was scrolled
+[*] In admin, greyed out attachments boxes option to avoid confusion in the free version. Max 1 only.
+[-] Fixed database error when tickets were filtered on account ticket history screen
+[-] Fixed generic error message on installer and added more info if installer fails
+[-] Fixed installer bug for database with hyphens in name
+[-] Fixed issue that caused attachments to not be uploaded in the free version
+[-] Fixed issue that caused standard responses to be saved with each ticket update
+[-] Fixed issue that prevented certain BB code formatting on new pages
+[-] Fixed issue with html characters in comments not displaying correctly.
+[-] Fixed issue with incorrect links on admin homescreen.
+[-] Fixed mail test for smtp setup. Not correctly configured in v3.1
+[-] Fixed upgrade routine bug that caused spinner to keep spinning when ticket responses were added
+[-] Fixed various department order by bugs where the ordering was incorrect
+[-] Fixed various validation errors due to misplaced div if content screens contained no data.
+[-] Fixed word wrap issue which caused links to invalidate on new pages over a certain length
+
+Version 3.1 (14/10/2015):
+  [+] Added basic search to all ticket lists screen in admin control panel
+  [+] Added better debugging for file uploads to identify upload issues faster
+  [+] Added direction tag to header templates for languages that support ltr
+  [+] Added edit ticket / reply permission flags for support team members
+  [+] Added new admin screen "Search Tickets by Custom Fields". Enables ticket search via custom field value.
+  [+] Added option for attachments to be included in notification emails when ticket is opened by imap. Enable / disable in imap settings.
+  [+] Added option for visitor to resend confirmation email on account verification screen
+  [+] Added option to add custom pages. Pages can be visible in account area only and visibility can be set per account.
+  [+] Added option to disable account creation notification for imap tickets
+  [+] Added option to show ticket departments on certain days only.
+  [+] Added path check for local file FAQ attachments. If the file doesn`t exist, link doesn`t display
+  [+] Added ticket quick view links to all ticket list screens in admin. Enables quick view of ticket and replies.
+  [+] Added white label license. Market and sell the product as your own.
+  [+] FAQ questions can now be set as featured to always display on ticket homescreen
+  [*] Added option for visitors to filter F.A.Q search by individual categories
+  [*] Added option to display FAQ category question counts to settings under FAQ tab
+  [*] Admin account search screen merged with account management screen
+  [*] Admin mailbox messages marked as unread, now automatically move back to the inbox
+  [*] Admin post preview options removed
+  [*] Better support for small devices via Twitter bootstrap 3
+  [*] Deprecated MySQL functions removed and replaced with MySQLi
+  [*] Email digest updated to parse ticket date / times by staff timezone. Spam and assign included for users if permissions allow.
+  [*] Encryption systems updated from md5 to sha1 for better security. Fallback to md5 for existing logins.
+  [*] FAQ parent categories can now be set as private. If set, all sub cats and questions are visible only when a user is logged in.
+  [*] Google recaptcha upgraded to v2.0
+  [*] IP Addresses are now logged for ticket history entries
+  [*] Imap notification emails from admin now contain comments directly in email.
+  [*] Improved attachment handling when uploading files. Progress bars show upload status.
+  [*] In admin, assigned staff are now managed from the ticket edit screen, not the ticket view screen
+  [*] In admin, ticket attachments are now deletable from the ticket/reply edit screens, as well as ticket view screen
+  [*] Removed PHP4 support. PHP5 or higher now required.
+  [*] Removed ioncube encryption system
+  [*] Support staff with access to ticket assign page can now assign any ticket
+  [*] Ticket history entries now written for tickets / replies added via imap
+  [*] Ticket history now remains visible even when ticket is closed
+  [*] Tickets can now be deleted via all ticket list screens, not just closed
+  [*] Updated all post actions to use Ajax to prevent page refreshes
+  [*] Removed batch operations from admin advanced ticket search screen
+  [-] Fixed MYSQL error on admin ticket search screen
+  [-] Fixed MySQL error when replying to ticket and adding standard response
+  [-] Fixed a few bugs related to ticket assigning in admin
+  [-] Fixed bug causing all messages to be deleted when emptying mailbox bin
+  [-] Fixed bug causing data to be truncated for certain utf-8 characters
+  [-] Fixed bug causing valid emails to be flagged as invalid. ie, emails with + symbol.
+  [-] Fixed bug preventing admin support team responses page from returning no search criteria
+  [-] Fixed bug preventing none main admin staff member from adding departments
+  [-] Fixed bug preventing none main admin staff member from editing ticket
+  [-] Fixed bug preventing none main admin staff member from editing ticket replies
+  [-] Fixed bug related to filesizes on remote FAQ attachment files
+  [-] Fixed bug that caused FAQ attachments to display if they were disabled
+  [-] Fixed bug where admin purchase link didn`t appear until after a licence was applied
+  [-] Fixed bug where ampersands weren`t converted correctly in plain text emails causing login failures
+  [-] Fixed bug with enable account checkbox not saving on staff edit page in admin
+  [-] Fixed bug with uppercase characters in database name causing backup page to fail.
+  [-] Fixed fatal error when users were added to a dispute
+  [-] Fixed imap issues related to inline attachments and base64 encoded emails
+  [-] Fixed problems with UTC timestamps. May cause older tickets to show wrong time.
+  [-] Fixed several undefined error messages related to ticket updates
+  [-] Fixed visitor dispute search bug causing search to fail
+  [-] Various security fixes and updates

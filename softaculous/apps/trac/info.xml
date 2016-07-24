@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Trac
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/python/projectman/Trac
+	</ratings>
+	<space>
+		578244
+	</space>
+	<support>
+		http://trac.edgewall.org/
+	</support>
+	<version>
+		1.0.5
+	</version>
+	<mod>4</mod>
+	<admin>project/login</admin>
+	<softversion>
+		4.5.3
+	</softversion>	
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Trac</font> is an enhanced wiki and issue tracking system for software development projects. Trac uses a minimalistic approach to web-based software project management. Our mission is to help developers write great software while staying out of the way. Trac should impose as little as possible on a team's established development process and policies. 
+		<br /><br />
+		Trac is released under <a href="http://trac.edgewall.org/wiki/TracLicense" target="_blank">BSD license</a>.
+		</english-overview>		
+		<english-features>			
+			<h2>Open source project management tool</h2>
+			<p>
+			Trac is a lightweight project management tool that is implemented as a web-based application, written in the Python programming language. It emphasizes ease of use and low ceremony, and is open source.
+			</p>
+			<p>
+			Ideal for managing software developments, it is flexible enough to use for many types of projects. As it's open source, if it doesn't quite fit your needs, you can always make changes yourself, write plugins, or commission someone else to do so.
+			</p>
+			<h2>Ticket system</h2>
+			<p>
+			Track the progress of resolving individual bugs, issues, feature requests, and ideas - each with its own ticket (numbered, as in a waiting room queue system). Easily reconcile overlapping tickets (where more than one person reports the same thing). Search and filter tickets by severity, project component, version or owner (among others). 
+			</p>
+			<h2>View progress</h2>
+			<p>
+			Trac gives you a number of convenient ways to stay on top of events and changes within a project. You can set milestones, and view a roadmap of progress towards them (as well as historical achievements) in summary. There is a timeline of individual changes so you can see the order of events, starting with the most recent. Trac supports RSS for content syndication: allowing people to subscribe to those changes outside Trac itself, as well as email notification.
+			</p>
+			<h2>Online repository viewing</h2>
+			<p>
+			Trac gives a highly usable browsing and management front-end for Subversion, a modern open-source version control system. Trac gives you clear and elegant code highlighting and file comparison, so you can easily see how files differ. Using plugins, Trac also supports other version control software.
+			</p>
+			<h2 >User management</h2>
+			<p>
+			Trac has a simple permission system to control what users can and can't access. Can be enhanced with th:AccountManagerPlugin and other plugins.
+			</p>
+			<h2 >Wiki</h2>
+			<p>
+			Built-in documentation server, which can be used for developer or user resources. As it's a Wiki, it can be set up to allow shared editing. Uses MoinMoin syntax and magic links to tickets, reports and source.
+			</p>			
+		</english-features>
+		<english-datadir>Data Directory</english-datadir>
+		<english-exp_datadir>This script requires to store its data in a folder not accessible via the web. It will be created in your home folder.</english-exp_datadir>
+		<english-ad_project>Project</english-ad_project>
+		<english-exp_project>Project Name to be used</english-exp_project>
+	</languages>
+</soft>

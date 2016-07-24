@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Flyspray
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Flyspray
+	</ratings>
+	<space>
+		6191508
+	</space>
+	<support>
+		http://flyspray.org/
+	</support>
+	<version>
+		0.9.9.7
+	</version>
+	<mod>1</mod>
+	<mod_files>2</mod_files>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Flyspray</font> is an uncomplicated, web-based bug tracking system written in PHP for assisting with software development. It was originally conceived when the Psi Jabber client project couldn't find a bugtracker that suited their needs, and has been made available for everyone to use for their own projects. 
+		<br /><br />
+		Flyspray is released under the <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU Lesser General Public License Version 2.1</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Web-based, platform-independent</li>
+<li>Multiple database support, currently MySQL and PGSQL</li>
+<li>Easy installation</li>
+<li>Easy to use</li>
+<li>Multiple projects</li>
+<li>'Watching' tasks, with notification of changes</li>
+<li>Comprehensive task history</li>
+<li>File attachments</li>
+<li>CSS Themes</li>
+<li>Advanced search features (though easy to use)</li>
+<li>Atom/RSS feeds</li>
+<li>Two syntax options for task descriptions and more (Dokuwiki / plain text)</li>
+<li>Voting for tasks</li>
+<li>Dependency graphs</li>
+And there is much more cool stuff in the works...
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,6 @@
+1. Delete configured file from manual data.zip
+2. Check and Copy the contents of /uploads/profile/field/ from manual to the zip package(this is not created from v1.3.7)
+3. Check and Copy the contents of /uploads/banners/ and /uploads/profile/ from manual to the zip package(since 1.3.9)
+4. Check and Copy the contents of /modules/protector/ from manual to the zip package
+5. Always select "pdo.mysql" for DB_TYPE.
+6. Make script where Database ENGINE is InnoDB

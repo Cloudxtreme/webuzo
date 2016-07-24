@@ -1,0 +1,23 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>index.html</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<auto_upgrade>1</auto_upgrade>
+	<files>
+		<exclude>uploads/*</exclude>
+		<exclude>uploads/*/*</exclude>
+		<exclude>uploads/*/*/*</exclude>
+		<exclude>uploads/*/*/*/*</exclude>
+		<exclude>uploads/*/*/*/*/*</exclude>
+		<exclude>data/*</exclude>
+		<exclude>data/*/*</exclude>
+		<exclude>data/*/*/*</exclude>
+		<exclude>data/*/*/*/*</exclude>
+		<exclude>data/*/*/*/*/*</exclude>
+	</files>
+</softupgrade>

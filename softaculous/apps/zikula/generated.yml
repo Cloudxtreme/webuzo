@@ -1,0 +1,18 @@
+#This is a dynamically generated configuration file. Do not touch!
+
+jms_i18n_routing:
+    default_locale: en
+    locales: [en]
+    strategy: prefix_except_default
+swiftmailer:
+    transport: mail
+    username: ''
+    password: ''
+    host: localhost
+    port: 25
+    encryption: null
+    auth_mode: null
+    delivery_address: null
+    disable_delivery: false
+parameters:
+    zikula.session.name: _zsid

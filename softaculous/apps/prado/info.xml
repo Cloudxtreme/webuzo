@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PRADO
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/PRADO
+	</ratings>
+	<space>
+		45330085
+	</space>
+	<support>
+		http://www.pradosoft.com/
+	</support>
+	<version>
+		3.2.4
+	</version>
+	<mod>10</mod>
+	<release_date>26-08-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.3" />
+	<requirement check="php" type="extension" name="Reflection" />
+	<requirement check="php" type="extension" name="SPL" />
+	<requirement check="php" type="extension" name="pcre" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="ctype" />
+	<requirement check="php" type="extension" name="dom" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PRADO</font> is a component-based and event-driven programming framework for developing Web applications in PHP 5. 
+		<br /><br />
+		PRADO stands for PHP Rapid Application Development Object-oriented.
+		<br /><br />
+		PRADO is released under the <a href="http://www.pradosoft.com/license/" target="_blank">BSD LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Object-oriented and highly reusable code</li>
+<li>Event-driven programming</li>
+<li>Separation of presentation and logic</li>
+<li>Configurable and pluggable modular architecture</li>
+<li>Full spectrum of database support</li>
+<li>Feature-rich Web components: HTML input controls, validators, datagrid, wizard</li>
+<li>AJAX-enabled Web components</li>
+<li>Built-in support of internationalization (I18N) and localization (L10N)</li>
+<li>Customizable and localizable error/exception handling</li>
+<li>Multiway message logging with filters</li>
+<li>Generic caching modules and selective output caching</li>
+<li>Extensible authentication and authorization framework</li>
+<li>Security measures: cross-site script (XSS) prevention, cookie protection</li>
+<li>XHTML compliance</li>
+<li>Rich documentation and strong userbase</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

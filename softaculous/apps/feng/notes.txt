@@ -1,0 +1,3 @@
+1. Change the location of USING BTREE in the feng.sql file (It should be to the left and not to the end of line).
+2. Default database engine InnoDB.
+3. comment the php_value in .htaccess (NOT NEEDED NOW)

@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Advanced_Poll
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Advanced_Poll
+	</ratings>
+	<space>
+		648205
+	</space>
+	<support>
+		http://www.proxy2.de/
+	</support>
+	<version>
+		2.0.9
+	</version>
+	<mod>6</mod>
+	<mod_files>3</mod_files>
+	<admin>admin/</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Advanced Poll</font> is a polling system with powerful administration tool. <br /><br />It features: multiple polls, templates, unlimited options, multi-language support, IP-Logging, IP-Locking, cookie support, comment feature, vote expire feature, random poll support and more.
+		<br /><br />
+		Advance poll is ideal for a simple polling requirement.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Multiple polls</li>
+<li>Templates</li>
+<li>Unlimited options</li>
+<li>Multi-language support</li>
+<li>IP-Logging</li>
+<li>IP-Locking</li>
+<li>Cookie support</li>
+<li>Comment feature</li>
+<li>Vote expire feature</li>
+<li>Random poll support</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

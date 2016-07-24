@@ -1,0 +1,83 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_containers/Jetty
+	</ratings>
+	<space>
+		12013658
+	</space>
+	<support>
+		http://www.eclipse.org/jetty/
+	</support>
+	<version>
+		9.3.0
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>12-06-2015</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/jetty</path>
+	
+	<extract file="jetty-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/jetty</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Jetty Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/jetty</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://www.eclipse.org/jetty/documentation/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Jetty </font> provides a Web server and javax.servlet container, plus support for SPDY, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations. 
+<br /><br />
+		<br /><br />
+		Jetty is distributed under the dual licensed <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache 2.0 License</a> and <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">Eclipse Public License 1.0</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Full-featured and standards-based</li>
+				<li>Open source and commercially usable</li>
+				<li>Flexible and extensible</li>
+				<li>Small footprint</li>
+				<li>Embeddable</li>
+				<li>Asynchronous</li>
+				<li>Enterprise scalable</li>
+				<li>Dual <a href="http://www.eclipse.org/jetty/licenses.php">licensed</a> under Apache and Eclipse</li>
+			</ul>	
+		</english-features>
+	</languages>
+</soft>

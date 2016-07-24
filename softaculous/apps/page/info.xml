@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/PageCookery
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/microblogs/PageCookery
+	</ratings>
+	<space>
+		11824853
+	</space>
+	<support>
+		http://www.pagecookery.com/
+	</support>
+	<version>
+		0.9.9
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PageCookery</font> is the first public offering of single-user version of the open source microblogging program, PHP + MySQL based architecture is a set of safety, efficiency and stability, to "share", "discovery" for the concept of Web 2.0 solutions to micro-blog.
+		<br /><br />
+		PageCookery is released under the <a href="http://www.gnu.org/licenses/gpl.html">GPL</a> terms.
+		</english-overview>		
+		<english-features>
+The features are as follows:<br />
+<ul>
+<li>Highly customizable CSS templates</li>
+<li>Separation of the template system code</li>
+<li>AJAX comment system</li>
+<li>Comment by IP Geolocation</li>
+<li>Comments nickname support</li>
+<li>Predicate selection statement</li>
+<li>WYSIWYG editor to speak</li>
+<li>Concerned about the information push microblogging<br /><br /></li>
+<li><strong>Mobile Support</strong></li>
+<li>iPod, iPad, iPhone, PSP, Android, Blackberry mobile device support</li>
+<li>Mobile devices to access the normal phone and speak in support of</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

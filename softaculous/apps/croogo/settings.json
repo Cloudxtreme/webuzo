@@ -1,0 +1,63 @@
+{
+	"Site": {
+		"acl_plugin": "Acl",
+		"admin_theme": "",
+		"asset_timestamp": "force",
+		"email": "you@your-site.com",
+		"feed_url": "",
+		"home_url": "",
+		"ipWhitelist": "[[serverip]]",
+		"locale": "eng",
+		"status": 1,
+		"tagline": "A CakePHP powered Content Management System.",
+		"theme": "",
+		"timezone": "UTC",
+		"title": "Croogo"
+	},
+	"Croogo": {
+		"Api": {
+			"path": "api"
+		},
+		"dashboardUrl": {
+			"admin":true,
+			"plugin": "extensions",
+			"controller": "extensions_dashboard",
+			"action": "index"
+		},
+		"installed": 1
+	},
+	"Hook": {
+		"bootstraps": "Settings,Comments,Contacts,Nodes,Meta,Menus,Users,Blocks,Taxonomy,FileManager,Wysiwyg,Ckeditor"
+	},
+	"Access Control": {
+		"autoLoginDuration": "+1 week",
+		"models": "",
+		"multiRole": 0,
+		"rowLevel": 0
+	},
+	"Comment": {
+		"date_time_format": "M d, Y",
+		"email_notification": 1,
+		"feed_limit": 10,
+		"level": 1
+	},
+	"Meta": {
+		"description": "Croogo - A CakePHP powered Content Management System",
+		"generator": "Croogo - Content Management System",
+		"keywords": "croogo, Croogo",
+		"robots": "index, follow"
+	},
+	"Reading": {
+		"date_time_format": "D, M d Y H:i:s",
+		"nodes_per_page": 5
+	},
+	"Service": {
+		"akismet_key": "your-key",
+		"akismet_url": "http://your-blog.com",
+		"recaptcha_private_key": "your-private-key",
+		"recaptcha_public_key": "your-public-key"
+	},
+	"Writing": {
+		"wysiwyg": 1
+	}
+}

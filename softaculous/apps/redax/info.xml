@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Redaxscript
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Redaxscript
+	</ratings>
+	<space>
+		577278
+	</space>
+	<support>
+		http://redaxscript.com/
+	</support>
+	<version>
+		2.6.2
+	</version>
+	<mod>18</mod>
+	<release_date>04-01-2016</release_date>
+	<admin>admin</admin>
+	<min_require>1.0.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Redaxscript</font> is an ultra lightweight website engine, simplifying the world of complex online projects. 
+		<br /><br />
+		Experience the future of web design and development - leave behind the confusion and build websites intuitively.
+		<br /><br />
+		Redaxscript is released under the <a href="http://www.redaxscript.com/general/about/license" target="_blank">GNU/GPL Version 3</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Builds contents lightning fast</li>
+<li>HTML5, CSS3, RSS2 and ATOM1 compliant</li>
+<li>Search engine friendly environment</li>
+<li>Fluide and elastic grid layout</li>
+<li>Media queries powered mobile support</li>
+<li>Mobile ready with responsive design</li>
+<li>On-demand loader for Javascript and CSS</li>
+<li>Pre-optimized with Page Speed and Yslow</li>
+<li>Intuitive WYSIWYE admin interface</li>
+<li>Built-in user interface framework</li>
+<li>Module system with hook points</li>
+<li>Advanced user and group permissions</li>
+<li>Bundled with the latest jQuery</li>
+<li>Ultra lightweight WYSIWYG editor</li>
+<li>Multiple language and template support</li>
+<li>Available in over 25 languages</li>
+<li>Extensive setting options</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

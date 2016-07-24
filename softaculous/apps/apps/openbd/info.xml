@@ -1,0 +1,81 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/java_tools/OpenBD
+	</ratings>
+	<space>
+		11400
+	</space>
+	<support>
+		http://openbd.org/
+	</support>
+	<version>
+		3.1
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>08-04-2014</release_date>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/openbd</path>
+	
+	<extract file="openbd-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/openbd</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">OpenBD Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/openbd</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://openbd.org/manual/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenBlueDragon (OpenBD)</font> is the worlds first truly open source GPL Java CFML runtime engine. CFML is a powerful script based language that takes away all the heavy lifting of producing web based services and sites. But CFML offers more than merely a set of tags and functions.
+
+Often misunderstood, CFML can do far more to accelerate your enterprise requirements than almost any other language, running on top of the popular Java runtime, there is no place OpenBD can't be deployed to. From local laptop, to server, to Amazon, to Google App Engine. We can go anywhere.
+<br /><br />
+		<br /><br />
+		OpenBD is distributed under the  <a href="https://www.gnu.org/copyleft/gpl.html" target="_blank">GNU License</a>
+		</english-overview>
+		<english-features>
+			<h2>Tags</h2>
+			<p>OpenBD comes with a rich array of CFML tags, covering the core CFML language, as well as wonderful additions to the language that OpenBD has added to make your web development easier.</p> 			
+			<h2>Functions</h2>
+			<p>Functions are the life blood of the CFML language. Whether you are writing tag based applications, or CFSCRIPT based applications, there is a function waiting for you to do pretty much anything.</p>
+			<h2>Bootstrap Application</h2>
+			<p>Sometimes knowing where to start is the hardest thing, especially if you are new to the language. Do not worry, we can help. We have a bootstrap CFML site for you to get started and get up and running quickly.</p>  
+		</english-features>
+	</languages>
+</soft>

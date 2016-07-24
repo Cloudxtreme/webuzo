@@ -1,0 +1,44 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpOnline
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/customersupport/phpOnline
+	</ratings>
+	<space>
+		629363
+	</space>
+	<support>
+		http://www.dayanahost.com/phponline.cfm
+	</support>
+	<version>
+		2.1.3
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpOnline</font> is a live customer support system using PHP+MySQL+Flash to operate.
+		<br /><br />
+		phpOnline is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Ability to send you an email if you were offline.</li>
+<li>You may change it to your own language using config file.</li>
+<li>Source of flash files created in Macromedia Flash 8.</li>
+<li>Runtime flash components are compatible with Flash 6.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

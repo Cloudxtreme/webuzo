@@ -1,0 +1,31 @@
+.htaccess
+BEATZ-LICENSE.txt
+BUG LIST.txt
+CHANGE LOG.txt
+INSTALL.php
+administrator
+cache
+components
+configuration.php-dist
+error_log
+files
+flash
+htaccess.txt
+images
+includes
+index.php
+index2.php
+installation
+language
+libraries
+logs
+media
+modules
+php.ini
+plugins
+readme
+robots.txt
+templates
+tmp
+xmlrpc
+configuration.php

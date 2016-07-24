@@ -1,0 +1,94 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/statistics/AWStats
+	</ratings>
+	<space>
+		6858395
+	</space>
+	<support>
+		http://awstats.sourceforge.net/
+	</support>
+	<version>
+		7.4
+	</version>
+	<mod>8</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>14-07-2015</release_date>
+	
+	<requires>perl</requires>
+	
+	<path name="base">/usr/local/apps/awstats</path>
+	<path name="conf_path">/usr/local/apps/awstats/wwwroot/cgi-bin</path>
+	<path name="data_dir">/usr/local/apps/awstats/awstats_data</path>
+	
+	<extract file="awstats-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/awstats</remove>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">AWStats Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Configuration Dir</td>
+				<td>/usr/local/apps/awstats/wwwroot/cgi-bin/</td>
+			</tr>
+			<tr>
+				<td>Installation Directory</td>
+				<td>/usr/local/apps/awstats/</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AWStats</font> is a free powerful and featureful tool that generates advanced web, streaming, ftp or mail server statistics, graphically.
+		<br /><br />
+		This log analyzer works as a CGI or from command line and shows you all possible information your log contains, in few graphical web pages. It uses a partial information file to be able to process large log files, often and quickly.
+		<br /><br />
+		AWStats is distributed under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank"> GNU General Public License</a>
+		</english-overview>
+		<english-features>
+* Number of visits, and number of unique visitors, <br />
+* Visits duration and last visits,<br />
+* Authenticated users, and last authenticated visits,<br />
+* Days of week and rush hours (pages, hits, KB for each hour and day of week),<br />
+* Domains/countries of hosts visitors (pages, hits, KB, 269 domains/countries detected, GeoIp detection),<br />
+* Hosts list, last visits and unresolved IP addresses list,<br />
+* Most viewed, entry and exit pages,<br />
+* Files type,<br />
+* Web compression statistics (for mod_gzip or mod_deflate),<br />
+* OS used (pages, hits, KB for each OS, 35 OS detected),<br />
+* Browsers used (pages, hits, KB for each browser, each version (Web, Wap, Media browsers: 97 browsers, more than 450 if using browsers_phone.pm library file),<br />
+* Visits of robots (319 robots detected),<br />
+* Worms attacks (5 worm's families),<br />
+* Search engines, keyphrases and keywords used to find your site (The 115 most famous search engines are detected like yahoo, google, altavista, etc...),<br />
+* HTTP errors (Page Not Found with last referrer, ...),<br />
+* Other personalized reports based on url, url parameters, referer field for miscellanous/marketing purpose,<br />
+* Number of times your site is "added to favourites bookmarks".<br />
+* Screen size (need to add some HTML tags in index page).<br />
+* Ratio of Browsers with support of: Java, Flash, RealG2 reader, Quicktime reader, WMA reader, PDF reader (need to add some HTML tags in index page).<br />
+* Cluster report for load balanced servers ratio.
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Silex
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Silex
+	</ratings>
+	<space>
+		20750399
+	</space>
+	<support>
+		http://www.silexlabs.org/silex/
+	</support>
+	<version>
+		v1.7.0
+	</version>
+	<mod>4</mod>
+	<mod_files>1</mod_files>
+	<release_date>04-06-2013</release_date>
+	<admin>?/manager</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Silex</font> is a free and open source software that allows to create Flash and Html websites directly in the browser without writing code.<br /><br />
+		Defined as a CMS (Content Management System) it is used to assemble multimedia content and publish it.
+		<br /><br />Key features are an WYSIWYG environment to edit a publication and a manager application to manage permissions and multiple publications settings.
+		<br /><br />
+		Silex is licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU General Public License</a>
+		</english-overview>		
+		<english-features>
+<ul>
+<li>WYSIWYG environment to edit a publication with drag and drop</li>
+<li>Manager application for permissions and publications settings</li>
+<li>Search engine friendly, deep linking enabled</li>
+<li>Suitable for prototyping</li>
+<li>Web based, can be installed locally, on a web server or as a portable app</li>
+<li>Multilingual contexts management</li>
+<li>Free templates and plugins</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,2 @@
+1. make shopsite.zip with installation files in "shop_install" directory and blank sc and ss folders
+2. choose 'Legacy via Web Server' while manual installation

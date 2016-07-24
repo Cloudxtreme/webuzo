@@ -1,0 +1,11 @@
+.htaccess
+cmsimple
+content
+css
+disabled_plugins.txt
+index.php
+license.txt
+plugins
+readme.php
+templates
+userfiles

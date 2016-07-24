@@ -1,0 +1,1 @@
+1) Add error_reporting(E_PARSE); in index.php and fof-main.php and then make the zip

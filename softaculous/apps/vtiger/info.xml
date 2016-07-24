@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Vtiger
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/Vtiger
+	</ratings>
+	<space>
+		100459871
+	</space>
+	<support>
+		http://www.vtiger.com/
+	</support>
+	<version>
+		6.4.0
+	</version>
+	<mod>16</mod>
+	<release_date>16-10-2015</release_date>
+	<admin>index.php</admin>
+	<min_require>6.3.0</min_require>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Vtiger</font> CRM is a full-featured CRM software ideal for small and medium businesses, with low-cost product support available to production users that need reliable support.
+		<br /><br />
+		Vtiger CRM helps you bring the full potential to life in marketing, sales, and overall customer service.
+		<br /><br />
+		<a href="https://www.vtiger.com/vtiger-public-license-1-1/" target="_blank">Vtiger Public License 1.1</a> (VPL 1.1) is based on the Mozilla Public License (MPL 1.1), and provides free use to anyone using it under the provisions of the license, covering the following add-ons: Vtiger Outlook Plug-in, Vtiger Thunderbird Extension, Vtiger Office Plug-in, Vtiger Customer Portal.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Sales Force Automation</li>
+<li>Customer Support &amp; Service</li>
+<li>Marketing Automation</li>
+<li>Inventory Management</li>
+<li>Activity Management</li>
+<li>Productivity Add-ons </li>
+<li>Reports &amp; Dashboards</li>
+<li>Product Customization</li>
+<li>Security Management</li>
+<li>E-mail integration</li>
+<li>Extensibility</li>
+<li>Customization and Configurability</li>
+</ul>
+		</english-features>		
+	</languages>
+</soft>

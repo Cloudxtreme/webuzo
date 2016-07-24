@@ -1,0 +1,75 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/message_queue/ElasticMQ
+	</ratings>
+	<space>
+		46224483
+	</space>
+	<support>
+		https://github.com/adamw/elasticmq
+	</support>
+	<version>
+		0.8.8
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>10-04-2015</release_date>
+	
+	<requires>java</requires>		
+	
+	<path name="base">/usr/local/apps/elasticmq</path>
+	
+	<extract file="elasticmq-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/elasticmq</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">ElasticMQ Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/elasticmq</td>
+			</tr>
+			<tr>
+				<td>jar File</td>
+				<td>/usr/local/apps/elasticmq/elasticmq-server-0.8.8.jar</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ElasticMQ</font> is a message queue system, offering an actor-based Scala and an SQS-compatible REST (query) interface.
+<br /><br />
+		ElasticMQ is distributed under <a href="http://www.apache.org/licenses/" target="_blank">Apache License, Version 2.0</a>
+		</english-overview>
+		<english-features>
+			<p>ElasticMQ follows the semantics of SQS. Messages are received by polling the queue. When a message is received, it is blocked for a specified amount of time (the visibility timeout). If the message isn't deleted during that time, it will be again available for delivery. Moreover, queues and messages can be configured to always deliver messages with a delay.</p>
+
+			<p>The focus in SQS (and ElasticMQ) is to make sure that the messages are delivered. It may happen, however, that a message is delivered twice (if, for example, a client dies after receiving a message and processing it, but before deleting). That's why clients of ElasticMQ (and Amazon SQS) should be idempotent.</p>
+
+			<p>As ElasticMQ implements a subset of the SQS query (REST) interface, it is a great SQS alternative both for testing purposes (ElasticMQ is easily embeddable) and for creating systems which work both within and outside of the Amazon infrastructure.</p>
+		</english-features>
+	</languages>
+</soft>

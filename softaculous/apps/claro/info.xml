@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Claroline
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/Claroline
+	</ratings>
+	<space>
+		22360951
+	</space>
+	<support>
+		http://www.claroline.net
+	</support>
+	<version>
+		1.11.0
+	</version>
+	<mod>22</mod>
+	<mod_files>4</mod_files>
+	<admin>claroline/admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Claroline</font> is an Open Source eLearning and eWorking platform allowing teachers to build effective online courses and to manage learning and collaborative activities on the web. Translated into 35 languages, Claroline has a large worldwide users and developers community. 
+		<br /><br />
+		Claroline is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Manage documents and links</li>
+<li>Create online exercices</li>
+<li>Develop learning path</li>
+<li>Coordinate group work</li>
+<li>Produce : assignments and wiki</li>
+<li>Discuss : chat and forum</li>
+<li>Organize : agenda and announcements</li>
+<li>Supervise : users and statistics</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

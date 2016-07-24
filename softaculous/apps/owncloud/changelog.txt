@@ -1,0 +1,311 @@
+Version 9.0.2 May 4 2016
+
+    Open sidebar when clicking in the right part of rows in files view - #23381
+    user_ldap: Call to a member function setEMailAddress() on a non-object - #23759
+    Fatal error in dav app while running cron job - #23496
+    Desktop sync fails with big files (OC 8.2.0, client 2.0.2) - #20261
+    Wrong image rotation - #21485
+    Restrict autoloaded paths to loaded apps (and other enhancements) - #18839
+    Exclude autoload_static.php - #23935
+    [encryption] Recovery key feature doesn't work when a not default "User Home Folder Naming Rule" is used - #23632
+    Federated sharing: volatile edit permission - #24032
+    Transfer ownership with encryption break files -> bad signature - #24095
+    TextEditor: Checksum not invalidated on file change - #23782
+    occ files:scan does not invalidate checksums if file changed on disk. - #23783
+    [9.0] handle completely unscanned storages in the background scanner - #23576
+    [stable9] Write .htaccess also from CLI - #24136
+    Share link: user mail is disappearing after selecting expiration date - #22947
+    Folder size not propagated when uploading as share recipient with encryption enabled - #24105
+    Can create events in contacts_birthday calendar - #24154
+    [stable9] Ignore certificate file if it starts with file:// - #24172
+    [stable9] remember email when setting expiration date - #24149
+    cron.php does not exit, consumes RAM - #23621
+    Cron gives errors on getQuota() on null in apps/files_versions/lib/storage.php on line 691 - #23513
+    [9.0] Change the sort order of background jobs to be DESC instead of ASC - #24196
+    No "Personal" calendar created for installing user - #24082
+    [9.0] dont do optimized size propagation for encrypted files - #24158
+    [stable9] on clone Connection, do not take over the existing LDAP resource - #24236
+    [stable9] Fix LDAP race conditions - #24242
+    Catching undefined exception in versions expire - #24233
+    [9.0] Call private cache methods only for `OC\Files\Cache\Cache` - #24202
+    "Deadlock found when trying to get lock" in file locking - #20555
+    [stable9] don't get the config for the same mount multiple times - #24259
+    Scanner doesn't propagate etags any more when file changed - #24255
+    Undefined index: extension at /var/www/owncloud/lib/private/installer.php#272 - #24228
+    [stable9] Disable pastezone for jquery.fileupload - #24281
+    Can't upgrade to 9.0.1 (daily) in CentOS 6.6 - #24276
+    [9.0] error out if a local storage isn't setup correctly - #24289
+    [Stable 9] Make ownCloud work again in php 7.0.6 - #24343
+    After switching to Postgresql changing any activity checkbox checks all of the boxes - #23761
+    Upgrade from o.C. 8.2.X to 9.0.X. Cannot access to oC if and LDAP user that made a share was deleted from the LDAP server. - #24090
+    Update sabre/dav to 3.0.9 for windows 10 support - 3rdparty/#269
+    Update sabre/dav to 3.0.9 on stable9 - 3rdparty/#270
+    Spinning wheel OC 9 - activity/#481
+    wrong links in RSS feed - activity/#508
+    Announcementcenter is listing only the last 5 announcements - announcementcenter/#67
+    Export Addressbook - contacts/#248
+    [stable9] Redirect page if not shown in an iframe - files_pdfviewer/#109
+    Fix wrong path to lost password template - templateeditor/#43
+    3rdparty folder not overwritten on update - updater/#316
+    getExtractionBaseDir should be deleted before code signature is verified - updater/#318
+    BrokenUpdaterRepair SQL issue - updater/#331
+    Wrong app path when optional PCNTL module was not enabled - updater/#335
+    integrity-check command shows error after running updater from 9.0.1 stable to daily stable9 - updater/#342
+    updater/update.log has to be stored in the data folder - updater/#317
+    3rdparty folder not overwritten on update - updater/#316
+    getExtractionBaseDir should be deleted before code signature is verified - updater/#318
+    Upgrade from 9.0 to 9.1 fails - updater/#336
+    Wrong app path when optional PCNTL module was not enabled - updater/#335
+
+Version 9.0.1 April 6 2016
+
+    Sharing
+        Add mimetype to OCS Share API output #23060
+        Allow group shares, even if not all public keys are available #23264
+        Allow blocking of group sharing #23473
+        API share returns the shares that I make even API is disabled #22668
+        Return remote shares in oc:share-types Webdav property #23570
+        "Allow editing" capability in share by link not disabled #23325
+        Fix archive file name when downloading public share #22922
+        Link to the folder/file is broken/wrong in the email sent via internal share. #23197
+        Dont break when there is an invalid share #23252
+        Add webdav share-types property to fix favorites/tags share status icon #23384
+        In files view, the user that made the shares is not shown #23645
+        files:transfer-ownership command does not work in some scenarios with shares #23686
+        Sharing to AD group fails when not all users have logged in #22907
+        Case insensitive group sharing #23223
+        Position of edit options in sharing menu confuses user #18163
+        Cannot download shared albums that were shared via link gallery/#554
+    CalDAV/CardDAV, Calendar and Contacts
+        Allow to migrate calendars of all users #23113
+        Missing contacts_birthday calendar after upgrade to 9.0 #23203
+        Add title and color to birthday calendar #23128
+        CalDAV / CardDAV URLs no longer working after upgrading to 9.0 #22988
+        Group calendars can't be edited by group members #23011
+        Contact birthdays of untouched contacts not displayed in calendar #22971
+        Shared addressbook is always writable independently on "can edit" checkbox #23273
+        Calendar: Shared Calendars Aren't Visible After Upgrading From 8.2.2 -> 9.0.0{beta2,RC1,final} #22678
+        Calendar doesn't support dates before Unix epoch => can't import contact birthdays #23004
+        The birthday_calendar is read-only #23105
+        Prevent calendar proppatch for share recipients #22909
+        Fix syncing of all birthday calendars in one go #23035
+    External storage
+        Chunk upload for GDrive #23361
+        Files on external storage can't be opened in 9.0.0 #23145
+        fix creation of versions of encrypted files on external storages #23710
+        Display external storage GUI even if user mounting disabled #23335
+        External FTP storage doesn't work with encryption enabled #22286
+        Dropbox stream download with RetryWrapper #23522
+    LDAP
+        A lot of 'noise' in owncloud.log showing LDAP users in users view #22770
+        Received share to local user disappears from Webdav when LDAP server unavailable #20536
+        Users with LDAP photos unable to see SMB external storage on OwnCloud Android app #21555
+        Remove deprecated ldap_sort #23086
+    Encryption
+        [Encryption] Encryption no longer working after update from 8.2.2 to 9.0.0 #23181
+        [Encryption] "Bad Signature" error after activating encryption #23078
+        [Encryption] Make sure that the encrypted version is set #23709
+        [Encryption] OCA\\Encryption\\Controller\\SettingsController->updatePrivateKeyPassword displays password in plain text when logged #23717
+    Federation
+        [FEDERATION] ownCloud not responsive because of inaccessible federated share #22987
+        [FEDERATION] Multiple federated unsharing removes the last, not the removed one #23148
+        [FEDERATION] OwnCloud not responsive because of inaccessible federated share #22987
+    Chunked Files: Optimize checking if all chunks are there #22601
+    Remove browser autocomplete in new file menu #22784
+    Integrity check stumbles over lost+found special directory #23341
+    Code integrity failure when modifying .user.ini #23144
+    Admin page down after update to 9.0 #22960
+    Remove browser autocomplete in new file menu #22784
+    Redirect loop on session timeout when exploring trashbin #21140
+    Fix tooltip for versions mtime #22924
+    The download archive should be named after the name of the current folder #22836
+    Undefined index: newVersionString #22917
+    Rename and move permissions are set when a file is updatable #22841
+    Files Sidebar shows no entries #22980
+    Class 'XMLReader' not found in Reader.php (after upgrade from 8.2.2) #23003
+    Fix call to disk_free_space when a file is provided #22912
+    Missing document icons in filter views #23044
+    Remove disabled autocorrect for new file names #23024
+    Getting a 404 when calling url/owncloud; fine when calling url/owncloud/index.php #22970
+    Call to a member function getRequest() on null #23031
+    Windows Office files via SMB mount through WebDAV is prompting for authentication #22596
+    php fatal error during upgrade from 8.2.2.2 to 9.0.0.1 #23020
+    500 on PROPFIND with "oc:owner-display-name" #23116
+    Explicitly check for port #23156
+    PHP 5.4 Warning Wording Needs Updating #1170
+    Windows Office files via SMB mount through WebDAV is prompting for authentication #22596
+    memcached error - no activities are being shown #23076
+    Fix errors in memcached implementation #23229
+    Search broken #23136
+    Update error text for link passwords #22933
+    The API of the Thumbnails invalidate the Session Cookie on WebDAV on OC9 #22893
+    Logtimezone #23134
+    Unescaped column identifier in join breaks oracle #22835
+    Chunked Files: Optimize checking if all chunks are there #22601
+    Delay the check if the remote is an owncloud instance till we actually use the scanner #22973
+    Mod_php7.c reference missing in .htaccess #21146
+    500 error instead of 503 when SMB not available #22826
+    Prevent certain DBs throwing exceptions on same-value updates #23309
+    Add setup check for libxml2 >= 2.7.0 #23168
+    Give swift 15 seconds after startup #23324
+    Some typo corrections in occ command output #23358
+    Full name is not shown just after modifying it in the Personal Page #20455
+    No files shown in the web interface and many JavaScript errors in the console after fresh ownCloud 9.0.0 installation #23199
+    Update 3rdparty submodule for sabre 3.0.8 update #23307
+    Detection of existing tags doesn't allow to create tags named like a prefix substring of an existing tag. #22064
+    Accept- or Deny-Link of Notifications Lack Webroot Part #22786
+    Fix writing to cache when fallback server should be used immediately #23401
+    Non-ending background job #22887
+    Log more information by default #23464
+    Properly use smb permissions #23447
+    Update from 8.2.2 to 9.0.0-1.1 failed - Doctrine\DBAL\Exception\TableExistsException Table 'oc_gallery_sharing' already exists #22993
+    Query the cache when checking if a node exists #23520
+    Menu language can't be changed #22695
+    open_basedir issue in router.php #23533
+    Dont die when we cant save the resized avatar, log instead #23582
+    Themes background don't stick with local images #23239
+    Activity notification in OC9.0.0 does not specify what was accessed #23503
+    Correct form of upload-white icon to be same as upload icon #23631
+    Only remove avatars from the folder we store them in #23641
+    XCache isAvailable check fails in OC9 #23653
+    Use the shipped cacerts.pem instead of the global one #23662
+    RemoveMount should lock #17144
+    Current-user-principal returns incorrect href. #23306
+    Trying to activate app on production stable9, doesn’t work (dependency analyzer) #23668
+    User trapped in app management screen #23482
+    Read available l10n files also from theme folder #23567
+    CSS isn't loaded correctly in ownCloud 9 version of the player files_videoplayer/#36
+    Only load for apps/files and apps/files_sharing gallery/#635
+    Fix order of Gallery app in app navigation gallery/#640
+    Issue migration from 8.2.2 to 9.0.0 updater/#270
+    Date of checkpoint/backup missing updater/#268
+    [New updater] Checkpoints aren't deleted after restoring them updater/#259
+    [New updater] Updater tries to do a md5 of a missing file updater/#260
+    Updater breaks OC leaving apps empty #280
+    Invalid password/updater.secret + Login UI broken updater/#263
+    Fix message style in activity view activity/#474
+    Remove left margin from files tabview activity/#475
+    Activities not loading (Autoload path not allowed) activity/#491
+    Clicking files doesn't direct to file activity/#482
+    Infinite scrolldown in OC9 activity/#483
+    Trim long messages in the UI? notifications/#74
+	
+Version 9.0.0 March 8 2016
+
+	Major new ownCloud release, more info in announcement blog. Summary:
+		
+		New: Comments on files
+		New: Tags for files
+		New: Notifications (separate from Activity feed)
+		New: (Federation) Auto-complete of user names
+		New: (Federation) Trusted Servers
+		New: Code signing, checked when updating or installing core and apps
+		New: Stand-alone updater for more reliable upgrading
+		Improved sharing behavior and performance
+		New External Storage API's for improved scalability
+		Calendar and Contacts Apps where rewritten. The CalDAV and CardDAV backends are now part of core
+		Security hardening
+		ownCloud API work to improve scalability
+		Many small improvements
+
+Version 8.2.2 December 22 2015
+
+	Sharing improvements
+
+		Passing an empty base in this diagnosis call will not result in LDAP errors
+		Send sharing link to more than one recipient
+		Cannot share at all when share with link is disabled globally
+		Delete share hotspot not wide enough
+		Can't access a shared folder on external storage
+		Fix S2S error handling, making WebDAV work and get rid of undeletable files
+		Files/folders created while the users group was included in 'Exclude groups from sharing' cannot be shared even if the group is removed from the excluded groups.
+		"unshare" action should be called "unshare" in the action menu and not "delete"
+		Fix shared files of deleted users, detect DN change when checking for existence on LDAP
+		Etag isn't propagated to the root of the share owner if the file is uploaded to a group reshare
+		Empty etag after moving shared file into a commonly received share
+		The ajax code path unshares a link share when updating the password
+
+	Other fixes
+
+		MySQL file socket not working during initial setup
+		Multiple PUT requests to new DAV backend results in locked file
+		Dont output paths in scan.php
+		Activity oracle sql error for favorites
+		Check the expiration date for null
+		Stray locks not being cleaned: server replied: Locked
+		Login attributes tab. Other attributes combobox does not keep the selection if the users click away
+		Fix trashbin wrapper when no user is logged in
+		Handle non existing files in version previews
+		Properly preserve home folder naming enforcement setting
+		User details not saved unless click Enter
+		User management: Password change error display behavior
+		Add listener for URL change and then close the PDF viewer - files_pdfviewer
+		Remove white area below pdf viewer on public page - files_pdfviewer
+		Unable to move /srv/http/owncloud/_oc-upgrade/8.2.1.4/core/resources to /srv/http/owncloud/resources - updater
+		Fix minification quirks - updater
+		Accessibility Bug for 8.2 UI
+		
+	Several UI improvements
+	Security improvements
+	Many small improvements
+
+Version 8.2.1 November 17 2015
+
+	Sharing improvements:
+		Show path to file in error message about sharing with owner
+		Replaced error numbers with details in the sharing error message
+		Fix pagination on public link share page
+		Deal with NoUserException in sharing code
+		Fix cannot change share info after switching sections
+		Fix changing expiration date of shared link breaks password
+		Various other fixes
+
+	Performance improvements:
+		Optimize multiple shared locks for a single process
+		Don't lock if we're only reading cache metadata
+		Escape like parameter in cache operations
+
+	Storage improvements:
+		Improve dealing with Dropbox and Google Drive
+		Moving files makes them disappear (SWIFT object store)
+		Transactional file locking database backend warning is only shown when there is another warning.
+		Don't lock /$user/files
+		Include the final update in the transaction when moving a folder in the cache
+		WebDAV MOVE on a non existing file results in Internal Server Error #20069
+		Catch all exception if table doesn't exist #19884 #19893
+		Various other objectstore fixes
+
+	Usability and UI:
+		Made error message about file not found more specific in federated sharing
+		Improved CSS, fonts, text color on various buttons, login screen, menu and settings
+		Hide strength indication after password change and hide notifications after time-out or on delete
+		Fixes to inconsistent language and translation support, show language code for unknown languages
+		Fix icons for share/public folders, fix spinner positions in share tab
+		Close user menu when clicking on other menus
+		Sidebar fixes and hiding sidebar for trashbin view
+		Move alt text for favorite action to image
+		Sidebar should not open, when renaming a file on mobile
+		Do not register sidebar panels when no sidebar
+		Update process: state which step we are going to start and warn if it might be slow
+
+	User Management and LDAP fixes:
+		LDAP fixes for quota, user mapper, initial user creation and connectivity
+		Fix group admin settings, group assignment when group name is a number
+		Enable proper CardDAV cookie authentication
+
+	Documentation, reliability and stability fixes:
+		Expose syslog tag in the configuration
+		Update list of deprecated methods (documentation)
+		Fixes to text editor
+		Fixes to activity app
+		Create several repair steps in update process to clean up shares
+		Update certificate bundle
+		Fix multiple issues for IE 8 and 9
+		Memcache warning with memcached
+		Fix File versioning with encryption
+		Update the unencrypted size for versions
+		Fix mtime PROPPATCH to be "lastmodified" instead of "getlastmodified"
+		Make sure that remote shares use the correct uid casing
+		Variables don't have a class, so we can't use toString() on it
+		Use IRequest's `getScriptName` functionality instead of $_SERVER
+		Don't trigger the scroll event of every single item we filter in the file list

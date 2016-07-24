@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Arfooo
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/files/Arfooo
+	</ratings>
+	<space>
+		6583514
+	</space>
+	<support>
+		http://script.arfooo.net/
+	</support>
+	<version>
+		2.0.2
+	</version>
+	<mod>3</mod>
+	<mod_files>5</mod_files>
+	<admin>admin/main/logIn</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Arfooo Directory</font> is the most powerful free and open source directory script in the world. 
+		<br />
+		The directory script includes many customizable features with a single click, studied and designed to satisfy the greatest number of webmasters worldwide.
+		<br /><br />
+		With its advanced features, Arfooo directory is not a simple link directory script. Arfooo Directory allows you to create directories without asking link (URL) in submission form. Therefore, you can create all types of directories (yellow pages, job ...)<br />
+		Arfooo Directory is developed with latest technologies : MVC architecture, PHP 5 (OOP), Javascript / Ajax (jQuery) and uses UTF8 encoding.
+<br /><br />
+This directory script is developed and designed by an professional of search engine optimization (SEO) and integrates architecture and functions specifically dedicated to help you optimize your SEO directory in all detail: URL Rewriting, anti duplicate content , possible optimization of each field (html title, meta description, h1 tag), SiteMap.
+<br /><br />
+		Arfoo is released under the <a href="http://creativecommons.org/licenses/by/2.0/fr/deed.en" target="_blank">Creative Commons Licence</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Language and template system</li>
+<li>Unlimited categories and subcategories</li>
+<li>Create link directories, RSS feeds directories, but also</li>
+<li>Create directories without URL like yellow pages, jobs</li>
+<li>Display address, phone, fax, coupled with Google Maps</li>
+<li>URL Rewriting, anti duplicate content, and possible optimization of each field for SEO</li>
+<li>Simple and intuitive placement of your advertisments (Adsense, affiliate)</li>
+<li>Create custom fields (text, checkbox, select)</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

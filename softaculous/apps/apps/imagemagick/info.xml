@@ -1,0 +1,100 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/ImageMagick
+	</ratings>
+	<space>
+		48010766
+	</space>
+	<support>
+		http://www.imagemagick.org/index.php
+	</support>
+	<version>
+		6.9.1-6
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<release_date>13-06-2015</release_date>
+		
+	<path name="base">/usr/local/apps/imagemagick</path>
+	<path name="bin">/usr/local/apps/imagemagick/bin/Magick-config</path>
+	<extract file="imagemagick-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/imagemagick</remove>	
+	
+	<notes>
+		<center><font size="5" color="#182e7a">ImageMagick Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base</td>
+				<td>/usr/local/apps/imagemagick</td>
+			</tr>
+			<tr>
+				<td>Server Binary</td>
+				<td>/usr/local/apps/imagemagick/bin/Magick-config</td>
+			</tr>
+			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ImageMagick</font> is a software suite to create, edit, compose, or convert bitmap images. It can read and write images in a variety of formats (over 100) including DPX, EXR, GIF, JPEG, JPEG-2000, PDF, PNG, Postscript, SVG, and TIFF. Use ImageMagick to resize, flip, mirror, rotate, distort, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and Bézier curves.
+		<br /><br />
+		ImageMagick is distributed under the <a href="http://www.imagemagick.org/script/license.php" target="_blank">Apache 2.0 license,</a>
+		</english-overview>
+		<english-features>
+			
+			<ul>
+				<li>Format conversion: convert an image from one format to another (e.g. PNG to JPEG).</li>
+				<li>Transform: resize, rotate, crop, flip or trim an image.</li>
+				<li>Transparency: render portions of an image invisible.</li>
+				<li>Draw: add shapes or text to an image.</li>
+				<li>Decorate: add a border or frame to an image.</li>
+				<li>Special effects: blur, sharpen, threshold, or tint an image.</li>
+				<li>Animation: create a GIF animation sequence from a group of images.</li>
+				<li>Text and comments: insert descriptive or artistic text in an image.</li>
+				<li>Image identification: describe the format and attributes of an image.</li>
+				<li>Composite: overlap one image over another.</li>
+				<li>Montage: juxtapose image thumbnails on an image canvas.</li>
+				<li>Generalized pixel distortion: correct for, or induce image distortions including perspective.</li>
+				<li>Morphology of shapes: extract features, describe shapes, and recognize patterns in images.</li>
+				<li>Delineate image features: Canny edge detection, mean-shift, Hough lines.</li>
+				<li>Motion picture support: read and write the common image formats used in digital film work.</li>
+				<li>Image calculator: apply a mathematical expression to an image or image channels.</li>
+				<li>Discrete Fourier transform: implements the forward and inverse <a href="http://en.wikipedia.org/wiki/Discrete_Fourier_transform">DFT</a>.</li>
+				<li>Perceptual hash: map visually identical images to the same or similar hash-- useful in image retrieval, authentication, indexing, or copy detection as well as digital watermarking.</li>
+				<li>Color management: accurate color management with color profiles or in lieu of-- built-in gamma compression or expansion as demanded by the colorspace.</li>
+				<li>High dynamic-range images: accurately represent the wide range of intensity levels found in real scenes ranging from the brightest direct sunlight to the deepest darkest shadows.</li>
+				<li>Encipher or decipher an image: convert ordinary images into unintelligible gibberish and back again.</li>
+				<li>Virtual pixel support: convenient access to pixels outside the image region.</li>
+				<li>Large image support: read, process, or write mega-, giga-, or tera-pixel image sizes.</li>
+				<li>Threads of execution support: ImageMagick is thread safe and most internal algorithms execute in parallel to take advantage of speed-ups offered by multicore processor chips.</li>
+				<li>Distributed pixel cache: offload intermediate pixel storage to one or more remote servers.</li>
+				<li>Heterogeneous distributed processing: certain algorithms are OpenCL-enabled to take advantage of speed-ups offered by executing in concert across heterogeneous platforms consisting of CPUs, GPUs, and other processors.</li>
+				<li>ImageMagick on the iPhone: convert, edit, or compose images on your iOS device such as the iPhone or iPad.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

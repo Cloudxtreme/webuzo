@@ -1,0 +1,68 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/version_control/Mercurial
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://mercurial.selenic.com/
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>N/A</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/bin/mercurial-convert-repo</path>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Mercurial Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/bin/mercurial-convert-repo</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Mercurial</font> is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive interface.
+		<br /><br />
+		Mercurial is distributed under the <a href="http://www.gnu.org/licenses/gpl-2.0.txt" target="_blank">GPLv2 Open Source License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li> <b>Distributed architecture.</b> Traditional version control systems such as Subversion are typical client-server architectures with a central server to store the revisions of a project. In contrast, Mercurial is truly distributed, giving each developer a local copy of the entire development history. This way it works independent of network access or a central server. Committing, branching and merging are fast and cheap.. </li>
+				<li> <b>Platform independent.</b> Mercurial was written with platform independence in mind. Therefore most of Mercurial is written in Python, with a small part in portable C for performance reasons. As a result, binary releases are available on all major platforms.</li>
+				<li> <b>Fast.</b> Mercurials implementation and data structures are designed to be fast. You can generate diffs between revisions, or jump back in time within seconds. Therefore Mercurial is perfectly suitable for large projects such as OpenJDK (hg) or NetBeans (hg). </li>
+				<li> <b>Easy to use.</b>Mercurial sports a consistent command set in which most subversion users feel right at home. Potentially dangerous actions are available via extensions you need to enable, so the basic interface is easy to use, easy to learn and hard to break. The Quick Start should get you going in a just few minutes. </li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

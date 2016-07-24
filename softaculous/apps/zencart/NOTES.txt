@@ -1,0 +1,14 @@
+1) Rename 'admin' folder to 'zcadmin' and zip it because 'admin' folder is not allowed.
+
+2) zc_install/includes/classes/installer.php
+
+3) Please replace /admin to /zcadmin so that we can Upgrade properly in the following files in the zencart.zip:
+zc_install/includes/classes/installer.php
+zc_install/includes/modules/pages/inspect/header_php.php
+zc_install/includes/templates/template_default/templates/finished_default.php
+
+(Not required since 1.5.5)
+
+4) Make `reset_token` column blank in `prezc_admin` table for admin entry. If this is not blank then it will ask for password change after first login.
+
+5) Install without demo data

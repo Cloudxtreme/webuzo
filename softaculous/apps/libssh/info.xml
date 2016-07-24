@@ -1,0 +1,74 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/SSH
+	</ratings>
+	<space>
+		2402751
+	</space>
+	<support>
+		http://www.libssh.org
+	</support>
+	<version>
+		1.6.0
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>27-11-2012</release_date>
+	
+	<requires>openssl</requires>
+		
+	<extract file="libssh-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">libssh2 Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/libssh2/lib</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/libssh2/lib/libssh2.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		In computing, <font size="5" color="#182e7a">libssh</font> is a mulitplatform C library implementing the SSHv2 and SSHv1 protocol on client and server side. With libssh, you can remotely execute programs, transfer files, use a secure and transparent tunnel for your remote applications.
+		<br /><br />
+		libssh is distributed under the <a href="http://www.gnu.org/licenses/lgpl-2.0.html" target="_blank">LGPL v2</a> License
+		</english-overview>
+		<english-features>
+<ul>
+<li>Client <b>and</b> server support</li>
+<li>Supports  asynchronous connections</li>
+<li>Supports SFTP, SCP and OpenSSH Extensions</li>
+<li>Thread safety when using different sessions at same time</li>
+<li>Supports <a href="http://test.libssh.org/" target="_blank">Linux, UNIX, BSD, Solaris, OS/2 and Windows</a></li>
+<li>Full <a href="http://api.libssh.org/">API documentation</a> and a <a href="http://api.libssh.org/master/libssh_tutorial.html">tutorial</a></li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

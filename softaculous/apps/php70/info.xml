@@ -1,0 +1,115 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/server_side_scripting/PHP_7.0
+	</ratings>
+	<space>
+		261059772
+	</space>
+	<support>
+		http://www.php.net/
+	</support>
+	<version>
+		7.0.8
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.5.3
+	</softversion>
+	<major>1</major>
+	<release_date>23-06-2016</release_date>
+	
+	<requires>libtool</requires>
+	<requires>curl</requires>
+	<requires>bzip</requires>
+	<requires>sqlite</requires>
+	<requires>xslt</requires>
+	<requires>mcrypt</requires>
+	<requires>gdbm</requires>
+	<requires>gd</requires>
+	<requires>freetds</requires>
+	<requires>gettext</requires>
+	<requires>libxml</requires>
+	<requires>libssh</requires>
+	<requires>icu</requires>
+	<requires>imap</requires>
+	<requires>tidy</requires>
+	<requires>libexpat</requires>
+	<requires>gmp</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/php70</path>
+	<path name="bin">/usr/local/apps/php70/bin/php</path>
+	<path name="bin_fpm">/usr/local/apps/php70/sbin/php-fpm</path>
+	<path name="bin_suphp">/usr/local/apps/php70/sbin/suphp</path>
+	<path name="conf_dir">/usr/local/apps/php70/etc</path>
+	<path name="ini">/usr/local/apps/php70/etc/php.ini</path>
+	<path name="conf_fpm">/usr/local/apps/php70/etc/php-fpm.conf</path>
+	<path name="conf_suphp">/usr/local/apps/php70/etc/suphp.conf</path>
+	<path name="libphp7">/usr/local/apps/php70/lib/libphp7.so</path>
+	<path name="libphp7_2">/usr/local/apps/php70/apache2/lib/libphp7.so</path>
+	<path name="mod_suphp">/usr/local/apps/php70/lib/mod_suphp.so</path>
+	
+	<initd name="php-fpm70">/usr/local/apps/php70/bin/fpmctl70</initd>
+	<initd_stop>1</initd_stop>
+	
+	<extract file="php70-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/bin/php">/usr/local/apps/php70/bin/php</symlink>
+	<symlink target="/usr/bin/php-cgi">/usr/local/apps/php70/bin/php-cgi</symlink>
+	
+	<is_default>1_1</is_default>
+	<is_default>2_1</is_default>
+	<is_default>45_1</is_default>
+	<is_default>124_1</is_default>
+	
+	<set_default>php70</set_default>
+		
+	<remove>/usr/local/apps/php70</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">PHP_7.0 Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/php70/bin/php</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/php70/etc/php.ini</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">PHP 7.0</font> is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. If you are new to PHP and want to get some idea of how it works, try the introductory tutorial. After that, check out the online manual.
+Ever wondered how popular PHP is? See the Netcraft Survey.
+		<br /><br />
+		PHP 7 is distributed under the <a href="http://www.php.net/license/3_01.txt" target="_blank">PHP License v3.01</a>
+		</english-overview>
+		<english-features>
+PHP includes free and open source libraries with the core build. PHP is a fundamentally Internet-aware system with modules built in for accessing File Transfer Protocol (FTP) servers, many database servers, embedded SQL libraries such as embedded PostgreSQL, MySQL, Microsoft SQL Server and SQLite, LDAP servers, and others. Many functions familiar to C programmers such as those in the stdio family are available in the standard PHP build.
+<br /><br />
+PHP allows developers to write extensions in C to add functionality to the PHP language. These can then be compiled into PHP or loaded dynamically at runtime. Extensions have been written to add support for the Windows API, process management on Unix-like operating systems, multibyte strings (Unicode), cURL, and several popular compression formats. Other features include integration with IRC, dynamic generation of images and Adobe Flash content, and even speech synthesis. The language's core functions such as those dealing with strings and arrays are also implemented as an extension. The PHP Extension Community Library (PECL) project is a repository for extensions to the PHP language.
+		</english-features>
+	</languages>
+</soft>

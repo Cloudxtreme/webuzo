@@ -1,0 +1,79 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/X2CRM
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/X2CRM
+	</ratings>
+	<space>
+		79467833
+	</space>
+	<support>
+		http://www.x2engine.com/
+	</support>
+	<version>
+		6.0.1
+	</version>
+	<mod>52</mod>
+	<release_date>26-05-2016</release_date>
+	<admin>index.php/site/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.2" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="openssl" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">X2CRM</font> is an open source based Sales, Marketing Automation and Service application designed exclusively for companies that require a tightly focused customer information system. With special emphasis placed on marketing workflows, sales force speed and process optimization, X2CRM is remarkably compact and easy to use.
+		<br /><br />
+		X2CRM is released under the <a href="http://www.x2engine.com/x2crm-adopts-the-agplv3-open-source-license/" target="_blank">GNU AFFERO GENERAL PUBLIC LICENSE Version 3</a>.
+		</english-overview>		
+		<english-features>
+<ul> 
+	<li> 
+		Email Marketing Campaigns<br /><br />
+	</li> 
+	<li> 
+		Capture Web Leads<br /><br />
+	</li> 
+	<li> 
+		Route Leads Based on Business Rules<br /><br />
+	</li> 
+	<li> 
+		Engage and Correspond with Prospects<br /><br />
+	</li> 
+	<li> 
+		Price and Generate Sales Quotes<br /><br />
+	</li> 
+	<li> 
+		Define Multistep Sales Processes<br /><br />
+	</li> 
+	<li> 
+		Integrated Reporting and Charts<br /><br />
+	</li>  
+	<li> 
+		Visual No-Code Administration Studio<br /><br />
+	</li>  
+	<li> 
+		Run Anywhere in the Cloud<br /><br />
+	</li>  
+	<li> 
+		Works Great on iPads, Mobile Devices<br /><br />
+	</li>  
+	<li> 
+		X2Touch for Mobile Phones<br /><br />
+	</li>  
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

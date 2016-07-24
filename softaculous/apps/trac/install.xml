@@ -1,0 +1,26 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="project" size="30" value="project">
+				<head>{{ad_project}}</head>
+				<exp>{{exp_project}}</exp>
+			</input>
+		</group>		
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>				
+			</input>
+		</group>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="admin_folder" value="" save="true">
+			</input>
+		</group>
+	</settings>				
+	<datadir>trac</datadir>
+</softinstall>

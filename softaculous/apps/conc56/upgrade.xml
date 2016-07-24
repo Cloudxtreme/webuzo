@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>index.php/tools/required/upgrade.php</setuplocation>
+	<auto_upgrade>1</auto_upgrade>
+	<files>
+		<exclude>config/site_theme_paths.php</exclude>
+	</files>
+</softupgrade>

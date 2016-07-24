@@ -1,0 +1,57 @@
+Milestone 1.5.9
+
+    bug #1011: No automatic redirection to install.php
+    bug #1016: Does not work glob()
+    bug #1032: No notifications for users w/ language set to an inexistent language
+    bug #1033: Make it easier to configure frame options header
+    bug #1039: Parser error message no have name tag
+    bug #1040: PHP 7 compatibility
+    bug #1041: Fatal error mysqli_free_result
+    bug #1043: Prevent timing attack
+    bug #1046: Exclude newlines when parsing username in quote tag
+    bug #1049: CSRF attack allows to stick, lock, etc.
+    enhancement #1029: db_update.php: Inline script trips over content security policy
+
+Milestone 1.5.8 (2015-01-23)
+
+    bug #925: Scrollbar in chrome fluxbb1.5.5
+    bug #949: Use \r\n for SMTP, FORUM_EOL for others
+    bug #951: [url][img] patch doesn't work.
+    bug #963: Add rel="prev", rel="next" and rel="canonical"
+    bug #969: New TLDs not allowed as valid URLs
+    bug #996: Prevent clickjacking attacks
+    bug #998: Bug in validate_redirect() function
+    bug #1001: Remove setting of values in quickpostform
+    bug #1006: [HTB23246] File Inclusion in install.php
+    enhancement #57: Making a new forum is a 2 step process
+    enhancement #810: Improve unread forums tracking
+    enhancement #935: Auto-promotion improvements
+    enhancement #936: Add new group permission to allow moderators to promote users
+    enhancement #941: Remove obsolete global variables
+    enhancement #944: Remove "page 1" when thread or forum has just one page
+    enhancement #947: Improve Air/Earth/Fire design
+    enhancement #948: Require passwords with at least 6 characters
+    enhancement #959: Quick actions from registration email
+    enhancement #965: Avoid double redirect when no new posts are found
+    enhancement #976: [PATCH] Invalidate updated cache files from PHP's Opcache
+    enhancement #992: Drop IE6 support
+    enhancement #997: Make random passwords longer
+    enhancement #1007: Antispam hooks
+    enhancement #1008: Please delete your install.php file
+    task #942: Remove obsolete language strings
+    task #966: Optimize images in FluxBB core
+
+Milestone 1.5.7 (2014-10-20)
+
+    bug #961: Open Redirection Vulnerability
+    bug #990: SQL injection in profile.php
+
+Milestone 1.5.6 (2014-01-09)
+
+    bug #923: Redeclared method error when changing usernames
+    bug #940: Cross-site request forgery issues with FluxBB
+    enhancement #913: Adding subject if someone hits the preview button
+    enhancement #927: Split thread function is... "splitted"
+    enhancement #929: Textarea resize
+    enhancement #930: Allow non array page titles
+    enhancement #934: HTML5 validation

@@ -1,0 +1,59 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OpenClassifieds
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/admanager/OpenClassifieds
+	</ratings>
+	<space>
+		17212656
+	</space>
+	<support>
+		http://www.open-classifieds.com/
+	</support>
+	<version>
+		2.7.2
+	</version>
+	<mod>56</mod>
+	<min_require>2.0</min_require>
+	<release_date>24-05-2016</release_date>
+	<admin>oc-panel/auth/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OpenClassifieds</font> is a free open source script for classifieds, advertisement or listings.
+		<br /><br />
+		This web application is developed to be fast, light, secure and SEO friendly. Template enabled and easy to administrate. 
+		<br /><br />
+		OpenClassifieds is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Friendly URLs (can be deactivated)</li>
+<li>SEO (improved thanks to SEO Marbella: Señor Muñoz)</li>
+<li>Multi category</li>
+<li>Pictures per item (with image resizer)</li>
+<li>Views counter</li>
+<li>To post needs to be confirmed by email</li>
+<li>Default template HTML and CSS valid, without any image</li>
+<li>Administrator, for categories, cache, sitemap, settings…</li>
+<li>Mobile devices ready with template</li>
+<li>Mobile devices ready</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

@@ -1,0 +1,57 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Subrion
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Subrion
+	</ratings>
+	<space>
+		23515643
+	</space>
+	<support>
+		http://www.subrion.com/support.html
+	</support>
+	<version>
+		4.0.5
+	</version>
+	<mod>43</mod>
+	<mod_files>1</mod_files>
+	<release_date>15-02-2016</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="xml" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Subrion</font> is a stand-alone PHP content management system that is very easy to use. It comes with a ton of great features including full source editing, per-page permissions, user activity monitoring, and much more. 
+		<br /><br />
+		Subrion CMS unites the functionality of articles script, auto classifieds script, realty classifieds script, web directory script, and yellow pages script all in one package. 
+		<br /><br />
+		Subrion License Agreement is available <a href="http://www.subrion.com/license.html" target="_blank">here</a>.
+		</english-overview>		
+		<english-features>
+				<font size="2" color="#1281B6"><b>Powerful Dashboard</b></font><br />
+					Track your site daily visitor count from dashboard along with various metrics like listing counts, review counts, comments counts, users counts, revenue, number of orders etc. to track your website's success.<br /><br />
+				<font size="2" color="#1281B6"><b>Plugins Support</b></font><br />
+					With the plugins and blocks managers, you get the full control of displaying any content anywhere across the website. Need to display a specific group of ads at specific categories? You only need to go into your Admin Panel and click Manage Blocks.<br /><br />
+				<font size="2" color="#1281B6"><b>Custom Fields</b></font><br />
+					Specify your custom fields for any listing type directly in admin panel. You can easily create field groups to reuse across multiple listing types. Specify field properties like searchable, editable and more. You have a lot of field types to choose from.<br /><br />
+				<font size="2" color="#1281B6"><b>Google Maps</b></font><br />
+					Subrion CMS comes with Google Maps plugin that allows to display your address location. Insert Google map as a plugin with specific content anywhere on website. It's flexible and customizable. You can also configure fields are displayed in your Google Map baloon.<br /><br />
+				<font size="2" color="#1281B6"><b>Paid Listings</b></font><br />
+					Charge your visitors for upgrading, submitting the listings or account memberships. Create different plans with custom restrictions like special privileges, number of images allowed to upload, specific fields to allow for a listing, etc. Set-it and forget-it with recurring subscriptions.<br /><br />
+				<font size="2" color="#1281B6"><b>SEO Features</b></font><br />
+					Take advantage of fully Search engine optimized URLs. Define homepage's meta information from backend, define custom keywords/titles/description for listing pages. Enable google rich snippets to let Google bot collect more information from your website.<br /><br />
+		</english-features>
+	</languages>
+</soft>

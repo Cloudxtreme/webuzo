@@ -1,0 +1,68 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Aardvark Topsites">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="ats">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="english">English</option>
+					<option value="arabic">Arabic</option>
+					<option value="bosnian">Bosnian</option>
+					<option value="czech">Czech</option>
+					<option value="danish">Danish</option>
+					<option value="dutch">Dutch</option>
+					<option value="finnish">Finnish</option>
+					<option value="french">French</option>
+					<option value="german">German</option>
+					<option value="greek">Greek</option>
+					<option value="hebrew">Hebrew</option>
+					<option value="hungarian">Hungarian</option>
+					<option value="italian">Italian</option>
+					<option value="kurdish">Kurdish</option>
+					<option value="lithuanian">Lithuanian</option>
+					<option value="macedonian">Macedonian</option>
+					<option value="norwegian">Norwegian</option>
+					<option value="polish">Polish</option>
+					<option value="portuguese_brazilian">Portuguese (Brazilian</option>
+					<option value="romanian">Romanian</option>
+					<option value="russian">Russian</option>
+					<option value="serbian">Serbian</option>
+					<option value="spanish">Spanish</option>
+					<option value="swedish">Swedish</option>
+					<option value="turkish">Turkish</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+	</files>
+</softinstall>

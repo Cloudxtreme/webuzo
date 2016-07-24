@@ -1,0 +1,94 @@
+# BEGIN PEOPLEPODS RULES
+#####################################
+# turn the RewriteEngine on so that these fancy rewrite rules work
+RewriteEngine On
+
+# contenttype_document_add
+RewriteRule ^edit$	[[relativeurl]]/peoplepods/pods/core_usercontent/edit.php	[QSA,L]
+
+# contenttype_document_list
+RewriteRule ^show$	[[relativeurl]]/peoplepods/pods/core_usercontent/list.php	[QSA,L]
+
+# contenttype_document_view
+RewriteRule ^show/(.*)	[[relativeurl]]/peoplepods/pods/core_usercontent/view.php?stub=$1	[QSA,L]
+
+# core_api_simple
+RewriteRule ^api/2/(.*)	[[relativeurl]]/peoplepods/pods/core_api_simple/index_version2.php?method=$1	[QSA,L]
+
+# core_api_simple
+RewriteRule ^api$	[[relativeurl]]/peoplepods/pods/core_api_simple/index_version1.php	[QSA,L]
+
+# core_authentication_creation
+RewriteRule ^join	[[relativeurl]]/peoplepods/pods//core_authentication/join.php	[QSA,L]
+
+# core_authentication_creation
+RewriteRule ^verify	[[relativeurl]]/peoplepods/pods/core_authentication/verify.php	[QSA,L]
+
+# core_authentication_login
+RewriteRule ^login	[[relativeurl]]/peoplepods/pods/core_authentication/login.php	[QSA,L]
+
+# core_authentication_login
+RewriteRule ^logout	[[relativeurl]]/peoplepods/pods/core_authentication/logout.php	[QSA,L]
+
+# core_authentication_login
+RewriteRule ^password_reset/(.*)	[[relativeurl]]/peoplepods/pods/core_authentication/password.php?resetCode=$1	[QSA,L]
+
+# core_authentication_login
+RewriteRule ^password_reset$	[[relativeurl]]/peoplepods/pods/core_authentication/password.php	[QSA,L]
+
+# core_dashboard
+RewriteRule ^$	[[relativeurl]]/peoplepods/pods/dashboard/index.php	[QSA,L]
+
+# core_dashboard
+RewriteRule ^replies	[[relativeurl]]/peoplepods/pods/dashboard/index.php?replies=1	[QSA,L]
+
+# core_feeds
+RewriteRule ^feeds/(.*)	[[relativeurl]]/peoplepods/pods/core_feeds/feed.php?args=$1	[QSA,L]
+
+# core_feeds
+RewriteRule ^lists/(.*)	[[relativeurl]]/peoplepods/pods/core_feeds/list.php?args=$1	[QSA,L]
+
+# core_feeds
+RewriteRule ^lists$	[[relativeurl]]/peoplepods/pods/core_feeds/list.php	[QSA,L]
+
+# core_feeds
+RewriteRule ^feeds$	[[relativeurl]]/peoplepods/pods/core_feeds/feed.php	[QSA,L]
+
+# core_friends
+RewriteRule ^friends$	[[relativeurl]]/peoplepods/pods/core_friends/index.php	[QSA,L]
+
+# core_friends
+RewriteRule ^friends/(.*)	[[relativeurl]]/peoplepods/pods/core_friends/index.php?mode=$1	[QSA,L]
+
+# core_groups
+RewriteRule ^groups$	[[relativeurl]]/peoplepods/pods/core_groups/index.php	[QSA,L]
+
+# core_groups
+RewriteRule ^groups/(.*)/(.*)	[[relativeurl]]/peoplepods/pods/core_groups/group.php?stub=$1&command=$2	[QSA,L]
+
+# core_groups
+RewriteRule ^groups/(.*)	[[relativeurl]]/peoplepods/pods/core_groups/group.php?stub=$1	[QSA,L]
+
+# core_invite
+RewriteRule ^invite	[[relativeurl]]/peoplepods/pods/core_invite/index.php	[QSA,L]
+
+# core_private_messaging
+RewriteRule ^inbox$	[[relativeurl]]/peoplepods/pods/core_private_messaging/inbox.php	[QSA,L]
+
+# core_private_messaging
+RewriteRule ^inbox/conversationwith/(.*)	[[relativeurl]]/peoplepods/pods/core_private_messaging/thread.php?username=$1	[QSA,L]
+
+# core_profiles
+RewriteRule ^people/(.*)	[[relativeurl]]/peoplepods/pods/core_profiles/profile.php?username=$1	[QSA,L]
+
+# core_profiles
+RewriteRule ^editprofile	[[relativeurl]]/peoplepods/pods/core_profiles/editprofile.php	[QSA,L]
+
+# core_search
+RewriteRule ^search	[[relativeurl]]/peoplepods/pods/core_search/search.php	[QSA,L]
+
+#####################################
+# END PEOPLEPODS RULES
+
+
+

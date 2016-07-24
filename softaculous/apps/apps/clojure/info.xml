@@ -1,0 +1,84 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tool/Clojure
+	</ratings>
+	<space>
+		7990758
+	</space>
+	<support>
+		http://clojure.org/
+	</support>
+	<version>
+		1.7.0
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>30-06-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/clojure</path>	
+	
+	<extract file="clojure-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/clojure</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Clojure Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/clojure</td>
+			</tr>
+			<tr>
+				<td>jar Path</td>
+				<td>/usr/local/apps/clojure/clojure-x.x.x.jar</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://clojure.org/documentation</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#4f81bd">Clojure</font> is a dynamic programming language that targets the Java Virtual Machine (and the CLR, and JavaScript). It is designed to be a general-purpose language, combining the approachability and interactive development of a scripting language with an efficient and robust infrastructure for multithreaded programming. Clojure is a compiled language - it compiles directly to JVM bytecode, yet remains completely dynamic  
+<br /><br />
+		<br /><br />
+		Clojure is distributed under the <a href="http://opensource.org/licenses/eclipse-1.0.php" target="_blank">Eclipse Public License</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Dynamic Development : Clojure is dynamic. That means that a Clojure program is not just something you compile and run, but something with which you can interact. </li>
+				<li>Functional Programming : It provides the tools to avoid mutable state, provides functions as first-class objects, and emphasizes recursive iteration instead of side-effect based looping.</li>
+				<li>Lisp : Clojure is a member of the Lisp family of languages. Many of the features of Lisp have made it into other languages, but Lisp's approach to code-as-data and its macro system still set it apart.</li>
+				<li>Runtime Polymorphism : Clojure supports polymorphism at 3 levels.</li>
+				<li>Concurrent Programming : Clojure simplifies multi-threaded programming in several ways. Because the core data structures are immutable, they can be shared readily between threads.</li>
+				<li>Hosted on the JVM : Clojure is designed to be a hosted language, sharing the JVM type system, GC, threads etc. It compiles all functions to JVM bytecode.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

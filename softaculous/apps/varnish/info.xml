@@ -1,0 +1,129 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/utilities/Varnish
+	</ratings>
+	<space>
+		5622419
+	</space>
+	<support>
+		https://www.varnish-cache.org/support
+	</support>
+	<version>
+		3.0.7
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>23-03-2015</release_date>
+	
+	<requires>readline</requires>
+	<requires>pcre</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/varnish</path>
+	<path name="sbin">/usr/local/apps/varnish/sbin/varnishd</path>
+	<path name="conf_dir">/usr/local/apps/varnish/etc</path>
+	
+	<initd name="varnish">/usr/local/apps/varnish/bin/varnishctl</initd>
+	<initd_stop>1</initd_stop>
+	
+	<extract file="varnish-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/varnish</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Varnish Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/varnish/sbin/varnishd</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/varnish/etc</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Varnish Cache</font> is a web application accelerator also known as a caching HTTP reverse proxy. You install it in front of any server that speaks HTTP and configure it to cache the contents. Varnish Cache is really, really fast. It typically speeds up delivery with a factor of 300 - 1000x, depending on your architecture. A high level overview of what Varnish does can be seen in the video attached to this web page.
+		<br /><br />
+		Varnish is distributed under the <a href="http://opensource.org/licenses/BSD-2-Clause" target="_blank">2-clause BSD license</a>.
+		</english-overview>
+		<english-features>
+			<h2 >Design</h2>
+			<p>
+			One of the main features of Varnish is its design. Varnish is a modern program, designed and written for modern operating systems. To read more about the thoughts that lie behind the design see the architect notes.
+			</p>
+			<h2 >VCL</h2>
+			<p>
+			Another main feature of Varnish is its configuration language. VCL is a domain specific language. Varnish compiles the configuration into binary code and runs it. VCL can be loaded and replaced on the fly. 
+			</p>
+			<p>
+			All this adds a lot of speed and flexibility. To read more about the VCL start out with the main VCL page and the VCL examples.
+			</p>
+			<h3 >A sub-feature of VCL - inline C</h3>
+			<p>
+			Varnish allows you to add C code in your VCL - giving you the option to easily expand Varnish on the fly. 
+			</p>
+			<h2 >Load balancing and backend health polling</h2>
+			<p>
+			As it's quite common to use more than one origin server to feed varnish, it has a built in load balancer. This consists of two parts:
+			</p>
+			<ul><li>The health polling system, which maintains a list of backends able to receive traffic.
+			</li><li>The director, which directs the request to the right backend.
+			</li></ul>
+			<h2 >Edge Side Includes - ESI</h2>
+			<p>
+			ESI allows you to split up your web page into components cache them individually. If you're going to use Varnish to accelerate a dynamic
+			web site with a lot of personalized content ESI is the key to success, more or less. 
+			</p>
+			<h2 >Graceful handling of dead and slow backends</h2>
+			<p>
+			Varnish can serve old content while the origin server generates new content. Work is underway to ensure that Varnish can also keep serving content if the origin server is crashed. 
+			</p>
+			<h2 >The web management administration interface</h2>
+			<p>
+			If you're managing a whole cluster of varnish servers you might find the Varnish Administration Console useful. It is only available for customers with a Varnish Enterprise Subscription.
+			</p>
+			<h2>The management port</h2>
+			<p>
+			A running Varnish cache can be managed with a management port. You can just telnet in and upload a new configuration, change settings, etc. .
+			</p>
+			<h2 >Rewriting and redirecting URLs</h2>
+			<p>
+			Varnish can both rewrite and redirect URLs without any external programs. 
+			</p>
+			<h2 >Live statistics and logging</h2>
+			<p>
+			For performance reasons varnish logs to a shared memory segment. Several tools can be used to inspect and analyze the logs. 
+			<p>Varnishlog gives you a dump of the raw logs Varnishlog for an explanation of what the tags means.</p> 
+			<p>varnishhist	will give you a rather intuitive histogram of what the typical response times are.</p>
+			<p>varnishstat will give you a lot of statistics.</p>
+			</p>
+		
+		</english-features>
+	</languages>
+</soft>

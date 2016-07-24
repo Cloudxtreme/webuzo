@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/GPixPixel
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/admanager/GPixPixel
+	</ratings>
+	<space>
+		6311805
+	</space>
+	<support>
+		http://www.tufat.com/s_milliondollarhomepage.htm
+	</support>
+	<version>
+		1.4.1
+	</version>
+	<mod>2</mod>
+	<mod_files>5</mod_files>
+	<admin>admin/index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">GPixPixel</font> is a FREE yet powerful million pixel script, based on the popular marketing concept. 
+		<br /><br />
+		Advanced settings include, among others, the ability to use interlaced images, temporarily take the site down for maintenance and put it back online when all changes are done, and enable/disable blog comments. 
+		<br /><br />
+Multiple payment modules available for pixel purchasing, including Authorize.Net, PayPal, NOCHEX, PSiGates, and others. More are being added all the time. PayPal IPN is fully supported, too!
+		<br /><br />
+		GPixPixel is licensed under the <a href="www.gnu.org/licenses/lgpl-2.1.html" target="_blank">GNU Lesser General Public License</a>.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Advanced "lasso" feature for pixel selection.</li>
+<li>Pixel List feature provides a quick view of all purchased regions.</li>
+<li>Advanced settings manager to maintain database-stored site settings.</li>
+<li>All pages are fully XHTML transitional compliant, checked against W3C standards.</li>
+<li>Multi-language e-mail template editor allows quick and convenient editing of confirmation e-mails.</li>
+<li>Payment History manager shows you a list of received payments, and any payment errors.</li>
+<li>Language editor permits you to easily add new languages to your million pixel ad site.</li>
+<li>Manage multiple grids, set the price per grid, set the grid background and line colors, delete grids, etc.</li>
+<li>Blog feature, with optional commenting. Security measures have been added to the blog comments section to help ward off script daemons that may try to spam your site.</li>
+<li>Image library is available (with more images being added all the time) for users who may not have a pre-defined image to use with your million pixel ad website.</li>
+<li>Newsletter templates, fully editable using the FCKEditor, are available in the admin panel. Send your users announcements of updates and new features in your system.</li>
+<li>Quickly e-mail all pixel owners with a single click (the "Pixel Owners" link at the right), using the newsletter feature.</li>
+<li>Pixel zoom feature allows your site visitors to more easily view small pixel regions.</li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

@@ -1,0 +1,10 @@
+Changes
+LICENSE.txt
+MANIFEST
+META.json
+doc
+examples
+include
+lib
+packed
+tests

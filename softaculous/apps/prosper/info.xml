@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Prosper202
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/admanager/Prosper202
+	</ratings>
+	<space>
+		23902495
+	</space>
+	<support>
+		http://prosper.tracking202.com/blog/prosper202-tracking202-mega-faq
+	</support>
+	<version>
+		1.8.10
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<release_date>07-10-2014</release_date>
+	<admin>202-login.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.5.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Prosper202</font> provides pay per click affiliate marketers with leading edge self hosted ppc software.
+		<br /><br />Prosper202 is committed to making the latest pay per click marketing technology available to our users (such as real time tracking). You can rest assured that with Prosper202 you will be on the cutting edge of the technology available.
+		<br /><br />
+		Prosper202 is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License.</a>
+		</english-overview>		
+		<english-features>
+	<ul>
+		<li>The industry's trusted and leading 100% Open Source tracking platform for marketers.</li><br/>
+		<li>Multi-channel analytics and tracking for your marketing campaigns.</li><br/>
+		<li>Works with Google Adwords, Facebook Ads, Twitter Ads, Bing Ads, email and more.</li><br/>
+		<li>View all your stats  in one convenient central dashboard.</li><br/>
+		<li>Works seamlessly with both mobile and desktop traffic.</li><br/>
+		<li>Click fraud and bot detection to prevent wasted ad budgets.</li><br/>
+		<li>Custom tracking variables for unparalleled flexibility.</li><br/>
+		<li>Smart tracking pixel for intelligent conversion attribution.</li><br/>
+		<li>Rules based post click redirection for more fine grained testing and optimization.</li><br/>
+		<li>Lightning fast click redirection for optimum performance.</li><br/>
+	</ul>
+		</english-features>
+	</languages>
+</soft>

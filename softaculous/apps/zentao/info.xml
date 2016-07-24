@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ZenTao
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/ZenTao
+	</ratings>
+	<space>
+		12568491
+	</space>
+	<support>
+		http://www.zentao.pm
+	</support>
+	<version>
+		8.1.3
+	</version>
+	<mod>2</mod>
+	<release_date>25-03-2016</release_date>
+	<admin>www/index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="mysql" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ZenTao</font> developed by Nature Easy Soft Network Technology Development Co. Ltd, is an open source project management software. Combining product management, project management, quality management, document project, organization management and todo management, ZenTao is professional R&amp;D project management software, completely covering the core processes of R &amp; D project. Results-oriented with perfect functions, easy operation, beautiful interface, powerful search functions, various statistical statements and complete API, ZenTao is reasonably structured and can be extended flexibly.
+		<br /><br />
+		ZenTao is released under the <a href="http://zpl.pub/page/zplv12.html" target="_blank">Z PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li>task management</li>
+	<li>story management</li>
+	<li>bug management</li>
+	<li>test case management</li>
+	<li>burn down chart</li>
+	<li>todo</li>
+	<li>report chart</li>
+	<li>search</li>
+	<li>api</li>
+	<li>extension</li>
+	<li>dashboard</li>
+</ul>
+	</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,5 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<files>
+		<exclude>settings.ini</exclude>
+	</files>
+</softupgrade>

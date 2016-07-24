@@ -1,0 +1,71 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/CS-Cart
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/ecommerce/CS-Cart
+	</ratings>
+	<space>
+		175610866  
+	</space>
+	<support>
+		http://forum.cs-cart.com/
+	</support>
+	<version>
+		4.3.7
+	</version>
+	<mod>13</mod>
+	<release_date>10-05-2016</release_date>
+	<admin>admin.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="mysqli" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CS-Cart</font> is highly customizable software, it provides full access to the source code, and there are no encrypted files in it. Thanks to this it is possible to make any changes, integrations and modifications according to the users’ specific needs. CS-Cart is built using PHP and MySQL, AJAX technologies are utilized as well. Design architecture of CS-Cart is based on Smarty template engine that, along with completely CSS-based template layout, makes it very simple to change the look-and-feel of the storefront. 
+		<br /><br />Apart from a bundle of features and add-ons, included into the software by default, there are many add-ons and themes, created by third-party developers, which are listed in CS-Cart Marketplace (<a href="http://marketplace.cs-cart.com/" target="_blank">http://marketplace.cs-cart.com/</a>)
+		<br /><br />CS-Cart <a href="http://www.cs-cart.com/license.html" target="_blank">License Agreement</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#1281B6"><b>Ready from the Start</b></font><br /><br />
+<font size="1">CS-Cart is a "batteries included" solution. Right out of the box, you have all the necessary tools for a rapid start: the checkout system, built-in CMS, flexible product management, etc. Just do some basic setup, add your products, and start selling!
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Eye-Candy Store</b></font><br /><br />
+<font size="1">CS-Cart ships with a modern, beautifully designed storefront. Use one of the pre-installed design presets or create your own.
+The built-in theme editor lets you to customize the look &amp; feel of your store with no HTML or CSS knowledge required.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Rocket-Fast</b></font><br /><br />
+<font size="1">CS-Cart is faster than most e-commerce solutions on the market, with no additional tuning necessary.
+We invest a lot in performance and speed to deliver smooth and lag-free shopping experience to all visitors of the CS-Cart stores.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Powerful Admin Panel</b></font><br /><br />
+<font size="1">The admin panel is a true gem. It is crammed with useful e-commerce features: promotion and marketing tools, integrations with major shipping and payment services, etc. Over 50 add-ons are there for you by default.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Multi-Store by Design</b></font><br /><br />
+<font size="1">Multi-store management has never been easier. You can add as many storefronts as you need. The storefronts can be managed individually, each having its own design, products, and customers, or sharing the same customers or products.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Free Mode</b></font><br /><br />
+<font size="1">CS-Cart is available in the Free mode, which does not require a license purchase. The Free mode can be used with no time limitations.
+The Free mode provides the essential set of e-commerce tools. 
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Mobile-Friendly</b></font><br /><br />
+<font size="1">The Twigmo mobile storefront is specially designed to deliver rich shopping experience under the limitations of a mobile screen. The Twigmo mobile admin panel allows you to manage your store right from your phone or tablet.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Free Cloud-Powered Search</b></font><br /><br />
+<font size="1">CS-Cart users enjoy super fast and smart product search, provided by Searchanise. This service is absolutely free and available as a built-in add-on.</font><br /><br />
+		</english-features>
+		<english-license_head>License Agreement</english-license_head>
+		<english-license-agreement>CS-Cart License Agreement</english-license-agreement>
+		<english-exp_license-agreement>Please select the checkbox to agree the license terms of CS-Cart <br /> Click <a href="http://www.cs-cart.com/license.html" target="_blank">here</a> to read the license agreement.</english-exp_license-agreement>
+		<english-err_license_agreement>Please select the License agreement checkbox to continue</english-err_license_agreement>
+		<english-err_empty_database>The database already has some tables please make sure that the database is empty</english-err_empty_database>
+	</languages>
+</soft>

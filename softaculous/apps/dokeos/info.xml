@@ -1,0 +1,54 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Dokeos
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/educational/Dokeos
+	</ratings>
+	<space>
+		101574650
+	</space>
+	<support>
+		http://www.dokeos.com/en/services.php
+	</support>
+	<version>
+		2.1.1
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<admin>main/admin/</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Dokeos</font> is an elearning and course management web application. 
+		It provides all the features needed for e-learning and blended learning management : From Authoring to Reporting.
+		<br /><br />
+		Dokeos supports many different kinds of learning and collaboration activities. Teachers/trainers can create, manage and publish their courses through the web. Students/trainees can follow courses, read content or participate actively through groups, forums, chat.
+		<br /><br />
+		Dokeos is distributed under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font>
+<b style="color:#1281B6;">REPORTING</b> Track time, progress and score. &amp; print certificates.<br /><br />
+<b style="color:#1281B6;">AUTHOR</b> Templates based online authoring &amp; rapid learning.<br /><br />
+<b style="color:#1281B6;">SCORM</b> Import third party content Articulate, Captivate...&amp; certify reporting.<br /><br />
+<b style="color:#1281B6;">ADMIN</b> Manage users, cources, groups. &amp; handle multisite deployment<br /><br />
+<b style="color:#1281B6;">SOCIAL</b> Have students learn from each other. &amp; organise videoconferences<br /><br />
+<b style="color:#1281B6;">MINDMAPS</b> Build visual learning without graphical expertise &amp; import mindmaps<br /><br />
+<b style="color:#1281B6;">DOCUMENTS</b> Word, PDF, Powerpoint, Flash &amp; Virtual library<br /><br />
+<b style="color:#1281B6;">SCENARIOS</b> Structure learning by chapters, weeks or activities &amp; build case studies<br /><br />
+<b style="color:#1281B6;">QUIZZES</b> 29 templates of online learning activities &amp; Medical imaging delineation<br /><br />
+<b style="color:#1281B6;">PODCASTS</b> Publish images, audio and video for mobile learning &amp; record your voice online<br /><br />
+</font>
+		</english-features>
+	</languages>
+</soft>

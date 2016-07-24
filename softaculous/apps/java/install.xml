@@ -1,0 +1,12 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>	
+		<group>
+			<heading>{{dep}}</heading>	
+			<input type="checkbox" name="remove-dep" value="off">
+				<head>{{remove-dep}}</head>
+				<exp>{{exp-remove-dep}}</exp>
+				<admin type="checkbox" enabled="1"></admin>
+			</input>
+		</group>	
+	</settings>	
+</softinstall>

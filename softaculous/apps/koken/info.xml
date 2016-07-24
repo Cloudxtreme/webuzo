@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Koken
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Koken
+	</ratings>
+	<space>
+		12337318
+	</space>
+	<support>
+		http://help.koken.me/
+	</support>
+	<version>
+		0.22.4
+	</version>
+	<mod>3</mod>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Koken</font> is a free content management system designed for photographers, designers and artists.
+		<br /><br />
+		Koken is released under the <a href="http://koken.me/eula.html" target="_blank">license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+	<li>Built for photography<br /> Your images are your most important asset. Koken treats them with the attention they deserve by including a full-featured management interface that looks and feels like a desktop application. </li>
+	<li>Work and words, together<br /> Write about portfolio updates, inspiration, or anything that comes to mind. Images, videos, slideshows and content from Flickr, Instagram, Vimeo, SoundCloud and Twitter are a snap to display.</li>
+	<li>Live site previewing and editing<br />Setup your navigation, add pages, and edit your site's color and layout with simple point-and-click controls. No HTML experience required. </li>
+	<li>Simple theme controls<br /> Edit your site's color, layout, typefaces and more with a point-and-click floating panel of options. No HTML experience needed.</li>
+	<li>Custom CSS editor<br /> Append styles to any theme through an inline CSS editor. Edits immediately appear in the live site preview.</li>
+	<li>Drafts<br /> Independent draft and live site states so you may make behind-the-scenes changes without affecting your live site.</li>
+	<li>Navigation builder<br /> Add and remove navigation links with one click. Assign front pages, edit labels, filter data and more.</li>
+	<li>Live preview<br />See all site edits instantly inside the site editor. Build exactly the site you want then publish when ready.</li>
+	<li>Filters<br />Edit page content order and visibility using tags, categories, favorites or featured criteria.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

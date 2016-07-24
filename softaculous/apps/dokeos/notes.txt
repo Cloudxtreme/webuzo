@@ -1,0 +1,14 @@
+1. copy html files which are not in zip. from home folder of manual to zip
+i.e demo.html, faq.html etc
+
+2. Install Without dbprefix i.e keep dbprefix empty
+
+3. Encryption method : md5
+
+4. Check languages
+
+5. In import version is 2.1
+
+6. Add error_reporting(E_ALL); in configuration to get rid of deprecated warnings on PHP 5.3
+
+7. Added unset($variable); instead of session_unregister($variable); to get rid of depricated error while logout

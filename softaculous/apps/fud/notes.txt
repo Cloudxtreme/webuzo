@@ -1,0 +1,2 @@
+1. While installation use this 'fud30_' as dbprefix
+2. We configure .htaccess to remove the php_value and php_flag

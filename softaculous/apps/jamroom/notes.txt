@@ -1,0 +1,3 @@
+1) We dont change "jrElastic_css_version" and "jrElastic_javascript_version" in sql, as its same for all installation.
+2) Take sql dump after creating account.
+3) Release date can be found here : "https://www.jamroom.net/the-jamroom-network/networkmarket/32/system-core"

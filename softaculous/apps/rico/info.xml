@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://demos.openrico.org/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/Rico
+	</ratings>
+	<space>
+		5332532
+	</space>
+	<support>
+		http://openrico.org/
+	</support>
+	<version>
+		2.1
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Rico</font> is an open source JavaScript library for developing rich Internet applications (RIAs) that use Ajax.
+		<br /><br />
+		Rico uses the Prototype Javascript Framework and JSON libraries.
+		<br /><br />
+		Rico is provided free and open-source (<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0 License</a>) for either your personal or commercial use.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>Animation Effects</li>
+<li>Behaviors</li>
+<li>Styling</li>
+<li>Drag And Drop</li>
+<li>AJAX Support</li>
+</ul>
+
+<font size="4" color="78ba91"><b>Browser Compatibility</b></font><br />
+		Rico has been tested on IE 5.5, IE 6, Firefox 1.0x/Win, Camino/Mac, Firefox 1.5x/Mac
+
+		</english-features>
+	</languages>
+</soft>

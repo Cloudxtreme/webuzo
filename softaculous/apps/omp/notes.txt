@@ -1,0 +1,7 @@
+1)Primary locale english
+2)Don't install additional locales
+3)client character set -utf8 
+connection character set -utf8
+database character set-utf8
+4)pass encryption (sha1)(default)
+5) "enableBeacon" check this option from 1.2.0

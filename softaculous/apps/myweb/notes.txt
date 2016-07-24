@@ -1,0 +1,1 @@
+In manual installation go to path as /mywebsql/install.php to start installation.

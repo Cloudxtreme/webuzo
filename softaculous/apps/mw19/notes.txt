@@ -1,0 +1,6 @@
+1) Use Storage Engine Innodb.
+2) Use Utf-8 database character set.
+3) Use the License as "No license metadata"
+4) Check the language files exists in the /languages/classes/ & /languages/messages/ it should be there with the downloaded zip.
+5) We have blocked cross upgrade from 1.19.15 to 1.22.5 because of following error: "Fatal exception of type MWException"
+Remove this condition from mw 1.22 branch in next version if upgrade is working fine. (Enabled for now)

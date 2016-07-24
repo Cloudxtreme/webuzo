@@ -1,0 +1,8 @@
+1) Add following in `ttrss_user_prefs` table:
+
+INSERT INTO `ttrss_user_prefs` VALUES
+(1, 'USER_LANGUAGE', '[[language]]', NULL);
+
+2) Make script where Database ENGINE is InnoDB
+
+3) Check for language

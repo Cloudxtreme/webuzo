@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="sm_logo.png" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SquirrelMail
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/mail/SquirrelMail
+	</ratings>
+	<space>
+		2837378
+	</space>
+	<support>
+		http://www.squirrelmail.org/
+	</support>
+	<version>
+		1.4.22
+	</version>
+	<mod>9</mod>
+	<mod_files>4</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SquirrelMail</font> is a standards-based webmail package written in PHP. It includes built-in pure PHP support for the IMAP and SMTP protocols, and all pages render in pure HTML 4.0 (with no JavaScript required) for maximum compatibility across browsers. It has very few requirements and is very easy to configure and install. SquirrelMail has all the functionality you would want from an email client, including strong MIME support, address books, and folder manipulation. 
+		<br /><br />
+		SquirrelMail is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Spell checking (squirrelspell)</li>
+<li>Mail filters (filters)</li>
+<li>Web-based administration of SquirrelMail (administrator)</li>
+<li>A calendar (calendar)</li>
+<li>An interface to submit bug reports semi-automatically (bug_report)</li>
+</ul>
+<p>Examples of functionalities added by various third-party plugins include:</p>
+<ul>
+<li>Address book/contact grouping and other address book expansions</li>
+<li>Monitoring and security tools to track usage, fight attackers and improve security</li>
+<li>Password change</li>
+<li>Quota reporting</li>
+<li>Rich text (HTML) email composition and display</li>
+<li>User-configurable front-ends for autoreponders, spam filtering systems such as SpamAssassin and server-side mail filters</li>
+<li>Weather reporting</li>
+</ul>
+
+		</english-features>
+	</languages>
+</soft>

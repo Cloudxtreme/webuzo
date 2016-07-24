@@ -1,0 +1,5 @@
+1. Make on cpanel
+2. set "Relative path to image upload directory" correctly i.e after public_html and "Default header image URL" in manual installation
+3. timezone = America/New York
+4. select mysql
+5. .htaccess is our file to redirect link

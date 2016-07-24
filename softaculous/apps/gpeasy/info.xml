@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Typesetter
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Typesetter
+	</ratings>
+	<space>
+		9742505
+	</space>
+	<support>
+		http://gpeasy.com/Forum
+	</support>
+	<version>
+		5.0.3
+	</version>
+	<mod>6</mod>
+	<admin>index.php/Admin?file=Home</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+	<english-overview>
+	<font size="5" color="#182e7a">Typesetter</font> A Powerful, Lightweight, Flat-File CMS with True-WYSIWYG. Typesetter was designed to be an easy to use, but lightweight and fully functional content management system (cms).<br /><br />
+	Typesetter is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPLv2 License</a>.
+		</english-overview>		
+		<english-features>
+	<ul>
+	<li>True WYSIWYG : Most likely Typesetter's most significant accomplishment is the ability to edit web page content exactly the way it appears to site visitors. </li>
+	<li>Fast Websites : Sites you build using Typesetter will benefit from a number of advanced optimization techniques that reduce the amount of bandwidth used and the number of HTTP round-trips.</li>
+	<li>Image Galleries : Upload images and arrange them in dynamic galleries for standalone use or inclusion in your pages. All accomplished in Typesetter's uniquely integrated WYSIWYG fashion.</li>
+	<li>Secure : The security of your website isn't something you should have to worry about, and we plan on keeping it that way. Our CMS is built with multiple levels of security to keep hackers out.</li>
+	<li>SEO Friendly Organization : Good SEO is more than just having the right keywords and search engine friendly URLs. Our drag-n-drop page manager makes it easy for you to create an organized site that users and search engines will appreciate.</li>
+	<li>Plugins and Themes : Our active community of users continues to design add-ons that are free to use by anyone. You can even browse and install themes and plugins directly from within your installation of Typesetter.</li>
+	<li>Email Ready : Let users contact you without displaying your email address on your site by using the integrated contact form. Php's mail method is used by default, but sendmail and smtp are also supported.</li>
+	<li>No Database Needed : No need for MySQL. SQLite isn't used either. Page content and site configuration are all stored in flat files instead of a database making Typesetter portable, easy to install, and fast.</li>
+	</ul>
+		</english-features>
+	</languages>
+</soft>

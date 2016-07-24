@@ -1,0 +1,7 @@
+1) Select Database for saving session storage while installation on manual
+2) Select Timezone America/NewYork
+3) Just check that "USING BTREE" should be on the left i.e. not at the end
+4) Always check the file permissions
+5) Copy pub/media/theme folder from manual to zip and check name of the images. It should match with entry in SQL.
+6) Take dump using mysql command /usr/local/apps/mysql56/bin/mysqldump --routines -u soft -pserver1234 soft_mage282 > mage282.sql
+7) set WRITEABLE_DIRECTORY_MODE = 0755; and WRITEABLE_FILE_MODE = 0644; in vendor/magento/framework/Filesystem/DriverInterface.php and then start with manual installation. 

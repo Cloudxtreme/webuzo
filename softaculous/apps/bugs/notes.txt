@@ -1,0 +1,2 @@
+1. select timezone America/New_York
+2. config.app.php is configured using sconfigure ( if blank config.app.php is created it gives error (all ready installed))

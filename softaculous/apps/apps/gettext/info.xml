@@ -1,0 +1,43 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/gettext
+	</ratings>
+	<space>
+		28620529
+	</space>
+	<support>
+		http://www.gnu.org/software/gettext
+	</support>
+	<version>
+		0.19.5.1
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<requires>libiconv</requires>
+	<requires>ncurses</requires>
+	<requires>libxml</requires>
+	
+	<extract file="gettext-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		No Info
+	</notes>
+	<languages>
+		<english-overview>
+			No Info
+		</english-overview>
+		<english-features>
+			No Info
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Storytlr
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/microblogs/Storytlr
+	</ratings>
+	<space>
+		44266382
+	</space>
+	<support>
+		http://storytlr.org/
+	</support>
+	<version>
+		1.2.0
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<release_date>20-01-2013</release_date>
+	<admin>admin</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Storytlr</font> offers a single touch point for your online life in your own style. Easily post anything you find interesting, import your web 2.0 stuff and share your life online.
+		<br /><br />
+		Storytlr is an open source lifestreaming and micro blogging platform. You can use it for a single user or it can act as a host for many people all from the same installation.
+		<br /><br />
+		Storytlr is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 Unported License</a>.
+		</english-overview>		
+		<english-features>
+
+<font size="2" color="#1281B6"><b>Import your web 2.0 life</b></font><br /><br />
+<font size="1">Pick your sources and they will appear as a lifestream directly on your site.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Post anything you want</b></font><br /><br />
+<font size="1">In just a few simple steps you can update your status, share a song you liked, give your opinion or link to an interesting site.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Tell your stories in a new way</b></font><br /><br />
+<font size="1">Photo albums are old school! Pick your sources, start and end date and your story is good to go. If necessary you can tweak it for a better flow.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Choose your own style</b></font><br /><br />
+<font size="1">Pick from a range of compelling templates that are easy to customize.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>No prominent service branding</b></font><br /><br />
+<font size="1">It is all about you, so you will not find big logos or fixed brand colors on storytlr.
+</font><br /><br />
+<font size="2" color="#1281B6"><b>Pick or use your own domain name</b></font><br /><br />
+<font size="1">By default you get a site on our storytlr.com domain, but you are free to use any domain you want.
+</font><br /><br />
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

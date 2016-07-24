@@ -1,0 +1,86 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Commentics
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Commentics
+	</ratings>
+	<space>
+		16845150
+	</space>
+	<support>
+		http://www.commentics.org/support/knowledgebase.php
+	</support>
+	<version>
+		2.5
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<admin>admin123/</admin>
+	<release_date>09-03-2014</release_date>
+	<min_require>2.3</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Commentics</font> is a free, advanced PHP comment script with many features. Professionally written and with open source code, its main aims are to be integrable, customizable and secure.
+		<br /><br />
+		Commentics is released under the <a href="http://www.commentics.org/license/gpl.txt" target="_blank">GPL</a>.
+		</english-overview>
+		<english-features>
+<font size="2" color="#1281B6"><b>Why use it?</b></font><br />
+Fresh and relevant content not only helps in retaining visitors but also in keeping search engines interested. For the reasons below, Commentics is an ideal choice for this. Use it on your articles or even as a standalone comments page. <br /><br />
+<font size="2" color="#1281B6"><b>Frontend</b></font><br />
+<ul>
+<li>Captcha</li>
+<li>Smilies</li>
+<li>BB Code</li>
+<li>Preview</li>
+<li>Star Ratings</li>
+<li>Pagination</li>
+<li>Email Subscription</li>
+<li>Swear/Spam Filter</li>
+<li>Anti-flooding</li>
+<li>Terms Acceptance</li>
+<li>RSS Feed</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>Backend</b></font><br />
+<ul>
+<li>Highly Configurable</li>
+<li>Multiple Admins</li>
+<li>Database Backup</li>
+<li>Drag &amp; Drop Design</li>
+<li>Maintenance Mode</li>
+<li>Version Check</li>
+<li>Statistics</li>
+<li>Ban System</li>
+<li>Help Pages</li>
+<li>Last Login</li>
+</ul><br />
+<font size="2" color="#1281B6"><b>General Features</b></font><br />
+<ul>
+<li>Like/Dislike Comment</li>
+<li>Flag Comment</li>
+<li>Social Bookmarking</li>
+<li>UTF-8 Capable</li>
+<li>Threaded Replies</li>
+<li>Valid XHTML/CSS</li>
+<li>Email SMTP</li>
+<li>Translatable</li>
+<li>Rich Snippets</li>
+<li>Gravatar</li>
+<li>Akismet</li>
+<li>Sort By</li>
+</ul>
+		</english-features>
+		<english-ad_dir>Admin Folder</english-ad_dir>
+	</languages>
+</soft>

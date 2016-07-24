@@ -1,0 +1,66 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/libmcrypt
+	</ratings>
+	<space>
+		512
+	</space>
+	<support>
+		http://freecode.com/projects/libmcrypt
+	</support>
+	<version>
+		2.5.8
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>13-01-2013</release_date>
+		
+	<extract file="libmcrypt-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Libmcrypt Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/libmcrypt/lib</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/libmcrypt/lib/libmcrypt.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Libmcrypt</font> is a library which provides a uniform interface to several symmetric encryption algorithms. It is intended to have a simple interface to access encryption algorithms in ofb, cbc, cfb, and ecb modes.  
+		<br /><br />
+		libmcrypt is distributed under the <a href="http://www.gnu.org/copyleft/lesser.html" target="_blank">LGPL</a>
+		</english-overview>
+		<english-features>
+The algorithms it supports are DES, 3DES, RIJNDAEL, Twofish, IDEA, GOST, CAST-256, ARCFOUR, SERPENT, SAFER+, and more. The algorithms and modes are also modular so you can add and remove them on the fly without recompiling the library.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

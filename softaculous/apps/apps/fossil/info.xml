@@ -1,0 +1,86 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/version_control/Fossil
+	</ratings>
+	<space>
+		4321472
+	</space>
+	<support>
+		http://www.fossil-scm.org/index.html/doc/tip/www/index.wiki
+	</support>
+	<version>
+		1.33
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>23-05-2015</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="bin">/usr/local/apps/fossil/fossil</path>
+	
+	<extract file="fossil-$arch.tar.gz">$appsdir</extract>
+	<remove>/usr/local/apps/fossil/fossil</remove>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Fossil Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/fossil/fossil</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Fossil </font>Simple, high-reliability, distributed software configuration management. 
+		<br /><br />
+		Fossil is distributed under the <a href="http://www.fossil-scm.org/fossil/doc/tip/COPYRIGHT-BSD2.txt" target="_blank">Fossil License</a>
+		</english-overview>
+		<english-features>
+			<ol><li><b>Bug Tracking And Wiki</b> -
+				  In addition to doing distributed version control like Git and Mercurial, Fossil also supports distributed bug tracking, distributed wiki, and a distributed blog mechanism all in a single  integrated package.</li></ol>
+			
+			<ol><li><b>Web Interface</b> - 
+				  Fossil has a built-in and easy-to-use web interface that simplifies project tracking and promotes situational awareness. Simply type "fossil ui" from within any check-out and Fossil automatically opens your web browser in a page that gives detailed graphical history and status information on that project.</li></ol>		
+			
+			<ol><li><b>Autosync</b> -
+				  Fossil supports "autosync" mode which helps to keep projects moving forward by reducing the amount of needless forking and merging often associated with distributed projects.</li></ol>
+			
+			<ol><li><b>Self-Contained</b> -
+				  Fossil is a single stand-alone executable that contains everything needed to do configuration management. Installation is trivial: simply download a   precompiled binary for Linux, Mac, or Windows and put it on your $PATH. Easy-to-compile source code is available for users on other platforms.  Fossil sources are also mostly self-contained, requiring only the standard C library to build.</li></ol>
+			
+			<ol><li><b>Simple Networking</b> -
+				  Fossil uses plain old HTTP (with proxy support) for all network communications, meaning that it works fine from behind restrictive firewalls.  The protocol is
+bandwidth efficient to the point that Fossil can be used comfortably over a dial-up internet connection.</li></ol>
+			
+			<ol><li><b>CGI/SCGI Enabled</b> -
+				  No server is required to use fossil. But a server does make collaboration easier. Fossil supports four different yet simple server configurations. The most popular is a 2-line CGI script. This is the approach used by the self-hosting fossil repositories.</li></ol>
+			
+			<ol><li><b>Robust &amp; Reliable</b> -
+				  Fossil stores content using an enduring file format in an SQLite database so that transactions are atomic even if interrupted by a power loss or system crash. Furthermore, automatic self-checks verify that all aspects of the repository are consistent prior to each commit.  In over six years of operation, no work has ever been lost after having been committed to a Fossil repository.</li></ol>
+		</english-features>
+	</languages>
+</soft>

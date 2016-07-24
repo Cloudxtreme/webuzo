@@ -1,0 +1,2 @@
+1. Installer asks to download vendor.zip, without which it doesn't installs script, so download it and extract it on root directory of that installation
+2. Also add /vendor folder from vendor.zip to our wallabag.zip

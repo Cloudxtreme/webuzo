@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Anchor
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/Anchor
+	</ratings>
+	<space>
+		1294336
+	</space>
+	<support>
+		http://forums.anchorcms.com/
+	</support>
+	<version>
+		0.12.1
+	</version>
+	<mod>3</mod>
+	<admin>admin/login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.6" />
+	<requirement check="mysql" type="version" operator="ge" value="5.2.0" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Anchor</font> is a super-simple,	lightweight blog system, made to let you just write.
+		<br /><br />
+		Anchor is released under <a href="http://www.gnu.org/licenses/gpl.txt" target="_blank">GPLv3</a>.
+		</english-overview>		
+		<english-features>
+			<font size="2" color="#444F5F"><b>Markdown-happy</b></font><br />
+				Anchor gives you full freedom over your words. Just write in Markdown or HTML, whatever you prefer.<br /><br />
+			<font size="2" color="#444F5F"><b>Teeny-tiny</b></font><br />
+				Prefer your blog systems without the bloat? Anchor weighs in smaller than a standard JPG image (~150kb).<br /><br />
+			<font size="2" color="#444F5F"><b>Drag-n-drop</b></font><br />
+				Want to add some custom CSS, JavaScript, or an image to your post? Just drag the file over to Anchor, and we'll do the rest.<br /><br />
+			<font size="2" color="#444F5F"><b>Works in your language</b></font><br />
+				Anchor is fully i18n compatible, so you can just grab a language file and get speaking Anchor in no time.<br /><br />
+			<font size="2" color="#444F5F"><b>Super-simple theming</b></font><br />
+				Creating and modifying a theme is as simple as knowing some very simple PHP and HTML/CSS.<br /><br />
+			<font size="2" color="#444F5F"><b>SEO Features</b></font><br />
+				Create and utilise custom theme hooks without the need for advanced programming knowledge.<br /><br />
+			<font size="2" color="#444F5F"><b>Extensible</b></font><br />
+				You can add or remove an infinite amount of custom fields to any post or page at the click of a button.<br /><br />
+			<font size="2" color="#444F5F"><b>Art-directed blogging</b></font><br />
+				Make every article unique with the ability to add custom CSS, JavaScript, and HTML to any blog post or page.<br /><br />
+			<font size="2" color="#444F5F"><b>Forever free</b></font><br />
+				Anchor has been, is, and always will be 100% free of charge to everyone.<br /><br />
+			<font size="2" color="#444F5F"><b>Markup made modern</b></font><br />
+				To keep Anchor small, we only support the latest browsers — no more IE6/7/8.<br /><br />
+		</english-features>
+	</languages>
+</soft>

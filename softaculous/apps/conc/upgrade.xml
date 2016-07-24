@@ -1,0 +1,15 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<setuplocation>index.php/ccm/system/upgrade</setuplocation>
+	<files>
+		<exclude>application/config/app.php</exclude>
+		<exclude>application/config/database.php</exclude>
+		<exclude>application/config/generated_overrides/concrete.php</exclude>
+	</files>
+</softupgrade>

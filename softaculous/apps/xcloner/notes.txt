@@ -1,0 +1,1 @@
+1. Change password in manual and then use cloner.config.php

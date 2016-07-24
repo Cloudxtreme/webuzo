@@ -1,0 +1,55 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/razorCMS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/cms/razorCMS
+	</ratings>
+	<space>
+		3381764
+	</space>
+	<support>
+		http://www.razorcms.co.uk/support.html
+	</support>
+	<version>
+		3.4.6
+	</version>
+	<mod>6</mod>
+	<admin>login</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">razorCMS</font> began as a databaseless flat file content management system, forked from a project called uCMS. It's structure allowed you to have just the amount of functionality you needed in a flat file CMS solution, adding extensions (blade packs) for further functionality, whilst allowing setup on simple servers with no database.
+		<br /><br />
+		razorCMS gave you base functionality required to run a website, add the extra functionality as you needed it via the blade pack management system. Everything from WYSIWYG editors to SEF URL was added as extra functionality.
+		<br /><br />
+		razorCMS is available under the terms of the <a href="http://gplv3.fsf.org/" target="_blank">GPL V3 license</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#184E39"><b>In-Page Editing</b></font><br /><br />
+Alter your content right there, as you see it. No crazy administration control panels, simply login and start editing the page in front of you.<br /><br />
+<font size="2" color="#184E39"><b>Admin Dashboard</b></font><br /><br />
+For all those other tasks outside of editing the page, there is the admin dashboard overlay. Hit the dashboard icon to show the overlay and manage other aspects of your site.<br /><br />
+<font size="2" color="#184E39"><b>PHP, angularJS, Bootstrap, Font-Awesome</b></font><br /><br />
+Using the latest technology, razorCMS is built on PHP, angularJS, Bootstrap V3 and Font-Awesome to give you all the tools you need for a creative, impressive site.
+<br /><br />
+<font size="2" color="#184E39"><b>Extend your Site</b></font><br /><br />
+Extend your website by easily by adding themes, functionality, giving you the ability to simply get the website you want without the need for complicated code.
+<br /><br />
+<font size="2" color="#184E39"><b>Built for Modern Browsers</b></font><br /><br />
+Utilising the most up to date technology, razorCMS V3 gives you all the bells and is supported by all modern browers (Internet Explorer 9 and up).
+<br /><br />
+<font size="2" color="#184E39"><b>Mobile/Tablet Friendly</b></font><br /><br />
+By using the power of Twitter Bootstrap, both the administration and themes are built in such a way to maximize support on mobile devices.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

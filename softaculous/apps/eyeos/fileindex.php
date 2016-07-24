@@ -1,0 +1,9 @@
+Copying
+LICENSE
+eyeos
+favicon.ico
+index.php
+install
+licensing.txt
+resource
+settings.php

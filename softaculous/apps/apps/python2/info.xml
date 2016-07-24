@@ -1,0 +1,88 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/server_side_scripting/Python2 
+	</ratings>
+	<space>
+		97553093
+	</space>
+	<support>
+		http://www.python.org/
+	</support>
+	<version>
+		2.7.11
+	</version>
+	<mod>12</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>05-12-2015</release_date>	
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/python2</path>
+	<path name="bin">/usr/local/apps/python2/bin/python2</path>
+	
+	<extract file="python2-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/bin/python">/usr/local/apps/python2/bin/python</symlink>
+	<symlink target="/usr/bin/python2.7">/usr/local/apps/python2/bin/python2.7</symlink>
+	<symlink target="/usr/bin/python2">/usr/local/apps/python2/bin/python2</symlink>
+	
+	<remove>/usr/local/apps/python2</remove>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Python2 Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/python2</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/python2/bin/python2</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#182e7a">Python</font> is a remarkably powerful dynamic programming language that is used in a wide variety of application domains. Python is often compared to Tcl, Perl, Ruby, Scheme or Java.
+		<br /><br />
+		Python is distributed under the <a href="http://www.python.org/download/releases/2.0/license/" target="_blank">Python 2.0 License</a>
+		</english-overview>
+		<english-features>
+			<font size="2" color="#1281B6"><b>General</b></font>
+			<ul >
+				<li>very clear, readable syntax</li>
+				<li>strong introspection capabilities</li>
+				<li>intuitive object orientation</li>
+				<li>natural expression of procedural code</li>
+				<li>full modularity, supporting hierarchical packages</li>
+				<li>exception-based error handling</li>
+				<li>very high level dynamic data types</li>
+				<li>extensive standard libraries and third party modules for virtually every task</li>
+				<li>extensions and modules easily written in C, C++ (or Java for Jython, or .NET languages for IronPython)</li>
+				<li>embeddable within applications as a scripting interface</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

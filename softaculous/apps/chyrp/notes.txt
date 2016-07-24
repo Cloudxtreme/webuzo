@@ -1,0 +1,1 @@
+1. Select tomezone as "America/New_york" in "whats time is it?"

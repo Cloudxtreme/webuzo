@@ -1,0 +1,1 @@
+1. Add the index.php from the old package. It simply redirects to the phpliteadmin.php file.

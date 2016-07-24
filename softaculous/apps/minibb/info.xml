@@ -1,0 +1,81 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/miniBB
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/miniBB
+	</ratings>
+	<space>
+		597562
+	</space>
+	<support>
+		http://www.minibb.com/forums/
+	</support>
+	<version>
+		3.2.1
+	</version>
+	<mod>10</mod>
+	<release_date>21-10-2015</release_date>
+	<admin>bb_admin.php?</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">miniBB</font> is a standalone, open source program for building your own Internet forum.
+		<br /><br />
+		If you want a lite, simple and stable message board attached to your existing website at the very high integration level, 
+		which may include the full customization of the layout to the look of your website, or even synchronizing with the existing membership system, 
+		you've just came across to the best forum solution for such purpose available worldwide.
+		<br /><br />
+		miniBB is released under <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font size="3" color="#1281B6"><b>Security</b></font><br />
+		<ul>
+			<li>Protected members passwords</li>
+			<li>Flood protection by the IP-address and time</li>
+			<li>Your board may be securely opened even for guest posting! - with the special Captcha module protection on guest posting and new registrations.</li>
+			<li>Special rules for guests and new users for posting external links on forum </li>
+			<li>Safe auto-login when returning on forum in X hours</li>
+			<li>Single super-admin account for better security</li>
+			<li>Email verification on registration</li>
+			<li>Full HTTP Secure (HTTPS) Compatibility</li>
+		</ul>
+<font size="3" color="#1281B6"><b>Members Profiles and related</b></font><br />
+		<ul>
+			<li>Unlimited amount of member accounts</li>
+			<li>Forum-related statistics and graphs, based on the amount of posts for each user</li>
+			<li>Member Photos</li>
+			<li>Possibility to extend member profiles with any kind of custom fields</li>
+			<li>Private Messaging and communication between forum members, with the optional Email notification when the new PM arrives; as well as "Reminders" feature (PM to yourself)</li>
+			<li>Contacting members by email sent through the server</li>
+		</ul>
+<font size="3" color="#1281B6"><b>Search Engine Optimization</b></font><br />
+		<ul>
+			<li>Fully valid W3C XHTML 1.0 Transitional HTML, ultra-compact, printing-ready and indexing-friendly output</li>
+			<li>SEO Friendly URLs</li>
+			<li>Automatic Description META-tags for forum and topic pages</li>
+			<li>Dynamic INDEX, FOLLOW (NOINDEX, NOFOLLOW) META-tags</li>
+			<li>Automatic "nofollow" tag on external hyperlinks, and automatic "follow" tag on internal forum and website domain URLs</li>
+			<li>RSS feed</li>
+		</ul>
+<font size="3" color="#1281B6"><b>Administrative Settings</b></font><br />
+		<ul>
+			<li>Creating and managing forum titles, descriptions, icons</li>
+			<li>Assigning private, read-only or replies-only forums</li>
+			<li>Protecting whole forum by a single password</li>
+			<li>Banning users by IP/username or blocking user accounts</li>
+			<li>IP tracking in messages (for administrative staff only)</li>
+			<li>Members search (by email, username, activity etc.)</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

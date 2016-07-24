@@ -1,0 +1,159 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/EspoCRM
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/EspoCRM
+	</ratings>
+	<space>
+		52936295
+	</space>
+	<support>
+		http://forum.espocrm.com/	
+	</support>
+	<version>
+		4.1.3
+	</version>
+	<mod>44</mod>
+	<release_date>27-05-2016</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.1.0" />
+	<requirement check="php" type="extension" name="PDO" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="gd" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<requirement check="php" type="extension" name="imap" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">EspoCRM</font> is a web application that allows you to see, enter and evaluate all your company relationships regardless of the type. People, companies, projects or opportunities — all in an easy and intuitive interface.
+		<br /><br />
+		EspoCRM is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+
+<ul>
+	<li><font color="#98561D">Sales Automation</font>
+		<ul>
+			<li>Leads – Converting Lead to Opportunity/Account/Contact.</li>
+			<li>Opportunities – Potential sales in CRM.</li>
+			<li>Accounts – Each account is a central record in B2B model.</li>
+			<li>Contacts – Contact can be related to multiple Accounts with specific roles of relationships.</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Calendar</font>
+		<ul>
+			<li>Meetings.</li>
+			<li>Calls.</li>
+			<li>Tasks.</li>
+			<li>Send Invitations to attendees.</li>
+			<li>Google Calendar Integration (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Emails</font>
+		<ul>
+			<li>Inbound Emails – Archiving emails from group email box. Email-to-Case.</li>
+			<li>Email Accounts – Automatic archiving emails from personal email box.</li>
+			<li>Compose Email – Sending emails from EspoCRM.</li>
+			<li>Email Templates.</li>
+			<li>Multiple email addresses per record.</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Social</font>
+		<ul>
+			<li>Activity Stream – Feed where changes and new additions of followed records are shown.</li>
+			<li>Follow Button – User can follow particular record. Records he/she creates or those that got assigned to him/her are followed automatically.</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Customer Support</font>
+		<ul>
+			<li>Cases – Email-to-Case.</li>
+			<li>Customer Portal (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Documents</font>
+		<ul>
+			<li>Attaching Documents.</li>
+			<li>Google Drive Integration (TBD).</li>
+			<li>DropBox Integration (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Inventory Management</font>
+		<ul>
+			<li>Products (TBD).</li>
+			<li>Quotes and Invoicing (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Analytics</font>
+		<ul>
+			<li>Reports (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Web Forms</font>
+		<ul>
+			<li>Web-to-Lead forms (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Marketing Automation</font>
+		<ul>
+			<li>Campaigns (TBD).</li>
+			<li>Target Lists (TBD).</li>
+			<li>Mass Email (TBD).</li>
+			<li>MailChimp Integration (TBD).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Telephony</font>
+		<ul>
+			<li>Asterisk integration (TBD).</li>
+			<li>Multiple phone numbers per record. Different types of phone number (Mobile, Office, Fax, etc.).</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Administration</font>
+		<ul>
+			<li>Data Import.</li>
+			<li>Users – No user limitation.</li>
+			<li>Teams.</li>
+			<li>Roles – Access control.</li>
+			<li>LDAP Authentication.</li>
+			<li>SAML Authentication (TBD).</li>
+			<li>Currency Rates.</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Workflows</font>
+		<ul>
+			<li>Workflow Management (TBD) – Conditions, Actions.</li>
+		</ul>
+	</li>
+	<br/>
+	<li><font color="#98561D">Customization</font>
+		<ul>
+			<li>Layout Manager – Change layouts for detail and list views.</li>
+			<li>Field Manager – Create new fields or modify existing ones.</li>
+		</ul>
+	</li>
+	
+</ul>
+		</english-features>
+	</languages>
+</soft>

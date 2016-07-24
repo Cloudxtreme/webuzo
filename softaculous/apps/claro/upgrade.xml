@@ -1,0 +1,18 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>claroline/admin/upgrade/</setuplocation>
+	<settings>		
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>claroline/install/*</exclude>
+		<exclude>claroline/install/*/*</exclude>
+		<exclude>claroline/install/*/*/*</exclude>
+		<exclude>claroline/install/*/*/*/*</exclude>
+		<exclude>claroline/install/*/*/*/*/*</exclude>
+		<exclude>claroline/install/*/*/*/*/*/*</exclude>
+	</files>
+</softupgrade>

@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/modules/Sphinx_Extension
+	</ratings>
+	<space>
+		11468
+	</space>
+	<support>
+		http://pecl.php.net/package/sphinx
+	</support>
+	<version>
+		1.3.2
+	</version>
+	<mod>2</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>06-05-2014</release_date>
+	
+	<requires>sphinx</requires>
+	
+	<path name="53so">/usr/local/apps/php53/ext/sphinx.so</path>
+	<path name="54so">/usr/local/apps/php54/ext/sphinx.so</path>
+	<path name="55so">/usr/local/apps/php55/ext/sphinx.so</path>
+	<path name="56so">/usr/local/apps/php56/ext/sphinx.so</path>
+	
+	<extract file="mod_sphinx-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">Sphinx Extension Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://pecl.php.net/package/sphinx</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Sphinx : </font> Client extension for Sphinx - opensource SQL full-text search engine.
+		<br /><br />
+		Sphinx extention is distributed under the <a href="http://www.php.net/license/3_01.txt" target="_blank">PHP License </a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>This extension provides bindings for libsphinxclient, client library for Sphinx.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

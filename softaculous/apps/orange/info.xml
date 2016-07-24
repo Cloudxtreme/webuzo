@@ -1,0 +1,43 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/OrangeHRM
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/erp/OrangeHRM
+	</ratings>
+	<space>
+		35342153 
+	</space>
+	<support>
+		http://www.orangehrm.com/
+	</support>
+	<version>
+		3.3.2
+	</version>
+	<mod>25</mod>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">OrangeHRM</font>	aims to be the world’s leading open source HRM solution for small and medium sized enterprises (SMEs) by providing a flexible and easy to use HRM system affordable for any company worldwide. 
+		<br /><br />
+		OrangeHRM is released under the <a href="http://www.orangehrm.com/license.shtml" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>New Look and Feel</li>
+<li>Enhanced Recruitment Module</li>
+<li>Implementation of Advanced Security Measures </li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

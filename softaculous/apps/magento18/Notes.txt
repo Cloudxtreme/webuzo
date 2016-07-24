@@ -1,0 +1,3 @@
+1) Select Database for saving session storage while installation on manual
+2) Just check that "USING BTREE" should be on the left i.e. not at the end
+3) Always check the file permissions

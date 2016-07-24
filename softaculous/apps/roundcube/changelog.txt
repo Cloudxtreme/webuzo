@@ -1,0 +1,148 @@
+CHANGELOG Roundcube Webmail
+===========================
+RELEASE 1.2.0
+-------------
+- Enigma: Added enigma_debug option
+- Fix message list multi-select/deselect issue (#5219)
+- Fix bug where getting HTML editor content could steal focus from other form controls (#5223)
+- Fix bug where contact search menu fields where always unchecked in Larry skin
+- Fix autoloading of 'html' class
+- Fix bug where Encrypt button appears when switching editor to HTML (#5235)
+- Fix XSS issue in href attribute on area tag (#5240)
+
+RELEASE 1.2-rc
+--------------
+- Managesieve: Refactored script parser to be 100x faster
+- Enigma: added option to force users to use signing/encryption
+- Enigma: Added option to attach public keys to sent mail (#5152)
+- Enigma: Handle messages with text before an encrypted block (#5149)
+- Enigma: Handle encrypted/signed content inside message/rfc822 attachments
+- Enigma: Fix missing html/plain switch on multipart/signed messages (#4963)
+- Enigma: Disable format=flowed for signed plain text messages (#4960)
+- Enigma: Fix handling of encrypted + signed messages (#4950)
+- Enigma: Fix invalid boundary use in signed messages structure
+- Enable use of TLSv1.1 and TLSv1.2 for IMAP (#4955)
+- Save copy of original .htaccess file when using installto.sh script (#4947)
+- Fix regression where some message attachments could be missing on edit/forward (#4939)
+- Fix regression in displaying contents of message/rfc822 parts (#4937)
+- Fix handling of message/rfc822 attachments on replies and forwards (#4938)
+- Fix PDF support detection in Firefox > 19 (#4941)
+- Fix path traversal vulnerability in setting a skin [CVE-2015-8770] (#4945)
+- Fix so drag-n-drop of text (e.g. recipient addresses) on compose page actually works (#4944)
+- Fix .htaccess rewrite rules to not block .well-known URIs (#4943)
+- Fix mail view scaling on iOS (#4915)
+- Fix PHP7 warning "session_start(): Session callback expects true/false return value" (#4948)
+- Fix XSS issue in SVG images handling (#4949)
+- Fix missing language name in "Add to Dictionary" request in HTML mode (#4951)
+- Fix (again) security issue in DBMail driver of password plugin [CVE-2015-2181] (#4958)
+- Fix bug where Archive/Junk buttons were not active after page jump with select=all mode (#4961)
+- Fix bug in long recipients list parsing for cases where recipient name contained @-char (#4964)
+- Plugin API: Added addressbook_export hook
+- Fix additional_message_headers plugin compatibility with Mail_Mime >= 1.9 (#4966)
+- Hide DSN option in Preferences when smtp_server is not used (#4967)
+- Fix handling of body parameter in mail compose request
+- Protect download urls against CSRF using unique request tokens (#4957)
+- newmail_notifier: Refactor desktop notifications
+- Fix so contactlist_fields option can be set via config file
+- Fix so SPECIAL-USE assignments are forced only until user sets special folders (#4782)
+- Fix performance in reverting order of THREAD result
+- Fix converting mail addresses with @www. into mailto links (#5197)
+
+RELEASE 1.2-beta
+----------------
+- Update TinyMCE to version 4.2
+- Added support for Redis session handler
+- Removed some deprecated methods: https://github.com/roundcube/roundcubemail/commit/454b0b1c
+- Remove backward compatibility "layer" of bc.php (#4902)
+- Add possibility to define date format in write operations for ldap attributes (#3956)
+- Display attachment size in compose (#1329)
+- Added possibility to drag-n-drop attachments from mail preview to compose window
+- Implemented mail messages searching with predefined date interval
+- PGP encryption support via Mailvelope integration
+- PGP encryption support via Enigma plugin
+- PHP7 compatibility fixes (#4836)
+- Security: Added brute-force attack prevention via login rate limit (#4922)
+- Security: Added options to validate username/password on logon (#4884)
+- Security: Improve randomness of security tokens (#4899)
+- Security: Use random security tokens instead of hashes based on encryption key (#4829)
+- Security: Improved encrypt/decrypt methods with option to choose the cipher_method (#4492)
+- Make optional adding of standard signature separator - sig_separator (#3276)
+- Optimize folder_size() on Cyrus IMAP by using special folder annotation (#4894)
+- Make optional hidding of folders with name starting with a dot - imap_skip_hidden_folders (#4870)
+- Add option to enable HTML editor always, except when replying to plain text messages (#4352)
+- Emoticons: Added option to switch on/off emoticons in compose editor (#2076)
+- Emoticons: Added option to switch on/off emoticons in plain text messages
+- Emoticons: All emoticons-related functionality is handled by the plugin now
+- Installer: Add button to save generated config file in system temp directory (#3553)
+- Remove common subject prefixes Re:, Re[x]:, Re-x: on reply (#4882)
+- Added GSSAPI/Kerberos authentication plugin - krb_authentication
+- Password: Allow temporarily disabling the plugin functionality with a notice
+- Require Mbstring and OpenSSL extensions (#5166)
+- Add --config and --type options to moduserprefs.sh script (#4651)
+- Implemented memcache_debug and apc_debug options
+- Installer: Remove system() function use (#4695)
+- Password plugin: Added 'kpasswd' driver by Peter Allgeyer
+- Add initdb.sh to create database from initial.sql script with prefix support (#4722)
+- Plugin API: Added disabled_plugins an disabled_buttons options in html_editor hook
+- Plugin API: Added html2text hook
+- Plugin API: Added message_part_body hook
+- Plugin API: Added message_ready hook
+- Plugin API: Add special onload() method to execute plugin actions before startup (session and GUI initialization)
+- Implemented UI element to jump to specified page of the messages list (#1677)
+- Fix searching of contacts to allow remote images for known senders (#4886)
+- Fix bug where clicking date column with 'arrival' sorting would switch to sorting by 'date' (#4690)
+- Fix bug where message content could overlap attachments list in Larry skin (#4876)
+- Fix so microseconds macro (u) in log_date_format works (#4855)
+- Fix so unrecognized TNEF attachments are displayed on the list of attachments (#5138)
+- Fix so database_attachments::cleanup() does not remove attachments from other sessions (#4907)
+- Fix responses list update issue after response name change (#4917)
+- Fix bug where message preview was unintentionally reset on check-recent action (#4921)
+- Fix bug where HTML messages with invalid/excessive css styles couldn't be displayed (#4905)
+- Fix redundant blank lines when using HTML and top posting (#4927)
+- Fix redundant blank lines on start of text after html to text conversion (#4928)
+- Fix HTML sanitizer to skip <!-- node type X --> in output (#4932)
+- Fix invalid LDAP query in ACL user autocompletion (#4934)
+
+RELEASE 1.1.5
+-------------
+- Plugin API: Add html2text hook
+- Plugin API: Added addressbook_export hook
+- Fix missing emoticons on html-to-text conversion
+- Fix random "access to this resource is secured against CSRF" message at logout (#4956)
+- Fix missing language name in "Add to Dictionary" request in HTML mode (#4951)
+- Enable use of TLSv1.1 and TLSv1.2 for IMAP (#4955)
+- Fix XSS issue in SVG images handling (#4949)
+- Fix (again) security issue in DBMail driver of password plugin [CVE-2015-2181] (#4958)
+- Fix bug where Archive/Junk buttons were not active after page jump with select=all mode (#4961)
+- Fix bug in long recipients list parsing for cases where recipient name contained @-char (#4964)
+- Fix additional_message_headers plugin compatibility with Mail_Mime >= 1.9 (#4966)
+- Hide DSN option in Preferences when smtp_server is not used (#4967)
+- Protect download urls against CSRF using unique request tokens (#4957)
+- newmail_notifier: Refactor desktop notifications
+- Fix so contactlist_fields option can be set via config file
+- Fix so SPECIAL-USE assignments are forced only until user sets special folders (#4782)
+- Fix performance in reverting order of THREAD result
+- Fix converting mail addresses with @www. into mailto links (#5197)
+
+RELEASE 1.1.4
+-------------
+- Add workaround for https://bugs.php.net/bug.php?id=70757 (#1490582)
+- Fix duplicate messages in list and wrong count after delete (#1490572)
+- Fix so Installer requires PHP5
+- Make brute force attacks harder by re-generating security token on every failed login (#1490549)
+- Slow down brute-force attacks by waiting for a second after failed login (#1490549)
+- Fix .htaccess rewrite rules to not block .well-known URIs (#1490615)
+- Fix mail view scaling on iOS (#1490551)
+- Fix so database_attachments::cleanup() does not remove attachments from other sessions (#1490542)
+- Fix responses list update issue after response name change (#1490555)
+- Fix bug where message preview was unintentionally reset on check-recent action (#1490563)
+- Fix bug where HTML messages with invalid/excessive css styles couldn't be displayed (#1490539)
+- Fix redundant blank lines when using HTML and top posting (#1490576)
+- Fix redundant blank lines on start of text after html to text conversion (#1490577)
+- Fix HTML sanitizer to skip <!-- node type X --> in output (#1490583)
+- Fix invalid LDAP query in ACL user autocompletion (#1490591)
+- Fix regression in displaying contents of message/rfc822 parts (#1490606)
+- Fix handling of message/rfc822 attachments on replies and forwards (#1490607)
+- Fix PDF support detection in Firefox > 19 (#1490610)
+- Fix path traversal vulnerability (CWE-22) in setting a skin (#1490620)
+- Fix so drag-n-drop of text (e.g. recipient addresses) on compose page actually works (#1490619)

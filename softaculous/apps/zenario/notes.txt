@@ -1,0 +1,11 @@
+1. Remove Inserts in site_settings table after "max_days_user_inactive" they are created by the script automatically i.e. 
+'css_js_html_files_last_changed'
+'css_js_version'
+'php_files_last_changed'
+'php_version'
+'yaml_files_last_changed'
+'yaml_version'
+2. Take the database dump after publishing the page and enabling the site
+3. Don't convert sql to UTF8 (The images for the front end link won't get rendered).
+4. scopy .htaccess and comment php_flags to work on su php. Also add L03.css and L03.tpl.php files to our package from manual at zenario_custom\templates\grid_templates\ because it does not gets generated. Since 7.2.1
+5. No need to worry about images which are getting generated in /private/

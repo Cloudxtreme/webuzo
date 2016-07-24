@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download Binary Distributions package. (http://activemq.apache.org/download.html)

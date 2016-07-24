@@ -1,0 +1,123 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.png" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/security/CSF
+	</ratings>
+	<space>
+		114311168
+	</space>
+	<support>
+		http://configserver.com/support.html
+	</support>
+	<version>
+		N/A
+	</version>
+	<mod>8</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/etc/csf</path>
+	<path name="bin">/usr/sbin/csf</path>
+	<path name="conf">/etc/csf/csf.conf</path>
+	
+	<initd name="csf">/etc/init.d/csf</initd>
+	
+	<extract file="csf-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">CSF Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/sbin/csf</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/etc/csf/csf.conf</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">CSF</font> is a  Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers.
+		<br /><br />
+		CSF is distributed under their <a href="http://www.configserver.com/free/csf/license.txt" target="_blank">script license</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Daemon process that checks for login authentication failures for:
+					<ul>
+						<li>Courier imap, Dovecot, uw-imap, Kerio </li>
+						<li>openSSH</li>
+						<li>Pure-ftpd, vsftpd, Proftpd</li>
+						<li>Password protected web pages (htpasswd)</li>
+						<li> Mod_security failures (v1 and v2) </li>
+						<li>Suhosin failures </li>
+						<li>Exim SMTP AUTH </li>
+						<li>Custom login failures with separate log file and regular expression matching </li>
+					</ul>
+				</li>
+				<li>POP3/IMAP login tracking to enforce logins per hour </li>
+				<li>SSH login notification</li>
+				<li>SU login notification </li>
+				<li>Excessive connection blocking </li>                  
+				<li>Easy upgrade between versions from shell </li>
+				<li>Auto-configures the SSH port if it's non-standard on installation</li>
+				<li>Block traffic on unused server IP addresses - helps reduce the risk to your server </li>
+				<li>Alert when end-user scripts sending excessive emails per hour - for identifying spamming scripts </li>
+				<li>Suspicious process reporting - reports potential exploits running on the server</li>
+				<li>Excessive  user processes reporting</li>
+				<li>Excessive  user process usage reporting and optional termination</li>
+				<li>Suspicious file reporting - reports potential exploit files in /tmp and similar directories </li>
+				<li>Directory and file watching - reports if a watched directory or a file changes </li>
+				<li>Block traffic on the 
+				<a href="http://feeds.dshield.org/block.txt" target="_blank">DShield Block List</a> and the <a href="http://www.spamhaus.org/drop/index.lasso" target="_blank">Spamhaus DROP List</a> </li>
+				<li>BOGON packet protection </li>                   
+				<li>Works with multiple ethernet devices </li>                    
+				<li>Allow Dynamic DNS IP addresses - always allow  your IP address even if it changes whenever you connect to the internet </li>
+				<li>Alert sent if server load average remains high for a specified length of time </li>
+				<li>mod_security log reporting (if installed) </li>                    
+				<li>IDS (Intrusion Detection System) - the last line of detection alerts you to changes to system and application binaries </li>
+				<li>SYN Flood protection</li>
+				<li>Ping of death protection</li>
+				<li>Port Scan tracking and blocking </li>
+				<li>Permanent and Temporary (with TTL) IP blocking </li>
+				<li>Exploit checks</li>
+				<li>Account modification tracking - sends alerts if an account entry is modified, e.g. if the password is changed or the login shell </li>
+				<li>Shared syslog aware </li>
+				<li>Messenger Service - Allows you to redirect connection requests from blocked IP addresses to preconfigured text and html pages to inform the visitor that they have been blocked in the firewall. This can be particularly useful for those with a large user base and help process support requests more efficiently</li>
+				<li>Country Code blocking - Allows you to deny or allow access by ISO Country Code</li>
+				<li>Port Flooding Detection - Per IP, per Port connection flooding detection and mitigation to help block DOS attacks</li>
+				<li>lfd Clustering - allows IP address blocks to be	automatically propagated around a group of servers running lfd. It allows allows cluster-wide allows, removals and configuration changes</li>
+				<li>Quick start csf - deferred startup by lfd for servers with large block and/or allow lists</li>
+				<li>Distributed Login Failure Attack detection</li>
+				<li>Temporary IP allows (with TTL)</li>
+				<li><b>IPv6</b> Support with ip6tables</li>
+				<li>System Statistics - Basic graphs showing the performance of the server, e.g. Load Averages, CPU Usage, Memory Usage, etc</li>
+				<li>...lots more! </li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

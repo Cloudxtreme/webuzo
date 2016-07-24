@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://dhtmlx.com/docs/products/docsExplorer/samples.shtml
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/DHTMLX
+	</ratings>
+	<space>
+		19671289
+	</space>
+	<support>
+		http://support.dhtmlx.com/
+	</support>
+	<version>
+		5.0
+	</version>
+	<mod>9</mod>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">DHTMLX</font> Suite <b>JavaScript Component Library for Building Rich Web Apps</b>.
+		<br /><br />
+		dhtmlxSuite is a JavaScript library that provides a complete set of Ajax- powered UI components. Use dhtmlxSuite to build enterprise-level web apps with clean interface, fast performance, and rich user experience.
+		<br /><br />
+		dhtmlxSuite Standard for free under <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPL v2</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#216D7B"><b>Why to Use dhtmlxSuite?</b></font><br /><br />
+<b>Get A Complete JavaScript Toolkit with Expert Support</b> : dhtmlxSuite provides a rich set of UI widgets and tools for building web app interface fast. By using them all together, you get a complete Ajax-based toolkit with the professional support from our well-trained team on any stage of your development. 
+<br /><br />
+<b>Quickly Build Web UI with dhtmlxLayout</b> : dhtmlxLayout allows you to design the interface structure and easily fill it with necessary UI widgets (menu, toolbar, form, grid, tree, etc.). It uses the native resizing capabilities of the widgets to autoresize when the size of the window or layout cell is changed.  
+<br /><br />
+<b>Use Visual Designer to Build Application UI</b> : The Visual Designer tool offers a simple way to compose an application user interface with the DHTMLX UI widgets without writing a line of code. It is also a good way to start working with the rich script API of the DHTMLX library. 
+<br /><br />
+<b>Data Store for Centralized Data Model</b> : dhtmlxDataStore provides a global data store for all DHTMLX components used in a web app. With DataStore, you can use grid, tree, form, combo, and treegrid just to display the data. All data manipulations (add, remove, filter, etc.) can be done through the DataStore. Changes are applied to all related UI components automatically.
+<br /><br />
+<b>Online Skin Builder</b> : You can use the online Skin Builder tool to change the skin type and color. Currently there are 3 predefined skins you can choose from: Classic, Web, and Terrace. The colors of the Classic and Web skin can be customized to fit your application design needs.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

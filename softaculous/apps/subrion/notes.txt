@@ -1,0 +1,3 @@
+1. We download the upgrade package and add it to upgrade.zip as it is required to carry on upgrade.
+2. Change the $allowed_ver in upgrade.php every time there is an update becuase the script can be updated only from successive versions i.e. 2.3.1 to 2.3.2
+3. We have disabled Upgrade because upgrade is done automatically from admin panel.

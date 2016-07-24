@@ -1,0 +1,14 @@
+
+1. We add "admin_login::setup" in the below line in config/blesta-new.php
+Configure::set("Blesta.csrf_bypass", array("admin_login::setup"));
+
+2. Blesta has released Patch for PHP 5.5. Kindly remove following condition depending upon next version compatability.
+	if(sversion_compare(sphpversion(), '5.5', '>=')){
+		if(file_exists($software['path'].'/php55hotfix.zip')){
+			if(!sunzip($software['path'].'/php55hotfix.zip', $__settings['softpath'].'/app/')){
+					$error[] = 'Could not unzip the php55hotfix.zip';
+			}
+		}
+	}
+	
+Reference : http://www.blesta.com/forums/index.php?/topic/2112-php-55-hotfix-for-blesta-312/

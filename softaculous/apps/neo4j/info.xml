@@ -1,0 +1,85 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Neo4j
+	</ratings>
+	<space>
+		63175297
+	</space>
+	<support>
+		http://www.neo4j.org/
+	</support>
+	<version>
+		2.2.3
+	</version>
+	<mod>5</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>21-05-2015</release_date>
+
+	<requires>java</requires>
+	
+	<path name="base">/usr/local/apps/neo4j</path>
+	<path name="bin">/usr/local/apps/neo4j/bin/neo4j</path>	
+	<path name="properties">/usr/local/apps/neo4j/conf/neo4j-server.properties</path>
+	
+	<extract file="neo4j-$arch.tar.gz">$appsdir</extract>
+	
+	<notes>
+	<center><font size="5" color="#182e7a">Neo4j Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}		
+		</style>
+		<table border="1" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/neo4j</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/neo4j/bin/neo4j</td>
+			</tr>
+			<tr>
+				<td>Properties</td>
+				<td>/usr/local/apps/neo4j/conf/neo4j-server.properties</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>	
+		<font size="5" color="#197e7a">Neo4j</font> is an open-source graph database supported by Neo Technology. Neo4j stores data in nodes connected by directed, typed relationships with properties on both, also known as a Property Graph. 
+		<br /><br />
+		Neo4j is distributed under the <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL</a>
+		</english-overview>
+		<english-features>
+			<ul>
+	            <li>intuitive, using a graph model for data representation</li>
+				<li>reliable, with full ACID transactions</li>
+				<li>durable and fast, using a custom disk-based, native storage engine</li>            
+				<li>massively scalable, up to several billion nodes/relationships/properties</li>            
+				<li>highly-available, when distributed across multiple machines</li>            
+				<li>expressive, with a powerful, human readable graph query language</li>            
+				<li>fast, with a powerful traversal framework for high-speed graph queries</li>            
+				<li>embeddable, with a few small jars</li>            
+				<li>simple, accessible by a convenient REST interface or an object-oriented JavaAPI</li>                
+			</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,62 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpBook
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/guestbooks/phpBook
+	</ratings>
+	<space>
+		621647
+	</space>
+	<support>
+		http://www.smartisoft.com
+	</support>
+	<version>
+		2.1.0
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="le" value="5.3" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpBook</font> is a PHP/MySQL guestbook program. Features: Nice interface; Fast and stable code; Language templates (english, german, italian, potuguese, french, dutch, swedish, chinese, japanese, danish, etc); Location templates (world, europe, belgium, etc); IP logging and banning; Browser logging; Pagebreak's; Smilie's database and help (over 90 included), etc.
+		<br /><br />
+		phpBook is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+-) Very nice Design ;-)<br />
+	    -) Fast, stable Code<br />
+	    -) Language Templates (english, german, italian, portuguese, french, dutch, danish, swedish, japanese, chinese, arabian, yug, greek, slovenian, czech, islandic, ...)<br />
+	    -) Location Templates (world, europe, belgium, sweden, danish, dutch, ...)<br />
+	    -) Floodprotect<br />
+
+	    -) IP-Logging &amp; banning<br />
+	    -) Browser-Logging<br />
+	    -) Smilie's Database (over 90 included)<br />
+	    -) Smilie's Help<br />
+	    -) URL-Code<br />
+
+	    -) URL-Code Help<br />
+	    -) Message-Security-Conversation (no HTML)<br />
+	    -) Dirty Word Filter<br />
+	    -) Long Word Filter<br />
+	    -) Webmaster E-Mail Notify<br />
+	    -) Web-Admin-Panel (delete entries, config, ...)<br />
+
+	    -) Moderator-Function (add, edit, delete comment)<br />
+	    -) Systeminfo<br />
+	    -) DB-Install Script
+		</english-features>
+		<english-err_php53_com> is not compatible with PHP version 5.3+</english-err_php53_com>
+	</languages>
+</soft>

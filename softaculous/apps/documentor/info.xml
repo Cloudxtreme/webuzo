@@ -1,0 +1,56 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpDocumentor
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/phpDocumentor
+	</ratings>
+	<space>
+		6926575
+	</space>
+	<support>
+		http://www.phpdoc.org/
+	</support>
+	<version>
+		1.4.4
+	</version>
+	<mod>4</mod>
+	<mod_files>2</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpDocumentor</font> is the current standard auto-documentation tool for the php language.
+		<br /><br />
+		Similar to Javadoc, and written in php, phpDocumentor can be used from the command line or a web interface to create professional documentation from php source code. phpDocumentor has support for linking between documentation, incorporating user level documents like tutorials and creation of highlighted source code with cross referencing to php general documentation.
+		<br /><br />
+		phpDocumentor is released under the <a href="http://www.gnu.org/licenses/lgpl-2.1.html" target="_blank">GNU Lesser General Public License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>output in HTML, PDF (directly), CHM (with windows help compiler), XML DocBook</li>
+<li>very fast</li>
+<li>web and command-line interface</li>
+<li>fully customizable output with Smarty-based templates</li>
+<li>recognizes JavaDoc-style documentation with special tags customized for PHP 4</li>
+<li>automatic linking, class inheritance diagrams and intelligent override</li>
+<li>customizable source code highlighting, with phpxref-style cross-referencing</li>
+<li>parses standard README/CHANGELOG/INSTALL/FAQ files and includes them directly in documentation</li>
+<li>generates a todo list from @todo tags in source</li>
+<li>generates multiple documentation sets based on @access private, @internal and {@internal} tags</li>
+<li>example php files can be placed directly in documentation with highlighting and phpxref linking using the @example tag</li>
+<li>linking between external manual and API documentation is possible at the sub-section level in all output formats</li>
+<li>easily extended for specific documentation needs with Converter</li>
+<li>full documentation of every feature, manual can be generated directly from the source code with "phpdoc -c makedocs" in any format desired</li>
+<li>user .ini files can be used to control output, multiple outputs can be generated at once</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

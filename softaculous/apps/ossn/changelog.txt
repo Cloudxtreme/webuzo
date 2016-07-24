@@ -1,0 +1,228 @@
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.1 
+
+* Support Vimeo without flash #831
+* New strings for datepicker localization #835
+* Fixes comments vanishing issue #837
+* Stop offset calculation under unset conditons #841
+* If not explicitely set, set page_limit to false #842
+* Allow regular members to delete their own groups #844
+* Allow admins to remove members from any group #852
+* Give admin access to all settings/joinrequests pages #851
+* Allow admins to edit settings of any group #850
+* Allow admins to decline membership in any group #849
+* Allow admins to approve members in any group #848
+* Allow admins to reposition covers in any group #847
+* Allow admins to upload covers in any group #846
+* Allow admins to access group owner elements #845
+* Don't call isMember() if no group found #853
+* Pass membership to wall\templates\wall\group\item #854
+* Return group update state correctly #856
+* Make search users and objects faster #863
+* Can not edit comments #877
+* Incorrect Hyphenation in the theme GoBlue 3.0 #824
+* Wall item image inline block to block #866
+* Add a confirm message on album delete #870
+* Show all comments on profile/cover/view #871
+* v4.x newsfeed page slow due to join and order_by #863
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.0
+
+CHANGES:
+
+* Entities of type 'changed profile/cover' should be made uneditable #672
+* Smiley borders #668
+* Inverted post order on timeline #666
+* Cover update message mixup with profilepic
+* Foto update message mixup with coverpic
+* Double height header with longer sitenames #655
+* Right alignment of group memberlist #658
+* Commenting pic followed by text gives warnings #664
+* Annoying procedure on pressing just [Enter] without any input #651 
+* Group description dragging out of bounds #660
+* Selecting a CLOSED group like MYSITE/group/123/ gives warning #663
+* Current chat emoticons have no transparency #649
+* Old style icons on search result type #643
+* Orphan notification after posting/comment has been deleted #609
+* Different size of owner link on posting/comment #676
+* Achieve better control on footer menu link array order #675
+
+--
+
+* ossn-ad-image missing class #704
+* Add description enlarging #703
+
+For more info see: https://github.com/opensource-socialnetwork/opensource-socialnetwork/pulse
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.0 RC
+
+CHANGES:
+
+* Questionable behavior on too small profile cover #638
+* Oinitial crashing if OssnComments module is disabled #645
+* Notifications crashing if OssnMessages module is disabled #646
+* Make post text and tagged friends inline.
+* Datepicker display glitch on administrator/edituser #637
+* Member name overlapping user icon on viewport < 1200px (on search result list) #642
+* Group(-owner) name overlapping group icon on viewport < 1200px #644
+* Comment field overlapping user icon on viewport < 1200px #640
+* Latest chat message almost completely hidden #648
+* getFriendsPosts missing access index.
+* Show only a user posts on homepage.
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.0b3
+
+BUGFIXES:
+
+* Fix entity likes view.
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.0b1
+
+BUGFIXES:
+
+* Getting entity is failed #DEV-33
+* Fix creating default object from empty value for user object
+* Theme(Oinitial) still marked to require 3.0 in xml #DEV-36
+* Fix language stings when for unblocking user.
+* Hide notification box when we open topbar dropwn menu #617
+* Hide groups cover buttons on mobile.
+* Reposition/Change Cover buttons on top of notification #622
+* Admin profiles should be unblockable by 'normal' members #625
+* Delete groups.php.rej
+* Need to clear file path after uploading the file #626
+* Pagination offset should be better protected #627
+* Loosing typed in data when clicking Terms and Conditions link #620
+* Overlapping issue with longer names on profile page #630
+* Unused pagebar skeleton when ads are disabled #628
+* Pictures in single view are drifting rightwards out of place #629
+
+Enhancements:
+
+
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 4.0b
+
+Bugfixes:
+
+* Trigger callback ('comment', 'load') only if user is loggedin $arsalanshah
+* Allow standalone image post in wall #611
+* Deleting the current profile pic/cover doesn't update icon_time #59
+* Missing back button to photos #570
+* Cover photo dimensions restriction #93
+* When getting user/object/annotation its entities are limited to 10, removed limit.
+* Flash player for video on mobile #D-13 #614
+* A message recieve issue on OssnChat.
+
+Optimization:
+
+* Load google maps, token input and tinymce only where its required.
+* OssnUser::isFriend, reduce queries to one query.
+* OssnUser::getFriends, reduce queries.
+* Cache images for ads & comments #604
+* Make search page load faster for group and user search.
+* Remove unused code from admin dashboard.
+* Improved OssnUser::Methods
+* Imprvoed OssnObject::Methods
+* Improved OssnAnnotation::Methods
+* Improved OssnEntities::Methods
+* Update in fields on signup.
+* Update birthdate input with dateinput.
+
+New Functions/Methods:
+
+* ossn_relation_exists([args])
+* ossn_get_relationships([args])
+* ossn_delete_relationship_by_id([args])
+* ossn_delete_relationship([args])
+* ossn_dump([args])
+* OssnFile::getFile
+* OssnFile::getPath
+* OssnFile::isFile
+  .. 
+  See github commits for more information.
+
+Enhancement:
+
+* Brand new responsive theme.
+* Ossn message box, user who liked comment #554
+* Allow users to edit comments.
+* Allow users to edit posts.
+
+New language strings:
+
+* comment:edit:success
+* comment:edit:failed
+* ossn:wall:post:saved
+* ossn:wall:post:save:error
+
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.9
+
+Bugfixes:
+
+* View all comments link missing on direct photo view #591
+* Poster image display problem with profile pics < 32 x 32 #595
+* Deleting the current profile pic/cover doesn't update cache #590 [Fixed for profile pictrued, in progress with cover photo]
+* Show latest comments instead of oldest comments #603
+* Post owner can not delete others comments #607
+* Make 'notifications/all' page work again #610
+
+General:
+
+* Refactoring the ossn_view_widget function
+
+Developers:
+
+* Arsalan Shah	[TEAM LEADER]	- https://www.opensource-socialnetwork.org/u/arsalanshah
+* Zet Man 	[CORE TEAM] 	- https://www.opensource-socialnetwork.org/u/zetman
+* Eric F. 	[CORE TEAM] 	- https://www.opensource-socialnetwork.org/u/ctlui
+
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.8
+
+Bugfixes:
+
+* Don't load notification and chat boot api when user is not loggedin.
+* Disallow version check request to non-loggedin users #565
+* Wall, tag a friend , GUID issue #566
+* Hardcoded paths in theme's css #563
+* Problem with group comments showing up via notification link #559
+* Change profile icon urls #537
+* Fix typo in link href javascript #536
+* Problem of characters lenght on the instant messenger #520
+* Admin Dashboard users graphic appear in January #557
+* OssnWall friends settings,  didn't shows pagination #555
+* ossn_get_userdata($this->dir) results in wrong path #582
+* OssnChat css fixes typo #583
+* Tag post with a friend, doesn't show in friend's notification #589
+
+General:
+ * Move notification topbar to plugin views.
+ * Remove direct call to external component class.
+ * Remove invalid old files form ossnblack theme.
+ * All the menus are now sorted to alphabetically.
+ 
+Enhancements: 
+ * Add a tagging friend option to users wall #567
+ * Add topbar static menu to dynamic #541
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.7 Minor fix
+
+Bugfixes:
+
+* Unable to delete user.
+* Update non-object iconURL() on OssnLikes/ossn_com.php 156
+
+OSSN - OPEN SOURCE SOCIAL NETWORK 3.6
+
+Bugfixes:
+
+* Message Inbox section - layout error #542
+* Poke translation issue #543
+* Css(class): ossn-profile-wall shouldn't have fixed hight #545
+* Profile edit form shows wrong default language #546
+* Change uppercase admin tobbar right menu.
+* There is issue in chat window layout firefox #548
+* Add limit and page_limit false while deleting annotations by owner guid.
+* XSS Security fix, with OssnPagination class, thanks to Curesec.com
+* Delete component settings upon its deletion #538
+* Fix typo in link href javascript #536

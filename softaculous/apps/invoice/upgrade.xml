@@ -1,0 +1,14 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<settings>
+		<setuplocation>index.php/setup</setuplocation>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>.htaccess</exclude>
+		<exclude>database.php</exclude>
+	</files>
+</softupgrade>

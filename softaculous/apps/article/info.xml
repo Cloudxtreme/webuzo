@@ -1,0 +1,81 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/ArticleSetup
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/ArticleSetup
+	</ratings>
+	<space>
+		5259615
+	</space>
+	<support>
+		http://www.articlesetup.com
+	</support>
+	<version>
+		1.00
+	</version>
+	<mod>2</mod>
+	<mod_files>3</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">ArticleSetup</font> is the powerful, flexible, and surprisingly simple web software that you can use to setup your own article directory website.
+		<br /><br />
+		This premium script is easy to use, customizable, feature-rich, fully supported and best of all, it's completely free - forever.
+		<br /><br />
+		ArticleSetup is the free PHP article directory script that allows you to publish articles submitted by authors; similar to EzineArticles or ArticleBase. 
+		<br /><br />
+		ArticleSetup is released under their Custom License which allows to redistribute.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font size="2" color="#1281B6"><b>Clean, Customizable Design</b></font><br /><br />
+<font>The front-end of your directory exudes professionalism and polish. The design puts content, navigation, and superb ad placement in focus for your visitors.</font>
+<br /><br />
+<font size="2" color="#1281B6"><b>Powerful Admin Panel</b></font><br /><br />
+<font>The administration area was built with speed and usability in mind. Everything you need to manage and monitor your directory is at your fingertips.</font>
+<br /><br />
+<font size="2" color="#1281B6"><b>Insightful Author Dashboard</b></font><br /><br />
+<font>Allow your users/authors to create an account, update their profiles, submit new articles, manage existing articles and more - you have complete control.</font>
+<br /><br />
+<font size="2" color="#1281B6"><b>All About the Articles</b></font><br /><br />
+<font>Articles are the heart of your directory, and they couldn't be easier to manage. Approve pending articles, mark as "problem", create, view, sort and search.</font>
+<br /><br />
+<font size="2" color="#1281B6"><b>Total Settings Control</b></font><br /><br />
+<font>The site settings area of your admin panel allows full control - without the clutter. Set the min/max words per article, manage email notifications, upload a logo, and more.</font>
+<br /><br />
+<font size="2" color="#1281B6"><b>Category Management</b></font><br /><br />
+<font>Add, delete, rename and move categories (and subcategories) in a snap. Plus, your directory comes pre-loaded with 200 of the most popular categories.</font>
+<br /><br />
+<font size="2" color="#1281B6"><b>Admin Features</b></font>
+<ul>
+<li>Guided interface with concise tips throughout</li>
+<li>Article control: create, edit, approve, delete, and more</li>
+<li>Author management: view, ban, restore</li>
+<li>Pages: Create static pages for the front-end</li>
+<li>Category editor: full control with 200+ pre-installed</li>
+<li>Manage ad codes and placements</li>
+<li>Total site control: templates, settings, logo, and more</li>
+</ul><br /><br />
+<font size="2" color="#1281B6"><b>Front-End Features</b></font>
+<ul>
+<li>Powerful template engine with easy-to-edit HTML designs</li>
+<li>Comments - allow visitors to leave their feedback</li>
+<li>Built-in RSS Feeds for the homepage and categories</li>
+<li>Author profile pages with url, bio and articles</li>
+<li>Social share buttons on each article</li>
+<li>Intuitive navigation/pagination controls</li>
+<li>Automatic search optimization and SEO-friendly URLs</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

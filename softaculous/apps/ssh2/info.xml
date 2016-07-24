@@ -1,0 +1,97 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/modules/SSH2
+	</ratings>
+	<space>
+		111168
+	</space>
+	<support>
+		http://pecl.php.net/package/ssh2
+	</support>
+	<version>
+		0.12
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>15-10-2012</release_date>
+	
+	<path name="53so">/usr/local/apps/php53/ext/ssh2.so</path>
+	<path name="54so">/usr/local/apps/php54/ext/ssh2.so</path>
+	<path name="55so">/usr/local/apps/php55/ext/ssh2.so</path>
+	<path name="56so">/usr/local/apps/php56/ext/ssh2.so</path>
+	
+	<extract file="ssh2-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">SSH2 Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Description</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://in3.php.net/ssh2</td>
+			</tr>			
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#156e7a">SSH2</font> provides bindings to the functions of libssh2.
+		<br /><br />
+		SSH2 is distributed under the <a href="http://www.php.net/license/3_01.txt" target="_blank">PHP License </a>
+		</english-overview>
+		<english-features>
+			<h3>SSH2 Functions</h3><br />
+			<ul>
+				<li>ssh2_auth_agent — Authenticate over SSH using the ssh agent</li>
+				<li>ssh2_auth_hostbased_file — Authenticate using a public hostkey</li>
+				<li>ssh2_auth_none — Authenticate as none</li>
+				<li>ssh2_auth_password — Authenticate over SSH using a plain password</li>
+				<li>ssh2_auth_pubkey_file — Authenticate using a public key</li>
+				<li>ssh2_connect — Connect to an SSH server</li>
+				<li>ssh2_exec — Execute a command on a remote server</li>
+				<li>ssh2_fetch_stream — Fetch an extended data stream</li>
+				<li>ssh2_fingerprint — Retrieve fingerprint of remote server</li>
+				<li>ssh2_methods_negotiated — Return list of negotiated methods</li>
+				<li>ssh2_publickey_add — Add an authorized publickey</li>
+				<li>ssh2_publickey_init — Initialize Publickey subsystem</li>
+				<li>ssh2_publickey_list — List currently authorized publickeys</li>
+				<li>ssh2_publickey_remove — Remove an authorized publickey</li>
+				<li>ssh2_scp_recv — Request a file via SCP</li>
+				<li>ssh2_scp_send — Send a file via SCP</li>
+				<li>ssh2_sftp_chmod — Changes file mode</li>
+				<li>ssh2_sftp_lstat — Stat a symbolic link</li>
+				<li>ssh2_sftp_mkdir — Create a directory</li>
+				<li>ssh2_sftp_readlink — Return the target of a symbolic link</li>
+				<li>ssh2_sftp_realpath — Resolve the realpath of a provided path string</li>
+				<li>ssh2_sftp_rename — Rename a remote file</li>
+				<li>ssh2_sftp_rmdir — Remove a directory</li>
+				<li>ssh2_sftp_stat — Stat a file on a remote filesystem</li>
+				<li>ssh2_sftp_symlink — Create a symlink</li>
+				<li>ssh2_sftp_unlink — Delete a file</li>
+				<li>ssh2_sftp — Initialize SFTP subsystem</li>
+				<li>ssh2_shell — Request an interactive shell</li>
+				<li>ssh2_tunnel — Open a tunnel through a remote server</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

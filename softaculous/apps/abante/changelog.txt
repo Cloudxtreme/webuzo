@@ -1,0 +1,259 @@
+AbanteCart version 1.2.7
+
+Release includes new caching system, substantial performance boost and some features
+
+New Features and improvements highlight:
+- New high performance caching system with support for APC, APCu Memcache, Memcached and Xcache 
+- HTML Cache for high traffic storefront support
+- SQL load improvement and reduction of database requests in disabled-cache mode. 
+- Profiling and PHP execution time optimization. 
+- Improvement for image resizing
+- PHP 7 tuning and testing
+
+Core:
+- PackageManager minor fix
+- database drivers error reporting improvement
+- AHtml refactoring + phpdoc comments
+- database drivers error reporting improvement
+- AConfig sql optimization
+- ADataset refactoring + phpdoc comments
+- changes related to cache debugging
+- extensions classes typos and phpdoc comments
+- created new function get_image_size() in Utils.php
+- replacements of deprecated ACache methods (get, set) calls + phpdoc comments
+- ALanguage minor changes related to language recognition
+- changes related to setting for cache enabling
+- added apc, apcu, memcache, memcached, xcache drivers
+- added config-setting and expiration for html-cache.
+- minor fix related to warnings in logs
+- fix in is_serialized() inside utils.php
+- added hook call on save method in AImage
+- AImage changes related to resize and save of images
+- improve INI load time
+- Language load optimization fix
+- New Caching system.
+- Cache, config and request exec time improvments
+- Improve exception error handling and display
+- New logo update
+
+Admin:
+- fix related to seo-keywords during product cloning
+- minor fix of dev tools url
+- clear cache page changes relates to new aCache
+- added lang-pack into tinymce
+- added fix of updating resource description in RL (related to auto-translation)
+- Add link to troubleshooting page
+
+Storefront:
+- Optimized HTML for faster browser rendering. 
+- Storefront template load optimization
+- css fix of rating stars view in left column block
+storefront: added ajax updates for cart menu block after page loaded + ajax update for product view count + fixes of typos etc
+- fix of wrong balance applying after new product adding to the cart Extensions: UPS fix related to estimate based on dimensions of productsfix #541
+- Pages and blocks HTML cache implementation (beta)
+- Default multi-value options section fix. 
+- Implement banner cache
+- SQL-queries optimization. Added caching into AWeight, ALength and ACurrency libs
+- SQL-queries optimization. removed calls isTrackable and hasAnyStock inside products loops
+- SQL-queries optimization. (Resource thumbnails).
+- Optimization for categories and menu building
+- Category product count optimization
+
+install: 
+- added config_image_quality setting value
+- config_image_quality now set in 95%
+- optimize large demo jpg files
+- optimize large demo png images
+- block_templates demo data fix
+- changes of system_check() calls related to install directory check
+
+Extensions/Upgrade:
+- FTP Install/Upgrade fix for some rare cases.
+
+Various bug fixes and improvements
+
+------------------------------------------------------------
+
+AbanteCart version 1.2.6
+
+Release includes couple of new features and number of core improvements 
+
+New Features and improvements highlight:
+- IM (SMS) Notifications for administrators and customers
+- New Text and visual HTML editor 
+- Resource Library improvement and RL manager page 
+- Improved email bulk mailing, newsletter and SMS messaging
+- Improved site performance in the code and with provided Apache server side settings. 
+- Tax exemption
+
+Core:
+- Implemented tax exemption for the group
+- Added pdo_mysql Mysql driver
+- added silent mode into error_handlers
+- Fix for per page pagination
+- system check for cache files permissions fix
+- system check changes related to permissions of session.save_path
+- ACache fix related to warnings in log
+- JavaScript fixes for inline js related to defer attribute of script-tags
+- added new settings "start order number" and "incomplete orders expiration". + fix of start invoice number bug
+- css changes for width of scrollbox of checkboxgroup element
+- fix related to quotes inside js + phpdoc improvements
+
+Storefront:
+- Add separate layout for cart page
+- Layout install fix
+- Layout SQL improvement
+- Fix for storefront search with empty spaces.
+- Optimize HTML for better performance 
+
+Admin:
+- Improvement to Resource Library UI
+- Resource library manager
+- CKEditor replaced by tinymce
+- Admin notification management to multiple emails and SMS
+- added deleting of resources from RL during category(manufacturer) removing
+- changes of sale/contact. Added message count that was sent.
+- Better grid responsiveness handling
+- Slow sql fix on a customers grid and dashboard
+- added new multi-action "set related" to products grid.
+- AConfigManager changes related to session_ttl config parameter. Added suggestion for session maxlifetime
+- usage db-driver fix in migration models
+- order details tab fix
+- Fix for latest 10 customer sorting order
+- Fix for slow select on admin main page load
+- Quick link to contact customer
+
+
+Extensions:
+- Textmarketer SMS integration 
+- Twilio SMS integration
+- pp_default and pp_standart fix related to virtual products in the cartTranslatsions for IM
+
+API:
+- Fix for API cart delete with GET method
+
+	
+AbanteCart version 1.2.5
+
+Release includes couple of new features and number of core improvements 
+
+New Features and improvements highlight:
+- Order cancellation option for customers 
+- Ability for guest customers to access order details 
+- Google reCaptcha v2. Easy to use captcha to protect from robots.  
+- Italian core language (Special thanks to Daniela Stucchi)
+- Additional listing block data list sources (manufacturers, featured, bestsellers,latest)
+
+Core:
+- changed minimal php version requirement to 5.3
+- Fontawesome v4.4 updarade
+- Bootstrap v3.3.5 upgrade
+- Resource library UI improvement
+- Image processing and memory allocation improvement 
+- Language processing improvement and bug fix
+- fix for getBrowserLanguage() related to web-bots and empty language-code
+- added system check for web-access to restricted folders
+- added system check for low PHP memory limit 
+- added AOrderStatus class. Changed order status management in admin. 
+- Handling single quote issue in language text used in JavaScripts
+- Improvement to files/directories handling in admin/system
+- Add make_writable_dir and is_writable_dir
+- Missed translations for Spanish and Russian languages
+- Image size update for settings shared between admin and storefront
+- Better session ID validation and handling
+- Rare cart rounding issue fix
+
+Storefront:
+- added feature "order cancelation by customer" on SF-side
+- added feature for guest customers to access order details 
+- added mail.tpl for "create account" email.
+- sql fix related to top 4 of featured products + reformat of code
+- breadcrumbs minor fix
+- Minor HTML and CSS fixes
+- Improvement to cookie handling 
+
+Admin:
+- added critical system check on login page
+- various data grid UI improvements 
+- added icon for section into lang_definitions grid
+- periodical ajax system check instead of every page load
+- added htaccess with deny rule to admin/system directory and subs.
+- added phpinfo view on settings/system page
+- added mail.tpl for "send mail" page.
+- added system check before package installer and backup processes
+- ckEditor fixes
+- Form Manager improvements
+- Show crash report and email to AbanteCart team
+- Chosen HTML element selection improvements
+- Extension archive extraction bug fix and improvment
+
+API:
+- Fix to allow authentication without use of cookies. 
+- Fix for customer loginname based login and account creation 
+
+------------------------------------------------------------
+
+AbanteCart version 1.2.4
+
+This a minor release is with further usability improvements and bug fixes
+
+New Features and improvements highlight:
+- New template management page
+- Quick starter wizard to help with most common settings.
+- Commands in global search
+- System condition check
+
+Core:
+- ACart fix related to https://github.com/abantecart/abantecart-src/issues/235
+- AConnect improvements
+- New stack trace function for logs
+- Session security improvement
+- replace is_array for better performance
+- better layout XML load error hendling
+- System condition check to warn changes on OS that effect AbanteCart stability
+
+Storefront:
+- Product embed code fixes.
+- Embed fix for jQuery loaded at the end of the page
+- 0px value replaced by 0 in css-files
+- category menu fix #225
+- Removal of misused cookie and improve first login message
+- Main page promo section improvement
+
+Admin:
+- New template management page
+- Improve global search and add commands in connection to voice commands
+- implement of Resource Library into CKEditor. Added ability to paste in CKE SOURCE-mode
+- Mark multilingual fields with the flag
+- Resource Library fixes related to deleting of resource from edit-page and preselected type on search result
+- Resource Library deleting resource fix
+- cloning product fix https://github.com/abantecart/abantecart-src/issues/209
+- Resource Library multi mode, save'n'apply button improvement
+- Resource Library single mode fix related to drag and drop
+- Layout management improvements.
+- textarea product option improvment
+- changes related to template cloning and devtools
+- Styles and images cleanup
+- Implement new documents site cross reference
+
+Initial install
+- Quick starter wizard to help with most common settings.
+- added additional check for multibyte functions support (mbstring)
+- optimized demo images 
+
+Various bug fixes and improvements
+
+
+------------------------------------------------------------
+
+AbanteCart version 1.2.3
+
+This release is with new features and many fixes and improvements 
+
+New Features and improvements highlight:
+- Easy embed codes to integrate AbanteCart into any existing website. 
+- Ability to sell products on any existing website without AbanteCart storefront 
+- New improve product images zoom
+- Product blurb or short description
+
+------------------------------------------------------------

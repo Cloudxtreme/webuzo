@@ -1,0 +1,5 @@
+1) Select Standard New Company without demo data in 'Select Chart of Accounts'
+
+2) install with db prefix which is 0_
+
+3) remove the second data entry from sql ... (demo user)

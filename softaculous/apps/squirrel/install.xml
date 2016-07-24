@@ -1,0 +1,34 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My SiteMail">
+				<head>{{site_name}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{imap}}</heading>
+			<input type="text" name="imap" size="30" value="imap.site.com">
+				<head>{{imap_ser}}</head>
+			</input>
+			<input type="text" name="imap_port" size="30" value="143">
+				<head>{{imap_port}}</head>
+			</input>
+			<input type="checkbox" name="imap_tls" value="true">
+				<head>{{imap_tls}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{smtp}}</heading>
+			<input type="text" name="smtp" size="30" value="smtp.site.com">
+				<head>{{smtp_ser}}</head>
+			</input>
+			<input type="text" name="smtp_port" size="30" value="25">
+				<head>{{smtp_port}}</head>
+			</input>
+			<input type="checkbox" name="smtp_tls" value="true">
+				<head>{{smtp_tls}}</head>
+			</input>
+		</group>
+	</settings>
+</softinstall>

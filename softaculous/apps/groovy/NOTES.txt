@@ -1,0 +1,2 @@
+1) Directly Downloaded from the website
+2) We download the binary package from (http://www.groovy-lang.org/download.html)

@@ -1,0 +1,4 @@
+1) Install with demo data.
+2) Set (1, 'store_online', 'boolean', '1'), in avactis.sql to set the store to online
+3) Make zip of the contents of the manual folder and empty the contents of the avactis-conf/cache folder 
+(EXCEPT .htaccess because it is not created). (.htaccess is not created in manual as well from 4.7.1)

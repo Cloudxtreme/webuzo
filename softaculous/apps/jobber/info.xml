@@ -1,0 +1,49 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/jobberBase
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/jobberBase
+	</ratings>
+	<space>
+		3540579
+	</space>
+	<support>
+		http://www.jobberbase.com/
+	</support>
+	<version>
+		2.0
+	</version>
+	<mod>3</mod>
+	<mod_files>1</mod_files>
+	<admin>admin</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">jobberBase</font> is the open-source job board software that helps you set up a jobsite in minutes!
+		<br /><br />
+		jobberBase is distributed under <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">The MIT License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Job posting without account</li>
+<li>Powerful job searching</li>
+<li>Apply to interesting jobs</li>
+<li>Administration panel</li>
+<li>RSS feeds</li>
+<li>Javascript badge/widget</li>
+<li>Homepage-featured jobs management</li>
+<li>Locations management</li>
+<li>... and many more!</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

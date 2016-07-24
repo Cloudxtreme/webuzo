@@ -1,0 +1,39 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="iwp_">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<cron>
+		<min>{rand(0,19)},{rand(20,39)},{rand(40,59)}</min>
+		<hour>*</hour>
+		<day>*</day>
+		<month>*</month>
+		<weekday>*</weekday>
+		<command>[[php_path]] -q -d safe_mode=Off [[softpath]]/cron.php >/dev/null 2>&amp;1</command>
+	</cron>
+	<files>
+		<exclude>install/*</exclude>
+		<exclude>install/*/*</exclude>
+		<exclude>install/*/*/*</exclude>
+		<exclude>install/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*</exclude>
+		<exclude>install/*/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

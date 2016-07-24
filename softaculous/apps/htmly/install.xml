@@ -1,0 +1,18 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>	
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>							
+		</group>
+	</settings>
+	<files>
+		<exclude>config/config.ini.example</exclude>
+		<exclude>config/users/username.ini.example</exclude>
+	</files>
+</softinstall>

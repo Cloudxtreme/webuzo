@@ -1,0 +1,1 @@
+1) We have to delete INSERT [[dbprefix]]members values from the database because it has to ask for a new member. The entry is created if we add a member from the Admin panel.

@@ -1,0 +1,13 @@
+.htaccess
+assets
+css
+favicon.ico
+framework
+img
+index.php
+install
+js
+license.txt
+protected
+robots.txt
+uploads

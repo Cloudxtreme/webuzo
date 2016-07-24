@@ -1,0 +1,15 @@
+<softupgrade xmlns="http://www.softaculous.com">
+	<setuplocation>storage/tmp/package/system_upgrade_post_install.php</setuplocation>
+	<donotunzip>1</donotunzip>
+	<settings>
+		<group>
+			<heading>hidden</heading>
+			<input type="hidden" name="dummy" value="">
+			</input>
+		</group>
+	</settings>
+	<files>
+		<exclude>storage/database/user.db.php</exclude>
+		<exclude>storage/database/razorcms.sqlite</exclude>
+	</files>
+</softupgrade>

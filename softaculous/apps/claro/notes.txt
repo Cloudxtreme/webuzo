@@ -1,0 +1,3 @@
+1. While installation keep Prefix for course tables and Prefix for main tables same 
+2. institution_name : Softaculous
+3. institution_url : softaculous.com

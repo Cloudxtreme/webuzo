@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root><options><autoincrement>1</autoincrement></options><fields><login/><password/><email/><role/><date_registered/><firstname/><lastname/><login/><twitter/><skype/><hash/><about_me/></fields><users><id>1</id><uid>[[gen_uid]]</uid><firstname/><lastname/><twitter/><skype/><about_me/><login>[[admin_username]]</login><password>[[admin_pass]]</password><email>[[admin_email]]</email><hash>[[gen_hash]]</hash><date_registered>[[timestamp]]</date_registered><role>admin</role></users></root>

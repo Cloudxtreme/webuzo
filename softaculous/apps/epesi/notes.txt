@@ -1,0 +1,12 @@
+1. We take the data files from the manual and make the epesidata.zip and extract it after installation(remove contents of cache folder and config.php file).
+2. Remove the following code from .htaccess
+ 
+#if your server is running php as apache module:
+php_value memory_limit "64M"
+php_flag magic_quotes_gpc off
+
+3. Remove the INSERTS from following tables from DB tools_whoisonline_users, session_client, session, history
+
+4. 'cache' value for base_notify table remains constant so we do not change it. (since 1.7.0)
+
+5. Timezone as "America/New York" for manual installation.

@@ -1,0 +1,96 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/java_tools/JBoss_Application_Server
+	</ratings>
+	<space>
+		171532407
+	</space>
+	<support>
+		http://jbossas.jboss.org/
+	</support>
+	<version>
+		EAP 6.4.0
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>16-04-2015</release_date>
+	
+	<requires>java</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/jboss</path>
+	<path name="bin">/usr/local/apps/jboss/bin/standalone.sh</path>
+	<path name="conf">/usr/local/apps/jboss/standalone/configuration/standalone.xml</path>
+	
+	<extract file="jboss-$arch.tar.gz">$appsdir</extract>
+	
+	<is_default>107_1</is_default>
+	<is_default>109_1</is_default>
+	<is_default>123_1</is_default>
+		
+	<remove>/usr/local/apps/jboss</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">JBoss Application Server Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base</td>
+				<td>/usr/local/apps/jboss</td>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/jboss/bin/standalone.sh</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://jbossas.jboss.org/docs</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+			<font size="5" color="#182e7a">JBoss Application Server</font> is a Open Source Java application server.<br />
+			<ul>
+				<li>Designed for flexibility.</li>
+				<li>Amped with electrifying speed.</li>
+				<li>Launch your Java EE applications in a flash!</li>
+			</ul>	
+			<br /><br />
+			JBoss Application Server is distributed under the <a href="https://www.gnu.org/licenses/lgpl.html" target="_blank">LESSER GENERAL PUBLIC LICENSE</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Unparalleled Speed</li>
+				<li>Modular Design</li>
+				<li>Exceptionally Lightweight</li>
+				<li>Elegant Administration</li>
+				<li>Strict Compliance</li>
+				<li>Easily Testable</li>
+				<li>First class, modern components</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

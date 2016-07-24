@@ -1,0 +1,64 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Lychee
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/galleries/Lychee
+	</ratings>
+	<space>
+		967034 
+	</space>
+	<support>
+		http://lychee.electerious.com/
+	</support>
+	<version>
+		3.1.1
+	</version>
+	<mod>5</mod>
+	<release_date>30-04-2016</release_date>
+	<admin>index.html</admin>
+	<min_require>2.7.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.5.0" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="mbstring" />
+	<requirement check="php" type="extension" name="mysqli" /> 
+	<requirement check="php" type="extension" name="zip" />
+	<requirement check="php" type="extension" name="exif" />
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+	<english-overview>
+	<font size="5" color="#182e7a">Lychee</font> is the perfect place to store all your photos. No storage limit, no compression, no loss in data. We even support and display your EXIF and IPTC Metadata. And if you want, you can make your photos public for your audience. With just one click.
+	<br /><br />
+	Lychee is released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+	</english-overview>		
+	<english-features>
+	<font size="2" color="#1281B6"><b>Manage</b></font><br />
+	Managing your photos has never been easier. Upload, move, rename, describe, delete or search your photos in seconds. All in one place, right from your browser.<br />
+	<font size="2" color="#1281B6"><b>Share</b></font><br />
+	Sharing like it should be. One click and every photo and album is ready for the public. You can also protect albums with passwords if you want. It's under your control.<br />
+	<font size="2" color="#1281B6"><b>View</b></font><br />
+	Look at all your images in full-screen mode, navigate forward and backward by using your keyboard or let others enjoy your photos by making them public.<br />
+	<font size="2" color="#1281B6"><b>Open</b></font><br />
+	Lychee is completely open-source. Everyone can take advantage of the work we have already done and improve it. We are open for every suggestion or help.<br />
+	<font size="2" color="#1281B6"><b>Secure</b></font><br />
+	Your server, your data, your rules. Never depend on someone else. Lychee is a self-hosted solution, so you are in the full control of your photos.<br />
+	<font size="2" color="#1281B6"><b>Beautiful</b></font><br />
+	Our goal was to create a web app everyone can use. Lychee works intuitive and comes with a stunning, beautiful interface.<br />
+	<font size="2" color="#1281B6"><b>EXIF</b></font><br />
+	Get the most out of our photos. Lychee supports EXIF and IPTC Metadata. Always available one click away. Clearly listed next to all other information.<br />
+	<font size="2" color="#1281B6"><b>Import</b></font><br />
+	Import your photos from various sources. From you local computer, server, via URL or even from your Dropbox.<br />
+	<font size="2" color="#1281B6"><b>Tag</b></font><br />
+	Never lose one of your photos in the depth of your albums. Tag them or mark them as important. Every single photo or all selected photos at once.<br />
+	</english-features>
+	</languages>
+</soft>

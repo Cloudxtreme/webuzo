@@ -1,0 +1,50 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/todoyu
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/todoyu
+	</ratings>
+	<space>
+		12937836
+	</space>
+	<support>
+		http://www.todoyu.com/community/forum/
+	</support>
+	<version>
+		2.3.1
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<release_date>31-12-2013</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.2.5" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">todoyu</font> is the web-based way to get your tasks done. todoyu is all about bringing your team and clients together to work jointly on projects.
+		<br /><br />
+		todoyu is<strong> as simple as needed</strong> and focused on the most important: <strong>Enable your team to work as efficient as possible</strong>. Focus your work on your projects and let todoyu do the rest for your in one tool: time tracking, reporting, organizing, approving, controlling, discussing, billing and much more...
+		<br /><br />
+		todoyu is released under the <a href="http://www.todoyu.com/legals/license/" target="_blank">BSD License</a>.
+		</english-overview>
+		<english-features>
+		<h2>Manage your projects with the power of todoyu</h2>
+		<br />
+<font size="2" color="#C0CA14"><b>Manage Projects</b></font> : todoyu is a business application for project planning, tracking its progress and for communicating with team members. Define deadlines, assign tasks and communicate with your project team and clients until projects are done.<br /><br />
+<font size="2" color="#C0CA14"><b>Collaborate in Teams</b></font> : Work with your team, clients and outsoucring partners all together in an easy-to-use web application. Assign tasks to team members, add comments, give feedback and share documents.<br /><br />
+<font size="2" color="#C0CA14"><b>Report In Real Time</b></font> : Create powerful reports based on your projects, tracked time, bills, working types and many more. All calculations are done in real time. There is no easier way to keep track of your daily work!<br /><br />
+<font size="2" color="#C0CA14"><b>Group Calendar</b></font> : Schedule meetings in a shared calendar. Show all events to get the complete view of your organization, or filter by staff group, selected team members and event types. The calendar contains a daily, weekly and monthly view.<br /><br />
+<font size="2" color="#C0CA14"><b>Open Source</b></font> : todoyu is Open Source: download it, try it, use it... it's free. And if you wish to extend it towards your own needs, it's all open.<br />
+		</english-features>
+		<english-err_php525>The PHP version is less than the required 5.2.5 version!</english-err_php525>
+	</languages>
+</soft>

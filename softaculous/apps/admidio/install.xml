@@ -1,0 +1,64 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="Admidio">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="short_site_name" size="30" value="ADM" maxlength="10">
+				<head>{{short_site_name}}</head>
+				<exp>{{exp_short_site_name}}</exp>
+			</input>
+		</group>
+		<group>
+			<heading>{{db_set}}</heading>
+			<input type="text" name="dbprefix" size="30" value="adm">
+				<head>{{db_pre}}</head>
+				<optional>true</optional>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="pass">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="admin_fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_lname" size="30" value="Administrator">
+				<head>{{l_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_lang}}</heading>
+			<input type="select">
+				<select name="language">
+					<option value="en">English</option>
+					<option value="da">Danish</option>
+					<option value="nl">Dutch</option>
+					<option value="fr">French</option>
+					<option value="de">German(du)</option>
+					<option value="de_sie">German(Sie)</option>
+					<option value="it">Italian</option>
+				</select>
+				<head>{{select_lang}}</head>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+	 	<exclude>adm_program/installation/*</exclude>
+		<exclude>adm_program/installation/*/*</exclude>
+		<exclude>adm_program/installation/*/*/*</exclude>
+		<exclude>adm_program/installation/*/*/*/*</exclude>
+		<exclude>adm_program/installation/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

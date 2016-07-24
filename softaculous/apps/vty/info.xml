@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Vty
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/Vty
+	</ratings>
+	<space>
+		151027
+	</space>
+	<support>
+		http://www.kutukutu.com/vty/
+	</support>
+	<version>
+		1.6
+	</version>
+	<mod>2</mod>
+	<mod_files>3</mod_files>
+	<admin>vty.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Vty</font> is a web-based database manager script written with Php. It's for Mysql.
+		<br /><br />
+		You can connect to Mysql and see and edit your databases and tables.
+		<br /><br />
+		Vty is released under the <a href="http://www.kutukutu.com/vty/license.txt" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Connect to a database server with username and password</li>
+<li>Add and drop tables and columns</li>
+<li>Insert new records, update and delete the existing ones</li>
+<li>Execute any SQL command</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

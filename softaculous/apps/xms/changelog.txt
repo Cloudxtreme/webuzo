@@ -1,0 +1,46 @@
+XMS 5.0.4
+
+-Improved use directive: imports @xpath from @source and add to @where as defined by @mode
+
+-@mode attribute one of append,prepend,before,after,replace; default append
+-Utils::createElementsSequence() method
+
+XMS 4.9
+
+Designer
+- A new tool - duplicate selected nodes
+- resizable Document tree container
+
+
+Engine
+- xms_overload support for observable properties and methods
+- _XMS_ and _HTML_ classes, extending awsXML and awsHTML and using XMS_DOMElement that provides event support - XMS_DOM_EVENT
+    awsCommonXML::elements() - allows access to DOMElements and offers chainability
+    awsCommonXML::find($selector,$callback) - $callback arguments changed to $el,$contextNode where $contextNode is the same that $selector query is executed upon
+
+Both XMS->APP and XMS->CLIENT (or $GLOBALS["HTMLPARSER"] and $GLOBALS["TEMPLATE"]) are now instances of _XML_ so all new features can be used in 4.x app design.
+
+
+XMS 4.6
+
+Engine
+- xms_overload abstract class : when setting a new property, if a closure is given as value, is bound automatically to $this (child class)
+- awsXML and awsHTML new methods (inherited from awsCommonXML)
+
+    awsCommonXML::all($callback[,$optional1,$optional2...]) - executes a callback with paramaters $this->results
+    awsCommonXML::filter($callback[,$optional1,$optional2...]) -  reduces results to the ones that pass the test of the $callback
+    awsCommonXML::has($selector, $commit = FALSE) -  filters the results with the ones having elements to match the given $selector
+    awsCommonXML::find($selector, $callback[,$optional1,$optional2...]) -  executes the given callback for all nodes given by selector in the context of each awsXML::results
+    awsCommonXML::add($selector) -  adds the  results  of xpath query for selector to existing set of results
+    awsCommonXML::prop($name, $value) -  changes a native property of DOMNode if possible, for each results
+    awsCommonXML::hasClass($class)
+    awsCommonXML::removeClass($c, $glue = " ")
+    awsCommonXML::addClass($c, $glue = " ")
+    awsCommonXML::addClass($c, $glue = " ")
+
+XMS 4.2
+
+Designer:
+- ported to jquery 1.10.2 and ui 1.10.4
+- html5
+- runtime options now saving to DOMStorage and reloaded 

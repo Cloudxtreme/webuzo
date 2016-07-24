@@ -1,0 +1,2 @@
+dropzone.js
+index.php

@@ -1,0 +1,39 @@
+Version 2.2.87 (2016-05-31)
+
+Add $HTMLTagAttr, to allow inclusion of lang, manifest and other attributes.
+Add $EnableRevUserAgent, $FmtV['$DiffUserAgent'].
+Fix relative link in Site.UploadQuickReference.
+Update documentation. 
+	
+Version 2.2.86 (2016-04-28)
+
+Fix PageStore() for PHP 7.
+Fix $DefaultPasswords for PHP 7.
+Update documentation.
+
+<softlatest>
+
+Version 2.2.85 (2016-03-31)
+
+Add svg(z) and SVG(Z) as embeddable image extensions (PITS:00197, PITS:00435).
+Add *.svgz as allowed upload extension.
+Update documentation.
+
+Version 2.2.84 (2016-02-21)
+
+This versions fixes "indent" and "outdent" styles for right-to-left languages. A new variable $EnableLinkPlusTitlespaced allows "plus links" [[Link|+]] to display the "Spaced Title" of the page instead the "Title". The documentation was updated.
+
+Version 2.2.83 (2015-12-31)
+
+Update documentation. 
+	
+Version 2.2.82 (2015-11-30)
+
+Enable stripmagic() to process arrays recursively.
+Update documentation.
+
+Version 2.2.81 (2015-10-31)
+
+Fix single line PageTextVariable definition (reported by HansB).
+Add .ltr and .rtl CSS classes for UTF-8.
+Update documentation.

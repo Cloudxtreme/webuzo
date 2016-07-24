@@ -1,0 +1,2 @@
+Choose mysql Improved InnoDB while installation
+changelog -> http://fluxbb.org/development/core/changelog

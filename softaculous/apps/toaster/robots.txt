@@ -1,0 +1,4 @@
+Sitemap: [[softurl]]/sitemapindex.xml
+User-agent: *
+Disallow: /
+

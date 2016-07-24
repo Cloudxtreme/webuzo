@@ -1,0 +1,4 @@
+1. choose liteness template with sample data
+2. Always download the latest update zip from :
+https://github.com/microweber/dist/raw/master/microweber-update.zip
+and update this zip under "update" directory. (Just unzip this update zip over the existing installation and visit the installation, upgrade shall be done automatically. Confirmed by vendor via email)

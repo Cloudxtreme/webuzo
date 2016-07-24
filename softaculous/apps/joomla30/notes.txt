@@ -1,0 +1,20 @@
+1. Do not install multiple times for sample data. Take sample data sql from joomla package and change dbprefix
+2. Choose Database Type "MySQLi"
+3. For languages download the packages here :
+http://community.joomla.org/translations/joomla-3-translations.html
+4. Simply unzip the packages in joomla30/languages/ folder the structure is as it is in their package
+5. Most of the language packages are in correct structure some have wrong structure so you will need to ZIP manually. There should files directly in the below ZIPS :
+6. Structure should be as follows :
+admin_fr-FR.zip
+site_fr-FR.zip
+pkg_fr-FR.xml
+7. In case there are changes in the structure of `extensions` or `update_sites_extensions` table in database make changes in install.php for languages
+8. Languages need to be updated for 3.5.1
+
+					<option value="el-GR">Greek</option>
+					<option value="fr-FR">French</option>
+					<option value="he-IL">Hebrew</option> (3.1.1v1)
+					<option value="ko-KR">Korean</option>
+					<option value="zh-CN">Chinese</option>
+
+9. If you get error while upgrading for deleting some files, then check "administrator/components/com_admin/script.php" file for list of files to be deleted and add them in upgrade.php. Check the complete list from the above file instead of just adding the files of current version.

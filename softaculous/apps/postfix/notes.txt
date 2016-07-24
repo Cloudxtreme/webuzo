@@ -1,0 +1,1 @@
+1. set $CONF['configured'] = true; in config.inc.php file in manual installation

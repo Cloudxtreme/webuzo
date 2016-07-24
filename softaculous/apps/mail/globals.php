@@ -1,0 +1,35 @@
+<?php 
+$main_dir = "maillist/";
+$website = "[[softurl]]//";
+$relative_string="index.php?page=mail&";
+$absolute_path="[[softpath]]/maillist/";
+$lang="lang_english.php";
+$email_name="[[site_name]]";
+$email_email="[[admin_email]]";
+$email_thank_title="Thank you for registration";
+$email_thank_message="Thank you for registration at [[site_name]] for the NEWSletter for updates and announcements.";
+$email_unsubscribe_message="<br><br>To unsubscribe click on this {ulink}link{/ulink} !";
+$email_verify_message="<br><br>Please click on this link to verify your email {slink}subscription{/slink} !";
+$email_unsubscribe="yes";
+$email_thank="no";
+$email_verify="no";
+$email_images="yes";
+$user="[[admin_username]]";
+$pass="[[admin_pass]]";
+$database="mysql";
+$dbhostname="[[softdbhost]]";
+$dbusername="[[softdbuser]]";
+$dbpassword="[[softdbpass]]";
+$dbname="[[softdb]]";
+$dbtable="";
+$userfield="";
+$emailfield="";
+$mserver="php";
+$sendmail_string="";
+$smtp_string="";
+$smtp_auth="no";
+$smtp_username="";
+$smtp_password="";
+$charsettype="iso8859-1";
+$priorityemail="3";
+?>

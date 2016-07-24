@@ -1,0 +1,48 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Hablator
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Hablator
+	</ratings>
+	<space>
+		993008
+	</space>
+	<support>
+		http://bernsteinforpresident.com/software/the-hablator
+	</support>
+	<version>
+		0.5.2
+	</version>
+	<mod>3</mod>
+	<mod_files>3</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Hablator</font> is an advanced GPL'ed chat script written in PHP and Javascript.
+		<br /><br />
+		It offers all of the features you could want in a chat script, while maintaining low server requirements, low client requirements, exceptional speed, and simple installation. 
+		<br /><br />
+		Hablator is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Translate chat text to communicate with those who speak other languages.</li>
+<li>See when others start and stop typing a message</li>
+<li>Upload files easily during discussions</li>
+<li>Allow multiple discussion "topics" to let users discuss different things at the same time, and not need to install multiple chat rooms and/or prefix each message with the discussion topic.  This allows users to engage in one or more topics, and follow others they are interested in</li>
+<li>Choose whether to use a FlatFile backend, a MySQL backend, or a SQLite backend</li>
+<li>Talk to people who don't have Javascript support, or to people with text-only browsers, with compatibility mode</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,1 @@
+1. We have disbled this script for windos because Login does not work on Windows even in Manual installation.

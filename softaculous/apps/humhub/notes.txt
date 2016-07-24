@@ -1,0 +1,2 @@
+1) Choose : I want to use HumHub for: "Skip this step, I want to set up everything manually"
+2) Install with sample data i.e TICK Set up example content (recommended)

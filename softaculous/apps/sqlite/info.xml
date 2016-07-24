@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/SQLqliteManager
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/dbtools/SQLqliteManager
+	</ratings>
+	<space>
+		2389896 
+	</space>
+	<support>
+		http://www.sqlitemanager.org/
+	</support>
+	<version>
+		1.2.4
+	</version>
+	<mod>2</mod>
+	<mod_files>2</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">SQLiteManager</font> is a database manager for SQLite databases. You can manage any SQLite database created on any platform with SQLiteManager. 
+		<br /><br />
+		SQLiteManager is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU/GPL</a> terms.
+		</english-overview>		
+		<english-features>
+		<ul>
+			The features are as follows:
+				
+			<li>	 Management of several databases (Creation, access or upload)</li>
+			<li>	 Management of the attached databases</li>
+			<li>	 Create, edit and delete tables and indexes.</li>
+			<li>	 IInsert, edit, delete records in these tables </li>
+			<li>	 Management of the View, possibilities of creating a view from a SELECT </li>
+			<li>	 Management of Trigger </li>
+			<li>	 Management of the users defined functions, these functions are in continuation usable in the requests manual, as in the form of insertion/modification of data</li>
+			<li> Manual request and from file, it is possible of defined the format of the requests, sqlite or MySQL; a conversion is doing in order to directly import a MySQL base in SQLite. </li>
+			<li>	 Importing of records from a formatted text file</li>
+			<li>	 Export of the structure and the data</li>
+			<li>	 Choice of several display skin</li>
+		</ul>
+		</english-features>
+	</languages>
+</soft>

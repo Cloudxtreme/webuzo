@@ -1,0 +1,70 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/libraries/XSLT
+	</ratings>
+	<space>
+		512
+	</space>
+	<support>
+		http://xmlsoft.org/XSLT/
+	</support>
+	<version>
+		1.1.27
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date></release_date>
+	
+	<requires>openssl</requires>	
+	<requires>libxml</requires>
+	
+	<extract file="xslt-$arch.tar.gz">$appsdir</extract>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">XSLT Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/xslt/lib</td>
+			</tr>
+			<tr>
+				<td>Lib</td>
+				<td>/usr/local/apps/xslt/lib/libexslt.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">XSLT</font> (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other XML documents,[1] or other objects such as HTML for web pages, plain text.  
+		<br /><br />		
+		</english-overview>
+		<english-features>
+			The original document is not changed; rather, a new document is created based on the content of an existing one.[3]
+			
+			XSLT is a Turing-complete language, meaning it can perform any calculation that can be performed by a modern computer program.
+<br /><br />
+		</english-features>
+	</languages>
+</soft>

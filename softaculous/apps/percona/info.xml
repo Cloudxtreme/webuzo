@@ -1,0 +1,114 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/databases/Percona
+	</ratings>
+	<space>
+		308801536
+	</space>
+	<support>
+		http://www.percona.com/
+	</support>
+	<version>
+		5.5.39-36.0
+	</version>
+	<mod>8</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<release_date>29-08-2014</release_date>
+	
+	<requires>zlib</requires>
+	<requires>ncurses</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/percona</path>
+	<path name="daemon">/usr/local/apps/percona/bin/mysqld</path>
+	<path name="client">/usr/local/apps/percona/bin/mysql</path>
+	<path name="conf_dir">/usr/local/apps/percona/etc</path>
+	<path name="cnf">/usr/local/apps/percona/etc/my.cnf</path>
+	
+	<initd name="percona">/usr/local/apps/percona/bin/perconactl</initd>
+	
+	<extract file="percona-$arch.tar.gz">$appsdir</extract>
+	<extract file="phpmyadmin.zip">$webuzowww/phpmyadmin</extract>
+	
+	<symlink target="/usr/bin/mysql">/usr/local/apps/percona/bin/mysql</symlink>
+	<symlink target="/usr/bin/mysqladmin">/usr/local/apps/percona/bin/mysqladmin</symlink>
+	<symlink target="/usr/bin/mysqld_safe">/usr/local/apps/percona/bin/mysqld_safe</symlink>
+	<symlink target="/usr/bin/mysql_install_db">/usr/local/apps/percona/bin/mysql_install_db</symlink>
+	
+	<is_default>16_1</is_default>
+	<is_default>82_1</is_default>
+	<is_default>128_1</is_default>
+	
+	<remove>/usr/local/apps/percona</remove>
+	<remove>$webuzowww/phpmyadmin</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Percona Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Server Binary</td>
+				<td>/usr/local/apps/percona/bin/mysqld</td>
+			</tr>
+			<tr>
+				<td>Client Binary</td>
+				<td>/usr/local/apps/percona/bin/mysql</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/percona/etc/my.ini</td>
+			</tr>
+			<tr>
+				<td>Library</td>
+				<td>/usr/local/apps/percona/lib</td>
+			</tr>
+			<tr>
+				<td>libmysqlclient.so</td>
+				<td>/usr/local/apps/percona/lib/libmysqlclient.so</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Percona</font> is free open source solution, Percona Server is a MySQL alternative which offers breakthrough performance, scalability, features, and instrumentation. Self-tuning algorithms and support for extremely high-performance hardware make it the clear choice for organizations that demand excellent performance and reliability from their MySQL database server.
+ 
+		<br /><br />
+		Percona is distributed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GPL license</a>
+		</english-overview>
+		<english-features>
+			<ul>
+				<li>Queries will run faster and more consistently</li>
+				<li>You can consolidate servers on powerful hardware</li>
+				<li>Sharding is delayed or avoided entirely</li>
+				<li>You can save money on hosting fees and power</li>
+				<li>You can spend less time tuning and administering</li>
+				<li>You can achieve higher uptime</li>
+				<li>Troubleshooting does not require guesswork</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

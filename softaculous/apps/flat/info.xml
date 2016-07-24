@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/FlatPress
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/FlatPress
+	</ratings>
+	<space>
+		1764104
+	</space>
+	<support>
+		http://flatpress.org/vanilla2
+	</support>
+	<version>
+		1.0.3
+	</version>
+	<mod>2</mod>
+	<release_date>12-06-2015</release_date>
+	<admin>login.php</admin>
+	<verify_dom>1</verify_dom>
+	<softversion>
+		4.5.5
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">FlatPress</font> is a blogging engine that saves your posts as simple text files. Forget about SQL! You just need some PHP.<br /><br />
+		FlatPress is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GPLv2 License</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Standard-compliant (XHTML valid)</li>
+<li>No need to fiddle with SQL</li>
+<li>Easy to backup! Just copy one directory</li>
+<li>Easy plugin system</li>
+<li>Widget support</li>
+<li>Easy to customize with themes (powered by <a href="http://www.smarty.net">Smarty</a>)</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

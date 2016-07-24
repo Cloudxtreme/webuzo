@@ -1,0 +1,226 @@
+AmpJuke Changelog.
+Also available on http://www.ampjuke.org
+Report bugs/errors/suggestions at http://www.ampjuke.org/smforum 
+and/or to michael/AT/ampjuke/DOT/org
+
+--------------------------------------------------------------------------------
+
+Version 0.8.8: Released: 14-08-2014
+
+- Fixed a couple of issues that - under certain circumstances - could
+disrupt the installation process.
+
+- New option to limit total number of outstanding/queued tracks for 
+ALL users (applies only to "jukebox mode"). 
+So far, this was a setting related to each user. It still exists.
+
+- Added additional/new fingerprint parameters from The Echonest.
+Seems like these have been around for some time...
+..."thanks" for keeping us updated, Echonest!
+The new parameters introduced are: liveness, speechiness, acousticness
+and valence.
+
+- Add new music found during scan+import to a specific favorite list.
+This option will - if checked (and it is by default) - add all new
+music found during scan+import to a specific favorite list.
+An additional option makes it possible to add the new music
+to a favorite list covering all users.
+
+- Last.fm apparently made a decision to change the way performer/artist
+images are retrieved using the last.fm API.
+I've changed the code on "my side" of the API accordingly.
+
+- GetID3() latest/newest version.
+
+--------------------------------------------------------------------------------
+
+Version 0.8.7: Released: September 30th, 2013.
+
+- "Keep open" on pop-up.
+...used when selecting a favorite list to add something to.
+It's possible to add to several favorite lists in one "go".
+
+- Update: Echonest API.
+Identification of tracks is now being done using a "2 step" method:
+First, the track is uploaded, then identified. Until recently it was enough
+to upload the track, and the track's "fingerprint" would be returned almost
+immediately.
+I missed that (missing) memo, Echonest!!
+
+- New feature: You might also like...
+When a user clicks on "Add to favorite...", a window pops up prompting for
+the name of the list to add the track to.
+If access to the Echonest API is enabled, some suggestions for similar 
+tracks will appear below the prompt.
+See screenshot.
+
+- Advanced search: New or old method.
+Using advanced search can now be done using parameters (limits) retrieved
+and stored from the Echonest API.
+For example, an advanced search could be done using "danceability">0.7 and
+"tempo">140. The possibilities are quite overwhelming...
+This - of course - requires access to the Echoest API as well as proper
+"fingerprinting" (identification) of a majority of the tracks in your
+collection. 
+It's still possible to use the old advanced search functionality.
+
+- Last.fm API-key inconsistency.
+Embarassing, but true: I've been using TWO API-keys from Last.fm.
+One of them was for testing purposes, and has now expired.
+I've made sure that from now on, only ONE key is used against the
+last.fm API: The right one! Sorry for the inconvenience.
+
+- ...plus: Better "look&feel".
+For example: Tooltips are now much better compared to earlier.
+For example, do a "mouseover" on an album and see for yourself :)
+
+- Bonus: A *LOT* of small improvements here&there.
+
+--------------------------------------------------------------------------------
+
+Version 0.8.6: Released: August 7th, 2012.
+
+- Related tracks: Echonest.
+One year ago I stumbled across an extremely interesting API.
+It basically gives you the option to "identify" each and every 
+track within your music library. The identification is based on the
+API available from Echonest (http://the.echonest.com). I have coded against
+the API in order to use this exciting feature in AmpJuke.
+So - start "identifying" your music in AmpJuke, - I will (almost) guarantee
+this: It will take the listening experience to a whole new level!
+More info. the FAQ: http://www.ampjuke.org/?id=faq87.
+
+- Jukebox mode.
+Until this release, AmpJuke have been operating like a personal streaming
+service for all registered users (and even anonymous users, if you wish that).
+In other words: Each user completely controlled what's being played during
+his/her listening session.
+With the introduction of the jukebox mode in AmpJuke, listening to music 
+can now be done in a manner similar to what is experienced with a 
+jukebox (or radio station): ALL users listens to the same music.
+If this sounds interesting, start here: http://www.ampjuke.org/?id=faq93
+
+- Screensaver (sort of).
+A simple "screensaver" is introduced in this release of AmpJuke.
+There's a small background-story about why I did this.
+Read more about it here: http://www.ampjuke.org/?id=faq98
+
+- Alternative scan+music management.
+By Marc Apgar - THANKS!
+You will find this new feature/tool in the admin panel on the left side
+on the "Welcome" page.
+The tool is included "as is" as I haven't really had the time to look
+close into it. Marc mentioned something about additional documentation
+in an email. Should he decide to do that, I'll post it on the
+webiste.
+
+- Bye bye Bing!
+Recently, Microsoft decided to (almost) pull the plug on free usage
+of the API in relation to Bing!
+Free access to search results are now almost non-existing, to stay
+free API-calls should be kept below 5000. PER MONTH!! 
+Unless - of course - you want to pay...
+...guess M$ is of the impression that that's a great offer.
+I don't think so. 
+To do bulk and individual retrievel of album and performer images, a switch
+has been made to Google. We all know that M$ has been suspected for 
+"borrowing" some of Google's results in the past...
+
+- A lot of small improvements here&there. Really.
+I won't outline all of them here.
+If you're curious, just do a "grep 0.8.6 *.php" within the folder
+where AmpJuke is installed (assuming you run it on Unix/Linux).
+
+--------------------------------------------------------------------------------
+
+Version 0.8.5: Released: July 31st, 2011.
+
+- New feature: Edit tags on files.
+It is possible to enable editing right away when an error/warning is
+encoutered after scan+import has completed.
+Besides editing tags right after scan+import, it's also possible to do it
+later on
+More in the FAQ: http://www.ampjuke.org/?id=faq35
+
+- Information: AmpJuke uses GetID3 version 1.9 (http://www.getid3.org).
+It's the newest.
+
+- Introduced: jQuery. 
+AmpJuke have started to make use of the wildly popular jQuery framework. 
+See for yourself :)
+More in the FAQ: http://www.ampjuke.org/?id=faq86
+
+- Random play improved: Added two extra options when setting up random
+play: The first makes it possible to limit the total duration of tracks
+selected for being played. The other deals with avoiding seletion 
+of tracks played within a specific amount of days.
+More in the FAQ.
+
+- Improvement: When playing tracks by random after the last track
+selected by the user has been played, AmpJuke attempts to avoid
+a "circular trap".
+More in the FAQ: http://www.ampjuke.org/?id=faq30
+
+- Italian language updated.
+By Pietro "Maerlin" Baiguini. THANKS. 
+It's highly appreciated.
+
+- Danish language updated.
+By some strange fellow named Michael H. Iversen... :)
+
+
+--------------------------------------------------------------------------------
+
+Version 0.8.4: Released: December 18th, 2010.
+
+- New feature: Self registration.
+It's been on the to-do list for quite a while.
+From now on, it is possible to enable self-registration of users within
+AmpJuke. Cool...
+
+- New personal setting: Hide text next to icons.
+Save some screen real estate.
+Hiding the text after the icons scattered around the various options is now
+possible. It's a personal setting.
+The text in the main menu to the left will still be visible.
+
+- New feature: IE9 jumplists.
+Frankly, I'm quite impressed with the Windows 7 / Internet Explorer 9 combo.
+So if you're lucky enough to get your hands on a PC with Win 7 and IE9, you
+might as well take advantage of the jumplists in AmpJuke.
+In other words: AmpJuke uses a jumplist-launcher when a user is 
+running Win7 with IE9.
+Pure eyecandy that might impress your friends and family :-)
+
+- German translation updated.
+Thanks to Benjamin Preuß (r2k) for supplying this in the forum.
+
+- Improvement: If an album cover isn't downloaded+stored correctly then
+the cover will be hard (impossible) to see later.
+From now on, the routine that auto-downloads covers will check if the
+size of the image is above a "certain size" (10 bytes).
+If not, the default/blank AmpJuke cover will be used instead.
+Thanks to Ben for suggesting this in the forum.
+
+- Error correction: Clicking on "Play all..." when displaying a specific
+favorite list didn't have any effect (ie. the music wasn't streaming).
+That is no longer the case.
+
+- Modified: The function split() has been deprecated since PHP version 5.3.0.
+I've changed the code where split() is used and is now using explode() instead.
+THANKS to all of you 'out there' who notified about it in the forum.
+
+- Cleaned: Some themes was "broken" (not rendered as expected in the browser).
+Although this is "just" an improvement, it required some work *everywhere*.
+Anyway, "broken" layouts should be history now (I hope...).
+
+- Fixed: When replacing a picture of an artist (performer) and/or replacing an
+image for an album using an URL, nothing happened.
+This is no longer the case. 
+
+- Adjusted: Changed the order of items in the XSPF-playlists generated by
+AmpJuke. I'm not usre why, but suddenly the flash player within AmpJuke
+started to act strange. I've changed the way XSPF-playlists are generated
+so the XSPF-playlists in AmpJuke is according to the standard.
+
+- Cleaned up in some of the code.

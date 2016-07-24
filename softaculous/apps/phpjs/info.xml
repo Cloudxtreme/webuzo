@@ -1,0 +1,42 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/php.JS
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/php.JS
+	</ratings>
+	<space>
+		129990
+	</space>
+	<support>
+		http://phpjs.org/
+	</support>
+	<version>
+		3.26
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">php.JS</font> helps to use PHP functions in JavaScript. <br /><br />
+		php.js is an open source project that brings high-level PHP functions to low-level JavaScript platforms such as web browsers, browser extensions (Mozilla/Firefox, Chrome), AIR, and SSJS engines like V8 (node.js, v8cgi), Rhino, and SpiderMonkey (CouchDB) 
+		<br /><br />
+		php.JS is licensed under the <a href="http://phpjs.org/pages/license">MIT License or GNU General Public License Version 2</a>.
+		</english-overview>		
+		<english-features>
+<ul><font size="3"><b>php.JS Featured Functions</b></font><br /><br />
+<li><b>date() : </b>Date-formatting, just like you know it from PHP.</li>
+<li><b>base64_decode() : </b>Safe &amp; easy data transport, decode messages in JavaScript that were encoded by PHP.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

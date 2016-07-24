@@ -1,0 +1,78 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/web_servers/Nodejs
+	</ratings>
+	<space>
+		30389529
+	</space>
+	<support>
+		http://nodejs.org/
+	</support>
+	<version>
+		v0.12.9
+	</version>
+	<mod>9</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>03-12-2015</release_date>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/nodejs</path>
+	<path name="bin">/usr/local/apps/nodejs/bin/node</path>	
+	
+	<extract file="nodejs-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/bin/nodejs">/usr/local/apps/nodejs/bin/nodejs</symlink>
+	<symlink target="/usr/bin/node">/usr/local/apps/nodejs/bin/node</symlink>
+	<symlink target="/usr/bin/npm">/usr/local/apps/nodejs/bin/npm</symlink>
+	
+	<remove>/usr/local/apps/nodejs</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Node.js Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/nodejs</td>
+			</tr>
+			<tr>
+				<td>Bin Path</td>
+				<td>/usr/local/apps/nodejs/bin/node</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#763e7a">Node.js</font> is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. 
+<br /><br />
+		<br /><br />
+		Node.js is distributed under the <a href="https://raw.github.com/joyent/node/v0.10.13/LICENSE" target="_blank">MIT License</a>
+		</english-overview>
+		<english-features>
+			<p>Node's goal is to provide an easy way to build scalable network programs</p>
+			<p>Node.js contains a built-in HTTP server library, making it possible to run a web server without the use of external software, such as Apache or Lighttpd, and allowing more control of how the web server works. Node.js enables web developers to create an entire web application in JavaScript, both server-side and client-side.</p>
+		</english-features>
+	</languages>
+</soft>

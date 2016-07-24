@@ -1,0 +1,45 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Privacy_Policy_Generator
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/Privacy_Policy_Generator
+	</ratings>
+	<space>
+		7396
+	</space>
+	<support>
+		http://termsfeed.com/help/
+	</support>
+	<version>
+		2.0
+	</version>
+	<mod>2</mod>
+	<release_date>08-08-2014</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Privacy Policy Generator</font> is a free generator that lets you generate a privacy policy agreement for your site in minutes. Once installed you can quickly generate the agreement to include for your privacy policy page.
+		<br /><br />Privacy policies are mandatory by law if you collect personal data from users. TermsFeed makes it easy to generate your privacy policy and stay up to date with the latest changes.
+		<br /><br />
+		Privacy Policy Generator is released under the <a href="http://termsfeed.com/legal/license" target="_blank">Creative Commons Attribution-ShareAlike 3.0</a>.
+		</english-overview>
+		<english-features>
+<ul>
+<li>Generate a Privacy Policy for your site in minutes</li>
+<li>Always get the latest agreement version using this script</li>
+<li>Free notifications on future updates of the agreements</li>
+<li>Agreements also includes the necessary HTML tags</li>
+<li>BONUS: Generate a Terms and Conditions agreement too!</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

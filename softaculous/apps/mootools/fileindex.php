@@ -1,0 +1,2 @@
+mootools.js
+index.php

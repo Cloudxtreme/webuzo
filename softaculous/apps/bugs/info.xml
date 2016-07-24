@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Bugs
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Bugs
+	</ratings>
+	<space>
+		5096381
+	</space>
+	<support>
+		http://pixeline.github.io/bugs/
+	</support>
+	<version>
+		1.5
+	</version>
+	<mod>1</mod>
+	<release_date>13-07-2015</release_date>
+	<admin>index.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="mcrypt" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Bugs </font>is Simple Issue Tracking for Teams
+		<br /><br />
+		Bugs is released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT LICENSE</a>.
+		</english-overview>		
+	<english-features>
+<ul>
+	<li><b>Simple</b>: as few features as possible</li>
+	<li><b>flexible</b>: Bugs doesn't decide whether you should think in term of priorities, types of issues, milestones, etc... Instead, Bugs uses a Tags system that you can set up to match your own way of dealing with stuff.</li>
+	<li><b>open source</b>: was, is, and always will be.</li>
+	<li><b>Multilingual</b>: so your clients can feel at home with it.</li>
+	<li><b>Handy</b>: issues can be written in Markdown, commented so you keep the discussion organized, and have print-screens.</li>
+	<li><b>Reliable</b>: you get a warning email whenever someone comments, closes or assigns you a bug ticket (unless you did it to yourself, you sick mind).</li>
+	<li>Default Assignee per project</li>
+	<li>Several roles &amp; privileges: 
+	<ul>
+		<li>User: can only read the issues in the projects they are assigned to</li>
+		<li>Developer: can update issues in the projects they are assigned to</li>
+		<li>Manager: can update issues in all projects, even if they aren't assigned</li>
+		<li>Administrator: can update all issues in all projects, create users and view administration</li>
+	</ul>
+	</li>
+</ul>
+		</english-features>
+		<english-email_name>E-Mail From Name</english-email_name>
+	</languages>
+</soft>

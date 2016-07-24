@@ -1,0 +1,53 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/phpFormGenerator
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/others/phpFormGenerator
+	</ratings>
+	<space>
+		135440
+	</space>
+	<support>
+		http://phpformgen.sourceforge.net
+	</support>
+	<version>
+		2.09
+	</version>
+	<mod>3</mod>
+	<mod_files>4</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">phpFormGenerator</font> is a an easy, online tool for creating reliable, efficient, and aesthetically pleasing web forms in a snap. No programming of any sort is required: phpFormGenerator generates the HTML code, the form processor code (PHP), and the field validation code automatically via an easy, point-and-click interface.
+		<br /><br />
+		phpFormGenerator provides several delivery formats. You can choose to have your form results delivered via email, sent to a MySQL database, and written to a data file (which you can then open in Excel and other programs). 
+		<br /><br />
+		
+		</english-overview>		
+		<english-features>
+	<ul>
+	<li>Simple, intuitive, point-and-click interface</li>
+	<li>Forms can have multiple pages</li>
+	<li>Add and remove fields dynamically - without switching pages</li>
+	<li>Customize look and feel of your form</li>
+	<li>Add pre-populated fields: country, state (U.S.)</li>
+
+	<li>Add non-invasive tooltips to help your users</li>
+	<li>Add and remove fields dynamically - on the same page</li>
+	<li>New fields with live validation: date (with pop-up calendar), email</li>
+	<li>Add pre-populated fields: country, state (U.S.)</li>
+	
+</ul>
+		</english-features>
+		<english-err_php53_com> is not compatible with PHP version 5.3+</english-err_php53_com>
+	</languages>
+</soft>

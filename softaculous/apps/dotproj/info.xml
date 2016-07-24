@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.jpg" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/dotProject
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/dotProject
+	</ratings>
+	<space>
+		12528309
+	</space>
+	<support>
+		http://www.dotproject.net
+	</support>
+	<version>
+		2.1.8
+	</version>
+	<mod>13</mod>
+	<mod_files>3</mod_files>
+	<release_date>27-07-2013</release_date>
+	<admin>index.php?m=system</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="extension" name="gd" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">dotProject</font> is a web-based project management application, designed to provide project layout and control functions.<br /><br />
+
+To understand dotProject, you need to understand what project management is all about. Project Management is about the structuring of a series of tasks and the schedule associated with those tasks, to achieve an outcome. The nature of those tasks and the schedules and any associated functions (such as project planning, contract negotiation, risk management, cost management and so on) will depend greatly on the nature of the projects that you can management.<br /><br />
+
+dotProject aims to provide the project manager with a tool to manage tasks, schedules, communication and sharing. 
+		<br /><br />
+		dotProject is released under the <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU/GPL</a> terms as of version 2.0.
+		</english-overview>		
+		<english-features>
+		<ul>
+<li>User Management </li>
+<li>Email based trouble Ticket System, (Integrated voxel.net's ticketsmith) 
+</li><li>Client/Company Management 
+</li><li>Project listings 
+</li><li>Hierarchical Task List 
+
+</li><li>File Repository 
+</li><li>Contact List 
+</li><li>Calendar 
+</li><li>Discussion Forum 
+</li><li>Resource Based Permissions </li>
+</ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_username>Please provide the username to reset the password</english-err_no_username>
+		<english-err_no_such_user>The Admin username is incorrect and does not exist!</english-err_no_such_user>
+	</languages>
+</soft>

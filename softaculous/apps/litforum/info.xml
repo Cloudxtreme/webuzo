@@ -1,0 +1,51 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/mylittleforum
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/forums/mylittleforum
+	</ratings>
+	<space>
+		3564318
+	</space>
+	<support>
+		http://mylittleforum.net/forum/
+	</support>
+	<version>
+	   2.3.4
+	</version>
+	<mod>1</mod>
+	<mod_files>1</mod_files>
+	<release_date>08-02-2015</release_date>
+	<admin>index.php?mode=login</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.0.0" />
+ 	<languages>
+	 <english-overview>
+	 <font size="5" color="#0017aa">my little forum</font> is a simple PHP and MySQL based internet forum that displays the messages in classical threaded view (tree structure).<br />	
+     my little forum is Open Source licensed under the <a href="http://mylittleforum.net/about" target="_blank">GNU General Public License</a>.
+	 </english-overview>		
+	 <english-features>
+		<ul>
+			<li>Usenet like threaded tree structure of the messages.</li><br />
+			<li>Different views of the threads possible (classical, table, folded).</li><br />
+			<li>Categories and tags.</li><br />
+			<li>BB codes and smilies.</li><br />
+			<li>Image upload.</li><br />
+			<li>Avatars.</li><br />
+			<li>RSS Feeds.</li><br />
+			<li>Template engine(Smarty).</li><br />
+			<li>Different methods of spam protection.</li><br />
+			<li>Localization: language files, time zone and UTF-8 support.<br /></li><br />
+		</ul>
+	 </english-features>
+	 </languages>
+</soft>

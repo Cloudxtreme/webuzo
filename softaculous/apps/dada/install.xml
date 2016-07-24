@@ -1,0 +1,50 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="site_name" size="30" value="My Mailing List">
+				<head>{{site_name}}</head>
+			</input>
+			<input type="text" name="mail_desc" size="30" value="My Mailing List Description">
+				<head>{{mail_desc}}</head>
+			</input>
+			<input type="text" name="site_desc" size="30" value="List name">
+				<head>{{site_desc}}</head>
+			</input>
+				<input type="textarea">
+				<textarea name="policy_desc" cols="30" rows="5">Our Privacy Policy</textarea>
+				<head>{{policy_desc}}</head>
+			</input>
+			<input type="text" name="physical_desc" size="30" value="Physical Address">
+				<head>{{physical_desc}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="password">
+				<head>{{ad_pass}}</head>
+				<handle>__ad_pass</handle>
+			</input>
+			<input type="text" name="list_pass" size="30" value="pass">
+				<head>{{list_pass}}</head>
+				<handle>__list_pass</handle>
+			</input>
+		</group>
+	</settings>
+	<db>mysql</db>
+	<www>DadaMail</www>
+	<datadir>dadamaildata</datadir>	
+	<files>
+		<exclude>installer-disabled/*</exclude>
+		<exclude>installer-disabled/*/*</exclude>
+		<exclude>installer-disabled/*/*/*</exclude>
+		<exclude>installer-disabled/*/*/*/*</exclude>
+		<exclude>installer-disabled/*/*/*/*/*</exclude>
+		<exclude>installer-disabled/*/*/*/*/*/*</exclude>
+		<exclude>installer-disabled/*/*/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

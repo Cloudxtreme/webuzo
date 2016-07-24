@@ -1,0 +1,97 @@
+ImpressCMS ChangeLog
+====================
+
+ImpressCMS 1.3.9
+-------------------------------
+Date: 2 March 2016
+DB Version: 43
+Build Version: 80
+
+##Improved:
+809 : Move minimal PHP version to PHP 5.5
+884 : PHP 5.4 Strict errors
+751 : Migrating to Universal Google Analytics
+868 : Duplicate entry in HTMLValidator class
+
+##Fixed:
+898 : Database patch message for Formulise module always remains
+889 : Missing definition for for Non-PDO users
+881 : Check all button in Group administration does not work consistently
+
+##Update:
+877 : Update HTMLPurifier to v4.7.0
+807 : Upgrade PHPMailer
+
+ImpressCMS 1.3.7
+-------------------------------
+Date: 18 June 2014
+Revision: 
+DB Version: 43
+Build Version: 73
+
+Security Fix:
+#804: Cross site scripting (XSS) - system image manager CVE-2014-4036 (not on cve.mitre.org?)
+
+ImpressCMS 1.3.6
+-------------------------------
+Date: 30 Jan 2014
+Revision: 12407
+DB Version: 43
+Build Version: 71
+
+Fixed:
+#759 - Error during Installation on PHP 5.5 (opcache enabled) (Steve Kenow)
+#760 - Fatal error in autotasks when filepath could contain escape sequence (Julian Egelstaff)
+
+Security Fix:
+#761 - Deletion of arbitrary files in the system - image editor (Pedro Ribeiro pedrib@gmail.com)
+#762 - Cross site scripting (XSS) - misc.php (Pedro Ribeiro pedrib@gmail.com)
+#763 - Cross site scripting (XSS) - tplsets (Pedro Ribeiro pedrib@gmail.com)
+
+Improved
+
+Added:
+#96, #643, #755 Complete support for PDO as the database connection (Steve Kenow)
+
+
+** Complete list of tickets addressed in the 1.3.6 Milestone - https://www.assembla.com/spaces/impresscms/milestones/4129593-impresscms-1-3-6
+
+ImpressCMS 1.3.5 Final, Patch 1
+-------------------------------
+Date: 5 Nov 2013
+Revision: 12366
+
+749 Update Smarty to 2.6.28 and move email protection out of Smarty
+
+
+ImpressCMS 1.3.5 Final, Patch 1
+-------------------------------
+Date: 5 Nov 2013
+Revision: 12366
+
+749 Update Smarty to 2.6.28 and move email protection out of Smarty
+
+
+ImpressCMS 1.3.5 Final
+-------------------
+Creation Date: 21 Sept 2013
+Revision: 12340
+DB Version: 43
+Build Version: 70
+
+###Changes:###
+720	Security issue in Smarty 2.6.26 fix (Steve Kenow)
+740 Corrected some more Xoops project copyright banners
+741 Updated the language downloads links in the installer
+
+###Bugfixes:###
+    Correcting a misspelled word in the installation_notify code
+    
+** Complete list of tickets addressed in the 1.3.5 Milestone - https://impresscmsdev.assembla.com/spaces/dW4voyNP0r4ldbeJe5cbLr/tickets?report[estimate_show]=true&report[id]=0&report[milestone_id_cond]=0&report[milestone_id_val][]=2260293&report[title]=ImpressCMS+1.3.5+Tickets
+
+    
+=== ImpressCMS 1.3.4 Final ===
+Release Date: Dec 1, 2012
+Revision: 12123
+DB Version: 43
+Build Version: 67

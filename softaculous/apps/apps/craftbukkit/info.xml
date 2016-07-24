@@ -1,0 +1,80 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.softaculous.com/sysapps/utilities/CraftBukkit
+	</ratings>
+	<space>
+		14948
+	</space>
+	<support>
+		http://bukkit.com/
+	</support>
+	<version>
+		1.6.4
+	</version>
+	<mod>1</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>30-10-2013</release_date>
+	
+	<requires>java</requires>
+	
+	<path name="base">/usr/local/apps/craftbukkit</path>
+	<path name="startup">/usr/local/apps/craftbukkit/craftbukkit.sh</path>
+	<path name="jar">/usr/local/apps/craftbukkit/craftbukkit.jar</path>
+	
+	<extract file="craftbukkit-$arch.tar.gz">$appsdir</extract>
+		
+	<remove>/usr/local/apps/craftbukkit</remove>
+		
+	<notes>
+		<center><font size="5" color="#182e7a">CraftBukkit Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Jar File</td>
+				<td>/usr/local/apps/craftbukkit/craftbukkit.jar</td>
+			</tr>
+			<tr>
+				<td>StartUp Script</td>
+				<td>/usr/local/apps/craftbukkit/craftbukkit.sh</td>
+			</tr>
+			<tr>
+				<td>Execution</td>
+				<td>cd /usr/local/apps/craftbukkit/; ./craftbukkit.sh</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Bukkit</font> is a free, open-source, software project that provides the means to extend the popular Minecraft multiplayer server. Bukkit is an up-and-coming Minecraft Server mod that will completely change how running and modifying a Minecraft server is done - making managing and creating servers easier and providing more flexibility.
+		<br /><br />
+		Bukkit is distributed under the <a href="http://directory.fsf.org/wiki/License:CDDLv1.0" target="_blank">GNU General Public License v2</a>
+		</english-overview>
+		<english-features>
+			<font size="2" color="#1281B6"><b>Your server, your way</b></font><br />
+			Bukkit will provide you with the tools necessary to completely shape your server exactly how you like and makes it easy to maintain it through the use of a built in plugin install, uninstall and updating system.<br /><br />
+			<font size="2" color="#1281B6"><b>Ease of use</b></font><br />
+			The days of guessing what a command or feature does are over. <br /><br />
+		</english-features>
+	</languages>
+</soft>

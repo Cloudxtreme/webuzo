@@ -1,0 +1,10 @@
+1. Make script where Database ENGINE is InnoDB
+2. TCP/IP based connection for manual installation (Database details)
+3. check Do nothing, just get me to the Backend.
+4. check and move uploads and inside files/folders from manual to zip
+5. check and move fileadmin and inside files/folders from manual to zip
+6. check and move typo3conf and inside files/folders from manual to zip except (LocalConfiguration.php)
+7. We just copy the index.html to typo3temp/ as it was not created automatically.
+8. We have disabled upgrade on windows from 7.6.0 becuase typo3conf/LocalConfiguration.php the 'loginSecurityLevel' gets changed to rsa instead of normal by the upgrade utility of typo3 itself.
+9. Compulsory backup option has been added for upgrading from 6.2.17 due to non-determination of extensions over cagefs.
+10. Cross upgrade from 6.2.19 - 7.6.4 is disabled at the time of release of the same. If there is upgrade in typo 6 branch then change min_require to <min_require>6.2</min_require> in info.xml and check cross upgrade.

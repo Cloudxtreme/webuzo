@@ -1,0 +1,58 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Ampache
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/music/Ampache
+	</ratings>
+	<space>
+		91430179
+	</space>
+	<support>
+		http://ampache.org/
+	</support>
+	<version>
+		3.8.2
+	</version>
+	<mod>3</mod>
+	<release_date>04-02-2016</release_date>
+	<admin>login.php</admin>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.4.0" />
+	<requirement check="mysql" type="version" operator="ge" value="5.0.0" />
+	<requirement check="php" type="extension" name="hash" />
+	<requirement check="php" type="extension" name="pdo" />
+	<requirement check="php" type="extension" name="pdo_mysql" />
+	<requirement check="php" type="extension" name="session" />
+	<requirement check="php" type="extension" name="iconv" />
+	<requirement check="php" type="extension" name="json" />
+	<requirement check="php" type="extension" name="curl" />
+	<requirement check="php" type="extension" name="zlib" />
+	<requirement check="php" type="extension" name="xml" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Ampache</font> is a web based audio/video streaming application and file manager allowing you to access your music &amp; videos from anywhere, using almost any internet enabled device.<br/>
+Ampache's usefulness is heavily dependent on being able to extract correct metadata from embedded tags in your files and/or the filename. Ampache is not a media organiser; it is meant to be a tool which presents an already organised collection in a useful way. It assumes that you know best how to manage your files and are capable of choosing a suitable method for doing so.
+		<br /><br />
+		Ampache is released under the <a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">GNU GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+<font size="2" color="#EF921B"><b>Music collection</b></font><br/>
+Browse and manage your music collection through a simple web interface. Synchronize local and remote catalogs to an unique consistent collection.<br/>
+<font size="2" color="#EF921B"><b>Music streaming</b></font><br/>
+Stream your music to your preferred player, control it with Localplay or directly listen on the web page with HTML5 player.<br/>
+<font size="2" color="#EF921B"><b>Open source</b></font><br/>
+Completely Free and Open Source since 2001, GPLv2 license.<br/>
+<font size="2" color="#EF921B"><b>Ampache everywhere</b></font><br/>
+Listen to your music from your phone, tablet or television. At home, at work or in vacation: get Ampache everywhere using a compatible client!
+		</english-features>
+	</languages>
+</soft>

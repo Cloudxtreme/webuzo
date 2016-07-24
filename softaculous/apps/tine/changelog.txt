@@ -1,0 +1,122 @@
+Tine 2.0 - Change Log
+
+Tine 2.0 - Egon Community Edition (2016.03.2) (Released 2016-04-21) [ View Issues ] 
+===================================================================
++ 0003094: [Addressbook] Custem Fields Duty (pschuele) - resolved.
+- 0011724: [Filemanager] can't create new folder (pschuele) - resolved.
+- 0011704: [Tinebase] PHP 7 can't decode empty JSON-strings (pschuele) - resolved.
+- 0011744: [Tinebase JavaScript] FF border bellow appTabs to big (cweiss) - resolved.
+- 0011742: [Calendar] broken daysView after hidden background refresh (cweiss) - resolved.
+- 0011738: [Timetracker] multi-update is not working for timesheets (pschuele) - resolved.
+- 0011740: [Tinebase] CLI Function Tinebase.clearTable not working (ingoratsdorf) - resolved.
+- 0011702: [Calendar] __clone method called on non-object in /usr/share/tine20/Calendar/Controller/Event.php on line 482 (pschuele) - resolved.
+
+[8 issues]
+
+Tine 2.0 - Egon Community Edition (2016.03.1) (Released 2016-03-17) [ View Issues ]
+===================================================================
+- 0011638: [Translations] update translations (sstamer) - resolved.
++ 0011680: [Calendar] add full screen mode (sstamer) - resolved.
++ 0011642: [Calendar] add config for visible hours in day|week sheet view (sstamer) - resolved.
++ 0011696: [CardDAV] make CardDAV image size configurable (cweiss) - resolved.
+- 0011664: [Expressomail] Update Expressomail to 0.6 version (fgsl) - resolved.
+- 0011678: [Tinebase] update RELEASENOTES for Egon (pschuele) - resolved.
++ 0011676: [CRM] apply new config concept to CRM (pschuele) - resolved.
++ 0011568: [CoreData] add new CoreData application (pschuele) - resolved.
+ + 0011578: [CoreData] add list roles to CoreData + Addressbook (pschuele) - resolved.
+ + 0011618: [CoreData] move cal resources to core data (pschuele) - resolved.
+- 0011160: [Tinebase] Update to latest ZF1 (pmehrer) - resolved.
+- 0011684: [Other] Update ExpressoLite client for 20151221 release (fgsl) - resolved.
+- 0011666: [Expressodriver] Some fixes for Expressodriver (fgsl) - resolved.
++ 0011320: [Tinebase] avoid dead/outdated dependencies (pmehrer) - resolved.
++ 0011656: [Inventory] record images as attachment / Inventory images (pschuele) - resolved.
+- 0011640: [Tinebase JavaScript] separate application main screens (cweiss) - resolved.
++ 0011598: [Calendar] add rrule constraints (cweiss) - resolved.
+- 0011380: [Packaging] adjust packaging to changes in config.inc.php.dist file (pschuele) - resolved.
++ 0011526: [Addressbook] allow list customfields and add list type (sstamer) - resolved.
++ 0011634: [Addressbook] fire event when list has changed (pschuele) - resolved.
+- 0008092: [Addressbook] Add unit tests for new list feature (pschuele) - resolved.
++ 0011620: [Tinebase] add "path" filter for records (cweiss) - resolved.
++ 0011132: [Calendar] add export functionality to gui (pschuele) - resolved.
+- 0004706: [Tinebase] allow more than one tine 2.0 instance in one database (pschuele) - resolved.
++ 0005810: [Felamimail] Images in Emails are not being displayed. (pschuele) - resolved.
+- 0011524: [Addressbook] use default contact picker with search combo for list members (cweiss) - resolved.
++ 0011626: [Tinebase] allow to sort shared containers (sstamer) - resolved.
+- 0011624: [Tinebase] degree configuration is mixed up in UI (cweiss) - resolved.
++ 0011622: [Tinebase] support adding relation on multi updates (cweiss) - resolved.
+- 0011616: [Setup] Unable to enter setup.php after update to newes version (pschuele) - resolved.
++ 0011610: [Tinebase] add state to relation panel (cweiss) - resolved.
++ 0011584: [Addressbook] allow to set group member roles (pschuele) - resolved.
++ 0011592: [Calendar] Optionally Deny Resource Overbooking (cweiss) - resolved.
+- 0011604: [Calendar] add relations and custom fields to calendar resources (cweiss) - resolved.
++ 0006054: [Calendar] Single Event printable (cweiss) - resolved.
++ 0011596: [Calendar] add calendar doc export (cweiss) - resolved.
+- 0011590: [Tinebase] improve concurrent update check performance (pmehrer) - resolved.
++ 0011384: [Felamimail] use mailvelope API if available (cweiss) - resolved.
+- 0011536: [Felamimail] improve mailvelope integration (cweiss) - resolved.
+- 0011180: [Calendar] Copy Event to clipboard and paste not working (ingoratsdorf) - resolved.
++ 0006604: [Calendar] Localisation issues: preferences for calendar start day and time format (ingoratsdorf) - resolved.
++ 0011236: [Tinebase] Feature: SMTP Backend handling "simpleMail" and other LDAP schemata (lab-at-nohl) - resolved.
++ 0011488: [Felamimail] Parse UTF-8 from header correctly (pschuele) - closed.
+- 0011504: [Admin] deactivated user is removed from group when group is saved (pschuele) - closed.
+
+[44 issues]
+
+Tine 2.0 - Elena (2015.07.7) (Released 2015-12-03) [ View Issues ] 
+==================================================
++ 0011428: [Calendar] support caldav sync token (pmehrer) - resolved.
+- 0011460: [Calendar] group attendee notifications raise error (pschuele) - resolved.
+- 0011450: [CalDAV] caldav sync with thunderbird stopped working (pschuele) - resolved.
+- 0011456: [ActiveSync] unable to add new activesync-devices in tine20 (pschuele) - resolved.
+- 0011016: [Felamimail] some mails can close tine20 (exma) - closed.
+
+[5 issues]
+
+Tine 2.0 - Elena (2015.07.6) (Released 2015-11-19) [ View Issues ] 
+==================================================
+- 0010249: [Tinebase] Tinebase.purgeDeletedRecords fails (pschuele) - resolved.
+- 0011418: [Packaging] Debian / Ubuntu: depend on virtual-mysql-server instead of mysql-server (pschuele) - resolved.
++ 0011428: [Calendar] support caldav sync token (pmehrer) - resolved.
+- 0011436: [Translations] push/pull transifex (sstamer) - resolved.
++ 0011192: [Setup] LDAP sync should delete contacts (pschuele) - resolved.
++ 0003526: [Admin] generic application settings dialog for saving config values (cweiss) - resolved.
++ 0011412: [Other] A mobile client for Tine 2.0 (fgsl) - resolved.
++ 0003746: [Tinebase] add maintenance mode (pschuele) - resolved.
+- 0011430: [Other] Fix composer order for Zend Framework 1 (fgsl) - resolved.
+- 0011414: [Timetracker] Use check_grants to block editing of timesheets of closed Timeaccount (sstamer) - resolved.
+- 0011406: [Tinebase JavaScript] completely remove flash from extjs (pschuele) - resolved.
+- 0011410: [Setup] remove relations + modlog if app is uninstalled (pmehrer) - resolved.
+- 0011402: [Felamimail] Update8.4 fails on MySQL < 5.5 (pschuele) - resolved.
+
+[13 issues]
+
+Tine 2.0 - Elena (2015.07.5) (Released 2015-10-22) [ View Issues ] 
+==================================================
++ 0011376: [CRM] send mail on lead import to responsibles (pschuele) - resolved.
++ 0010576: [Felamimail] show a tine20 icon on each message which was written in tine20 (pschuele) - resolved.
+- 0010387: [Felamimail] Attachments in draft converted to rfc-822 attachment (pschuele) - resolved.
+- 0008612: [Felamimail] gmail can't open attachments of forwarded mails (pschuele) - resolved.
++ 0008784: [Felamimail] attachments in forwarded messages (avoid .eml) (Solivagus) - resolved.
+- 0011362: [Filemanager] mime-type lost after detail update (cweiss) - resolved.
+- 0011398: [Tinebase] add own_id index to relations table (pmehrer) - resolved.
++ 0008056: [Addressbook] add module view for lists in addressbook (pschuele) - resolved.
+- 0011342: [Calendar] ics-scheduled import only imports 1 remote calendar (pschuele) - resolved.
+- 0009448: [Felamimail] add index account_id + folder_id + messageuid to messages table (pschuele) - resolved.
+- 0011382: [Felamimail] Attachments in templates converted to rfc-822 attachment (pschuele) - resolved.
++ 0011364: [Filemanager] count anonymous downloads (via link) (cweiss) - resolved.
++ 0011388: [Tinebase] prune tine20 history (pmehrer) - resolved.
++ 0011360: [Tinebase] use php session.save_handler ini setting if available (pschuele) - resolved.
+- 0011334: [Translations] update from/to transifex (sstamer) - resolved.
++ 0010170: [Tinebase] Plugin system for filters (fgsl) - resolved.
++ 0011370: [Tinebase] repair function for persistent filters (favorites) without grants (pschuele) - resolved.
++ 0011356: [Tinebase] cleanup script for relations of removed records (pschuele) - resolved.
+- 0011338: [Setup] First Configuration fails after Installation (pschuele) - resolved.
+- 0011324: [Tinebase] New version notification should not be visible to users (pschuele) - resolved.
+- 0011354: [Tinebase] keep both records if duplicates are within current import file (pschuele) - resolved.
++ 0011348: [Tinebase] multiple destinations in csv import mapping (pschuele) - resolved.
+- 0009852: [Tinebase] improve cache cleaning after LDAP sync (pschuele) - resolved.
++ 0011126: [Sales] invoices update mechanism (pschuele) - resolved.
++ 0011346: [Sales] Add Payment Methods (pmehrer) - resolved.
++ 0011336: [Setup] support backup and restore via cli (cweiss) - resolved.
+
+[26 issues]

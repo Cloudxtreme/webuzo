@@ -1,0 +1,71 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Mantis_Bug_Tracker
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/projectman/Mantis_Bug_Tracker
+	</ratings>
+	<space>
+		11364865
+	</space>
+	<support>
+		http://www.mantisbt.org/
+	</support>
+	<version>
+		1.2.19
+	</version>
+	<mod>23</mod>
+	<release_date>24-01-2015</release_date>
+	<admin>login_page.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.1.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">MantisBT</font> is a free popular web-based bugtracking system. It is written in the PHP scripting language and works with MySQL, MS SQL, and PostgreSQL databases and a webserver. MantisBT can be installed on Windows, Linux, Mac OS, OS/2, and others. Almost any web browser should be able to function as a client. 
+		<br /><br />
+		MantisBT is released under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Simple User Experience</li>
+<li> Web Based</li>
+<li> Supports any platform that runs <acronym title="Hypertext Preprocessor">PHP</acronym> (Windows, Linux, Mac, Solaris, AS400/i5, etc)</li>
+<li> Available in 68 localizations.</li>
+<li> Simple/Advanced Issue Pages</li>
+<li> Multiple Projects per instance</li>
+<li> Support for Projects, Sub-Projects, and Categories.</li>
+<li> Users can have a different access level per project</li>
+<li> Changelog Support</li>
+<li> My View Page</li>
+<li> Search and Filter</li>
+<li> Full Text Search</li>
+<li> Simple/Advanced Filters</li>
+<li> Shared Filters (across users / projects)</li>
+<li> Built-in Reporting (reports / graphs)</li>
+<li> Custom Fields</li>
+<li> Email notifications</li>
+<li> Users can monitor specific issues</li>
+<li> Attachments (can be saved on webserver or in database - can also backup to an <acronym title="File Transfer Protocol">FTP</acronym> account)</li>
+<li> Issue Change History</li>
+<li> <acronym title="Rich Site Summary">RSS</acronym> Feeds (news, issues matching saved filters, issues matching a specific project)</li>
+<li> Customizable issue workflow</li>
+<li> Sponsorships Support - users are able to place bounties or sponsorships for specific issues, also developers can track such sponsorships / payments.</li>
+<li> Anonymous Access</li>
+<li> Signup with Captcha and Email Confirmation.</li>
+<li> Self-Service Reset Password Support</li>
+<li> Export to csv, Microsoft Excel, Microsoft Word</li>
+<li> Ability to extended functionality through hook (custom) functions.</li>
+<li> Reporting issues via Email (available as a patch - currently being integrated)</li>
+<li> And Much More</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

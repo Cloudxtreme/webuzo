@@ -1,0 +1,6 @@
+1) Copy the folders 's1 & s2'
+	/skin/s1/
+	/skin/s2/
+	from manual to the zip.
+2)In _index.php we have written our customized code which is used to rebuild the cache(in core/cache/).
+	so please make sure to check it.

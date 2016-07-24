@@ -1,0 +1,46 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://angularjs.org/
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/AngularJS
+	</ratings>
+	<space>
+		158915
+	</space>
+	<support>
+		http://angularjs.org/
+	</support>
+	<version>
+		1.5.6
+	</version>
+	<mod>54</mod>
+	<release_date>27-05-2016</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">AngularJS</font> HTML enhanced for web apps!
+		<br /><br />AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Out of the box, it eliminates much of the code you currently write through data binding and dependency injection. And it all happens in JavaScript within the browser, making it an ideal partner with any server technology.
+		<br /><br />
+		AngularJS licensed under the <a href="https://github.com/angular/angular.js/blob/master/LICENSE" target="_blank">The MIT License</a>.
+		</english-overview>		
+		<english-features>
+<font size="4" color="78ba91"><b>Extensibility</b></font><br />
+AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. Every feature can be modified or replaced to suit your unique development workflow and feature needs. Read on to find out how.<br /><br />
+<font size="4" color="78ba91"><b>Controller</b></font><br />
+Controllers are the behavior behind the DOM elements. AngularJS lets you express the behavior in a clean readable form without the usual boilerplate of updating the DOM, registering callbacks or watching model changes. <br /><br />
+<font size="4" color="78ba91"><b>Server Communication</b></font><br />
+ AngularJS provides services on top of XHR, that dramatically simplify your code. We wrap XHR to give you exception management and promises. Promises further simplify your code by handling asynchronous return of data. This lets you assign properties synchronously when the return is actually asynchronous. <br /><br />
+<font size="4" color="78ba91"><b>Localization</b></font><br />
+ An important part of serious apps is localization. Angular's locale aware filters and stemming directives give you building blocks to make your application available in all locales.<br /><br />
+		</english-features>
+	</languages>
+</soft>

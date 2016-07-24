@@ -1,0 +1,132 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/web_servers/nginx
+	</ratings>
+	<space>
+		10548605
+	</space>
+	<support>
+		http://nginx.org/
+	</support>
+	<version>
+		1.10.1
+	</version>
+	<mod>22</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>31-05-2016</release_date>
+	
+	<requires>openssl</requires>
+	<requires>zlib</requires>
+	<requires>pcre</requires>
+	
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/nginx</path>
+	<path name="sbin">/usr/local/apps/nginx/sbin/nginx</path>
+	<path name="conf_dir">/usr/local/apps/nginx/etc</path>
+	<path name="conf_d">/usr/local/apps/nginx/etc/conf.d</path>
+	<path name="conf">/usr/local/apps/nginx/etc/nginx.conf</path>
+	<path name="log">/usr/local/apps/nginx/var/log</path>
+	
+	<initd name="nginx">/usr/local/apps/nginx/bin/nginxctl</initd>
+	
+	<extract file="nginx-$arch.tar.gz">$appsdir</extract>
+	
+	<symlink target="/usr/sbin/nginx">/usr/local/apps/nginx/sbin/nginx</symlink>
+	
+	<is_default>3_1</is_default>
+	<is_default>60_1</is_default>
+	<is_default>125_1</is_default>
+	<is_default>129_1</is_default>
+	
+	<set_default>nginx</set_default>
+	
+	<remove>/usr/local/apps/nginx</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Nginx Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Binary</td>
+				<td>/usr/local/apps/nginx/sbin/nginx</td>
+			</tr>
+			<tr>
+				<td>Conf</td>
+				<td>/usr/local/apps/nginx/etc/nginx.conf</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Nginx</font> [engine x] is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VKontakte, and Rambler. According to Netcraft nginx served or proxied 12.81% busiest sites in February 2013. Here are some of the success stories: Netflix, Wordpress.com, FastMail.FM.
+		<br /><br />
+		The sources and documentation are distributed under the <a href="http://nginx.org/LICENSE" target="_blank">2-clause BSD-like license</a>.
+		</english-overview>
+		<english-features>
+<center><h4>Basic HTTP server features</h4></center>
+<ul>
+<li>Serving static and <a href="docs/http/ngx_http_index_module.html">index</a> files, <a href="docs/http/ngx_http_autoindex_module.html">autoindexing</a>;
+<a href="docs/http/ngx_http_core_module.html#open_file_cache">open file descriptor cache</a>;
+</li>
+
+<li>
+<a href="docs/http/ngx_http_proxy_module.html">Accelerated
+reverse proxying with caching</a>;
+<a href="docs/http/ngx_http_upstream_module.html">simple
+load balancing and fault tolerance</a>;
+</li>
+
+<li>
+Accelerated support with caching of
+<a href="docs/http/ngx_http_fastcgi_module.html">FastCGI</a>,
+uwsgi, SCGI, and
+<a href="docs/http/ngx_http_memcached_module.html">memcached</a>
+servers;
+<a href="docs/http/ngx_http_upstream_module.html">simple
+load balancing and fault tolerance</a>;
+</li>
+
+<li>
+Modular architecture.
+Filters include
+<a href="docs/http/ngx_http_gzip_module.html">gzipping</a>,
+byte ranges, chunked responses,
+<a href="docs/http/ngx_http_xslt_module.html">XSLT</a>,
+<a href="docs/http/ngx_http_ssi_module.html">SSI</a>,
+and <a href="docs/http/ngx_http_image_filter_module.html">image
+transformation</a> filter.
+Multiple SSI inclusions within a single page can be processed in
+parallel if they are handled by proxied or FastCGI servers;
+</li>
+
+<li>
+<a href="docs/http/ngx_http_ssl_module.html">SSL and
+TLS SNI support</a>.
+</li>
+
+</ul>
+		</english-features>
+	</languages>
+</soft>

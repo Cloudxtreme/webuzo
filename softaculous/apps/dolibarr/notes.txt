@@ -1,0 +1,4 @@
+1) Do not provide Username Pass for "Database server - Superuser access" while manual installation.
+2) For data.zip, Zip all the contents from "Documents" folder which installer has told to create while manual installation.
+3) Make it with mysqli not with mysql.
+4) Do check "conf.php.example" and "conf.php.old" files for any changes in manual package.

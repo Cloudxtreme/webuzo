@@ -1,0 +1,47 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Word_Search_Puzzle
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/games/Word_Search_Puzzle
+	</ratings>
+	<space>
+		3625878
+	</space>
+	<support>
+		http://www.softaculous.com/
+	</support>
+	<version>
+		1.0
+	</version>
+	<mod>5</mod>
+	<mod_files>3</mod_files>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Word Search Puzzle</font> game features a completely customizable template, easy integration into a current application, custom dictionaries, an easy to edit file with custom settings, puzzle length and width customization, automatic complexity settings, easy coloring and word selecting with a checker, and more.
+		<br /><br />
+		Word Search Puzzle is released under the <a href="http://www.gnu.org/gpl.html">GNU/GPL license</a>.
+		</english-overview>		
+		<english-features>
+<ul>
+<li>Completely customizable template.</li>
+<li>Easily integrated into current application. </li>
+<li>Custom dictionaries (comes with 7). </li>
+<li>Easy to edit file with custom settings. </li>
+<li>Puzzle Length &amp; Width changeable via form. </li>
+<li>Automatic complexity settings. </li>
+<li>Easy coloring and word selecting w/checker. </li>
+<li>Makesafe file to insure added dictionaries are "puzzle" safe. </li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

@@ -1,0 +1,61 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/eggBlog
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/blogs/eggBlog
+	</ratings>
+	<space>
+		2126518
+	</space>
+	<support>
+		http://eggblog.net
+	</support>
+	<version>
+		4.1.2
+	</version>
+	<mod>8</mod>
+	<mod_files>4</mod_files>
+	<admin>admin.php</admin>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">eggBlog</font> is the free php &amp; mysql blog software package, allowing you to create your own online website, journal or weblog (blog) using your own web-space.
+		<br /><br />
+		eggBlog is released under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode">Creative Commons license</a>.
+		</english-overview>		
+		<english-features>
+Powered by <a href="http://php.net" target="_blank">PHP</a> and <a href="http://mysql.com" target="_blank">MySQL</a>, eggBlog has a <b>wide range of features</b> including:
+<ul>
+<li>easy to use <b>web-based administration </b>to add, edit and delete news articles 
+</li><li>easy to use <b>web-based configuration </b>to manage your web site settings 
+
+</li><li><b>WYSIWYG </b>easy-to-use text editor for publishing or editing news articles 
+</li><li>download <b>themes</b> to easily change the style, layout and colours of your site 
+</li><li>download additional language files (where available) 
+</li><li>optional <b>forum </b>to allow discussion 
+</li><li>optional <b>comments </b>on news articles to allow feedback on announcements 
+</li><li>optional <b>sticky articles </b>that remain fixed on all pages 
+</li><li>optional <b>tags/categories </b>on articles 
+
+</li><li>registered users allowed to <b>leave comments </b>on news articles 
+</li><li>registered users allowed to <b>post messages </b>in the forum 
+</li><li><b>automatic archiving </b>of all news articles 
+</li><li>check for <b>eggBlog updates </b>through the administration panel 
+</li><li>valid <b>HTML 1.1</b>, valid <b>CSS 1.0</b> and <b>WAI</b> friendly 
+
+</li><li>valid <b>XML RSS 1.0</b> feeds for both articles and forum topics </li></ul>
+		</english-features>
+		<english-exp_ad_pass>New password. Leave blank if you do not want to reset the password</english-exp_ad_pass>
+		<english-err_no_email>Please provide the email to reset the password</english-err_no_email>
+		<english-err_no_such_email>The Admin email is incorrect and does not exist!</english-err_no_such_email>
+	</languages>
+</soft>

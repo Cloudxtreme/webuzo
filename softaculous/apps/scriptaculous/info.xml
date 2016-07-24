@@ -1,0 +1,52 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:8px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://wiki.github.com/madrobby/scriptaculous/demos
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/javascripts/libraries/script.aculo.us
+	</ratings>
+	<space>
+		670251
+	</space>
+	<support>
+		http://script.aculo.us/
+	</support>
+	<version>
+		1.9.0
+	</version>
+	<mod>2</mod>
+	<mod_files>1</mod_files>
+	<softversion>
+		2.6
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">script.aculo.us</font> provides you with
+easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.
+		<br /><br />
+		script.aculo.us is a set of JavaScript libraries to enhance the user interface of web sites. It provides an visual effects engine, a drag and drop library (including sortable lists), a couple of controls (Ajax-based autocompletion, in-place editing, sliders) and more.
+		<br /><br />
+		script.aculo.us is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
+		</english-overview>		
+		<english-features>
+		script.aculo.us extends the Prototype Javascript Framework by adding visual effects, user interface controls, and utilities : 
+		<ul>
+<li>Easy-to-use</li>
+<li>Cross-browser</li>
+<li><b>Visual effects</b><br />
+There are five core effects script.aculo.us offers: Opacity, Scale, MoveBy, Highlight, and Parallel. Through these effects there are over 16 additional effects using combinations of the core effects out of the box. Programmers can also extend and make new effects.
+</li>
+<li><b>Controls</b><br />
+Controls offers user interface elements.</li>
+<li><b>Visual effects</b><br />
+Builder allows the creation of DOM elements dynamically.</li>
+</ul>
+		</english-features>
+	</languages>
+</soft>

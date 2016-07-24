@@ -1,0 +1,6 @@
+1) Do not change [[date_gmt]] with [[regtime]] since it causes a Warning : Division by zero. 
+2) add database details in bb-config.php before installation.
+3) We need to download 3 things : stand-alone package , backpress-1.2-bbpress and GlotPress ‘pomo’ folder. It will be available in downloads page.
+4) Extract backpress folder in "bb-includes" folder
+5) Extract "pomo" folder in backpress folder.
+(Take previous version zip for reference.)

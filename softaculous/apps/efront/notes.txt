@@ -1,0 +1,4 @@
+1. Copy the lessons folder from /www/content/lessons/* and add it to the zip package because these are the default lesson files and hence we need to add them.
+2. Give permissions to /www folder for manual installation so that .htaccess is created.
+3. We have added ob_start(); www/install/install.php Because of headers error. Only for the version 3.6.13 If the same problem occurs then continue with it.
+4. /www/.htaccess does not created in v3.6.15 hence we do not configure.(added again in latest package i.e. with release date : 05-12-2014)

@@ -1,0 +1,4 @@
+1. Remove sqlite3 from package.json and npm-shrinkwrap.json since we use MySQL
+2. Added the path to node binary in package.json
+3. We are restarting node.js twice during upgrade because it does not work first time. Try to remove this in the next version of Ghost(This is removed from version 0.5.1)
+4. Check and update Nodejs Recommended version : http://support.ghost.org/supported-node-versions/ ( we provide "Recommended version" i.e 0.10.40 (latest))

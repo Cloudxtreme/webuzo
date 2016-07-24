@@ -1,0 +1,87 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/message_queue/Apache_ActiveMQ
+	</ratings>
+	<space>
+		54120954
+	</space>
+	<support>
+		http://activemq.apache.org/support.html
+	</support>
+	<version>
+		5.12.0
+	</version>
+	<mod>4</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	<release_date>10-08-2015</release_date>
+	
+	<requires>java</requires>		
+	
+	<path name="base">/usr/local/apps/activemq</path>
+	
+	<extract file="activemq-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/activemq</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Apache ActiveMQ Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/activemq</td>
+			</tr>		
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Apache ActiveMQ</font> is the most popular and powerful open source messaging and Integration Patterns server.
+Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols, comes with easy to use Enterprise Integration Patterns and many advanced features while fully supporting JMS 1.1 and J2EE 1.4. 
+
+<br /><br />
+		Apache ActiveMQ is provided under a <a href="http://www.apache.org/licenses/" target="_blank">Apache License, Version 2.0.</a>
+		</english-overview>
+		<english-features>		
+			<ul>
+				<li>Supports a variety of Cross Language Clients and Protocols from Java, C, C++, C#, Ruby, Perl, Python, PHP .</li>
+				<li>OpenWire for high performance clients in Java, C, C++, C#.</li>
+				<li>Stomp support so that clients can be written easily in C, Ruby, Perl, Python, PHP, ActionScript/Flash, Smalltalk to talk to ActiveMQ as well as any other popular Message Broker.</li>
+				<li>full support for the Enterprise Integration Patterns both in the JMS client and the Message Broker.</li>
+				<li>Supports many advanced features such as Message Groups, Virtual Destinations, Wildcards and Composite Destinations.</li>
+				<li>Fully supports JMS 1.1 and J2EE 1.4 with support for transient, persistent, transactional and XA messaging.</li>
+				<li>Spring Support so that ActiveMQ can be easily embedded into Spring applications and configured using Spring's XML configuration mechanism.</li>
+				<li>Tested inside popular J2EE servers such as TomEE, Geronimo, JBoss, GlassFish and WebLogic.</li>
+				<li>Includes JCA 1.5 resource adaptors for inbound and outbound messaging so that ActiveMQ should auto-deploy in any J2EE 1.4 compliant server.</li>
+				<li>Supports pluggable transport protocols such as in-VM, TCP, SSL, NIO, UDP, multicast, JGroups and JXTA transports</li>
+				<li>Supports very fast persistence using JDBC along with a high performance journal.</li>
+				<li>Designed for high performance clustering, client-server, peer based communication. </li>
+				<li>REST API to provide technology agnostic and language neutral web based API to messaging.</li>
+				<li>Ajax to support web streaming support to web browsers using pure DHTML, allowing web browsers to be part of the messaging fabric.</li>
+				<li>CXF and Axis Support so that ActiveMQ can be easily dropped into either of these web service stacks to provide reliable messaging.</li>
+				<li>Can be used as an in memory JMS provider, ideal for unit testing JMS.</li>
+				
+			</ul>
+		</english-features>
+	</languages>
+</soft>

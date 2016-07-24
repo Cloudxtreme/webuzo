@@ -1,0 +1,9 @@
+# MariaDB 10.1 CentOS repository list - created 2016-04-15 05:28 UTC
+# http://mariadb.org/mariadb/repositories/
+# Disabled the gpg check
+[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.1/centos7-amd64
+enabled=1
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=0

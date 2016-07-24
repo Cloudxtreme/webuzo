@@ -1,0 +1,9 @@
+1. If the following error is coming after installing in manual (this bug is coming due to PHP version): 
+	
+Parse error: syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in E:\Program Files\EasyPHP 3.0\www\manual\eyeos-2.4\eyeos\system\kernel\services\Meta\implementations\MetaDataConverter.php on line 53
+
+	Than 
+	Please repalce it with :
+		return eval('$handlerToLoad::getInstance()');//return $handlerToLoad::getInstance();
+	 on line number 53 
+	

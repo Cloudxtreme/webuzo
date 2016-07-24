@@ -1,0 +1,3 @@
+1. install without demo data
+2. comment php_value and php_flag from www/.htaccess ( Suggested by vendor as php_value and php_flag causes issue on suPHP servers )
+3. index.php is our file to redirect url.

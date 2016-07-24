@@ -1,0 +1,102 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<ratings>
+		http://www.webuzo.com/sysapps/server_side_scripting/Scala
+	</ratings>
+	<space>
+		32114007
+	</space>
+	<support>
+		http://scala-lang.org/community/
+	</support>
+	<version>
+		2.11.7
+	</version>
+	<mod>3</mod>
+	<softversion>
+		4.1.9
+	</softversion>
+	<major>1</major>
+	
+	<requires>java</requires>
+		
+	<sysrequires></sysrequires>
+	
+	<path name="base">/usr/local/apps/scala</path>
+	<path name="bin">/usr/local/apps/scala/bin/scala</path>
+	
+	<extract file="scala-$arch.tar.gz">$appsdir</extract>
+	
+	<remove>/usr/local/apps/scala</remove>
+	
+	<notes>
+		<center><font size="5" color="#182e7a">Scala Environment :</font></center><br />
+		<style>
+.notestable td{
+background: #E6F5FF;
+}
+
+.notestable th{
+background: #EFEFEF;
+}
+		</style>
+		<table border="0" cellspacing="1" cellpadding="8" align="center" class="notestable">
+			<tr>
+				<th>Desc</th>
+				<th>Path</th>
+			</tr>
+			<tr>
+				<td>Base Path</td>
+				<td>/usr/local/apps/scala</td>
+			</tr>
+			<tr>
+				<td>Bin path</td>
+				<td>/usr/local/apps/scala/bin/scala</td>
+			</tr>
+			<tr>
+				<td>Documentation</td>
+				<td>http://scala-lang.org/documentation/getting-started.html#your_first_lines_of_code</td>
+			</tr>
+		</table>
+	</notes>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Scala</font> is an acronym for "Scalable Language". This means that Scala grows with you. You can play with it by typing one-line expressions and observing the results. But you can also rely on it for large mission critical systems, as many companies, including Twitter, LinkedIn, or Intel do.
+		<br /><br />
+		Scala is the preferred workhorse language for many mission critical server systems. The generated code is on a par with Java's and its precise typing means that many problems are caught at compile-time rather than after deployment.
+		<br /><br />
+		Scala is distributed under the <a href="http://scala-lang.org/license.html" target="_blank">3-clause BSD license</a>
+		</english-overview>
+		<english-features>
+			<h3>Object-Oriented</h3>
+			<ul>
+				<li>Scala is a pure-bred object-oriented language.</li>
+			</ul>
+			<h3>Functional</h3>
+			<ul>
+				<li>Even though its syntax is fairly conventional, Scala is also a full-blown functional language.</li>
+			</ul>
+			<h3>Seamless Java Interop</h3>
+			<ul>
+				<li>Scala runs on the JVM. Java and Scala classes can be freely mixed, no matter whether they reside in different projects or in the same.</li>
+			</ul>
+			<h3>Functions are Objects</h3>
+			<ul>
+				<li>Scala's approach is to develop a small set of core constructs that can be combined in flexible ways.</li>
+			</ul>
+			<h3>Future-Proof</h3>
+			<ul>
+				<li>Scala particularly shines when it comes to scalable server software that makes use of concurrent and synchronous processing, parallel utilization of multiple cores, and distributed processing in the cloud.</li>
+			</ul>
+			<h3>Fun</h3>
+			<ul>
+				<li>Maybe most important is that programming in Scala tends to be very enjoyable. No boilerplate, rapid iteration, but at the same time the safety of a strong static type system.</li>
+			</ul>
+		</english-features>
+	</languages>
+</soft>

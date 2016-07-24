@@ -1,0 +1,63 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right;margin:10px;" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/Open_Web_Analytics
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/polls/Open_Web_Analytics
+	</ratings>
+	<space>
+		5781085 
+	</space>
+	<support>
+		http://forums.openwebanalytics.com/
+	</support>
+	<version>
+		1.6.0
+	</version>
+	<mod>9</mod>
+	<release_date>28-03-2016</release_date>
+	<admin>index.php</admin>
+	<min_require>1.2.0</min_require>
+	<softversion>
+		4.5.4
+	</softversion>
+	<requirement check="php" type="version" operator="ge" value="5.3.0" />
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">Open Web Analytics</font> (OWA) is open source web analytics software that you can use to track and analyze how people use your web sites and applications.
+		<br /><br />
+		OWA provides web site owners and developers with easy ways to add web analytics to their sites using simple Javascript, PHP, or REST based APIs.
+		<br /><br />
+		OWA also comes with built-in support for tracking web sites made with popular content management frameworks such as WordPress and MediaWiki.
+		<br /><br />
+		Open Web Analytics is licensed under <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GPL license</a>.
+		</english-overview>		
+		<english-features>
+		<ul><br />
+<li>Track Page views, visits, and unique visitors over time</li><br />
+<li>Track unique, new, repeat visitors over time</li><br />
+<li><b>Multiple Web Site Support</b> - track any number of web sites and view statistics in aggregate or by site </li><br />
+<li><b>Click-streams</b> - view the actual click-stream of each visitor </li><br />
+<li><b>Click Tracking</b> - Track where exactly on a web page users are clicking and view clicks by browser type </li><br />
+<li><b>Click Heat Maps</b> - view a heat map of where users are clicking on your web pages </li><br />
+<li><b>Google Maps</b> - map your visitors on Google Maps </li><br />
+<li><b>Google Earth (KML)</b> - view your visitors in Google Earth via a KML file export </li><br />
+<li><b>RSS/ATOM subscription tracking</b> - track unique feed readers, reader types, and feed requests </li><br />
+<li><b>Visitor Aging</b> - understand the age of your repeat visitors.</li><br />
+<li><b>Canned and Custom Time Periods</b> - generate reports using pre-defined reporting periods or custom date ranges</li><br />
+<li><b>Refering Page Analysis</b> - View the title, anchor text, and surrounding text of inbound links from refering web pages </li><br />
+<li>View visits by user agent</li><br />
+<li>Track entry and exit pages</li><br />
+<li>Track pages by custom page types</li><br />
+</ul>
+		</english-features>
+		<english-site_dom>Site Domain</english-site_dom>
+		<english-exp_site_dom>This is the domain name of your site which you want to track.</english-exp_site_dom>
+	</languages>
+</soft>

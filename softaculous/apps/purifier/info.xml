@@ -1,0 +1,60 @@
+<soft xmlns="http://www.softaculous.com">
+	<overview>
+		<img src="logo.gif" style="float:right; margin:10px" alt="" />{{overview}}
+	</overview>
+	<features>
+		{{features}}
+	</features>
+	<demo>
+		http://www.softaculous.com/demos/HTML_Purifier
+	</demo>
+	<ratings>
+		http://www.softaculous.com/softwares/frameworks/HTML_Purifier
+	</ratings>
+	<space>
+		2698422
+	</space>
+	<support>
+		http://htmlpurifier.org/phorum/
+	</support>
+	<version>
+		4.7.0
+	</version>
+	<mod>6</mod>
+	<release_date>04-08-2015</release_date>
+	<softversion>
+		4.1.7
+	</softversion>
+	<languages>
+		<english-overview>
+		<font size="5" color="#182e7a">HTML Purifier</font>  is a standards-compliant HTML filter library written in PHP.
+		<br /><br />
+		HTML Purifier will not only remove all malicious code (better known as XSS) with a thoroughly audited, secure yet permissive whitelist, 
+		it will also make sure your documents are standards compliant, something only achievable with a comprehensive knowledge of W3C's specifications.
+		<br /><br />
+		HTML Purifier is released under the <a href="http://www.gnu.org/licenses/lgpl-2.1.html" target="_blank">GNU LESSER GENERAL PUBLIC LICENSE</a>.
+		</english-overview>		
+		<english-features>
+		<br /><br />
+<font size="3" color="#1281B6"><b>HTML Purifier</b></font><br /><br />
+<font size="2">
+<ul>
+<li>Whitelist</li>
+<li>Removes foreign tags</li>
+<li>Makes well-formed</li>
+<li>Fixes nesting</li>
+<li>Validates attributes</li>
+<li>XSS safe</li>
+<li>Standards safe</li>
+<li>UTF-8 aware</li>
+<li>Object-Oriented</li>
+<li>Validates CSS</li>
+<li>Tables</li>
+<li>Can auto-paragraph</li>
+<li>Extensible</li>
+<li>Unit tested</li>
+</ul>
+</font>
+		</english-features>
+	</languages>
+</soft>
