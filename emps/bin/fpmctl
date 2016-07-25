@@ -1,0 +1,113 @@
+#!/bin/sh
+#
+# php-fpm Start/Stop the php-fpm server
+#
+# chkconfig:   - 85 15
+# description: php-fpm server
+
+exec="/usr/local/emps/sbin/php-fpm"
+prog="php-fpm"
+lockfile=/usr/local/emps/var/lock/emps-$prog
+pidfile=/usr/local/emps/var/php-fpm.pid
+OPTIONS="-R --pid /usr/local/emps/var/php-fpm.pid --fpm-config /usr/local/emps/etc/php-fpm.conf -c /usr/local/emps/etc/php.ini"
+
+if [ -f /usr/local/emps/var/php-fpm.pid ] ; then
+	PID=$(cat /usr/local/emps/var/php-fpm.pid)
+	if [ "$PID" = "" ] ; then
+		PID=0
+	fi
+else
+	PID=0   
+fi
+
+start() {
+    [ -x $exec ] || exit 5
+	
+	echo -n $"Starting $prog: "
+	
+	if [ "$PID" -lt 1 ] ; then
+		groupadd emps > /dev/null 2>&1
+        useradd -r -g emps emps > /dev/null 2>&1
+		$exec $OPTIONS
+		
+		if [ $? = 0 ]; then
+			if [ -d $lockfile ] ; then
+				touch $lockfile
+			fi
+			echo "Done..."
+		fi
+	else
+		echo "$prog already running..."
+	fi
+    return 0
+	
+}
+
+stop() {
+
+
+    echo -n $"Stopping $prog: "
+	if [ "$PID" -gt 0 ] ; then
+		kill $PID > /dev/null 2>&1
+		PID=0
+		
+		if [ -d $lockfile ] ; then
+			rm -rf $lockfile
+		fi
+		
+		sleep 1
+		echo "Done..."
+		rm -rf ${pidfile}
+	else
+		echo "$prog is stopped"
+	fi
+    return 0
+
+}
+
+status() {
+	if [ "$PID" -lt 1 ] ; then
+		echo "$prog is stopped"
+	else
+    	echo "$prog (pid $PID) is running..."
+	fi
+}
+
+restart() {
+    stop
+    start
+}
+
+reload() {
+    restart
+}
+
+force_reload() {
+    restart
+}
+
+case "$1" in
+    start)
+        $1
+        ;;
+    stop)
+        $1
+        ;;
+    restart)
+        $1
+        ;;
+    reload)
+        $1
+        ;;
+    status)
+        $1
+        ;;
+    force-reload)
+        force_reload
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|restart|reload|status|force-reload}"
+        exit 2
+esac
+exit $?
+

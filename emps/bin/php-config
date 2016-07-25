@@ -1,0 +1,90 @@
+#! /bin/sh
+
+SED="/bin/sed"
+prefix="/usr/local/emps"
+datarootdir="@datarootdir@"
+exec_prefix="${prefix}"
+version="5.5.37"
+vernum="50537"
+include_dir="/usr/local/emps/include/php"
+includes="-I$include_dir -I$include_dir/main -I$include_dir/TSRM -I$include_dir/Zend -I$include_dir/ext -I$include_dir/ext/date/lib"
+ldflags=" -L/usr/local/emps/lib"
+libs="-lcrypt   -lz -lcrypt -lmysqlclient -lmcrypt -lltdl -liconv -lgmp -lpng -lz -ljpeg -lcrypto -lssl -lcrypto -lcurl -lbz2 -lz -lsqlite3 -lcrypto -lssl -lcrypto -lrt -lm -ldl -lnsl  -lrt -lxml2 -lz -liconv -lm -lcurl -lxml2 -lz -liconv -lm -lfreetype -lz -lbz2 -lmysqlclient -lm -lrt -ldl -lxml2 -lz -liconv -lm -lcrypt -lxml2 -lz -liconv -lm -lxml2 -lz -liconv -lm -lxml2 -lz -liconv -lm -lcrypt "
+extension_dir='/usr/local/emps/lib/extensions/no-debug-non-zts-20121212'
+man_dir=`eval echo ${prefix}/man`
+program_prefix=""
+program_suffix=""
+exe_extension=""
+php_cli_binary=NONE
+php_cgi_binary=NONE
+configure_options=" '--prefix=/usr/local/emps' '--with-config-file-path=/usr/local/emps/etc' '--with-config-file-scan-dir=/usr/local/emps/etc/php.d' '--includedir=/usr/local/emps/include' '--libdir=/usr/local/emps/lib' '--with-jpeg-dir=/usr/local/emps' '--with-png-dir=/usr/local/emps' '--with-freetype-dir=/usr/local/emps' '--enable-inline-optimization' '--disable-debug' '--enable-cli' '--enable-cgi' '--enable-force-cgi-redirect' '--enable-fastcgi' '--enable-discard-path' '--enable-filepro' '--enable-fpm' '--enable-ipv6' '--enable-path-info-check' '--enable-magic-quotes' '--enable-track-vars' '--enable-trans-sid' '--enable-yp' '--enable-zts' '--without-gdbm' '--enable-xslt=/usr/local/emps' '--with-xsl=shared,/usr/local/emps' '--without-pear' '--enable-sockets' '--with-mime-magic' '--enable-fileinfo' '--enable-zend-multibyte' '--with-zlib-dir=/usr/local/emps' '--enable-zlib' '--enable-zip=/usr/local/emps' '--with-zlib' '--with-libxml-dir=/usr/local/emps' '--with-xml' '--enable-xmlreader' '--enable-xmlwriter' '--with-simplexml' '--with-ncurses=shared,/usr/local/emps/bin/ncurses5-config' '--with-gd' '--enable-gd-imgstrttf' '--enable-gd-native-ttf' '--without-xpm' '--with-gettext=shared,/usr/local/emps' '--with-bz2=/usr/local/emps' '--enable-bcmath=shared' '--enable-calendar=shared' '--enable-ctype=shared' '--enable-filter' '--enable-exif' '--enable-ftp' '--enable-hash' '--enable-json' '--enable-shmop=shared' '--disable-sigchild' '--enable-sysvsem=shared' '--enable-sysvshm=shared' '--enable-reflection=shared' '--enable-session' '--enable-spl' '--enable-tokenizer=shared' '--enable-wddx=shared' '--with-openssl=/usr/local/emps' '--with-ldap=shared,/usr/local/emps' '--with-mysql=/usr/local/emps' '--with-mysqli=/usr/local/emps/bin/mysql_config' '--with-mcrypt=/usr/local/emps' '--with-mhash=shared,/usr/local/emps' '--enable-mbstring' '--enable-mbstr-enc-trans' '--enable-mbregex' '--enable-mbregex-backtrack' '--with-curl=/usr/local/emps' '--enable-dba=shared' '--enable-dbase=shared' '--with-fdf=shared' '--enable-pdo=shared' '--with-pdo-mysql=shared,/usr/local/emps/bin/mysql_config' '--with-pdo-mssql=shared,/usr/local/emps' '--with-pdo-sqlite=shared,/usr/local/emps' '--with-pdo-sqlite-external' '--with-sqlite=shared' '--with-sqlite3=/usr/local/emps' '--with-gmp=shared' '--with-gmp=/usr/local/emps' '--enable-soap=shared' '--enable-pcntl' '--enable-dbx=shared' '--with-iconv=/usr/local/emps' '--with-pdf=shared' '--enable-phar' '--enable-mongo' '--with-ssh2=shared,/usr/local/emps'"
+php_sapis=" cli fpm cgi"
+
+# Set php_cli_binary and php_cgi_binary if available
+for sapi in $php_sapis; do
+  case $sapi in
+  cli)
+    php_cli_binary="${exec_prefix}/bin/${program_prefix}php${program_suffix}${exe_extension}"
+    ;;
+  cgi)
+    php_cgi_binary="${exec_prefix}/bin/${program_prefix}php-cgi${program_suffix}${exe_extension}"
+    ;;
+  esac
+done
+
+# Determine which (if any) php binary is available
+if test "$php_cli_binary" != "NONE"; then
+  php_binary="$php_cli_binary"
+else
+  php_binary="$php_cgi_binary"
+fi
+
+# Remove quotes
+configure_options=`echo $configure_options | $SED -e "s#'##g"`
+
+case "$1" in
+--prefix)
+  echo $prefix;;
+--includes)
+  echo $includes;;
+--ldflags)
+  echo $ldflags;;
+--libs)
+  echo $libs;;
+--extension-dir)
+  echo $extension_dir;;
+--include-dir)
+  echo $include_dir;;
+--php-binary)
+  echo $php_binary;;
+--php-sapis)
+  echo $php_sapis;;
+--configure-options)
+  echo $configure_options;;
+--man-dir)
+  echo $man_dir;;
+--version)
+  echo $version;;
+--vernum)
+  echo $vernum;;
+*)
+  cat << EOF
+Usage: $0 [OPTION]
+Options:
+  --prefix            [$prefix]
+  --includes          [$includes]
+  --ldflags           [$ldflags]
+  --libs              [$libs]
+  --extension-dir     [$extension_dir]
+  --include-dir       [$include_dir]
+  --man-dir           [$man_dir]
+  --php-binary        [$php_binary]
+  --php-sapis         [$php_sapis]
+  --configure-options [$configure_options]
+  --version           [$version]
+  --vernum            [$vernum]
+EOF
+  exit 1;;
+esac
+
+exit 0

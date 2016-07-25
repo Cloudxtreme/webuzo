@@ -1,0 +1,128 @@
+#!/bin/sh
+#
+# nginx        Startup script for nginx
+#
+# chkconfig: - 85 15
+# processname: nginx
+# config: /etc/nginx/nginx.conf
+# config: /etc/sysconfig/nginx
+# pidfile: /var/run/nginx.pid
+# description: nginx is a HTTP and reverse proxy server
+#
+### BEGIN INIT INFO
+# Provides: nginx
+# Required-Start: $local_fs $remote_fs $network
+# Required-Stop: $local_fs $remote_fs $network
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: start and stop nginx
+### END INIT INFO
+
+prog=nginx
+nginx=/usr/local/emps/sbin/nginx
+conffile=/usr/local/emps/etc/nginx/nginx.conf
+lockfile=/usr/local/emps/var/lock/empsnginx
+pidfile=/usr/local/emps/var/log/nginx/nginx.pid
+
+if [ -f /usr/local/emps/var/log/nginx/nginx.pid ] ; then
+	PID=$(cat /usr/local/emps/var/log/nginx/nginx.pid)
+	if [ "$PID" = "" ] ; then
+		PID=0
+	fi
+else
+	PID=0   
+fi
+
+SLEEPMSEC=100000
+RETVAL=0
+
+if [ "$PID" = "" ] ; then
+	PID=0
+fi
+
+start() {
+
+	echo -n $"Starting $prog: "
+	if [ "$PID" -lt 1 ] ; then
+		useradd -r emps > /dev/null 2>&1
+		${nginx} -c ${conffile}
+		if [ $? = 0 ]; then
+			if [ -d $lockfile ] ; then
+				touch $lockfile
+			fi
+			echo "Done..."
+		fi
+	else
+		echo "$prog already running..."
+	fi
+    return 0
+	
+}
+
+stop() {
+	
+    echo -n $"Stopping $prog: "
+	if [ "$PID" -gt 0 ] ; then
+		kill $PID > /dev/null 2>&1
+		PID=0
+		if [ -d $lockfile ] ; then
+			rm -rf $lockfile
+		fi
+		sleep 1
+		echo "Done..."
+		rm -rf ${pidfile}
+	else
+		echo "$prog is stopped"
+	fi
+    return 0
+}
+
+configtest() {
+    if [ "$#" -ne 0 ] ; then
+        case "$1" in
+            -q)
+                FLAG=$1
+                ;;
+            *)
+                ;;
+        esac
+        shift
+    fi
+    ${nginx} -t -c ${conffile} $FLAG
+    RETVAL=$?
+    return $RETVAL
+}
+
+status(){
+	if [ "$PID" -lt 1 ] ; then
+		echo "$prog is stopped"
+	else
+    	echo "$prog (pid $PID) is running..."
+	fi
+}
+
+# See how we were called.
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status
+        ;;
+    restart)
+        configtest -q || exit $RETVAL
+        stop
+        start
+        ;;
+    configtest)
+        configtest
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|restart|status|configtest}"
+        RETVAL=2
+esac
+
+exit $RETVAL
