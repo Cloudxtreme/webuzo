@@ -1,13 +1,11 @@
 #!/bin/bash
 
-wget -O ip.php http://ipecho.net/plain
-ip=$(cat ip.php) 
-
 sed -i '$ a alias mycron="env EDITOR=nano crontab -e"' $HOME/.bashrc
 sed -i '$ a alias tara="tar cvzf"' $HOME/.bashrc
 sed -i '$ a alias tarx="tar -zxvf"' $HOME/.bashrc
 sed -i '$ a alias myip="wget -qO- http://ipecho.net/plain ; echo"' $HOME/.bashrc
 
+read -p 'Your Server IP?: ' ip
 read -p 'User: ' myUser
 read -p 'Pass: ' myPass
 #----------------------------------
