@@ -62,7 +62,7 @@ cd /root
 read -p 'Set SSH Port: ' sshport
 if [ -n "$sshport" ]; then 
 		sed -i "s/#Port 22/Port $sshport/" /etc/ssh/sshd_config
-	echo "Done!! Added Server IP too"
+	echo "Done!!"
 else echo "Skipped"
 fi
 
@@ -87,6 +87,26 @@ fi
 cd /root
 read -p 'Setup Remote MySql user (y/n)?: ' sql
 if [ "$sql" == "y" ]; then 
+	sqlpass=$(cat /var/webuzo/my.conf) 
+	mysql -u root -p$sqlpass << EOF
+	SET @@session.old_passwords = 0;
+	SELECT @@session.old_passwords, @@global.old_passwords;
+	CREATE USER '$myUser'@'localhost' IDENTIFIED BY '$myPass';
+	CREATE USER '$myUser'@'%' IDENTIFIED BY '$myPass';
+	GRANT ALL PRIVILEGES ON *.* TO $myUser @'localhost' IDENTIFIED BY '$myPass';
+	GRANT ALL PRIVILEGES ON *.* TO $myUser @'%' IDENTIFIED BY '$myPass';
+	exit
+	EOF
+	echo "Done!!"
+else echo "Skipped"
+fi
+
+#----------------------------------
+# CleanUP
+#----------------------------------
+cd /root
+read -p 'Cleanup and Secure (y/n)?: ' cleanme
+if [ "$cleanme" == "y" ]; then 
 	rm -rf rar
 	rm -rf *.tar.gz
 	rm -rf install.sh
@@ -98,25 +118,6 @@ if [ "$sql" == "y" ]; then
 	chkconfig yum-cron on
 	rm -rf /var/webuzo/users/$myUser/*
 	chmod 000 /var/webuzo/users/$myUser
-	echo "Done!!"
-else echo "Skipped"
-fi
-
-#----------------------------------
-# CleanUP
-#----------------------------------
-cd /root
-read -p 'Cleanup and Secure (y/n)?: ' cleanme
-if [ "$cleanme" == "y" ]; then 
-	sqlpass=$(cat /var/webuzo/my.conf) 
-	mysql -u root -p$sqlpass
-	SET @@session.old_passwords = 0;
-	SELECT @@session.old_passwords, @@global.old_passwords;
-	CREATE USER '$myUser'@'localhost' IDENTIFIED BY '$myPass';
-	CREATE USER '$myUser'@'%' IDENTIFIED BY '$myPass';
-	GRANT ALL PRIVILEGES ON *.* TO $myUser @'localhost' IDENTIFIED BY '$myPass';
-	GRANT ALL PRIVILEGES ON *.* TO $myUser @'%' IDENTIFIED BY '$myPass';
-	exit
 	echo "Done!!"
 else echo "Skipped"
 fi
