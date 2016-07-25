@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget -O $HOME/ip.php $FILEREPO/ip.php
+wget -O $HOME/ip.php http://ipecho.net/plain
 ip=$(cat ip.php) 
 
 sed -i '$ a alias mycron="env EDITOR=nano crontab -e"' $HOME/.bashrc
